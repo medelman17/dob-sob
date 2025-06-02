@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "generatedAt": "2025-06-02T15:17:50.161Z",
+    "tasksAnalyzed": 20,
+    "totalTasks": 20,
+    "analysisCount": 20,
+    "thresholdScore": 5,
+    "projectName": "Taskmaster",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "Setup Development Environment",
+      "complexityScore": 4,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the development environment setup into installation, configuration, and documentation subtasks with specific steps for each platform (Windows, macOS, Linux).",
+      "reasoning": "This task involves standard environment setup with well-defined steps. The complexity is moderate due to multiple components (Python, uv, Docker) and cross-platform considerations, but follows established patterns."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "Docker Compose Configuration",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the Docker Compose configuration into Neo4j container setup, application container setup, and networking/resource configuration subtasks with detailed specifications for each component.",
+      "reasoning": "This task requires specific configuration of multiple containers with appropriate resource settings, networking, and persistence. The Neo4j memory requirements and proper container communication add moderate complexity."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "Data Acquisition and Storage",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand the data acquisition task into subtasks for each dataset category, with specific handling for large files, incremental updates, and data integrity verification.",
+      "reasoning": "This task involves handling multiple large datasets (some over 1GB) with different structures, implementing checksums, incremental updates, and proper storage organization. The volume and variety of data sources increase complexity."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "Automated Data Profiling",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the data profiling task into data type analysis, statistical profiling, visualization generation, and reporting subtasks with specific metrics for each data category.",
+      "reasoning": "This task requires implementing various statistical analyses across different data types, parallel processing for large files, and generating both visual and textual reports. The variety of profiling metrics and performance requirements add complexity."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "Data Quality Assessment",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the data quality assessment into anomaly detection, validation rules implementation, reporting, and recommendation engine subtasks with specific quality dimensions for each dataset.",
+      "reasoning": "This task involves sophisticated data quality checks including statistical outlier detection, referential integrity verification, and format validation across diverse datasets. The complexity is increased by the need for severity classification and automated recommendations."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Neo4j Database Schema Design",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand the Neo4j schema design into entity modeling, relationship modeling, property definition, indexing strategy, and constraint implementation subtasks with detailed specifications for each component.",
+      "reasoning": "This task requires designing a complex graph database schema with multiple node types, relationships, and properties. The need for proper indexing, constraints, and optimization for graph queries significantly increases complexity."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "ETL Pipeline Framework",
+      "complexityScore": 9,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the ETL framework into extraction components, transformation logic, loading mechanisms, error handling, performance optimization, and monitoring subtasks with detailed specifications for each pipeline stage.",
+      "reasoning": "This task involves creating a sophisticated ETL framework with modular components, parallelization, transaction management, and error handling. The complexity is high due to the need for performance optimization with large datasets and ensuring data consistency."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "Address Normalization Service",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the address normalization service into parsing components, standardization rules, fuzzy matching algorithms, and validation/caching subtasks with NYC-specific address handling requirements.",
+      "reasoning": "This task requires implementing complex text processing for address normalization with NYC-specific patterns, fuzzy matching algorithms, and performance optimization. The variety of address formats and need for high accuracy increase complexity."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Entity Resolution System",
+      "complexityScore": 9,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand the entity resolution system into matching strategy implementation, confidence scoring, manual review workflow, merge operations, and performance optimization subtasks for each entity type.",
+      "reasoning": "This task involves sophisticated entity matching across multiple datasets using various attributes, implementing fuzzy matching with confidence scoring, and handling merge operations. The complexity is high due to the need for both automated and manual resolution processes."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Incremental Data Loading",
+      "complexityScore": 8,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the incremental loading capability into change detection, delta processing, reconciliation, and scheduling/monitoring subtasks with specific handling for each dataset type.",
+      "reasoning": "This task requires implementing sophisticated change detection algorithms, efficient delta loading, and reconciliation processes across multiple datasets. The complexity is increased by performance requirements and the need for robust error handling."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "Data Lineage and Audit Trails",
+      "complexityScore": 6,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the data lineage implementation into tracking mechanisms, visualization components, and query interface subtasks with detailed specifications for lineage metadata capture.",
+      "reasoning": "This task involves implementing comprehensive tracking of data transformations and creating a queryable lineage graph. The complexity is moderate as it builds on existing ETL components but requires detailed metadata capture and visualization."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "Graph-Based Pattern Matching",
+      "complexityScore": 8,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Expand the pattern matching capability into Cypher query development, scoring system, visualization components, and performance optimization subtasks for each pattern category.",
+      "reasoning": "This task requires implementing complex graph queries to detect sophisticated patterns in the data, with scoring and visualization. The complexity is high due to the need for optimized graph algorithms and domain-specific pattern recognition."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "Anomaly Detection Engine",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the anomaly detection engine into statistical methods implementation, time-series analysis, baseline modeling, threshold configuration, and visualization/alerting subtasks for each anomaly type.",
+      "reasoning": "This task involves implementing various statistical and machine learning methods for detecting anomalies across different dimensions. The complexity is high due to the need for adaptive thresholds, time-series analysis, and domain-specific detection rules."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "Timeline Analysis System",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the timeline analysis system into temporal correlation, sequence analysis, visualization components, and statistical testing subtasks with specific techniques for each analysis type.",
+      "reasoning": "This task requires implementing sophisticated temporal analysis methods, correlation detection, and visualization. The complexity is increased by the need for statistical significance testing and configurable time windows."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "Network Analysis for Collusion Detection",
+      "complexityScore": 9,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand the network analysis capability into algorithm implementation, visualization components, filtering mechanisms, statistical measures, and reporting subtasks for different network analysis techniques.",
+      "reasoning": "This task involves implementing advanced graph algorithms for community detection, centrality analysis, and temporal evolution. The complexity is high due to the sophisticated network analysis methods and domain-specific interpretation requirements."
+    },
+    {
+      "taskId": 16,
+      "taskTitle": "Machine Learning Risk Scoring",
+      "complexityScore": 9,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the ML risk scoring into feature engineering, model development, training pipeline, evaluation framework, model persistence, and explainability components subtasks with specific techniques for each model type.",
+      "reasoning": "This task requires implementing sophisticated machine learning models with feature engineering, training, evaluation, and explainability. The complexity is high due to the need for multiple model types, feature importance analysis, and domain-specific risk factors."
+    },
+    {
+      "taskId": 17,
+      "taskTitle": "Graphiti Integration",
+      "complexityScore": 6,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the Graphiti integration into data export/import, schema mapping, and visualization/query components subtasks with detailed specifications for the integration points.",
+      "reasoning": "This task involves integrating with an external graph analytics platform, requiring data mapping, API integration, and visualization. The complexity is moderate as it builds on existing components but requires understanding of the Graphiti platform."
+    },
+    {
+      "taskId": 18,
+      "taskTitle": "Interactive Dashboards",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand the dashboard development into data components, visualization elements, filtering/drill-down capabilities, authentication, and performance optimization subtasks with specific requirements for each dashboard section.",
+      "reasoning": "This task requires implementing interactive visualizations with Streamlit and Plotly, including filtering, authentication, and export functionality. The complexity is increased by the variety of visualization types and performance requirements with large datasets."
+    },
+    {
+      "taskId": 19,
+      "taskTitle": "Automated Reporting and Alerting",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the reporting system into report generation, alerting mechanisms, and delivery/scheduling subtasks with specific requirements for each report and alert type.",
+      "reasoning": "This task involves implementing automated report generation and alerting based on existing analysis components. The complexity is moderate as it builds on other components but requires scheduling, delivery mechanisms, and alert prioritization."
+    },
+    {
+      "taskId": 20,
+      "taskTitle": "Documentation and Deployment Guide",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the documentation task into system architecture documentation, API documentation, deployment guides, and user manual subtasks with specific content requirements for each document type.",
+      "reasoning": "This task requires creating comprehensive documentation covering multiple complex components, APIs, and deployment procedures. The complexity is increased by the need for diagrams, examples, and ensuring accuracy across a large system."
+    }
+  ]
+}

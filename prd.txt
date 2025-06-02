@@ -1,0 +1,236 @@
+# NYC Department of Buildings Data Exploration & Fraud Detection Platform
+## Product Requirements Document (PRD)
+
+### 1. Executive Summary
+
+**Project Name:** NYC DOB Data Exploration & Fraud Detection Platform  
+**Version:** 1.0  
+**Date:** January 2025  
+**Owner:** Data Engineering Team  
+
+**Purpose:** Build a comprehensive data analysis platform to explore NYC Department of Buildings data, identify patterns, and detect potential fraud in construction permits, complaints, and licensing activities.
+
+### 2. Project Overview
+
+The NYC Department of Buildings generates massive amounts of data across permits, complaints, violations, licenses, and construction activities. This project aims to create a robust analytical platform that can process, analyze, and visualize this data to uncover patterns indicative of fraudulent activities.
+
+**Key Data Sources Available:**
+- Historical DOB Permit Issuance (1.2GB, comprehensive permit history)
+- DOB Complaints Received (317MB, citizen and inspector complaints)  
+- DOB Safety Violations (160MB, safety enforcement actions)
+- DOB Stalled Construction Sites (155MB, inactive projects)
+- DOB NOW Build Job Applications & Approved Permits (785MB combined)
+- DOB License Information (15MB, contractor/professional licenses)
+- DOB Disciplinary Actions (306KB, enforcement against licenses)
+- Construction-Related Incidents (121KB, safety incidents)
+- Building Complaint Disposition Codes (7.7KB, lookup table)
+- Limited Alteration Applications (98MB)
+- Cellular Antenna Filings (5.2MB)
+- ECB Violations (incoming dataset, Environmental Control Board violations)
+
+### 3. Business Objectives
+
+**Primary Goals:**
+1. **Data Discovery & Documentation:** Systematically analyze and document the structure, relationships, and quality of all NYC DOB datasets
+2. **Fraud Pattern Detection:** Identify suspicious patterns in permit applications, approvals, and construction activities
+3. **Compliance Monitoring:** Track patterns in violations, complaints, and disciplinary actions
+4. **Operational Insights:** Provide actionable insights for DOB operations and policy decisions
+
+**Key Performance Indicators (KPIs):**
+- Time to detect suspicious patterns (target: <24 hours for new data)
+- False positive rate for fraud detection (target: <10%)
+- Data processing throughput (target: process daily updates within 2 hours)
+- Platform uptime (target: 99.5%)
+
+### 4. Functional Requirements
+
+#### 4.1 Data Processing & ETL
+- **FR-1.1:** Automated data profiling for all CSV files to determine schema, data types, null percentages, and value distributions
+- **FR-1.2:** Data quality assessment with automated anomaly detection
+- **FR-1.3:** ETL pipeline to transform CSV data into graph database format
+- **FR-1.4:** Incremental data loading capabilities for daily/weekly updates
+- **FR-1.5:** Data lineage tracking and audit trails
+
+#### 4.2 Database & Storage
+- **FR-2.1:** Neo4j graph database for storing relationships between entities (permits, contractors, properties, complaints)
+- **FR-2.2:** Entity resolution to identify connections between different datasets
+- **FR-2.3:** Time-series data storage for temporal analysis
+- **FR-2.4:** Data archival and retention policies
+
+#### 4.3 Fraud Detection Engine
+- **FR-3.1:** Graph-based pattern matching for suspicious permit approval chains
+- **FR-3.2:** Anomaly detection for unusual permit volumes by contractor/location
+- **FR-3.3:** Timeline analysis for permit-to-complaint correlation
+- **FR-3.4:** Network analysis to identify potential collusion patterns
+- **FR-3.5:** Machine learning models for risk scoring
+
+#### 4.4 Analytics & Visualization
+- **FR-4.1:** Interactive dashboards for data exploration
+- **FR-4.2:** Graph visualization for relationship mapping
+- **FR-4.3:** Time-series analysis and trending
+- **FR-4.4:** Geographic mapping of activities and patterns
+- **FR-4.5:** Automated reporting and alerting
+
+#### 4.5 Knowledge Graph Integration
+- **FR-5.1:** Integration with Graphiti from getzep for advanced graph analytics
+- **FR-5.2:** Natural language querying capabilities
+- **FR-5.3:** Automated knowledge extraction from unstructured data fields
+
+### 5. Technical Requirements
+
+#### 5.1 Technology Stack
+- **Language:** Python 3.12+
+- **Dependency Management:** uv (as specified)
+- **Execution:** `uv run python <file.py>` (as specified)
+- **Database:** Neo4j Community Edition (containerized)
+- **Graph Analytics:** Graphiti from getzep
+- **Container Orchestration:** Docker Compose
+- **Data Processing:** pandas, polars for large datasets
+- **Visualization:** Plotly, Streamlit for dashboards
+- **ML/Analytics:** scikit-learn, networkx, pyneo4j
+
+#### 5.2 Infrastructure Requirements
+- **IR-1:** Docker Compose configuration with Neo4j, application services
+- **IR-2:** Minimum 32GB RAM for processing large datasets
+- **IR-3:** SSD storage with minimum 100GB free space
+- **IR-4:** Network connectivity for data updates and external integrations
+
+#### 5.3 Data Schema Design
+- **DS-1:** Entity types: Property, Permit, Contractor, Complaint, Violation, License
+- **DS-2:** Relationship types: ISSUED_TO, FILED_BY, LOCATED_AT, RESULTED_IN, CITED_FOR
+- **DS-3:** Temporal properties for all relationships and entities
+- **DS-4:** Standardized address normalization for property linking
+
+### 6. Non-Functional Requirements
+
+#### 6.1 Performance
+- **NFR-1.1:** Process full historical dataset within 4 hours
+- **NFR-1.2:** Real-time queries respond within 2 seconds
+- **NFR-1.3:** Support concurrent analysis by up to 10 users
+
+#### 6.2 Scalability
+- **NFR-2.1:** Handle datasets up to 10GB per file
+- **NFR-2.2:** Support horizontal scaling through container orchestration
+
+#### 6.3 Security & Privacy
+- **NFR-3.1:** Data anonymization for public-facing analytics
+- **NFR-3.2:** Audit logging for all data access and modifications
+- **NFR-3.3:** Secure API endpoints with authentication
+
+#### 6.4 Maintainability
+- **NFR-4.1:** Comprehensive documentation for all components
+- **NFR-4.2:** Automated testing with >80% code coverage
+- **NFR-4.3:** Modular architecture for easy component updates
+
+### 7. Implementation Phases
+
+#### Phase 1: Data Discovery & Foundation (Weeks 1-3)
+**Deliverables:**
+- Automated data profiling scripts for all CSV files
+- Comprehensive data dictionary with relationships identified
+- Initial Neo4j database schema design
+- Docker Compose setup with Neo4j
+
+**Success Criteria:**
+- All 12+ datasets profiled and documented
+- Neo4j instance running and accessible
+- Basic ETL pipeline operational
+
+#### Phase 2: ETL Pipeline & Data Loading (Weeks 4-6)
+**Deliverables:**
+- Complete ETL pipeline with data validation
+- All historical data loaded into Neo4j
+- Entity resolution and deduplication logic
+- Data quality monitoring dashboards
+
+**Success Criteria:**
+- >95% of data successfully loaded without errors
+- Entity relationships properly established
+- Processing time meets performance requirements
+
+#### Phase 3: Analytics & Fraud Detection (Weeks 7-10)
+**Deliverables:**
+- Graphiti integration for advanced analytics
+- Initial fraud detection algorithms
+- Pattern matching queries for suspicious activities
+- Basic visualization dashboards
+
+**Success Criteria:**
+- Identify at least 3 types of suspicious patterns
+- Fraud detection false positive rate <15%
+- Interactive dashboards functional
+
+#### Phase 4: Advanced Features & Optimization (Weeks 11-12)
+**Deliverables:**
+- Machine learning models for risk scoring
+- Advanced visualization and reporting
+- API endpoints for external integrations
+- Performance optimization and tuning
+
+**Success Criteria:**
+- All performance requirements met
+- ML models achieve >70% accuracy on test patterns
+- Full documentation complete
+
+### 8. Success Criteria & Metrics
+
+**Project Success Indicators:**
+1. **Technical Success:**
+   - All datasets successfully integrated and queryable
+   - Platform processes daily data updates automatically
+   - Query performance meets specified requirements
+
+2. **Business Success:**
+   - Identify verifiable suspicious patterns in historical data
+   - Reduce time to detect potential fraud from weeks to hours
+   - Provide actionable insights for DOB operations
+
+3. **User Success:**
+   - Platform adopted by data analysts and investigators
+   - Positive feedback on usability and insights quality
+   - Demonstrated ROI through improved fraud detection
+
+### 9. Constraints & Assumptions
+
+**Constraints:**
+- Limited to publicly available NYC DOB data
+- Must comply with data privacy regulations
+- Resource constraints: single development environment
+
+**Assumptions:**
+- Data formats remain consistent over time
+- Neo4j Community Edition sufficient for dataset size
+- Team has access to domain expertise for fraud pattern validation
+
+### 10. Dependencies & Risks
+
+**Key Dependencies:**
+- Availability and quality of NYC DOB data
+- Graphiti from getzep functionality and documentation
+- Neo4j performance with large datasets
+
+**Risk Mitigation:**
+- **Data Quality Risk:** Implement robust validation and error handling
+- **Performance Risk:** Use profiling and optimization throughout development
+- **Integration Risk:** Prototype key integrations early in development
+
+### 11. Project Deliverables
+
+**Code Artifacts:**
+- `/scripts/data_profiling/` - Automated profiling tools
+- `/scripts/etl/` - Data transformation and loading
+- `/scripts/analysis/` - Fraud detection and analytics
+- `/docker-compose.yml` - Infrastructure configuration
+- `/docs/` - Comprehensive documentation
+
+**Documentation:**
+- Data dictionary and schema documentation
+- API documentation and usage examples
+- Deployment and operations guide
+- User manual for analytics platform
+
+**Infrastructure:**
+- Containerized Neo4j database
+- Automated ETL pipelines
+- Monitoring and alerting setup
+- Backup and recovery procedures 
