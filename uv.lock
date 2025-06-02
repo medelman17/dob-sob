@@ -436,6 +436,76 @@ wheels = [
 ]
 
 [[package]]
+name = "dob-sob"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "graphiti-core" },
+    { name = "jupyter" },
+    { name = "matplotlib" },
+    { name = "neo4j" },
+    { name = "networkx" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "plotly" },
+    { name = "polars" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "requests" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+    { name = "streamlit" },
+]
+
+[package.optional-dependencies]
+dev = [
+    { name = "black" },
+    { name = "flake8" },
+    { name = "isort" },
+    { name = "mypy" },
+    { name = "pre-commit" },
+    { name = "pytest" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+    { name = "pytest-asyncio" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "black", marker = "extra == 'dev'", specifier = ">=23.7.0" },
+    { name = "flake8", marker = "extra == 'dev'", specifier = ">=6.0.0" },
+    { name = "graphiti-core", specifier = ">=0.11.6" },
+    { name = "isort", marker = "extra == 'dev'", specifier = ">=5.12.0" },
+    { name = "jupyter", specifier = ">=1.0.0" },
+    { name = "matplotlib", specifier = ">=3.7.0" },
+    { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.5.0" },
+    { name = "neo4j", specifier = ">=5.8.0" },
+    { name = "networkx", specifier = ">=3.1" },
+    { name = "numpy", specifier = ">=1.24.0" },
+    { name = "pandas", specifier = ">=2.0.0" },
+    { name = "plotly", specifier = ">=5.15.0" },
+    { name = "polars", specifier = ">=0.20.0" },
+    { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=3.3.0" },
+    { name = "pydantic", specifier = ">=2.0.0" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.4.0" },
+    { name = "python-dotenv", specifier = ">=1.0.0" },
+    { name = "requests", specifier = ">=2.31.0" },
+    { name = "scikit-learn", specifier = ">=1.3.0" },
+    { name = "seaborn", specifier = ">=0.12.0" },
+    { name = "streamlit", specifier = ">=1.28.0" },
+]
+provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pytest", specifier = ">=8.3.5" },
+    { name = "pytest-asyncio", specifier = ">=1.0.0" },
+]
+
+[[package]]
 name = "executing"
 version = "2.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1409,64 +1479,6 @@ wheels = [
 ]
 
 [[package]]
-name = "nycdob-data-exploration"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "graphiti-core" },
-    { name = "jupyter" },
-    { name = "matplotlib" },
-    { name = "neo4j" },
-    { name = "networkx" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "plotly" },
-    { name = "polars" },
-    { name = "pydantic" },
-    { name = "python-dotenv" },
-    { name = "requests" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "streamlit" },
-]
-
-[package.optional-dependencies]
-dev = [
-    { name = "black" },
-    { name = "flake8" },
-    { name = "isort" },
-    { name = "mypy" },
-    { name = "pre-commit" },
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "black", marker = "extra == 'dev'", specifier = ">=23.7.0" },
-    { name = "flake8", marker = "extra == 'dev'", specifier = ">=6.0.0" },
-    { name = "graphiti-core", specifier = ">=0.11.6" },
-    { name = "isort", marker = "extra == 'dev'", specifier = ">=5.12.0" },
-    { name = "jupyter", specifier = ">=1.0.0" },
-    { name = "matplotlib", specifier = ">=3.7.0" },
-    { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.5.0" },
-    { name = "neo4j", specifier = ">=5.8.0" },
-    { name = "networkx", specifier = ">=3.1" },
-    { name = "numpy", specifier = ">=1.24.0" },
-    { name = "pandas", specifier = ">=2.0.0" },
-    { name = "plotly", specifier = ">=5.15.0" },
-    { name = "polars", specifier = ">=0.20.0" },
-    { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=3.3.0" },
-    { name = "pydantic", specifier = ">=2.0.0" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.4.0" },
-    { name = "python-dotenv", specifier = ">=1.0.0" },
-    { name = "requests", specifier = ">=2.31.0" },
-    { name = "scikit-learn", specifier = ">=1.3.0" },
-    { name = "seaborn", specifier = ">=0.12.0" },
-    { name = "streamlit", specifier = ">=1.28.0" },
-]
-provides-extras = ["dev"]
-
-[[package]]
 name = "openai"
 version = "1.82.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1909,6 +1921,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ae/3c/c9d525a414d506893f0cd8a8d0de7706446213181570cdbd766691164e40/pytest-8.3.5.tar.gz", hash = "sha256:f4efe70cc14e511565ac476b57c279e12a855b11f48f212af1080ef2263d3845", size = 1450891, upload-time = "2025-03-02T12:54:54.503Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/30/3d/64ad57c803f1fa1e963a7946b6e0fea4a70df53c1a7fed304586539c2bac/pytest-8.3.5-py3-none-any.whl", hash = "sha256:c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820", size = 343634, upload-time = "2025-03-02T12:54:52.069Z" },
+]
+
+[[package]]
+name = "pytest-asyncio"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pytest" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d0/d4/14f53324cb1a6381bef29d698987625d80052bb33932d8e7cbf9b337b17c/pytest_asyncio-1.0.0.tar.gz", hash = "sha256:d15463d13f4456e1ead2594520216b225a16f781e144f8fdf6c5bb4667c48b3f", size = 46960, upload-time = "2025-05-26T04:54:40.484Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/30/05/ce271016e351fddc8399e546f6e23761967ee09c8c568bbfbecb0c150171/pytest_asyncio-1.0.0-py3-none-any.whl", hash = "sha256:4f024da9f1ef945e680dc68610b52550e36590a67fd31bb3b4943979a1f90ef3", size = 15976, upload-time = "2025-05-26T04:54:39.035Z" },
 ]
 
 [[package]]

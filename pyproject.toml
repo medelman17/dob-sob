@@ -1,7 +1,7 @@
 [project]
-name = "nycdob-data-exploration"
+name = "dob-sob"
 version = "0.1.0"
-description = "NYC Department of Buildings data exploration and analysis platform"
+description = "dob-sob: NYC DOB fraud detection platform for catching corrupt contractors and permit fraudsters"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -52,3 +52,9 @@ python_version = "3.12"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=1.0.0",
+]

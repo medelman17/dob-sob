@@ -13,7 +13,7 @@ services:
     depends_on:
       - neo4j
     networks:
-      - ${NETWORK_NAME:-nycdob-network}
+      - ${NETWORK_NAME:-dob-sob-network}
     deploy:
       resources:
         limits:
@@ -55,7 +55,7 @@ services:
           memory: ${NEO4J_MEMORY_RESERVATION:-1G}
           cpus: "${NEO4J_CPU_RESERVATION:-1.0}"
     networks:
-      - ${NETWORK_NAME:-nycdob-network}
+      - ${NETWORK_NAME:-dob-sob-network}
     restart: ${RESTART_POLICY:-unless-stopped}
     healthcheck:
       test: ["CMD", "cypher-shell", "-u", "${NEO4J_USER:-neo4j}", "-p", "${NEO4J_PASSWORD:-password}", "RETURN 1"]
@@ -79,7 +79,7 @@ services:
     depends_on:
       - neo4j
     networks:
-      - ${NETWORK_NAME:-nycdob-network}
+      - ${NETWORK_NAME:-dob-sob-network}
     deploy:
       resources:
         limits:
@@ -98,8 +98,8 @@ volumes:
   neo4j_plugins:
 
 networks:
-  nycdob-network:
-    name: ${NETWORK_NAME:-nycdob-network}
+  dob-sob-network:
+    name: ${NETWORK_NAME:-dob-sob-network}
     driver: bridge
     driver_opts:
       com.docker.network.driver.mtu: ${NETWORK_MTU:-1450}

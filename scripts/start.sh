@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # =============================================================================
-# NYC DOB Data Exploration - Start Services
+# dob-sob - Start Services
 # =============================================================================
 
 set -e
 
-echo "🚀 Starting NYC DOB Data Exploration services..."
+echo "🚀 Starting dob-sob: NYC DOB fraud detection platform..."
+echo "🗽 Time to catch some dob-sobs!"
 
 # Check if Docker is running
 if ! docker info >/dev/null 2>&1; then
@@ -43,6 +44,7 @@ docker compose up -d
 
 # Wait for Neo4j to be ready
 echo "⏳ Waiting for Neo4j to be ready..."
+echo "📊 (Getting ready to store all those dob-sob connections...)"
 timeout=120
 counter=0
 while [ $counter -lt $timeout ]; do
@@ -63,6 +65,7 @@ fi
 
 echo ""
 echo "🎉 All services are running!"
+echo "🕵️ Ready to detect fraud like a true New Yorker!"
 echo ""
 echo "📱 Access your applications:"
 echo "   🌐 Streamlit Dashboard: http://localhost:${STREAMLIT_PORT:-8501}"
@@ -78,4 +81,5 @@ echo "   View logs:     docker compose logs -f"
 echo "   Stop services: ./scripts/stop.sh"
 echo "   Reset data:    ./scripts/reset-db.sh"
 echo ""
-echo "💡 Note: Neo4j data is stored in Docker managed volumes for better portability" 
+echo "💡 Note: Neo4j data is stored in Docker managed volumes for better portability"
+echo "🗽 Now go catch some dob-sobs!" 
