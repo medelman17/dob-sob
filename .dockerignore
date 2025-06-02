@@ -1,0 +1,46 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-volumes/
+.env
+*.log
+
+# Data directories (keep them local, don't copy to container)
+docker-volumes/
+
+# Documentation
+*.md
+docs/
+
+# Development
+.pytest_cache/
+.coverage
+htmlcov/ 

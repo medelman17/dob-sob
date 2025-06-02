@@ -20,17 +20,9 @@ if [ ! -f "docker-compose.yml" ]; then
     exit 1
 fi
 
-# Create necessary directories
-echo "📁 Creating data directories..."
-mkdir -p docker-volumes/neo4j/{data,logs,import,plugins}
+# Create local data directories (these are bind mounted, not the Neo4j data)
+echo "📁 Creating local data directories..."
 mkdir -p data notebooks
-
-# Set proper permissions for Neo4j directories
-echo "🔐 Setting permissions for Neo4j directories..."
-sudo chown -R 7474:7474 docker-volumes/neo4j/ 2>/dev/null || {
-    echo "⚠️  Warning: Could not set Neo4j directory ownership. You may need to run:"
-    echo "   sudo chown -R 7474:7474 docker-volumes/neo4j/"
-}
 
 # Check if .env file exists, if not suggest copying from example
 if [ ! -f ".env" ]; then
@@ -47,14 +39,14 @@ fi
 
 # Start services
 echo "🐳 Starting Docker services..."
-docker-compose up -d
+docker compose up -d
 
 # Wait for Neo4j to be ready
 echo "⏳ Waiting for Neo4j to be ready..."
 timeout=120
 counter=0
 while [ $counter -lt $timeout ]; do
-    if docker-compose exec -T neo4j cypher-shell -u neo4j -p "${NEO4J_PASSWORD:-password}" "RETURN 1" >/dev/null 2>&1; then
+    if docker compose exec -T neo4j cypher-shell -u neo4j -p "${NEO4J_PASSWORD:-password}" "RETURN 1" >/dev/null 2>&1; then
         echo "✅ Neo4j is ready!"
         break
     fi
@@ -65,7 +57,7 @@ done
 
 if [ $counter -ge $timeout ]; then
     echo "❌ Timeout waiting for Neo4j to start"
-    echo "🔍 Check logs with: docker-compose logs neo4j"
+    echo "🔍 Check logs with: docker compose logs neo4j"
     exit 1
 fi
 
@@ -82,7 +74,8 @@ echo "   Username: ${NEO4J_USER:-neo4j}"
 echo "   Password: ${NEO4J_PASSWORD:-password}"
 echo ""
 echo "🛠️  Useful commands:"
-echo "   View logs:     docker-compose logs -f"
+echo "   View logs:     docker compose logs -f"
 echo "   Stop services: ./scripts/stop.sh"
 echo "   Reset data:    ./scripts/reset-db.sh"
-echo "" 
+echo ""
+echo "💡 Note: Neo4j data is stored in Docker managed volumes for better portability" 

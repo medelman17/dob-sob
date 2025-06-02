@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   app:
     build: .
@@ -28,57 +26,43 @@ services:
     command: ["streamlit", "run", "main.py", "--server.address", "0.0.0.0"]
 
   neo4j:
-    image: neo4j:5.15-community
+    image: neo4j:5.26.7-community
     ports:
-      - "${NEO4J_HTTP_PORT:-7474}:7474" # Browser interface
-      - "${NEO4J_BOLT_PORT:-7687}:7687" # Bolt protocol
+      - "${NEO4J_HTTP_PORT:-7474}:7474" # HTTP
+      - "${NEO4J_BOLT_PORT:-7687}:7687" # Bolt
     volumes:
       - neo4j_data:/data
       - neo4j_logs:/logs
       - neo4j_import:/var/lib/neo4j/import
       - neo4j_plugins:/plugins
     environment:
-      # Authentication
-      - NEO4J_AUTH=${NEO4J_AUTH:-neo4j/password}
-
-      # Plugins
-      - NEO4J_PLUGINS=${NEO4J_PLUGINS:-["apoc"]}
-      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
-
-      # Memory Configuration (16GB minimum for production)
-      - NEO4J_dbms_memory_heap_initial_size=${NEO4J_HEAP_INITIAL_SIZE:-8G}
-      - NEO4J_dbms_memory_heap_max_size=${NEO4J_HEAP_MAX_SIZE:-16G}
-      - NEO4J_dbms_memory_pagecache_size=${NEO4J_PAGECACHE_SIZE:-8G}
-
-      # Performance Optimization
-      - NEO4J_dbms_default_database=neo4j
-      - NEO4J_dbms_databases_default_to_read_only=false
-
-      # Transaction Configuration
-      - NEO4J_dbms_transaction_timeout=${NEO4J_TRANSACTION_TIMEOUT:-60s}
-      - NEO4J_dbms_transaction_concurrent_maximum=${NEO4J_TRANSACTION_CONCURRENT_MAX:-1000}
-
-      # Query Configuration
-      - NEO4J_dbms_cypher_default_language_version=5
-      - NEO4J_dbms_query_cache_size=${NEO4J_QUERY_CACHE_SIZE:-1000}
+      NEO4J_AUTH: ${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD:-password}
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_apoc_export_file_enabled: true
+      NEO4J_apoc_import_file_enabled: true
+      NEO4J_apoc_import_file_use__neo4j__config: true
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*
+      NEO4J_dbms_memory_heap_initial__size: 512m
+      NEO4J_dbms_memory_heap_max__size: 2G
+      NEO4J_dbms_memory_pagecache_size: 1G
 
     deploy:
       resources:
         limits:
-          memory: ${NEO4J_MEMORY_LIMIT:-20G} # Total container memory limit
-          cpus: "${NEO4J_CPU_LIMIT:-4.0}"
+          memory: ${NEO4J_MEMORY_LIMIT:-2G}
+          cpus: "${NEO4J_CPU_LIMIT:-2.0}"
         reservations:
-          memory: ${NEO4J_MEMORY_RESERVATION:-16G}
-          cpus: "${NEO4J_CPU_RESERVATION:-2.0}"
+          memory: ${NEO4J_MEMORY_RESERVATION:-1G}
+          cpus: "${NEO4J_CPU_RESERVATION:-1.0}"
     networks:
       - ${NETWORK_NAME:-nycdob-network}
     restart: ${RESTART_POLICY:-unless-stopped}
     healthcheck:
       test: ["CMD", "cypher-shell", "-u", "${NEO4J_USER:-neo4j}", "-p", "${NEO4J_PASSWORD:-password}", "RETURN 1"]
-      interval: ${HEALTH_CHECK_INTERVAL:-30s}
-      timeout: ${HEALTH_CHECK_TIMEOUT:-10s}
-      retries: ${HEALTH_CHECK_RETRIES:-3}
-      start_period: ${HEALTH_CHECK_START_PERIOD:-60s}
+      interval: ${HEALTH_CHECK_INTERVAL:-10s}
+      timeout: ${HEALTH_CHECK_TIMEOUT:-5s}
+      retries: ${HEALTH_CHECK_RETRIES:-5}
+      start_period: ${HEALTH_CHECK_START_PERIOD:-30s}
 
   jupyter:
     build: .
@@ -99,39 +83,19 @@ services:
     deploy:
       resources:
         limits:
-          memory: ${JUPYTER_MEMORY_LIMIT:-8G}
-          cpus: "${JUPYTER_CPU_LIMIT:-4.0}"
+          memory: ${JUPYTER_MEMORY_LIMIT:-4G}
+          cpus: "${JUPYTER_CPU_LIMIT:-2.0}"
         reservations:
-          memory: ${JUPYTER_MEMORY_RESERVATION:-4G}
-          cpus: "${JUPYTER_CPU_RESERVATION:-2.0}"
+          memory: ${JUPYTER_MEMORY_RESERVATION:-2G}
+          cpus: "${JUPYTER_CPU_RESERVATION:-1.0}"
     restart: ${RESTART_POLICY:-unless-stopped}
     command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
 
 volumes:
   neo4j_data:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${NEO4J_DATA_DIR:-./docker-volumes/neo4j/data}
   neo4j_logs:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${NEO4J_LOGS_DIR:-./docker-volumes/neo4j/logs}
   neo4j_import:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${NEO4J_IMPORT_DIR:-./docker-volumes/neo4j/import}
   neo4j_plugins:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${NEO4J_PLUGINS_DIR:-./docker-volumes/neo4j/plugins}
 
 networks:
   nycdob-network:

@@ -14,12 +14,14 @@ if [ ! -f "docker-compose.yml" ]; then
     exit 1
 fi
 
-# Stop services
+# Stop and remove containers
 echo "🐳 Stopping Docker services..."
-docker-compose down
+docker compose down
 
-echo "✅ All services stopped."
+echo "✅ All services stopped!"
 echo ""
-echo "💡 To start services again, run: ./scripts/start.sh"
-echo "🗑️  To remove all data and reset, run: ./scripts/reset-db.sh"
+echo "💡 Useful commands:"
+echo "   Start services: ./scripts/start.sh"
+echo "   View logs:      docker compose logs"
+echo "   Reset data:     ./scripts/reset-db.sh"
 echo "" 
