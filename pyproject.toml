@@ -1,7 +1,52 @@
 [project]
 name = "nycdob-data-exploration"
 version = "0.1.0"
-description = "Add your description here"
+description = "NYC Department of Buildings data exploration and analysis platform"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=2.0.0",
+    "polars>=0.20.0",
+    "plotly>=5.15.0",
+    "streamlit>=1.28.0",
+    "scikit-learn>=1.3.0",
+    "networkx>=3.1",
+    "neo4j>=5.8.0",
+    "requests>=2.31.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "python-dotenv>=1.0.0",
+    "jupyter>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.7.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+    "pre-commit>=3.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
