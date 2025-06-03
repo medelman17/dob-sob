@@ -1,0 +1,235 @@
+{
+  "dataset_id": "rhxh-bkng",
+  "name": "BSA LOT 35",
+  "description": "Decisions made by the Board of applications filed since January 1, 1998 to the present are available on this site. The decisions include both resolutions on new applications and resolutions on amendments/extensions to earlier decisions.\r\n\r\nDisclaimer: This data is provided solely for informational purposes and does not represent the full extent of the Board\u2019s jurisdiction or decisions, which date to 1916. Researchers and property owners should contact the Board\u2019s office at (212) 386-0009 for further information about a property. The City makes no representation as to the accuracy of the information or to its suitability for any purpose. The City disclaims any liability for errors that may be contained herein and shall not be responsible for any damages consequential or actual, arising out of or in connection with the use of this information. The City makes no warranties, express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose as to the quality, content, accuracy, or completeness of the information, text, graphics, links, or other items contained in this data set.",
+  "agency": "Board of Standards and Appeals",
+  "category": "City Government",
+  "tags": [
+    "bsa decisions",
+    "bsa",
+    "decisions",
+    "resoultions",
+    "amendments",
+    "application status"
+  ],
+  "update_frequency": "0",
+  "attribution": "Board of Standards and Appeals",
+  "created_at": "2022-04-11T19:38:57",
+  "updated_at": "2025-06-02T15:20:36",
+  "row_count": 1748877636,
+  "column_count": 25,
+  "download_count": 4,
+  "view_count": 58,
+  "columns": [
+    {
+      "field_name": "filed",
+      "display_name": "Filed",
+      "data_type": "calendar_date",
+      "description": "The date the case was filed\n",
+      "width": 160,
+      "position": 1
+    },
+    {
+      "field_name": "application",
+      "display_name": "Application",
+      "data_type": "text",
+      "description": "Type of Application that was filed\n",
+      "width": 232,
+      "position": 2
+    },
+    {
+      "field_name": "calendar",
+      "display_name": "Calendar Number",
+      "data_type": "text",
+      "description": "Calendar Code Refferrce Number \n",
+      "width": 196,
+      "position": 3
+    },
+    {
+      "field_name": "section",
+      "display_name": "Section",
+      "data_type": "text",
+      "width": 100,
+      "position": 4
+    },
+    {
+      "field_name": "street_number",
+      "display_name": "Number",
+      "data_type": "text",
+      "description": "Street Number of the Case\n",
+      "width": 256,
+      "position": 5
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street",
+      "data_type": "text",
+      "description": "Street Name of the Case\n",
+      "width": 232,
+      "position": 6
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "Borough of the Case\n",
+      "width": 184,
+      "position": 7
+    },
+    {
+      "field_name": "borough_code",
+      "display_name": "Borough Code",
+      "data_type": "text",
+      "width": 100,
+      "position": 8
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "number",
+      "description": "Block of the case\n",
+      "format": "standard",
+      "width": 160,
+      "position": 9,
+      "default_value": "true"
+    },
+    {
+      "field_name": "lots",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "Lot Number of the case\n",
+      "width": 148,
+      "position": 10
+    },
+    {
+      "field_name": "zoning_district",
+      "display_name": "Zoning District",
+      "data_type": "text",
+      "width": 100,
+      "position": 11
+    },
+    {
+      "field_name": "cb",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "Community Board of the Case",
+      "format": "standard",
+      "width": 100,
+      "position": 12
+    },
+    {
+      "field_name": "project_description",
+      "display_name": "Project Description",
+      "data_type": "text",
+      "description": "Project Description of the case\n",
+      "width": 328,
+      "position": 13
+    },
+    {
+      "field_name": "status",
+      "display_name": "Status",
+      "data_type": "text",
+      "description": "Status of the cases\n",
+      "width": 172,
+      "position": 14
+    },
+    {
+      "field_name": "decisions_url",
+      "display_name": "Decisions URL",
+      "data_type": "text",
+      "width": 100,
+      "position": 15
+    },
+    {
+      "field_name": "date",
+      "display_name": "Date",
+      "data_type": "calendar_date",
+      "description": "Date Granted\n",
+      "width": 148,
+      "position": 16
+    },
+    {
+      "field_name": "postcode",
+      "display_name": "Postcode",
+      "data_type": "number",
+      "description": "Zip Code of the building's location\n",
+      "format": "standard",
+      "width": 100,
+      "position": 17,
+      "default_value": "true"
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "Latitude of the building's location. \n",
+      "format": "standard",
+      "width": 100,
+      "position": 18
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "Longitude of the building's location. \n",
+      "format": "standard",
+      "width": 100,
+      "position": 19
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "The Council District field indicates the New York City Council District where the building is located.\n",
+      "format": "standard",
+      "width": 100,
+      "position": 20
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract (2020)",
+      "data_type": "number",
+      "description": "The Census Tract field indicates the U.S. Census Tract where the building is located.\n",
+      "format": "standard",
+      "width": 100,
+      "position": 21,
+      "default_value": "true"
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "The BIN (Building Identification Number) is a unique identifier for each building in the City.\n",
+      "format": "standard",
+      "width": 100,
+      "position": 22,
+      "default_value": "true"
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The BBL (Borough, Block, and Lot) is a unique identifier for each tax lot in the City.\n",
+      "format": "standard",
+      "width": 100,
+      "position": 23,
+      "default_value": "true"
+    },
+    {
+      "field_name": "nta",
+      "display_name": "Neighborhood Tabulation Area (NTA) (2020)",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area field indicates the New York City Neighborhood area where the building is located.\n",
+      "width": 100,
+      "position": 24
+    },
+    {
+      "field_name": "location_1",
+      "display_name": "Location 1",
+      "data_type": "point",
+      "width": 100,
+      "position": 25
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:23.633767"
+}

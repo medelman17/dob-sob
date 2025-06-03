@@ -1,0 +1,1411 @@
+{
+  "dataset_id": "p937-wjvj",
+  "name": "Rodent Inspection",
+  "description": "Dataset contains information on rat inspections.\n\nRat Information Portal Data Release Notes        April 20, 2015\n\nThe Rat Information Portal (RIP) is a web-based mapping application where users can view rat inspection data. \n\nData sources: NYC Department of Health and Mental Hygiene (DOHMH), Division of Environmental Health Pest Control Database\n\nNotes on data limitations: Please note that if a property/taxlot does not appear in the file, that does not indicate an absence of rats - rather just that it has not been inspected. Similarly, neighborhoods with higher numbers properties with active rat signs may not actually have higher rat populations but simply have more inspections. \n\nSee our Data Disclaimer:\nhttp://www.nyc.gov/rats",
+  "agency": "Department of Health and Mental Hygiene (DOHMH)",
+  "category": "Health",
+  "tags": [
+    "rodent",
+    "inspection",
+    "health",
+    "dohmh"
+  ],
+  "attribution": "Department of Health and Mental Hygiene (DOHMH)",
+  "created_at": "2015-11-23T16:34:42",
+  "updated_at": "2025-06-03T09:57:08",
+  "row_count": 1748944628,
+  "column_count": 30,
+  "download_count": 13899,
+  "view_count": 40559,
+  "columns": [
+    {
+      "field_name": "inspection_type",
+      "display_name": "INSPECTION_TYPE",
+      "data_type": "text",
+      "description": "\"In conjunction with the JOBTICKETORWORKORDERID, uniquely identifies records in the dataset.\nInitial Inspection - Inspection conducted in response to a 311 complaint, or a proactive inspection conducted through our neighborhood indexing program.\nCompliance Inspection - If a property fails its initial inspection, the Health Department will conduct a follow up (Compliance) inspection.\nBaiting - Application of rodenticide, or monitoring visit by a Health Department Pest Control Professional.\nClean Up - The removal of garbage and clutter from a property by the Health Department.\nInitial Inspection - Inspection conducted in response to a 311 complaint, or a proactive inspection conducted through our neighborhood indexing program.\nCompliance Inspection - If a property fails its initial inspection, the Health Department will conduct a follow up (Compliance) inspection.\nBaiting - Application of rodenticide, or monitoring visit by a Health Department Pest Control Professional.\nClean Up - The removal of garbage and clutter from a property by the Health Department.\"\n",
+      "width": 150,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2447582",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "job_ticket_or_work_order_id",
+      "display_name": "JOB_TICKET_OR_WORK_ORDER_ID",
+      "data_type": "number",
+      "description": "In conjunction with the INSPECTION_TYPE, uniquely identifies records in the dataset. \n",
+      "format": "standard",
+      "width": 246,
+      "position": 2,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2447582",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "job_id",
+      "display_name": "JOB_ID",
+      "data_type": "text",
+      "description": "Internal DOHMH administrative number to identify a job\n",
+      "width": 143,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "PC8235363",
+        "null": "0",
+        "top": [
+          {
+            "item": "PC6522897",
+            "count": "96"
+          },
+          {
+            "item": "PC6522898",
+            "count": "94"
+          },
+          {
+            "item": "PC6521287",
+            "count": "92"
+          },
+          {
+            "item": "PC6252723",
+            "count": "84"
+          },
+          {
+            "item": "PC6253155",
+            "count": "83"
+          },
+          {
+            "item": "PC6966889",
+            "count": "79"
+          },
+          {
+            "item": "PC6350962",
+            "count": "76"
+          },
+          {
+            "item": "PC6714023",
+            "count": "75"
+          },
+          {
+            "item": "PC6509808",
+            "count": "74"
+          },
+          {
+            "item": "PC6980584",
+            "count": "74"
+          },
+          {
+            "item": "PC7098325",
+            "count": "74"
+          },
+          {
+            "item": "PC7081345",
+            "count": "74"
+          },
+          {
+            "item": "PC7319172",
+            "count": "68"
+          },
+          {
+            "item": "PC7098015",
+            "count": "68"
+          },
+          {
+            "item": "PC6979761",
+            "count": "68"
+          },
+          {
+            "item": "PC7320806",
+            "count": "67"
+          },
+          {
+            "item": "PC6264463",
+            "count": "66"
+          },
+          {
+            "item": "PC6989514",
+            "count": "65"
+          },
+          {
+            "item": "PC6255316",
+            "count": "64"
+          },
+          {
+            "item": "PC6970846",
+            "count": "60"
+          }
+        ],
+        "smallest": "PC6039957",
+        "count": "2448603",
+        "cardinality": "1775132"
+      }
+    },
+    {
+      "field_name": "job_progress",
+      "display_name": "JOB_PROGRESS",
+      "data_type": "number",
+      "description": "An indicator of the progress made in the job. Jobs may involve multiple inspections or other actions, and the progress indicator shows the order in which they took place.\n",
+      "format": "standard",
+      "width": 159,
+      "position": 4,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2448603",
+        "largest": "96",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "1776367"
+          },
+          {
+            "item": "2",
+            "count": "366428"
+          },
+          {
+            "item": "3",
+            "count": "87548"
+          },
+          {
+            "item": "4",
+            "count": "67534"
+          },
+          {
+            "item": "5",
+            "count": "50749"
+          },
+          {
+            "item": "6",
+            "count": "36900"
+          },
+          {
+            "item": "7",
+            "count": "17556"
+          },
+          {
+            "item": "8",
+            "count": "11251"
+          },
+          {
+            "item": "9",
+            "count": "7273"
+          },
+          {
+            "item": "10",
+            "count": "5249"
+          },
+          {
+            "item": "11",
+            "count": "3989"
+          },
+          {
+            "item": "12",
+            "count": "3001"
+          },
+          {
+            "item": "13",
+            "count": "2334"
+          },
+          {
+            "item": "14",
+            "count": "1862"
+          },
+          {
+            "item": "15",
+            "count": "1517"
+          },
+          {
+            "item": "16",
+            "count": "1177"
+          },
+          {
+            "item": "17",
+            "count": "950"
+          },
+          {
+            "item": "18",
+            "count": "803"
+          },
+          {
+            "item": "19",
+            "count": "688"
+          },
+          {
+            "item": "20",
+            "count": "586"
+          }
+        ],
+        "smallest": "1",
+        "count": "2448603",
+        "cardinality": "96"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "Borough, Block, and Lot code, which is a unique identifier of NYC Taxlots. Every NYC property has its own BBL code, and inspections are conducted at the taxlot level. This dataset can be mapped by joining these inspectional results to a taxlot geography file such as the Department of City Planning\u2019s PLUTO dataset.\n",
+      "format": "standard",
+      "width": 136,
+      "position": 5,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "boro_code",
+      "display_name": "BORO_CODE",
+      "data_type": "number",
+      "description": "The code assigned to the NYC borough, this code can also be found as the first digit in the BBL taxlot code above. \n",
+      "format": "standard",
+      "width": 146,
+      "position": 6,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "description": "The block number for the inspected taxlot; block numbers repeat in different boroughs.\n",
+      "width": 128,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "description": "The lot number for the inspected taxlot; lot numbers can repeat in different blocks.\n",
+      "width": 101,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "HOUSE_NUMBER",
+      "data_type": "text",
+      "description": "The address number of a building on the taxlot that was inspected\n",
+      "width": 169,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET_NAME",
+      "data_type": "text",
+      "description": "The street name portion of the address of the taxlot that was inspected\n",
+      "width": 232,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "ZIP_CODE",
+      "data_type": "text",
+      "description": "The postal zipcode of the taxlot that was inspected\n",
+      "width": 139,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "x_coord",
+      "display_name": "X_COORD",
+      "data_type": "number",
+      "description": "X coordinate of the inspected taxlot in NY State Plane Long Island Coordinate system\n",
+      "format": "standard",
+      "width": 138,
+      "position": 12,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "y_coord",
+      "display_name": "Y_COORD",
+      "data_type": "number",
+      "description": "Y coordinate of the inspected taxlot in NY State Plane Long Island Coordinate system\n",
+      "format": "standard",
+      "width": 144,
+      "position": 13,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "1946014",
+        "largest": "374392312",
+        "null": "501568",
+        "top": [
+          {
+            "item": "0",
+            "count": "1781"
+          },
+          {
+            "item": "200869",
+            "count": "270"
+          },
+          {
+            "item": "199338",
+            "count": "253"
+          },
+          {
+            "item": "244057",
+            "count": "232"
+          },
+          {
+            "item": "201516",
+            "count": "207"
+          },
+          {
+            "item": "202138",
+            "count": "202"
+          },
+          {
+            "item": "199931",
+            "count": "201"
+          },
+          {
+            "item": "204294",
+            "count": "188"
+          },
+          {
+            "item": "250742",
+            "count": "187"
+          },
+          {
+            "item": "247250",
+            "count": "181"
+          },
+          {
+            "item": "202995",
+            "count": "180"
+          },
+          {
+            "item": "254685",
+            "count": "179"
+          },
+          {
+            "item": "243432",
+            "count": "170"
+          },
+          {
+            "item": "193207",
+            "count": "170"
+          },
+          {
+            "item": "246868",
+            "count": "168"
+          },
+          {
+            "item": "248279",
+            "count": "166"
+          },
+          {
+            "item": "243442",
+            "count": "166"
+          },
+          {
+            "item": "241887",
+            "count": "164"
+          },
+          {
+            "item": "242587",
+            "count": "160"
+          },
+          {
+            "item": "194028",
+            "count": "160"
+          }
+        ],
+        "smallest": "0",
+        "count": "2448603",
+        "cardinality": "112884"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "number",
+      "description": "Latitude in decimal degrees  of the inspected taxlot (WGS 1984)\n",
+      "format": "standard",
+      "width": 157,
+      "position": 14,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2434433",
+        "largest": "40.91286346943",
+        "null": "14170",
+        "top": [
+          {
+            "item": "0.00000000000000000000",
+            "count": "14677"
+          },
+          {
+            "item": "40.723680527621",
+            "count": "301"
+          },
+          {
+            "item": "40.718008702954",
+            "count": "297"
+          },
+          {
+            "item": "40.715450766367",
+            "count": "292"
+          },
+          {
+            "item": "40.713806515614",
+            "count": "247"
+          },
+          {
+            "item": "40.866541218064",
+            "count": "235"
+          },
+          {
+            "item": "40.829347984541",
+            "count": "230"
+          },
+          {
+            "item": "40.845507847154",
+            "count": "225"
+          },
+          {
+            "item": "40.855294809467",
+            "count": "221"
+          },
+          {
+            "item": "40.836377485253",
+            "count": "220"
+          },
+          {
+            "item": "40.750522881473",
+            "count": "216"
+          },
+          {
+            "item": "40.834630504076",
+            "count": "212"
+          },
+          {
+            "item": "40.721292227281",
+            "count": "207"
+          },
+          {
+            "item": "40.720277046985",
+            "count": "206"
+          },
+          {
+            "item": "40.835872886835",
+            "count": "202"
+          },
+          {
+            "item": "40.834894559966",
+            "count": "202"
+          },
+          {
+            "item": "40.7239438899",
+            "count": "202"
+          },
+          {
+            "item": "40.802984250846",
+            "count": "199"
+          },
+          {
+            "item": "40.855165872934",
+            "count": "195"
+          },
+          {
+            "item": "40.723744980883",
+            "count": "194"
+          }
+        ],
+        "smallest": "-18.9070188901517",
+        "count": "2448603",
+        "cardinality": "350243"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "number",
+      "description": "Longitude in decimal degrees  of the inspected taxlot (WGS 1984)\n",
+      "format": "standard",
+      "width": 166,
+      "position": 15,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "The name of the NYC borough\n",
+      "width": 135,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "inspection_date",
+      "display_name": "INSPECTION_DATE",
+      "data_type": "calendar_date",
+      "description": "Date of the inspection.\n",
+      "width": 200,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "2448586",
+        "largest": "2029-01-01T09:35:51.000",
+        "null": "17",
+        "top": [
+          {
+            "item": "2020-02-04T11:30:00.000",
+            "count": "17"
+          },
+          {
+            "item": "2012-01-08T14:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2011-09-25T12:00:00.000",
+            "count": "13"
+          },
+          {
+            "item": "2011-10-01T12:00:00.000",
+            "count": "13"
+          },
+          {
+            "item": "2011-10-30T14:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2011-11-12T12:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2011-10-09T16:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2011-10-24T12:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2011-12-03T12:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2011-10-23T14:00:00.000",
+            "count": "11"
+          },
+          {
+            "item": "2011-08-20T12:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2020-07-13T10:35:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2011-11-20T14:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2011-12-04T14:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2020-06-09T10:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2020-06-29T10:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2022-11-18T10:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2021-06-16T08:00:00.000",
+            "count": "9"
+          },
+          {
+            "item": "2020-06-05T11:00:00.000",
+            "count": "9"
+          },
+          {
+            "item": "2011-12-11T14:00:00.000",
+            "count": "9"
+          }
+        ],
+        "smallest": "1918-10-19T14:34:44.000",
+        "count": "2448603",
+        "cardinality": "2356061"
+      }
+    },
+    {
+      "field_name": "result",
+      "display_name": "RESULT",
+      "data_type": "text",
+      "description": "Result of the inspection, including:\nActive Rat Signs (ARS) - ARS include any of six different signs: 1) fresh tracks, 2) fresh droppings, 3) active burrows, 4) active runways and rub marks, 5) fresh gnawing marks, and 6) live rats.\nProblem Conditions - Problem conditions include garbage (poor containerization of food waste resulting in the feeding of rats), harborage (clutter and dense vegetation promoting the nesting of rats), and mice.\n",
+      "width": 172,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "2448569",
+        "largest": "Rat Activity",
+        "null": "34",
+        "top": [
+          {
+            "item": "Passed",
+            "count": "1493348"
+          },
+          {
+            "item": "Rat Activity",
+            "count": "388594"
+          },
+          {
+            "item": "Bait applied",
+            "count": "341058"
+          },
+          {
+            "item": "Failed for Other R",
+            "count": "225384"
+          },
+          {
+            "item": "Monitoring visit",
+            "count": "185"
+          }
+        ],
+        "smallest": "Bait applied",
+        "count": "2448603",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "approved_date",
+      "display_name": "APPROVED_DATE",
+      "data_type": "calendar_date",
+      "description": "Date inspection is approved by supervisor at DOHMH.\n",
+      "width": 175,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "2444281",
+        "largest": "2023-12-08T21:09:50.000",
+        "null": "4322",
+        "top": [
+          {
+            "item": "2010-08-13T16:09:45.000",
+            "count": "61"
+          },
+          {
+            "item": "2010-08-17T14:31:44.000",
+            "count": "52"
+          },
+          {
+            "item": "2010-10-07T10:37:07.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-08-11T10:39:23.000",
+            "count": "50"
+          },
+          {
+            "item": "2009-11-25T16:42:56.000",
+            "count": "50"
+          },
+          {
+            "item": "2011-02-25T09:35:39.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-07-12T12:11:18.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-08-11T11:35:09.000",
+            "count": "50"
+          },
+          {
+            "item": "2009-11-13T09:09:47.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-07-09T11:07:33.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-07-15T16:02:37.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-07-29T14:52:45.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-10-27T15:34:13.000",
+            "count": "50"
+          },
+          {
+            "item": "2011-03-07T10:10:49.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-09-28T15:13:05.000",
+            "count": "50"
+          },
+          {
+            "item": "2009-10-15T12:58:18.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-08-27T15:08:45.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-08-12T13:19:43.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-11-01T07:58:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2010-08-02T16:18:36.000",
+            "count": "50"
+          }
+        ],
+        "smallest": "2009-09-11T09:22:53.000",
+        "count": "2448603",
+        "cardinality": "1441604"
+      }
+    },
+    {
+      "field_name": "location",
+      "display_name": "LOCATION",
+      "data_type": "location",
+      "width": 196,
+      "position": 20
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "COMMUNITY BOARD",
+      "data_type": "text",
+      "description": "",
+      "position": 21,
+      "cached_contents": {
+        "non_null": "2381164",
+        "largest": "95",
+        "null": "67439",
+        "top": [
+          {
+            "item": "3",
+            "count": "400248"
+          },
+          {
+            "item": "4",
+            "count": "338150"
+          },
+          {
+            "item": "7",
+            "count": "214153"
+          },
+          {
+            "item": "5",
+            "count": "204712"
+          },
+          {
+            "item": "6",
+            "count": "163424"
+          },
+          {
+            "item": "8",
+            "count": "161244"
+          },
+          {
+            "item": "9",
+            "count": "153117"
+          },
+          {
+            "item": "2",
+            "count": "148037"
+          },
+          {
+            "item": "1",
+            "count": "142763"
+          },
+          {
+            "item": "12",
+            "count": "136734"
+          },
+          {
+            "item": "10",
+            "count": "130281"
+          },
+          {
+            "item": "11",
+            "count": "107535"
+          },
+          {
+            "item": "13",
+            "count": "18578"
+          },
+          {
+            "item": "16",
+            "count": "16108"
+          },
+          {
+            "item": "14",
+            "count": "15471"
+          },
+          {
+            "item": "17",
+            "count": "15051"
+          },
+          {
+            "item": "18",
+            "count": "8763"
+          },
+          {
+            "item": "15",
+            "count": "6594"
+          },
+          {
+            "item": "27",
+            "count": "69"
+          },
+          {
+            "item": "26",
+            "count": "49"
+          }
+        ],
+        "smallest": "1",
+        "count": "2448603",
+        "cardinality": "28"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "COUNCIL DISTRICT",
+      "data_type": "text",
+      "description": "",
+      "position": 22,
+      "cached_contents": {
+        "non_null": "2380143",
+        "largest": "9",
+        "null": "67439",
+        "top": [
+          {
+            "item": "36",
+            "count": "195374"
+          },
+          {
+            "item": "15",
+            "count": "173565"
+          },
+          {
+            "item": "9",
+            "count": "122538"
+          },
+          {
+            "item": "34",
+            "count": "115950"
+          },
+          {
+            "item": "14",
+            "count": "114145"
+          },
+          {
+            "item": "16",
+            "count": "111993"
+          },
+          {
+            "item": "37",
+            "count": "102123"
+          },
+          {
+            "item": "2",
+            "count": "97230"
+          },
+          {
+            "item": "17",
+            "count": "94762"
+          },
+          {
+            "item": "1",
+            "count": "90772"
+          },
+          {
+            "item": "3",
+            "count": "89621"
+          },
+          {
+            "item": "8",
+            "count": "85136"
+          },
+          {
+            "item": "7",
+            "count": "75877"
+          },
+          {
+            "item": "6",
+            "count": "72763"
+          },
+          {
+            "item": "35",
+            "count": "71002"
+          },
+          {
+            "item": "10",
+            "count": "63766"
+          },
+          {
+            "item": "11",
+            "count": "54238"
+          },
+          {
+            "item": "5",
+            "count": "53471"
+          },
+          {
+            "item": "4",
+            "count": "47835"
+          },
+          {
+            "item": "18",
+            "count": "44964"
+          }
+        ],
+        "smallest": "1",
+        "count": "2448603",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "CENSUS TRACT",
+      "data_type": "text",
+      "description": "",
+      "position": 23,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "",
+      "position": 24,
+      "cached_contents": {
+        "non_null": "2364550",
+        "largest": "5799504",
+        "null": "84053",
+        "top": [
+          {
+            "item": "2000000",
+            "count": "43895"
+          },
+          {
+            "item": "1000000",
+            "count": "28614"
+          },
+          {
+            "item": "3000000",
+            "count": "27728"
+          },
+          {
+            "item": "4000000",
+            "count": "4761"
+          },
+          {
+            "item": "5000000",
+            "count": "2678"
+          },
+          {
+            "item": "1089325",
+            "count": "453"
+          },
+          {
+            "item": "1004688",
+            "count": "314"
+          },
+          {
+            "item": "1075790",
+            "count": "297"
+          },
+          {
+            "item": "1079269",
+            "count": "292"
+          },
+          {
+            "item": "1079146",
+            "count": "247"
+          },
+          {
+            "item": "2002856",
+            "count": "245"
+          },
+          {
+            "item": "1064957",
+            "count": "236"
+          },
+          {
+            "item": "1062162",
+            "count": "230"
+          },
+          {
+            "item": "2007486",
+            "count": "225"
+          },
+          {
+            "item": "1004419",
+            "count": "225"
+          },
+          {
+            "item": "3000256",
+            "count": "222"
+          },
+          {
+            "item": "4029537",
+            "count": "216"
+          },
+          {
+            "item": "2109662",
+            "count": "216"
+          },
+          {
+            "item": "2003072",
+            "count": "212"
+          },
+          {
+            "item": "1004469",
+            "count": "209"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "2448603",
+        "cardinality": "307220"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "",
+      "position": 25,
+      "cached_contents": {
+        "non_null": "2446710",
+        "largest": "Initial",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "1739269"
+          },
+          {
+            "item": "Compliance",
+            "count": "366552"
+          },
+          {
+            "item": "BAIT",
+            "count": "340889"
+          }
+        ],
+        "smallest": "BAIT",
+        "count": "2448603",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": ":@computed_region_92fq_4b7q",
+      "display_name": "City Council Districts",
+      "data_type": "number",
+      "position": 26
+    },
+    {
+      "field_name": ":@computed_region_f5dn_yrer",
+      "display_name": "Community Districts",
+      "data_type": "number",
+      "position": 27
+    },
+    {
+      "field_name": ":@computed_region_yeji_bk3q",
+      "display_name": "Borough Boundaries",
+      "data_type": "number",
+      "position": 28
+    },
+    {
+      "field_name": ":@computed_region_efsh_h5xi",
+      "display_name": "Zip Codes",
+      "data_type": "number",
+      "position": 29
+    },
+    {
+      "field_name": ":@computed_region_sbqj_enih",
+      "display_name": "Police Precincts",
+      "data_type": "number",
+      "position": 30
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:22.877342"
+}

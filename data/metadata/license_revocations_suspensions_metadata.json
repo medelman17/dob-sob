@@ -1,0 +1,578 @@
+{
+  "dataset_id": "rpeq-j89e",
+  "name": "License Revocations, Suspensions, Surrenders, and Reinstatements",
+  "description": "<b>NOTE:</b> This dataset reflects data as of 7/21/2023. The Department of Consumer and Worker Protection (DCWP) is working on an updated version of this dataset.\n\nThis dataset features DCWP licenses that have been revoked, suspended, or surrendered as well as licenses that have been reinstated, if applicable.</br></p>\n\nLicenses can be suspended or revoked for several reasons including, an order by the Office of Administrative Trials and Hearings; non-payment of fines and/or fees; or not maintaining a license requirement such as a current driver\u2019s license or insurance coverage.\n\nLicenses are typically surrendered when a business closes, changes ownership, changes location, changes business name, or discontinues the activity that required the license.</br>\n\nLicenses can be reinstated based on appeal of a revocation, expiration of a suspension, or new application after surrendering it.</br>\n\nEach record in the dataset represents a time that a license was revoked, suspended, surrendered, or reinstated so a license can appear more than once.\n\nThis dataset can be linked to other DCA datasets using the DCA License Number column. This dataset cannot be linked to an administrative hearing decision or provide a specific reason for the change in status.",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "license",
+    "revoked",
+    "suspended",
+    "surrendered",
+    "reinstated",
+    "business",
+    "individual",
+    "category",
+    "adjudication"
+  ],
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2018-12-12T20:20:18",
+  "updated_at": "2023-10-11T13:44:49",
+  "row_count": 1697031889,
+  "column_count": 7,
+  "download_count": 3451,
+  "view_count": 3409,
+  "columns": [
+    {
+      "field_name": "dca_license_number",
+      "display_name": "DCA License Number",
+      "data_type": "text",
+      "description": "An identification number issued to businesses/individuals to operate legally for the duration of their license term or until the license is revoked.",
+      "position": 1,
+      "cached_contents": {
+        "largest": "2113049-DCA",
+        "non_null": "34806",
+        "null": "0",
+        "top": [
+          {
+            "item": "2036752-1-DCA",
+            "count": "14"
+          },
+          {
+            "item": "2004734-1183-DCA",
+            "count": "13"
+          },
+          {
+            "item": "2066139-1-DCA",
+            "count": "11"
+          },
+          {
+            "item": "2038460-DCA",
+            "count": "10"
+          },
+          {
+            "item": "2025638-2-DCA",
+            "count": "10"
+          },
+          {
+            "item": "1371961-DCA",
+            "count": "9"
+          },
+          {
+            "item": "1473580-DCA",
+            "count": "9"
+          },
+          {
+            "item": "1043202-DCA",
+            "count": "9"
+          },
+          {
+            "item": "1459574-DCA",
+            "count": "9"
+          },
+          {
+            "item": "1455248-DCA",
+            "count": "9"
+          },
+          {
+            "item": "2053718-2-DCA",
+            "count": "9"
+          },
+          {
+            "item": "2065785-1-DCA",
+            "count": "9"
+          },
+          {
+            "item": "2000293-2-DCA",
+            "count": "8"
+          },
+          {
+            "item": "2066048-1-DCA",
+            "count": "8"
+          },
+          {
+            "item": "1350463-DCA",
+            "count": "8"
+          },
+          {
+            "item": "1402216-DCA",
+            "count": "8"
+          },
+          {
+            "item": "1471267-DCA",
+            "count": "8"
+          },
+          {
+            "item": "1385126-DCA",
+            "count": "8"
+          },
+          {
+            "item": "1422669-DCA",
+            "count": "8"
+          },
+          {
+            "item": "2007737-DCA",
+            "count": "8"
+          }
+        ],
+        "smallest": "0010699-DCA",
+        "not_null": "28255",
+        "count": "34806",
+        "cardinality": "27499"
+      }
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "The legal business name as filed with the New York State Secretary of State or County Clerk or, if an Individual license, the individual's first name and last name.",
+      "position": 2,
+      "cached_contents": {
+        "largest": "ZZZ CARPENTRY, INC.",
+        "non_null": "31339",
+        "null": "3467",
+        "top": [
+          {
+            "item": "T-MOBILE NORTHEAST LLC",
+            "count": "310"
+          },
+          {
+            "item": "OMNIPOINT COMMUNICATIONS INC.",
+            "count": "106"
+          },
+          {
+            "item": "CENTRAL PARKING SYSTEM OF NEW YORK,INC.",
+            "count": "81"
+          },
+          {
+            "item": "PAY-O-MATIC CHECK CASHING CORP.",
+            "count": "78"
+          },
+          {
+            "item": "SP PLUS CORPORATION",
+            "count": "78"
+          },
+          {
+            "item": "FAMILY DOLLAR STORES OF NEW YORK, INC.",
+            "count": "72"
+          },
+          {
+            "item": "NEW CINGULAR WIRELESS PCS, LLC",
+            "count": "68"
+          },
+          {
+            "item": "CVS ALBANY, L.L.C",
+            "count": "66"
+          },
+          {
+            "item": "RITE AID OF NEW YORK, INC.",
+            "count": "60"
+          },
+          {
+            "item": "NCO FINANCIAL SYSTEMS, INC.",
+            "count": "45"
+          },
+          {
+            "item": "GAMESTOP, INC.",
+            "count": "43"
+          },
+          {
+            "item": "TRANSWORLD SYSTEMS INC.",
+            "count": "35"
+          },
+          {
+            "item": "HESS CORPORATION",
+            "count": "35"
+          },
+          {
+            "item": "RADIOSHACK CORPORATION",
+            "count": "35"
+          },
+          {
+            "item": "CELLULAR RETAIL LLC",
+            "count": "28"
+          },
+          {
+            "item": "RENT-A-CENTER EAST, INC.",
+            "count": "25"
+          },
+          {
+            "item": "AT&T MOBILITY SUPPLY, LLC",
+            "count": "24"
+          },
+          {
+            "item": "ALLIED INTERSTATE LLC",
+            "count": "22"
+          },
+          {
+            "item": "SPRINT SPECTRUM L.P.",
+            "count": "21"
+          },
+          {
+            "item": "HUDSON GROUP (HG) RETAIL, LLC",
+            "count": "21"
+          }
+        ],
+        "smallest": "100-07 ROCKAWAY PETROLEUM INC.",
+        "not_null": "25644",
+        "count": "34806",
+        "cardinality": "20917"
+      }
+    },
+    {
+      "field_name": "business_name_2",
+      "display_name": "Business Name 2",
+      "data_type": "text",
+      "description": "If applicable, the Doing-Business-As (DBA) or trade name.",
+      "position": 3,
+      "cached_contents": {
+        "largest": "Z & Z LAUNDROMAT",
+        "non_null": "8556",
+        "null": "26250",
+        "top": [
+          {
+            "item": "T-MOBILE",
+            "count": "197"
+          },
+          {
+            "item": "T-Mobile",
+            "count": "144"
+          },
+          {
+            "item": "AT&T MOBILITY",
+            "count": "85"
+          },
+          {
+            "item": "AT&T Mobility",
+            "count": "42"
+          },
+          {
+            "item": "HUDSON NEWS",
+            "count": "39"
+          },
+          {
+            "item": "T-Mobile 4110",
+            "count": "26"
+          },
+          {
+            "item": "CINGULAR WIRELESS",
+            "count": "25"
+          },
+          {
+            "item": "RMS",
+            "count": "15"
+          },
+          {
+            "item": "RADIOSHACK CORPORATION",
+            "count": "15"
+          },
+          {
+            "item": "METRO PCS",
+            "count": "13"
+          },
+          {
+            "item": "BAREBURGER",
+            "count": "12"
+          },
+          {
+            "item": "BOOST MOBILE",
+            "count": "12"
+          },
+          {
+            "item": "CENTRAL PARKING SYSTEM",
+            "count": "12"
+          },
+          {
+            "item": "T-MOBILE # 8154",
+            "count": "12"
+          },
+          {
+            "item": "IMPARK",
+            "count": "12"
+          },
+          {
+            "item": "STAPLES THE OFFICE SUPERSTORE",
+            "count": "12"
+          },
+          {
+            "item": "AG KITCHEN",
+            "count": "11"
+          },
+          {
+            "item": "GGMC",
+            "count": "10"
+          },
+          {
+            "item": "Sprint",
+            "count": "10"
+          },
+          {
+            "item": "PATRONS GROCERY",
+            "count": "9"
+          }
+        ],
+        "smallest": "-",
+        "not_null": "7534",
+        "count": "34806",
+        "cardinality": "5887"
+      }
+    },
+    {
+      "field_name": "industry",
+      "display_name": "Industry",
+      "data_type": "text",
+      "description": "The category of business activity that requires a DCA license. ",
+      "position": 4,
+      "cached_contents": {
+        "largest": "Tow Truck Exemption",
+        "non_null": "34806",
+        "null": "0",
+        "top": [
+          {
+            "item": "Tobacco Retail Dealer",
+            "count": "12562"
+          },
+          {
+            "item": "Home Improvement Contractor",
+            "count": "2668"
+          },
+          {
+            "item": "Electronics Store",
+            "count": "2433"
+          },
+          {
+            "item": "Secondhand Dealer - General",
+            "count": "2067"
+          },
+          {
+            "item": "Sidewalk Cafe",
+            "count": "1727"
+          },
+          {
+            "item": "Stoop Line Stand",
+            "count": "1590"
+          },
+          {
+            "item": "Tow Truck Driver",
+            "count": "1544"
+          },
+          {
+            "item": "Tow Truck Company",
+            "count": "928"
+          },
+          {
+            "item": "Home Improvement Salesperson",
+            "count": "863"
+          },
+          {
+            "item": "Debt Collection Agency",
+            "count": "814"
+          },
+          {
+            "item": "Laundries",
+            "count": "782"
+          },
+          {
+            "item": "Electronic & Appliance Service",
+            "count": "757"
+          },
+          {
+            "item": "Garage",
+            "count": "750"
+          },
+          {
+            "item": "Laundry",
+            "count": "692"
+          },
+          {
+            "item": "Electronic Cigarette Dealer",
+            "count": "634"
+          },
+          {
+            "item": "Secondhand Dealer - Auto",
+            "count": "624"
+          },
+          {
+            "item": "Process Server Individual",
+            "count": "488"
+          },
+          {
+            "item": "Laundry Jobber",
+            "count": "411"
+          },
+          {
+            "item": "Parking Lot",
+            "count": "391"
+          },
+          {
+            "item": "Employment Agency",
+            "count": "284"
+          }
+        ],
+        "smallest": "Amusement Arcade",
+        "not_null": "28255",
+        "count": "34806",
+        "cardinality": "59"
+      }
+    },
+    {
+      "field_name": "event_type",
+      "display_name": "Event Type",
+      "data_type": "text",
+      "description": "Indicates if the license was suspended, revoked, surrendered, or reinstated; Suspended Revoked Surrendered Reinstated",
+      "position": 5,
+      "cached_contents": {
+        "largest": "Suspended",
+        "non_null": "34806",
+        "null": "0",
+        "top": [
+          {
+            "item": "Surrendered",
+            "count": "14426"
+          },
+          {
+            "item": "Suspended",
+            "count": "10347"
+          },
+          {
+            "item": "Revoked",
+            "count": "5800"
+          },
+          {
+            "item": "Reinstated",
+            "count": "4233"
+          }
+        ],
+        "smallest": "Reinstated",
+        "not_null": "28255",
+        "count": "34806",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "event_date",
+      "display_name": "Event Date",
+      "data_type": "calendar_date",
+      "description": "Date when the license was suspended, revoked, surrendered, or reinstated.",
+      "position": 6,
+      "cached_contents": {
+        "largest": "2023-07-21T00:00:00.000",
+        "non_null": "34806",
+        "null": "0",
+        "top": [
+          {
+            "item": "2022-10-19T00:00:00.000",
+            "count": "888"
+          },
+          {
+            "item": "2018-12-08T00:00:00.000",
+            "count": "75"
+          },
+          {
+            "item": "2016-12-29T00:00:00.000",
+            "count": "71"
+          },
+          {
+            "item": "2017-12-07T00:00:00.000",
+            "count": "70"
+          },
+          {
+            "item": "2019-01-08T00:00:00.000",
+            "count": "65"
+          },
+          {
+            "item": "2017-01-05T00:00:00.000",
+            "count": "65"
+          },
+          {
+            "item": "2016-12-27T00:00:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2016-12-30T00:00:00.000",
+            "count": "54"
+          },
+          {
+            "item": "2013-05-23T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2014-08-15T00:00:00.000",
+            "count": "52"
+          },
+          {
+            "item": "2016-04-13T00:00:00.000",
+            "count": "51"
+          },
+          {
+            "item": "2017-05-10T00:00:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2018-03-20T00:00:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2019-01-09T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2017-12-09T00:00:00.000",
+            "count": "47"
+          },
+          {
+            "item": "2018-02-22T00:00:00.000",
+            "count": "47"
+          },
+          {
+            "item": "2019-01-07T00:00:00.000",
+            "count": "46"
+          },
+          {
+            "item": "2009-12-08T00:00:00.000",
+            "count": "46"
+          },
+          {
+            "item": "2017-12-08T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2017-02-03T00:00:00.000",
+            "count": "40"
+          }
+        ],
+        "smallest": "1988-12-12T00:00:00.000",
+        "not_null": "28255",
+        "count": "34806",
+        "cardinality": "5631"
+      }
+    },
+    {
+      "field_name": "status",
+      "display_name": "Status",
+      "data_type": "text",
+      "description": "The status of the license as of the data extract date; Active/Inactive",
+      "position": 7,
+      "cached_contents": {
+        "largest": "Inactive",
+        "non_null": "34806",
+        "null": "0",
+        "top": [
+          {
+            "item": "Inactive",
+            "count": "32558"
+          },
+          {
+            "item": "Active",
+            "count": "2248"
+          }
+        ],
+        "smallest": "Active",
+        "not_null": "28255",
+        "count": "34806",
+        "cardinality": "2"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.363221"
+}

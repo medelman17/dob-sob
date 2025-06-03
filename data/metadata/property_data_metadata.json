@@ -1,0 +1,859 @@
+{
+  "dataset_id": "e98g-f8hy",
+  "name": "Property Data (Buildings Information System)",
+  "description": "Do not use this dataset. It does not actually provide Property Data in its current form. We are working on improvements to the dataset to more accurately reflect its title and original intent.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "property",
+    "building",
+    "jurisdiction",
+    "clean web"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2011-10-20T18:03:22",
+  "updated_at": "2015-02-02T20:47:39",
+  "row_count": 1422910059,
+  "column_count": 11,
+  "download_count": 8792,
+  "view_count": 38101,
+  "columns": [
+    {
+      "field_name": "permit_bin",
+      "display_name": "Permit BIN",
+      "data_type": "number",
+      "format": "standard",
+      "width": 220,
+      "position": 1,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "96963",
+        "average": "2422361.027959118",
+        "largest": "5863723",
+        "null": "0",
+        "top": [
+          {
+            "item": "1082908",
+            "count": "282"
+          },
+          {
+            "item": "1015862",
+            "count": "136"
+          },
+          {
+            "item": "1035348",
+            "count": "98"
+          },
+          {
+            "item": "1085694",
+            "count": "95"
+          },
+          {
+            "item": "1067973",
+            "count": "90"
+          },
+          {
+            "item": "1085867",
+            "count": "89"
+          },
+          {
+            "item": "1076262",
+            "count": "83"
+          },
+          {
+            "item": "1014387",
+            "count": "78"
+          },
+          {
+            "item": "1034196",
+            "count": "75"
+          },
+          {
+            "item": "1036460",
+            "count": "71"
+          },
+          {
+            "item": "1057155",
+            "count": "71"
+          },
+          {
+            "item": "1085735",
+            "count": "68"
+          },
+          {
+            "item": "1034520",
+            "count": "68"
+          },
+          {
+            "item": "1035421",
+            "count": "67"
+          },
+          {
+            "item": "1024812",
+            "count": "65"
+          },
+          {
+            "item": "1035335",
+            "count": "62"
+          },
+          {
+            "item": "1036082",
+            "count": "61"
+          },
+          {
+            "item": "1002357",
+            "count": "59"
+          },
+          {
+            "item": "1083860",
+            "count": "57"
+          },
+          {
+            "item": "1043871",
+            "count": "56"
+          }
+        ],
+        "smallest": "1000003",
+        "count": "96963",
+        "sum": "234879392354",
+        "cardinality": "34167"
+      }
+    },
+    {
+      "field_name": "permit_application_job_number",
+      "display_name": "Permit Application Job Number",
+      "data_type": "number",
+      "format": "standard",
+      "width": 448,
+      "position": 2,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "96963",
+        "average": "245550626.5938451",
+        "largest": "520078870",
+        "null": "0",
+        "top": [
+          {
+            "item": "302330948",
+            "count": "11"
+          },
+          {
+            "item": "420091796",
+            "count": "11"
+          },
+          {
+            "item": "201025808",
+            "count": "10"
+          },
+          {
+            "item": "103887849",
+            "count": "10"
+          },
+          {
+            "item": "500769297",
+            "count": "10"
+          },
+          {
+            "item": "310020456",
+            "count": "9"
+          },
+          {
+            "item": "320095222",
+            "count": "9"
+          },
+          {
+            "item": "302331037",
+            "count": "9"
+          },
+          {
+            "item": "302330957",
+            "count": "9"
+          },
+          {
+            "item": "110450271",
+            "count": "9"
+          },
+          {
+            "item": "120539079",
+            "count": "9"
+          },
+          {
+            "item": "320032219",
+            "count": "9"
+          },
+          {
+            "item": "302330993",
+            "count": "8"
+          },
+          {
+            "item": "402880450",
+            "count": "8"
+          },
+          {
+            "item": "302160998",
+            "count": "8"
+          },
+          {
+            "item": "320189602",
+            "count": "8"
+          },
+          {
+            "item": "302347155",
+            "count": "8"
+          },
+          {
+            "item": "302330984",
+            "count": "8"
+          },
+          {
+            "item": "302331108",
+            "count": "8"
+          },
+          {
+            "item": "320189648",
+            "count": "8"
+          }
+        ],
+        "smallest": "100052194",
+        "count": "96963",
+        "sum": "23809325406419",
+        "cardinality": "63473"
+      }
+    },
+    {
+      "field_name": "permit_application_document_number",
+      "display_name": "Permit Application Document Number",
+      "data_type": "number",
+      "width": 508,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "96963",
+        "average": "1.133999566845085",
+        "largest": "9",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "86761"
+          },
+          {
+            "item": "2",
+            "count": "8021"
+          },
+          {
+            "item": "3",
+            "count": "1761"
+          },
+          {
+            "item": "4",
+            "count": "302"
+          },
+          {
+            "item": "5",
+            "count": "75"
+          },
+          {
+            "item": "6",
+            "count": "21"
+          },
+          {
+            "item": "7",
+            "count": "16"
+          },
+          {
+            "item": "8",
+            "count": "5"
+          },
+          {
+            "item": "9",
+            "count": "1"
+          }
+        ],
+        "smallest": "1",
+        "count": "96963",
+        "sum": "109956",
+        "cardinality": "9"
+      }
+    },
+    {
+      "field_name": "permit_application_job_type",
+      "display_name": "Permit Application Job Type",
+      "data_type": "text",
+      "width": 424,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "SG",
+        "null": "0",
+        "top": [
+          {
+            "item": "A2",
+            "count": "60692"
+          },
+          {
+            "item": "A3",
+            "count": "13604"
+          },
+          {
+            "item": "NB",
+            "count": "10203"
+          },
+          {
+            "item": "A1",
+            "count": "9962"
+          },
+          {
+            "item": "SG",
+            "count": "2020"
+          },
+          {
+            "item": "DM",
+            "count": "482"
+          }
+        ],
+        "smallest": "A1",
+        "count": "96963",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "permit_type",
+      "display_name": "Permit Type",
+      "data_type": "text",
+      "width": 232,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "SG",
+        "null": "0",
+        "top": [
+          {
+            "item": "EW",
+            "count": "41293"
+          },
+          {
+            "item": "PL",
+            "count": "24189"
+          },
+          {
+            "item": "EQ",
+            "count": "17307"
+          },
+          {
+            "item": "AL",
+            "count": "6645"
+          },
+          {
+            "item": "NB",
+            "count": "3865"
+          },
+          {
+            "item": "SG",
+            "count": "2017"
+          },
+          {
+            "item": "FO",
+            "count": "1390"
+          },
+          {
+            "item": "DM",
+            "count": "257"
+          }
+        ],
+        "smallest": "AL",
+        "count": "96963",
+        "cardinality": "8"
+      }
+    },
+    {
+      "field_name": "permit_subtype",
+      "display_name": "Permit SubType",
+      "data_type": "text",
+      "width": 268,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "SP",
+        "null": "0",
+        "top": [
+          {
+            "item": "  ",
+            "count": "37660"
+          },
+          {
+            "item": "OT",
+            "count": "24196"
+          },
+          {
+            "item": "MH",
+            "count": "7261"
+          },
+          {
+            "item": "FN",
+            "count": "7097"
+          },
+          {
+            "item": "SH",
+            "count": "6780"
+          },
+          {
+            "item": "SP",
+            "count": "4901"
+          },
+          {
+            "item": "SF",
+            "count": "2666"
+          },
+          {
+            "item": "BL",
+            "count": "2031"
+          },
+          {
+            "item": "FP",
+            "count": "1522"
+          },
+          {
+            "item": "FB",
+            "count": "811"
+          },
+          {
+            "item": "SD",
+            "count": "721"
+          },
+          {
+            "item": "EA",
+            "count": "703"
+          },
+          {
+            "item": "FS",
+            "count": "561"
+          },
+          {
+            "item": "CH",
+            "count": "53"
+          }
+        ],
+        "smallest": "  ",
+        "count": "96963",
+        "cardinality": "14"
+      }
+    },
+    {
+      "field_name": "permit_status_description",
+      "display_name": "Permit Status Description",
+      "data_type": "text",
+      "width": 400,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "PERMIT REISSUED                         ",
+        "null": "0",
+        "top": [
+          {
+            "item": "PERMIT ISSUED                           ",
+            "count": "96269"
+          },
+          {
+            "item": "PERMIT REISSUED                         ",
+            "count": "694"
+          }
+        ],
+        "smallest": "PERMIT ISSUED                           ",
+        "count": "96963",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "permit_sequence_number",
+      "display_name": "Permit Sequence Number",
+      "data_type": "number",
+      "width": 364,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "96963",
+        "average": "1.706836628404649",
+        "largest": "24",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "61416"
+          },
+          {
+            "item": "2",
+            "count": "21066"
+          },
+          {
+            "item": "3",
+            "count": "7062"
+          },
+          {
+            "item": "4",
+            "count": "3133"
+          },
+          {
+            "item": "5",
+            "count": "1787"
+          },
+          {
+            "item": "6",
+            "count": "929"
+          },
+          {
+            "item": "7",
+            "count": "599"
+          },
+          {
+            "item": "8",
+            "count": "359"
+          },
+          {
+            "item": "9",
+            "count": "221"
+          },
+          {
+            "item": "10",
+            "count": "114"
+          },
+          {
+            "item": "11",
+            "count": "90"
+          },
+          {
+            "item": "12",
+            "count": "76"
+          },
+          {
+            "item": "13",
+            "count": "42"
+          },
+          {
+            "item": "14",
+            "count": "25"
+          },
+          {
+            "item": "15",
+            "count": "16"
+          },
+          {
+            "item": "17",
+            "count": "10"
+          },
+          {
+            "item": "16",
+            "count": "9"
+          },
+          {
+            "item": "19",
+            "count": "3"
+          },
+          {
+            "item": "20",
+            "count": "2"
+          },
+          {
+            "item": "18",
+            "count": "2"
+          }
+        ],
+        "smallest": "1",
+        "count": "96963",
+        "sum": "165500",
+        "cardinality": "22"
+      }
+    },
+    {
+      "field_name": "permit_status_date",
+      "display_name": "Permit Status Date",
+      "data_type": "calendar_date",
+      "width": 316,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "2011-09-30T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2011-09-15T00:00:00.000",
+            "count": "733"
+          },
+          {
+            "item": "2011-03-31T00:00:00.000",
+            "count": "678"
+          },
+          {
+            "item": "2011-09-09T00:00:00.000",
+            "count": "665"
+          },
+          {
+            "item": "2011-08-31T00:00:00.000",
+            "count": "661"
+          },
+          {
+            "item": "2011-03-30T00:00:00.000",
+            "count": "645"
+          },
+          {
+            "item": "2011-09-27T00:00:00.000",
+            "count": "638"
+          },
+          {
+            "item": "2011-07-26T00:00:00.000",
+            "count": "631"
+          },
+          {
+            "item": "2011-06-28T00:00:00.000",
+            "count": "626"
+          },
+          {
+            "item": "2011-07-01T00:00:00.000",
+            "count": "617"
+          },
+          {
+            "item": "2011-07-28T00:00:00.000",
+            "count": "613"
+          },
+          {
+            "item": "2011-09-16T00:00:00.000",
+            "count": "607"
+          },
+          {
+            "item": "2011-09-01T00:00:00.000",
+            "count": "607"
+          },
+          {
+            "item": "2011-09-20T00:00:00.000",
+            "count": "600"
+          },
+          {
+            "item": "2011-04-01T00:00:00.000",
+            "count": "595"
+          },
+          {
+            "item": "2011-03-24T00:00:00.000",
+            "count": "594"
+          },
+          {
+            "item": "2011-08-24T00:00:00.000",
+            "count": "593"
+          },
+          {
+            "item": "2011-09-13T00:00:00.000",
+            "count": "587"
+          },
+          {
+            "item": "2011-09-21T00:00:00.000",
+            "count": "587"
+          },
+          {
+            "item": "2011-08-09T00:00:00.000",
+            "count": "586"
+          },
+          {
+            "item": "2011-08-11T00:00:00.000",
+            "count": "584"
+          }
+        ],
+        "smallest": "2002-05-23T00:00:00.000",
+        "count": "96963",
+        "cardinality": "300"
+      }
+    },
+    {
+      "field_name": "permit_issuance_date",
+      "display_name": "Permit Issuance Date",
+      "data_type": "calendar_date",
+      "width": 340,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "96963",
+        "largest": "2011-09-30T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2011-09-15T00:00:00.000",
+            "count": "729"
+          },
+          {
+            "item": "2011-03-31T00:00:00.000",
+            "count": "679"
+          },
+          {
+            "item": "2011-09-09T00:00:00.000",
+            "count": "665"
+          },
+          {
+            "item": "2011-08-31T00:00:00.000",
+            "count": "660"
+          },
+          {
+            "item": "2011-03-30T00:00:00.000",
+            "count": "647"
+          },
+          {
+            "item": "2011-09-27T00:00:00.000",
+            "count": "639"
+          },
+          {
+            "item": "2011-07-26T00:00:00.000",
+            "count": "627"
+          },
+          {
+            "item": "2011-07-01T00:00:00.000",
+            "count": "617"
+          },
+          {
+            "item": "2011-07-28T00:00:00.000",
+            "count": "612"
+          },
+          {
+            "item": "2011-09-01T00:00:00.000",
+            "count": "610"
+          },
+          {
+            "item": "2011-09-16T00:00:00.000",
+            "count": "606"
+          },
+          {
+            "item": "2011-04-01T00:00:00.000",
+            "count": "598"
+          },
+          {
+            "item": "2011-09-20T00:00:00.000",
+            "count": "598"
+          },
+          {
+            "item": "2011-03-24T00:00:00.000",
+            "count": "595"
+          },
+          {
+            "item": "2011-08-24T00:00:00.000",
+            "count": "589"
+          },
+          {
+            "item": "2011-09-13T00:00:00.000",
+            "count": "588"
+          },
+          {
+            "item": "2011-08-09T00:00:00.000",
+            "count": "587"
+          },
+          {
+            "item": "2011-09-21T00:00:00.000",
+            "count": "585"
+          },
+          {
+            "item": "2011-08-11T00:00:00.000",
+            "count": "583"
+          },
+          {
+            "item": "2011-09-22T00:00:00.000",
+            "count": "580"
+          }
+        ],
+        "smallest": "2002-05-23T00:00:00.000",
+        "count": "96963",
+        "cardinality": "323"
+      }
+    },
+    {
+      "field_name": "permit_experation_date",
+      "display_name": "Permit Experation Date",
+      "data_type": "calendar_date",
+      "width": 364,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "96960",
+        "largest": "2013-08-30T00:00:00.000",
+        "null": "3",
+        "top": [
+          {
+            "item": "2012-01-01T00:00:00.000",
+            "count": "3690"
+          },
+          {
+            "item": "2012-04-01T00:00:00.000",
+            "count": "3099"
+          },
+          {
+            "item": "2011-11-01T00:00:00.000",
+            "count": "1582"
+          },
+          {
+            "item": "2012-05-01T00:00:00.000",
+            "count": "972"
+          },
+          {
+            "item": "2011-10-01T00:00:00.000",
+            "count": "939"
+          },
+          {
+            "item": "2011-12-31T00:00:00.000",
+            "count": "917"
+          },
+          {
+            "item": "2012-03-01T00:00:00.000",
+            "count": "799"
+          },
+          {
+            "item": "2011-11-04T00:00:00.000",
+            "count": "757"
+          },
+          {
+            "item": "2011-12-01T00:00:00.000",
+            "count": "666"
+          },
+          {
+            "item": "2012-02-01T00:00:00.000",
+            "count": "660"
+          },
+          {
+            "item": "2012-03-29T00:00:00.000",
+            "count": "589"
+          },
+          {
+            "item": "2012-03-31T00:00:00.000",
+            "count": "575"
+          },
+          {
+            "item": "2011-12-22T00:00:00.000",
+            "count": "536"
+          },
+          {
+            "item": "2012-06-01T00:00:00.000",
+            "count": "527"
+          },
+          {
+            "item": "2012-02-25T00:00:00.000",
+            "count": "514"
+          },
+          {
+            "item": "2012-03-28T00:00:00.000",
+            "count": "511"
+          },
+          {
+            "item": "2012-03-30T00:00:00.000",
+            "count": "497"
+          },
+          {
+            "item": "2012-03-23T00:00:00.000",
+            "count": "492"
+          },
+          {
+            "item": "2012-06-30T00:00:00.000",
+            "count": "491"
+          },
+          {
+            "item": "2012-02-24T00:00:00.000",
+            "count": "488"
+          }
+        ],
+        "smallest": "2011-10-01T00:00:00.000",
+        "count": "96963",
+        "cardinality": "374"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:57.697546"
+}

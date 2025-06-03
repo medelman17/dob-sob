@@ -1,0 +1,138 @@
+{
+  "dataset_id": "j4ee-hb95",
+  "name": "NYCDPR Safety Boiler",
+  "description": "Annual compliance filings for high and low pressure boilers installed in buildings.\r\n\r\nThe Department of Buildings\u2019 Boiler Unit oversees the installation and operation of New York City\u2019s boilers. Property owners are responsible for ensuring that their boilers operate safely and are in compliance with the Building Code and all related regulations.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "boiler",
+    "pressure",
+    "inspection",
+    "compliance"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2021-03-11T09:08:54",
+  "updated_at": "2025-06-03T19:46:42",
+  "row_count": 1748980002,
+  "column_count": 14,
+  "download_count": 13,
+  "view_count": 509,
+  "columns": [
+    {
+      "field_name": "tracking_number",
+      "display_name": "Tracking Number",
+      "data_type": "text",
+      "description": "The tracking number for the boiler compliance filing.",
+      "width": 280,
+      "position": 1
+    },
+    {
+      "field_name": "bin_number",
+      "display_name": "Bin Number",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 2,
+      "default_value": "true"
+    },
+    {
+      "field_name": "boiler_id",
+      "display_name": "Boiler ID",
+      "data_type": "text",
+      "description": "The identification number for the Boiler. It's a combination of the Borough code, the DOB device number, the multiple dwelling flag, and the serial number.",
+      "width": 208,
+      "position": 3
+    },
+    {
+      "field_name": "report_type",
+      "display_name": "Report Type",
+      "data_type": "text",
+      "description": "The type of compliance filing.     Expected values:\n\u2022 Initial = the initial boiler compliance filing for this device in this inspection cycle\n\u2022 Subsequent = a subsequent filing is submitted to correct defects on a previous filing.",
+      "width": 232,
+      "position": 4
+    },
+    {
+      "field_name": "applicantfirst_name",
+      "display_name": "ApplicantFirst Name",
+      "data_type": "text",
+      "description": "First name of the person who filed the application",
+      "width": 328,
+      "position": 5
+    },
+    {
+      "field_name": "applicant_last_name",
+      "display_name": "Applicant Last Name",
+      "data_type": "text",
+      "description": "Last name of the person who filed the application.",
+      "width": 328,
+      "position": 6
+    },
+    {
+      "field_name": "applicant_license_type",
+      "display_name": "Applicant License Type",
+      "data_type": "text",
+      "description": "The license type that the applicant used to file the application.\n\nExpected values:\n\u2022 BB = Insurance Agency Inspector Certified by NYS\n\u2022 E = High Pressure Boiler Operator\n\u2022 O = Oil Burner Installer\n\u2022 P = Master Plumber",
+      "width": 364,
+      "position": 7
+    },
+    {
+      "field_name": "boiler_make",
+      "display_name": "Boiler Make",
+      "data_type": "text",
+      "description": "The manufacturer of the boiler.",
+      "width": 232,
+      "position": 8
+    },
+    {
+      "field_name": "boiler_model",
+      "display_name": "Boiler Model",
+      "data_type": "text",
+      "description": "The model of the boiler.",
+      "width": 244,
+      "position": 9
+    },
+    {
+      "field_name": "pressure_type",
+      "display_name": "Pressure Type",
+      "data_type": "text",
+      "description": "The type of boiler: either low or high pressure.",
+      "width": 256,
+      "position": 10
+    },
+    {
+      "field_name": "inspection_type",
+      "display_name": "Inspection Type",
+      "data_type": "text",
+      "description": "Low pressure boilers only require an external inspection. High pressure boilers require both an external and an internal inspection.\n\n\nExpected values:\n\u2022 Internal = inspection by DOB staff\n\u2022 External = inspection performed by an inspector hired by the building owner.\n",
+      "width": 280,
+      "position": 11
+    },
+    {
+      "field_name": "inspection_date",
+      "display_name": "Inspection Date",
+      "data_type": "text",
+      "description": "Date that the boiler was inspected. Date in ISO 8601 format",
+      "width": 280,
+      "position": 12
+    },
+    {
+      "field_name": "defects_exist",
+      "display_name": "Defects Exist",
+      "data_type": "text",
+      "description": "This indicates if any defects were found during the inspection. Expected values:\n\u2022 true = Defects were found\n\u2022 false = Defects were not found",
+      "width": 256,
+      "position": 13
+    },
+    {
+      "field_name": "report_status",
+      "display_name": "Report Status",
+      "data_type": "text",
+      "description": "Work Flow Status for the life cycle of the filing. Expected Values: Pre-Filing, QA Review, Rejected, Accepted",
+      "width": 100,
+      "position": 14
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:01.583192"
+}

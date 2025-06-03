@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "total_datasets": 20,
+    "successful_downloads": 19,
+    "failed_downloads": 1,
+    "success_rate": "95.0%",
+    "generated_at": "2025-06-03T21:49:24.900904"
+  },
+  "successful_datasets": {
+    "evictions": {
+      "name": "Evictions",
+      "column_count": 20,
+      "row_count": 1748950731,
+      "agency": "Department of Investigation (DOI)",
+      "last_updated": "2025-06-03T11:38:51"
+    },
+    "rodent_inspection": {
+      "name": "Rodent Inspection",
+      "column_count": 30,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "dohmh_indoor_environmental_complaints": {
+      "name": "DOHMH Indoor Environmental Complaints",
+      "column_count": 19,
+      "row_count": 1748958967,
+      "agency": "Department of Health and Mental Hygiene",
+      "last_updated": "2025-06-03T13:56:07"
+    },
+    "bsa_action_portal": {
+      "name": "Board of Standards and Appeals (BSA) Action Portal",
+      "column_count": 18,
+      "row_count": 1597801951,
+      "agency": "Board of Standards and Appeals (BSA)",
+      "last_updated": "2020-08-19T01:52:31"
+    },
+    "dohmh_rodent_inspections": {
+      "name": "DOHMH Rodent Inspections",
+      "column_count": 20,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "rodent_inspection_failures": {
+      "name": "Rodent Inspection Failures - Jan 2022-present",
+      "column_count": 20,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "bsa_lot_35": {
+      "name": "BSA LOT 35",
+      "column_count": 25,
+      "row_count": 1748877636,
+      "agency": "Board of Standards and Appeals",
+      "last_updated": "2025-06-02T15:20:36"
+    },
+    "bsa_extensions": {
+      "name": "BSA_extensions",
+      "column_count": 24,
+      "row_count": 1748877636,
+      "agency": "Board of Standards and Appeals",
+      "last_updated": "2025-06-02T15:20:36"
+    },
+    "pre_application_meetings": {
+      "name": "Pre-Application Meetings",
+      "column_count": 17,
+      "row_count": 1725374920,
+      "agency": "Board of Standards and Appeals (BSA)",
+      "last_updated": "2024-09-03T14:48:40"
+    },
+    "brooklyn_basement_evictions": {
+      "name": "Brooklyn Basement Evictions",
+      "column_count": 10,
+      "row_count": 1748950731,
+      "agency": "Department of Investigation (DOI)",
+      "last_updated": "2025-06-03T11:38:51"
+    },
+    "evictions_bronx_only": {
+      "name": "Evictions Bronx Only",
+      "column_count": 20,
+      "row_count": 1748950731,
+      "agency": "Department of Investigation (DOI)",
+      "last_updated": "2025-06-03T11:38:51"
+    },
+    "liberty_rodent_inspection_report": {
+      "name": "Liberty Rodent Inspection Report",
+      "column_count": 20,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "rat_inspections_compliance_initial": {
+      "name": "rat_inspections_compliance+initial",
+      "column_count": 13,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "rodent_bbl": {
+      "name": "rodent bbl",
+      "column_count": 20,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "active_rats_all": {
+      "name": "ActiveRats_All",
+      "column_count": 13,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "active_rats_jobs": {
+      "name": "ActiveRats_Jobs",
+      "column_count": 13,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "rats_general": {
+      "name": "Rats",
+      "column_count": 20,
+      "row_count": 1748944628,
+      "agency": "Department of Health and Mental Hygiene (DOHMH)",
+      "last_updated": "2025-06-03T09:57:08"
+    },
+    "acp7_ours": {
+      "name": "ACP7-ours",
+      "column_count": 35,
+      "row_count": 1748809209,
+      "agency": "Department of Environmental Protection",
+      "last_updated": "2025-06-01T20:20:09"
+    },
+    "dep_acp7_manhattan_block_828": {
+      "name": "Copy of DEP_ACP7_MANHATTAN_BLOCK_828",
+      "column_count": 35,
+      "row_count": 1748809209,
+      "agency": "Department of Environmental Protection",
+      "last_updated": "2025-06-01T20:20:09"
+    }
+  },
+  "failed_datasets": {
+    "pest_control": "Failed to download metadata"
+  },
+  "schema_summary": {
+    "total_columns": 392,
+    "common_field_types": {
+      "text": 239,
+      "number": 114,
+      "calendar_date": 28,
+      "point": 10,
+      "location": 1
+    },
+    "datasets_by_column_count": {
+      "evictions": 20,
+      "rodent_inspection": 30,
+      "dohmh_indoor_environmental_complaints": 19,
+      "bsa_action_portal": 18,
+      "dohmh_rodent_inspections": 20,
+      "rodent_inspection_failures": 20,
+      "bsa_lot_35": 25,
+      "bsa_extensions": 24,
+      "pre_application_meetings": 17,
+      "brooklyn_basement_evictions": 10,
+      "evictions_bronx_only": 20,
+      "liberty_rodent_inspection_report": 20,
+      "rat_inspections_compliance_initial": 13,
+      "rodent_bbl": 20,
+      "active_rats_all": 13,
+      "active_rats_jobs": 13,
+      "rats_general": 20,
+      "acp7_ours": 35,
+      "dep_acp7_manhattan_block_828": 35
+    }
+  }
+}

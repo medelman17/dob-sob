@@ -1,0 +1,2141 @@
+{
+  "dataset_id": "59kj-x8nc",
+  "name": "Housing Litigations",
+  "description": "The Department of Housing Preservation and Development (HPD) Housing Litigation Division (HLD) initiates' actions in the Housing Court against owners of privately-owned buildings to enforce compliance with the housing quality standards contained in the New York State Multiple Dwelling Law and the New York City Housing Maintenance Code.  HLD attorneys also represent HPD when tenants initiate actions against private owners.  HPD is automatically named as party to such actions.  The goal of these court proceedings is to obtain enforceable Orders to Correct, Civil Penalties (fines) and Contempt Sanctions, compelling owners to comply with the Housing Code.",
+  "agency": "Department of Housing Preservation and Development (HPD)",
+  "category": "Housing & Development",
+  "tags": [
+    "litigations",
+    "department of housing preservation and development",
+    "hpd"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Housing Preservation and Development (HPD)",
+  "created_at": "2013-11-18T19:00:32",
+  "updated_at": "2025-06-01T20:23:25",
+  "row_count": 1748809405,
+  "column_count": 24,
+  "download_count": 11313,
+  "view_count": 22017,
+  "columns": [
+    {
+      "field_name": "litigationid",
+      "display_name": "LitigationID",
+      "data_type": "number",
+      "description": "Unique number identifying the case\n",
+      "format": "standard",
+      "width": 142,
+      "position": 1,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "483966",
+        "null": "0",
+        "top": [
+          {
+            "item": "17",
+            "count": "1"
+          },
+          {
+            "item": "22",
+            "count": "1"
+          },
+          {
+            "item": "25",
+            "count": "1"
+          },
+          {
+            "item": "30",
+            "count": "1"
+          },
+          {
+            "item": "37",
+            "count": "1"
+          },
+          {
+            "item": "42",
+            "count": "1"
+          },
+          {
+            "item": "44",
+            "count": "1"
+          },
+          {
+            "item": "60",
+            "count": "1"
+          },
+          {
+            "item": "65",
+            "count": "1"
+          },
+          {
+            "item": "66",
+            "count": "1"
+          },
+          {
+            "item": "70",
+            "count": "1"
+          },
+          {
+            "item": "72",
+            "count": "1"
+          },
+          {
+            "item": "73",
+            "count": "1"
+          },
+          {
+            "item": "79",
+            "count": "1"
+          },
+          {
+            "item": "84",
+            "count": "1"
+          },
+          {
+            "item": "85",
+            "count": "1"
+          },
+          {
+            "item": "89",
+            "count": "1"
+          },
+          {
+            "item": "91",
+            "count": "1"
+          },
+          {
+            "item": "99",
+            "count": "1"
+          },
+          {
+            "item": "101",
+            "count": "1"
+          }
+        ],
+        "smallest": "16",
+        "count": "228520",
+        "cardinality": "228520"
+      }
+    },
+    {
+      "field_name": "buildingid",
+      "display_name": "BuildingID",
+      "data_type": "number",
+      "description": "Unique identifier of building\n",
+      "format": "standard",
+      "width": 144,
+      "position": 2,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "1017110",
+        "null": "0",
+        "top": [
+          {
+            "item": "806886",
+            "count": "119"
+          },
+          {
+            "item": "116740",
+            "count": "97"
+          },
+          {
+            "item": "65175",
+            "count": "91"
+          },
+          {
+            "item": "806888",
+            "count": "89"
+          },
+          {
+            "item": "81719",
+            "count": "88"
+          },
+          {
+            "item": "81982",
+            "count": "87"
+          },
+          {
+            "item": "806375",
+            "count": "85"
+          },
+          {
+            "item": "89017",
+            "count": "76"
+          },
+          {
+            "item": "119285",
+            "count": "75"
+          },
+          {
+            "item": "65392",
+            "count": "72"
+          },
+          {
+            "item": "8077",
+            "count": "71"
+          },
+          {
+            "item": "28110",
+            "count": "70"
+          },
+          {
+            "item": "694083",
+            "count": "69"
+          },
+          {
+            "item": "118818",
+            "count": "69"
+          },
+          {
+            "item": "806197",
+            "count": "67"
+          },
+          {
+            "item": "806887",
+            "count": "67"
+          },
+          {
+            "item": "109460",
+            "count": "66"
+          },
+          {
+            "item": "375001",
+            "count": "66"
+          },
+          {
+            "item": "60275",
+            "count": "66"
+          },
+          {
+            "item": "116089",
+            "count": "65"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "71236"
+      }
+    },
+    {
+      "field_name": "boroid",
+      "display_name": "Boro",
+      "data_type": "number",
+      "description": "unique identifier of Borough",
+      "format": "standard",
+      "width": 132,
+      "position": 3,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "5",
+        "null": "0",
+        "top": [
+          {
+            "item": "3",
+            "count": "73258"
+          },
+          {
+            "item": "2",
+            "count": "71648"
+          },
+          {
+            "item": "1",
+            "count": "43282"
+          },
+          {
+            "item": "4",
+            "count": "35935"
+          },
+          {
+            "item": "5",
+            "count": "4397"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "housenumber",
+      "display_name": "HouseNumber",
+      "data_type": "text",
+      "description": "Principle house number\n",
+      "width": 169,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "999",
+        "null": "0",
+        "top": [
+          {
+            "item": "20",
+            "count": "555"
+          },
+          {
+            "item": "15",
+            "count": "446"
+          },
+          {
+            "item": "30",
+            "count": "432"
+          },
+          {
+            "item": "40",
+            "count": "431"
+          },
+          {
+            "item": "50",
+            "count": "400"
+          },
+          {
+            "item": "100",
+            "count": "399"
+          },
+          {
+            "item": "10",
+            "count": "391"
+          },
+          {
+            "item": "150",
+            "count": "383"
+          },
+          {
+            "item": "1",
+            "count": "383"
+          },
+          {
+            "item": "101",
+            "count": "374"
+          },
+          {
+            "item": "125",
+            "count": "350"
+          },
+          {
+            "item": "530",
+            "count": "343"
+          },
+          {
+            "item": "315",
+            "count": "342"
+          },
+          {
+            "item": "219",
+            "count": "339"
+          },
+          {
+            "item": "25",
+            "count": "335"
+          },
+          {
+            "item": "65",
+            "count": "326"
+          },
+          {
+            "item": "55",
+            "count": "323"
+          },
+          {
+            "item": "180",
+            "count": "322"
+          },
+          {
+            "item": "2",
+            "count": "320"
+          },
+          {
+            "item": "115",
+            "count": "312"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "13769"
+      }
+    },
+    {
+      "field_name": "streetname",
+      "display_name": "StreetName",
+      "data_type": "text",
+      "description": "The normalized street name associated with a given Geosupport Information System (GIS) Street Code\n",
+      "width": 171,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "ZULETTE AVENUE",
+        "null": "0",
+        "top": [
+          {
+            "item": "GRAND CONCOURSE",
+            "count": "3322"
+          },
+          {
+            "item": "BROADWAY",
+            "count": "2066"
+          },
+          {
+            "item": "MORRIS AVENUE",
+            "count": "1608"
+          },
+          {
+            "item": "ST NICHOLAS AVENUE",
+            "count": "1536"
+          },
+          {
+            "item": "AMSTERDAM AVENUE",
+            "count": "1432"
+          },
+          {
+            "item": "WALTON AVENUE",
+            "count": "1389"
+          },
+          {
+            "item": "OCEAN AVENUE",
+            "count": "1326"
+          },
+          {
+            "item": "UNIVERSITY AVENUE",
+            "count": "1307"
+          },
+          {
+            "item": "CRESTON AVENUE",
+            "count": "990"
+          },
+          {
+            "item": "LINDEN BOULEVARD",
+            "count": "943"
+          },
+          {
+            "item": "SHERIDAN AVENUE",
+            "count": "917"
+          },
+          {
+            "item": "EASTERN PARKWAY",
+            "count": "887"
+          },
+          {
+            "item": "NOSTRAND AVENUE",
+            "count": "882"
+          },
+          {
+            "item": "VALENTINE AVENUE",
+            "count": "865"
+          },
+          {
+            "item": "GRAND AVENUE",
+            "count": "856"
+          },
+          {
+            "item": "ADAM C POWELL BOULEVARD",
+            "count": "830"
+          },
+          {
+            "item": "DAVIDSON AVENUE",
+            "count": "824"
+          },
+          {
+            "item": "RIVERSIDE DRIVE",
+            "count": "759"
+          },
+          {
+            "item": "ST JOHNS PLACE",
+            "count": "757"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "753"
+          }
+        ],
+        "smallest": "100 AVENUE",
+        "count": "228520",
+        "cardinality": "4429"
+      }
+    },
+    {
+      "field_name": "zip",
+      "display_name": "Zip",
+      "data_type": "text",
+      "description": "Zipcode for the property\n",
+      "width": 106,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "228517",
+        "largest": "11697",
+        "null": "3",
+        "top": [
+          {
+            "item": "11226",
+            "count": "6854"
+          },
+          {
+            "item": "10458",
+            "count": "6375"
+          },
+          {
+            "item": "10453",
+            "count": "6310"
+          },
+          {
+            "item": "10456",
+            "count": "6165"
+          },
+          {
+            "item": "10457",
+            "count": "6160"
+          },
+          {
+            "item": "10467",
+            "count": "5783"
+          },
+          {
+            "item": "10452",
+            "count": "5554"
+          },
+          {
+            "item": "10468",
+            "count": "5098"
+          },
+          {
+            "item": "11207",
+            "count": "5063"
+          },
+          {
+            "item": "11221",
+            "count": "4984"
+          },
+          {
+            "item": "11233",
+            "count": "4882"
+          },
+          {
+            "item": "10031",
+            "count": "4783"
+          },
+          {
+            "item": "11216",
+            "count": "4161"
+          },
+          {
+            "item": "10032",
+            "count": "4075"
+          },
+          {
+            "item": "11213",
+            "count": "4013"
+          },
+          {
+            "item": "11208",
+            "count": "3990"
+          },
+          {
+            "item": "10460",
+            "count": "3980"
+          },
+          {
+            "item": "11212",
+            "count": "3735"
+          },
+          {
+            "item": "11225",
+            "count": "3443"
+          },
+          {
+            "item": "10472",
+            "count": "3429"
+          }
+        ],
+        "smallest": "10001",
+        "count": "228520",
+        "cardinality": "181"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "number",
+      "description": "Number assigned by DoF identifying the tax block the lot is on\n",
+      "format": "standard",
+      "width": 149,
+      "position": 7,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "16340",
+        "null": "0",
+        "top": [
+          {
+            "item": "1918",
+            "count": "509"
+          },
+          {
+            "item": "3304",
+            "count": "456"
+          },
+          {
+            "item": "2456",
+            "count": "450"
+          },
+          {
+            "item": "2136",
+            "count": "427"
+          },
+          {
+            "item": "1988",
+            "count": "391"
+          },
+          {
+            "item": "2174",
+            "count": "366"
+          },
+          {
+            "item": "2170",
+            "count": "349"
+          },
+          {
+            "item": "2882",
+            "count": "345"
+          },
+          {
+            "item": "2117",
+            "count": "340"
+          },
+          {
+            "item": "2215",
+            "count": "331"
+          },
+          {
+            "item": "2867",
+            "count": "329"
+          },
+          {
+            "item": "2879",
+            "count": "326"
+          },
+          {
+            "item": "5026",
+            "count": "325"
+          },
+          {
+            "item": "2457",
+            "count": "320"
+          },
+          {
+            "item": "3287",
+            "count": "302"
+          },
+          {
+            "item": "2137",
+            "count": "300"
+          },
+          {
+            "item": "2461",
+            "count": "296"
+          },
+          {
+            "item": "2880",
+            "count": "280"
+          },
+          {
+            "item": "2872",
+            "count": "279"
+          },
+          {
+            "item": "3326",
+            "count": "279"
+          }
+        ],
+        "smallest": "0",
+        "count": "228520",
+        "cardinality": "10692"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "number",
+      "description": "Unique number assigned by DoF within a block identifying a lot\n",
+      "format": "standard",
+      "width": 103,
+      "position": 8,
+      "default_value": "false",
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "9080",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "14395"
+          },
+          {
+            "item": "29",
+            "count": "3652"
+          },
+          {
+            "item": "6",
+            "count": "3589"
+          },
+          {
+            "item": "5",
+            "count": "3583"
+          },
+          {
+            "item": "10",
+            "count": "3434"
+          },
+          {
+            "item": "11",
+            "count": "3422"
+          },
+          {
+            "item": "40",
+            "count": "3400"
+          },
+          {
+            "item": "21",
+            "count": "3338"
+          },
+          {
+            "item": "7",
+            "count": "3338"
+          },
+          {
+            "item": "20",
+            "count": "3264"
+          },
+          {
+            "item": "25",
+            "count": "3227"
+          },
+          {
+            "item": "7501",
+            "count": "3227"
+          },
+          {
+            "item": "26",
+            "count": "3186"
+          },
+          {
+            "item": "23",
+            "count": "3162"
+          },
+          {
+            "item": "12",
+            "count": "3143"
+          },
+          {
+            "item": "22",
+            "count": "3111"
+          },
+          {
+            "item": "30",
+            "count": "3067"
+          },
+          {
+            "item": "17",
+            "count": "3056"
+          },
+          {
+            "item": "8",
+            "count": "3018"
+          },
+          {
+            "item": "16",
+            "count": "2990"
+          }
+        ],
+        "smallest": "0",
+        "count": "228520",
+        "cardinality": "653"
+      }
+    },
+    {
+      "field_name": "casetype",
+      "display_name": "CaseType",
+      "data_type": "text",
+      "description": "The purpose of the litigation\n",
+      "width": 196,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "Tenant Action/Harrassment",
+        "null": "0",
+        "top": [
+          {
+            "item": "Tenant Action",
+            "count": "104632"
+          },
+          {
+            "item": "Heat and Hot Water",
+            "count": "58156"
+          },
+          {
+            "item": "Tenant Action/Harrassment",
+            "count": "20376"
+          },
+          {
+            "item": "Access Warrant - Non-Lead",
+            "count": "19168"
+          },
+          {
+            "item": "Comprehensive",
+            "count": "7706"
+          },
+          {
+            "item": "False Certification Non-Lead",
+            "count": "7689"
+          },
+          {
+            "item": "Access Warrant - lead",
+            "count": "4348"
+          },
+          {
+            "item": "CONH",
+            "count": "2619"
+          },
+          {
+            "item": "Comp Supplemental Cases",
+            "count": "2128"
+          },
+          {
+            "item": "Lead False Certification",
+            "count": "682"
+          },
+          {
+            "item": "7A",
+            "count": "383"
+          },
+          {
+            "item": "Heat Supplemental Cases",
+            "count": "347"
+          },
+          {
+            "item": "Failure to Register Only",
+            "count": "276"
+          },
+          {
+            "item": "HLD - Other Case Type",
+            "count": "10"
+          }
+        ],
+        "smallest": "7A",
+        "count": "228520",
+        "cardinality": "14"
+      }
+    },
+    {
+      "field_name": "caseopendate",
+      "display_name": "CaseOpenDate",
+      "data_type": "calendar_date",
+      "description": "Date the case was opened\n",
+      "width": 170,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "228244",
+        "largest": "2030-10-05T00:00:00.000",
+        "null": "276",
+        "top": [
+          {
+            "item": "2010-01-13T00:00:00.000",
+            "count": "213"
+          },
+          {
+            "item": "2007-11-28T00:00:00.000",
+            "count": "206"
+          },
+          {
+            "item": "2009-01-21T00:00:00.000",
+            "count": "204"
+          },
+          {
+            "item": "2010-02-09T00:00:00.000",
+            "count": "199"
+          },
+          {
+            "item": "2010-12-22T00:00:00.000",
+            "count": "195"
+          },
+          {
+            "item": "2014-04-24T00:00:00.000",
+            "count": "193"
+          },
+          {
+            "item": "2013-02-13T00:00:00.000",
+            "count": "192"
+          },
+          {
+            "item": "2011-02-01T00:00:00.000",
+            "count": "191"
+          },
+          {
+            "item": "2008-02-20T00:00:00.000",
+            "count": "189"
+          },
+          {
+            "item": "2010-01-07T00:00:00.000",
+            "count": "187"
+          },
+          {
+            "item": "2009-02-10T00:00:00.000",
+            "count": "186"
+          },
+          {
+            "item": "2010-02-03T00:00:00.000",
+            "count": "175"
+          },
+          {
+            "item": "2011-01-11T00:00:00.000",
+            "count": "173"
+          },
+          {
+            "item": "2011-01-25T00:00:00.000",
+            "count": "172"
+          },
+          {
+            "item": "2008-01-03T00:00:00.000",
+            "count": "171"
+          },
+          {
+            "item": "2008-02-13T00:00:00.000",
+            "count": "169"
+          },
+          {
+            "item": "2010-02-24T00:00:00.000",
+            "count": "167"
+          },
+          {
+            "item": "2013-01-24T00:00:00.000",
+            "count": "165"
+          },
+          {
+            "item": "2009-02-03T00:00:00.000",
+            "count": "164"
+          },
+          {
+            "item": "2009-03-25T00:00:00.000",
+            "count": "164"
+          }
+        ],
+        "smallest": "0204-03-28T00:00:00.000",
+        "count": "228520",
+        "cardinality": "5406"
+      }
+    },
+    {
+      "field_name": "casestatus",
+      "display_name": "CaseStatus",
+      "data_type": "text",
+      "description": "The status of the case\n",
+      "width": 157,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "WithDrawn/Abandoned- 12/27/2017",
+        "null": "0",
+        "top": [
+          {
+            "item": "CLOSED",
+            "count": "218851"
+          },
+          {
+            "item": "PENDING",
+            "count": "7050"
+          },
+          {
+            "item": "APPLICATION PENDING",
+            "count": "71"
+          },
+          {
+            "item": "GRANTED -",
+            "count": "23"
+          },
+          {
+            "item": "WithDrawn/Abandoned-",
+            "count": "19"
+          },
+          {
+            "item": "GRANTED - 10/20/2006",
+            "count": "18"
+          },
+          {
+            "item": "GRANTED - 11/10/2006",
+            "count": "14"
+          },
+          {
+            "item": "GRANTED - 10/15/2008",
+            "count": "10"
+          },
+          {
+            "item": "Rejected-",
+            "count": "10"
+          },
+          {
+            "item": "GRANTED - 02/19/2014",
+            "count": "10"
+          },
+          {
+            "item": "GRANTED - 10/03/2011",
+            "count": "9"
+          },
+          {
+            "item": "GRANTED - 10/29/2009",
+            "count": "8"
+          },
+          {
+            "item": "GRANTED - 03/12/2014",
+            "count": "8"
+          },
+          {
+            "item": "GRANTED - 08/01/2024",
+            "count": "8"
+          },
+          {
+            "item": "Exempt- 08/06/2009",
+            "count": "8"
+          },
+          {
+            "item": "GRANTED - 10/29/2008",
+            "count": "7"
+          },
+          {
+            "item": "GRANTED - 06/05/2006",
+            "count": "7"
+          },
+          {
+            "item": "GRANTED - 01/10/2008",
+            "count": "7"
+          },
+          {
+            "item": "GRANTED - 12/07/2022",
+            "count": "7"
+          },
+          {
+            "item": "GRANTED - 10/29/2010",
+            "count": "7"
+          }
+        ],
+        "smallest": "APPLICATION PENDING",
+        "count": "228520",
+        "cardinality": "1517"
+      }
+    },
+    {
+      "field_name": "casejudgement",
+      "display_name": "OpenJudgement",
+      "data_type": "text",
+      "description": "The final judgment  if any for this case\n",
+      "width": 188,
+      "position": 12,
+      "cached_contents": {
+        "non_null": "228520",
+        "largest": "YES",
+        "null": "0",
+        "top": [
+          {
+            "item": "NO",
+            "count": "225030"
+          },
+          {
+            "item": "YES",
+            "count": "3490"
+          }
+        ],
+        "smallest": "NO",
+        "count": "228520",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "findingofharassment",
+      "display_name": "FindingOfHarassment",
+      "data_type": "text",
+      "width": 100,
+      "position": 13,
+      "cached_contents": {
+        "non_null": "7043",
+        "largest": "No Harassment",
+        "null": "221477",
+        "top": [
+          {
+            "item": "No Harassment",
+            "count": "6734"
+          },
+          {
+            "item": "After Inquest",
+            "count": "234"
+          },
+          {
+            "item": "After Trial",
+            "count": "75"
+          }
+        ],
+        "smallest": "After Inquest",
+        "count": "228520",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "findingdate",
+      "display_name": "FindingDate",
+      "data_type": "text",
+      "width": 100,
+      "position": 14,
+      "cached_contents": {
+        "non_null": "307",
+        "largest": "12/26/2018 00:00:00",
+        "null": "228213",
+        "top": [
+          {
+            "item": "05/18/2018 00:00:00",
+            "count": "3"
+          },
+          {
+            "item": "12/05/2023 00:00:00",
+            "count": "3"
+          },
+          {
+            "item": "07/11/2024 00:00:00",
+            "count": "3"
+          },
+          {
+            "item": "04/21/2023 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "05/08/2023 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "09/15/2022 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "06/15/2018 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "03/22/2021 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "11/06/2013 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "12/14/2017 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "10/05/2018 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "02/16/2023 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "01/19/2023 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "11/08/2024 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "11/27/2020 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "01/27/2017 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "02/11/2019 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "02/02/2017 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "01/08/2020 00:00:00",
+            "count": "2"
+          },
+          {
+            "item": "02/07/2019 00:00:00",
+            "count": "2"
+          }
+        ],
+        "smallest": "01/02/2025 00:00:00",
+        "count": "228520",
+        "cardinality": "282"
+      }
+    },
+    {
+      "field_name": "penalty",
+      "display_name": "Penalty",
+      "data_type": "text",
+      "width": 100,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "309",
+        "largest": "96060",
+        "null": "228211",
+        "top": [
+          {
+            "item": "2000",
+            "count": "124"
+          },
+          {
+            "item": "0",
+            "count": "56"
+          },
+          {
+            "item": "5000",
+            "count": "29"
+          },
+          {
+            "item": "1000",
+            "count": "28"
+          },
+          {
+            "item": "4000",
+            "count": "11"
+          },
+          {
+            "item": "2500",
+            "count": "9"
+          },
+          {
+            "item": "3000",
+            "count": "7"
+          },
+          {
+            "item": "10000",
+            "count": "6"
+          },
+          {
+            "item": "6000",
+            "count": "4"
+          },
+          {
+            "item": "8000",
+            "count": "2"
+          },
+          {
+            "item": "2345",
+            "count": "1"
+          },
+          {
+            "item": "2360",
+            "count": "1"
+          },
+          {
+            "item": "29000",
+            "count": "1"
+          },
+          {
+            "item": "2950",
+            "count": "1"
+          },
+          {
+            "item": "29550",
+            "count": "1"
+          },
+          {
+            "item": "30140",
+            "count": "1"
+          },
+          {
+            "item": "33300",
+            "count": "1"
+          },
+          {
+            "item": "41160",
+            "count": "1"
+          },
+          {
+            "item": "500",
+            "count": "1"
+          },
+          {
+            "item": "5200",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "228520",
+        "cardinality": "43"
+      }
+    },
+    {
+      "field_name": "respondent",
+      "display_name": "Respondent",
+      "data_type": "text",
+      "width": 100,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "225517",
+        "largest": "Z & Z REALTY LLC",
+        "null": "3003",
+        "top": [
+          {
+            "item": "VED PARKASH",
+            "count": "436"
+          },
+          {
+            "item": "WAVECREST MANAGEMENT",
+            "count": "196"
+          },
+          {
+            "item": "RIVERBAY CORPORATION",
+            "count": "150"
+          },
+          {
+            "item": "STELLAR MANAGEMENT",
+            "count": "124"
+          },
+          {
+            "item": "SG2 MANAGEMENT LLC",
+            "count": "105"
+          },
+          {
+            "item": "LEMLE & WOLFF INCORPORATED",
+            "count": "103"
+          },
+          {
+            "item": "LANGSAM PROPERTY SERVICES CORPORATION",
+            "count": "88"
+          },
+          {
+            "item": "KEW GARDENS BAP LLC,PAUL REICH",
+            "count": "71"
+          },
+          {
+            "item": "LANGSAM PROPERTY SERVICES",
+            "count": "71"
+          },
+          {
+            "item": "MANHATTAN NORTH MANAGEMENT",
+            "count": "69"
+          },
+          {
+            "item": "RIVER PARK ASSOCIATES",
+            "count": "65"
+          },
+          {
+            "item": "KENNETH CLARKE,RAFAEL GARCIA,RENAISSANCE EQUITY HOLDING LLC",
+            "count": "65"
+          },
+          {
+            "item": "ROCHDALE VILLAGE INCORPORATED",
+            "count": "63"
+          },
+          {
+            "item": "ELCORNO MARTIN",
+            "count": "61"
+          },
+          {
+            "item": "GORE CREEK LLC,J EISENBERG",
+            "count": "53"
+          },
+          {
+            "item": "RENAISSANCE EQUITY HOLDING LLC",
+            "count": "51"
+          },
+          {
+            "item": "GORE CREEK LLC",
+            "count": "50"
+          },
+          {
+            "item": "LABE TWERSKI",
+            "count": "49"
+          },
+          {
+            "item": "PRESTIGE MANAGEMENT",
+            "count": "49"
+          },
+          {
+            "item": "1229-1273 REALTY LLC",
+            "count": "49"
+          }
+        ],
+        "smallest": "0 0,JOAN BOSCARELLO,NICHOLAS BOSCARELLO",
+        "count": "228520",
+        "cardinality": "158223"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "text",
+      "width": 100,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "40.9115880",
+        "null": "78",
+        "top": [
+          {
+            "item": "40.8517190",
+            "count": "119"
+          },
+          {
+            "item": "40.8346760",
+            "count": "97"
+          },
+          {
+            "item": "40.8326130",
+            "count": "91"
+          },
+          {
+            "item": "40.8521959",
+            "count": "89"
+          },
+          {
+            "item": "40.8459300",
+            "count": "88"
+          },
+          {
+            "item": "40.8228930",
+            "count": "87"
+          },
+          {
+            "item": "40.8335780",
+            "count": "85"
+          },
+          {
+            "item": "40.8526700",
+            "count": "80"
+          },
+          {
+            "item": "40.8802090",
+            "count": "76"
+          },
+          {
+            "item": "40.8491969",
+            "count": "76"
+          },
+          {
+            "item": "40.8293990",
+            "count": "75"
+          },
+          {
+            "item": "40.8385620",
+            "count": "72"
+          },
+          {
+            "item": "40.8751460",
+            "count": "72"
+          },
+          {
+            "item": "40.8278159",
+            "count": "71"
+          },
+          {
+            "item": "40.8308570",
+            "count": "71"
+          },
+          {
+            "item": "40.8414980",
+            "count": "70"
+          },
+          {
+            "item": "40.8141120",
+            "count": "70"
+          },
+          {
+            "item": "40.5959960",
+            "count": "69"
+          },
+          {
+            "item": "40.6749760",
+            "count": "69"
+          },
+          {
+            "item": "40.8520019",
+            "count": "67"
+          }
+        ],
+        "smallest": "40.5012639",
+        "count": "228520",
+        "cardinality": "61129"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "text",
+      "width": 100,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "-74.250624",
+        "null": "78",
+        "top": [
+          {
+            "item": "-73.922780",
+            "count": "119"
+          },
+          {
+            "item": "-73.930268",
+            "count": "97"
+          },
+          {
+            "item": "-73.922326",
+            "count": "92"
+          },
+          {
+            "item": "-73.904675",
+            "count": "91"
+          },
+          {
+            "item": "-73.910093",
+            "count": "89"
+          },
+          {
+            "item": "-73.924651",
+            "count": "87"
+          },
+          {
+            "item": "-73.908169",
+            "count": "86"
+          },
+          {
+            "item": "-73.909940",
+            "count": "85"
+          },
+          {
+            "item": "-73.888351",
+            "count": "78"
+          },
+          {
+            "item": "-73.885897",
+            "count": "77"
+          },
+          {
+            "item": "-73.922802",
+            "count": "75"
+          },
+          {
+            "item": "-73.902878",
+            "count": "74"
+          },
+          {
+            "item": "-73.949427",
+            "count": "73"
+          },
+          {
+            "item": "-73.945627",
+            "count": "73"
+          },
+          {
+            "item": "-73.909476",
+            "count": "72"
+          },
+          {
+            "item": "-73.949603",
+            "count": "72"
+          },
+          {
+            "item": "-73.866129",
+            "count": "71"
+          },
+          {
+            "item": "-73.922888",
+            "count": "71"
+          },
+          {
+            "item": "-73.742187",
+            "count": "70"
+          },
+          {
+            "item": "-73.911338",
+            "count": "69"
+          }
+        ],
+        "smallest": "-73.701156",
+        "count": "228520",
+        "cardinality": "57328"
+      }
+    },
+    {
+      "field_name": "community_district",
+      "display_name": "Community District",
+      "data_type": "text",
+      "width": 100,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "9",
+        "null": "78",
+        "top": [
+          {
+            "item": "12",
+            "count": "27788"
+          },
+          {
+            "item": "4",
+            "count": "23173"
+          },
+          {
+            "item": "5",
+            "count": "21903"
+          },
+          {
+            "item": "9",
+            "count": "20604"
+          },
+          {
+            "item": "3",
+            "count": "19374"
+          },
+          {
+            "item": "7",
+            "count": "16752"
+          },
+          {
+            "item": "1",
+            "count": "13026"
+          },
+          {
+            "item": "8",
+            "count": "12829"
+          },
+          {
+            "item": "10",
+            "count": "12791"
+          },
+          {
+            "item": "6",
+            "count": "9975"
+          },
+          {
+            "item": "14",
+            "count": "9732"
+          },
+          {
+            "item": "11",
+            "count": "9593"
+          },
+          {
+            "item": "2",
+            "count": "9119"
+          },
+          {
+            "item": "17",
+            "count": "8231"
+          },
+          {
+            "item": "16",
+            "count": "4587"
+          },
+          {
+            "item": "13",
+            "count": "4453"
+          },
+          {
+            "item": "18",
+            "count": "2944"
+          },
+          {
+            "item": "15",
+            "count": "1568"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "18"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "text",
+      "width": 100,
+      "position": 20,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "9",
+        "null": "78",
+        "top": [
+          {
+            "item": "15",
+            "count": "13051"
+          },
+          {
+            "item": "16",
+            "count": "12472"
+          },
+          {
+            "item": "14",
+            "count": "12402"
+          },
+          {
+            "item": "9",
+            "count": "10602"
+          },
+          {
+            "item": "17",
+            "count": "10238"
+          },
+          {
+            "item": "10",
+            "count": "9932"
+          },
+          {
+            "item": "36",
+            "count": "9510"
+          },
+          {
+            "item": "40",
+            "count": "9036"
+          },
+          {
+            "item": "41",
+            "count": "8792"
+          },
+          {
+            "item": "37",
+            "count": "8494"
+          },
+          {
+            "item": "7",
+            "count": "7128"
+          },
+          {
+            "item": "42",
+            "count": "6435"
+          },
+          {
+            "item": "11",
+            "count": "6429"
+          },
+          {
+            "item": "35",
+            "count": "6227"
+          },
+          {
+            "item": "12",
+            "count": "6113"
+          },
+          {
+            "item": "8",
+            "count": "5496"
+          },
+          {
+            "item": "45",
+            "count": "5286"
+          },
+          {
+            "item": "31",
+            "count": "4938"
+          },
+          {
+            "item": "27",
+            "count": "4807"
+          },
+          {
+            "item": "18",
+            "count": "4745"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract",
+      "data_type": "text",
+      "width": 100,
+      "position": 21,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "99802",
+        "null": "78",
+        "top": [
+          {
+            "item": "245",
+            "count": "1511"
+          },
+          {
+            "item": "225",
+            "count": "1492"
+          },
+          {
+            "item": "253",
+            "count": "1210"
+          },
+          {
+            "item": "279",
+            "count": "1194"
+          },
+          {
+            "item": "241",
+            "count": "1186"
+          },
+          {
+            "item": "263",
+            "count": "1185"
+          },
+          {
+            "item": "265",
+            "count": "1175"
+          },
+          {
+            "item": "251",
+            "count": "1157"
+          },
+          {
+            "item": "261",
+            "count": "1135"
+          },
+          {
+            "item": "189",
+            "count": "1125"
+          },
+          {
+            "item": "269",
+            "count": "1109"
+          },
+          {
+            "item": "291",
+            "count": "1085"
+          },
+          {
+            "item": "363",
+            "count": "1061"
+          },
+          {
+            "item": "373",
+            "count": "1019"
+          },
+          {
+            "item": "195",
+            "count": "1004"
+          },
+          {
+            "item": "228",
+            "count": "993"
+          },
+          {
+            "item": "231",
+            "count": "961"
+          },
+          {
+            "item": "379",
+            "count": "950"
+          },
+          {
+            "item": "233",
+            "count": "887"
+          },
+          {
+            "item": "230",
+            "count": "885"
+          }
+        ],
+        "smallest": "1",
+        "count": "228520",
+        "cardinality": "1448"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "width": 100,
+      "position": 22,
+      "cached_contents": {
+        "non_null": "228215",
+        "largest": "5176732",
+        "null": "305",
+        "top": [
+          {
+            "item": "2000000",
+            "count": "253"
+          },
+          {
+            "item": "3000000",
+            "count": "230"
+          },
+          {
+            "item": "1000000",
+            "count": "205"
+          },
+          {
+            "item": "4000000",
+            "count": "121"
+          },
+          {
+            "item": "2127134",
+            "count": "119"
+          },
+          {
+            "item": "2003497",
+            "count": "97"
+          },
+          {
+            "item": "2004223",
+            "count": "91"
+          },
+          {
+            "item": "2113629",
+            "count": "89"
+          },
+          {
+            "item": "2007857",
+            "count": "88"
+          },
+          {
+            "item": "2002784",
+            "count": "87"
+          },
+          {
+            "item": "2002176",
+            "count": "85"
+          },
+          {
+            "item": "2092444",
+            "count": "76"
+          },
+          {
+            "item": "2007622",
+            "count": "76"
+          },
+          {
+            "item": "2002915",
+            "count": "75"
+          },
+          {
+            "item": "2007237",
+            "count": "72"
+          },
+          {
+            "item": "1061969",
+            "count": "71"
+          },
+          {
+            "item": "1084089",
+            "count": "70"
+          },
+          {
+            "item": "2048821",
+            "count": "69"
+          },
+          {
+            "item": "4298968",
+            "count": "69"
+          },
+          {
+            "item": "2113628",
+            "count": "67"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "228520",
+        "cardinality": "70238"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "width": 100,
+      "position": 23,
+      "cached_contents": {
+        "non_null": "228215",
+        "largest": "5080490011",
+        "null": "305",
+        "top": [
+          {
+            "item": "2028820229",
+            "count": "336"
+          },
+          {
+            "item": "3042710001",
+            "count": "200"
+          },
+          {
+            "item": "4159260001",
+            "count": "142"
+          },
+          {
+            "item": "2051410120",
+            "count": "141"
+          },
+          {
+            "item": "1020350001",
+            "count": "131"
+          },
+          {
+            "item": "2024310026",
+            "count": "130"
+          },
+          {
+            "item": "3013020001",
+            "count": "126"
+          },
+          {
+            "item": "4124950002",
+            "count": "119"
+          },
+          {
+            "item": "2039447501",
+            "count": "115"
+          },
+          {
+            "item": "2032510490",
+            "count": "114"
+          },
+          {
+            "item": "2039437501",
+            "count": "100"
+          },
+          {
+            "item": "2025270061",
+            "count": "97"
+          },
+          {
+            "item": "3049670040",
+            "count": "91"
+          },
+          {
+            "item": "2026100012",
+            "count": "91"
+          },
+          {
+            "item": "2028220019",
+            "count": "88"
+          },
+          {
+            "item": "2024580026",
+            "count": "87"
+          },
+          {
+            "item": "4008307501",
+            "count": "82"
+          },
+          {
+            "item": "3049950030",
+            "count": "81"
+          },
+          {
+            "item": "5012720011",
+            "count": "81"
+          },
+          {
+            "item": "3049640040",
+            "count": "81"
+          }
+        ],
+        "smallest": "0",
+        "count": "228520",
+        "cardinality": "68491"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "width": 100,
+      "position": 24,
+      "cached_contents": {
+        "non_null": "228442",
+        "largest": "Woodside",
+        "null": "78",
+        "top": [
+          {
+            "item": "Crown Heights (North)",
+            "count": "5649"
+          },
+          {
+            "item": "Concourse-Concourse Village",
+            "count": "5626"
+          },
+          {
+            "item": "Harlem (North)",
+            "count": "5101"
+          },
+          {
+            "item": "Washington Heights (South)",
+            "count": "4941"
+          },
+          {
+            "item": "Bedford-Stuyvesant (East)",
+            "count": "4902"
+          },
+          {
+            "item": "Hamilton Heights-Sugar Hill",
+            "count": "4418"
+          },
+          {
+            "item": "Mount Hope",
+            "count": "4363"
+          },
+          {
+            "item": "Flatbush",
+            "count": "4301"
+          },
+          {
+            "item": "Williamsbridge-Olinville",
+            "count": "3810"
+          },
+          {
+            "item": "University Heights (South)-Morris Heights",
+            "count": "3799"
+          },
+          {
+            "item": "Mount Eden-Claremont (West)",
+            "count": "3764"
+          },
+          {
+            "item": "Soundview-Bruckner-Bronx River",
+            "count": "3728"
+          },
+          {
+            "item": "Washington Heights (North)",
+            "count": "3666"
+          },
+          {
+            "item": "Bedford Park",
+            "count": "3649"
+          },
+          {
+            "item": "Bedford-Stuyvesant (West)",
+            "count": "3649"
+          },
+          {
+            "item": "Bushwick (East)",
+            "count": "3465"
+          },
+          {
+            "item": "University Heights (North)-Fordham",
+            "count": "3253"
+          },
+          {
+            "item": "East Flatbush-Erasmus",
+            "count": "3242"
+          },
+          {
+            "item": "Bushwick (West)",
+            "count": "3069"
+          },
+          {
+            "item": "Harlem (South)",
+            "count": "2902"
+          }
+        ],
+        "smallest": "Allerton",
+        "count": "228520",
+        "cardinality": "200"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T20:55:49.988479"
+}

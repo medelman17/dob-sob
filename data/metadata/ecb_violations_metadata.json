@@ -1,0 +1,393 @@
+{
+  "dataset_id": "6bgk-3dad",
+  "name": "DOB ECB Violations",
+  "description": "Violations by the Department of Buildings that are adjudicated by OATH/ECB. There may also be a DOB violation. (https://data.cityofnewyork.us/Housing-Development/DOB-Violations/3h2n-5cm9)",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "dob",
+    "buildings",
+    "violation ecb",
+    "nov",
+    "2018od4a-report"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2015-11-24T20:49:53",
+  "updated_at": "2025-06-03T17:04:40",
+  "row_count": 1748970280,
+  "column_count": 46,
+  "download_count": 28869,
+  "view_count": 84785,
+  "columns": [
+    {
+      "field_name": "isn_dob_bis_extract",
+      "display_name": "ISN_DOB_BIS_EXTRACT",
+      "data_type": "text",
+      "description": "",
+      "width": 328,
+      "position": 1
+    },
+    {
+      "field_name": "ecb_violation_number",
+      "display_name": "ECB_VIOLATION_NUMBER",
+      "data_type": "text",
+      "description": "",
+      "width": 340,
+      "position": 2
+    },
+    {
+      "field_name": "ecb_violation_status",
+      "display_name": "ECB_VIOLATION_STATUS",
+      "data_type": "text",
+      "description": "",
+      "width": 340,
+      "position": 3
+    },
+    {
+      "field_name": "dob_violation_number",
+      "display_name": "DOB_VIOLATION_NUMBER",
+      "data_type": "text",
+      "description": "",
+      "width": 340,
+      "position": 4
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "",
+      "width": 136,
+      "position": 5
+    },
+    {
+      "field_name": "boro",
+      "display_name": "BORO",
+      "data_type": "text",
+      "description": "",
+      "width": 148,
+      "position": 6
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "description": "",
+      "width": 160,
+      "position": 7
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "description": "",
+      "width": 136,
+      "position": 8
+    },
+    {
+      "field_name": "hearing_date",
+      "display_name": "HEARING_DATE",
+      "data_type": "text",
+      "description": "",
+      "width": 244,
+      "position": 9
+    },
+    {
+      "field_name": "hearing_time",
+      "display_name": "HEARING_TIME",
+      "data_type": "text",
+      "description": "",
+      "width": 244,
+      "position": 10
+    },
+    {
+      "field_name": "served_date",
+      "display_name": "SERVED_DATE",
+      "data_type": "text",
+      "description": "",
+      "width": 232,
+      "position": 11
+    },
+    {
+      "field_name": "issue_date",
+      "display_name": "ISSUE_DATE",
+      "data_type": "text",
+      "description": "",
+      "width": 220,
+      "position": 12
+    },
+    {
+      "field_name": "severity",
+      "display_name": "SEVERITY",
+      "data_type": "text",
+      "description": "",
+      "width": 196,
+      "position": 13
+    },
+    {
+      "field_name": "violation_type",
+      "display_name": "VIOLATION_TYPE",
+      "data_type": "text",
+      "description": "",
+      "width": 268,
+      "position": 14
+    },
+    {
+      "field_name": "respondent_name",
+      "display_name": "RESPONDENT_NAME",
+      "data_type": "text",
+      "description": "",
+      "width": 280,
+      "position": 15
+    },
+    {
+      "field_name": "respondent_house_number",
+      "display_name": "RESPONDENT_HOUSE_NUMBER",
+      "data_type": "text",
+      "description": "",
+      "width": 376,
+      "position": 16
+    },
+    {
+      "field_name": "respondent_street",
+      "display_name": "RESPONDENT_STREET",
+      "data_type": "text",
+      "description": "",
+      "width": 304,
+      "position": 17
+    },
+    {
+      "field_name": "respondent_city",
+      "display_name": "RESPONDENT_CITY",
+      "data_type": "text",
+      "description": "",
+      "width": 280,
+      "position": 18
+    },
+    {
+      "field_name": "respondent_zip",
+      "display_name": "RESPONDENT_ZIP",
+      "data_type": "text",
+      "description": "",
+      "width": 268,
+      "position": 19
+    },
+    {
+      "field_name": "violation_description",
+      "display_name": "VIOLATION_DESCRIPTION",
+      "data_type": "text",
+      "description": "",
+      "width": 352,
+      "position": 20
+    },
+    {
+      "field_name": "penality_imposed",
+      "display_name": "PENALITY_IMPOSED",
+      "data_type": "number",
+      "description": "",
+      "width": 292,
+      "position": 21
+    },
+    {
+      "field_name": "amount_paid",
+      "display_name": "AMOUNT_PAID",
+      "data_type": "number",
+      "description": "",
+      "width": 232,
+      "position": 22
+    },
+    {
+      "field_name": "balance_due",
+      "display_name": "BALANCE_DUE",
+      "data_type": "number",
+      "description": "",
+      "width": 232,
+      "position": 23
+    },
+    {
+      "field_name": "infraction_code1",
+      "display_name": "INFRACTION_CODE1",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 24
+    },
+    {
+      "field_name": "section_law_description1",
+      "display_name": "SECTION_LAW_DESCRIPTION1",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 25
+    },
+    {
+      "field_name": "infraction_code2",
+      "display_name": "INFRACTION_CODE2",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 26
+    },
+    {
+      "field_name": "section_law_description2",
+      "display_name": "SECTION_LAW_DESCRIPTION2",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 27
+    },
+    {
+      "field_name": "infraction_code3",
+      "display_name": "INFRACTION_CODE3",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 28
+    },
+    {
+      "field_name": "section_law_description3",
+      "display_name": "SECTION_LAW_DESCRIPTION3",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 29
+    },
+    {
+      "field_name": "infraction_code4",
+      "display_name": "INFRACTION_CODE4",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 30
+    },
+    {
+      "field_name": "section_law_description4",
+      "display_name": "SECTION_LAW_DESCRIPTION4",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 31
+    },
+    {
+      "field_name": "infraction_code5",
+      "display_name": "INFRACTION_CODE5",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 32
+    },
+    {
+      "field_name": "section_law_description5",
+      "display_name": "SECTION_LAW_DESCRIPTION5",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 33
+    },
+    {
+      "field_name": "infraction_code6",
+      "display_name": "INFRACTION_CODE6",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 34
+    },
+    {
+      "field_name": "section_law_description6",
+      "display_name": "SECTION_LAW_DESCRIPTION6",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 35
+    },
+    {
+      "field_name": "infraction_code7",
+      "display_name": "INFRACTION_CODE7",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 36
+    },
+    {
+      "field_name": "section_law_description7",
+      "display_name": "SECTION_LAW_DESCRIPTION7",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 37
+    },
+    {
+      "field_name": "infraction_code8",
+      "display_name": "INFRACTION_CODE8",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 38
+    },
+    {
+      "field_name": "section_law_description8",
+      "display_name": "SECTION_LAW_DESCRIPTION8",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 39
+    },
+    {
+      "field_name": "infraction_code9",
+      "display_name": "INFRACTION_CODE9",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 40
+    },
+    {
+      "field_name": "section_law_description9",
+      "display_name": "SECTION_LAW_DESCRIPTION9",
+      "data_type": "text",
+      "description": "",
+      "width": 388,
+      "position": 41
+    },
+    {
+      "field_name": "infraction_code10",
+      "display_name": "INFRACTION_CODE10",
+      "data_type": "text",
+      "description": "",
+      "width": 304,
+      "position": 42
+    },
+    {
+      "field_name": "section_law_description10",
+      "display_name": "SECTION_LAW_DESCRIPTION10",
+      "data_type": "text",
+      "description": "",
+      "width": 400,
+      "position": 43
+    },
+    {
+      "field_name": "aggravated_level",
+      "display_name": "AGGRAVATED_LEVEL",
+      "data_type": "text",
+      "description": "",
+      "width": 292,
+      "position": 44
+    },
+    {
+      "field_name": "hearing_status",
+      "display_name": "HEARING_STATUS",
+      "data_type": "text",
+      "description": "",
+      "width": 268,
+      "position": 45
+    },
+    {
+      "field_name": "certification_status",
+      "display_name": "CERTIFICATION_STATUS",
+      "data_type": "text",
+      "description": "",
+      "width": 340,
+      "position": 46
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T20:55:50.213879"
+}

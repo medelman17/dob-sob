@@ -1,0 +1,3931 @@
+{
+  "dataset_id": "xmmq-y7za",
+  "name": "DOB NOW: Electrical Permit Details",
+  "description": "This dataset is part of the DOB NOW Electrical Permit Data Collection: https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOB+NOW+Electrical+Permits+Data \r\nThis dataset contains details of the electrical scope of work. For each Job Filing Number, there can be multiple rows/records in this dataset. For example, there might be electrical work being performed in the basement as well as on the 4th floor. One row/record for Basement and one for the floor. The job might have some 101 to 200 amps Service Switches as well as some Up to 100 amps Service Switches, and there would be one row/record for each.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "City Government",
+  "tags": [
+    "permit",
+    "electrical",
+    "dob",
+    "buildings",
+    "ed16a",
+    "electrician",
+    "electric",
+    "code",
+    "work",
+    "job",
+    "filing"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2019-04-17T16:43:07",
+  "updated_at": "2025-06-03T20:06:26",
+  "row_count": 1748981186,
+  "column_count": 40,
+  "download_count": 3398,
+  "view_count": 6535,
+  "columns": [
+    {
+      "field_name": "unique_id",
+      "display_name": "Details_ID",
+      "data_type": "text",
+      "description": "",
+      "width": 305,
+      "position": 1,
+      "cached_contents": {
+        "largest": "FFFFFE89-5803-F011-A477-005056B0FC6C.0.0",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "B8B6CB6E-CA49-EF11-A45A-005056B0FC6C.0.0",
+            "count": "1"
+          },
+          {
+            "item": "F8117698-ECC0-EE11-A94C-005056B0044A.0.0",
+            "count": "1"
+          },
+          {
+            "item": "AD40A857-783F-EF11-A495-005056B09D5B.AB40A857-783F-EF11-A495-005056B09D5B.0",
+            "count": "1"
+          },
+          {
+            "item": "7BDD2F29-0A56-EC11-A8DD-005056B0C55C.0.0",
+            "count": "1"
+          },
+          {
+            "item": "F2485C86-DF3D-ED11-A3F5-005056B04135.64001980-DF3D-ED11-A3F5-005056B04135.0",
+            "count": "1"
+          },
+          {
+            "item": "9C0F4689-B5D0-E811-811A-005056B627E6.1C74804D-B5D0-E811-811A-005056B627E6.0",
+            "count": "1"
+          },
+          {
+            "item": "D02157F5-5CFF-EB11-A8CC-005056B0C55C.CA2157F5-5CFF-EB11-A8CC-005056B0C55C.0",
+            "count": "1"
+          },
+          {
+            "item": "167C0371-6539-EA11-8125-005056B627E4.0B7C0371-6539-EA11-8125-005056B627E4.0",
+            "count": "1"
+          },
+          {
+            "item": "D92D6A91-CB25-EE11-A92B-005056B0044A.0.0",
+            "count": "1"
+          },
+          {
+            "item": "498E6081-5F01-EA11-8123-005056B627E6.488E6081-5F01-EA11-8123-005056B627E6.0",
+            "count": "1"
+          },
+          {
+            "item": "AD8B1764-3F08-E811-8117-005056B627E4.A98B1764-3F08-E811-8117-005056B627E4.0",
+            "count": "1"
+          },
+          {
+            "item": "A9081C9A-8306-EC11-A40C-005056B09D5B.0.0",
+            "count": "1"
+          },
+          {
+            "item": "40E41CA8-9B51-EA11-8125-005056B627E4.0.0",
+            "count": "1"
+          },
+          {
+            "item": "F4A853FF-67B2-EB11-A8C2-005056B0C55C.0.0",
+            "count": "1"
+          },
+          {
+            "item": "D2639192-2BD1-EE11-A483-005056B09D5B.BB639192-2BD1-EE11-A483-005056B09D5B.0",
+            "count": "1"
+          },
+          {
+            "item": "8C5C2739-F2F1-EA11-8126-005056B627E4.0.0",
+            "count": "1"
+          },
+          {
+            "item": "43AFF57F-792D-EA11-8125-005056B627E4.0.0",
+            "count": "1"
+          },
+          {
+            "item": "DE789303-CBA4-EE11-A47B-005056B09D5B.DD789303-CBA4-EE11-A47B-005056B09D5B.0",
+            "count": "1"
+          },
+          {
+            "item": "46FE4FE5-AE13-F011-A477-005056B04135.0.0",
+            "count": "1"
+          },
+          {
+            "item": "A671A253-68FB-EB11-A8CC-005056B0C55C.9471A253-68FB-EB11-A8CC-005056B0C55C.0",
+            "count": "1"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "000003E8-B097-EB11-A8BD-005056B0C55C.0.0",
+        "count": "1057673",
+        "cardinality": "1057673"
+      }
+    },
+    {
+      "field_name": "work_id",
+      "display_name": "Work_ID",
+      "data_type": "text",
+      "description": "A unique identifier assigned to each item listed under work description",
+      "width": 255,
+      "position": 2,
+      "cached_contents": {
+        "largest": "FFFFFE89-5803-F011-A477-005056B0FC6C",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "8742F994-638D-EB11-A8B9-005056B0044A",
+            "count": "79"
+          },
+          {
+            "item": "E774A76A-287E-E811-811A-005056B627E4",
+            "count": "79"
+          },
+          {
+            "item": "D437BD90-6BCF-EB11-A406-005056B09D5B",
+            "count": "79"
+          },
+          {
+            "item": "39C3EDE0-EF5F-EB11-A8AC-005056B0044A",
+            "count": "79"
+          },
+          {
+            "item": "801B779A-6C05-EA11-8123-005056B627E6",
+            "count": "75"
+          },
+          {
+            "item": "2699D940-EF98-E911-8122-005056B627E4",
+            "count": "75"
+          },
+          {
+            "item": "293714CD-F589-E811-811A-005056B627E4",
+            "count": "70"
+          },
+          {
+            "item": "4AB41C97-349F-E811-811B-005056B627E4",
+            "count": "69"
+          },
+          {
+            "item": "4931D50C-C1F6-E911-8123-005056B627E6",
+            "count": "67"
+          },
+          {
+            "item": "37639206-0438-EC11-A8D0-005056B0044A",
+            "count": "66"
+          },
+          {
+            "item": "B8436198-2B94-ED11-A40A-005056B0FC6C",
+            "count": "65"
+          },
+          {
+            "item": "78411AAD-2C7D-EC11-A420-005056B09D5B",
+            "count": "65"
+          },
+          {
+            "item": "E7106F08-742D-EA11-8125-005056B627E4",
+            "count": "64"
+          },
+          {
+            "item": "649F1697-4E98-E911-8122-005056B627E4",
+            "count": "63"
+          },
+          {
+            "item": "65CC403F-7AFC-EC11-A433-005056B0DD10",
+            "count": "62"
+          },
+          {
+            "item": "5B51ED0C-C82E-E811-8117-005056B627E4",
+            "count": "62"
+          },
+          {
+            "item": "25780E14-63E1-EA11-8126-005056B627E4",
+            "count": "61"
+          },
+          {
+            "item": "2F8C25DE-E6DE-E911-8123-005056B627E4",
+            "count": "61"
+          },
+          {
+            "item": "7ECDA652-F892-EB11-A8BC-005056B0044A",
+            "count": "61"
+          },
+          {
+            "item": "59D89744-7EDF-ED11-A456-005056B0DD10",
+            "count": "61"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "000003E8-B097-EB11-A8BD-005056B0C55C",
+        "count": "1057673",
+        "cardinality": "856725"
+      }
+    },
+    {
+      "field_name": "floor_id",
+      "display_name": "Floor_ID",
+      "data_type": "text",
+      "description": "A unique identifier assigned to each floor description under a work description",
+      "width": 177,
+      "position": 3,
+      "cached_contents": {
+        "largest": "FFFFEC1D-6BCB-EA11-8126-005056B627E4",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "664668"
+          },
+          {
+            "item": "1077E9C2-653E-E811-8117-005056B627E4",
+            "count": "17"
+          },
+          {
+            "item": "9C4D3E8B-1FB5-E811-811B-005056B627E4",
+            "count": "13"
+          },
+          {
+            "item": "E008A75F-C146-EA11-8125-005056B627E4",
+            "count": "4"
+          },
+          {
+            "item": "1B0EB027-1CC5-EA11-8126-005056B627E4",
+            "count": "4"
+          },
+          {
+            "item": "1F904601-1AC5-EA11-8126-005056B627E4",
+            "count": "4"
+          },
+          {
+            "item": "41ECFF84-A6D6-EC11-A8F3-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "C6AB296D-96C5-EC11-A8F0-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "73142854-96C5-EC11-A8F0-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "B7EF4D80-2857-ED11-A903-005056B0C55C",
+            "count": "3"
+          },
+          {
+            "item": "33571AC9-EA9F-EC11-A8EB-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "E0505A25-AD7A-EB11-A8B8-005056B0C55C",
+            "count": "3"
+          },
+          {
+            "item": "88FAD1D1-7293-E811-8119-005056B627E6",
+            "count": "3"
+          },
+          {
+            "item": "2E0FA833-299F-EC11-A427-005056B0DD10",
+            "count": "3"
+          },
+          {
+            "item": "8C73D10F-96C5-EC11-A42C-005056B0DD10",
+            "count": "3"
+          },
+          {
+            "item": "E354479D-EA9F-EC11-A8E9-005056B0C55C",
+            "count": "3"
+          },
+          {
+            "item": "C10AED4D-96C5-EC11-A8F0-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "8CD0C53F-299F-EC11-A8EB-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "8ED0C53F-299F-EC11-A8EB-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "9E68D821-96C5-EC11-A42C-005056B0DD10",
+            "count": "3"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "391285"
+      }
+    },
+    {
+      "field_name": "sign_id",
+      "display_name": "Sign_ID",
+      "data_type": "text",
+      "description": "A unique identifier assigned to each electrical sig decscription  under work description",
+      "width": 220,
+      "position": 4,
+      "cached_contents": {
+        "largest": "FFF80391-7C3F-E911-811F-005056B627E6",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1045804"
+          },
+          {
+            "item": "6F3B8230-BE03-ED11-A3ED-005056B0FC6C",
+            "count": "6"
+          },
+          {
+            "item": "22D73973-824D-EE11-A427-005056B04135",
+            "count": "5"
+          },
+          {
+            "item": "B6E810C1-F56E-EC11-A8E1-005056B0044A",
+            "count": "5"
+          },
+          {
+            "item": "B0B47CC4-7DA0-EC11-A427-005056B0DD10",
+            "count": "5"
+          },
+          {
+            "item": "E65BFDC1-CFEB-EB11-A40C-005056B0DD10",
+            "count": "4"
+          },
+          {
+            "item": "6669BCCE-BBA9-EB11-A3FF-005056B09D5B",
+            "count": "4"
+          },
+          {
+            "item": "6FABF936-8C3D-E811-8117-005056B627E4",
+            "count": "3"
+          },
+          {
+            "item": "0F1E1BC6-2FC0-EC11-A8F0-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "75FDB5DA-3438-E811-8117-005056B627E4",
+            "count": "3"
+          },
+          {
+            "item": "4CA719E7-A284-EF11-A96C-005056B0044A",
+            "count": "3"
+          },
+          {
+            "item": "15BC8D87-DEC0-EC11-A42C-005056B0DD10",
+            "count": "3"
+          },
+          {
+            "item": "46528B2B-6BB0-EC11-A42C-005056B09D5B",
+            "count": "3"
+          },
+          {
+            "item": "62ABCDBA-2D38-E811-8117-005056B627E4",
+            "count": "3"
+          },
+          {
+            "item": "7B21A07C-8530-E911-811F-005056B627E6",
+            "count": "3"
+          },
+          {
+            "item": "C3DDD955-ED09-E911-811C-005056B627E4",
+            "count": "3"
+          },
+          {
+            "item": "558C0B14-FDB6-EE11-A43A-005056B04135",
+            "count": "3"
+          },
+          {
+            "item": "D7E79055-1B27-EC11-A412-005056B09D5B",
+            "count": "3"
+          },
+          {
+            "item": "50989351-C431-F011-A4C2-005056B09D5B",
+            "count": "3"
+          },
+          {
+            "item": "976767DD-7E30-E911-811F-005056B627E6",
+            "count": "3"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "11415"
+      }
+    },
+    {
+      "field_name": "job_filing_number",
+      "display_name": "Job_Filing_Number",
+      "data_type": "text",
+      "description": "A unique identifier assigned to a job filing. It consists of job number (a letter indicating the borough followed by an 8-digit number)  hyphenated with Filing Number (a 2-digit code identifying the filing type). Once the permit is issued, a suffix  \"-EL\" is added to the job filing number. (Example: M00000001-I1-EL)",
+      "width": 207,
+      "position": 5,
+      "cached_contents": {
+        "largest": "X08055905-P1",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "Q01143726-I1-EL",
+            "count": "140"
+          },
+          {
+            "item": "Q00275367-I1-EL",
+            "count": "113"
+          },
+          {
+            "item": "Q00386745-P1",
+            "count": "111"
+          },
+          {
+            "item": "B00658850-I1-EL",
+            "count": "100"
+          },
+          {
+            "item": "M00704857-S1-EL",
+            "count": "93"
+          },
+          {
+            "item": "M00419010-I1-EL",
+            "count": "91"
+          },
+          {
+            "item": "B00513186-I1-EL",
+            "count": "88"
+          },
+          {
+            "item": "M00006478-S2-EL",
+            "count": "88"
+          },
+          {
+            "item": "M00141823-P1",
+            "count": "86"
+          },
+          {
+            "item": "M00141823-S1-EL",
+            "count": "86"
+          },
+          {
+            "item": "B00459939-I1-EL",
+            "count": "86"
+          },
+          {
+            "item": "M00185464-I1-EL",
+            "count": "83"
+          },
+          {
+            "item": "M00261157-I1-EL",
+            "count": "81"
+          },
+          {
+            "item": "M00062563-I1-EL",
+            "count": "76"
+          },
+          {
+            "item": "Q00070343-I1-EL",
+            "count": "76"
+          },
+          {
+            "item": "M00667409-I1-EL",
+            "count": "72"
+          },
+          {
+            "item": "M00676405-I1-EL",
+            "count": "71"
+          },
+          {
+            "item": "X00718135-I1-EL",
+            "count": "71"
+          },
+          {
+            "item": "X00252567-I1-EL",
+            "count": "70"
+          },
+          {
+            "item": "M00025978-I1-EL",
+            "count": "70"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "B00003100-S1-EL",
+        "count": "1057673",
+        "cardinality": "332839"
+      }
+    },
+    {
+      "field_name": "work_description",
+      "display_name": "Work_Description",
+      "data_type": "text",
+      "description": "Indicates a header for each group of items listed under work description.  Example: Panels",
+      "width": 184,
+      "position": 6,
+      "cached_contents": {
+        "largest": "Signs",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "Floor Descriptions",
+            "count": "393008"
+          },
+          {
+            "item": "Service Entrance and Feeder Conductors. List Each Set",
+            "count": "246373"
+          },
+          {
+            "item": "Panels",
+            "count": "209880"
+          },
+          {
+            "item": "Service Switches",
+            "count": "167762"
+          },
+          {
+            "item": "Elevators, Escalators, Material Lifts",
+            "count": "20727"
+          },
+          {
+            "item": "Signs",
+            "count": "11559"
+          },
+          {
+            "item": "Boiler Controls",
+            "count": "8364"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "Boiler Controls",
+        "count": "1057673",
+        "cardinality": "7"
+      }
+    },
+    {
+      "field_name": "item",
+      "display_name": "Item",
+      "data_type": "text",
+      "description": "Indicates name of each cost item listed under work description. Example: 1\u2205 up to 20-1 or 10-2 pole breakers ",
+      "width": 85,
+      "position": 7,
+      "cached_contents": {
+        "largest": "Upto 30 sq. ft",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "Floor Descriptions - Total Units",
+            "count": "393008"
+          },
+          {
+            "item": "Up to #2 conductor",
+            "count": "146062"
+          },
+          {
+            "item": "1\u00d8 up to 20-1 or 10-2 pole breakers",
+            "count": "113297"
+          },
+          {
+            "item": "Up to 100 amps",
+            "count": "103860"
+          },
+          {
+            "item": "3\u00d8 up to 225 amps",
+            "count": "49666"
+          },
+          {
+            "item": "Over 1/0 to 250MCM",
+            "count": "47129"
+          },
+          {
+            "item": "101 to 200 amps",
+            "count": "31912"
+          },
+          {
+            "item": "Over 250 MCM",
+            "count": "30442"
+          },
+          {
+            "item": "1\u00d8 over 20-1 or 10-2 pole breakers",
+            "count": "29253"
+          },
+          {
+            "item": "Over #2 to 1/0",
+            "count": "22740"
+          },
+          {
+            "item": "201 to 600 amps",
+            "count": "19711"
+          },
+          {
+            "item": "3\u00d8 over 225 amps",
+            "count": "17664"
+          },
+          {
+            "item": "Total no.of Elevators, etc",
+            "count": "16576"
+          },
+          {
+            "item": "Boiler Controls",
+            "count": "8364"
+          },
+          {
+            "item": "601 to 1200 amps",
+            "count": "7249"
+          },
+          {
+            "item": "Over 1200 amps",
+            "count": "5030"
+          },
+          {
+            "item": "Upto 30 sq. ft",
+            "count": "4474"
+          },
+          {
+            "item": "Each additional 10 floors or less",
+            "count": "4151"
+          },
+          {
+            "item": "31 to 60 sq. ft",
+            "count": "3000"
+          },
+          {
+            "item": "Signs - Shop Inspection",
+            "count": "2358"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "101 to 200 amps",
+        "count": "1057673",
+        "cardinality": "22"
+      }
+    },
+    {
+      "field_name": "item_quantity",
+      "display_name": "Quantity",
+      "data_type": "text",
+      "description": "Indicates quantity of each cost item listed under work description",
+      "width": 91,
+      "position": 8,
+      "cached_contents": {
+        "largest": "9991.00",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "1.00",
+            "count": "393938"
+          },
+          {
+            "item": "2.00",
+            "count": "118005"
+          },
+          {
+            "item": "3.00",
+            "count": "62768"
+          },
+          {
+            "item": "4.00",
+            "count": "36020"
+          },
+          {
+            "item": "5.00",
+            "count": "17437"
+          },
+          {
+            "item": "6.00",
+            "count": "14754"
+          },
+          {
+            "item": "8.00",
+            "count": "9756"
+          },
+          {
+            "item": "7.00",
+            "count": "9110"
+          },
+          {
+            "item": "10.00",
+            "count": "8253"
+          },
+          {
+            "item": "9.00",
+            "count": "6613"
+          },
+          {
+            "item": "12.00",
+            "count": "5328"
+          },
+          {
+            "item": "11.00",
+            "count": "4705"
+          },
+          {
+            "item": "14.00",
+            "count": "4153"
+          },
+          {
+            "item": "20.00",
+            "count": "3971"
+          },
+          {
+            "item": "15.00",
+            "count": "3789"
+          },
+          {
+            "item": "30.00",
+            "count": "3723"
+          },
+          {
+            "item": "16.00",
+            "count": "3674"
+          },
+          {
+            "item": "13.00",
+            "count": "3221"
+          },
+          {
+            "item": "18.00",
+            "count": "3018"
+          },
+          {
+            "item": "17.00",
+            "count": "2819"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "1.00",
+        "count": "1057673",
+        "cardinality": "3824"
+      }
+    },
+    {
+      "field_name": "item_cost",
+      "display_name": "Cost",
+      "data_type": "number",
+      "description": "Indicates cost of each item listed under work description ",
+      "width": 85,
+      "position": 9,
+      "cached_contents": {
+        "largest": "375",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.25",
+            "count": "393008"
+          },
+          {
+            "item": "15",
+            "count": "261717"
+          },
+          {
+            "item": "8",
+            "count": "103860"
+          },
+          {
+            "item": "30",
+            "count": "54652"
+          },
+          {
+            "item": "50",
+            "count": "49666"
+          },
+          {
+            "item": "75",
+            "count": "48106"
+          },
+          {
+            "item": "45",
+            "count": "47129"
+          },
+          {
+            "item": "37.5",
+            "count": "29253"
+          },
+          {
+            "item": "105",
+            "count": "19711"
+          },
+          {
+            "item": "125",
+            "count": "16576"
+          },
+          {
+            "item": "12",
+            "count": "8364"
+          },
+          {
+            "item": "225",
+            "count": "7249"
+          },
+          {
+            "item": "375",
+            "count": "5030"
+          },
+          {
+            "item": "65",
+            "count": "4474"
+          },
+          {
+            "item": "83",
+            "count": "4151"
+          },
+          {
+            "item": "90",
+            "count": "3000"
+          },
+          {
+            "item": "115",
+            "count": "1681"
+          },
+          {
+            "item": "40",
+            "count": "46"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0.25",
+        "count": "1057673",
+        "cardinality": "18"
+      }
+    },
+    {
+      "field_name": "fee_amount",
+      "display_name": "Fee_Amount",
+      "data_type": "number",
+      "description": "Indicates total fee amount (quantity * cost)",
+      "width": 119,
+      "position": 10,
+      "cached_contents": {
+        "largest": "180000",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "15",
+            "count": "145550"
+          },
+          {
+            "item": "30",
+            "count": "85024"
+          },
+          {
+            "item": "8",
+            "count": "71692"
+          },
+          {
+            "item": "45",
+            "count": "54450"
+          },
+          {
+            "item": "75",
+            "count": "29687"
+          },
+          {
+            "item": "50",
+            "count": "26029"
+          },
+          {
+            "item": "60",
+            "count": "22591"
+          },
+          {
+            "item": "37.5",
+            "count": "19511"
+          },
+          {
+            "item": "90",
+            "count": "18756"
+          },
+          {
+            "item": "150",
+            "count": "17533"
+          },
+          {
+            "item": "105",
+            "count": "17124"
+          },
+          {
+            "item": "24",
+            "count": "16184"
+          },
+          {
+            "item": "16",
+            "count": "14440"
+          },
+          {
+            "item": "125",
+            "count": "10857"
+          },
+          {
+            "item": "225",
+            "count": "10043"
+          },
+          {
+            "item": "100",
+            "count": "9391"
+          },
+          {
+            "item": "375",
+            "count": "5953"
+          },
+          {
+            "item": "300",
+            "count": "5946"
+          },
+          {
+            "item": "12",
+            "count": "5861"
+          },
+          {
+            "item": "0.5",
+            "count": "5368"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0.25",
+        "count": "1057673",
+        "cardinality": "4630"
+      }
+    },
+    {
+      "field_name": "item_detail",
+      "display_name": "Number_Size",
+      "data_type": "text",
+      "description": "Includes more information to describe each item ",
+      "width": 198,
+      "position": 11,
+      "cached_contents": {
+        "largest": "'Zto service Main service switc'",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "''",
+            "count": "569889"
+          },
+          {
+            "item": "'80 AMP'",
+            "count": "6848"
+          },
+          {
+            "item": "'3/0'",
+            "count": "5322"
+          },
+          {
+            "item": "'60A'",
+            "count": "5286"
+          },
+          {
+            "item": "'1 phase 20-1'",
+            "count": "4985"
+          },
+          {
+            "item": "'100 amp'",
+            "count": "4148"
+          },
+          {
+            "item": "'60 AMP'",
+            "count": "4146"
+          },
+          {
+            "item": "'#2'",
+            "count": "4069"
+          },
+          {
+            "item": "'100 AMP'",
+            "count": "3706"
+          },
+          {
+            "item": "'100A'",
+            "count": "3108"
+          },
+          {
+            "item": "'6 AWG'",
+            "count": "2830"
+          },
+          {
+            "item": "'06 AWG'",
+            "count": "2492"
+          },
+          {
+            "item": "'12/24'",
+            "count": "2379"
+          },
+          {
+            "item": "'1 Phase 20-1'",
+            "count": "2298"
+          },
+          {
+            "item": "'200A'",
+            "count": "2235"
+          },
+          {
+            "item": "'200 amp'",
+            "count": "2193"
+          },
+          {
+            "item": "'#6'",
+            "count": "2178"
+          },
+          {
+            "item": "'3@10 1@8'",
+            "count": "2127"
+          },
+          {
+            "item": "'200 AMP'",
+            "count": "2016"
+          },
+          {
+            "item": "'#3'",
+            "count": "2002"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "'--'",
+        "count": "1057673",
+        "cardinality": "121709"
+      }
+    },
+    {
+      "field_name": "floor_name",
+      "display_name": "Floor_Name",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the name of the floor of the building. (Example: Mezzanine, Lobby, Basement) If the floor doesn't have a name, this field will display \"Floor Number(s)\".",
+      "width": 274,
+      "position": 12,
+      "cached_contents": {
+        "largest": "Underground",
+        "non_null": "393015",
+        "null": "664658",
+        "top": [
+          {
+            "item": "Floor Number(s)",
+            "count": "227525"
+          },
+          {
+            "item": "Ground Floor",
+            "count": "45398"
+          },
+          {
+            "item": "Basement",
+            "count": "39419"
+          },
+          {
+            "item": "Roof",
+            "count": "30566"
+          },
+          {
+            "item": "Cellar",
+            "count": "23830"
+          },
+          {
+            "item": "Open Space",
+            "count": "6895"
+          },
+          {
+            "item": "Sidewalk",
+            "count": "5210"
+          },
+          {
+            "item": "Attic",
+            "count": "4292"
+          },
+          {
+            "item": "Penthouse",
+            "count": "1757"
+          },
+          {
+            "item": "Stairwells",
+            "count": "1740"
+          },
+          {
+            "item": "Mezzanine",
+            "count": "1654"
+          },
+          {
+            "item": "Lobby",
+            "count": "1206"
+          },
+          {
+            "item": "Sub-Cellar",
+            "count": "1182"
+          },
+          {
+            "item": "Fa\u00e7ade",
+            "count": "503"
+          },
+          {
+            "item": "Sub-Cellar #1",
+            "count": "450"
+          },
+          {
+            "item": "Sub-Cellar #2",
+            "count": "375"
+          },
+          {
+            "item": "Elevator Pit",
+            "count": "245"
+          },
+          {
+            "item": "Sub-Cellar #3",
+            "count": "187"
+          },
+          {
+            "item": "Pit",
+            "count": "173"
+          },
+          {
+            "item": "Tower",
+            "count": "145"
+          }
+        ],
+        "not_null": "121432",
+        "smallest": "14x#10",
+        "count": "1057673",
+        "cardinality": "32"
+      }
+    },
+    {
+      "field_name": "from_floor",
+      "display_name": "Floor_From",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", and the FLOORNAME is \"Floor Number(s)\", this will indicate the floor on which the work will be performed. (Or in the case of a range of floors, this will be the lowest floor number.)",
+      "width": 211,
+      "position": 13,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "231879",
+        "null": "825794",
+        "top": [
+          {
+            "item": "1",
+            "count": "72118"
+          },
+          {
+            "item": "2",
+            "count": "43305"
+          },
+          {
+            "item": "3",
+            "count": "22601"
+          },
+          {
+            "item": "4",
+            "count": "14655"
+          },
+          {
+            "item": "5",
+            "count": "10324"
+          },
+          {
+            "item": "6",
+            "count": "7910"
+          },
+          {
+            "item": "7",
+            "count": "5221"
+          },
+          {
+            "item": "8",
+            "count": "4357"
+          },
+          {
+            "item": "001",
+            "count": "3906"
+          },
+          {
+            "item": "9",
+            "count": "3717"
+          },
+          {
+            "item": "10",
+            "count": "3426"
+          },
+          {
+            "item": "11",
+            "count": "3163"
+          },
+          {
+            "item": "12",
+            "count": "2908"
+          },
+          {
+            "item": "14",
+            "count": "2173"
+          },
+          {
+            "item": "15",
+            "count": "1906"
+          },
+          {
+            "item": "16",
+            "count": "1784"
+          },
+          {
+            "item": "002",
+            "count": "1641"
+          },
+          {
+            "item": "17",
+            "count": "1562"
+          },
+          {
+            "item": "0",
+            "count": "1404"
+          },
+          {
+            "item": "13",
+            "count": "1347"
+          }
+        ],
+        "not_null": "72719",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "246"
+      }
+    },
+    {
+      "field_name": "to_floor",
+      "display_name": "Floor_To",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", and the FLOORNAME is \"Floor Number(s)\", this will indicate the floor on which the work will be performed. (Or in the case of a range of floors, this will be the highest floor number.)",
+      "width": 195,
+      "position": 14,
+      "cached_contents": {
+        "largest": "99",
+        "non_null": "231870",
+        "null": "825803",
+        "top": [
+          {
+            "item": "2",
+            "count": "51281"
+          },
+          {
+            "item": "1",
+            "count": "41120"
+          },
+          {
+            "item": "3",
+            "count": "29268"
+          },
+          {
+            "item": "4",
+            "count": "20128"
+          },
+          {
+            "item": "5",
+            "count": "13774"
+          },
+          {
+            "item": "6",
+            "count": "10150"
+          },
+          {
+            "item": "7",
+            "count": "6773"
+          },
+          {
+            "item": "8",
+            "count": "5331"
+          },
+          {
+            "item": "9",
+            "count": "4174"
+          },
+          {
+            "item": "10",
+            "count": "3716"
+          },
+          {
+            "item": "12",
+            "count": "3304"
+          },
+          {
+            "item": "11",
+            "count": "3266"
+          },
+          {
+            "item": "002",
+            "count": "2542"
+          },
+          {
+            "item": "14",
+            "count": "2340"
+          },
+          {
+            "item": "15",
+            "count": "2102"
+          },
+          {
+            "item": "001",
+            "count": "1983"
+          },
+          {
+            "item": "16",
+            "count": "1962"
+          },
+          {
+            "item": "17",
+            "count": "1711"
+          },
+          {
+            "item": "13",
+            "count": "1498"
+          },
+          {
+            "item": "18",
+            "count": "1393"
+          }
+        ],
+        "not_null": "72713",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "273"
+      }
+    },
+    {
+      "field_name": "floor_detail",
+      "display_name": "Floor_Description",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will provide more detail about the floor on which the work will be performed. This field is free text.",
+      "width": 253,
+      "position": 15,
+      "cached_contents": {
+        "largest": "Zeta School electrical scope only for  motorized shades power for 6th floor Mezzanine level reuse ex",
+        "non_null": "244965",
+        "null": "812708",
+        "top": [
+          {
+            "item": "BASEMENT",
+            "count": "2821"
+          },
+          {
+            "item": "Basement",
+            "count": "2532"
+          },
+          {
+            "item": "Cellar",
+            "count": "2514"
+          },
+          {
+            "item": "GENERAL WIRING",
+            "count": "2300"
+          },
+          {
+            "item": "1st floor",
+            "count": "1838"
+          },
+          {
+            "item": "2nd floor",
+            "count": "1734"
+          },
+          {
+            "item": "OUTSIDE STREET LEVEL",
+            "count": "1679"
+          },
+          {
+            "item": "GROUND FLOOR",
+            "count": "1595"
+          },
+          {
+            "item": "1ST FLOOR",
+            "count": "1589"
+          },
+          {
+            "item": "FIRST FLOOR",
+            "count": "1561"
+          },
+          {
+            "item": "basement",
+            "count": "1561"
+          },
+          {
+            "item": "SIDEWALK SHED",
+            "count": "1560"
+          },
+          {
+            "item": "1st Floor",
+            "count": "1559"
+          },
+          {
+            "item": "Roof",
+            "count": "1542"
+          },
+          {
+            "item": "2nd Floor",
+            "count": "1408"
+          },
+          {
+            "item": "2ND FLOOR",
+            "count": "1362"
+          },
+          {
+            "item": "SECOND FLOOR",
+            "count": "1332"
+          },
+          {
+            "item": "CELLAR",
+            "count": "1296"
+          },
+          {
+            "item": "General wiring",
+            "count": "1222"
+          },
+          {
+            "item": "1 Floor",
+            "count": "955"
+          }
+        ],
+        "not_null": "77318",
+        "smallest": "`",
+        "count": "1057673",
+        "cardinality": "90538"
+      }
+    },
+    {
+      "field_name": "floor_fixtures",
+      "display_name": "Fixture",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the number of fixtures involved in the work on that floor.",
+      "width": 204,
+      "position": 16,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "1057663",
+        "null": "10",
+        "top": [
+          {
+            "item": "0",
+            "count": "715091"
+          },
+          {
+            "item": "10",
+            "count": "21983"
+          },
+          {
+            "item": "20",
+            "count": "19746"
+          },
+          {
+            "item": "15",
+            "count": "13417"
+          },
+          {
+            "item": "30",
+            "count": "12993"
+          },
+          {
+            "item": "12",
+            "count": "12666"
+          },
+          {
+            "item": "25",
+            "count": "10860"
+          },
+          {
+            "item": "8",
+            "count": "10277"
+          },
+          {
+            "item": "6",
+            "count": "10062"
+          },
+          {
+            "item": "5",
+            "count": "9399"
+          },
+          {
+            "item": "40",
+            "count": "8919"
+          },
+          {
+            "item": "4",
+            "count": "8431"
+          },
+          {
+            "item": "2",
+            "count": "7640"
+          },
+          {
+            "item": "16",
+            "count": "6628"
+          },
+          {
+            "item": "18",
+            "count": "6445"
+          },
+          {
+            "item": "50",
+            "count": "6331"
+          },
+          {
+            "item": "14",
+            "count": "6146"
+          },
+          {
+            "item": "1",
+            "count": "6099"
+          },
+          {
+            "item": "24",
+            "count": "5629"
+          },
+          {
+            "item": "3",
+            "count": "5474"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "961"
+      }
+    },
+    {
+      "field_name": "floor_ac_receptacles",
+      "display_name": "Receptacles_AC",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the number of A/C Receptacles involved in the work on that floor.",
+      "width": 246,
+      "position": 17,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "1057671",
+        "null": "2",
+        "top": [
+          {
+            "item": "0",
+            "count": "974378"
+          },
+          {
+            "item": "1",
+            "count": "17731"
+          },
+          {
+            "item": "2",
+            "count": "14784"
+          },
+          {
+            "item": "3",
+            "count": "13572"
+          },
+          {
+            "item": "4",
+            "count": "11240"
+          },
+          {
+            "item": "5",
+            "count": "4445"
+          },
+          {
+            "item": "6",
+            "count": "4028"
+          },
+          {
+            "item": "8",
+            "count": "2633"
+          },
+          {
+            "item": "10",
+            "count": "1559"
+          },
+          {
+            "item": "12",
+            "count": "1263"
+          },
+          {
+            "item": "7",
+            "count": "1151"
+          },
+          {
+            "item": "9",
+            "count": "986"
+          },
+          {
+            "item": "15",
+            "count": "690"
+          },
+          {
+            "item": "20",
+            "count": "609"
+          },
+          {
+            "item": "16",
+            "count": "582"
+          },
+          {
+            "item": "11",
+            "count": "504"
+          },
+          {
+            "item": "18",
+            "count": "502"
+          },
+          {
+            "item": "14",
+            "count": "441"
+          },
+          {
+            "item": "25",
+            "count": "358"
+          },
+          {
+            "item": "21",
+            "count": "307"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "261"
+      }
+    },
+    {
+      "field_name": "floor_att_receptacles",
+      "display_name": "Receptacles_ATT",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the number of ATT Receptacles involved in the work on that floor.",
+      "width": 250,
+      "position": 18,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "1057671",
+        "null": "2",
+        "top": [
+          {
+            "item": "0",
+            "count": "737804"
+          },
+          {
+            "item": "20",
+            "count": "19667"
+          },
+          {
+            "item": "10",
+            "count": "18033"
+          },
+          {
+            "item": "30",
+            "count": "13743"
+          },
+          {
+            "item": "1",
+            "count": "13223"
+          },
+          {
+            "item": "25",
+            "count": "12823"
+          },
+          {
+            "item": "2",
+            "count": "12705"
+          },
+          {
+            "item": "15",
+            "count": "11746"
+          },
+          {
+            "item": "12",
+            "count": "10083"
+          },
+          {
+            "item": "4",
+            "count": "9582"
+          },
+          {
+            "item": "8",
+            "count": "8388"
+          },
+          {
+            "item": "5",
+            "count": "8247"
+          },
+          {
+            "item": "6",
+            "count": "7800"
+          },
+          {
+            "item": "40",
+            "count": "7422"
+          },
+          {
+            "item": "18",
+            "count": "6572"
+          },
+          {
+            "item": "3",
+            "count": "5968"
+          },
+          {
+            "item": "22",
+            "count": "5794"
+          },
+          {
+            "item": "16",
+            "count": "5729"
+          },
+          {
+            "item": "50",
+            "count": "5724"
+          },
+          {
+            "item": "24",
+            "count": "5011"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "944"
+      }
+    },
+    {
+      "field_name": "floor_switches",
+      "display_name": "Switches",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the number of switches involved in the work on that floor.",
+      "width": 200,
+      "position": 19,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "755134"
+          },
+          {
+            "item": "10",
+            "count": "26536"
+          },
+          {
+            "item": "5",
+            "count": "19225"
+          },
+          {
+            "item": "2",
+            "count": "19097"
+          },
+          {
+            "item": "6",
+            "count": "18909"
+          },
+          {
+            "item": "1",
+            "count": "17439"
+          },
+          {
+            "item": "8",
+            "count": "16639"
+          },
+          {
+            "item": "4",
+            "count": "16173"
+          },
+          {
+            "item": "12",
+            "count": "14667"
+          },
+          {
+            "item": "15",
+            "count": "13227"
+          },
+          {
+            "item": "3",
+            "count": "12399"
+          },
+          {
+            "item": "20",
+            "count": "11317"
+          },
+          {
+            "item": "7",
+            "count": "9724"
+          },
+          {
+            "item": "9",
+            "count": "6682"
+          },
+          {
+            "item": "16",
+            "count": "6293"
+          },
+          {
+            "item": "14",
+            "count": "5738"
+          },
+          {
+            "item": "11",
+            "count": "5713"
+          },
+          {
+            "item": "18",
+            "count": "5136"
+          },
+          {
+            "item": "30",
+            "count": "5025"
+          },
+          {
+            "item": "25",
+            "count": "4853"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "643"
+      }
+    },
+    {
+      "field_name": "floor_outlets",
+      "display_name": "Outlets",
+      "data_type": "number",
+      "description": "Indicates number of outlets in the specified floor ",
+      "width": 126,
+      "position": 20,
+      "cached_contents": {
+        "largest": "3996",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "689823"
+          },
+          {
+            "item": "1",
+            "count": "6717"
+          },
+          {
+            "item": "12",
+            "count": "6304"
+          },
+          {
+            "item": "40",
+            "count": "5589"
+          },
+          {
+            "item": "20",
+            "count": "5574"
+          },
+          {
+            "item": "30",
+            "count": "5330"
+          },
+          {
+            "item": "2",
+            "count": "4890"
+          },
+          {
+            "item": "15",
+            "count": "4761"
+          },
+          {
+            "item": "60",
+            "count": "4719"
+          },
+          {
+            "item": "16",
+            "count": "4663"
+          },
+          {
+            "item": "14",
+            "count": "4574"
+          },
+          {
+            "item": "4",
+            "count": "4569"
+          },
+          {
+            "item": "50",
+            "count": "4448"
+          },
+          {
+            "item": "25",
+            "count": "4427"
+          },
+          {
+            "item": "11",
+            "count": "4271"
+          },
+          {
+            "item": "3",
+            "count": "4263"
+          },
+          {
+            "item": "10",
+            "count": "4214"
+          },
+          {
+            "item": "6",
+            "count": "4154"
+          },
+          {
+            "item": "13",
+            "count": "4061"
+          },
+          {
+            "item": "18",
+            "count": "4061"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "2241"
+      }
+    },
+    {
+      "field_name": "floor_motors_generators",
+      "display_name": "Motors Generators",
+      "data_type": "number",
+      "description": "Indicates number of motors or generators in the specified floor ",
+      "width": 201,
+      "position": 21,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "914916"
+          },
+          {
+            "item": "1",
+            "count": "32164"
+          },
+          {
+            "item": "2",
+            "count": "26455"
+          },
+          {
+            "item": "3",
+            "count": "14362"
+          },
+          {
+            "item": "4",
+            "count": "11454"
+          },
+          {
+            "item": "5",
+            "count": "6376"
+          },
+          {
+            "item": "6",
+            "count": "6217"
+          },
+          {
+            "item": "8",
+            "count": "4156"
+          },
+          {
+            "item": "10",
+            "count": "3648"
+          },
+          {
+            "item": "7",
+            "count": "3118"
+          },
+          {
+            "item": "12",
+            "count": "3075"
+          },
+          {
+            "item": "9",
+            "count": "2515"
+          },
+          {
+            "item": "14",
+            "count": "2188"
+          },
+          {
+            "item": "15",
+            "count": "2044"
+          },
+          {
+            "item": "11",
+            "count": "2034"
+          },
+          {
+            "item": "16",
+            "count": "1999"
+          },
+          {
+            "item": "13",
+            "count": "1850"
+          },
+          {
+            "item": "18",
+            "count": "1708"
+          },
+          {
+            "item": "20",
+            "count": "1457"
+          },
+          {
+            "item": "17",
+            "count": "1219"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "354"
+      }
+    },
+    {
+      "field_name": "floor_hpkw",
+      "display_name": "Total HPKW",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the total hpkw of motors or generators involved in the work on that floor.",
+      "width": 216,
+      "position": 22,
+      "cached_contents": {
+        "largest": "978000",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "915087"
+          },
+          {
+            "item": "1",
+            "count": "18850"
+          },
+          {
+            "item": "2",
+            "count": "16021"
+          },
+          {
+            "item": "3",
+            "count": "11942"
+          },
+          {
+            "item": "4",
+            "count": "11016"
+          },
+          {
+            "item": "5",
+            "count": "10445"
+          },
+          {
+            "item": "6",
+            "count": "8943"
+          },
+          {
+            "item": "10",
+            "count": "5842"
+          },
+          {
+            "item": "8",
+            "count": "5406"
+          },
+          {
+            "item": "7",
+            "count": "4323"
+          },
+          {
+            "item": "12",
+            "count": "3727"
+          },
+          {
+            "item": "9",
+            "count": "3084"
+          },
+          {
+            "item": "20",
+            "count": "2878"
+          },
+          {
+            "item": "15",
+            "count": "2796"
+          },
+          {
+            "item": "30",
+            "count": "1853"
+          },
+          {
+            "item": "16",
+            "count": "1536"
+          },
+          {
+            "item": "18",
+            "count": "1466"
+          },
+          {
+            "item": "25",
+            "count": "1280"
+          },
+          {
+            "item": "11",
+            "count": "1208"
+          },
+          {
+            "item": "40",
+            "count": "1204"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "1376"
+      }
+    },
+    {
+      "field_name": "floor_heaters",
+      "display_name": "Heaters",
+      "data_type": "number",
+      "description": "Indicates number of heaters in the specified floor ",
+      "width": 141,
+      "position": 23,
+      "cached_contents": {
+        "largest": "872",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1008327"
+          },
+          {
+            "item": "1",
+            "count": "15281"
+          },
+          {
+            "item": "2",
+            "count": "10953"
+          },
+          {
+            "item": "3",
+            "count": "5068"
+          },
+          {
+            "item": "4",
+            "count": "4293"
+          },
+          {
+            "item": "5",
+            "count": "2470"
+          },
+          {
+            "item": "6",
+            "count": "2126"
+          },
+          {
+            "item": "8",
+            "count": "1437"
+          },
+          {
+            "item": "10",
+            "count": "1051"
+          },
+          {
+            "item": "7",
+            "count": "1026"
+          },
+          {
+            "item": "9",
+            "count": "774"
+          },
+          {
+            "item": "12",
+            "count": "684"
+          },
+          {
+            "item": "11",
+            "count": "382"
+          },
+          {
+            "item": "14",
+            "count": "348"
+          },
+          {
+            "item": "15",
+            "count": "326"
+          },
+          {
+            "item": "20",
+            "count": "292"
+          },
+          {
+            "item": "16",
+            "count": "252"
+          },
+          {
+            "item": "13",
+            "count": "220"
+          },
+          {
+            "item": "18",
+            "count": "183"
+          },
+          {
+            "item": "23",
+            "count": "133"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "131"
+      }
+    },
+    {
+      "field_name": "floor_kw",
+      "display_name": "Total_KW",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the total kw of heaters involved in the work on that floor.",
+      "width": 206,
+      "position": 24,
+      "cached_contents": {
+        "largest": "550000",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1008419"
+          },
+          {
+            "item": "2",
+            "count": "4756"
+          },
+          {
+            "item": "3",
+            "count": "4112"
+          },
+          {
+            "item": "1",
+            "count": "3793"
+          },
+          {
+            "item": "5",
+            "count": "3418"
+          },
+          {
+            "item": "4",
+            "count": "3339"
+          },
+          {
+            "item": "6",
+            "count": "3268"
+          },
+          {
+            "item": "10",
+            "count": "2570"
+          },
+          {
+            "item": "8",
+            "count": "2263"
+          },
+          {
+            "item": "12",
+            "count": "1809"
+          },
+          {
+            "item": "15",
+            "count": "1472"
+          },
+          {
+            "item": "20",
+            "count": "1297"
+          },
+          {
+            "item": "9",
+            "count": "1173"
+          },
+          {
+            "item": "7",
+            "count": "903"
+          },
+          {
+            "item": "18",
+            "count": "860"
+          },
+          {
+            "item": "16",
+            "count": "782"
+          },
+          {
+            "item": "30",
+            "count": "707"
+          },
+          {
+            "item": "14",
+            "count": "596"
+          },
+          {
+            "item": "24",
+            "count": "553"
+          },
+          {
+            "item": "40",
+            "count": "519"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "578"
+      }
+    },
+    {
+      "field_name": "floor_transformers",
+      "display_name": "Transformer",
+      "data_type": "number",
+      "description": "Indicates number of transformers in the specified floor ",
+      "width": 153,
+      "position": 25,
+      "cached_contents": {
+        "largest": "570",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1041464"
+          },
+          {
+            "item": "1",
+            "count": "7813"
+          },
+          {
+            "item": "2",
+            "count": "3022"
+          },
+          {
+            "item": "3",
+            "count": "1100"
+          },
+          {
+            "item": "4",
+            "count": "763"
+          },
+          {
+            "item": "5",
+            "count": "491"
+          },
+          {
+            "item": "6",
+            "count": "335"
+          },
+          {
+            "item": "12",
+            "count": "225"
+          },
+          {
+            "item": "10",
+            "count": "199"
+          },
+          {
+            "item": "8",
+            "count": "178"
+          },
+          {
+            "item": "14",
+            "count": "159"
+          },
+          {
+            "item": "11",
+            "count": "158"
+          },
+          {
+            "item": "7",
+            "count": "157"
+          },
+          {
+            "item": "16",
+            "count": "141"
+          },
+          {
+            "item": "18",
+            "count": "139"
+          },
+          {
+            "item": "15",
+            "count": "135"
+          },
+          {
+            "item": "9",
+            "count": "128"
+          },
+          {
+            "item": "13",
+            "count": "115"
+          },
+          {
+            "item": "20",
+            "count": "100"
+          },
+          {
+            "item": "17",
+            "count": "89"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "98"
+      }
+    },
+    {
+      "field_name": "floor_kva",
+      "display_name": "Total_KVA",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Floor Descriptions\", this will indicate the total kva of transformers involved in the work on that floor.",
+      "width": 213,
+      "position": 26,
+      "cached_contents": {
+        "largest": "133500",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1041443"
+          },
+          {
+            "item": "75",
+            "count": "1421"
+          },
+          {
+            "item": "5",
+            "count": "1274"
+          },
+          {
+            "item": "45",
+            "count": "1209"
+          },
+          {
+            "item": "30",
+            "count": "1157"
+          },
+          {
+            "item": "150",
+            "count": "884"
+          },
+          {
+            "item": "1",
+            "count": "689"
+          },
+          {
+            "item": "7",
+            "count": "683"
+          },
+          {
+            "item": "15",
+            "count": "498"
+          },
+          {
+            "item": "4",
+            "count": "491"
+          },
+          {
+            "item": "6",
+            "count": "469"
+          },
+          {
+            "item": "90",
+            "count": "376"
+          },
+          {
+            "item": "3",
+            "count": "365"
+          },
+          {
+            "item": "225",
+            "count": "342"
+          },
+          {
+            "item": "300",
+            "count": "309"
+          },
+          {
+            "item": "8",
+            "count": "271"
+          },
+          {
+            "item": "120",
+            "count": "264"
+          },
+          {
+            "item": "60",
+            "count": "257"
+          },
+          {
+            "item": "10",
+            "count": "256"
+          },
+          {
+            "item": "2",
+            "count": "222"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "649"
+      }
+    },
+    {
+      "field_name": "sign_dimensions",
+      "display_name": "Sign_Dimensions",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the dimensions of the sign in feet. This field is free text.",
+      "width": 277,
+      "position": 27,
+      "cached_contents": {
+        "largest": "X00624337",
+        "non_null": "11879",
+        "null": "1045794",
+        "top": [
+          {
+            "item": "3'-6' X 4'-0'",
+            "count": "86"
+          },
+          {
+            "item": "2'-0' X 16'-0'",
+            "count": "52"
+          },
+          {
+            "item": "5'-0' X 5'-1'",
+            "count": "50"
+          },
+          {
+            "item": "13' -4' x 2' -10 3/4'",
+            "count": "50"
+          },
+          {
+            "item": "1'-6' X 1'-6'",
+            "count": "44"
+          },
+          {
+            "item": "5'-3' x 27'-4'",
+            "count": "42"
+          },
+          {
+            "item": "17' -5' x 2' -10 1/4'",
+            "count": "41"
+          },
+          {
+            "item": "48' X 38'",
+            "count": "24"
+          },
+          {
+            "item": "1'-6' X 12'-0'",
+            "count": "24"
+          },
+          {
+            "item": "1'-4' X 1'-4'",
+            "count": "22"
+          },
+          {
+            "item": "3'-0' X 3'-0'",
+            "count": "21"
+          },
+          {
+            "item": "5'-0' X 2'-10'",
+            "count": "21"
+          },
+          {
+            "item": "49' X 37'",
+            "count": "21"
+          },
+          {
+            "item": "7' -1 1/2' x -11'",
+            "count": "19"
+          },
+          {
+            "item": "8' -5 1/4' x 1' -10'",
+            "count": "19"
+          },
+          {
+            "item": "16'-0' X 3'-0'",
+            "count": "19"
+          },
+          {
+            "item": "20'-0' X 2'-6'",
+            "count": "16"
+          },
+          {
+            "item": "9' 2' X 1' 3'",
+            "count": "16"
+          },
+          {
+            "item": "17' - 4'' X 3'- 10''",
+            "count": "15"
+          },
+          {
+            "item": "16' by 3'",
+            "count": "15"
+          }
+        ],
+        "not_null": "4327",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "8211"
+      }
+    },
+    {
+      "field_name": "sign_sq_footage",
+      "display_name": "Sign_Square_Footage",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the total square footage of the sign. ",
+      "width": 277,
+      "position": 28,
+      "cached_contents": {
+        "largest": "17836",
+        "non_null": "1057665",
+        "null": "8",
+        "top": [
+          {
+            "item": "0",
+            "count": "1045805"
+          },
+          {
+            "item": "50",
+            "count": "699"
+          },
+          {
+            "item": "14",
+            "count": "307"
+          },
+          {
+            "item": "12",
+            "count": "294"
+          },
+          {
+            "item": "2",
+            "count": "273"
+          },
+          {
+            "item": "25",
+            "count": "266"
+          },
+          {
+            "item": "48",
+            "count": "258"
+          },
+          {
+            "item": "11",
+            "count": "233"
+          },
+          {
+            "item": "30",
+            "count": "209"
+          },
+          {
+            "item": "9",
+            "count": "209"
+          },
+          {
+            "item": "36",
+            "count": "207"
+          },
+          {
+            "item": "39",
+            "count": "201"
+          },
+          {
+            "item": "32",
+            "count": "198"
+          },
+          {
+            "item": "18",
+            "count": "198"
+          },
+          {
+            "item": "10",
+            "count": "197"
+          },
+          {
+            "item": "45",
+            "count": "188"
+          },
+          {
+            "item": "15",
+            "count": "186"
+          },
+          {
+            "item": "33",
+            "count": "184"
+          },
+          {
+            "item": "3",
+            "count": "184"
+          },
+          {
+            "item": "20",
+            "count": "184"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "383"
+      }
+    },
+    {
+      "field_name": "sign_circuits",
+      "display_name": "Total_Circuits",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the total number of circuits in the sign.",
+      "width": 277,
+      "position": 29,
+      "cached_contents": {
+        "largest": "1504",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1045865"
+          },
+          {
+            "item": "1",
+            "count": "11254"
+          },
+          {
+            "item": "2",
+            "count": "213"
+          },
+          {
+            "item": "7",
+            "count": "46"
+          },
+          {
+            "item": "12",
+            "count": "42"
+          },
+          {
+            "item": "3",
+            "count": "37"
+          },
+          {
+            "item": "4",
+            "count": "18"
+          },
+          {
+            "item": "36",
+            "count": "15"
+          },
+          {
+            "item": "42",
+            "count": "13"
+          },
+          {
+            "item": "5",
+            "count": "13"
+          },
+          {
+            "item": "21",
+            "count": "12"
+          },
+          {
+            "item": "15",
+            "count": "10"
+          },
+          {
+            "item": "22",
+            "count": "9"
+          },
+          {
+            "item": "50",
+            "count": "8"
+          },
+          {
+            "item": "270",
+            "count": "7"
+          },
+          {
+            "item": "104",
+            "count": "6"
+          },
+          {
+            "item": "149",
+            "count": "6"
+          },
+          {
+            "item": "73",
+            "count": "6"
+          },
+          {
+            "item": "20",
+            "count": "6"
+          },
+          {
+            "item": "942",
+            "count": "6"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "56"
+      }
+    },
+    {
+      "field_name": "sign_lamps",
+      "display_name": "Total_Lamps",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the total number of lamps on the sign.",
+      "width": 212,
+      "position": 30,
+      "cached_contents": {
+        "largest": "90000",
+        "non_null": "1057671",
+        "null": "2",
+        "top": [
+          {
+            "item": "0",
+            "count": "1051640"
+          },
+          {
+            "item": "100",
+            "count": "585"
+          },
+          {
+            "item": "1",
+            "count": "527"
+          },
+          {
+            "item": "2",
+            "count": "317"
+          },
+          {
+            "item": "140",
+            "count": "269"
+          },
+          {
+            "item": "120",
+            "count": "224"
+          },
+          {
+            "item": "4",
+            "count": "195"
+          },
+          {
+            "item": "70",
+            "count": "183"
+          },
+          {
+            "item": "3",
+            "count": "127"
+          },
+          {
+            "item": "200",
+            "count": "100"
+          },
+          {
+            "item": "150",
+            "count": "98"
+          },
+          {
+            "item": "180",
+            "count": "94"
+          },
+          {
+            "item": "10",
+            "count": "93"
+          },
+          {
+            "item": "220",
+            "count": "90"
+          },
+          {
+            "item": "60",
+            "count": "75"
+          },
+          {
+            "item": "300",
+            "count": "69"
+          },
+          {
+            "item": "20",
+            "count": "68"
+          },
+          {
+            "item": "240",
+            "count": "64"
+          },
+          {
+            "item": "40",
+            "count": "61"
+          },
+          {
+            "item": "36",
+            "count": "59"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "427"
+      }
+    },
+    {
+      "field_name": "sign_lamp_wattage",
+      "display_name": "Watts_Lamps",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the wattage of the lamps on the sign.",
+      "width": 227,
+      "position": 31,
+      "cached_contents": {
+        "largest": "46775",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1050136"
+          },
+          {
+            "item": "1",
+            "count": "1164"
+          },
+          {
+            "item": "64",
+            "count": "832"
+          },
+          {
+            "item": "60",
+            "count": "591"
+          },
+          {
+            "item": "50",
+            "count": "552"
+          },
+          {
+            "item": "84",
+            "count": "548"
+          },
+          {
+            "item": "40",
+            "count": "248"
+          },
+          {
+            "item": "140",
+            "count": "233"
+          },
+          {
+            "item": "120",
+            "count": "221"
+          },
+          {
+            "item": "70",
+            "count": "173"
+          },
+          {
+            "item": "100",
+            "count": "170"
+          },
+          {
+            "item": "72",
+            "count": "153"
+          },
+          {
+            "item": "3",
+            "count": "132"
+          },
+          {
+            "item": "150",
+            "count": "81"
+          },
+          {
+            "item": "2",
+            "count": "70"
+          },
+          {
+            "item": "20",
+            "count": "66"
+          },
+          {
+            "item": "300",
+            "count": "65"
+          },
+          {
+            "item": "220",
+            "count": "63"
+          },
+          {
+            "item": "24",
+            "count": "54"
+          },
+          {
+            "item": "4",
+            "count": "54"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "348"
+      }
+    },
+    {
+      "field_name": "sign_transformers",
+      "display_name": "Sign_Transformers",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate number of transformers for the sign.",
+      "width": 282,
+      "position": 32,
+      "cached_contents": {
+        "largest": "6451",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1047127"
+          },
+          {
+            "item": "1",
+            "count": "6244"
+          },
+          {
+            "item": "2",
+            "count": "2414"
+          },
+          {
+            "item": "3",
+            "count": "935"
+          },
+          {
+            "item": "4",
+            "count": "376"
+          },
+          {
+            "item": "5",
+            "count": "122"
+          },
+          {
+            "item": "6",
+            "count": "113"
+          },
+          {
+            "item": "130",
+            "count": "42"
+          },
+          {
+            "item": "8",
+            "count": "35"
+          },
+          {
+            "item": "10",
+            "count": "27"
+          },
+          {
+            "item": "7",
+            "count": "25"
+          },
+          {
+            "item": "12",
+            "count": "17"
+          },
+          {
+            "item": "262",
+            "count": "12"
+          },
+          {
+            "item": "426",
+            "count": "12"
+          },
+          {
+            "item": "9",
+            "count": "11"
+          },
+          {
+            "item": "15",
+            "count": "10"
+          },
+          {
+            "item": "200",
+            "count": "7"
+          },
+          {
+            "item": "2216",
+            "count": "6"
+          },
+          {
+            "item": "5128",
+            "count": "6"
+          },
+          {
+            "item": "320",
+            "count": "6"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "74"
+      }
+    },
+    {
+      "field_name": "sign_va_per_transformer",
+      "display_name": "VA_Transformer",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate V.A. of each transformer.",
+      "width": 274,
+      "position": 33,
+      "cached_contents": {
+        "largest": "15000",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1047150"
+          },
+          {
+            "item": "120",
+            "count": "1805"
+          },
+          {
+            "item": "60",
+            "count": "1217"
+          },
+          {
+            "item": "100",
+            "count": "924"
+          },
+          {
+            "item": "85",
+            "count": "898"
+          },
+          {
+            "item": "1",
+            "count": "506"
+          },
+          {
+            "item": "12",
+            "count": "440"
+          },
+          {
+            "item": "15",
+            "count": "328"
+          },
+          {
+            "item": "150",
+            "count": "315"
+          },
+          {
+            "item": "2",
+            "count": "293"
+          },
+          {
+            "item": "1.2",
+            "count": "285"
+          },
+          {
+            "item": "240",
+            "count": "277"
+          },
+          {
+            "item": "0.80000000000000004",
+            "count": "196"
+          },
+          {
+            "item": "380",
+            "count": "193"
+          },
+          {
+            "item": "5",
+            "count": "157"
+          },
+          {
+            "item": "200",
+            "count": "151"
+          },
+          {
+            "item": "1.5",
+            "count": "126"
+          },
+          {
+            "item": "0.84999999999999998",
+            "count": "103"
+          },
+          {
+            "item": "0.59999999999999998",
+            "count": "99"
+          },
+          {
+            "item": "0.69999999999999996",
+            "count": "89"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "326"
+      }
+    },
+    {
+      "field_name": "sign_total_watts_va",
+      "display_name": "Total_Watts_VA",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the total watts or V.A. (Volt Ampere) of the sign.",
+      "width": 323,
+      "position": 34,
+      "cached_contents": {
+        "largest": "98000",
+        "non_null": "1057673",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1045912"
+          },
+          {
+            "item": "120",
+            "count": "1650"
+          },
+          {
+            "item": "102",
+            "count": "1008"
+          },
+          {
+            "item": "64",
+            "count": "835"
+          },
+          {
+            "item": "84",
+            "count": "536"
+          },
+          {
+            "item": "60",
+            "count": "474"
+          },
+          {
+            "item": "200",
+            "count": "413"
+          },
+          {
+            "item": "240",
+            "count": "379"
+          },
+          {
+            "item": "100",
+            "count": "332"
+          },
+          {
+            "item": "480",
+            "count": "268"
+          },
+          {
+            "item": "40",
+            "count": "241"
+          },
+          {
+            "item": "2",
+            "count": "216"
+          },
+          {
+            "item": "300",
+            "count": "208"
+          },
+          {
+            "item": "1",
+            "count": "204"
+          },
+          {
+            "item": "180",
+            "count": "196"
+          },
+          {
+            "item": "360",
+            "count": "160"
+          },
+          {
+            "item": "2.3999999999999999",
+            "count": "159"
+          },
+          {
+            "item": "3",
+            "count": "129"
+          },
+          {
+            "item": "1.2",
+            "count": "122"
+          },
+          {
+            "item": "400",
+            "count": "110"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "616"
+      }
+    },
+    {
+      "field_name": "sign_total_aw_guage",
+      "display_name": "AWG",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the number of (American wire) AWG gauge of wire.",
+      "width": 337,
+      "position": 35,
+      "cached_contents": {
+        "largest": "THN",
+        "non_null": "11879",
+        "null": "1045794",
+        "top": [
+          {
+            "item": "12",
+            "count": "6631"
+          },
+          {
+            "item": "14",
+            "count": "2298"
+          },
+          {
+            "item": "#12",
+            "count": "1520"
+          },
+          {
+            "item": "18",
+            "count": "351"
+          },
+          {
+            "item": "AWG12",
+            "count": "263"
+          },
+          {
+            "item": "16",
+            "count": "183"
+          },
+          {
+            "item": "10",
+            "count": "112"
+          },
+          {
+            "item": "#12AWG",
+            "count": "83"
+          },
+          {
+            "item": "0",
+            "count": "49"
+          },
+          {
+            "item": "#10 awg",
+            "count": "48"
+          },
+          {
+            "item": "12 GAUGE",
+            "count": "23"
+          },
+          {
+            "item": "#12awg",
+            "count": "21"
+          },
+          {
+            "item": "10 awg",
+            "count": "20"
+          },
+          {
+            "item": "12 awg",
+            "count": "12"
+          },
+          {
+            "item": "12 AWG",
+            "count": "11"
+          },
+          {
+            "item": "#12 AWG",
+            "count": "10"
+          },
+          {
+            "item": "awg12",
+            "count": "10"
+          },
+          {
+            "item": "#10",
+            "count": "10"
+          },
+          {
+            "item": "6 AWG",
+            "count": "10"
+          },
+          {
+            "item": "#10 THHN AWG",
+            "count": "9"
+          }
+        ],
+        "not_null": "4327",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "98"
+      }
+    },
+    {
+      "field_name": "sign_sockets_per_circuit",
+      "display_name": "Sockets_Per_Circuit",
+      "data_type": "number",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the number of sockets per circuit.",
+      "width": 303,
+      "position": 36,
+      "cached_contents": {
+        "largest": "7100",
+        "non_null": "1057665",
+        "null": "8",
+        "top": [
+          {
+            "item": "0",
+            "count": "1052388"
+          },
+          {
+            "item": "1",
+            "count": "2941"
+          },
+          {
+            "item": "100",
+            "count": "537"
+          },
+          {
+            "item": "2",
+            "count": "340"
+          },
+          {
+            "item": "4",
+            "count": "160"
+          },
+          {
+            "item": "3",
+            "count": "95"
+          },
+          {
+            "item": "200",
+            "count": "63"
+          },
+          {
+            "item": "120",
+            "count": "58"
+          },
+          {
+            "item": "36",
+            "count": "43"
+          },
+          {
+            "item": "8",
+            "count": "43"
+          },
+          {
+            "item": "248",
+            "count": "36"
+          },
+          {
+            "item": "18",
+            "count": "36"
+          },
+          {
+            "item": "6",
+            "count": "32"
+          },
+          {
+            "item": "180",
+            "count": "29"
+          },
+          {
+            "item": "20",
+            "count": "27"
+          },
+          {
+            "item": "12",
+            "count": "26"
+          },
+          {
+            "item": "150",
+            "count": "24"
+          },
+          {
+            "item": "60",
+            "count": "24"
+          },
+          {
+            "item": "50",
+            "count": "21"
+          },
+          {
+            "item": "300",
+            "count": "18"
+          }
+        ],
+        "not_null": "310798",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "234"
+      }
+    },
+    {
+      "field_name": "sign_materials_guage",
+      "display_name": "Material_Gauge",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the details of the material and gauge used in the sign construction.",
+      "width": 292,
+      "position": 37,
+      "cached_contents": {
+        "largest": "YELLOW NEON & CLEAR RED NEON EXPOSED IN RED CHANNEL LETTERS W/ GOLD FLICKER BACKGROUND",
+        "non_null": "11879",
+        "null": "1045794",
+        "top": [
+          {
+            "item": ".063 ALUMINUM",
+            "count": "969"
+          },
+          {
+            "item": ".040 GAUGE ALUMINUM CHANNEL LETTER BOX AND LED LIGHT",
+            "count": "651"
+          },
+          {
+            "item": "040 AL and 3/16' Plexiglass",
+            "count": "573"
+          },
+          {
+            "item": "3/16' ACRYLIC, .067 ALUMINUM",
+            "count": "512"
+          },
+          {
+            "item": ".040 ALUMINUM",
+            "count": "492"
+          },
+          {
+            "item": "ALUMINUM",
+            "count": "424"
+          },
+          {
+            "item": "metal and acrylic",
+            "count": "292"
+          },
+          {
+            "item": "CHANNEL LETTER BOX AND LED",
+            "count": "231"
+          },
+          {
+            "item": ".40 ALUMINIUM & 3/16' PLEXI",
+            "count": "222"
+          },
+          {
+            "item": "0.043",
+            "count": "205"
+          },
+          {
+            "item": ".040 ALUMINUM WHITE ACRYLIC",
+            "count": "188"
+          },
+          {
+            "item": "032 AL and 3/16' Plexiglass",
+            "count": "163"
+          },
+          {
+            "item": "3/16 acrylic face, .0638 aluminum back",
+            "count": "153"
+          },
+          {
+            "item": ".40 ALUMINIUM AND 3/16' PLEXI",
+            "count": "130"
+          },
+          {
+            "item": "3\u0094 x .040 aluminum letter coil painted Semi-Gloss White letter locked to aluminum letter backs",
+            "count": "119"
+          },
+          {
+            "item": "0.040 ALUMINUM",
+            "count": "103"
+          },
+          {
+            "item": "14 guage tetra supply",
+            "count": "94"
+          },
+          {
+            "item": "Aluminum",
+            "count": "90"
+          },
+          {
+            "item": "3\u0094 x .040 aluminum letter coil to be Semi-Gloss White letter locked to aluminum letter backs",
+            "count": "90"
+          },
+          {
+            "item": ".0634",
+            "count": "86"
+          }
+        ],
+        "not_null": "4327",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "2445"
+      }
+    },
+    {
+      "field_name": "sign_text",
+      "display_name": "Sign_Make",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the text on the sign.",
+      "width": 232,
+      "position": 38,
+      "cached_contents": {
+        "largest": "ZWANGER-PESIRI RADIOLOGY",
+        "non_null": "11869",
+        "null": "1045804",
+        "top": [
+          {
+            "item": "CHANNEL LETTERS",
+            "count": "503"
+          },
+          {
+            "item": "SIGN ON WALL",
+            "count": "186"
+          },
+          {
+            "item": "(LOGO) RITE AID",
+            "count": "137"
+          },
+          {
+            "item": "T-MOBILE",
+            "count": "113"
+          },
+          {
+            "item": "M (ARCH LOGO)",
+            "count": "94"
+          },
+          {
+            "item": "ALUMINUM CHANNEL LETTERS",
+            "count": "92"
+          },
+          {
+            "item": "TD",
+            "count": "89"
+          },
+          {
+            "item": "PHARMACY",
+            "count": "83"
+          },
+          {
+            "item": "MCDONALD'S",
+            "count": "81"
+          },
+          {
+            "item": "ALUMINUM CABINET",
+            "count": "80"
+          },
+          {
+            "item": "T-Mobile",
+            "count": "76"
+          },
+          {
+            "item": "BANK OF AMERICA AND LOGO",
+            "count": "73"
+          },
+          {
+            "item": "CHANGEABLE COPY",
+            "count": "71"
+          },
+          {
+            "item": "TACO BELL",
+            "count": "70"
+          },
+          {
+            "item": "T MOBILE",
+            "count": "66"
+          },
+          {
+            "item": "CAD SIGN NYC",
+            "count": "61"
+          },
+          {
+            "item": "DK Sign",
+            "count": "60"
+          },
+          {
+            "item": "WALGREENS",
+            "count": "56"
+          },
+          {
+            "item": "LED",
+            "count": "54"
+          },
+          {
+            "item": "SPACE SIGN",
+            "count": "52"
+          }
+        ],
+        "not_null": "4327",
+        "smallest": "------------------------------",
+        "count": "1057673",
+        "cardinality": "4710"
+      }
+    },
+    {
+      "field_name": "sign_manufacturer",
+      "display_name": "Sign_Manufacturer",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the manufacturer of the sign.",
+      "width": 273,
+      "position": 39,
+      "cached_contents": {
+        "largest": "YS Signs",
+        "non_null": "11867",
+        "null": "1045806",
+        "top": [
+          {
+            "item": "NATIONAL SIGN & LIGHTING",
+            "count": "513"
+          },
+          {
+            "item": "DK Sign",
+            "count": "483"
+          },
+          {
+            "item": "SPACE SIGN",
+            "count": "450"
+          },
+          {
+            "item": "SIGN CAD CORP",
+            "count": "424"
+          },
+          {
+            "item": "SIGNS CAD CORP",
+            "count": "331"
+          },
+          {
+            "item": "Ultimate Signs & Designs",
+            "count": "282"
+          },
+          {
+            "item": "NORTH SHORE NEON SIGN",
+            "count": "254"
+          },
+          {
+            "item": "CAD SIGN NYC",
+            "count": "244"
+          },
+          {
+            "item": "EVERBRITE",
+            "count": "218"
+          },
+          {
+            "item": "NATIONAL SIGN AND LIGHTING",
+            "count": "186"
+          },
+          {
+            "item": "Youn Design Corp",
+            "count": "158"
+          },
+          {
+            "item": "UNIVERSAL SIGNS & SERVICE",
+            "count": "154"
+          },
+          {
+            "item": "PAUL SIGNS",
+            "count": "153"
+          },
+          {
+            "item": "SIGN MEDIA INTERNATIONAL",
+            "count": "148"
+          },
+          {
+            "item": "AGI",
+            "count": "139"
+          },
+          {
+            "item": "Two Good Brothers Sign Inc",
+            "count": "132"
+          },
+          {
+            "item": "PAUL SIGNS INC",
+            "count": "128"
+          },
+          {
+            "item": "STRATUS",
+            "count": "127"
+          },
+          {
+            "item": "JEM Sign Corp. dba TeePeeSigns",
+            "count": "124"
+          },
+          {
+            "item": "CAD SIGNS",
+            "count": "98"
+          }
+        ],
+        "not_null": "4323",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "1399"
+      }
+    },
+    {
+      "field_name": "sign_manufacturer_address",
+      "display_name": "Manufacturer_Address",
+      "data_type": "text",
+      "description": "If the WORK_FLOOR_DESCTRIPTION_TYPE is \"Signs\", this will indicate the sign manufacturer's address.",
+      "width": 332,
+      "position": 40,
+      "cached_contents": {
+        "largest": "WYOMISSING, PA 19610",
+        "non_null": "11865",
+        "null": "1045808",
+        "top": [
+          {
+            "item": "25-20 BQE West Woodside NY 11377",
+            "count": "598"
+          },
+          {
+            "item": "169 Lodi Street Hackensack, NJ 07601",
+            "count": "543"
+          },
+          {
+            "item": "15-25 132 STREET, COLLEGE POINT, NY 11356",
+            "count": "428"
+          },
+          {
+            "item": "185 SWEET HOLLOW ROAD OLD BETHPAGE NY 11804",
+            "count": "376"
+          },
+          {
+            "item": "169 LODI ST HACKENSACK NJ 07601",
+            "count": "291"
+          },
+          {
+            "item": "86 Sewell St., Hempstead, NY 11550",
+            "count": "291"
+          },
+          {
+            "item": "295 SKIDMORE ROAD, DEER PARK, NY 11729",
+            "count": "270"
+          },
+          {
+            "item": "315 MARION AVE, SOUTH MILWAUKEE, WI 53172",
+            "count": "235"
+          },
+          {
+            "item": "435 Brook Ave, Deer Park, NY 11729",
+            "count": "227"
+          },
+          {
+            "item": "185 BETHPAGE SWEET HOLLOW ROAD OLD BETHPAGE NY 11804",
+            "count": "145"
+          },
+          {
+            "item": "185 BETHPAGE SWEET HOLLOW ROAD",
+            "count": "131"
+          },
+          {
+            "item": "470 S. Franklin St., Hempstead, NY  11550",
+            "count": "128"
+          },
+          {
+            "item": "169 LODI STREET HACKENSACK NJ 07601",
+            "count": "126"
+          },
+          {
+            "item": "25-20 BQE West, Woodside, NY 11377",
+            "count": "124"
+          },
+          {
+            "item": "1709 65th St Brooklyn NY 11204",
+            "count": "113"
+          },
+          {
+            "item": "654 4th Ave, Brooklyn, NY 11232",
+            "count": "104"
+          },
+          {
+            "item": "654 4TH AVE BROOKLYN NY 11232",
+            "count": "104"
+          },
+          {
+            "item": "654 4th ave Brooklyn NY 11232",
+            "count": "95"
+          },
+          {
+            "item": "169 LODI ST. HACKENSACK NJ 07601",
+            "count": "94"
+          },
+          {
+            "item": "169 LODI ST, HACKENSACK NJ 07601",
+            "count": "94"
+          }
+        ],
+        "not_null": "4323",
+        "smallest": "0",
+        "count": "1057673",
+        "cardinality": "2439"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:59.314082"
+}

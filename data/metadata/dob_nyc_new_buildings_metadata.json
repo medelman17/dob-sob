@@ -1,0 +1,295 @@
+{
+  "dataset_id": "6xbh-bxki",
+  "name": "DOB - NYC New Buildings",
+  "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "permit",
+    "dob",
+    "buildings"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2017-11-07T01:52:25",
+  "updated_at": "2025-06-03T20:02:30",
+  "row_count": 1748980950,
+  "column_count": 34,
+  "download_count": 67,
+  "view_count": 2070,
+  "columns": [
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island",
+      "width": 128,
+      "position": 1
+    },
+    {
+      "field_name": "bin__",
+      "display_name": "Bin #",
+      "data_type": "text",
+      "description": "Number assigned by City Planning to a specific building",
+      "width": 94,
+      "position": 2
+    },
+    {
+      "field_name": "house__",
+      "display_name": "House #",
+      "data_type": "text",
+      "description": "House Number of Residence or Commercial Property",
+      "width": 90,
+      "position": 3
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "Street Name where Property is located",
+      "width": 200,
+      "position": 4
+    },
+    {
+      "field_name": "job__",
+      "display_name": "Job #",
+      "data_type": "text",
+      "description": "Number assigned by DOB to Job Filing",
+      "width": 87,
+      "position": 5
+    },
+    {
+      "field_name": "job_doc___",
+      "display_name": "Job doc. #",
+      "data_type": "text",
+      "description": "Document Number",
+      "width": 105,
+      "position": 6
+    },
+    {
+      "field_name": "job_type",
+      "display_name": "Job Type",
+      "data_type": "text",
+      "description": "Job Type, based on DOB Job Code (NB-New Building, A1, A2, A3- Alterations 1-3, SG-Sign, etc.)",
+      "width": 94,
+      "position": 7
+    },
+    {
+      "field_name": "self_cert",
+      "display_name": "Self_Cert",
+      "data_type": "text",
+      "description": "Self_Cert",
+      "width": 95,
+      "position": 8
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "Tax block assigned by Department of Finance",
+      "width": 84,
+      "position": 9
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "Tax lot assigned by Department of Finance",
+      "width": 90,
+      "position": 10
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "3-digit identifier: Borough code = first position, last 2 = community board",
+      "width": 146,
+      "position": 11
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "Zip Code",
+      "data_type": "text",
+      "description": "Tax lot Zip Code",
+      "width": 96,
+      "position": 12
+    },
+    {
+      "field_name": "bldg_type",
+      "display_name": "Bldg Type",
+      "data_type": "text",
+      "description": "1-2-3 Family  or Other",
+      "width": 106,
+      "position": 13
+    },
+    {
+      "field_name": "residential",
+      "display_name": "Residential",
+      "data_type": "text",
+      "description": "Residential",
+      "width": 112,
+      "position": 14
+    },
+    {
+      "field_name": "special_district_1",
+      "display_name": "Special District 1",
+      "data_type": "text",
+      "description": "Special District 1",
+      "width": 139,
+      "position": 15
+    },
+    {
+      "field_name": "work_type",
+      "display_name": "Work Type",
+      "data_type": "text",
+      "description": "DOB Designated Work Types (PL-Plumbing,  BL-Boiler, MH-Mechanical, OT-Other Constuction Equipment, etc.)",
+      "width": 109,
+      "position": 16
+    },
+    {
+      "field_name": "permit_status",
+      "display_name": "Permit Status",
+      "data_type": "text",
+      "description": "Permit Status",
+      "width": 119,
+      "position": 17
+    },
+    {
+      "field_name": "filing_status",
+      "display_name": "Filing Status",
+      "data_type": "text",
+      "description": "Filing Status",
+      "width": 128,
+      "position": 18
+    },
+    {
+      "field_name": "permit_type",
+      "display_name": "Permit Type",
+      "data_type": "text",
+      "description": "Permit Type (DM-Demolition, EW-Equipment Work, PL-Plumbing, etc.)  Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+      "width": 116,
+      "position": 19
+    },
+    {
+      "field_name": "permit_sequence__",
+      "display_name": "Permit Sequence #",
+      "data_type": "text",
+      "description": "Permit Sequence #",
+      "width": 155,
+      "position": 20
+    },
+    {
+      "field_name": "permit_subtype",
+      "display_name": "Permit Subtype",
+      "data_type": "text",
+      "description": "Permit Subtype (Subset of Equipment Work Permit Type-- BL-Boiler, FA- Fire Alarm, Subset of Construction Equipment Permit Type-- CH-Chute, SF-Scaffold, etc.) Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+      "width": 128,
+      "position": 21
+    },
+    {
+      "field_name": "site_fill",
+      "display_name": "Site Fill",
+      "data_type": "text",
+      "description": "Site Fill",
+      "width": 129,
+      "position": 22
+    },
+    {
+      "field_name": "permittee_s_first_name",
+      "display_name": "Permittee's First Name",
+      "data_type": "text",
+      "description": "Permittee's First Name",
+      "width": 129,
+      "position": 23
+    },
+    {
+      "field_name": "permittee_s_last_name",
+      "display_name": "Permittee's Last Name",
+      "data_type": "text",
+      "description": "Permittee's Last Name",
+      "width": 158,
+      "position": 24
+    },
+    {
+      "field_name": "permittee_s_business_name",
+      "display_name": "Permittee's Business Name",
+      "data_type": "text",
+      "description": "Permittee's Business Name",
+      "width": 200,
+      "position": 25
+    },
+    {
+      "field_name": "permittee_s_license_type",
+      "display_name": "Permittee's License Type",
+      "data_type": "text",
+      "description": "Permittee's License Type",
+      "width": 200,
+      "position": 26
+    },
+    {
+      "field_name": "site_safety_mgr_business_name",
+      "display_name": "Site Safety Mgr Business Name",
+      "data_type": "text",
+      "description": "Site Safety Mgr Business Name",
+      "width": 200,
+      "position": 27
+    },
+    {
+      "field_name": "owner_s_business_type",
+      "display_name": "Owner's Business Type",
+      "data_type": "text",
+      "description": "Owner's Business Type",
+      "width": 167,
+      "position": 28
+    },
+    {
+      "field_name": "non_profit",
+      "display_name": "Non-Profit",
+      "data_type": "text",
+      "description": "Non-Profit",
+      "width": 94,
+      "position": 29
+    },
+    {
+      "field_name": "owner_s_business_name",
+      "display_name": "Owner's Business Name",
+      "data_type": "text",
+      "description": "Business Name of Property Owner",
+      "width": 200,
+      "position": 30
+    },
+    {
+      "field_name": "owner_s_first_name",
+      "display_name": "Owner's First Name",
+      "data_type": "text",
+      "description": "First Name of property owner",
+      "width": 156,
+      "position": 31
+    },
+    {
+      "field_name": "owner_s_last_name",
+      "display_name": "Owner's Last Name",
+      "data_type": "text",
+      "description": "Last Name of property owner",
+      "width": 144,
+      "position": 32
+    },
+    {
+      "field_name": "city",
+      "display_name": "Owner\u2019s House City",
+      "data_type": "text",
+      "description": "Owner\u2019s House City",
+      "width": 148,
+      "position": 33
+    },
+    {
+      "field_name": "state",
+      "display_name": "Owner\u2019s House State",
+      "data_type": "text",
+      "description": "Owner\u2019s House State",
+      "width": 128,
+      "position": 34
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:59.924238"
+}

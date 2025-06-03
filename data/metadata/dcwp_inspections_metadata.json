@@ -1,0 +1,2562 @@
+{
+  "dataset_id": "jzhd-m6uv",
+  "name": "DCWP Inspections",
+  "description": "This dataset features business inspections conducted by DCWP. DCWP enforces key consumer protection, licensing, weights and measures, and workplace laws. In addition to patrol (routine) inspections at brick-and-mortar businesses, DCWP inspects licensed vehicles such as horse-drawn cabs, pedicabs, sightseeing buses, and tow trucks to ensure they are in compliance with their respective asset class requirements. DCWP also conducts 'Business Education' inspections, which are educational, violation-free visits. These visits are designed to help business owners learn about and comply with the laws that DCWP enforces.\n\nFor the archived DCWP Inspections, please refer to https://data.cityofnewyork.us/d/wyj6-frpa",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "consumer",
+    "license",
+    "industry",
+    "business",
+    "inspections",
+    "enforcement",
+    "compliance",
+    "regulations"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2016-01-26T14:46:48",
+  "updated_at": "2025-05-23T20:31:05",
+  "row_count": 1748032265,
+  "column_count": 28,
+  "download_count": 9929,
+  "view_count": 12722,
+  "columns": [
+    {
+      "field_name": "certificate_of_inspection",
+      "display_name": "Certificate of Inspection",
+      "data_type": "text",
+      "description": "An identification number assigned to track DCWP inspections at a business.",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "A0224463",
+        "null": "0",
+        "top": [
+          {
+            "item": "A0163274",
+            "count": "47"
+          },
+          {
+            "item": "A0145818",
+            "count": "46"
+          },
+          {
+            "item": "A0182154",
+            "count": "44"
+          },
+          {
+            "item": "A0204464",
+            "count": "41"
+          },
+          {
+            "item": "A0146708",
+            "count": "41"
+          },
+          {
+            "item": "A0183250",
+            "count": "40"
+          },
+          {
+            "item": "A0204492",
+            "count": "39"
+          },
+          {
+            "item": "A0222170",
+            "count": "39"
+          },
+          {
+            "item": "A0163258",
+            "count": "38"
+          },
+          {
+            "item": "A0131841",
+            "count": "38"
+          },
+          {
+            "item": "A0142782",
+            "count": "30"
+          },
+          {
+            "item": "A0166024",
+            "count": "22"
+          },
+          {
+            "item": "A0148445",
+            "count": "21"
+          },
+          {
+            "item": "A0163834",
+            "count": "19"
+          },
+          {
+            "item": "A0169409",
+            "count": "19"
+          },
+          {
+            "item": "A0172458",
+            "count": "14"
+          },
+          {
+            "item": "A0203500",
+            "count": "13"
+          },
+          {
+            "item": "A0162907",
+            "count": "12"
+          },
+          {
+            "item": "A0221816",
+            "count": "12"
+          },
+          {
+            "item": "A0169860",
+            "count": "12"
+          }
+        ],
+        "smallest": "A0126757",
+        "count": "163107",
+        "cardinality": "94518"
+      }
+    },
+    {
+      "field_name": "inspection_number",
+      "display_name": "Inspection Number",
+      "data_type": "text",
+      "description": "An identification number assigned to an inspection of a business.",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "INS-000856559",
+        "null": "0",
+        "top": [
+          {
+            "item": "INS-000625938",
+            "count": "1"
+          },
+          {
+            "item": "INS-000625961",
+            "count": "1"
+          },
+          {
+            "item": "INS-000630892",
+            "count": "1"
+          },
+          {
+            "item": "INS-000630897",
+            "count": "1"
+          },
+          {
+            "item": "INS-000631098",
+            "count": "1"
+          },
+          {
+            "item": "INS-000631726",
+            "count": "1"
+          },
+          {
+            "item": "INS-000631740",
+            "count": "1"
+          },
+          {
+            "item": "INS-000633452",
+            "count": "1"
+          },
+          {
+            "item": "INS-000633456",
+            "count": "1"
+          },
+          {
+            "item": "INS-000633914",
+            "count": "1"
+          },
+          {
+            "item": "INS-000634416",
+            "count": "1"
+          },
+          {
+            "item": "INS-000634987",
+            "count": "1"
+          },
+          {
+            "item": "INS-000635213",
+            "count": "1"
+          },
+          {
+            "item": "INS-000635371",
+            "count": "1"
+          },
+          {
+            "item": "INS-000635624",
+            "count": "1"
+          },
+          {
+            "item": "INS-000636006",
+            "count": "1"
+          },
+          {
+            "item": "INS-000636008",
+            "count": "1"
+          },
+          {
+            "item": "INS-000637293",
+            "count": "1"
+          },
+          {
+            "item": "INS-000637603",
+            "count": "1"
+          },
+          {
+            "item": "INS-000638132",
+            "count": "1"
+          }
+        ],
+        "smallest": "INS-000612268",
+        "count": "163107",
+        "cardinality": "163107"
+      }
+    },
+    {
+      "field_name": "date_of_occurrence",
+      "display_name": "Date of Occurrence",
+      "data_type": "calendar_date",
+      "description": "The date the inspection was conducted.",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "2025-04-22T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2024-10-23T00:00:00.000",
+            "count": "812"
+          },
+          {
+            "item": "2024-10-09T00:00:00.000",
+            "count": "740"
+          },
+          {
+            "item": "2024-09-25T00:00:00.000",
+            "count": "728"
+          },
+          {
+            "item": "2024-10-10T00:00:00.000",
+            "count": "710"
+          },
+          {
+            "item": "2024-09-24T00:00:00.000",
+            "count": "697"
+          },
+          {
+            "item": "2024-10-24T00:00:00.000",
+            "count": "671"
+          },
+          {
+            "item": "2024-10-01T00:00:00.000",
+            "count": "670"
+          },
+          {
+            "item": "2024-10-08T00:00:00.000",
+            "count": "670"
+          },
+          {
+            "item": "2024-05-15T00:00:00.000",
+            "count": "664"
+          },
+          {
+            "item": "2024-09-26T00:00:00.000",
+            "count": "659"
+          },
+          {
+            "item": "2024-10-02T00:00:00.000",
+            "count": "638"
+          },
+          {
+            "item": "2024-12-19T00:00:00.000",
+            "count": "636"
+          },
+          {
+            "item": "2024-05-22T00:00:00.000",
+            "count": "635"
+          },
+          {
+            "item": "2024-10-17T00:00:00.000",
+            "count": "631"
+          },
+          {
+            "item": "2024-11-20T00:00:00.000",
+            "count": "629"
+          },
+          {
+            "item": "2024-05-09T00:00:00.000",
+            "count": "619"
+          },
+          {
+            "item": "2024-10-22T00:00:00.000",
+            "count": "606"
+          },
+          {
+            "item": "2024-05-02T00:00:00.000",
+            "count": "603"
+          },
+          {
+            "item": "2024-05-01T00:00:00.000",
+            "count": "602"
+          },
+          {
+            "item": "2024-05-30T00:00:00.000",
+            "count": "593"
+          }
+        ],
+        "smallest": "2023-07-03T00:00:00.000",
+        "count": "163107",
+        "cardinality": "514"
+      }
+    },
+    {
+      "field_name": "business_unique_id",
+      "display_name": "Business Unique ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to track unique businesses across its systems.",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "163038",
+        "largest": "BA-999962-2022",
+        "null": "69",
+        "top": [
+          {
+            "item": "BA-1559006-2022",
+            "count": "253"
+          },
+          {
+            "item": "BA-1310315-2022",
+            "count": "251"
+          },
+          {
+            "item": "BA-1545133-2022",
+            "count": "140"
+          },
+          {
+            "item": "BA-1105443-2022",
+            "count": "108"
+          },
+          {
+            "item": "BA-1422612-2022",
+            "count": "68"
+          },
+          {
+            "item": "BA-1666243-2023",
+            "count": "54"
+          },
+          {
+            "item": "BA-1551335-2022",
+            "count": "53"
+          },
+          {
+            "item": "BA-1224128-2022",
+            "count": "48"
+          },
+          {
+            "item": "BA-1459181-2022",
+            "count": "47"
+          },
+          {
+            "item": "BA-1212988-2022",
+            "count": "47"
+          },
+          {
+            "item": "BA-1550342-2022",
+            "count": "46"
+          },
+          {
+            "item": "BA-1370101-2022",
+            "count": "40"
+          },
+          {
+            "item": "BA-1537330-2022",
+            "count": "38"
+          },
+          {
+            "item": "BA-1130517-2022",
+            "count": "35"
+          },
+          {
+            "item": "BA-1104895-2022",
+            "count": "35"
+          },
+          {
+            "item": "BA-1108693-2022",
+            "count": "35"
+          },
+          {
+            "item": "BA-1549432-2022",
+            "count": "34"
+          },
+          {
+            "item": "BA-1681294-2023",
+            "count": "34"
+          },
+          {
+            "item": "BA-1267918-2022",
+            "count": "32"
+          },
+          {
+            "item": "BA-1260245-2022",
+            "count": "32"
+          }
+        ],
+        "smallest": "BA-1000000-2022",
+        "count": "163107",
+        "cardinality": "55529"
+      }
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "The legal business name as filed with the New York State Secretary of State or County Clerk.",
+      "width": 256,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "\u65b0\u6d0b\u4f1a\u8ba1CPA",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOLLA OPERATING CORP.",
+            "count": "611"
+          },
+          {
+            "item": "SPEEDWAY LLC",
+            "count": "339"
+          },
+          {
+            "item": "SP PLUS CORPORATION",
+            "count": "301"
+          },
+          {
+            "item": "TAXI TOURS INC",
+            "count": "253"
+          },
+          {
+            "item": "GO NEW YORK TOURS INC",
+            "count": "251"
+          },
+          {
+            "item": "T-MOBILE NORTHEAST LLC",
+            "count": "189"
+          },
+          {
+            "item": "FAMILY DOLLAR STORES OF NEW YORK, INC.",
+            "count": "156"
+          },
+          {
+            "item": "SPRAGUE OPERATING RESOURCES LLC",
+            "count": "140"
+          },
+          {
+            "item": "THE STOP & SHOP SUPERMARKET COMPANY LLC",
+            "count": "121"
+          },
+          {
+            "item": "DUANE READE INC",
+            "count": "111"
+          },
+          {
+            "item": "APPROVED OIL CO OF BROOKLYN INC",
+            "count": "108"
+          },
+          {
+            "item": "CVS ALBANY, L.L.C",
+            "count": "100"
+          },
+          {
+            "item": "AT&T MOBILITY SUPPLY, LLC",
+            "count": "99"
+          },
+          {
+            "item": "NAMDOR, INC.",
+            "count": "94"
+          },
+          {
+            "item": "LAZ PARKING NEW YORK/NEW JERSEY, LLC",
+            "count": "94"
+          },
+          {
+            "item": "AMG RETAIL I LLC",
+            "count": "91"
+          },
+          {
+            "item": "HRB TAX GROUP, INC.",
+            "count": "84"
+          },
+          {
+            "item": "STARBUCKS CORPORATION",
+            "count": "82"
+          },
+          {
+            "item": "GAMESTOP, INC.",
+            "count": "77"
+          },
+          {
+            "item": "OFFICE SUPERSTORE EAST LLC",
+            "count": "73"
+          }
+        ],
+        "smallest": "0035MM INC",
+        "count": "163107",
+        "cardinality": "50135"
+      }
+    },
+    {
+      "field_name": "dba_trade_name",
+      "display_name": "DBA/Trade Name",
+      "data_type": "text",
+      "description": "If applicable, the Doing-Business-As (DBA), or trade name of the business.",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "27277",
+        "largest": "ZZZOOM",
+        "null": "135830",
+        "top": [
+          {
+            "item": "BP",
+            "count": "459"
+          },
+          {
+            "item": "Big Bus Tours New York",
+            "count": "253"
+          },
+          {
+            "item": "TOPVIEW SIGHTSEEING",
+            "count": "251"
+          },
+          {
+            "item": "METROPOLIS",
+            "count": "229"
+          },
+          {
+            "item": "MOBIL",
+            "count": "177"
+          },
+          {
+            "item": "SHELL",
+            "count": "154"
+          },
+          {
+            "item": "T-Mobile 4110",
+            "count": "133"
+          },
+          {
+            "item": "KEY FOOD",
+            "count": "119"
+          },
+          {
+            "item": "AKA Icon Parking LLC",
+            "count": "112"
+          },
+          {
+            "item": "CITGO",
+            "count": "94"
+          },
+          {
+            "item": "BOLLA 137-21 LIBERTY C-STORE",
+            "count": "80"
+          },
+          {
+            "item": "Stop & Shop Store # 2513",
+            "count": "79"
+          },
+          {
+            "item": "SUNOCO",
+            "count": "78"
+          },
+          {
+            "item": "E SMOKE & CONVENIENCE",
+            "count": "73"
+          },
+          {
+            "item": "PETRO INC",
+            "count": "68"
+          },
+          {
+            "item": "QUICK STOP",
+            "count": "67"
+          },
+          {
+            "item": "GULF",
+            "count": "66"
+          },
+          {
+            "item": "AT&T MOBILITY",
+            "count": "64"
+          },
+          {
+            "item": "MINI MART",
+            "count": "62"
+          },
+          {
+            "item": "ecoATM",
+            "count": "58"
+          }
+        ],
+        "smallest": ".",
+        "count": "163107",
+        "cardinality": "7411"
+      }
+    },
+    {
+      "field_name": "business_category",
+      "display_name": "Business Category",
+      "data_type": "text",
+      "description": "The business activity or business category requiring a DCWP-issued license in order to operate legally within NYC.",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "Wholesale Food Market - 718",
+        "null": "0",
+        "top": [
+          {
+            "item": "Tobacco Retail Dealer",
+            "count": "40678"
+          },
+          {
+            "item": "Electronic Cigarette Dealer",
+            "count": "36345"
+          },
+          {
+            "item": "Grocery-Retail - 808",
+            "count": "18267"
+          },
+          {
+            "item": "Misc Non-Food Retail - 817",
+            "count": "10405"
+          },
+          {
+            "item": "Unlicensed Cannabis Retailer",
+            "count": "6869"
+          },
+          {
+            "item": "Salons And Barbershop - 841",
+            "count": "6014"
+          },
+          {
+            "item": "Secondhand Dealer [General] - 006",
+            "count": "3675"
+          },
+          {
+            "item": "Gas Station-Retail - 815",
+            "count": "3530"
+          },
+          {
+            "item": "Electronic Store - 001",
+            "count": "3518"
+          },
+          {
+            "item": "Supermarket - 819",
+            "count": "3421"
+          },
+          {
+            "item": "Retail Laundry",
+            "count": "3165"
+          },
+          {
+            "item": "Garage & Parking Lot - 098",
+            "count": "2700"
+          },
+          {
+            "item": "Stoop Line Stand - 033",
+            "count": "2590"
+          },
+          {
+            "item": "Wearing Apparel - 450",
+            "count": "2243"
+          },
+          {
+            "item": "Drug Store Retail - 810",
+            "count": "1617"
+          },
+          {
+            "item": "Electronic & Home Appliance Service Dealer - 115",
+            "count": "1555"
+          },
+          {
+            "item": "Tow Truck Company - 124",
+            "count": "1524"
+          },
+          {
+            "item": "Restaurant - 818",
+            "count": "1201"
+          },
+          {
+            "item": "Garage - 049",
+            "count": "1182"
+          },
+          {
+            "item": "Car Wash",
+            "count": "1103"
+          }
+        ],
+        "smallest": "Air Conditioning Law - 899",
+        "count": "163107",
+        "cardinality": "66"
+      }
+    },
+    {
+      "field_name": "dcwp_license_number",
+      "display_name": "DCWP License Number",
+      "data_type": "text",
+      "description": "Where applicable, the DCWP-issued license associated with the business.",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "44626",
+        "largest": "TBD_3_2115895-1-DCWP",
+        "null": "118481",
+        "top": [
+          {
+            "item": "2005061-DCA",
+            "count": "252"
+          },
+          {
+            "item": "1413726-DCA",
+            "count": "244"
+          },
+          {
+            "item": "2113920-DCA",
+            "count": "57"
+          },
+          {
+            "item": "2083194-DCA",
+            "count": "44"
+          },
+          {
+            "item": "2049416-DCA",
+            "count": "36"
+          },
+          {
+            "item": "1339142-DCA",
+            "count": "30"
+          },
+          {
+            "item": "1412158-DCA",
+            "count": "28"
+          },
+          {
+            "item": "0833070-DCA",
+            "count": "25"
+          },
+          {
+            "item": "2016364-DCA",
+            "count": "25"
+          },
+          {
+            "item": "1385264-DCA",
+            "count": "24"
+          },
+          {
+            "item": "0833037-DCA",
+            "count": "24"
+          },
+          {
+            "item": "2114652-DCA",
+            "count": "23"
+          },
+          {
+            "item": "0838404-DCA",
+            "count": "22"
+          },
+          {
+            "item": "2118019-DCWP",
+            "count": "21"
+          },
+          {
+            "item": "1093889-DCA",
+            "count": "20"
+          },
+          {
+            "item": "2107990-DCA",
+            "count": "19"
+          },
+          {
+            "item": "1341224-DCA",
+            "count": "18"
+          },
+          {
+            "item": "1409754-DCA",
+            "count": "18"
+          },
+          {
+            "item": "2107023-DCA",
+            "count": "17"
+          },
+          {
+            "item": "1457231-DCA",
+            "count": "17"
+          }
+        ],
+        "smallest": "0002902-DCA",
+        "count": "163107",
+        "cardinality": "18113"
+      }
+    },
+    {
+      "field_name": "inspection_type",
+      "display_name": "Inspection Type",
+      "data_type": "text",
+      "description": "The type of inspection being conducted.",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "WAM - Petroleum",
+        "null": "0",
+        "top": [
+          {
+            "item": "Patrol",
+            "count": "50430"
+          },
+          {
+            "item": "Tobacco - Sale to Minor",
+            "count": "36979"
+          },
+          {
+            "item": "Tobacco - T21",
+            "count": "24381"
+          },
+          {
+            "item": "Tobacco - Adult Inspection",
+            "count": "16564"
+          },
+          {
+            "item": "Scale",
+            "count": "8248"
+          },
+          {
+            "item": "Business Education",
+            "count": "6999"
+          },
+          {
+            "item": "WAM - Petroleum",
+            "count": "4324"
+          },
+          {
+            "item": "Consumer Request to Inspect",
+            "count": "4295"
+          },
+          {
+            "item": "Sweep",
+            "count": "2320"
+          },
+          {
+            "item": "Check UNL - FTR",
+            "count": "1869"
+          },
+          {
+            "item": "Qualifying Renewal Vehicle",
+            "count": "1403"
+          },
+          {
+            "item": "Sealing Order Follow-up",
+            "count": "1307"
+          },
+          {
+            "item": "Compliance",
+            "count": "911"
+          },
+          {
+            "item": "License Suspended",
+            "count": "528"
+          },
+          {
+            "item": "Qualifying - Vehicle",
+            "count": "389"
+          },
+          {
+            "item": "License Revoked",
+            "count": "312"
+          },
+          {
+            "item": "Qualifying - Site",
+            "count": "274"
+          },
+          {
+            "item": "Legal Case-Related",
+            "count": "266"
+          },
+          {
+            "item": "Sealing Order",
+            "count": "242"
+          },
+          {
+            "item": "External to DCA - External Agencies",
+            "count": "206"
+          }
+        ],
+        "smallest": "Business Education",
+        "count": "163107",
+        "cardinality": "34"
+      }
+    },
+    {
+      "field_name": "inspection_status",
+      "display_name": "Inspection Status",
+      "data_type": "text",
+      "description": "The result of the inspection.",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "Warning",
+        "null": "0",
+        "top": [
+          {
+            "item": "No Violation Issued",
+            "count": "37750"
+          },
+          {
+            "item": "Violation Issued",
+            "count": "31085"
+          },
+          {
+            "item": "No Evidence of Activity",
+            "count": "27310"
+          },
+          {
+            "item": "Out of Business",
+            "count": "26265"
+          },
+          {
+            "item": "Closed",
+            "count": "13830"
+          },
+          {
+            "item": "Pass",
+            "count": "13161"
+          },
+          {
+            "item": "Warning",
+            "count": "3973"
+          },
+          {
+            "item": "Fail",
+            "count": "2119"
+          },
+          {
+            "item": "Completed",
+            "count": "2098"
+          },
+          {
+            "item": "Re-inspection",
+            "count": "1475"
+          },
+          {
+            "item": "No Warning Issued",
+            "count": "1356"
+          },
+          {
+            "item": "Business Padlocked",
+            "count": "1253"
+          },
+          {
+            "item": "Unable to Locate",
+            "count": "941"
+          },
+          {
+            "item": "NOH Withdrawn",
+            "count": "260"
+          },
+          {
+            "item": "Posting Order Served",
+            "count": "231"
+          }
+        ],
+        "smallest": "Business Padlocked",
+        "count": "163107",
+        "cardinality": "15"
+      }
+    },
+    {
+      "field_name": "noh_number",
+      "display_name": "NOH Number",
+      "data_type": "text",
+      "description": "The \"Notice of Hearing\" number.",
+      "position": 11,
+      "cached_contents": {
+        "non_null": "31345",
+        "largest": "25X00863",
+        "null": "131762",
+        "top": [
+          {
+            "item": "23C00005",
+            "count": "1"
+          },
+          {
+            "item": "23G00101",
+            "count": "1"
+          },
+          {
+            "item": "23G00103",
+            "count": "1"
+          },
+          {
+            "item": "23G00104",
+            "count": "1"
+          },
+          {
+            "item": "23G00105",
+            "count": "1"
+          },
+          {
+            "item": "23G00106",
+            "count": "1"
+          },
+          {
+            "item": "23G00107",
+            "count": "1"
+          },
+          {
+            "item": "23G00108",
+            "count": "1"
+          },
+          {
+            "item": "23G00109",
+            "count": "1"
+          },
+          {
+            "item": "23G00110",
+            "count": "1"
+          },
+          {
+            "item": "23G00111",
+            "count": "1"
+          },
+          {
+            "item": "23G00112",
+            "count": "1"
+          },
+          {
+            "item": "23G00113",
+            "count": "1"
+          },
+          {
+            "item": "23G00114",
+            "count": "1"
+          },
+          {
+            "item": "23G00115",
+            "count": "1"
+          },
+          {
+            "item": "23G00116",
+            "count": "1"
+          },
+          {
+            "item": "23G00117",
+            "count": "1"
+          },
+          {
+            "item": "23G00118",
+            "count": "1"
+          },
+          {
+            "item": "23G00119",
+            "count": "1"
+          },
+          {
+            "item": "23G00120",
+            "count": "1"
+          }
+        ],
+        "smallest": "23C00002",
+        "count": "163107",
+        "cardinality": "31345"
+      }
+    },
+    {
+      "field_name": "address_type",
+      "display_name": "Address Type",
+      "data_type": "text",
+      "description": "The type of address where the inspection was conducted",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "163106",
+        "largest": "P.O. Box",
+        "null": "1",
+        "top": [
+          {
+            "item": "Complete Address",
+            "count": "158886"
+          },
+          {
+            "item": "Cross Street (Intersection)",
+            "count": "4136"
+          },
+          {
+            "item": "Place (Landmark)",
+            "count": "83"
+          },
+          {
+            "item": "P.O. Box",
+            "count": "1"
+          }
+        ],
+        "smallest": "Complete Address",
+        "count": "163107",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "building_number",
+      "display_name": "Building Number",
+      "data_type": "text",
+      "description": "The building number where the inspection was conducted.",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "159250",
+        "largest": "VERDI SQ SOUTHOF",
+        "null": "3857",
+        "top": [
+          {
+            "item": "245",
+            "count": "1802"
+          },
+          {
+            "item": "2",
+            "count": "505"
+          },
+          {
+            "item": "200",
+            "count": "494"
+          },
+          {
+            "item": "1",
+            "count": "380"
+          },
+          {
+            "item": "101",
+            "count": "295"
+          },
+          {
+            "item": "100",
+            "count": "254"
+          },
+          {
+            "item": "301",
+            "count": "254"
+          },
+          {
+            "item": "110",
+            "count": "251"
+          },
+          {
+            "item": "150",
+            "count": "241"
+          },
+          {
+            "item": "111",
+            "count": "238"
+          },
+          {
+            "item": "141",
+            "count": "226"
+          },
+          {
+            "item": "25",
+            "count": "226"
+          },
+          {
+            "item": "125",
+            "count": "225"
+          },
+          {
+            "item": "618",
+            "count": "216"
+          },
+          {
+            "item": "51",
+            "count": "216"
+          },
+          {
+            "item": "300",
+            "count": "215"
+          },
+          {
+            "item": "500",
+            "count": "211"
+          },
+          {
+            "item": "99",
+            "count": "209"
+          },
+          {
+            "item": "20",
+            "count": "206"
+          },
+          {
+            "item": "10",
+            "count": "202"
+          }
+        ],
+        "smallest": "1",
+        "count": "163107",
+        "cardinality": "10637"
+      }
+    },
+    {
+      "field_name": "street_1",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "The name of the street where the inspection was conducted.",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "163107",
+        "largest": "ZOLLER RD",
+        "null": "0",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "6687"
+          },
+          {
+            "item": "JAMAICA AVE",
+            "count": "3025"
+          },
+          {
+            "item": "3RD AVE",
+            "count": "2643"
+          },
+          {
+            "item": "5TH AVE",
+            "count": "1810"
+          },
+          {
+            "item": "FULTON ST",
+            "count": "1807"
+          },
+          {
+            "item": "2ND AVE",
+            "count": "1765"
+          },
+          {
+            "item": "ROOSEVELT AVE",
+            "count": "1755"
+          },
+          {
+            "item": "1ST AVE",
+            "count": "1656"
+          },
+          {
+            "item": "MESEROLE AVE",
+            "count": "1638"
+          },
+          {
+            "item": "8TH AVE",
+            "count": "1491"
+          },
+          {
+            "item": "NOSTRAND AVE",
+            "count": "1448"
+          },
+          {
+            "item": "LIBERTY AVE",
+            "count": "1438"
+          },
+          {
+            "item": "MYRTLE AVE",
+            "count": "1417"
+          },
+          {
+            "item": "QUEENS BLVD",
+            "count": "1352"
+          },
+          {
+            "item": "7TH AVE",
+            "count": "1350"
+          },
+          {
+            "item": "LEXINGTON AVE",
+            "count": "1340"
+          },
+          {
+            "item": "FLATBUSH AVE",
+            "count": "1276"
+          },
+          {
+            "item": "4TH AVE",
+            "count": "1269"
+          },
+          {
+            "item": "NORTHERN BLVD",
+            "count": "1247"
+          },
+          {
+            "item": "WHITE PLAINS RD",
+            "count": "1229"
+          }
+        ],
+        "smallest": "100 STREET",
+        "count": "163107",
+        "cardinality": "3680"
+      }
+    },
+    {
+      "field_name": "street_2",
+      "display_name": "Street Name 2",
+      "data_type": "text",
+      "description": "The name of the cross street where the inspection was conducted.",
+      "width": 196,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "4318",
+        "largest": "ZEREGA AVENUE",
+        "null": "158789",
+        "top": [
+          {
+            "item": "WEST 67 STREET",
+            "count": "301"
+          },
+          {
+            "item": "WEST 34 STREET",
+            "count": "92"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "63"
+          },
+          {
+            "item": "WEST 54 STREET",
+            "count": "60"
+          },
+          {
+            "item": "EAST 72 STREET",
+            "count": "60"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "56"
+          },
+          {
+            "item": "QUEENS BOULEVARD",
+            "count": "55"
+          },
+          {
+            "item": "JEROME AVENUE",
+            "count": "53"
+          },
+          {
+            "item": "YORK AVENUE",
+            "count": "53"
+          },
+          {
+            "item": "PARK AVENUE SOUTH",
+            "count": "51"
+          },
+          {
+            "item": "WEST 47 STREET",
+            "count": "47"
+          },
+          {
+            "item": "WEST 40 STREET",
+            "count": "46"
+          },
+          {
+            "item": "WEST 57 STREET",
+            "count": "42"
+          },
+          {
+            "item": "WATER STREET",
+            "count": "41"
+          },
+          {
+            "item": "WEST 79 STREET",
+            "count": "37"
+          },
+          {
+            "item": "WEBSTER AVENUE",
+            "count": "35"
+          },
+          {
+            "item": "WEST 42 STREET",
+            "count": "35"
+          },
+          {
+            "item": "WEST 23 STREET",
+            "count": "33"
+          },
+          {
+            "item": "WEST 46 STREET",
+            "count": "33"
+          },
+          {
+            "item": "WEST 49 STREET",
+            "count": "32"
+          }
+        ],
+        "smallest": "101 STREET",
+        "count": "163107",
+        "cardinality": "652"
+      }
+    },
+    {
+      "field_name": "unit_type",
+      "display_name": "Unit Type",
+      "data_type": "text",
+      "description": "The type of unit where the inspection was conducted.",
+      "width": 208,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "5923",
+        "largest": "UPPR",
+        "null": "157184",
+        "top": [
+          {
+            "item": "STE",
+            "count": "1738"
+          },
+          {
+            "item": "UNIT",
+            "count": "1116"
+          },
+          {
+            "item": "FRNT",
+            "count": "1111"
+          },
+          {
+            "item": "FL",
+            "count": "743"
+          },
+          {
+            "item": "APT",
+            "count": "625"
+          },
+          {
+            "item": "BLDG",
+            "count": "171"
+          },
+          {
+            "item": "#",
+            "count": "159"
+          },
+          {
+            "item": "RM",
+            "count": "94"
+          },
+          {
+            "item": "BSMT",
+            "count": "60"
+          },
+          {
+            "item": "LBBY",
+            "count": "33"
+          },
+          {
+            "item": "OFC",
+            "count": "28"
+          },
+          {
+            "item": "SPC",
+            "count": "13"
+          },
+          {
+            "item": "LOWR",
+            "count": "10"
+          },
+          {
+            "item": "PH",
+            "count": "6"
+          },
+          {
+            "item": "REAR",
+            "count": "4"
+          },
+          {
+            "item": "LOT",
+            "count": "4"
+          },
+          {
+            "item": "DEPT",
+            "count": "3"
+          },
+          {
+            "item": "UPPR",
+            "count": "3"
+          },
+          {
+            "item": "SIDE",
+            "count": "1"
+          },
+          {
+            "item": "TRLR",
+            "count": "1"
+          }
+        ],
+        "smallest": "#",
+        "count": "163107",
+        "cardinality": "20"
+      }
+    },
+    {
+      "field_name": "apt_suite",
+      "display_name": "Unit",
+      "data_type": "text",
+      "description": "The unit number where inspection was conducted.",
+      "position": 17,
+      "cached_contents": {
+        "non_null": "5219",
+        "largest": "Yard",
+        "null": "157888",
+        "top": [
+          {
+            "item": "1",
+            "count": "1208"
+          },
+          {
+            "item": "A",
+            "count": "663"
+          },
+          {
+            "item": "2",
+            "count": "391"
+          },
+          {
+            "item": "B",
+            "count": "275"
+          },
+          {
+            "item": "5",
+            "count": "162"
+          },
+          {
+            "item": "3",
+            "count": "150"
+          },
+          {
+            "item": "4",
+            "count": "107"
+          },
+          {
+            "item": "6",
+            "count": "62"
+          },
+          {
+            "item": "C",
+            "count": "57"
+          },
+          {
+            "item": "1A",
+            "count": "54"
+          },
+          {
+            "item": "1B",
+            "count": "44"
+          },
+          {
+            "item": "D",
+            "count": "43"
+          },
+          {
+            "item": "7",
+            "count": "35"
+          },
+          {
+            "item": "2A",
+            "count": "33"
+          },
+          {
+            "item": "2F",
+            "count": "28"
+          },
+          {
+            "item": "1F",
+            "count": "27"
+          },
+          {
+            "item": "5A",
+            "count": "25"
+          },
+          {
+            "item": "STORE",
+            "count": "25"
+          },
+          {
+            "item": "STORE B",
+            "count": "22"
+          },
+          {
+            "item": "103",
+            "count": "22"
+          }
+        ],
+        "smallest": "`",
+        "count": "163107",
+        "cardinality": "545"
+      }
+    },
+    {
+      "field_name": "city",
+      "display_name": "City",
+      "data_type": "text",
+      "description": "The city where the inspection was conducted.",
+      "width": 148,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "162923",
+        "largest": "YONKERS",
+        "null": "184",
+        "top": [
+          {
+            "item": "BROOKLYN",
+            "count": "45689"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "41833"
+          },
+          {
+            "item": "BRONX",
+            "count": "23691"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "7268"
+          },
+          {
+            "item": "JAMAICA",
+            "count": "5592"
+          },
+          {
+            "item": "ASTORIA",
+            "count": "3908"
+          },
+          {
+            "item": "FLUSHING",
+            "count": "3475"
+          },
+          {
+            "item": "CORONA",
+            "count": "2601"
+          },
+          {
+            "item": "JACKSON HEIGHTS",
+            "count": "2177"
+          },
+          {
+            "item": "WOODSIDE",
+            "count": "1965"
+          },
+          {
+            "item": "RIDGEWOOD",
+            "count": "1699"
+          },
+          {
+            "item": "ELMHURST",
+            "count": "1565"
+          },
+          {
+            "item": "LONG ISLAND CITY",
+            "count": "1507"
+          },
+          {
+            "item": "OZONE PARK",
+            "count": "1223"
+          },
+          {
+            "item": "RICHMOND HILL",
+            "count": "1208"
+          },
+          {
+            "item": "FOREST HILLS",
+            "count": "1017"
+          },
+          {
+            "item": "SUNNYSIDE",
+            "count": "941"
+          },
+          {
+            "item": "SOUTH RICHMOND HILL",
+            "count": "858"
+          },
+          {
+            "item": "WOODHAVEN",
+            "count": "851"
+          },
+          {
+            "item": "MASPETH",
+            "count": "769"
+          }
+        ],
+        "smallest": "6070 WOODHAVEN",
+        "count": "163107",
+        "cardinality": "185"
+      }
+    },
+    {
+      "field_name": "state",
+      "display_name": "State",
+      "data_type": "text",
+      "description": "The state where the inspection was conducted.",
+      "width": 160,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "163046",
+        "largest": "PA",
+        "null": "61",
+        "top": [
+          {
+            "item": "NY",
+            "count": "162949"
+          },
+          {
+            "item": "Outside USA",
+            "count": "58"
+          },
+          {
+            "item": "NJ",
+            "count": "34"
+          },
+          {
+            "item": "CA",
+            "count": "3"
+          },
+          {
+            "item": "AL",
+            "count": "1"
+          },
+          {
+            "item": "PA",
+            "count": "1"
+          }
+        ],
+        "smallest": "AL",
+        "count": "163107",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "Postcode",
+      "data_type": "text",
+      "description": "The ZIP Code where the inspection was conducted.",
+      "position": 20,
+      "cached_contents": {
+        "non_null": "163106",
+        "largest": "90403",
+        "null": "1",
+        "top": [
+          {
+            "item": "11222",
+            "count": "3032"
+          },
+          {
+            "item": "11372",
+            "count": "2753"
+          },
+          {
+            "item": "11368",
+            "count": "2703"
+          },
+          {
+            "item": "11385",
+            "count": "2520"
+          },
+          {
+            "item": "10019",
+            "count": "2424"
+          },
+          {
+            "item": "10029",
+            "count": "2133"
+          },
+          {
+            "item": "11377",
+            "count": "2000"
+          },
+          {
+            "item": "11211",
+            "count": "1972"
+          },
+          {
+            "item": "10003",
+            "count": "1952"
+          },
+          {
+            "item": "11432",
+            "count": "1926"
+          },
+          {
+            "item": "11208",
+            "count": "1896"
+          },
+          {
+            "item": "10002",
+            "count": "1892"
+          },
+          {
+            "item": "11220",
+            "count": "1851"
+          },
+          {
+            "item": "11207",
+            "count": "1849"
+          },
+          {
+            "item": "10467",
+            "count": "1785"
+          },
+          {
+            "item": "11101",
+            "count": "1759"
+          },
+          {
+            "item": "10458",
+            "count": "1732"
+          },
+          {
+            "item": "10001",
+            "count": "1731"
+          },
+          {
+            "item": "11226",
+            "count": "1687"
+          },
+          {
+            "item": "11373",
+            "count": "1653"
+          }
+        ],
+        "smallest": "00141",
+        "count": "163107",
+        "cardinality": "256"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "The NYC Borough where the inspection was conducted.",
+      "width": 184,
+      "position": 21,
+      "cached_contents": {
+        "non_null": "163106",
+        "largest": "Staten Island",
+        "null": "1",
+        "top": [
+          {
+            "item": "Brooklyn",
+            "count": "45821"
+          },
+          {
+            "item": "Queens",
+            "count": "43773"
+          },
+          {
+            "item": "Manhattan",
+            "count": "42292"
+          },
+          {
+            "item": "Bronx",
+            "count": "23834"
+          },
+          {
+            "item": "Staten Island",
+            "count": "7284"
+          },
+          {
+            "item": "Outside NYC",
+            "count": "102"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "163107",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "community_district",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "The NYC Community District where the inspection was conducted.",
+      "position": 22,
+      "cached_contents": {
+        "non_null": "162776",
+        "largest": "503",
+        "null": "331",
+        "top": [
+          {
+            "item": "301",
+            "count": "6462"
+          },
+          {
+            "item": "105",
+            "count": "5893"
+          },
+          {
+            "item": "412",
+            "count": "5326"
+          },
+          {
+            "item": "401",
+            "count": "4889"
+          },
+          {
+            "item": "104",
+            "count": "4418"
+          },
+          {
+            "item": "103",
+            "count": "4251"
+          },
+          {
+            "item": "403",
+            "count": "4076"
+          },
+          {
+            "item": "108",
+            "count": "4018"
+          },
+          {
+            "item": "402",
+            "count": "3879"
+          },
+          {
+            "item": "405",
+            "count": "3873"
+          },
+          {
+            "item": "102",
+            "count": "3750"
+          },
+          {
+            "item": "501",
+            "count": "3655"
+          },
+          {
+            "item": "112",
+            "count": "3494"
+          },
+          {
+            "item": "404",
+            "count": "3487"
+          },
+          {
+            "item": "407",
+            "count": "3449"
+          },
+          {
+            "item": "107",
+            "count": "3437"
+          },
+          {
+            "item": "305",
+            "count": "3422"
+          },
+          {
+            "item": "409",
+            "count": "3415"
+          },
+          {
+            "item": "111",
+            "count": "3294"
+          },
+          {
+            "item": "303",
+            "count": "3233"
+          }
+        ],
+        "smallest": "101",
+        "count": "163107",
+        "cardinality": "68"
+      }
+    },
+    {
+      "field_name": "city_council_district",
+      "display_name": "Council District",
+      "data_type": "text",
+      "description": "The NYC City Council District where the inspection was conducted.",
+      "position": 23,
+      "cached_contents": {
+        "non_null": "162776",
+        "largest": "51",
+        "null": "331",
+        "top": [
+          {
+            "item": "03",
+            "count": "7815"
+          },
+          {
+            "item": "01",
+            "count": "5861"
+          },
+          {
+            "item": "04",
+            "count": "5584"
+          },
+          {
+            "item": "33",
+            "count": "5254"
+          },
+          {
+            "item": "02",
+            "count": "4899"
+          },
+          {
+            "item": "26",
+            "count": "4759"
+          },
+          {
+            "item": "34",
+            "count": "4654"
+          },
+          {
+            "item": "08",
+            "count": "4351"
+          },
+          {
+            "item": "22",
+            "count": "4015"
+          },
+          {
+            "item": "21",
+            "count": "3922"
+          },
+          {
+            "item": "37",
+            "count": "3894"
+          },
+          {
+            "item": "27",
+            "count": "3686"
+          },
+          {
+            "item": "29",
+            "count": "3678"
+          },
+          {
+            "item": "25",
+            "count": "3468"
+          },
+          {
+            "item": "17",
+            "count": "3454"
+          },
+          {
+            "item": "10",
+            "count": "3446"
+          },
+          {
+            "item": "15",
+            "count": "3402"
+          },
+          {
+            "item": "30",
+            "count": "3176"
+          },
+          {
+            "item": "38",
+            "count": "3167"
+          },
+          {
+            "item": "49",
+            "count": "3115"
+          }
+        ],
+        "smallest": "01",
+        "count": "163107",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "The Building Identification Number where inspection was conducted",
+      "position": 24,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "157509",
+        "largest": "5174856",
+        "null": "5598",
+        "top": [
+          {
+            "item": "3065442",
+            "count": "1666"
+          },
+          {
+            "item": "4000000",
+            "count": "511"
+          },
+          {
+            "item": "3000000",
+            "count": "312"
+          },
+          {
+            "item": "1000000",
+            "count": "240"
+          },
+          {
+            "item": "2000000",
+            "count": "195"
+          },
+          {
+            "item": "1080999",
+            "count": "182"
+          },
+          {
+            "item": "1035342",
+            "count": "145"
+          },
+          {
+            "item": "1022688",
+            "count": "126"
+          },
+          {
+            "item": "4003726",
+            "count": "117"
+          },
+          {
+            "item": "5000000",
+            "count": "78"
+          },
+          {
+            "item": "1012516",
+            "count": "77"
+          },
+          {
+            "item": "4001953",
+            "count": "75"
+          },
+          {
+            "item": "2000539",
+            "count": "70"
+          },
+          {
+            "item": "4309526",
+            "count": "69"
+          },
+          {
+            "item": "1001631",
+            "count": "66"
+          },
+          {
+            "item": "4147723",
+            "count": "65"
+          },
+          {
+            "item": "1052038",
+            "count": "65"
+          },
+          {
+            "item": "4044393",
+            "count": "61"
+          },
+          {
+            "item": "1022612",
+            "count": "59"
+          },
+          {
+            "item": "2014623",
+            "count": "57"
+          }
+        ],
+        "smallest": "0",
+        "count": "163107",
+        "cardinality": "28309"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The Borough-Block-Lot number where the inspection was conducted",
+      "position": 25,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "157475",
+        "largest": "5080470028",
+        "null": "5632",
+        "top": [
+          {
+            "item": "3026040001",
+            "count": "1666"
+          },
+          {
+            "item": "1010990043",
+            "count": "182"
+          },
+          {
+            "item": "1012760069",
+            "count": "145"
+          },
+          {
+            "item": "1010010001",
+            "count": "126"
+          },
+          {
+            "item": "4003120079",
+            "count": "117"
+          },
+          {
+            "item": "4115440100",
+            "count": "77"
+          },
+          {
+            "item": "1007090060",
+            "count": "77"
+          },
+          {
+            "item": "4001640001",
+            "count": "75"
+          },
+          {
+            "item": "4050447501",
+            "count": "72"
+          },
+          {
+            "item": "2022930056",
+            "count": "70"
+          },
+          {
+            "item": "1001490014",
+            "count": "66"
+          },
+          {
+            "item": "1016340037",
+            "count": "65"
+          },
+          {
+            "item": "4068170020",
+            "count": "65"
+          },
+          {
+            "item": "4017700096",
+            "count": "61"
+          },
+          {
+            "item": "1009960012",
+            "count": "59"
+          },
+          {
+            "item": "2039387501",
+            "count": "57"
+          },
+          {
+            "item": "2032130001",
+            "count": "57"
+          },
+          {
+            "item": "3039540015",
+            "count": "55"
+          },
+          {
+            "item": "2031530009",
+            "count": "54"
+          },
+          {
+            "item": "4001930025",
+            "count": "54"
+          }
+        ],
+        "smallest": "1000020001",
+        "count": "163107",
+        "cardinality": "27913"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area where  inspection was conducted",
+      "position": 26,
+      "cached_contents": {
+        "non_null": "154857",
+        "largest": "SI54",
+        "null": "8250",
+        "top": [
+          {
+            "item": "MN17",
+            "count": "3671"
+          },
+          {
+            "item": "BK76",
+            "count": "2931"
+          },
+          {
+            "item": "QN31",
+            "count": "2576"
+          },
+          {
+            "item": "MN13",
+            "count": "2466"
+          },
+          {
+            "item": "QN70",
+            "count": "2434"
+          },
+          {
+            "item": "QN28",
+            "count": "2378"
+          },
+          {
+            "item": "QN61",
+            "count": "2321"
+          },
+          {
+            "item": "MN23",
+            "count": "2298"
+          },
+          {
+            "item": "MN15",
+            "count": "2122"
+          },
+          {
+            "item": "BK61",
+            "count": "2030"
+          },
+          {
+            "item": "MN24",
+            "count": "1982"
+          },
+          {
+            "item": "MN12",
+            "count": "1804"
+          },
+          {
+            "item": "QN29",
+            "count": "1795"
+          },
+          {
+            "item": "QN54",
+            "count": "1763"
+          },
+          {
+            "item": "QN20",
+            "count": "1758"
+          },
+          {
+            "item": "MN34",
+            "count": "1724"
+          },
+          {
+            "item": "MN22",
+            "count": "1721"
+          },
+          {
+            "item": "BK37",
+            "count": "1696"
+          },
+          {
+            "item": "BK31",
+            "count": "1689"
+          },
+          {
+            "item": "BK73",
+            "count": "1667"
+          }
+        ],
+        "smallest": "BK09",
+        "count": "163107",
+        "cardinality": "193"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "The latitudinal coordinate where the  inspection was conducted",
+      "format": "standard",
+      "width": 100,
+      "position": 27,
+      "default_value": "false",
+      "cached_contents": {
+        "non_null": "162806",
+        "largest": "40.91074204",
+        "null": "301",
+        "top": [
+          {
+            "item": "40.72923191",
+            "count": "1666"
+          },
+          {
+            "item": "40.77303215",
+            "count": "289"
+          },
+          {
+            "item": "40.76736342",
+            "count": "182"
+          },
+          {
+            "item": "40.75337198",
+            "count": "140"
+          },
+          {
+            "item": "40.75997361",
+            "count": "126"
+          },
+          {
+            "item": "40.73209759",
+            "count": "77"
+          },
+          {
+            "item": "40.7579189",
+            "count": "65"
+          },
+          {
+            "item": "40.79186342",
+            "count": "65"
+          },
+          {
+            "item": "40.75597735",
+            "count": "59"
+          },
+          {
+            "item": "40.77246132",
+            "count": "56"
+          },
+          {
+            "item": "40.67938374",
+            "count": "55"
+          },
+          {
+            "item": "40.63519277",
+            "count": "50"
+          },
+          {
+            "item": "40.73240243",
+            "count": "49"
+          },
+          {
+            "item": "40.74717702",
+            "count": "48"
+          },
+          {
+            "item": "40.72802759",
+            "count": "47"
+          },
+          {
+            "item": "40.81469812",
+            "count": "47"
+          },
+          {
+            "item": "40.75094588",
+            "count": "45"
+          },
+          {
+            "item": "40.73514955",
+            "count": "43"
+          },
+          {
+            "item": "40.80488882",
+            "count": "42"
+          },
+          {
+            "item": "40.86392855",
+            "count": "42"
+          }
+        ],
+        "smallest": "0",
+        "count": "163107",
+        "cardinality": "36548"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "The longitudinal coordinate where the inspection was conducted",
+      "format": "standard",
+      "width": 100,
+      "position": 28,
+      "default_value": "false",
+      "cached_contents": {
+        "non_null": "162806",
+        "largest": "0",
+        "null": "301",
+        "top": [
+          {
+            "item": "-73.94616813",
+            "count": "1666"
+          },
+          {
+            "item": "-73.9782834",
+            "count": "289"
+          },
+          {
+            "item": "-73.99428882",
+            "count": "182"
+          },
+          {
+            "item": "-73.98065393",
+            "count": "140"
+          },
+          {
+            "item": "-73.98406679",
+            "count": "126"
+          },
+          {
+            "item": "-73.9357634",
+            "count": "77"
+          },
+          {
+            "item": "-73.94447429",
+            "count": "65"
+          },
+          {
+            "item": "-73.99923116",
+            "count": "65"
+          },
+          {
+            "item": "-73.9846994",
+            "count": "59"
+          },
+          {
+            "item": "-73.96704088",
+            "count": "56"
+          },
+          {
+            "item": "-73.88547283",
+            "count": "55"
+          },
+          {
+            "item": "-73.93606981",
+            "count": "49"
+          },
+          {
+            "item": "-73.89150604",
+            "count": "48"
+          },
+          {
+            "item": "-73.9151023",
+            "count": "47"
+          },
+          {
+            "item": "-73.87302434",
+            "count": "45"
+          },
+          {
+            "item": "-73.8752844",
+            "count": "43"
+          },
+          {
+            "item": "-73.82948229",
+            "count": "42"
+          },
+          {
+            "item": "-73.93702964",
+            "count": "42"
+          },
+          {
+            "item": "-73.89659122",
+            "count": "41"
+          },
+          {
+            "item": "-73.96080649",
+            "count": "41"
+          }
+        ],
+        "smallest": "-74.24890513",
+        "count": "163107",
+        "cardinality": "36573"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:12.620821"
+}

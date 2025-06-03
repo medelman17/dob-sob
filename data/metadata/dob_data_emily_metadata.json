@@ -1,0 +1,679 @@
+{
+  "dataset_id": "58qz-dw5a",
+  "name": "DOB data",
+  "description": "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "job",
+    "dob",
+    "buildings"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2017-10-20T15:37:12",
+  "updated_at": "2025-06-03T20:02:44",
+  "row_count": 1748980964,
+  "column_count": 80,
+  "download_count": 1080,
+  "view_count": 669,
+  "columns": [
+    {
+      "field_name": "job__",
+      "display_name": "Job #",
+      "data_type": "text",
+      "description": "Number assigned by DOB to Job Filing",
+      "width": 101,
+      "position": 1
+    },
+    {
+      "field_name": "doc__",
+      "display_name": "Doc #",
+      "data_type": "text",
+      "description": "Document Number",
+      "width": 65,
+      "position": 2
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island",
+      "width": 114,
+      "position": 3
+    },
+    {
+      "field_name": "house__",
+      "display_name": "House #",
+      "data_type": "text",
+      "description": "House Number of Residence or Commercial Property",
+      "width": 84,
+      "position": 4
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "Street Name where Property is located",
+      "width": 200,
+      "position": 5
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "Tax block assigned by Department of Finance",
+      "width": 67,
+      "position": 6
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "Tax lot assigned by Department of Finance",
+      "width": 74,
+      "position": 7
+    },
+    {
+      "field_name": "bin__",
+      "display_name": "Bin #",
+      "data_type": "text",
+      "description": "Number assigned by City Planning to a specific building",
+      "width": 93,
+      "position": 8
+    },
+    {
+      "field_name": "job_type",
+      "display_name": "Job Type",
+      "data_type": "text",
+      "description": "Job Type, based on DOB Job Code (NB-New Building, A1, A2, A3- Alterations 1-3, SG-Sign, etc.)",
+      "width": 83,
+      "position": 9
+    },
+    {
+      "field_name": "job_status",
+      "display_name": "Job Status",
+      "data_type": "text",
+      "description": "DOB Status code of job (A-Pre Filed, I-Sign Off, P- Approved, R-Permit Entire) Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+      "width": 95,
+      "position": 10
+    },
+    {
+      "field_name": "job_status_descrp",
+      "display_name": "Job Status Descrp",
+      "data_type": "text",
+      "description": "Status code description",
+      "width": 200,
+      "position": 11
+    },
+    {
+      "field_name": "building_type",
+      "display_name": "Building Type",
+      "data_type": "text",
+      "description": "1-2-3 Family  or Other",
+      "width": 103,
+      "position": 12
+    },
+    {
+      "field_name": "community___board",
+      "display_name": "Community - Board",
+      "data_type": "text",
+      "description": "3-digit identifier: Borough code = first position, last 2 = community board",
+      "width": 144,
+      "position": 13
+    },
+    {
+      "field_name": "cluster",
+      "display_name": "Cluster",
+      "data_type": "text",
+      "description": "Cluster",
+      "width": 74,
+      "position": 14
+    },
+    {
+      "field_name": "landmarked",
+      "display_name": "Landmarked",
+      "data_type": "text",
+      "description": "L code indicates that the building has been assigned landmark status",
+      "width": 105,
+      "position": 15
+    },
+    {
+      "field_name": "adult_estab",
+      "display_name": "Adult Estab",
+      "data_type": "text",
+      "description": "Adult Estab",
+      "width": 96,
+      "position": 16
+    },
+    {
+      "field_name": "loft_board",
+      "display_name": "Loft Board",
+      "data_type": "text",
+      "description": "Loft Board",
+      "width": 86,
+      "position": 17
+    },
+    {
+      "field_name": "city_owned",
+      "display_name": "City Owned",
+      "data_type": "text",
+      "description": "City Owned",
+      "width": 77,
+      "position": 18
+    },
+    {
+      "field_name": "little_e",
+      "display_name": "Little e",
+      "data_type": "text",
+      "description": "Hazardous",
+      "width": 70,
+      "position": 19
+    },
+    {
+      "field_name": "pc_filed",
+      "display_name": "PC Filed",
+      "data_type": "text",
+      "description": "Application Filed electronically, rather than manually",
+      "width": 81,
+      "position": 20
+    },
+    {
+      "field_name": "efiling_filed",
+      "display_name": "eFiling Filed",
+      "data_type": "text",
+      "description": "Application Filed electronically, rather than manually",
+      "width": 99,
+      "position": 21
+    },
+    {
+      "field_name": "plumbing",
+      "display_name": "Plumbing",
+      "data_type": "text",
+      "description": "Plumbing Work Type? (X=Yes, Blank=No)",
+      "width": 89,
+      "position": 22
+    },
+    {
+      "field_name": "mechanical",
+      "display_name": "Mechanical",
+      "data_type": "text",
+      "description": "Mechanical  Work Type? (X=Yes, Blank=No)",
+      "width": 100,
+      "position": 23
+    },
+    {
+      "field_name": "boiler",
+      "display_name": "Boiler",
+      "data_type": "text",
+      "description": "Boiler  Work Type? (X=Yes, Blank=No)",
+      "width": 93,
+      "position": 24
+    },
+    {
+      "field_name": "fuel_burning",
+      "display_name": "Fuel Burning",
+      "data_type": "text",
+      "description": "Fuel Burning  Work Type? (X=Yes, Blank=No)",
+      "width": 93,
+      "position": 25
+    },
+    {
+      "field_name": "fuel_storage",
+      "display_name": "Fuel Storage",
+      "data_type": "text",
+      "description": "Fuel Storage  Work Type? (X=Yes, Blank=No)",
+      "width": 104,
+      "position": 26
+    },
+    {
+      "field_name": "standpipe",
+      "display_name": "Standpipe",
+      "data_type": "text",
+      "description": "Standpipe Work Type? (X=Yes, Blank=No)",
+      "width": 91,
+      "position": 27
+    },
+    {
+      "field_name": "sprinkler",
+      "display_name": "Sprinkler",
+      "data_type": "text",
+      "description": "Sprinkler  Work Type? (X=Yes, Blank=No)",
+      "width": 76,
+      "position": 28
+    },
+    {
+      "field_name": "fire_alarm",
+      "display_name": "Fire Alarm",
+      "data_type": "text",
+      "description": "Fire Alarm  Work Type? (X=Yes, Blank=No)",
+      "width": 86,
+      "position": 29
+    },
+    {
+      "field_name": "equipment",
+      "display_name": "Equipment",
+      "data_type": "text",
+      "description": "Equipment  Work Type? (X=Yes, Blank=No)",
+      "width": 95,
+      "position": 30
+    },
+    {
+      "field_name": "fire_suppression",
+      "display_name": "Fire Suppression",
+      "data_type": "text",
+      "description": "Fire Suppression  Work Type? (X=Yes, Blank=No)",
+      "width": 121,
+      "position": 31
+    },
+    {
+      "field_name": "curb_cut",
+      "display_name": "Curb Cut",
+      "data_type": "text",
+      "description": "Curb Cut  Work Type? (X=Yes, Blank=No)",
+      "width": 86,
+      "position": 32
+    },
+    {
+      "field_name": "other",
+      "display_name": "Other",
+      "data_type": "text",
+      "description": "Other? (X=Yes, Blank=No)",
+      "width": 67,
+      "position": 33
+    },
+    {
+      "field_name": "other_description",
+      "display_name": "Other Description",
+      "data_type": "text",
+      "description": "Other Description",
+      "width": 161,
+      "position": 34
+    },
+    {
+      "field_name": "applicant_s_first_name",
+      "display_name": "Applicant's First Name",
+      "data_type": "text",
+      "description": "First Name of Applicant",
+      "width": 164,
+      "position": 35
+    },
+    {
+      "field_name": "applicant_s_last_name",
+      "display_name": "Applicant's Last Name",
+      "data_type": "text",
+      "description": "Last Name of Applicant",
+      "width": 148,
+      "position": 36
+    },
+    {
+      "field_name": "applicant_professional_title",
+      "display_name": "Applicant Professional Title",
+      "data_type": "text",
+      "description": "Applicant's Professional Title",
+      "width": 182,
+      "position": 37
+    },
+    {
+      "field_name": "applicant_license__",
+      "display_name": "Applicant License #",
+      "data_type": "text",
+      "description": "Number assigned to the skilled trade person/contractor or licensed professional",
+      "width": 147,
+      "position": 38
+    },
+    {
+      "field_name": "professional_cert",
+      "display_name": "Professional Cert",
+      "data_type": "text",
+      "description": "Job is Professionally Certified by Licensed Professional instead of having it reviewed by Department of Building's Plan Examiners",
+      "width": 121,
+      "position": 39
+    },
+    {
+      "field_name": "pre__filing_date",
+      "display_name": "Pre- Filing Date",
+      "data_type": "text",
+      "description": "Date when job is prefiled",
+      "width": 142,
+      "position": 40
+    },
+    {
+      "field_name": "paid",
+      "display_name": "Paid",
+      "data_type": "text",
+      "description": "Date when job is paid",
+      "width": 129,
+      "position": 41
+    },
+    {
+      "field_name": "fully_paid",
+      "display_name": "Fully Paid",
+      "data_type": "text",
+      "description": "Date when job is paid and entered",
+      "width": 128,
+      "position": 42
+    },
+    {
+      "field_name": "assigned",
+      "display_name": "Assigned",
+      "data_type": "text",
+      "description": "Date when job is assigned to plan examiner",
+      "width": 124,
+      "position": 43
+    },
+    {
+      "field_name": "approved",
+      "display_name": "Approved",
+      "data_type": "text",
+      "description": "Date when job is approved",
+      "width": 143,
+      "position": 44
+    },
+    {
+      "field_name": "fully_permitted",
+      "display_name": "Fully Permitted",
+      "data_type": "text",
+      "description": "Date when job is fully permitted",
+      "width": 158,
+      "position": 45
+    },
+    {
+      "field_name": "initial_cost",
+      "display_name": "Initial Cost",
+      "data_type": "text",
+      "description": " Estimated cost of job",
+      "width": 107,
+      "position": 46
+    },
+    {
+      "field_name": "total_est__fee",
+      "display_name": "Total Est. Fee",
+      "data_type": "text",
+      "description": "Estimated fee of job",
+      "width": 114,
+      "position": 47
+    },
+    {
+      "field_name": "fee_status",
+      "display_name": "Fee Status",
+      "data_type": "text",
+      "description": "Type of Fee",
+      "width": 116,
+      "position": 48
+    },
+    {
+      "field_name": "existing_zoning_sqft",
+      "display_name": "Existing Zoning Sqft",
+      "data_type": "number",
+      "description": "Existing Zoning Sqft",
+      "format": "standard",
+      "width": 136,
+      "position": 49,
+      "default_value": "true"
+    },
+    {
+      "field_name": "proposed_zoning_sqft",
+      "display_name": "Proposed Zoning Sqft",
+      "data_type": "number",
+      "description": "Proposed Zoning Sqft",
+      "format": "standard",
+      "width": 148,
+      "position": 50,
+      "default_value": "true"
+    },
+    {
+      "field_name": "horizontal_enlrgmt",
+      "display_name": "Horizontal Enlrgmt",
+      "data_type": "text",
+      "description": "Horizontal Enlrgmt",
+      "width": 140,
+      "position": 51
+    },
+    {
+      "field_name": "vertical_enlrgmt",
+      "display_name": "Vertical Enlrgmt",
+      "data_type": "text",
+      "description": "Vertical Enlrgmt",
+      "width": 123,
+      "position": 52
+    },
+    {
+      "field_name": "enlargement_sq_footage",
+      "display_name": "Enlargement SQ Footage",
+      "data_type": "number",
+      "description": "Enlargement SQ Footage",
+      "format": "standard",
+      "width": 174,
+      "position": 53,
+      "default_value": "true"
+    },
+    {
+      "field_name": "street_frontage",
+      "display_name": "Street Frontage",
+      "data_type": "number",
+      "description": "Street Frontage",
+      "format": "standard",
+      "width": 122,
+      "position": 54,
+      "default_value": "true"
+    },
+    {
+      "field_name": "existingno_of_stories",
+      "display_name": "ExistingNo. of Stories",
+      "data_type": "number",
+      "description": "ExistingNo. of Stories",
+      "format": "standard",
+      "width": 152,
+      "position": 55,
+      "default_value": "true"
+    },
+    {
+      "field_name": "proposed_no_of_stories",
+      "display_name": "Proposed No. of Stories",
+      "data_type": "number",
+      "description": "Proposed No. of Stories",
+      "format": "standard",
+      "width": 157,
+      "position": 56,
+      "default_value": "true"
+    },
+    {
+      "field_name": "existing_height",
+      "display_name": "Existing Height",
+      "data_type": "number",
+      "description": "Existing Height",
+      "format": "standard",
+      "width": 120,
+      "position": 57,
+      "default_value": "true"
+    },
+    {
+      "field_name": "proposed_height",
+      "display_name": "Proposed Height",
+      "data_type": "number",
+      "description": "Proposed Height",
+      "format": "standard",
+      "width": 127,
+      "position": 58,
+      "default_value": "true"
+    },
+    {
+      "field_name": "existing_dwelling_units",
+      "display_name": "Existing Dwelling Units",
+      "data_type": "text",
+      "description": "Existing Dwelling Units",
+      "width": 158,
+      "position": 59
+    },
+    {
+      "field_name": "proposed_dwelling_units",
+      "display_name": "Proposed Dwelling Units",
+      "data_type": "text",
+      "description": "Proposed Dwelling Units",
+      "width": 171,
+      "position": 60
+    },
+    {
+      "field_name": "existing_occupancy",
+      "display_name": "Existing Occupancy",
+      "data_type": "text",
+      "description": "Existing Occupancy",
+      "width": 150,
+      "position": 61
+    },
+    {
+      "field_name": "proposed_occupancy",
+      "display_name": "Proposed Occupancy",
+      "data_type": "text",
+      "description": "Proposed Occupancy",
+      "width": 159,
+      "position": 62
+    },
+    {
+      "field_name": "site_fill",
+      "display_name": "Site Fill",
+      "data_type": "text",
+      "description": "Site Fill",
+      "width": 132,
+      "position": 63
+    },
+    {
+      "field_name": "zoning_dist1",
+      "display_name": "Zoning Dist1",
+      "data_type": "text",
+      "description": "Zoning Distr 1",
+      "width": 96,
+      "position": 64
+    },
+    {
+      "field_name": "zoning_dist2",
+      "display_name": "Zoning Dist2",
+      "data_type": "text",
+      "description": "Zoning Distr 2",
+      "width": 106,
+      "position": 65
+    },
+    {
+      "field_name": "zoning_dist3",
+      "display_name": "Zoning Dist3",
+      "data_type": "text",
+      "description": "Zoning Distr 3",
+      "width": 106,
+      "position": 66
+    },
+    {
+      "field_name": "special_district_1",
+      "display_name": "Special District 1",
+      "data_type": "text",
+      "description": "Special Distr 1",
+      "width": 124,
+      "position": 67
+    },
+    {
+      "field_name": "special_district_2",
+      "display_name": "Special District 2",
+      "data_type": "text",
+      "description": "Special District 2",
+      "width": 126,
+      "position": 68
+    },
+    {
+      "field_name": "owner_type",
+      "display_name": "Owner Type",
+      "data_type": "text",
+      "description": "Owner Type",
+      "width": 103,
+      "position": 69
+    },
+    {
+      "field_name": "non_profit",
+      "display_name": "Non-Profit",
+      "data_type": "text",
+      "description": "Non-Profit",
+      "width": 86,
+      "position": 70
+    },
+    {
+      "field_name": "owner_s_first_name",
+      "display_name": "Owner's First Name",
+      "data_type": "text",
+      "description": "First Name of property owner",
+      "width": 153,
+      "position": 71
+    },
+    {
+      "field_name": "owner_s_last_name",
+      "display_name": "Owner's Last Name",
+      "data_type": "text",
+      "description": "Last Name of property owner",
+      "width": 138,
+      "position": 72
+    },
+    {
+      "field_name": "owner_s_business_name",
+      "display_name": "Owner's Business Name",
+      "data_type": "text",
+      "description": "Business Name of Property Owner",
+      "width": 200,
+      "position": 73
+    },
+    {
+      "field_name": "owner_s_house_number",
+      "display_name": "Owner's House Number",
+      "data_type": "text",
+      "description": "House Number of Property Owner",
+      "width": 158,
+      "position": 74
+    },
+    {
+      "field_name": "owner_shouse_street_name",
+      "display_name": "Owner'sHouse Street Name",
+      "data_type": "text",
+      "description": "House Street Name of Property Owner",
+      "width": 200,
+      "position": 75
+    },
+    {
+      "field_name": "city_",
+      "display_name": "City ",
+      "data_type": "text",
+      "description": "City ",
+      "width": 142,
+      "position": 76
+    },
+    {
+      "field_name": "state",
+      "display_name": "State",
+      "data_type": "text",
+      "description": "State",
+      "width": 64,
+      "position": 77
+    },
+    {
+      "field_name": "zip",
+      "display_name": "Zip",
+      "data_type": "text",
+      "description": "Zip",
+      "width": 102,
+      "position": 78
+    },
+    {
+      "field_name": "owner_sphone__",
+      "display_name": "Owner'sPhone #",
+      "data_type": "text",
+      "description": "Owner's  Phone #",
+      "width": 137,
+      "position": 79
+    },
+    {
+      "field_name": "job_description",
+      "display_name": "Job Description",
+      "data_type": "text",
+      "description": "Job Description",
+      "width": 200,
+      "position": 80
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:00.540527"
+}

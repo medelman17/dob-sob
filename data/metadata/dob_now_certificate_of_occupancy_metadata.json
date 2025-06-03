@@ -1,0 +1,2345 @@
+{
+  "dataset_id": "pkdm-hqz6",
+  "name": "DOB NOW: Certificate of Occupancy",
+  "description": "This data set includes certificates of occupancy issued through the New York City Department of Buildings' DOB NOW: Certificate of Occupancy module. This module was released in March of 2021, anbd from that point onward this data set should be utilized instead of the \"DOB Certificate of Occupancy\" data set. The data is collected because the Department of Buildings tracks Certificates of Occupancies issued. This data include items such as job filing name, job filing label, BIN, Address, and Certificate of Occupancy status, sequence, label, and issuance date.\t\t\t\n<br>\n\"A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy. No one may legally occupy a building until the Department has issued a CO or Temporary Certificate of Occupancy (TCO).\n\nA CO confirms that the completed work complies with all applicable laws, all paperwork has been completed, all fees owed to the Department have been paid, all relevant violations have been resolved, and all necessary approvals have been received from other City Agencies. The Department issues a final CO when the completed work matches the submitted plans for new buildings or major alterations.\"",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "dob",
+    "certificate",
+    "occupancy",
+    "c of o",
+    "dob now",
+    "permits",
+    "buildings",
+    "building data"
+  ],
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2022-05-17T17:24:15",
+  "updated_at": "2025-05-24T18:36:51",
+  "row_count": 1748111811,
+  "column_count": 30,
+  "download_count": 3100,
+  "view_count": 6258,
+  "columns": [
+    {
+      "field_name": "job_filing_name",
+      "display_name": "JOB FILING NAME",
+      "data_type": "text",
+      "description": "The filing sequence indicator",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "X08054058",
+        "null": "0",
+        "top": [
+          {
+            "item": "321197058",
+            "count": "26"
+          },
+          {
+            "item": "320912394",
+            "count": "26"
+          },
+          {
+            "item": "321197085",
+            "count": "23"
+          },
+          {
+            "item": "320591944",
+            "count": "23"
+          },
+          {
+            "item": "420655954",
+            "count": "22"
+          },
+          {
+            "item": "321027198",
+            "count": "22"
+          },
+          {
+            "item": "121332968",
+            "count": "22"
+          },
+          {
+            "item": "321192437",
+            "count": "22"
+          },
+          {
+            "item": "320251801",
+            "count": "22"
+          },
+          {
+            "item": "320909059",
+            "count": "22"
+          },
+          {
+            "item": "321188852",
+            "count": "21"
+          },
+          {
+            "item": "421617566",
+            "count": "21"
+          },
+          {
+            "item": "321190563",
+            "count": "21"
+          },
+          {
+            "item": "321188415",
+            "count": "21"
+          },
+          {
+            "item": "320515411",
+            "count": "21"
+          },
+          {
+            "item": "321195096",
+            "count": "21"
+          },
+          {
+            "item": "321189593",
+            "count": "21"
+          },
+          {
+            "item": "320626747",
+            "count": "21"
+          },
+          {
+            "item": "320592328",
+            "count": "21"
+          },
+          {
+            "item": "321193285",
+            "count": "21"
+          }
+        ],
+        "smallest": "100034142",
+        "count": "61112",
+        "cardinality": "20698"
+      }
+    },
+    {
+      "field_name": "job_type",
+      "display_name": "JOB TYPE",
+      "data_type": "text",
+      "description": "Overall job type for the application",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "NEW BUILDING",
+        "null": "0",
+        "top": [
+          {
+            "item": "ALTERATION TYPE 1",
+            "count": "30241"
+          },
+          {
+            "item": "NEW BUILDING",
+            "count": "22369"
+          },
+          {
+            "item": "Alteration CO",
+            "count": "5266"
+          },
+          {
+            "item": "New Building",
+            "count": "2622"
+          },
+          {
+            "item": "CO - New Building with Existing Elements to Remain",
+            "count": "614"
+          }
+        ],
+        "smallest": "Alteration CO",
+        "count": "61112",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Building Identification Number assigned by Department of City Planning",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "5869567",
+        "null": "0",
+        "top": [
+          {
+            "item": "3335884",
+            "count": "47"
+          },
+          {
+            "item": "1034224",
+            "count": "43"
+          },
+          {
+            "item": "1016880",
+            "count": "36"
+          },
+          {
+            "item": "3426616",
+            "count": "35"
+          },
+          {
+            "item": "3000088",
+            "count": "34"
+          },
+          {
+            "item": "3001937",
+            "count": "31"
+          },
+          {
+            "item": "1090647",
+            "count": "30"
+          },
+          {
+            "item": "3000171",
+            "count": "30"
+          },
+          {
+            "item": "1022667",
+            "count": "30"
+          },
+          {
+            "item": "1022573",
+            "count": "29"
+          },
+          {
+            "item": "1080824",
+            "count": "28"
+          },
+          {
+            "item": "1008952",
+            "count": "28"
+          },
+          {
+            "item": "1001026",
+            "count": "28"
+          },
+          {
+            "item": "1017595",
+            "count": "27"
+          },
+          {
+            "item": "1000813",
+            "count": "27"
+          },
+          {
+            "item": "1083860",
+            "count": "27"
+          },
+          {
+            "item": "3329438",
+            "count": "26"
+          },
+          {
+            "item": "3000417",
+            "count": "26"
+          },
+          {
+            "item": "1009216",
+            "count": "25"
+          },
+          {
+            "item": "1036144",
+            "count": "25"
+          }
+        ],
+        "smallest": "1000003",
+        "count": "61112",
+        "cardinality": "20149"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "A name to indicate the NYC borough where the proposed work will take place",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "STATEN ISLAND",
+        "null": "0",
+        "top": [
+          {
+            "item": "MANHATTAN",
+            "count": "22761"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "17129"
+          },
+          {
+            "item": "QUEENS",
+            "count": "11959"
+          },
+          {
+            "item": "BRONX",
+            "count": "6085"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "3178"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "61112",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "house_no",
+      "display_name": "HOUSE NO",
+      "data_type": "text",
+      "description": "The house number for the building owner's address.",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "PIER 59",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "493"
+          },
+          {
+            "item": "200",
+            "count": "374"
+          },
+          {
+            "item": "20",
+            "count": "300"
+          },
+          {
+            "item": "11",
+            "count": "282"
+          },
+          {
+            "item": "101",
+            "count": "269"
+          },
+          {
+            "item": "100",
+            "count": "268"
+          },
+          {
+            "item": "50",
+            "count": "265"
+          },
+          {
+            "item": "55",
+            "count": "257"
+          },
+          {
+            "item": "60",
+            "count": "246"
+          },
+          {
+            "item": "10",
+            "count": "231"
+          },
+          {
+            "item": "150",
+            "count": "230"
+          },
+          {
+            "item": "250",
+            "count": "221"
+          },
+          {
+            "item": "30",
+            "count": "213"
+          },
+          {
+            "item": "40",
+            "count": "211"
+          },
+          {
+            "item": "25",
+            "count": "207"
+          },
+          {
+            "item": "45",
+            "count": "204"
+          },
+          {
+            "item": "300",
+            "count": "200"
+          },
+          {
+            "item": "2",
+            "count": "193"
+          },
+          {
+            "item": "160",
+            "count": "189"
+          },
+          {
+            "item": "111",
+            "count": "188"
+          }
+        ],
+        "smallest": "0789",
+        "count": "61112",
+        "cardinality": "8068"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET NAME",
+      "data_type": "text",
+      "description": "The street name for the building owner's address.",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "ZION STREET",
+        "null": "0",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "1561"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "537"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "394"
+          },
+          {
+            "item": "5TH AVENUE",
+            "count": "314"
+          },
+          {
+            "item": "FIFTH AVENUE",
+            "count": "276"
+          },
+          {
+            "item": "AVENUE OF THE AMERICAS",
+            "count": "271"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "248"
+          },
+          {
+            "item": "THIRD AVENUE",
+            "count": "237"
+          },
+          {
+            "item": "FLATBUSH AVENUE",
+            "count": "230"
+          },
+          {
+            "item": "ATLANTIC AVENUE",
+            "count": "228"
+          },
+          {
+            "item": "HUDSON STREET",
+            "count": "225"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "211"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "199"
+          },
+          {
+            "item": "PARK AVENUE SOUTH",
+            "count": "198"
+          },
+          {
+            "item": "FULTON STREET",
+            "count": "192"
+          },
+          {
+            "item": "GREENWICH STREET",
+            "count": "186"
+          },
+          {
+            "item": "BEDFORD AVENUE",
+            "count": "185"
+          },
+          {
+            "item": "AMSTERDAM AVENUE",
+            "count": "180"
+          },
+          {
+            "item": "QUEENS BOULEVARD",
+            "count": "176"
+          },
+          {
+            "item": "WALL STREET",
+            "count": "167"
+          }
+        ],
+        "smallest": "100 AVENUE",
+        "count": "61112",
+        "cardinality": "5803"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "description": "Tax Block assigned to the location of the proposed work by the Department of Finance.",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "9999",
+        "null": "0",
+        "top": [
+          {
+            "item": "4452",
+            "count": "209"
+          },
+          {
+            "item": "1171",
+            "count": "203"
+          },
+          {
+            "item": "16",
+            "count": "157"
+          },
+          {
+            "item": "54",
+            "count": "135"
+          },
+          {
+            "item": "972",
+            "count": "127"
+          },
+          {
+            "item": "602",
+            "count": "109"
+          },
+          {
+            "item": "729",
+            "count": "104"
+          },
+          {
+            "item": "1290",
+            "count": "99"
+          },
+          {
+            "item": "2472",
+            "count": "99"
+          },
+          {
+            "item": "1222",
+            "count": "97"
+          },
+          {
+            "item": "778",
+            "count": "96"
+          },
+          {
+            "item": "994",
+            "count": "95"
+          },
+          {
+            "item": "5141",
+            "count": "90"
+          },
+          {
+            "item": "149",
+            "count": "88"
+          },
+          {
+            "item": "1374",
+            "count": "86"
+          },
+          {
+            "item": "1260",
+            "count": "86"
+          },
+          {
+            "item": "4586",
+            "count": "84"
+          },
+          {
+            "item": "860",
+            "count": "83"
+          },
+          {
+            "item": "580",
+            "count": "82"
+          },
+          {
+            "item": "702",
+            "count": "81"
+          }
+        ],
+        "smallest": "1",
+        "count": "61112",
+        "cardinality": "7091"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "description": "Tax Lot assigned to the location of the proposed work by the Department of Finance.",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "61094",
+        "largest": "999",
+        "null": "18",
+        "top": [
+          {
+            "item": "1",
+            "count": "5994"
+          },
+          {
+            "item": "7501",
+            "count": "4800"
+          },
+          {
+            "item": "7502",
+            "count": "2387"
+          },
+          {
+            "item": "7503",
+            "count": "1422"
+          },
+          {
+            "item": "5",
+            "count": "920"
+          },
+          {
+            "item": "12",
+            "count": "891"
+          },
+          {
+            "item": "7504",
+            "count": "861"
+          },
+          {
+            "item": "10",
+            "count": "858"
+          },
+          {
+            "item": "29",
+            "count": "836"
+          },
+          {
+            "item": "7",
+            "count": "833"
+          },
+          {
+            "item": "21",
+            "count": "815"
+          },
+          {
+            "item": "6",
+            "count": "793"
+          },
+          {
+            "item": "17",
+            "count": "779"
+          },
+          {
+            "item": "24",
+            "count": "759"
+          },
+          {
+            "item": "20",
+            "count": "751"
+          },
+          {
+            "item": "16",
+            "count": "736"
+          },
+          {
+            "item": "9",
+            "count": "735"
+          },
+          {
+            "item": "11",
+            "count": "729"
+          },
+          {
+            "item": "14",
+            "count": "725"
+          },
+          {
+            "item": "15",
+            "count": "722"
+          }
+        ],
+        "smallest": "0",
+        "count": "61112",
+        "cardinality": "503"
+      }
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "ZIP CODE",
+      "data_type": "text",
+      "description": "The Zip Code for the filing representative's address.",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "61109",
+        "largest": "11697",
+        "null": "3",
+        "top": [
+          {
+            "item": "11201",
+            "count": "1787"
+          },
+          {
+            "item": "11101",
+            "count": "1555"
+          },
+          {
+            "item": "10013",
+            "count": "1525"
+          },
+          {
+            "item": "10001",
+            "count": "1337"
+          },
+          {
+            "item": "10019",
+            "count": "1257"
+          },
+          {
+            "item": "10036",
+            "count": "1170"
+          },
+          {
+            "item": "10011",
+            "count": "1144"
+          },
+          {
+            "item": "10022",
+            "count": "1051"
+          },
+          {
+            "item": "10003",
+            "count": "1007"
+          },
+          {
+            "item": "10016",
+            "count": "902"
+          },
+          {
+            "item": "10014",
+            "count": "900"
+          },
+          {
+            "item": "10010",
+            "count": "876"
+          },
+          {
+            "item": "11211",
+            "count": "865"
+          },
+          {
+            "item": "11217",
+            "count": "838"
+          },
+          {
+            "item": "11215",
+            "count": "798"
+          },
+          {
+            "item": "11222",
+            "count": "785"
+          },
+          {
+            "item": "10025",
+            "count": "730"
+          },
+          {
+            "item": "11238",
+            "count": "717"
+          },
+          {
+            "item": "10018",
+            "count": "711"
+          },
+          {
+            "item": "10027",
+            "count": "681"
+          }
+        ],
+        "smallest": "10000",
+        "count": "61112",
+        "cardinality": "215"
+      }
+    },
+    {
+      "field_name": "submitted_date",
+      "display_name": "SUBMITTED DATE",
+      "data_type": "calendar_date",
+      "description": "The date the Certificate of Occupancy request is submitted to the Department of Buildings",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "61111",
+        "largest": "2025-05-23T00:00:00.000",
+        "null": "1",
+        "top": [
+          {
+            "item": "2024-10-07T00:00:00.000",
+            "count": "106"
+          },
+          {
+            "item": "2023-02-06T00:00:00.000",
+            "count": "98"
+          },
+          {
+            "item": "2021-12-08T00:00:00.000",
+            "count": "97"
+          },
+          {
+            "item": "2023-04-04T00:00:00.000",
+            "count": "95"
+          },
+          {
+            "item": "2024-04-16T00:00:00.000",
+            "count": "92"
+          },
+          {
+            "item": "2024-03-07T00:00:00.000",
+            "count": "92"
+          },
+          {
+            "item": "2022-09-13T00:00:00.000",
+            "count": "92"
+          },
+          {
+            "item": "2023-09-19T00:00:00.000",
+            "count": "91"
+          },
+          {
+            "item": "2022-09-06T00:00:00.000",
+            "count": "91"
+          },
+          {
+            "item": "2024-11-18T00:00:00.000",
+            "count": "91"
+          },
+          {
+            "item": "2021-05-25T00:00:00.000",
+            "count": "90"
+          },
+          {
+            "item": "2022-11-14T00:00:00.000",
+            "count": "89"
+          },
+          {
+            "item": "2021-05-04T00:00:00.000",
+            "count": "89"
+          },
+          {
+            "item": "2022-01-11T00:00:00.000",
+            "count": "89"
+          },
+          {
+            "item": "2022-10-25T00:00:00.000",
+            "count": "88"
+          },
+          {
+            "item": "2023-05-11T00:00:00.000",
+            "count": "87"
+          },
+          {
+            "item": "2023-11-06T00:00:00.000",
+            "count": "87"
+          },
+          {
+            "item": "2023-05-08T00:00:00.000",
+            "count": "87"
+          },
+          {
+            "item": "2023-07-17T00:00:00.000",
+            "count": "87"
+          },
+          {
+            "item": "2022-03-10T00:00:00.000",
+            "count": "87"
+          }
+        ],
+        "smallest": "2021-03-03T00:00:00.000",
+        "count": "61112",
+        "cardinality": "1452"
+      }
+    },
+    {
+      "field_name": "c_of_o_status",
+      "display_name": "C OF O STATUS",
+      "data_type": "text",
+      "description": "The status of the Certificate of Occupancy",
+      "position": 11,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "CO Issued",
+        "null": "0",
+        "top": [
+          {
+            "item": "CO Issued",
+            "count": "61112"
+          }
+        ],
+        "smallest": "CO Issued",
+        "count": "61112",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "c_of_o_sequence",
+      "display_name": "C OF O SEQUENCE #",
+      "data_type": "number",
+      "description": "The nominal ordering of Certificate of Occupancy requests in a series",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "75887",
+        "null": "0",
+        "top": [
+          {
+            "item": "58050",
+            "count": "2"
+          },
+          {
+            "item": "23896",
+            "count": "2"
+          },
+          {
+            "item": "18592",
+            "count": "2"
+          },
+          {
+            "item": "16833",
+            "count": "2"
+          },
+          {
+            "item": "53598",
+            "count": "2"
+          },
+          {
+            "item": "64835",
+            "count": "2"
+          },
+          {
+            "item": "53817",
+            "count": "2"
+          },
+          {
+            "item": "55565",
+            "count": "2"
+          },
+          {
+            "item": "15989",
+            "count": "1"
+          },
+          {
+            "item": "19964",
+            "count": "1"
+          },
+          {
+            "item": "42317",
+            "count": "1"
+          },
+          {
+            "item": "43283",
+            "count": "1"
+          },
+          {
+            "item": "35003",
+            "count": "1"
+          },
+          {
+            "item": "31571",
+            "count": "1"
+          },
+          {
+            "item": "48621",
+            "count": "1"
+          },
+          {
+            "item": "1263",
+            "count": "1"
+          },
+          {
+            "item": "63816",
+            "count": "1"
+          },
+          {
+            "item": "32330",
+            "count": "1"
+          },
+          {
+            "item": "70114",
+            "count": "1"
+          },
+          {
+            "item": "62314",
+            "count": "1"
+          }
+        ],
+        "smallest": "13",
+        "count": "61112",
+        "cardinality": "61104"
+      }
+    },
+    {
+      "field_name": "c_of_o_filing_type",
+      "display_name": "C OF O FILING TYPE",
+      "data_type": "text",
+      "description": "The type of Certificate of Occupancy requested",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "61091",
+        "largest": "Renewal Without Change",
+        "null": "21",
+        "top": [
+          {
+            "item": "Renewal Without Change",
+            "count": "33906"
+          },
+          {
+            "item": "Final",
+            "count": "15182"
+          },
+          {
+            "item": "Initial",
+            "count": "7021"
+          },
+          {
+            "item": "Renewal With Change",
+            "count": "4982"
+          }
+        ],
+        "smallest": "Final",
+        "count": "61112",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "COMMUNITY BOARD",
+      "data_type": "number",
+      "description": "NYC Community Board",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "61092",
+        "largest": "503",
+        "null": "20",
+        "top": [
+          {
+            "item": "105",
+            "count": "5505"
+          },
+          {
+            "item": "301",
+            "count": "2778"
+          },
+          {
+            "item": "302",
+            "count": "2763"
+          },
+          {
+            "item": "101",
+            "count": "2619"
+          },
+          {
+            "item": "102",
+            "count": "2614"
+          },
+          {
+            "item": "104",
+            "count": "2500"
+          },
+          {
+            "item": "108",
+            "count": "2200"
+          },
+          {
+            "item": "107",
+            "count": "1987"
+          },
+          {
+            "item": "407",
+            "count": "1786"
+          },
+          {
+            "item": "306",
+            "count": "1574"
+          },
+          {
+            "item": "106",
+            "count": "1566"
+          },
+          {
+            "item": "401",
+            "count": "1552"
+          },
+          {
+            "item": "402",
+            "count": "1507"
+          },
+          {
+            "item": "103",
+            "count": "1347"
+          },
+          {
+            "item": "503",
+            "count": "1286"
+          },
+          {
+            "item": "303",
+            "count": "1275"
+          },
+          {
+            "item": "412",
+            "count": "1234"
+          },
+          {
+            "item": "305",
+            "count": "1012"
+          },
+          {
+            "item": "502",
+            "count": "961"
+          },
+          {
+            "item": "312",
+            "count": "960"
+          }
+        ],
+        "smallest": "1",
+        "count": "61112",
+        "cardinality": "65"
+      }
+    },
+    {
+      "field_name": "c_of_o_issuance_date",
+      "display_name": "C OF O ISSUANCE DATE",
+      "data_type": "text",
+      "description": "The date the Certificate of Occupancy is issued",
+      "position": 15,
+      "cached_contents": {
+        "non_null": "61111",
+        "largest": "12/31/2024 17:27:39",
+        "null": "1",
+        "top": [
+          {
+            "item": "11/09/2022 15:02:06",
+            "count": "2"
+          },
+          {
+            "item": "11/02/2022 11:06:57",
+            "count": "2"
+          },
+          {
+            "item": "04/01/2024 11:17:47",
+            "count": "2"
+          },
+          {
+            "item": "09/26/2024 12:31:11",
+            "count": "2"
+          },
+          {
+            "item": "04/05/2023 10:01:45",
+            "count": "2"
+          },
+          {
+            "item": "03/13/2023 11:49:30",
+            "count": "2"
+          },
+          {
+            "item": "07/17/2023 14:23:09",
+            "count": "2"
+          },
+          {
+            "item": "01/05/2023 15:50:39",
+            "count": "2"
+          },
+          {
+            "item": "10/18/2023 10:06:12",
+            "count": "2"
+          },
+          {
+            "item": "07/03/2024 09:25:30",
+            "count": "2"
+          },
+          {
+            "item": "03/23/2022 12:37:03",
+            "count": "2"
+          },
+          {
+            "item": "12/21/2021 10:43:29",
+            "count": "2"
+          },
+          {
+            "item": "05/18/2023 09:47:07",
+            "count": "2"
+          },
+          {
+            "item": "02/06/2025 13:24:06",
+            "count": "2"
+          },
+          {
+            "item": "01/10/2023 10:17:39",
+            "count": "2"
+          },
+          {
+            "item": "01/02/2025 09:17:54",
+            "count": "2"
+          },
+          {
+            "item": "08/01/2024 10:17:19",
+            "count": "2"
+          },
+          {
+            "item": "09/27/2024 10:36:21",
+            "count": "2"
+          },
+          {
+            "item": "05/05/2022 11:02:03",
+            "count": "2"
+          },
+          {
+            "item": "11/13/2023 16:03:11",
+            "count": "2"
+          }
+        ],
+        "smallest": "01/02/2024 09:12:54",
+        "count": "61112",
+        "cardinality": "61058"
+      }
+    },
+    {
+      "field_name": "application_number",
+      "display_name": "APPLICATION NUMBER",
+      "data_type": "text",
+      "description": "The Certificate of Occupancy number",
+      "position": 16,
+      "cached_contents": {
+        "non_null": "61112",
+        "largest": "CO-000075887",
+        "null": "0",
+        "top": [
+          {
+            "item": "CO-000053598",
+            "count": "2"
+          },
+          {
+            "item": "CO-000016833",
+            "count": "2"
+          },
+          {
+            "item": "CO-000023896",
+            "count": "2"
+          },
+          {
+            "item": "CO-000055565",
+            "count": "2"
+          },
+          {
+            "item": "CO-000058050",
+            "count": "2"
+          },
+          {
+            "item": "CO-000064835",
+            "count": "2"
+          },
+          {
+            "item": "CO-000053817",
+            "count": "2"
+          },
+          {
+            "item": "CO-000011666",
+            "count": "1"
+          },
+          {
+            "item": "CO-000008896",
+            "count": "1"
+          },
+          {
+            "item": "CO-000057548",
+            "count": "1"
+          },
+          {
+            "item": "CO-000011779",
+            "count": "1"
+          },
+          {
+            "item": "CO-000030898",
+            "count": "1"
+          },
+          {
+            "item": "CO-000066427",
+            "count": "1"
+          },
+          {
+            "item": "CO-000025995",
+            "count": "1"
+          },
+          {
+            "item": "CO-000028114",
+            "count": "1"
+          },
+          {
+            "item": "CO-000036459",
+            "count": "1"
+          },
+          {
+            "item": "CO-000049340",
+            "count": "1"
+          },
+          {
+            "item": "CO-000023435",
+            "count": "1"
+          },
+          {
+            "item": "CO-000032362",
+            "count": "1"
+          },
+          {
+            "item": "CO-000073551",
+            "count": "1"
+          }
+        ],
+        "smallest": "CO-000000013",
+        "count": "61112",
+        "cardinality": "61105"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "latitude",
+      "data_type": "number",
+      "description": "",
+      "position": 19,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "40.91159",
+        "null": "495",
+        "top": [
+          {
+            "item": "40.754848",
+            "count": "59"
+          },
+          {
+            "item": "40.755942",
+            "count": "46"
+          },
+          {
+            "item": "40.755167",
+            "count": "43"
+          },
+          {
+            "item": "40.697254",
+            "count": "40"
+          },
+          {
+            "item": "40.743023",
+            "count": "36"
+          },
+          {
+            "item": "40.757519",
+            "count": "35"
+          },
+          {
+            "item": "40.754946",
+            "count": "32"
+          },
+          {
+            "item": "40.758577",
+            "count": "31"
+          },
+          {
+            "item": "40.707924",
+            "count": "31"
+          },
+          {
+            "item": "40.695198",
+            "count": "31"
+          },
+          {
+            "item": "40.75831",
+            "count": "30"
+          },
+          {
+            "item": "40.730842",
+            "count": "28"
+          },
+          {
+            "item": "40.708546",
+            "count": "28"
+          },
+          {
+            "item": "40.672485",
+            "count": "28"
+          },
+          {
+            "item": "40.71972",
+            "count": "28"
+          },
+          {
+            "item": "40.750504",
+            "count": "27"
+          },
+          {
+            "item": "40.759485",
+            "count": "27"
+          },
+          {
+            "item": "40.741131",
+            "count": "27"
+          },
+          {
+            "item": "40.706449",
+            "count": "27"
+          },
+          {
+            "item": "40.746303",
+            "count": "27"
+          }
+        ],
+        "smallest": "40.499212",
+        "count": "61112",
+        "cardinality": "18247"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "longitude",
+      "data_type": "number",
+      "description": "",
+      "position": 20,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "-73.701863",
+        "null": "495",
+        "top": [
+          {
+            "item": "-73.844856",
+            "count": "59"
+          },
+          {
+            "item": "-73.98083",
+            "count": "43"
+          },
+          {
+            "item": "-73.986015",
+            "count": "40"
+          },
+          {
+            "item": "-74.005955",
+            "count": "37"
+          },
+          {
+            "item": "-73.986402",
+            "count": "36"
+          },
+          {
+            "item": "-73.986572",
+            "count": "35"
+          },
+          {
+            "item": "-73.983324",
+            "count": "35"
+          },
+          {
+            "item": "-73.983135",
+            "count": "34"
+          },
+          {
+            "item": "-73.981537",
+            "count": "34"
+          },
+          {
+            "item": "-73.991571",
+            "count": "33"
+          },
+          {
+            "item": "-73.979965",
+            "count": "31"
+          },
+          {
+            "item": "-73.990869",
+            "count": "31"
+          },
+          {
+            "item": "-73.982504",
+            "count": "30"
+          },
+          {
+            "item": "-73.972688",
+            "count": "29"
+          },
+          {
+            "item": "-73.986161",
+            "count": "29"
+          },
+          {
+            "item": "-73.991402",
+            "count": "29"
+          },
+          {
+            "item": "-74.011041",
+            "count": "28"
+          },
+          {
+            "item": "-73.986587",
+            "count": "28"
+          },
+          {
+            "item": "-74.012761",
+            "count": "27"
+          },
+          {
+            "item": "-73.95773",
+            "count": "27"
+          }
+        ],
+        "smallest": "-74.254845",
+        "count": "61112",
+        "cardinality": "18257"
+      }
+    },
+    {
+      "field_name": "communitydistrict",
+      "display_name": "communityDistrict",
+      "data_type": "text",
+      "description": "",
+      "position": 21,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "503",
+        "null": "495",
+        "top": [
+          {
+            "item": "105",
+            "count": "5504"
+          },
+          {
+            "item": "302",
+            "count": "2754"
+          },
+          {
+            "item": "301",
+            "count": "2753"
+          },
+          {
+            "item": "102",
+            "count": "2615"
+          },
+          {
+            "item": "101",
+            "count": "2606"
+          },
+          {
+            "item": "104",
+            "count": "2494"
+          },
+          {
+            "item": "108",
+            "count": "2199"
+          },
+          {
+            "item": "107",
+            "count": "1985"
+          },
+          {
+            "item": "407",
+            "count": "1737"
+          },
+          {
+            "item": "306",
+            "count": "1573"
+          },
+          {
+            "item": "106",
+            "count": "1565"
+          },
+          {
+            "item": "401",
+            "count": "1552"
+          },
+          {
+            "item": "402",
+            "count": "1495"
+          },
+          {
+            "item": "103",
+            "count": "1319"
+          },
+          {
+            "item": "303",
+            "count": "1274"
+          },
+          {
+            "item": "412",
+            "count": "1236"
+          },
+          {
+            "item": "503",
+            "count": "1187"
+          },
+          {
+            "item": "305",
+            "count": "967"
+          },
+          {
+            "item": "312",
+            "count": "960"
+          },
+          {
+            "item": "304",
+            "count": "919"
+          }
+        ],
+        "smallest": "101",
+        "count": "61112",
+        "cardinality": "63"
+      }
+    },
+    {
+      "field_name": "citycouncildistrict",
+      "display_name": "cityCouncilDistrict",
+      "data_type": "text",
+      "description": "",
+      "position": 22,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "9",
+        "null": "495",
+        "top": [
+          {
+            "item": "4",
+            "count": "5360"
+          },
+          {
+            "item": "3",
+            "count": "5167"
+          },
+          {
+            "item": "1",
+            "count": "4297"
+          },
+          {
+            "item": "33",
+            "count": "3830"
+          },
+          {
+            "item": "2",
+            "count": "2344"
+          },
+          {
+            "item": "26",
+            "count": "2040"
+          },
+          {
+            "item": "34",
+            "count": "1774"
+          },
+          {
+            "item": "6",
+            "count": "1701"
+          },
+          {
+            "item": "39",
+            "count": "1536"
+          },
+          {
+            "item": "35",
+            "count": "1476"
+          },
+          {
+            "item": "38",
+            "count": "1254"
+          },
+          {
+            "item": "17",
+            "count": "1229"
+          },
+          {
+            "item": "36",
+            "count": "1214"
+          },
+          {
+            "item": "19",
+            "count": "1193"
+          },
+          {
+            "item": "51",
+            "count": "1154"
+          },
+          {
+            "item": "20",
+            "count": "1140"
+          },
+          {
+            "item": "5",
+            "count": "1132"
+          },
+          {
+            "item": "50",
+            "count": "1097"
+          },
+          {
+            "item": "9",
+            "count": "1095"
+          },
+          {
+            "item": "8",
+            "count": "1027"
+          }
+        ],
+        "smallest": "1",
+        "count": "61112",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "censustract2010",
+      "display_name": "censusTract2010",
+      "data_type": "number",
+      "description": "",
+      "position": 23,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "157903",
+        "null": "495",
+        "top": [
+          {
+            "item": "33",
+            "count": "794"
+          },
+          {
+            "item": "7",
+            "count": "701"
+          },
+          {
+            "item": "37",
+            "count": "658"
+          },
+          {
+            "item": "21",
+            "count": "655"
+          },
+          {
+            "item": "99",
+            "count": "633"
+          },
+          {
+            "item": "19",
+            "count": "525"
+          },
+          {
+            "item": "119",
+            "count": "440"
+          },
+          {
+            "item": "13",
+            "count": "419"
+          },
+          {
+            "item": "39",
+            "count": "384"
+          },
+          {
+            "item": "137",
+            "count": "374"
+          },
+          {
+            "item": "125",
+            "count": "360"
+          },
+          {
+            "item": "69",
+            "count": "354"
+          },
+          {
+            "item": "58",
+            "count": "354"
+          },
+          {
+            "item": "9",
+            "count": "351"
+          },
+          {
+            "item": "113",
+            "count": "344"
+          },
+          {
+            "item": "102",
+            "count": "334"
+          },
+          {
+            "item": "1502",
+            "count": "324"
+          },
+          {
+            "item": "1",
+            "count": "321"
+          },
+          {
+            "item": "104",
+            "count": "313"
+          },
+          {
+            "item": "96",
+            "count": "312"
+          }
+        ],
+        "smallest": "1",
+        "count": "61112",
+        "cardinality": "1248"
+      }
+    },
+    {
+      "field_name": "buildingidentificationnumber",
+      "display_name": "buildingIdentificationNumber",
+      "data_type": "text",
+      "description": "",
+      "position": 24,
+      "cached_contents": {
+        "non_null": "57625",
+        "largest": "5174460",
+        "null": "3487",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "2083"
+          },
+          {
+            "item": "4000000",
+            "count": "1598"
+          },
+          {
+            "item": "1000000",
+            "count": "1219"
+          },
+          {
+            "item": "2000000",
+            "count": "940"
+          },
+          {
+            "item": "5000000",
+            "count": "397"
+          },
+          {
+            "item": "3335884",
+            "count": "47"
+          },
+          {
+            "item": "1034224",
+            "count": "43"
+          },
+          {
+            "item": "1016880",
+            "count": "36"
+          },
+          {
+            "item": "3000088",
+            "count": "34"
+          },
+          {
+            "item": "1091590",
+            "count": "33"
+          },
+          {
+            "item": "3001937",
+            "count": "31"
+          },
+          {
+            "item": "1022667",
+            "count": "30"
+          },
+          {
+            "item": "3000171",
+            "count": "30"
+          },
+          {
+            "item": "1022573",
+            "count": "29"
+          },
+          {
+            "item": "1001026",
+            "count": "28"
+          },
+          {
+            "item": "1008952",
+            "count": "28"
+          },
+          {
+            "item": "1080824",
+            "count": "28"
+          },
+          {
+            "item": "1000813",
+            "count": "27"
+          },
+          {
+            "item": "1017595",
+            "count": "27"
+          },
+          {
+            "item": "1083860",
+            "count": "27"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "61112",
+        "cardinality": "15972"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "bbl",
+      "data_type": "text",
+      "description": "",
+      "position": 25,
+      "cached_contents": {
+        "non_null": "57625",
+        "largest": "5080500072",
+        "null": "3487",
+        "top": [
+          {
+            "item": "1009720001",
+            "count": "126"
+          },
+          {
+            "item": "0",
+            "count": "71"
+          },
+          {
+            "item": "4020180001",
+            "count": "71"
+          },
+          {
+            "item": "4163500400",
+            "count": "62"
+          },
+          {
+            "item": "1012660001",
+            "count": "54"
+          },
+          {
+            "item": "3044520400",
+            "count": "50"
+          },
+          {
+            "item": "3001180006",
+            "count": "47"
+          },
+          {
+            "item": "1012600024",
+            "count": "43"
+          },
+          {
+            "item": "4038100350",
+            "count": "40"
+          },
+          {
+            "item": "1009947501",
+            "count": "37"
+          },
+          {
+            "item": "1000010010",
+            "count": "37"
+          },
+          {
+            "item": "3001997501",
+            "count": "37"
+          },
+          {
+            "item": "1000157501",
+            "count": "37"
+          },
+          {
+            "item": "1008240028",
+            "count": "36"
+          },
+          {
+            "item": "1009007501",
+            "count": "36"
+          },
+          {
+            "item": "1008560024",
+            "count": "36"
+          },
+          {
+            "item": "1005450026",
+            "count": "36"
+          },
+          {
+            "item": "4102160001",
+            "count": "36"
+          },
+          {
+            "item": "3020230001",
+            "count": "35"
+          },
+          {
+            "item": "3000380001",
+            "count": "34"
+          }
+        ],
+        "smallest": "0",
+        "count": "61112",
+        "cardinality": "17168"
+      }
+    },
+    {
+      "field_name": "ntaname",
+      "display_name": "ntaName",
+      "data_type": "text",
+      "description": "",
+      "position": 26,
+      "cached_contents": {
+        "non_null": "60617",
+        "largest": "Yorkville",
+        "null": "495",
+        "top": [
+          {
+            "item": "Midtown-Midtown South",
+            "count": "3813"
+          },
+          {
+            "item": "Hudson Yards-Chelsea-Flatiron-Union Square",
+            "count": "2668"
+          },
+          {
+            "item": "SoHo-TriBeCa-Civic Center-Little Italy",
+            "count": "2371"
+          },
+          {
+            "item": "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+            "count": "1462"
+          },
+          {
+            "item": "West Village",
+            "count": "1414"
+          },
+          {
+            "item": "Battery Park City-Lower Manhattan",
+            "count": "1389"
+          },
+          {
+            "item": "Hunters Point-Sunnyside-West Maspeth",
+            "count": "1365"
+          },
+          {
+            "item": "Upper West Side",
+            "count": "1204"
+          },
+          {
+            "item": "North Side-South Side",
+            "count": "1124"
+          },
+          {
+            "item": "Upper East Side-Carnegie Hill",
+            "count": "1112"
+          },
+          {
+            "item": "Park Slope-Gowanus",
+            "count": "957"
+          },
+          {
+            "item": "Turtle Bay-East Midtown",
+            "count": "921"
+          },
+          {
+            "item": "Clinton",
+            "count": "764"
+          },
+          {
+            "item": "Greenpoint",
+            "count": "734"
+          },
+          {
+            "item": "Lincoln Square",
+            "count": "692"
+          },
+          {
+            "item": "Carroll Gardens-Columbia Street-Red Hook",
+            "count": "674"
+          },
+          {
+            "item": "Murray Hill-Kips Bay",
+            "count": "669"
+          },
+          {
+            "item": "Bushwick South",
+            "count": "650"
+          },
+          {
+            "item": "Bedford",
+            "count": "641"
+          },
+          {
+            "item": "East New York",
+            "count": "636"
+          }
+        ],
+        "smallest": "Airport",
+        "count": "61112",
+        "cardinality": "193"
+      }
+    },
+    {
+      "field_name": "location_point",
+      "display_name": "Location Point",
+      "data_type": "point",
+      "description": "",
+      "position": 27,
+      "cached_contents": {
+        "non_null": "60617",
+        "null": "495",
+        "top": [
+          {
+            "item": {
+              "coordinates": [
+                -73.844856,
+                40.754848
+              ],
+              "type": "Point"
+            },
+            "count": "59"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.98083,
+                40.755167
+              ],
+              "type": "Point"
+            },
+            "count": "43"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.986015,
+                40.697254
+              ],
+              "type": "Point"
+            },
+            "count": "40"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.986402,
+                40.743023
+              ],
+              "type": "Point"
+            },
+            "count": "36"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.990869,
+                40.695198
+              ],
+              "type": "Point"
+            },
+            "count": "31"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.982504,
+                40.75831
+              ],
+              "type": "Point"
+            },
+            "count": "30"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.986161,
+                40.754946
+              ],
+              "type": "Point"
+            },
+            "count": "29"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.991402,
+                40.730842
+              ],
+              "type": "Point"
+            },
+            "count": "28"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.983324,
+                40.755942
+              ],
+              "type": "Point"
+            },
+            "count": "28"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -74.011041,
+                40.708546
+              ],
+              "type": "Point"
+            },
+            "count": "28"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.978865,
+                40.750504
+              ],
+              "type": "Point"
+            },
+            "count": "27"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -74.012761,
+                40.706449
+              ],
+              "type": "Point"
+            },
+            "count": "27"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.985327,
+                40.690216
+              ],
+              "type": "Point"
+            },
+            "count": "26"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.95773,
+                40.817876
+              ],
+              "type": "Point"
+            },
+            "count": "26"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.989132,
+                40.691682
+              ],
+              "type": "Point"
+            },
+            "count": "26"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.990893,
+                40.728212
+              ],
+              "type": "Point"
+            },
+            "count": "25"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.713493,
+                40.759289
+              ],
+              "type": "Point"
+            },
+            "count": "25"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.978485,
+                40.750992
+              ],
+              "type": "Point"
+            },
+            "count": "25"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.991571,
+                40.735148
+              ],
+              "type": "Point"
+            },
+            "count": "25"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -73.961398,
+                40.759389
+              ],
+              "type": "Point"
+            },
+            "count": "24"
+          }
+        ],
+        "count": "61112",
+        "cardinality": "19022"
+      }
+    },
+    {
+      "field_name": ":@computed_region_efsh_h5xi",
+      "display_name": "Zip Codes",
+      "data_type": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (efsh-h5xi) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "position": 28
+    },
+    {
+      "field_name": ":@computed_region_f5dn_yrer",
+      "display_name": "Community Districts",
+      "data_type": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Districts' (f5dn-yrer) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "position": 29
+    },
+    {
+      "field_name": ":@computed_region_yeji_bk3q",
+      "display_name": "Borough Boundaries",
+      "data_type": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Borough Boundaries' (yeji-bk3q) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "position": 30
+    },
+    {
+      "field_name": ":@computed_region_92fq_4b7q",
+      "display_name": "City Council Districts",
+      "data_type": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'City Council Districts' (92fq-4b7q) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "position": 31
+    },
+    {
+      "field_name": ":@computed_region_sbqj_enih",
+      "display_name": "Police Precincts",
+      "data_type": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Police Precincts' (sbqj-enih) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "position": 32
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:59.526828"
+}

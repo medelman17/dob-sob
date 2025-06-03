@@ -1,0 +1,1777 @@
+{
+  "dataset_id": "f72e-3i4c",
+  "name": "Board of Standards and Appeals (BSA) Action Portal",
+  "description": "BSA Index Identifier from 1916 thru 1997.",
+  "agency": "Board of Standards and Appeals (BSA)",
+  "category": "City Government",
+  "tags": [
+    "board of standards and appeals",
+    "index",
+    "calendar number",
+    "block",
+    "lot",
+    "street"
+  ],
+  "update_frequency": "0",
+  "attribution": "Board of Standards and Appeals (BSA)",
+  "created_at": "2020-08-19T01:46:23",
+  "updated_at": "2020-08-19T01:52:31",
+  "row_count": 1597801951,
+  "column_count": 18,
+  "download_count": 934,
+  "view_count": 922,
+  "columns": [
+    {
+      "field_name": "calendarnumber",
+      "display_name": "CalendarNumber",
+      "data_type": "text",
+      "description": "",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "62305",
+        "largest": "999-88-A",
+        "null": "1",
+        "top": [
+          {
+            "item": "1070-64-BZ",
+            "count": "18"
+          },
+          {
+            "item": "782-42-A",
+            "count": "5"
+          },
+          {
+            "item": "580-48-A",
+            "count": "5"
+          },
+          {
+            "item": "300-47-A",
+            "count": "5"
+          },
+          {
+            "item": "235-45-A",
+            "count": "5"
+          },
+          {
+            "item": "1080-41-A",
+            "count": "5"
+          },
+          {
+            "item": "1159-17-S",
+            "count": "4"
+          },
+          {
+            "item": "109-26-S",
+            "count": "4"
+          },
+          {
+            "item": "344-42-A",
+            "count": "4"
+          },
+          {
+            "item": "251-20-BVZ",
+            "count": "4"
+          },
+          {
+            "item": "1022-40-BZ",
+            "count": "4"
+          },
+          {
+            "item": "1021-24-BZ",
+            "count": "4"
+          },
+          {
+            "item": "255-42-S",
+            "count": "4"
+          },
+          {
+            "item": "1170-40-BZ",
+            "count": "4"
+          },
+          {
+            "item": "1482-21-BZ",
+            "count": "4"
+          },
+          {
+            "item": "202-42-A",
+            "count": "4"
+          },
+          {
+            "item": "1310-27-A",
+            "count": "4"
+          },
+          {
+            "item": "153-26-A",
+            "count": "4"
+          },
+          {
+            "item": "1225-27-A",
+            "count": "4"
+          },
+          {
+            "item": "1453-17-S",
+            "count": "4"
+          }
+        ],
+        "smallest": "0",
+        "count": "62306",
+        "cardinality": "61004"
+      }
+    },
+    {
+      "field_name": "premiseaddressnumber",
+      "display_name": "PremiseAddressNumber",
+      "data_type": "text",
+      "description": "",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "56852",
+        "largest": "World's Fair",
+        "null": "5454",
+        "top": [
+          {
+            "item": "15",
+            "count": "199"
+          },
+          {
+            "item": "20",
+            "count": "184"
+          },
+          {
+            "item": "25",
+            "count": "176"
+          },
+          {
+            "item": "30",
+            "count": "169"
+          },
+          {
+            "item": "10",
+            "count": "162"
+          },
+          {
+            "item": "40",
+            "count": "161"
+          },
+          {
+            "item": "17",
+            "count": "152"
+          },
+          {
+            "item": "16",
+            "count": "136"
+          },
+          {
+            "item": "11",
+            "count": "134"
+          },
+          {
+            "item": "14",
+            "count": "133"
+          },
+          {
+            "item": "35",
+            "count": "133"
+          },
+          {
+            "item": "22",
+            "count": "130"
+          },
+          {
+            "item": "12",
+            "count": "128"
+          },
+          {
+            "item": "36",
+            "count": "126"
+          },
+          {
+            "item": "18",
+            "count": "125"
+          },
+          {
+            "item": "27",
+            "count": "122"
+          },
+          {
+            "item": "31",
+            "count": "122"
+          },
+          {
+            "item": "21",
+            "count": "121"
+          },
+          {
+            "item": "24",
+            "count": "121"
+          },
+          {
+            "item": "26",
+            "count": "120"
+          }
+        ],
+        "smallest": "00264-266",
+        "count": "62306",
+        "cardinality": "20711"
+      }
+    },
+    {
+      "field_name": "premiseaddressstreet",
+      "display_name": "PremiseAddressStreet",
+      "data_type": "text",
+      "description": "",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "58102",
+        "largest": "Zulette Ave",
+        "null": "4204",
+        "top": [
+          {
+            "item": "Broadway",
+            "count": "1131"
+          },
+          {
+            "item": "5th Ave",
+            "count": "470"
+          },
+          {
+            "item": "Northern Blvd",
+            "count": "426"
+          },
+          {
+            "item": "3rd Ave",
+            "count": "381"
+          },
+          {
+            "item": "Queens Blvd",
+            "count": "310"
+          },
+          {
+            "item": "Hylan Blvd",
+            "count": "271"
+          },
+          {
+            "item": "Atlantic Ave",
+            "count": "270"
+          },
+          {
+            "item": "Park Ave",
+            "count": "254"
+          },
+          {
+            "item": "7th Ave",
+            "count": "241"
+          },
+          {
+            "item": "Fulton St",
+            "count": "235"
+          },
+          {
+            "item": "Madison Ave",
+            "count": "226"
+          },
+          {
+            "item": "Jamaica Ave",
+            "count": "223"
+          },
+          {
+            "item": "Coney Island Ave",
+            "count": "211"
+          },
+          {
+            "item": "Hillside Ave",
+            "count": "202"
+          },
+          {
+            "item": "Bedford Ave",
+            "count": "198"
+          },
+          {
+            "item": "Greenwich St",
+            "count": "193"
+          },
+          {
+            "item": "Flatbush Ave",
+            "count": "191"
+          },
+          {
+            "item": "4th Ave",
+            "count": "191"
+          },
+          {
+            "item": "Metropolitan Ave",
+            "count": "189"
+          },
+          {
+            "item": "2nd Ave",
+            "count": "185"
+          }
+        ],
+        "smallest": ".`",
+        "count": "62306",
+        "cardinality": "9612"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "58100",
+        "largest": "Woodside Queens",
+        "null": "4206",
+        "top": [
+          {
+            "item": "Manhattan",
+            "count": "16203"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "13245"
+          },
+          {
+            "item": "Queens",
+            "count": "11340"
+          },
+          {
+            "item": "Staten Island",
+            "count": "11004"
+          },
+          {
+            "item": "Bronx",
+            "count": "6018"
+          },
+          {
+            "item": "Richmond",
+            "count": "203"
+          },
+          {
+            "item": "Brookyln",
+            "count": "22"
+          },
+          {
+            "item": "Manhttan",
+            "count": "4"
+          },
+          {
+            "item": "richmond",
+            "count": "4"
+          },
+          {
+            "item": "Manahttan",
+            "count": "3"
+          },
+          {
+            "item": "Sunnyside Queens",
+            "count": "3"
+          },
+          {
+            "item": "bnroo",
+            "count": "3"
+          },
+          {
+            "item": "Manhatttan",
+            "count": "3"
+          },
+          {
+            "item": "Brookyn",
+            "count": "3"
+          },
+          {
+            "item": "manhattan",
+            "count": "3"
+          },
+          {
+            "item": "Woodside Queens",
+            "count": "2"
+          },
+          {
+            "item": "MAnhattan",
+            "count": "2"
+          },
+          {
+            "item": "queens",
+            "count": "2"
+          },
+          {
+            "item": "brooklyn",
+            "count": "2"
+          },
+          {
+            "item": "LIC Queens",
+            "count": "2"
+          }
+        ],
+        "smallest": "0",
+        "count": "62306",
+        "cardinality": "47"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "53895",
+        "largest": "T1187",
+        "null": "8411",
+        "top": [
+          {
+            "item": "NONE",
+            "count": "441"
+          },
+          {
+            "item": "8366",
+            "count": "323"
+          },
+          {
+            "item": "16350",
+            "count": "210"
+          },
+          {
+            "item": "02400",
+            "count": "129"
+          },
+          {
+            "item": "02930",
+            "count": "120"
+          },
+          {
+            "item": "01987",
+            "count": "94"
+          },
+          {
+            "item": "00836",
+            "count": "87"
+          },
+          {
+            "item": "07320",
+            "count": "84"
+          },
+          {
+            "item": "03124",
+            "count": "79"
+          },
+          {
+            "item": "03607",
+            "count": "76"
+          },
+          {
+            "item": "07085",
+            "count": "74"
+          },
+          {
+            "item": "00690",
+            "count": "70"
+          },
+          {
+            "item": "02840",
+            "count": "69"
+          },
+          {
+            "item": "00835",
+            "count": "66"
+          },
+          {
+            "item": "04089",
+            "count": "65"
+          },
+          {
+            "item": "00258",
+            "count": "60"
+          },
+          {
+            "item": "00819",
+            "count": "60"
+          },
+          {
+            "item": "00823",
+            "count": "60"
+          },
+          {
+            "item": "00849",
+            "count": "59"
+          },
+          {
+            "item": "04229",
+            "count": "56"
+          }
+        ],
+        "smallest": "00001",
+        "count": "62306",
+        "cardinality": "10613"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "53450",
+        "largest": "Various",
+        "null": "8856",
+        "top": [
+          {
+            "item": "1",
+            "count": "4694"
+          },
+          {
+            "item": "6",
+            "count": "768"
+          },
+          {
+            "item": "5",
+            "count": "689"
+          },
+          {
+            "item": "12",
+            "count": "631"
+          },
+          {
+            "item": "11",
+            "count": "624"
+          },
+          {
+            "item": "7",
+            "count": "615"
+          },
+          {
+            "item": "10",
+            "count": "610"
+          },
+          {
+            "item": "9",
+            "count": "606"
+          },
+          {
+            "item": "30",
+            "count": "605"
+          },
+          {
+            "item": "25",
+            "count": "600"
+          },
+          {
+            "item": "16",
+            "count": "579"
+          },
+          {
+            "item": "29",
+            "count": "578"
+          },
+          {
+            "item": "20",
+            "count": "573"
+          },
+          {
+            "item": "8",
+            "count": "569"
+          },
+          {
+            "item": "15",
+            "count": "561"
+          },
+          {
+            "item": "22",
+            "count": "560"
+          },
+          {
+            "item": "14",
+            "count": "559"
+          },
+          {
+            "item": "24",
+            "count": "545"
+          },
+          {
+            "item": "27",
+            "count": "543"
+          },
+          {
+            "item": "21",
+            "count": "542"
+          }
+        ],
+        "smallest": "0037",
+        "count": "62306",
+        "cardinality": "6174"
+      }
+    },
+    {
+      "field_name": "c1",
+      "display_name": "C1",
+      "data_type": "number",
+      "description": "",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "62179",
+        "largest": "20002003",
+        "null": "127",
+        "top": [
+          {
+            "item": "1917",
+            "count": "308"
+          },
+          {
+            "item": "186",
+            "count": "76"
+          },
+          {
+            "item": "111",
+            "count": "73"
+          },
+          {
+            "item": "64",
+            "count": "73"
+          },
+          {
+            "item": "20",
+            "count": "73"
+          },
+          {
+            "item": "134",
+            "count": "73"
+          },
+          {
+            "item": "173",
+            "count": "72"
+          },
+          {
+            "item": "24",
+            "count": "72"
+          },
+          {
+            "item": "70",
+            "count": "72"
+          },
+          {
+            "item": "201",
+            "count": "71"
+          },
+          {
+            "item": "185",
+            "count": "71"
+          },
+          {
+            "item": "299",
+            "count": "71"
+          },
+          {
+            "item": "5",
+            "count": "71"
+          },
+          {
+            "item": "164",
+            "count": "71"
+          },
+          {
+            "item": "121",
+            "count": "71"
+          },
+          {
+            "item": "153",
+            "count": "71"
+          },
+          {
+            "item": "87",
+            "count": "71"
+          },
+          {
+            "item": "19",
+            "count": "71"
+          },
+          {
+            "item": "165",
+            "count": "71"
+          },
+          {
+            "item": "169",
+            "count": "71"
+          }
+        ],
+        "smallest": "1",
+        "count": "62306",
+        "cardinality": "2070"
+      }
+    },
+    {
+      "field_name": "c2",
+      "display_name": "C2",
+      "data_type": "number",
+      "description": "",
+      "position": 8,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "61509",
+        "largest": "1997",
+        "null": "797",
+        "top": [
+          {
+            "item": "1961",
+            "count": "1751"
+          },
+          {
+            "item": "1988",
+            "count": "1566"
+          },
+          {
+            "item": "1922",
+            "count": "1540"
+          },
+          {
+            "item": "1924",
+            "count": "1505"
+          },
+          {
+            "item": "1923",
+            "count": "1488"
+          },
+          {
+            "item": "1927",
+            "count": "1366"
+          },
+          {
+            "item": "1925",
+            "count": "1305"
+          },
+          {
+            "item": "1980",
+            "count": "1139"
+          },
+          {
+            "item": "1979",
+            "count": "1119"
+          },
+          {
+            "item": "1981",
+            "count": "1050"
+          },
+          {
+            "item": "1978",
+            "count": "1041"
+          },
+          {
+            "item": "1926",
+            "count": "1037"
+          },
+          {
+            "item": "1986",
+            "count": "1036"
+          },
+          {
+            "item": "1966",
+            "count": "1034"
+          },
+          {
+            "item": "1939",
+            "count": "1028"
+          },
+          {
+            "item": "1983",
+            "count": "1027"
+          },
+          {
+            "item": "1985",
+            "count": "1000"
+          },
+          {
+            "item": "1941",
+            "count": "982"
+          },
+          {
+            "item": "1984",
+            "count": "977"
+          },
+          {
+            "item": "1919",
+            "count": "972"
+          }
+        ],
+        "smallest": "1897",
+        "count": "62306",
+        "cardinality": "82"
+      }
+    },
+    {
+      "field_name": "c3",
+      "display_name": "C3",
+      "data_type": "text",
+      "description": "",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "62156",
+        "largest": "ZBZ",
+        "null": "150",
+        "top": [
+          {
+            "item": "A",
+            "count": "34716"
+          },
+          {
+            "item": "BZ",
+            "count": "21562"
+          },
+          {
+            "item": "S",
+            "count": "4792"
+          },
+          {
+            "item": "ALC",
+            "count": "771"
+          },
+          {
+            "item": "BZY",
+            "count": "259"
+          },
+          {
+            "item": "SR",
+            "count": "7"
+          },
+          {
+            "item": "s",
+            "count": "6"
+          },
+          {
+            "item": "a",
+            "count": "5"
+          },
+          {
+            "item": "BA",
+            "count": "5"
+          },
+          {
+            "item": "SM",
+            "count": "4"
+          },
+          {
+            "item": "BVZ",
+            "count": "4"
+          },
+          {
+            "item": "MDL",
+            "count": "4"
+          },
+          {
+            "item": "Z",
+            "count": "4"
+          },
+          {
+            "item": "BZL",
+            "count": "2"
+          },
+          {
+            "item": "1917",
+            "count": "2"
+          },
+          {
+            "item": "SA",
+            "count": "2"
+          },
+          {
+            "item": "ZBZ",
+            "count": "1"
+          },
+          {
+            "item": "AA",
+            "count": "1"
+          },
+          {
+            "item": "AP",
+            "count": "1"
+          },
+          {
+            "item": "B",
+            "count": "1"
+          }
+        ],
+        "smallest": "1",
+        "count": "62306",
+        "cardinality": "27"
+      }
+    },
+    {
+      "field_name": "postcode",
+      "display_name": "Postcode",
+      "data_type": "number",
+      "description": "",
+      "position": 10,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "42153",
+        "largest": "11697",
+        "null": "20153",
+        "top": [
+          {
+            "item": "10312",
+            "count": "1811"
+          },
+          {
+            "item": "10309",
+            "count": "1469"
+          },
+          {
+            "item": "10314",
+            "count": "1253"
+          },
+          {
+            "item": "10306",
+            "count": "1170"
+          },
+          {
+            "item": "10013",
+            "count": "1082"
+          },
+          {
+            "item": "10304",
+            "count": "801"
+          },
+          {
+            "item": "10012",
+            "count": "753"
+          },
+          {
+            "item": "10001",
+            "count": "691"
+          },
+          {
+            "item": "11201",
+            "count": "688"
+          },
+          {
+            "item": "10307",
+            "count": "681"
+          },
+          {
+            "item": "10011",
+            "count": "678"
+          },
+          {
+            "item": "11234",
+            "count": "672"
+          },
+          {
+            "item": "10019",
+            "count": "553"
+          },
+          {
+            "item": "10305",
+            "count": "550"
+          },
+          {
+            "item": "10003",
+            "count": "537"
+          },
+          {
+            "item": "10016",
+            "count": "513"
+          },
+          {
+            "item": "11219",
+            "count": "505"
+          },
+          {
+            "item": "10022",
+            "count": "476"
+          },
+          {
+            "item": "10301",
+            "count": "454"
+          },
+          {
+            "item": "10036",
+            "count": "450"
+          }
+        ],
+        "smallest": "10000",
+        "count": "62306",
+        "cardinality": "217"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "",
+      "position": 11,
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "40.912149",
+        "null": "20152",
+        "top": [
+          {
+            "item": "40.730938",
+            "count": "19"
+          },
+          {
+            "item": "40.751148",
+            "count": "17"
+          },
+          {
+            "item": "40.597996",
+            "count": "16"
+          },
+          {
+            "item": "40.738162",
+            "count": "16"
+          },
+          {
+            "item": "40.782295",
+            "count": "16"
+          },
+          {
+            "item": "40.746817",
+            "count": "15"
+          },
+          {
+            "item": "40.76826",
+            "count": "14"
+          },
+          {
+            "item": "40.750118",
+            "count": "13"
+          },
+          {
+            "item": "40.652939",
+            "count": "13"
+          },
+          {
+            "item": "40.69107",
+            "count": "13"
+          },
+          {
+            "item": "40.761759",
+            "count": "13"
+          },
+          {
+            "item": "40.640818",
+            "count": "13"
+          },
+          {
+            "item": "40.807047",
+            "count": "13"
+          },
+          {
+            "item": "40.570817",
+            "count": "13"
+          },
+          {
+            "item": "40.708039",
+            "count": "13"
+          },
+          {
+            "item": "40.760103",
+            "count": "12"
+          },
+          {
+            "item": "40.701726",
+            "count": "12"
+          },
+          {
+            "item": "40.723673",
+            "count": "12"
+          },
+          {
+            "item": "40.730497",
+            "count": "12"
+          },
+          {
+            "item": "40.760882",
+            "count": "12"
+          }
+        ],
+        "smallest": "40.499093",
+        "count": "62306",
+        "cardinality": "29595"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "-73.701615",
+        "null": "20152",
+        "top": [
+          {
+            "item": "-73.997615",
+            "count": "19"
+          },
+          {
+            "item": "-73.965194",
+            "count": "16"
+          },
+          {
+            "item": "-73.991013",
+            "count": "16"
+          },
+          {
+            "item": "-74.102544",
+            "count": "16"
+          },
+          {
+            "item": "-73.955442",
+            "count": "16"
+          },
+          {
+            "item": "-73.986402",
+            "count": "15"
+          },
+          {
+            "item": "-74.008689",
+            "count": "14"
+          },
+          {
+            "item": "-73.993655",
+            "count": "14"
+          },
+          {
+            "item": "-74.018322",
+            "count": "13"
+          },
+          {
+            "item": "-73.854379",
+            "count": "13"
+          },
+          {
+            "item": "-74.179965",
+            "count": "13"
+          },
+          {
+            "item": "-73.99974",
+            "count": "13"
+          },
+          {
+            "item": "-73.987898",
+            "count": "13"
+          },
+          {
+            "item": "-73.964589",
+            "count": "13"
+          },
+          {
+            "item": "-73.997882",
+            "count": "12"
+          },
+          {
+            "item": "-73.999163",
+            "count": "12"
+          },
+          {
+            "item": "-73.994716",
+            "count": "12"
+          },
+          {
+            "item": "-74.010433",
+            "count": "12"
+          },
+          {
+            "item": "-73.889679",
+            "count": "12"
+          },
+          {
+            "item": "-73.82583",
+            "count": "12"
+          }
+        ],
+        "smallest": "-74.254814",
+        "count": "62306",
+        "cardinality": "29534"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "595",
+        "null": "20152",
+        "top": [
+          {
+            "item": "503",
+            "count": "5009"
+          },
+          {
+            "item": "105",
+            "count": "2711"
+          },
+          {
+            "item": "502",
+            "count": "2432"
+          },
+          {
+            "item": "102",
+            "count": "1961"
+          },
+          {
+            "item": "501",
+            "count": "1805"
+          },
+          {
+            "item": "101",
+            "count": "1664"
+          },
+          {
+            "item": "301",
+            "count": "1136"
+          },
+          {
+            "item": "108",
+            "count": "1035"
+          },
+          {
+            "item": "302",
+            "count": "1023"
+          },
+          {
+            "item": "104",
+            "count": "976"
+          },
+          {
+            "item": "318",
+            "count": "942"
+          },
+          {
+            "item": "106",
+            "count": "890"
+          },
+          {
+            "item": "407",
+            "count": "848"
+          },
+          {
+            "item": "312",
+            "count": "760"
+          },
+          {
+            "item": "412",
+            "count": "715"
+          },
+          {
+            "item": "103",
+            "count": "701"
+          },
+          {
+            "item": "414",
+            "count": "699"
+          },
+          {
+            "item": "315",
+            "count": "681"
+          },
+          {
+            "item": "306",
+            "count": "673"
+          },
+          {
+            "item": "411",
+            "count": "636"
+          }
+        ],
+        "smallest": "101",
+        "count": "62306",
+        "cardinality": "68"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "51",
+        "null": "20152",
+        "top": [
+          {
+            "item": "51",
+            "count": "4663"
+          },
+          {
+            "item": "1",
+            "count": "3195"
+          },
+          {
+            "item": "50",
+            "count": "3051"
+          },
+          {
+            "item": "3",
+            "count": "2562"
+          },
+          {
+            "item": "4",
+            "count": "2545"
+          },
+          {
+            "item": "49",
+            "count": "1535"
+          },
+          {
+            "item": "33",
+            "count": "1472"
+          },
+          {
+            "item": "2",
+            "count": "1120"
+          },
+          {
+            "item": "19",
+            "count": "901"
+          },
+          {
+            "item": "46",
+            "count": "852"
+          },
+          {
+            "item": "44",
+            "count": "753"
+          },
+          {
+            "item": "39",
+            "count": "738"
+          },
+          {
+            "item": "34",
+            "count": "729"
+          },
+          {
+            "item": "43",
+            "count": "724"
+          },
+          {
+            "item": "38",
+            "count": "683"
+          },
+          {
+            "item": "31",
+            "count": "680"
+          },
+          {
+            "item": "35",
+            "count": "668"
+          },
+          {
+            "item": "8",
+            "count": "663"
+          },
+          {
+            "item": "32",
+            "count": "626"
+          },
+          {
+            "item": "13",
+            "count": "626"
+          }
+        ],
+        "smallest": "1",
+        "count": "62306",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract",
+      "data_type": "number",
+      "description": "",
+      "position": 15,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "157903",
+        "null": "20152",
+        "top": [
+          {
+            "item": "176",
+            "count": "701"
+          },
+          {
+            "item": "20801",
+            "count": "644"
+          },
+          {
+            "item": "177",
+            "count": "544"
+          },
+          {
+            "item": "24401",
+            "count": "465"
+          },
+          {
+            "item": "33",
+            "count": "422"
+          },
+          {
+            "item": "198",
+            "count": "410"
+          },
+          {
+            "item": "21",
+            "count": "369"
+          },
+          {
+            "item": "49",
+            "count": "366"
+          },
+          {
+            "item": "39",
+            "count": "363"
+          },
+          {
+            "item": "226",
+            "count": "335"
+          },
+          {
+            "item": "12805",
+            "count": "313"
+          },
+          {
+            "item": "69602",
+            "count": "294"
+          },
+          {
+            "item": "74",
+            "count": "244"
+          },
+          {
+            "item": "1502",
+            "count": "227"
+          },
+          {
+            "item": "37",
+            "count": "209"
+          },
+          {
+            "item": "24402",
+            "count": "204"
+          },
+          {
+            "item": "251",
+            "count": "203"
+          },
+          {
+            "item": "54",
+            "count": "203"
+          },
+          {
+            "item": "109",
+            "count": "195"
+          },
+          {
+            "item": "13204",
+            "count": "195"
+          }
+        ],
+        "smallest": "1",
+        "count": "62306",
+        "cardinality": "1297"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "",
+      "position": 16,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "36899",
+        "largest": "5171873",
+        "null": "25407",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "537"
+          },
+          {
+            "item": "1000000",
+            "count": "405"
+          },
+          {
+            "item": "4000000",
+            "count": "213"
+          },
+          {
+            "item": "2000000",
+            "count": "192"
+          },
+          {
+            "item": "5000000",
+            "count": "121"
+          },
+          {
+            "item": "1014387",
+            "count": "23"
+          },
+          {
+            "item": "1009216",
+            "count": "19"
+          },
+          {
+            "item": "1002929",
+            "count": "17"
+          },
+          {
+            "item": "3404803",
+            "count": "16"
+          },
+          {
+            "item": "1084667",
+            "count": "16"
+          },
+          {
+            "item": "1076752",
+            "count": "15"
+          },
+          {
+            "item": "1035251",
+            "count": "15"
+          },
+          {
+            "item": "1015060",
+            "count": "14"
+          },
+          {
+            "item": "1015219",
+            "count": "13"
+          },
+          {
+            "item": "1079043",
+            "count": "13"
+          },
+          {
+            "item": "1035071",
+            "count": "13"
+          },
+          {
+            "item": "1082166",
+            "count": "13"
+          },
+          {
+            "item": "3000441",
+            "count": "13"
+          },
+          {
+            "item": "1035727",
+            "count": "12"
+          },
+          {
+            "item": "1015862",
+            "count": "12"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "62306",
+        "cardinality": "24985"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "",
+      "position": 17,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "36899",
+        "largest": "5080500037",
+        "null": "25407",
+        "top": [
+          {
+            "item": "4163500400",
+            "count": "122"
+          },
+          {
+            "item": "4163500300",
+            "count": "30"
+          },
+          {
+            "item": "3069440080",
+            "count": "28"
+          },
+          {
+            "item": "0",
+            "count": "27"
+          },
+          {
+            "item": "1007830070",
+            "count": "23"
+          },
+          {
+            "item": "1006030001",
+            "count": "19"
+          },
+          {
+            "item": "1005490001",
+            "count": "19"
+          },
+          {
+            "item": "1005650011",
+            "count": "19"
+          },
+          {
+            "item": "1001420025",
+            "count": "18"
+          },
+          {
+            "item": "1002257501",
+            "count": "17"
+          },
+          {
+            "item": "1011110001",
+            "count": "17"
+          },
+          {
+            "item": "3024720350",
+            "count": "16"
+          },
+          {
+            "item": "1010020001",
+            "count": "16"
+          },
+          {
+            "item": "1012040021",
+            "count": "16"
+          },
+          {
+            "item": "1012740011",
+            "count": "15"
+          },
+          {
+            "item": "1000580001",
+            "count": "15"
+          },
+          {
+            "item": "1021670029",
+            "count": "15"
+          },
+          {
+            "item": "1000980001",
+            "count": "15"
+          },
+          {
+            "item": "1018860001",
+            "count": "14"
+          },
+          {
+            "item": "4159337501",
+            "count": "14"
+          }
+        ],
+        "smallest": "0",
+        "count": "62306",
+        "cardinality": "25334"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "",
+      "position": 18,
+      "cached_contents": {
+        "non_null": "42154",
+        "largest": "Yorkville",
+        "null": "20152",
+        "top": [
+          {
+            "item": "Midtown-Midtown South",
+            "count": "1933"
+          },
+          {
+            "item": "SoHo-TriBeCa-Civic Center-Little Italy",
+            "count": "1788"
+          },
+          {
+            "item": "Annadale-Huguenot-Prince's Bay-Eltingville",
+            "count": "1408"
+          },
+          {
+            "item": "Hudson Yards-Chelsea-Flatiron-Union Square",
+            "count": "1188"
+          },
+          {
+            "item": "West Village",
+            "count": "1068"
+          },
+          {
+            "item": "Charleston-Richmond Valley-Tottenville",
+            "count": "1032"
+          },
+          {
+            "item": "Rossville-Woodrow",
+            "count": "895"
+          },
+          {
+            "item": "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+            "count": "807"
+          },
+          {
+            "item": "Battery Park City-Lower Manhattan",
+            "count": "741"
+          },
+          {
+            "item": "New Springville-Bloomfield-Travis",
+            "count": "733"
+          },
+          {
+            "item": "Oakwood-Oakwood Beach",
+            "count": "619"
+          },
+          {
+            "item": "Great Kills",
+            "count": "602"
+          },
+          {
+            "item": "Georgetown-Marine Park-Bergen Beach-Mill Basin",
+            "count": "514"
+          },
+          {
+            "item": "Borough Park",
+            "count": "509"
+          },
+          {
+            "item": "Turtle Bay-East Midtown",
+            "count": "488"
+          },
+          {
+            "item": "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+            "count": "484"
+          },
+          {
+            "item": "Upper East Side-Carnegie Hill",
+            "count": "482"
+          },
+          {
+            "item": "Murray Hill-Kips Bay",
+            "count": "461"
+          },
+          {
+            "item": "Arden Heights",
+            "count": "447"
+          },
+          {
+            "item": "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+            "count": "383"
+          }
+        ],
+        "smallest": "Airport",
+        "count": "62306",
+        "cardinality": "194"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:23.036076"
+}

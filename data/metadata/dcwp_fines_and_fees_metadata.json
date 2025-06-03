@@ -1,0 +1,1199 @@
+{
+  "dataset_id": "2xab-argn",
+  "name": "DCWP Payments Received",
+  "description": "This dataset represents all payments DCWP received from businesses beginning <b>7/1/2023</b>. It includes but is not limited to payments for civil penalties resulting from violations, license application fees, and inspection fees.",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "license",
+    "industry",
+    "business",
+    "individual",
+    "city government",
+    "department of consumer affairs",
+    "dca",
+    "fee",
+    "payment",
+    "refund",
+    "inspection",
+    "civil penalty",
+    "fines"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2019-01-23T18:10:36",
+  "updated_at": "2025-06-02T13:45:45",
+  "row_count": 1748871945,
+  "column_count": 14,
+  "download_count": 5195,
+  "view_count": 3828,
+  "columns": [
+    {
+      "field_name": "payment_sequence_number",
+      "display_name": "Payment Sequence Number",
+      "data_type": "text",
+      "description": "Unique Identifier for each payment on a fee.",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "115589",
+        "largest": "Z9Z9R0",
+        "null": "11190",
+        "top": [
+          {
+            "item": "N7R0T8",
+            "count": "3"
+          },
+          {
+            "item": "W6M3Q6",
+            "count": "3"
+          },
+          {
+            "item": "P3N3G1",
+            "count": "2"
+          },
+          {
+            "item": "F1G1J6",
+            "count": "2"
+          },
+          {
+            "item": "B6W2Q5",
+            "count": "2"
+          },
+          {
+            "item": "Q0C7J6",
+            "count": "2"
+          },
+          {
+            "item": "W8T4R6",
+            "count": "2"
+          },
+          {
+            "item": "N5M3G1",
+            "count": "2"
+          },
+          {
+            "item": "W4C3J7",
+            "count": "2"
+          },
+          {
+            "item": "C1J0M1",
+            "count": "2"
+          },
+          {
+            "item": "R5T4N8",
+            "count": "2"
+          },
+          {
+            "item": "K1Y9J4",
+            "count": "2"
+          },
+          {
+            "item": "L9C0B6",
+            "count": "2"
+          },
+          {
+            "item": "H8C8Q0",
+            "count": "2"
+          },
+          {
+            "item": "X3H2N1",
+            "count": "2"
+          },
+          {
+            "item": "Q6L0J4",
+            "count": "2"
+          },
+          {
+            "item": "H5Q7W7",
+            "count": "2"
+          },
+          {
+            "item": "Q1J8C0",
+            "count": "2"
+          },
+          {
+            "item": "W8P3R3",
+            "count": "2"
+          },
+          {
+            "item": "D2K9F0",
+            "count": "2"
+          }
+        ],
+        "smallest": "B0B0N7",
+        "count": "126779",
+        "cardinality": "114849"
+      }
+    },
+    {
+      "field_name": "record_id",
+      "display_name": "Record ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to record inspections, applications, adjudication cases, etc. For DCWP office tracking purposes.",
+      "width": 208,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "WS000057048-ADJC",
+        "null": "0",
+        "top": [
+          {
+            "item": "187-2022-ADJC",
+            "count": "29"
+          },
+          {
+            "item": "274-2023-MBGO",
+            "count": "26"
+          },
+          {
+            "item": "285-2023-MBGO",
+            "count": "26"
+          },
+          {
+            "item": "24183-2024-ADJC",
+            "count": "25"
+          },
+          {
+            "item": "362-2017-ADJC",
+            "count": "24"
+          },
+          {
+            "item": "35237-2024-ADJC",
+            "count": "24"
+          },
+          {
+            "item": "25414-2024-ADJC",
+            "count": "24"
+          },
+          {
+            "item": "11941-2022-ADJC",
+            "count": "24"
+          },
+          {
+            "item": "9142-2022-ADJC",
+            "count": "24"
+          },
+          {
+            "item": "5772-2022-ADJC",
+            "count": "23"
+          },
+          {
+            "item": "4855-2022-ADJC",
+            "count": "23"
+          },
+          {
+            "item": "15845-2023-ADJC",
+            "count": "22"
+          },
+          {
+            "item": "26012-2024-ADJC",
+            "count": "22"
+          },
+          {
+            "item": "16614-2024-ADJC",
+            "count": "22"
+          },
+          {
+            "item": "14032-2023-ADJC",
+            "count": "21"
+          },
+          {
+            "item": "22496-2024-ADJC",
+            "count": "21"
+          },
+          {
+            "item": "4244-2022-ADJC",
+            "count": "21"
+          },
+          {
+            "item": "14463-2023-ADJC",
+            "count": "21"
+          },
+          {
+            "item": "2800-2023-ADJC",
+            "count": "21"
+          },
+          {
+            "item": "9930-2022-ADJC",
+            "count": "20"
+          }
+        ],
+        "smallest": "00001-2023-AELE",
+        "count": "126779",
+        "cardinality": "78692"
+      }
+    },
+    {
+      "field_name": "record_type",
+      "display_name": "Record Type",
+      "data_type": "text",
+      "description": "Identifies the record type that the fee is being applied towards.",
+      "width": 232,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "dcwp_licenseapplication",
+        "null": "0",
+        "top": [
+          {
+            "item": "dcwp_licenseapplication",
+            "count": "86532"
+          },
+          {
+            "item": "dcwp_adjudication",
+            "count": "26188"
+          },
+          {
+            "item": "dcwp_devicepayment",
+            "count": "11106"
+          },
+          {
+            "item": "dcwp_amendmentrequest",
+            "count": "2953"
+          }
+        ],
+        "smallest": "dcwp_adjudication",
+        "count": "126779",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "inspection",
+      "display_name": "Inspection #",
+      "data_type": "text",
+      "description": "The number of the inspection that incurred the device fee.",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "11054",
+        "largest": "INS-000856026",
+        "null": "115725",
+        "top": [
+          {
+            "item": "INS-000741427",
+            "count": "10"
+          },
+          {
+            "item": "INS-000808478",
+            "count": "10"
+          },
+          {
+            "item": "INS-000656498",
+            "count": "9"
+          },
+          {
+            "item": "INS-000762447",
+            "count": "9"
+          },
+          {
+            "item": "INS-000784522",
+            "count": "9"
+          },
+          {
+            "item": "INS-000842276",
+            "count": "9"
+          },
+          {
+            "item": "INS-000660598",
+            "count": "7"
+          },
+          {
+            "item": "INS-000833998",
+            "count": "7"
+          },
+          {
+            "item": "INS-000497698",
+            "count": "7"
+          },
+          {
+            "item": "INS-000627416",
+            "count": "6"
+          },
+          {
+            "item": "INS-000684028",
+            "count": "6"
+          },
+          {
+            "item": "INS-000767854",
+            "count": "6"
+          },
+          {
+            "item": "INS-000771886",
+            "count": "6"
+          },
+          {
+            "item": "INS-000602199",
+            "count": "6"
+          },
+          {
+            "item": "INS-000644133",
+            "count": "6"
+          },
+          {
+            "item": "INS-000643967",
+            "count": "6"
+          },
+          {
+            "item": "INS-000825916",
+            "count": "6"
+          },
+          {
+            "item": "INS-000658343",
+            "count": "6"
+          },
+          {
+            "item": "INS-000736593",
+            "count": "6"
+          },
+          {
+            "item": "INS-000820035",
+            "count": "6"
+          }
+        ],
+        "smallest": "INS-000003631",
+        "count": "126779",
+        "cardinality": "9253"
+      }
+    },
+    {
+      "field_name": "fee_sequence_number",
+      "display_name": "Fee Sequence Number",
+      "data_type": "number",
+      "description": "Unique system generated identification number for the fee item.",
+      "position": 5,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "3921242",
+        "null": "0",
+        "top": [
+          {
+            "item": "3645342",
+            "count": "23"
+          },
+          {
+            "item": "3149923",
+            "count": "17"
+          },
+          {
+            "item": "3379621",
+            "count": "17"
+          },
+          {
+            "item": "2490585",
+            "count": "17"
+          },
+          {
+            "item": "2661277",
+            "count": "17"
+          },
+          {
+            "item": "3632599",
+            "count": "16"
+          },
+          {
+            "item": "2562360",
+            "count": "16"
+          },
+          {
+            "item": "3263950",
+            "count": "16"
+          },
+          {
+            "item": "3655526",
+            "count": "16"
+          },
+          {
+            "item": "2968039",
+            "count": "15"
+          },
+          {
+            "item": "190611",
+            "count": "15"
+          },
+          {
+            "item": "3691439",
+            "count": "15"
+          },
+          {
+            "item": "207307",
+            "count": "15"
+          },
+          {
+            "item": "3719832",
+            "count": "14"
+          },
+          {
+            "item": "3281019",
+            "count": "14"
+          },
+          {
+            "item": "3409604",
+            "count": "14"
+          },
+          {
+            "item": "3586475",
+            "count": "13"
+          },
+          {
+            "item": "3328809",
+            "count": "13"
+          },
+          {
+            "item": "3563829",
+            "count": "13"
+          },
+          {
+            "item": "2558212",
+            "count": "13"
+          }
+        ],
+        "smallest": "11607",
+        "count": "126779",
+        "cardinality": "115851"
+      }
+    },
+    {
+      "field_name": "fee_code_name",
+      "display_name": "Fee Code Name",
+      "data_type": "text",
+      "description": "Description of the fee item.\n",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "WS - W&H Non-Hearable Violation",
+        "null": "0",
+        "top": [
+          {
+            "item": "Trust Fund Enrollment Fee",
+            "count": "12902"
+          },
+          {
+            "item": "Home Improvement Contractor License Renewal Fee",
+            "count": "11722"
+          },
+          {
+            "item": "OL - Other Violation",
+            "count": "7133"
+          },
+          {
+            "item": "SCALE TO 33 LBS",
+            "count": "6766"
+          },
+          {
+            "item": "Temporary Street Fair Vendor License Fee",
+            "count": "3963"
+          },
+          {
+            "item": "Tobacco Retail Dealer Renewal Fee",
+            "count": "3818"
+          },
+          {
+            "item": "TP - Tobacco Fine Violation",
+            "count": "3421"
+          },
+          {
+            "item": "Home Improvement Contractor License Fee",
+            "count": "3288"
+          },
+          {
+            "item": "Home Improvement Contractor Exam Fee",
+            "count": "3021"
+          },
+          {
+            "item": "LL - License Violation",
+            "count": "2886"
+          },
+          {
+            "item": "PL - Padlock Violation",
+            "count": "2825"
+          },
+          {
+            "item": "CL - Consumer Law Violation",
+            "count": "2721"
+          },
+          {
+            "item": "License Processing Fee",
+            "count": "2650"
+          },
+          {
+            "item": "Sightseeing Guide Renewal Fee",
+            "count": "2610"
+          },
+          {
+            "item": "Secondhand Dealer General License Renewal Fee",
+            "count": "2085"
+          },
+          {
+            "item": "TS - State Fines (Tobacco)",
+            "count": "2063"
+          },
+          {
+            "item": "Tow Truck Driver License Renewal Fee",
+            "count": "2053"
+          },
+          {
+            "item": "WM - W&M Violation",
+            "count": "2042"
+          },
+          {
+            "item": "SS - State Surcharge (Tobacco)",
+            "count": "1950"
+          },
+          {
+            "item": "Electronic Cigarette Dealer Renewal",
+            "count": "1888"
+          }
+        ],
+        "smallest": "Additional License Fee for Las Vegas Games (GC-7)",
+        "count": "126779",
+        "cardinality": "206"
+      }
+    },
+    {
+      "field_name": "fee_status",
+      "display_name": "Fee Status",
+      "data_type": "text",
+      "description": "The status of the fee.\n",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "Void",
+        "null": "0",
+        "top": [
+          {
+            "item": "Invoiced",
+            "count": "114206"
+          },
+          {
+            "item": "Credited",
+            "count": "11853"
+          },
+          {
+            "item": "Void",
+            "count": "717"
+          },
+          {
+            "item": "New",
+            "count": "3"
+          }
+        ],
+        "smallest": "Credited",
+        "count": "126779",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "payment_date",
+      "display_name": "Payment Date",
+      "data_type": "calendar_date",
+      "description": "Date when the payment was applied to the record.",
+      "width": 244,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "2025-05-24T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2025-02-27T00:00:00.000",
+            "count": "791"
+          },
+          {
+            "item": "2025-02-24T00:00:00.000",
+            "count": "695"
+          },
+          {
+            "item": "2024-12-20T00:00:00.000",
+            "count": "667"
+          },
+          {
+            "item": "2025-01-28T00:00:00.000",
+            "count": "655"
+          },
+          {
+            "item": "2025-01-15T00:00:00.000",
+            "count": "645"
+          },
+          {
+            "item": "2025-01-21T00:00:00.000",
+            "count": "641"
+          },
+          {
+            "item": "2025-01-07T00:00:00.000",
+            "count": "641"
+          },
+          {
+            "item": "2025-01-08T00:00:00.000",
+            "count": "635"
+          },
+          {
+            "item": "2025-02-04T00:00:00.000",
+            "count": "627"
+          },
+          {
+            "item": "2025-01-29T00:00:00.000",
+            "count": "626"
+          },
+          {
+            "item": "2025-02-26T00:00:00.000",
+            "count": "617"
+          },
+          {
+            "item": "2025-01-06T00:00:00.000",
+            "count": "599"
+          },
+          {
+            "item": "2025-02-25T00:00:00.000",
+            "count": "595"
+          },
+          {
+            "item": "2025-02-19T00:00:00.000",
+            "count": "584"
+          },
+          {
+            "item": "2025-02-18T00:00:00.000",
+            "count": "562"
+          },
+          {
+            "item": "2025-01-27T00:00:00.000",
+            "count": "559"
+          },
+          {
+            "item": "2025-03-18T00:00:00.000",
+            "count": "553"
+          },
+          {
+            "item": "2025-03-26T00:00:00.000",
+            "count": "550"
+          },
+          {
+            "item": "2025-02-20T00:00:00.000",
+            "count": "542"
+          },
+          {
+            "item": "2024-12-19T00:00:00.000",
+            "count": "539"
+          }
+        ],
+        "smallest": "2023-07-01T00:00:00.000",
+        "count": "126779",
+        "cardinality": "693"
+      }
+    },
+    {
+      "field_name": "fee_amount",
+      "display_name": "Fee Amount",
+      "data_type": "number",
+      "description": "The total amount of the fee.",
+      "format": "currency",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "3072550",
+        "null": "0",
+        "top": [
+          {
+            "item": "200",
+            "count": "21864"
+          },
+          {
+            "item": "100",
+            "count": "19653"
+          },
+          {
+            "item": "50",
+            "count": "10959"
+          },
+          {
+            "item": "20",
+            "count": "7266"
+          },
+          {
+            "item": "340",
+            "count": "6738"
+          },
+          {
+            "item": "150",
+            "count": "5315"
+          },
+          {
+            "item": "500",
+            "count": "3342"
+          },
+          {
+            "item": "10",
+            "count": "3236"
+          },
+          {
+            "item": "250",
+            "count": "3168"
+          },
+          {
+            "item": "40",
+            "count": "2759"
+          },
+          {
+            "item": "25",
+            "count": "1977"
+          },
+          {
+            "item": "300",
+            "count": "1928"
+          },
+          {
+            "item": "600",
+            "count": "1919"
+          },
+          {
+            "item": "1000",
+            "count": "1721"
+          },
+          {
+            "item": "75",
+            "count": "1666"
+          },
+          {
+            "item": "35",
+            "count": "1637"
+          },
+          {
+            "item": "175",
+            "count": "1600"
+          },
+          {
+            "item": "15",
+            "count": "1446"
+          },
+          {
+            "item": "110",
+            "count": "1382"
+          },
+          {
+            "item": "60",
+            "count": "1077"
+          }
+        ],
+        "smallest": "0",
+        "count": "126779",
+        "cardinality": "1613"
+      }
+    },
+    {
+      "field_name": "payment_type",
+      "display_name": "Payment Type",
+      "data_type": "text",
+      "description": "The type of transaction indicating whether payment was received, refunded, or voided.\n",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "Void Payment Applied",
+        "null": "0",
+        "top": [
+          {
+            "item": "Payment Applied",
+            "count": "117824"
+          },
+          {
+            "item": "Void Payment Applied",
+            "count": "8955"
+          }
+        ],
+        "smallest": "Payment Applied",
+        "count": "126779",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "payment_amount",
+      "display_name": "Payment Amount",
+      "data_type": "number",
+      "description": "Dollar amount of the payment being applied towards the fee.",
+      "format": "currency",
+      "width": 268,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "3072550",
+        "null": "0",
+        "top": [
+          {
+            "item": "200",
+            "count": "21353"
+          },
+          {
+            "item": "100",
+            "count": "18898"
+          },
+          {
+            "item": "50",
+            "count": "10246"
+          },
+          {
+            "item": "20",
+            "count": "6925"
+          },
+          {
+            "item": "340",
+            "count": "6365"
+          },
+          {
+            "item": "150",
+            "count": "4987"
+          },
+          {
+            "item": "500",
+            "count": "3351"
+          },
+          {
+            "item": "250",
+            "count": "3040"
+          },
+          {
+            "item": "10",
+            "count": "2962"
+          },
+          {
+            "item": "40",
+            "count": "2618"
+          },
+          {
+            "item": "300",
+            "count": "1831"
+          },
+          {
+            "item": "25",
+            "count": "1814"
+          },
+          {
+            "item": "600",
+            "count": "1788"
+          },
+          {
+            "item": "1000",
+            "count": "1744"
+          },
+          {
+            "item": "75",
+            "count": "1542"
+          },
+          {
+            "item": "175",
+            "count": "1531"
+          },
+          {
+            "item": "35",
+            "count": "1510"
+          },
+          {
+            "item": "15",
+            "count": "1310"
+          },
+          {
+            "item": "110",
+            "count": "949"
+          },
+          {
+            "item": "-100",
+            "count": "853"
+          }
+        ],
+        "smallest": "-100000",
+        "count": "126779",
+        "cardinality": "2272"
+      }
+    },
+    {
+      "field_name": "business_unique_id",
+      "display_name": "Business Unique ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to track unique businesses across its systems.\n",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "126779",
+        "largest": "BA-999865-2022",
+        "null": "0",
+        "top": [
+          {
+            "item": "BA-1545133-2022",
+            "count": "155"
+          },
+          {
+            "item": "BA-1254701-2022",
+            "count": "116"
+          },
+          {
+            "item": "BA-1353670-2022",
+            "count": "110"
+          },
+          {
+            "item": "BA-1105443-2022",
+            "count": "108"
+          },
+          {
+            "item": "BA-1507902-2022",
+            "count": "106"
+          },
+          {
+            "item": "BA-1489986-2022",
+            "count": "95"
+          },
+          {
+            "item": "BA-1042126-2022",
+            "count": "95"
+          },
+          {
+            "item": "BA-1413369-2022",
+            "count": "93"
+          },
+          {
+            "item": "BA-980337-2022",
+            "count": "92"
+          },
+          {
+            "item": "BA-1422612-2022",
+            "count": "91"
+          },
+          {
+            "item": "BA-1398447-2022",
+            "count": "90"
+          },
+          {
+            "item": "BA-1451225-2022",
+            "count": "90"
+          },
+          {
+            "item": "BA-1194056-2022",
+            "count": "83"
+          },
+          {
+            "item": "BA-1387208-2022",
+            "count": "78"
+          },
+          {
+            "item": "BA-1267722-2022",
+            "count": "74"
+          },
+          {
+            "item": "BA-1557442-2022",
+            "count": "71"
+          },
+          {
+            "item": "BA-1540941-2022",
+            "count": "71"
+          },
+          {
+            "item": "BA-936680-2022",
+            "count": "70"
+          },
+          {
+            "item": "BA-1443593-2022",
+            "count": "69"
+          },
+          {
+            "item": "BA-1070013-2022",
+            "count": "61"
+          }
+        ],
+        "smallest": "BA-1000304-2022",
+        "count": "126779",
+        "cardinality": "54711"
+      }
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "The legal business name as filed with the New York State Secretary of State or County Clerk.",
+      "width": 256,
+      "position": 13,
+      "cached_contents": {
+        "non_null": "126778",
+        "largest": "Z&ZS INC.",
+        "null": "1",
+        "top": [
+          {
+            "item": "SP PLUS CORPORATION",
+            "count": "508"
+          },
+          {
+            "item": "SPEEDWAY LLC",
+            "count": "327"
+          },
+          {
+            "item": "BOLLA OPERATING CORP.",
+            "count": "318"
+          },
+          {
+            "item": "SPRAGUE OPERATING RESOURCES LLC",
+            "count": "155"
+          },
+          {
+            "item": "T-MOBILE NORTHEAST LLC",
+            "count": "135"
+          },
+          {
+            "item": "AT&T MOBILITY SUPPLY, LLC",
+            "count": "131"
+          },
+          {
+            "item": "FOREIGN SMOKERS CORPORATION",
+            "count": "116"
+          },
+          {
+            "item": "SOCCER WORLD LEAGUE, INC.",
+            "count": "110"
+          },
+          {
+            "item": "APPROVED OIL CO OF BROOKLYN INC",
+            "count": "108"
+          },
+          {
+            "item": "SOCCER WORLD LEAGUE MEN'S AUXILIARY",
+            "count": "106"
+          },
+          {
+            "item": "OFFICE SUPERSTORE EAST LLC",
+            "count": "103"
+          },
+          {
+            "item": "SPECTRUM NEW YORK METRO LLC",
+            "count": "102"
+          },
+          {
+            "item": "LAZ PARKING NEW YORK/NEW JERSEY, LLC",
+            "count": "102"
+          },
+          {
+            "item": "ecoATM, LLC",
+            "count": "98"
+          },
+          {
+            "item": "SOCIETY OF ST PAUL THE APOSTLE",
+            "count": "95"
+          },
+          {
+            "item": "CHURCH OF THE HOLY SPIRIT AND OF OUR LADY OF CHARITY",
+            "count": "95"
+          },
+          {
+            "item": "ROMAN CATHOLIC CHURCH OF SAINT ADALBERT AND SAINT ROCH",
+            "count": "93"
+          },
+          {
+            "item": "ASSOCIATION OF THE HOLY SPIRIT AND OF OUR LADY OF CHARITY",
+            "count": "92"
+          },
+          {
+            "item": "PETRO INC.",
+            "count": "91"
+          },
+          {
+            "item": "SAINT CHARLES CHURCH",
+            "count": "90"
+          }
+        ],
+        "smallest": "007 NEW CENTURY 99 & UP INC.",
+        "count": "126779",
+        "cardinality": "50595"
+      }
+    },
+    {
+      "field_name": "dba_trade_name",
+      "display_name": "DBA/Trade Name",
+      "data_type": "text",
+      "description": "If applicable, the Doing-Business-As (DBA), or trade name of the business.\n",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "20897",
+        "largest": "ZUCKER\u2019S BAGELS FULTON ST.",
+        "null": "105882",
+        "top": [
+          {
+            "item": "METROPOLIS",
+            "count": "447"
+          },
+          {
+            "item": "BP",
+            "count": "213"
+          },
+          {
+            "item": "AKA Icon Parking LLC",
+            "count": "211"
+          },
+          {
+            "item": "KEY FOOD",
+            "count": "134"
+          },
+          {
+            "item": "AT&T MOBILITY",
+            "count": "98"
+          },
+          {
+            "item": "PETRO INC",
+            "count": "91"
+          },
+          {
+            "item": "MOBIL",
+            "count": "88"
+          },
+          {
+            "item": "STAPLES THE OFFICE SUPERSTORE",
+            "count": "87"
+          },
+          {
+            "item": "AKA  Icon Parking LLC",
+            "count": "86"
+          },
+          {
+            "item": "SHELL",
+            "count": "73"
+          },
+          {
+            "item": "Icon Parking LLC",
+            "count": "70"
+          },
+          {
+            "item": "ecoATM",
+            "count": "64"
+          },
+          {
+            "item": "T-Mobile 4110",
+            "count": "61"
+          },
+          {
+            "item": "C-TOWN",
+            "count": "56"
+          },
+          {
+            "item": "T#4505",
+            "count": "55"
+          },
+          {
+            "item": "C-TOWN SUPERMARKET",
+            "count": "55"
+          },
+          {
+            "item": "TRADE FAIR",
+            "count": "53"
+          },
+          {
+            "item": "#144",
+            "count": "49"
+          },
+          {
+            "item": "GEM PAWNBROKERS",
+            "count": "45"
+          },
+          {
+            "item": "Stop & Shop Store # 2513",
+            "count": "43"
+          }
+        ],
+        "smallest": "`",
+        "count": "126779",
+        "cardinality": "6734"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.150879"
+}

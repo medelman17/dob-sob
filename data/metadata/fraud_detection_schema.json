@@ -1,0 +1,30 @@
+{
+  "license_info": {
+    "bin": [
+      {
+        "field_name": "bin",
+        "display_name": "BIN",
+        "data_type": "number",
+        "description": "Building Identification Number\n"
+      }
+    ]
+  },
+  "property_data": {
+    "owner": [
+      {
+        "field_name": "owner",
+        "display_name": "OWNER",
+        "data_type": "text",
+        "description": ""
+      }
+    ],
+    "bin": [
+      {
+        "field_name": "bin",
+        "display_name": "BIN",
+        "data_type": "number",
+        "description": ""
+      }
+    ]
+  }
+}

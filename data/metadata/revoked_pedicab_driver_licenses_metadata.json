@@ -1,0 +1,85 @@
+{
+  "dataset_id": "edph-qi5c",
+  "name": "Revoked Pedicab Driver Licenses",
+  "description": "This dataset features DCA licenses that have been revoked.</br></p>\r\n\r\nLicenses can be suspended or revoked for several reasons including, an order by the Office of Administrative Trials and Hearings; non-payment of fines and/or fees; or not maintaining a license requirement such as a current driver\u2019s license or insurance coverage.\r\n\r\nLicenses are typically surrendered when a business closes, changes ownership, changes location, changes business name, or discontinues the activity that required the license.</br>\r\n\r\nLicenses can be reinstated based on appeal of a revocation, expiration of a suspension, or new application after surrendering it.</br>\r\n\r\nEach record in the dataset represents a time that a license was revoked, suspended, surrendered, or reinstated so a license can appear more than once.\r\n\r\nThis dataset can be linked to other DCA datasets using the DCA License Number column. This dataset cannot be linked to an administrative hearing decision or provide a specific reason for the change in status.",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "license",
+    "revoked",
+    "suspended",
+    "surrendered",
+    "reinstated",
+    "business",
+    "individual",
+    "category",
+    "adjudication"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2019-07-22T21:23:57",
+  "updated_at": "2023-10-11T13:44:49",
+  "row_count": 1697031889,
+  "column_count": 7,
+  "download_count": 2,
+  "view_count": 59,
+  "columns": [
+    {
+      "field_name": "dca_license_number",
+      "display_name": "DCA License Number",
+      "data_type": "text",
+      "description": "An identification number issued to businesses/individuals to operate legally for the duration of their license term or until the license is revoked.",
+      "width": 100,
+      "position": 1
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "The legal business name as filed with the New York State Secretary of State or County Clerk or, if an Individual license, the individual's first name and last name.",
+      "width": 100,
+      "position": 2
+    },
+    {
+      "field_name": "business_name_2",
+      "display_name": "Business Name 2",
+      "data_type": "text",
+      "description": "If applicable, the Doing-Business-As (DBA) or trade name.",
+      "width": 100,
+      "position": 3
+    },
+    {
+      "field_name": "industry",
+      "display_name": "Industry",
+      "data_type": "text",
+      "description": "The category of business activity that requires a DCA license. ",
+      "width": 100,
+      "position": 4
+    },
+    {
+      "field_name": "event_type",
+      "display_name": "Event Type",
+      "data_type": "text",
+      "description": "Indicates if the license was suspended, revoked, surrendered, or reinstated; Suspended Revoked Surrendered Reinstated",
+      "width": 100,
+      "position": 5
+    },
+    {
+      "field_name": "event_date",
+      "display_name": "Event Date",
+      "data_type": "calendar_date",
+      "description": "Date when the license was suspended, revoked, surrendered, or reinstated.",
+      "width": 100,
+      "position": 6
+    },
+    {
+      "field_name": "status",
+      "display_name": "Status",
+      "data_type": "text",
+      "description": "The status of the license as of the data extract date; Active/Inactive",
+      "width": 100,
+      "position": 7
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.898489"
+}

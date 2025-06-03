@@ -1,0 +1,1246 @@
+{
+  "dataset_id": "n84m-kx4j",
+  "name": "Licensees and Registrants Fleet Information",
+  "description": "Licensees and Registrants Fleet Information dataset contains information about active vehicles of approved BIC licensees and registrants. This data is partially collected from the application submitted to the commission by licensees and registrants. The majority of data points are collected from licensees and registrants via the Vehicle Management Portal. Business Integrity Commission maintains this dataset, updating it quarterly. Each row of data contains information about an active vehicle registered at BIC, including BIC plate number, vehicle year, vehicle model, vehicle make, engine year and so on.",
+  "agency": "Business Integrity Commission (BIC)",
+  "category": "Business",
+  "tags": [],
+  "update_frequency": "0",
+  "attribution": "Business Integrity Commission (BIC)",
+  "created_at": "2018-12-26T18:14:29",
+  "updated_at": "2025-06-03T19:02:14",
+  "row_count": 1748977334,
+  "column_count": 18,
+  "download_count": 2439,
+  "view_count": 3543,
+  "columns": [
+    {
+      "field_name": "account_name",
+      "display_name": "ACCOUNT NAME",
+      "data_type": "text",
+      "description": "",
+      "position": 1,
+      "cached_contents": {
+        "largest": "Z TECH BUILDING SOLUTIONS INC.",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "ACTION CARTING ENVIRONMENTAL SERVICES INC.",
+            "count": "269"
+          },
+          {
+            "item": "ROYAL WASTE SERVICES INC.",
+            "count": "151"
+          },
+          {
+            "item": "WASTE CONNECTIONS OF NEW YORK, INC.",
+            "count": "108"
+          },
+          {
+            "item": "STERICYCLE, INC.",
+            "count": "97"
+          },
+          {
+            "item": "MUNOZ TRUCKING CORP.",
+            "count": "72"
+          },
+          {
+            "item": "D & A CONTRACTING LLC",
+            "count": "66"
+          },
+          {
+            "item": "COGENT WASTE SOLUTIONS LLC",
+            "count": "66"
+          },
+          {
+            "item": "CARDELLA TRUCKING CO. INC.",
+            "count": "63"
+          },
+          {
+            "item": "PHANTOM CARTING INC.",
+            "count": "60"
+          },
+          {
+            "item": "MRT BWR CORP",
+            "count": "60"
+          },
+          {
+            "item": "C. FRANCIS CONSTRUCTION CORP.",
+            "count": "57"
+          },
+          {
+            "item": "DI TRUCKING LLC",
+            "count": "57"
+          },
+          {
+            "item": "DARLING INGREDIENTS INC.",
+            "count": "52"
+          },
+          {
+            "item": "CUENCA CORONEL TRUCKING INC.",
+            "count": "50"
+          },
+          {
+            "item": "MIDNIGHT TRUCKING LLC",
+            "count": "48"
+          },
+          {
+            "item": "NATIONAL WATER MAIN CLEANING COMPANY",
+            "count": "45"
+          },
+          {
+            "item": "VALIANT CONTRACTING LLC",
+            "count": "40"
+          },
+          {
+            "item": "CENTURY WASTE SERVICES L.L.C.",
+            "count": "40"
+          },
+          {
+            "item": "CONSOLIDATED EDISON COMPANY OF NEW YORK INC.",
+            "count": "38"
+          },
+          {
+            "item": "BEST SUPER CLEANING LLC",
+            "count": "37"
+          }
+        ],
+        "smallest": "1-800 MR. RUBBISH INC",
+        "count": "7072",
+        "cardinality": "1667"
+      }
+    },
+    {
+      "field_name": "active",
+      "display_name": "ACTIVE",
+      "data_type": "text",
+      "description": "",
+      "position": 2,
+      "cached_contents": {
+        "largest": "True",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "True",
+            "count": "7072"
+          }
+        ],
+        "smallest": "True",
+        "count": "7072",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "vehicle_information_complete",
+      "display_name": "VEHICLE INFORMATION COMPLETE",
+      "data_type": "text",
+      "description": "",
+      "position": 3,
+      "cached_contents": {
+        "largest": "True",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "True",
+            "count": "7012"
+          },
+          {
+            "item": "False",
+            "count": "60"
+          }
+        ],
+        "smallest": "False",
+        "count": "7072",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "bic_number",
+      "display_name": "BIC NUMBER",
+      "data_type": "text",
+      "description": "",
+      "position": 4,
+      "cached_contents": {
+        "largest": "TS-51 , BIC-649",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "BIC-1181",
+            "count": "269"
+          },
+          {
+            "item": "BIC-1240",
+            "count": "151"
+          },
+          {
+            "item": "BIC-1059 , TS-94 , TS-95 , TS-123 , TS-124",
+            "count": "108"
+          },
+          {
+            "item": "BIC-4236 , BIC-383",
+            "count": "97"
+          },
+          {
+            "item": "BIC-2085",
+            "count": "72"
+          },
+          {
+            "item": "BIC-485097",
+            "count": "66"
+          },
+          {
+            "item": "BIC-501970",
+            "count": "66"
+          },
+          {
+            "item": "BIC-581",
+            "count": "63"
+          },
+          {
+            "item": "BIC-4228",
+            "count": "60"
+          },
+          {
+            "item": "BIC-510737",
+            "count": "60"
+          },
+          {
+            "item": "BIC-494302 , BIC-3921",
+            "count": "57"
+          },
+          {
+            "item": "BIC-1012 , BIC-1799",
+            "count": "57"
+          },
+          {
+            "item": "BIC-1435",
+            "count": "52"
+          },
+          {
+            "item": "BIC-2113",
+            "count": "50"
+          },
+          {
+            "item": "BIC-494084 , BIC-504339",
+            "count": "48"
+          },
+          {
+            "item": "BIC-468",
+            "count": "45"
+          },
+          {
+            "item": "BIC-494010 , BIC-509396",
+            "count": "40"
+          },
+          {
+            "item": "BIC-1323",
+            "count": "40"
+          },
+          {
+            "item": "BIC-539 , TS-90 , TS-91 , TS-92 , TS-168",
+            "count": "38"
+          },
+          {
+            "item": "BIC-499486",
+            "count": "37"
+          }
+        ],
+        "smallest": "BIC-10",
+        "count": "7072",
+        "cardinality": "1667"
+      }
+    },
+    {
+      "field_name": "bic_plate_number",
+      "display_name": "BIC PLATE NUMBER",
+      "data_type": "text",
+      "description": "",
+      "position": 5,
+      "cached_contents": {
+        "largest": "R-9993",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "R12967",
+            "count": "1"
+          },
+          {
+            "item": "L14335",
+            "count": "1"
+          },
+          {
+            "item": "L14479",
+            "count": "1"
+          },
+          {
+            "item": "R12579",
+            "count": "1"
+          },
+          {
+            "item": "R04118",
+            "count": "1"
+          },
+          {
+            "item": "L12033",
+            "count": "1"
+          },
+          {
+            "item": "R09398",
+            "count": "1"
+          },
+          {
+            "item": "R08552",
+            "count": "1"
+          },
+          {
+            "item": "R12511",
+            "count": "1"
+          },
+          {
+            "item": "R06853",
+            "count": "1"
+          },
+          {
+            "item": "L13857",
+            "count": "1"
+          },
+          {
+            "item": "R09665",
+            "count": "1"
+          },
+          {
+            "item": "R11488",
+            "count": "1"
+          },
+          {
+            "item": "L13946",
+            "count": "1"
+          },
+          {
+            "item": "R09062",
+            "count": "1"
+          },
+          {
+            "item": "R11437",
+            "count": "1"
+          },
+          {
+            "item": "L14228",
+            "count": "1"
+          },
+          {
+            "item": "L14453",
+            "count": "1"
+          },
+          {
+            "item": "L10564",
+            "count": "1"
+          },
+          {
+            "item": "R07179",
+            "count": "1"
+          }
+        ],
+        "smallest": "L10007",
+        "count": "7072",
+        "cardinality": "7072"
+      }
+    },
+    {
+      "field_name": "vehicle_body_type",
+      "display_name": "VEHICLE BODY TYPE",
+      "data_type": "text",
+      "description": "",
+      "position": 6,
+      "cached_contents": {
+        "largest": "Van",
+        "non_null": "7049",
+        "null": "23",
+        "top": [
+          {
+            "item": "Dump Truck",
+            "count": "3205"
+          },
+          {
+            "item": "Truck",
+            "count": "1169"
+          },
+          {
+            "item": "Rear End Loader",
+            "count": "585"
+          },
+          {
+            "item": "Roll-off Truck",
+            "count": "550"
+          },
+          {
+            "item": "Tractor",
+            "count": "363"
+          },
+          {
+            "item": "Van",
+            "count": "254"
+          },
+          {
+            "item": "Pickup",
+            "count": "244"
+          },
+          {
+            "item": "Box Truck",
+            "count": "199"
+          },
+          {
+            "item": "Delivery",
+            "count": "168"
+          },
+          {
+            "item": "Other",
+            "count": "136"
+          },
+          {
+            "item": "Tank",
+            "count": "117"
+          },
+          {
+            "item": "Flat Bed",
+            "count": "23"
+          },
+          {
+            "item": "Tow Truck",
+            "count": "10"
+          },
+          {
+            "item": "Suburban",
+            "count": "9"
+          },
+          {
+            "item": "Front End Loader",
+            "count": "7"
+          },
+          {
+            "item": "Trailer",
+            "count": "2"
+          },
+          {
+            "item": "Switch",
+            "count": "2"
+          },
+          {
+            "item": "Side Loader",
+            "count": "2"
+          },
+          {
+            "item": "Taxi",
+            "count": "1"
+          },
+          {
+            "item": "Sedan",
+            "count": "1"
+          }
+        ],
+        "smallest": "Box Truck",
+        "count": "7072",
+        "cardinality": "22"
+      }
+    },
+    {
+      "field_name": "vehicle_make",
+      "display_name": "VEHICLE MAKE",
+      "data_type": "text",
+      "description": "",
+      "position": 7,
+      "cached_contents": {
+        "largest": "White-GMC-Volvo",
+        "non_null": "7068",
+        "null": "4",
+        "top": [
+          {
+            "item": "Mack",
+            "count": "1462"
+          },
+          {
+            "item": "Kenworth",
+            "count": "1440"
+          },
+          {
+            "item": "Ford",
+            "count": "912"
+          },
+          {
+            "item": "Peterbilt",
+            "count": "876"
+          },
+          {
+            "item": "Isuzu",
+            "count": "493"
+          },
+          {
+            "item": "Freightliner",
+            "count": "414"
+          },
+          {
+            "item": "Hino",
+            "count": "297"
+          },
+          {
+            "item": "International",
+            "count": "280"
+          },
+          {
+            "item": "Chevrolet",
+            "count": "149"
+          },
+          {
+            "item": "Volvo",
+            "count": "129"
+          },
+          {
+            "item": "Western Star",
+            "count": "118"
+          },
+          {
+            "item": "GMC",
+            "count": "106"
+          },
+          {
+            "item": "Mitsubishi",
+            "count": "92"
+          },
+          {
+            "item": "Other",
+            "count": "71"
+          },
+          {
+            "item": "Crane Carrier",
+            "count": "47"
+          },
+          {
+            "item": "Autocar",
+            "count": "43"
+          },
+          {
+            "item": "RAM",
+            "count": "30"
+          },
+          {
+            "item": "Mercedes Benz",
+            "count": "26"
+          },
+          {
+            "item": "Nissan-UD",
+            "count": "25"
+          },
+          {
+            "item": "Dodge",
+            "count": "22"
+          }
+        ],
+        "smallest": "Audi",
+        "count": "7072",
+        "cardinality": "32"
+      }
+    },
+    {
+      "field_name": "vehicle_model",
+      "display_name": "VEHICLE MODEL",
+      "data_type": "text",
+      "description": "",
+      "position": 8,
+      "cached_contents": {
+        "largest": "Y113064S",
+        "non_null": "7023",
+        "null": "49",
+        "top": [
+          {
+            "item": "T880",
+            "count": "776"
+          },
+          {
+            "item": "567",
+            "count": "350"
+          },
+          {
+            "item": "GU713",
+            "count": "163"
+          },
+          {
+            "item": "T800",
+            "count": "150"
+          },
+          {
+            "item": "F550",
+            "count": "145"
+          },
+          {
+            "item": "GR64F",
+            "count": "134"
+          },
+          {
+            "item": "NRR",
+            "count": "117"
+          },
+          {
+            "item": "520",
+            "count": "114"
+          },
+          {
+            "item": "NPR",
+            "count": "114"
+          },
+          {
+            "item": "389",
+            "count": "111"
+          },
+          {
+            "item": "F550 SUPER DUTY",
+            "count": "85"
+          },
+          {
+            "item": "M2",
+            "count": "80"
+          },
+          {
+            "item": "t880",
+            "count": "63"
+          },
+          {
+            "item": "700 GU",
+            "count": "63"
+          },
+          {
+            "item": "4300",
+            "count": "58"
+          },
+          {
+            "item": "F350 SUPER DUTY",
+            "count": "58"
+          },
+          {
+            "item": "195",
+            "count": "57"
+          },
+          {
+            "item": "LET2-46",
+            "count": "53"
+          },
+          {
+            "item": "M2106",
+            "count": "52"
+          },
+          {
+            "item": "Granite",
+            "count": "51"
+          }
+        ],
+        "smallest": "10538",
+        "count": "7072",
+        "cardinality": "1281"
+      }
+    },
+    {
+      "field_name": "vehicle_year",
+      "display_name": "VEHICLE YEAR",
+      "data_type": "number",
+      "description": "",
+      "position": 9,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "2026",
+        "non_null": "7070",
+        "null": "2",
+        "top": [
+          {
+            "item": "2020",
+            "count": "704"
+          },
+          {
+            "item": "2019",
+            "count": "664"
+          },
+          {
+            "item": "2018",
+            "count": "454"
+          },
+          {
+            "item": "2023",
+            "count": "440"
+          },
+          {
+            "item": "2025",
+            "count": "425"
+          },
+          {
+            "item": "2016",
+            "count": "419"
+          },
+          {
+            "item": "2017",
+            "count": "400"
+          },
+          {
+            "item": "2024",
+            "count": "370"
+          },
+          {
+            "item": "2021",
+            "count": "333"
+          },
+          {
+            "item": "2015",
+            "count": "314"
+          },
+          {
+            "item": "2022",
+            "count": "310"
+          },
+          {
+            "item": "2014",
+            "count": "251"
+          },
+          {
+            "item": "2013",
+            "count": "237"
+          },
+          {
+            "item": "2012",
+            "count": "235"
+          },
+          {
+            "item": "2008",
+            "count": "200"
+          },
+          {
+            "item": "2011",
+            "count": "185"
+          },
+          {
+            "item": "2007",
+            "count": "184"
+          },
+          {
+            "item": "2010",
+            "count": "158"
+          },
+          {
+            "item": "2009",
+            "count": "136"
+          },
+          {
+            "item": "2005",
+            "count": "91"
+          }
+        ],
+        "smallest": "1982",
+        "count": "7072",
+        "cardinality": "43"
+      }
+    },
+    {
+      "field_name": "vehicle_engine_make",
+      "display_name": "VEHICLE ENGINE MAKE",
+      "data_type": "text",
+      "description": "",
+      "position": 10,
+      "cached_contents": {
+        "largest": "VOLVO",
+        "non_null": "7017",
+        "null": "55",
+        "top": [
+          {
+            "item": "CUMMINS",
+            "count": "1966"
+          },
+          {
+            "item": "MACK",
+            "count": "1382"
+          },
+          {
+            "item": "FORD",
+            "count": "861"
+          },
+          {
+            "item": "ISUZU",
+            "count": "495"
+          },
+          {
+            "item": "PACCAR",
+            "count": "490"
+          },
+          {
+            "item": "KENWORTH",
+            "count": "306"
+          },
+          {
+            "item": "HINO MOTORS",
+            "count": "269"
+          },
+          {
+            "item": "INTERNATIONAL",
+            "count": "145"
+          },
+          {
+            "item": "CATERPILLER",
+            "count": "138"
+          },
+          {
+            "item": "DETROIT DIESEL",
+            "count": "136"
+          },
+          {
+            "item": "VOLVO",
+            "count": "125"
+          },
+          {
+            "item": "CHEVROLET",
+            "count": "119"
+          },
+          {
+            "item": "PETERBILT",
+            "count": "107"
+          },
+          {
+            "item": "FREIGHTLINER",
+            "count": "106"
+          },
+          {
+            "item": "MITSUBISHI",
+            "count": "85"
+          },
+          {
+            "item": "GMC",
+            "count": "69"
+          },
+          {
+            "item": "MERCEDES-BENZ",
+            "count": "40"
+          },
+          {
+            "item": "NISSAN",
+            "count": "31"
+          },
+          {
+            "item": "OTHER",
+            "count": "31"
+          },
+          {
+            "item": "NAVISTAR",
+            "count": "24"
+          }
+        ],
+        "smallest": "CATERPILLER",
+        "count": "7072",
+        "cardinality": "28"
+      }
+    },
+    {
+      "field_name": "vehicle_engine_horsepower",
+      "display_name": "VEHICLE ENGINE HORSEPOWER",
+      "data_type": "number",
+      "description": "",
+      "position": 11,
+      "cached_contents": {
+        "largest": "180000",
+        "non_null": "7014",
+        "null": "58",
+        "top": [
+          {
+            "item": "350",
+            "count": "703"
+          },
+          {
+            "item": "500",
+            "count": "686"
+          },
+          {
+            "item": "300",
+            "count": "325"
+          },
+          {
+            "item": "425",
+            "count": "304"
+          },
+          {
+            "item": "450",
+            "count": "271"
+          },
+          {
+            "item": "505",
+            "count": "260"
+          },
+          {
+            "item": "455",
+            "count": "258"
+          },
+          {
+            "item": "565",
+            "count": "181"
+          },
+          {
+            "item": "400",
+            "count": "178"
+          },
+          {
+            "item": "215",
+            "count": "176"
+          },
+          {
+            "item": "260",
+            "count": "156"
+          },
+          {
+            "item": "475",
+            "count": "154"
+          },
+          {
+            "item": "550",
+            "count": "141"
+          },
+          {
+            "item": "325",
+            "count": "136"
+          },
+          {
+            "item": "405",
+            "count": "130"
+          },
+          {
+            "item": "485",
+            "count": "129"
+          },
+          {
+            "item": "250",
+            "count": "129"
+          },
+          {
+            "item": "210",
+            "count": "127"
+          },
+          {
+            "item": "720",
+            "count": "119"
+          },
+          {
+            "item": "330",
+            "count": "102"
+          }
+        ],
+        "smallest": "1",
+        "count": "7072",
+        "cardinality": "290"
+      }
+    },
+    {
+      "field_name": "vehicle_fuel_type",
+      "display_name": "VEHICLE FUEL TYPE",
+      "data_type": "text",
+      "description": "",
+      "position": 12,
+      "cached_contents": {
+        "largest": "Gas",
+        "non_null": "7069",
+        "null": "3",
+        "top": [
+          {
+            "item": "Diesel",
+            "count": "6249"
+          },
+          {
+            "item": "Gas",
+            "count": "798"
+          },
+          {
+            "item": "Compressed Natural Gas",
+            "count": "14"
+          },
+          {
+            "item": "Electric",
+            "count": "7"
+          },
+          {
+            "item": "Flex",
+            "count": "1"
+          }
+        ],
+        "smallest": "Compressed Natural Gas",
+        "count": "7072",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "vehicle_gross_vehicle_weight",
+      "display_name": "VEHICLE GROSS VEHICLE WEIGHT",
+      "data_type": "text",
+      "description": "",
+      "position": 13,
+      "cached_contents": {
+        "largest": "6,001 - 10,000 lbs.",
+        "non_null": "7069",
+        "null": "3",
+        "top": [
+          {
+            "item": "33,001 lbs. or greater",
+            "count": "4295"
+          },
+          {
+            "item": "16,001 - 19,500 lbs.",
+            "count": "719"
+          },
+          {
+            "item": "19,501 - 26,000 lbs.",
+            "count": "671"
+          },
+          {
+            "item": "14,001 - 16,000 lbs.",
+            "count": "348"
+          },
+          {
+            "item": "6,001 - 10,000 lbs.",
+            "count": "334"
+          },
+          {
+            "item": "26,001 - 33,000 lbs.",
+            "count": "329"
+          },
+          {
+            "item": "10,001 - 14,000 lbs.",
+            "count": "284"
+          },
+          {
+            "item": "< 6,000 lbs.",
+            "count": "89"
+          }
+        ],
+        "smallest": "10,001 - 14,000 lbs.",
+        "count": "7072",
+        "cardinality": "8"
+      }
+    },
+    {
+      "field_name": "vehicle_gross_vehicle_weight_1",
+      "display_name": "VEHICLE GROSS VEHICLE WEIGHT RATING (GVWR)",
+      "data_type": "text",
+      "description": "",
+      "position": 14,
+      "cached_contents": {
+        "largest": "Class 8 (33,001 lbs. or greater)",
+        "non_null": "7045",
+        "null": "27",
+        "top": [
+          {
+            "item": "Class 8 (33,001 lbs. or greater)",
+            "count": "4306"
+          },
+          {
+            "item": "Class 5: (16,001- 19,500 lbs.)",
+            "count": "747"
+          },
+          {
+            "item": "Class 6: (19,501- 26,000 lbs.)",
+            "count": "675"
+          },
+          {
+            "item": "Class 7: (26,001- 33,000 lbs.)",
+            "count": "344"
+          },
+          {
+            "item": "Class 4: (14,001- 16,000 lbs.)",
+            "count": "319"
+          },
+          {
+            "item": "Class 2: (6,001-10,000 lbs)",
+            "count": "289"
+          },
+          {
+            "item": "Class 3 (10,001-14,000 lbs)",
+            "count": "282"
+          },
+          {
+            "item": "Class 1: (<6,000 lbs)",
+            "count": "83"
+          }
+        ],
+        "smallest": "Class 1: (<6,000 lbs)",
+        "count": "7072",
+        "cardinality": "8"
+      }
+    },
+    {
+      "field_name": "vehicle_has_side_guard",
+      "display_name": "VEHICLE HAS SIDE GUARD",
+      "data_type": "text",
+      "description": "",
+      "position": 15,
+      "cached_contents": {
+        "largest": "Yes",
+        "non_null": "7038",
+        "null": "34",
+        "top": [
+          {
+            "item": "No",
+            "count": "3773"
+          },
+          {
+            "item": "Yes",
+            "count": "3265"
+          }
+        ],
+        "smallest": "No",
+        "count": "7072",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "vehicle_ownership_type",
+      "display_name": "VEHICLE OWNERSHIP TYPE",
+      "data_type": "text",
+      "description": "",
+      "position": 16,
+      "cached_contents": {
+        "largest": "Owned",
+        "non_null": "7020",
+        "null": "52",
+        "top": [
+          {
+            "item": "Owned",
+            "count": "4473"
+          },
+          {
+            "item": "Financed",
+            "count": "2019"
+          },
+          {
+            "item": "Leased",
+            "count": "528"
+          }
+        ],
+        "smallest": "Financed",
+        "count": "7072",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "vehicle_annual_miles_traveled",
+      "display_name": "VEHICLE ANNUAL MILES TRAVELED IN LAST YEAR",
+      "data_type": "number",
+      "description": "",
+      "position": 17,
+      "cached_contents": {
+        "largest": "583486",
+        "non_null": "123",
+        "null": "6949",
+        "top": [
+          {
+            "item": "0",
+            "count": "9"
+          },
+          {
+            "item": "10000",
+            "count": "7"
+          },
+          {
+            "item": "8000",
+            "count": "5"
+          },
+          {
+            "item": "1000",
+            "count": "4"
+          },
+          {
+            "item": "3500",
+            "count": "4"
+          },
+          {
+            "item": "20000",
+            "count": "4"
+          },
+          {
+            "item": "2000",
+            "count": "4"
+          },
+          {
+            "item": "26592",
+            "count": "2"
+          },
+          {
+            "item": "5000",
+            "count": "2"
+          },
+          {
+            "item": "15000",
+            "count": "2"
+          },
+          {
+            "item": "33804",
+            "count": "2"
+          },
+          {
+            "item": "4000",
+            "count": "2"
+          },
+          {
+            "item": "60000",
+            "count": "2"
+          },
+          {
+            "item": "2500",
+            "count": "2"
+          },
+          {
+            "item": "6000",
+            "count": "2"
+          },
+          {
+            "item": "3109",
+            "count": "1"
+          },
+          {
+            "item": "3200",
+            "count": "1"
+          },
+          {
+            "item": "3400",
+            "count": "1"
+          },
+          {
+            "item": "3494",
+            "count": "1"
+          },
+          {
+            "item": "3721",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "7072",
+        "cardinality": "85"
+      }
+    },
+    {
+      "field_name": "export_date",
+      "display_name": "EXPORT DATE",
+      "data_type": "calendar_date",
+      "description": "",
+      "position": 18,
+      "cached_contents": {
+        "largest": "2025-05-30T00:00:00.000",
+        "non_null": "7072",
+        "null": "0",
+        "top": [
+          {
+            "item": "2025-05-30T00:00:00.000",
+            "count": "7072"
+          }
+        ],
+        "smallest": "2025-05-30T00:00:00.000",
+        "count": "7072",
+        "cardinality": "1"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.444911"
+}

@@ -1,0 +1,3009 @@
+{
+  "dataset_id": "vq35-j9qm",
+  "name": "Asbestos Control Program (ACP7)",
+  "description": "\u00a0ACP7 form is an asbestos project notification. Any time asbestos abatement is perform on quantities greater than a minor project amount, the applicant has to file this form with DEP Asbestos Control Program (ACP). All asbestos documents are filed through the Asbestos Reporting and Tracking System (ARTS) E-file system. This system is web based and entirely paperless. All information on the ACP7 is essential to meet the requirements setforth in the asbestos rules and regulations Title15, Chapter 1 (RCNY). ACP enforcement staff utilizes this form for inspection of asbestos abatement activities.",
+  "agency": "Department of Environmental Protection",
+  "category": "Environment",
+  "tags": [],
+  "update_frequency": "0",
+  "attribution": "Department of Environmental Protection",
+  "created_at": "2018-02-21T19:46:08",
+  "updated_at": "2025-06-01T20:20:09",
+  "row_count": 1748809209,
+  "column_count": 35,
+  "download_count": 5271,
+  "view_count": 16085,
+  "columns": [
+    {
+      "field_name": "tru",
+      "display_name": "TRU",
+      "data_type": "text",
+      "description": "Unique project number issued when the ACP7 is submitted",
+      "width": 136,
+      "position": 1,
+      "cached_contents": {
+        "largest": "TRU9999MN99",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "TRU2441BK24",
+            "count": "3366"
+          },
+          {
+            "item": "TRU3094MN24",
+            "count": "1177"
+          },
+          {
+            "item": "TRU3093MN24",
+            "count": "1135"
+          },
+          {
+            "item": "TRU0633MN25",
+            "count": "556"
+          },
+          {
+            "item": "TRU0676MN24",
+            "count": "549"
+          },
+          {
+            "item": "TRU2705MN24",
+            "count": "495"
+          },
+          {
+            "item": "TRU0691MN25",
+            "count": "490"
+          },
+          {
+            "item": "TRU2370BK24",
+            "count": "450"
+          },
+          {
+            "item": "TRU0570BX25",
+            "count": "435"
+          },
+          {
+            "item": "TRU2766MN23",
+            "count": "434"
+          },
+          {
+            "item": "TRU0303MN22",
+            "count": "429"
+          },
+          {
+            "item": "TRU5617MN18",
+            "count": "411"
+          },
+          {
+            "item": "TRU1318MN21",
+            "count": "403"
+          },
+          {
+            "item": "TRU1368BX19",
+            "count": "403"
+          },
+          {
+            "item": "TRU0668BK25",
+            "count": "384"
+          },
+          {
+            "item": "TRU2203MN19",
+            "count": "364"
+          },
+          {
+            "item": "TRU0637MN20",
+            "count": "354"
+          },
+          {
+            "item": "TRU5003MN18",
+            "count": "346"
+          },
+          {
+            "item": "TRU0198MN22",
+            "count": "345"
+          },
+          {
+            "item": "TRU0937MN25",
+            "count": "338"
+          }
+        ],
+        "smallest": "TRU0001BK19",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "60722"
+      }
+    },
+    {
+      "field_name": "start_date",
+      "display_name": "START_DATE",
+      "data_type": "calendar_date",
+      "description": "Project start date",
+      "width": 220,
+      "position": 2,
+      "cached_contents": {
+        "largest": "2423-10-31T23:00:00.000",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "2025-05-15T00:00:00.000",
+            "count": "3487"
+          },
+          {
+            "item": "2025-02-28T00:00:00.000",
+            "count": "2683"
+          },
+          {
+            "item": "2025-01-27T00:00:00.000",
+            "count": "1579"
+          },
+          {
+            "item": "2025-04-28T00:00:00.000",
+            "count": "1088"
+          },
+          {
+            "item": "2025-05-19T00:00:00.000",
+            "count": "877"
+          },
+          {
+            "item": "2025-05-28T00:00:00.000",
+            "count": "826"
+          },
+          {
+            "item": "2024-02-21T00:00:00.000",
+            "count": "804"
+          },
+          {
+            "item": "2025-05-12T00:00:00.000",
+            "count": "773"
+          },
+          {
+            "item": "2024-08-26T00:00:00.000",
+            "count": "747"
+          },
+          {
+            "item": "2025-03-28T00:00:00.000",
+            "count": "730"
+          },
+          {
+            "item": "2024-06-17T00:00:00.000",
+            "count": "720"
+          },
+          {
+            "item": "2023-11-27T00:00:00.000",
+            "count": "719"
+          },
+          {
+            "item": "2025-04-14T00:00:00.000",
+            "count": "712"
+          },
+          {
+            "item": "2019-12-20T00:00:00.000",
+            "count": "707"
+          },
+          {
+            "item": "2024-06-28T00:00:00.000",
+            "count": "706"
+          },
+          {
+            "item": "2025-05-23T00:00:00.000",
+            "count": "701"
+          },
+          {
+            "item": "2022-05-02T00:00:00.000",
+            "count": "671"
+          },
+          {
+            "item": "2025-03-17T00:00:00.000",
+            "count": "639"
+          },
+          {
+            "item": "2025-03-10T00:00:00.000",
+            "count": "635"
+          },
+          {
+            "item": "2023-07-21T00:00:00.000",
+            "count": "625"
+          }
+        ],
+        "smallest": "2017-11-11T00:00:00.000",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "2659"
+      }
+    },
+    {
+      "field_name": "end_date",
+      "display_name": "END_DATE",
+      "data_type": "calendar_date",
+      "description": "Project end date; Date filed + 364 days",
+      "width": 196,
+      "position": 3,
+      "cached_contents": {
+        "largest": "2026-05-29T00:00:00.000",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "2025-12-09T00:00:00.000",
+            "count": "3439"
+          },
+          {
+            "item": "2025-12-30T00:00:00.000",
+            "count": "2333"
+          },
+          {
+            "item": "2024-11-05T00:00:00.000",
+            "count": "2175"
+          },
+          {
+            "item": "2026-02-13T00:00:00.000",
+            "count": "1522"
+          },
+          {
+            "item": "2025-12-08T00:00:00.000",
+            "count": "1248"
+          },
+          {
+            "item": "2026-03-18T00:00:00.000",
+            "count": "1069"
+          },
+          {
+            "item": "2026-03-24T00:00:00.000",
+            "count": "918"
+          },
+          {
+            "item": "2023-07-20T00:00:00.000",
+            "count": "818"
+          },
+          {
+            "item": "2025-11-06T00:00:00.000",
+            "count": "781"
+          },
+          {
+            "item": "2026-04-22T00:00:00.000",
+            "count": "774"
+          },
+          {
+            "item": "2025-10-23T00:00:00.000",
+            "count": "742"
+          },
+          {
+            "item": "2026-03-23T00:00:00.000",
+            "count": "738"
+          },
+          {
+            "item": "2026-02-23T00:00:00.000",
+            "count": "729"
+          },
+          {
+            "item": "2025-07-23T00:00:00.000",
+            "count": "669"
+          },
+          {
+            "item": "2025-03-21T00:00:00.000",
+            "count": "665"
+          },
+          {
+            "item": "2026-03-17T00:00:00.000",
+            "count": "664"
+          },
+          {
+            "item": "2025-06-11T00:00:00.000",
+            "count": "648"
+          },
+          {
+            "item": "2024-11-04T00:00:00.000",
+            "count": "642"
+          },
+          {
+            "item": "2025-11-04T00:00:00.000",
+            "count": "640"
+          },
+          {
+            "item": "2025-02-10T00:00:00.000",
+            "count": "637"
+          }
+        ],
+        "smallest": "2018-11-15T00:00:00.000",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "2532"
+      }
+    },
+    {
+      "field_name": "status_description",
+      "display_name": "STATUS_DESCRIPTION",
+      "data_type": "text",
+      "description": "Description of the current status of ACP7",
+      "width": 316,
+      "position": 4,
+      "cached_contents": {
+        "largest": "Submitted",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Closed",
+            "count": "211092"
+          },
+          {
+            "item": "Submitted",
+            "count": "41280"
+          },
+          {
+            "item": "Postponed",
+            "count": "29921"
+          }
+        ],
+        "smallest": "Closed",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "street_activity",
+      "display_name": "STREET_ACTIVITY",
+      "data_type": "text",
+      "description": "A flag that indicates if the project is on the street or in a facility\n",
+      "width": 280,
+      "position": 5,
+      "cached_contents": {
+        "largest": "Yes",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "No",
+            "count": "280968"
+          },
+          {
+            "item": "Yes",
+            "count": "1325"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "premise_no",
+      "display_name": "PREMISE_NO",
+      "data_type": "text",
+      "description": "Premise number of the facility where the abatement project is taking place\n\nNull if street activity = Yes\n",
+      "width": 220,
+      "position": 6,
+      "cached_contents": {
+        "largest": "One",
+        "non_null": "280968",
+        "null": "1325",
+        "top": [
+          {
+            "item": "675",
+            "count": "3511"
+          },
+          {
+            "item": "1",
+            "count": "2749"
+          },
+          {
+            "item": "100",
+            "count": "2525"
+          },
+          {
+            "item": "220",
+            "count": "1823"
+          },
+          {
+            "item": "40",
+            "count": "1600"
+          },
+          {
+            "item": "10",
+            "count": "1591"
+          },
+          {
+            "item": "111",
+            "count": "1464"
+          },
+          {
+            "item": "333",
+            "count": "1454"
+          },
+          {
+            "item": "260",
+            "count": "1427"
+          },
+          {
+            "item": "301",
+            "count": "1423"
+          },
+          {
+            "item": "50",
+            "count": "1421"
+          },
+          {
+            "item": "60",
+            "count": "1357"
+          },
+          {
+            "item": "200",
+            "count": "1353"
+          },
+          {
+            "item": "345",
+            "count": "1335"
+          },
+          {
+            "item": "120",
+            "count": "1300"
+          },
+          {
+            "item": "400",
+            "count": "1240"
+          },
+          {
+            "item": "300",
+            "count": "1226"
+          },
+          {
+            "item": "330",
+            "count": "1206"
+          },
+          {
+            "item": "35",
+            "count": "1132"
+          },
+          {
+            "item": "160",
+            "count": "1071"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "36491",
+        "count": "282293",
+        "cardinality": "8046"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET_NAME",
+      "data_type": "text",
+      "description": "Street name of the facility where the abatement project is taking place\n\nNull if street activity = Yes\n",
+      "width": 232,
+      "position": 7,
+      "cached_contents": {
+        "largest": "Zulette Avenue",
+        "non_null": "280968",
+        "null": "1325",
+        "top": [
+          {
+            "item": "Park Avenue",
+            "count": "4938"
+          },
+          {
+            "item": "Broadway",
+            "count": "4730"
+          },
+          {
+            "item": "Lincoln Ave",
+            "count": "3431"
+          },
+          {
+            "item": "Madison Avenue",
+            "count": "3017"
+          },
+          {
+            "item": "5th Avenue",
+            "count": "2723"
+          },
+          {
+            "item": "West 131st Street",
+            "count": "2566"
+          },
+          {
+            "item": "Amsterdam Avenue",
+            "count": "2398"
+          },
+          {
+            "item": "Fifth Avenue",
+            "count": "1960"
+          },
+          {
+            "item": "Washington Avenue",
+            "count": "1917"
+          },
+          {
+            "item": "Ten Eyck Walk",
+            "count": "1695"
+          },
+          {
+            "item": "East 229th Street",
+            "count": "1392"
+          },
+          {
+            "item": "University Avenue",
+            "count": "1332"
+          },
+          {
+            "item": "Maujer Street",
+            "count": "1281"
+          },
+          {
+            "item": "Dumont Avenue",
+            "count": "1281"
+          },
+          {
+            "item": "Central Park West",
+            "count": "1275"
+          },
+          {
+            "item": "East 102nd Street",
+            "count": "1226"
+          },
+          {
+            "item": "East 30th Street",
+            "count": "1205"
+          },
+          {
+            "item": "Wall Street",
+            "count": "1153"
+          },
+          {
+            "item": "3rd Avenue",
+            "count": "1099"
+          },
+          {
+            "item": "Lafayette Ave",
+            "count": "1099"
+          }
+        ],
+        "smallest": "100 St",
+        "not_null": "36491",
+        "count": "282293",
+        "cardinality": "10182"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "Borough of the facility where the abatement project is taking place\n\nNull if street activity = Yes",
+      "width": 184,
+      "position": 8,
+      "cached_contents": {
+        "largest": "Staten Island",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Manhattan",
+            "count": "109833"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "80065"
+          },
+          {
+            "item": "Bronx",
+            "count": "49348"
+          },
+          {
+            "item": "Queens",
+            "count": "35194"
+          },
+          {
+            "item": "Staten Island",
+            "count": "7853"
+          }
+        ],
+        "smallest": "Bronx",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "ZIP_CODE",
+      "data_type": "text",
+      "description": "Zip code of the facility where the abatement project is taking place\n\nNull if street activity = Yes\n",
+      "width": 196,
+      "position": 9,
+      "cached_contents": {
+        "largest": "11697",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "11206",
+            "count": "9920"
+          },
+          {
+            "item": "10027",
+            "count": "7214"
+          },
+          {
+            "item": "11212",
+            "count": "6346"
+          },
+          {
+            "item": "10029",
+            "count": "6012"
+          },
+          {
+            "item": "11201",
+            "count": "5722"
+          },
+          {
+            "item": "10456",
+            "count": "5577"
+          },
+          {
+            "item": "11208",
+            "count": "5305"
+          },
+          {
+            "item": "10022",
+            "count": "5096"
+          },
+          {
+            "item": "10016",
+            "count": "4999"
+          },
+          {
+            "item": "10025",
+            "count": "4944"
+          },
+          {
+            "item": "10023",
+            "count": "4906"
+          },
+          {
+            "item": "10466",
+            "count": "4895"
+          },
+          {
+            "item": "11224",
+            "count": "4718"
+          },
+          {
+            "item": "10019",
+            "count": "4550"
+          },
+          {
+            "item": "10003",
+            "count": "4529"
+          },
+          {
+            "item": "10475",
+            "count": "4380"
+          },
+          {
+            "item": "10451",
+            "count": "3978"
+          },
+          {
+            "item": "11236",
+            "count": "3977"
+          },
+          {
+            "item": "10024",
+            "count": "3975"
+          },
+          {
+            "item": "10473",
+            "count": "3943"
+          }
+        ],
+        "smallest": "10000",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "226"
+      }
+    },
+    {
+      "field_name": "facility_aka",
+      "display_name": "FACILITY_AKA",
+      "data_type": "text",
+      "description": "Other name of the facility where the abatement project is taking place\n\nNull if street activity = Yes\n\n",
+      "width": 244,
+      "position": 10,
+      "cached_contents": {
+        "largest": "Zucker Hillside Hosp.-Adolescent A Pavillion",
+        "non_null": "167316",
+        "null": "114977",
+        "top": [
+          {
+            "item": "n/a",
+            "count": "1603"
+          },
+          {
+            "item": "Manhattanville Houses Bld #1",
+            "count": "1428"
+          },
+          {
+            "item": "N/A",
+            "count": "1312"
+          },
+          {
+            "item": "St. Nicholas Houses Bldg. 10",
+            "count": "1177"
+          },
+          {
+            "item": "St. Nicholas Houses Bldg. 12",
+            "count": "1150"
+          },
+          {
+            "item": "Medical Science Building",
+            "count": "629"
+          },
+          {
+            "item": "Building #2",
+            "count": "593"
+          },
+          {
+            "item": "Barnard College - Altschul Hall",
+            "count": "564"
+          },
+          {
+            "item": "IS109Q",
+            "count": "542"
+          },
+          {
+            "item": "Verizon",
+            "count": "533"
+          },
+          {
+            "item": "Building #3",
+            "count": "520"
+          },
+          {
+            "item": "Parkchester South",
+            "count": "508"
+          },
+          {
+            "item": "The Carlyle Hotel",
+            "count": "492"
+          },
+          {
+            "item": "M001",
+            "count": "466"
+          },
+          {
+            "item": "Switch House",
+            "count": "465"
+          },
+          {
+            "item": "IS 162K",
+            "count": "465"
+          },
+          {
+            "item": "1756 Broadway",
+            "count": "435"
+          },
+          {
+            "item": "IS 125/562",
+            "count": "431"
+          },
+          {
+            "item": "Amsterdam Houses Bldg. # 1 Contract BW1313869",
+            "count": "401"
+          },
+          {
+            "item": "NYCHA 2413696 Atlantic Terminal, Site B, Bld. #1",
+            "count": "384"
+          }
+        ],
+        "smallest": "010-5",
+        "not_null": "18447",
+        "count": "282293",
+        "cardinality": "18543"
+      }
+    },
+    {
+      "field_name": "facility_type",
+      "display_name": "FACILITY_TYPE",
+      "data_type": "text",
+      "description": "Type of the facility where the abatement project is taking place\n\nNull if street activity = Yes",
+      "width": 256,
+      "position": 11,
+      "cached_contents": {
+        "largest": "School",
+        "non_null": "273914",
+        "null": "8379",
+        "top": [
+          {
+            "item": "Residence",
+            "count": "146530"
+          },
+          {
+            "item": "School",
+            "count": "54073"
+          },
+          {
+            "item": "Commercial",
+            "count": "44995"
+          },
+          {
+            "item": "Other",
+            "count": "19217"
+          },
+          {
+            "item": "Hospital",
+            "count": "9099"
+          }
+        ],
+        "smallest": "Commercial",
+        "not_null": "35108",
+        "count": "282293",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Unique building identification number of the facility where the abatement project is taking place\nNull if street activity= Yes",
+      "width": 136,
+      "position": 12,
+      "cached_contents": {
+        "largest": "5820857",
+        "non_null": "280627",
+        "null": "1666",
+        "top": [
+          {
+            "item": "3095889",
+            "count": "3421"
+          },
+          {
+            "item": "1081514",
+            "count": "1269"
+          },
+          {
+            "item": "1081512",
+            "count": "1247"
+          },
+          {
+            "item": "1085588",
+            "count": "868"
+          },
+          {
+            "item": "3073018",
+            "count": "710"
+          },
+          {
+            "item": "1084771",
+            "count": "688"
+          },
+          {
+            "item": "1000868",
+            "count": "599"
+          },
+          {
+            "item": "1050768",
+            "count": "591"
+          },
+          {
+            "item": "1079341",
+            "count": "585"
+          },
+          {
+            "item": "1035421",
+            "count": "573"
+          },
+          {
+            "item": "1079205",
+            "count": "566"
+          },
+          {
+            "item": "1084936",
+            "count": "562"
+          },
+          {
+            "item": "4226839",
+            "count": "554"
+          },
+          {
+            "item": "3029254",
+            "count": "543"
+          },
+          {
+            "item": "3327889",
+            "count": "535"
+          },
+          {
+            "item": "1040802",
+            "count": "530"
+          },
+          {
+            "item": "1041797",
+            "count": "520"
+          },
+          {
+            "item": "3321763",
+            "count": "512"
+          },
+          {
+            "item": "4047310",
+            "count": "512"
+          },
+          {
+            "item": "1079340",
+            "count": "511"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "36250",
+        "count": "282293",
+        "cardinality": "24030"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "description": "Block number of the facility where the abatement project is taking place\tNull if street activity= Yes\n",
+      "width": 160,
+      "position": 13,
+      "cached_contents": {
+        "largest": "85",
+        "non_null": "280968",
+        "null": "1325",
+        "top": [
+          {
+            "item": "04905",
+            "count": "4291"
+          },
+          {
+            "item": "04271",
+            "count": "3434"
+          },
+          {
+            "item": "01933",
+            "count": "3171"
+          },
+          {
+            "item": "05141",
+            "count": "2780"
+          },
+          {
+            "item": "03024",
+            "count": "1853"
+          },
+          {
+            "item": "03026",
+            "count": "1845"
+          },
+          {
+            "item": "03027",
+            "count": "1833"
+          },
+          {
+            "item": "00962",
+            "count": "1823"
+          },
+          {
+            "item": "08329",
+            "count": "1739"
+          },
+          {
+            "item": "03576",
+            "count": "1706"
+          },
+          {
+            "item": "01984",
+            "count": "1594"
+          },
+          {
+            "item": "01154",
+            "count": "1532"
+          },
+          {
+            "item": "01673",
+            "count": "1286"
+          },
+          {
+            "item": "02527",
+            "count": "1172"
+          },
+          {
+            "item": "00196",
+            "count": "1160"
+          },
+          {
+            "item": "05135",
+            "count": "1040"
+          },
+          {
+            "item": "02416",
+            "count": "995"
+          },
+          {
+            "item": "02138",
+            "count": "960"
+          },
+          {
+            "item": "07047",
+            "count": "940"
+          },
+          {
+            "item": "02901",
+            "count": "912"
+          }
+        ],
+        "smallest": "00000",
+        "not_null": "36491",
+        "count": "282293",
+        "cardinality": "7161"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "description": "Lot number of the facility where the abatement project is taking place\tNull if street activity= Yes\n",
+      "width": 136,
+      "position": 14,
+      "cached_contents": {
+        "largest": "9999",
+        "non_null": "280968",
+        "null": "1325",
+        "top": [
+          {
+            "item": "0001",
+            "count": "98568"
+          },
+          {
+            "item": "7501",
+            "count": "8262"
+          },
+          {
+            "item": "0002",
+            "count": "6443"
+          },
+          {
+            "item": "0005",
+            "count": "6346"
+          },
+          {
+            "item": "0050",
+            "count": "5773"
+          },
+          {
+            "item": "0021",
+            "count": "4854"
+          },
+          {
+            "item": "0040",
+            "count": "4852"
+          },
+          {
+            "item": "0029",
+            "count": "4117"
+          },
+          {
+            "item": "0020",
+            "count": "4106"
+          },
+          {
+            "item": "0006",
+            "count": "3991"
+          },
+          {
+            "item": "0010",
+            "count": "3729"
+          },
+          {
+            "item": "0014",
+            "count": "3700"
+          },
+          {
+            "item": "0003",
+            "count": "3595"
+          },
+          {
+            "item": "0024",
+            "count": "3527"
+          },
+          {
+            "item": "0017",
+            "count": "3385"
+          },
+          {
+            "item": "0015",
+            "count": "3284"
+          },
+          {
+            "item": "0100",
+            "count": "3102"
+          },
+          {
+            "item": "0032",
+            "count": "2829"
+          },
+          {
+            "item": "0120",
+            "count": "2749"
+          },
+          {
+            "item": "0011",
+            "count": "2688"
+          }
+        ],
+        "smallest": "0000",
+        "not_null": "36491",
+        "count": "282293",
+        "cardinality": "554"
+      }
+    },
+    {
+      "field_name": "cross_street_on",
+      "display_name": "CROSS_STREET_ON",
+      "data_type": "text",
+      "description": "The street where the abatement project is taking place\tNull if street activity= No\n",
+      "width": 280,
+      "position": 15,
+      "cached_contents": {
+        "largest": "York Street",
+        "non_null": "1323",
+        "null": "280970",
+        "top": [
+          {
+            "item": "Broadway Bridge",
+            "count": "118"
+          },
+          {
+            "item": "East 52 Street",
+            "count": "46"
+          },
+          {
+            "item": "East 33 Street",
+            "count": "45"
+          },
+          {
+            "item": "West End Avenue",
+            "count": "43"
+          },
+          {
+            "item": "East 53 Street",
+            "count": "38"
+          },
+          {
+            "item": "Intersection",
+            "count": "33"
+          },
+          {
+            "item": "Worth Street",
+            "count": "31"
+          },
+          {
+            "item": "Broadway",
+            "count": "30"
+          },
+          {
+            "item": "Union Turnpike",
+            "count": "30"
+          },
+          {
+            "item": "unionport bridge",
+            "count": "29"
+          },
+          {
+            "item": "5 Avenue",
+            "count": "27"
+          },
+          {
+            "item": "West 33 Street",
+            "count": "26"
+          },
+          {
+            "item": "3 Avenue",
+            "count": "25"
+          },
+          {
+            "item": "Park Avenue",
+            "count": "21"
+          },
+          {
+            "item": "2 Avenue",
+            "count": "20"
+          },
+          {
+            "item": "Webster Avenue",
+            "count": "16"
+          },
+          {
+            "item": "Unionport Bridge",
+            "count": "14"
+          },
+          {
+            "item": "11 Avenue",
+            "count": "13"
+          },
+          {
+            "item": "Atlantic Avenue",
+            "count": "12"
+          },
+          {
+            "item": "Chestnut Street",
+            "count": "12"
+          }
+        ],
+        "smallest": ",",
+        "not_null": "407",
+        "count": "282293",
+        "cardinality": "267"
+      }
+    },
+    {
+      "field_name": "cross_street_between",
+      "display_name": "CROSS_STREET_BETWEEN",
+      "data_type": "text",
+      "description": "The intersecting street at one end where the abatement project is located\tNull if street activity= No\n",
+      "width": 340,
+      "position": 16,
+      "cached_contents": {
+        "largest": "Zerega Ave",
+        "non_null": "1323",
+        "null": "280970",
+        "top": [
+          {
+            "item": "234th Street",
+            "count": "118"
+          },
+          {
+            "item": "2 Avenue",
+            "count": "112"
+          },
+          {
+            "item": "8 Avenue",
+            "count": "32"
+          },
+          {
+            "item": "zerega ave",
+            "count": "29"
+          },
+          {
+            "item": "Hudson Street",
+            "count": "29"
+          },
+          {
+            "item": "East 51 Street",
+            "count": "27"
+          },
+          {
+            "item": "5 Avenue",
+            "count": "27"
+          },
+          {
+            "item": "3 Avenue",
+            "count": "23"
+          },
+          {
+            "item": "Lexington Avenue",
+            "count": "18"
+          },
+          {
+            "item": "1 Avenue",
+            "count": "13"
+          },
+          {
+            "item": "East 34 Street",
+            "count": "13"
+          },
+          {
+            "item": "Franklin Street",
+            "count": "12"
+          },
+          {
+            "item": "Dinsmore Place",
+            "count": "12"
+          },
+          {
+            "item": "255 Street",
+            "count": "12"
+          },
+          {
+            "item": "6 Avenue",
+            "count": "12"
+          },
+          {
+            "item": "Parsons Boulevard",
+            "count": "12"
+          },
+          {
+            "item": "Zerega Ave",
+            "count": "11"
+          },
+          {
+            "item": "Park Avenue",
+            "count": "11"
+          },
+          {
+            "item": "Archer Avenue",
+            "count": "10"
+          },
+          {
+            "item": "Degraw Street",
+            "count": "10"
+          }
+        ],
+        "smallest": "101 street",
+        "not_null": "407",
+        "count": "282293",
+        "cardinality": "326"
+      }
+    },
+    {
+      "field_name": "cross_street_and",
+      "display_name": "CROSS_STREET_AND",
+      "data_type": "text",
+      "description": "The intersecting street at the other end where the abatement project is located\tNull if street activity= No\n",
+      "width": 292,
+      "position": 17,
+      "cached_contents": {
+        "largest": "Zerega Avenue",
+        "non_null": "1325",
+        "null": "280968",
+        "top": [
+          {
+            "item": "9th Avenue",
+            "count": "118"
+          },
+          {
+            "item": "3 Avenue",
+            "count": "78"
+          },
+          {
+            "item": "Lexington Avenue",
+            "count": "57"
+          },
+          {
+            "item": "Mott Street",
+            "count": "29"
+          },
+          {
+            "item": "brush ave",
+            "count": "29"
+          },
+          {
+            "item": "East 53 Street",
+            "count": "27"
+          },
+          {
+            "item": "9 Avenue",
+            "count": "25"
+          },
+          {
+            "item": "Broadway",
+            "count": "22"
+          },
+          {
+            "item": "Madison Avenue",
+            "count": "18"
+          },
+          {
+            "item": "Park Avenue",
+            "count": "17"
+          },
+          {
+            "item": "East 36 Street",
+            "count": "15"
+          },
+          {
+            "item": "Fulton Street",
+            "count": "14"
+          },
+          {
+            "item": "East 35 Street",
+            "count": "13"
+          },
+          {
+            "item": "Manhattan Avenue",
+            "count": "12"
+          },
+          {
+            "item": "6 Avenue",
+            "count": "12"
+          },
+          {
+            "item": "West 22 Street",
+            "count": "12"
+          },
+          {
+            "item": "Brush Ave",
+            "count": "11"
+          },
+          {
+            "item": "2 Avenue",
+            "count": "10"
+          },
+          {
+            "item": "York Street",
+            "count": "10"
+          },
+          {
+            "item": "71 Avenue",
+            "count": "10"
+          }
+        ],
+        "smallest": "10 Avenue",
+        "not_null": "407",
+        "count": "282293",
+        "cardinality": "329"
+      }
+    },
+    {
+      "field_name": "building_owner_name",
+      "display_name": "BUILDING_OWNER_NAME",
+      "data_type": "text",
+      "description": "The name of the building owner of the facility\n",
+      "width": 328,
+      "position": 18,
+      "cached_contents": {
+        "largest": "Zvi Mosery",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York City Housing Authority (NYCHA)",
+            "count": "67380"
+          },
+          {
+            "item": "NYC School Construction Authority (NYCSCA)",
+            "count": "45048"
+          },
+          {
+            "item": "CSA Preservation Partners LLC",
+            "count": "4003"
+          },
+          {
+            "item": "Riverbay Corporation",
+            "count": "3540"
+          },
+          {
+            "item": "Consolidated Edison   Company of NY, Inc.",
+            "count": "3497"
+          },
+          {
+            "item": "Linden Plaza Preservation L.P.",
+            "count": "3429"
+          },
+          {
+            "item": "NYC Health & Hospitals Corporation (NYCHHC)",
+            "count": "2492"
+          },
+          {
+            "item": "NYC Dept of Education (NYCDOE)",
+            "count": "2416"
+          },
+          {
+            "item": "NYC Dept of Design & Construction (NYCDDC)",
+            "count": "2142"
+          },
+          {
+            "item": "Dormitory Authority State of New York (DASNY)",
+            "count": "1600"
+          },
+          {
+            "item": "ABA Sack Wern LLC",
+            "count": "1585"
+          },
+          {
+            "item": "NYU Langone Health",
+            "count": "1374"
+          },
+          {
+            "item": "NYC Housing Preservation & Development (NYCHPD)",
+            "count": "1208"
+          },
+          {
+            "item": "West Brighton Partners LLC",
+            "count": "1098"
+          },
+          {
+            "item": "NewYork-Presbyterian Hospital",
+            "count": "1076"
+          },
+          {
+            "item": "Jose Amarillo",
+            "count": "858"
+          },
+          {
+            "item": "NYC Dept of Environmental Protection (NYCDEP)",
+            "count": "843"
+          },
+          {
+            "item": "NYC Economic Development Corporation (NYCEDC)",
+            "count": "832"
+          },
+          {
+            "item": "David Alonso",
+            "count": "818"
+          },
+          {
+            "item": "Vornado Realty Trust",
+            "count": "809"
+          }
+        ],
+        "smallest": "100-01 Metropolitan LLC.",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "20966"
+      }
+    },
+    {
+      "field_name": "contractor_name",
+      "display_name": "CONTRACTOR_NAME",
+      "data_type": "text",
+      "description": "The name of the asbestos contractor who will conduct the abatement project\n",
+      "width": 280,
+      "position": 19,
+      "cached_contents": {
+        "largest": "Zoria Housing, LLC",
+        "non_null": "282289",
+        "null": "4",
+        "top": [
+          {
+            "item": "New York Environmental Systems, Inc.",
+            "count": "13981"
+          },
+          {
+            "item": "New York Insulation, Inc.",
+            "count": "13896"
+          },
+          {
+            "item": "ESG, Inc.",
+            "count": "12597"
+          },
+          {
+            "item": "T L D Services Inc",
+            "count": "9704"
+          },
+          {
+            "item": "Abatement Unlimited, Inc.",
+            "count": "9070"
+          },
+          {
+            "item": "ETS Contracting, Inc.",
+            "count": "7681"
+          },
+          {
+            "item": "P.A.L. Environmental Safety Corp.",
+            "count": "6553"
+          },
+          {
+            "item": "Empire Control Abatement, Inc.",
+            "count": "6166"
+          },
+          {
+            "item": "J & N Construction Group Corp.",
+            "count": "6145"
+          },
+          {
+            "item": "ABC Construction Contracting Inc.",
+            "count": "6046"
+          },
+          {
+            "item": "New York Insulation Inc.",
+            "count": "5564"
+          },
+          {
+            "item": "Zoria Housing, LLC",
+            "count": "5480"
+          },
+          {
+            "item": "JVN Restoration Inc.",
+            "count": "5391"
+          },
+          {
+            "item": "Pinnacle Environmental Corp.",
+            "count": "5321"
+          },
+          {
+            "item": "Alba Environmental Inc.",
+            "count": "5150"
+          },
+          {
+            "item": "GNP Environmental Inc.",
+            "count": "4502"
+          },
+          {
+            "item": "Incinia Contracting Inc",
+            "count": "4237"
+          },
+          {
+            "item": "PAR Environmental Corporation",
+            "count": "4009"
+          },
+          {
+            "item": "D & S Restoration, Inc.",
+            "count": "3588"
+          },
+          {
+            "item": "International Asbestos Removal, Inc.",
+            "count": "3236"
+          }
+        ],
+        "smallest": "192 Branch Interior Services, Inc.",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "572"
+      }
+    },
+    {
+      "field_name": "air_monitor_name",
+      "display_name": "AIR_MONITOR_NAME",
+      "data_type": "text",
+      "description": "The name of the third party air monitor on the project\n",
+      "width": 292,
+      "position": 20,
+      "cached_contents": {
+        "largest": "Zennith Environmental Services LLC",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Genesis Environmental Consultants Inc.",
+            "count": "37656"
+          },
+          {
+            "item": "Airtek Environmental Corp.",
+            "count": "14121"
+          },
+          {
+            "item": "AIM Environmental LLC",
+            "count": "10601"
+          },
+          {
+            "item": "Airtek Environmental, LLC",
+            "count": "9553"
+          },
+          {
+            "item": "LiRo Engineers, Inc.",
+            "count": "8399"
+          },
+          {
+            "item": "Environmental Code Consultants Inc.",
+            "count": "7266"
+          },
+          {
+            "item": "Advanced Environmental Corp.",
+            "count": "7126"
+          },
+          {
+            "item": "Omega Laboratories, Inc.",
+            "count": "6234"
+          },
+          {
+            "item": "The ALC Group, LLC dba ALC Environmental",
+            "count": "5562"
+          },
+          {
+            "item": "Hillmann Consulting, LLC",
+            "count": "5546"
+          },
+          {
+            "item": "ATC Group Services LLC",
+            "count": "5538"
+          },
+          {
+            "item": "Athenica Environmental Services Inc.",
+            "count": "5194"
+          },
+          {
+            "item": "J.C. Broderick & Associates Inc.",
+            "count": "4915"
+          },
+          {
+            "item": "Taylor Environmental Group, Inc.",
+            "count": "4913"
+          },
+          {
+            "item": "Core Environmental Consultants, Inc.",
+            "count": "4771"
+          },
+          {
+            "item": "Langan Engineering, Environmental, Surveying, Land",
+            "count": "4433"
+          },
+          {
+            "item": "Enviro-Pro Unltd Corp.",
+            "count": "4313"
+          },
+          {
+            "item": "New York Environmental & Analytical Laboratories,",
+            "count": "4117"
+          },
+          {
+            "item": "Lawrence Env LLC",
+            "count": "3630"
+          },
+          {
+            "item": "H.A. Bader Consultants, Inc.",
+            "count": "3290"
+          }
+        ],
+        "smallest": "3E Environmental Inc.",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "389"
+      }
+    },
+    {
+      "field_name": "entire_floor",
+      "display_name": "ENTIRE_FLOOR",
+      "data_type": "text",
+      "description": "A flag that indicates if the abatement covers the entire floor or not\t1-Yes, 0-No\n",
+      "width": 244,
+      "position": 21,
+      "cached_contents": {
+        "largest": "Yes",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "No",
+            "count": "264107"
+          },
+          {
+            "item": "Yes",
+            "count": "18186"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "floor",
+      "display_name": "FLOOR",
+      "data_type": "text",
+      "description": "The name of the floor where the abatement project is located\n",
+      "width": 160,
+      "position": 22,
+      "cached_contents": {
+        "largest": "Yard",
+        "non_null": "282292",
+        "null": "1",
+        "top": [
+          {
+            "item": "Roof",
+            "count": "28647"
+          },
+          {
+            "item": "Basement",
+            "count": "15053"
+          },
+          {
+            "item": "1",
+            "count": "12152"
+          },
+          {
+            "item": "1st",
+            "count": "11840"
+          },
+          {
+            "item": "2",
+            "count": "10712"
+          },
+          {
+            "item": "2nd",
+            "count": "10234"
+          },
+          {
+            "item": "3",
+            "count": "8939"
+          },
+          {
+            "item": "3rd",
+            "count": "8543"
+          },
+          {
+            "item": "1st Floor",
+            "count": "7883"
+          },
+          {
+            "item": "4th",
+            "count": "6511"
+          },
+          {
+            "item": "4",
+            "count": "6448"
+          },
+          {
+            "item": "Cellar",
+            "count": "5862"
+          },
+          {
+            "item": "2nd Floor",
+            "count": "5793"
+          },
+          {
+            "item": "5",
+            "count": "5429"
+          },
+          {
+            "item": "6",
+            "count": "5084"
+          },
+          {
+            "item": "3rd Floor",
+            "count": "4651"
+          },
+          {
+            "item": "5th",
+            "count": "4065"
+          },
+          {
+            "item": "7",
+            "count": "3868"
+          },
+          {
+            "item": "8",
+            "count": "3388"
+          },
+          {
+            "item": "6th",
+            "count": "3328"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "3509"
+      }
+    },
+    {
+      "field_name": "section",
+      "display_name": "SECTION",
+      "data_type": "text",
+      "description": "The section of the floor where the abatement project is located\tNull if EntireFloor= Yes\n",
+      "width": 184,
+      "position": 23,
+      "cached_contents": {
+        "largest": "zoom room",
+        "non_null": "264103",
+        "null": "18190",
+        "top": [
+          {
+            "item": "Main Roof",
+            "count": "3252"
+          },
+          {
+            "item": "Boiler Room",
+            "count": "2321"
+          },
+          {
+            "item": "North Elevation",
+            "count": "1710"
+          },
+          {
+            "item": "South Elevation",
+            "count": "1603"
+          },
+          {
+            "item": "West Elevation",
+            "count": "1438"
+          },
+          {
+            "item": "East Elevation",
+            "count": "1416"
+          },
+          {
+            "item": "Hallway",
+            "count": "1409"
+          },
+          {
+            "item": "Throughout",
+            "count": "1207"
+          },
+          {
+            "item": "Bulkhead",
+            "count": "1193"
+          },
+          {
+            "item": "Perimeter",
+            "count": "1184"
+          },
+          {
+            "item": "Roof",
+            "count": "952"
+          },
+          {
+            "item": "Kitchen",
+            "count": "945"
+          },
+          {
+            "item": "Facade",
+            "count": "897"
+          },
+          {
+            "item": "Exterior Facade - Elevations #1 - 12",
+            "count": "897"
+          },
+          {
+            "item": "Exterior Facade - Elevations #1 - 16",
+            "count": "799"
+          },
+          {
+            "item": "Corridor",
+            "count": "787"
+          },
+          {
+            "item": "Exterior North Elevation",
+            "count": "771"
+          },
+          {
+            "item": "Exterior East Elevation",
+            "count": "755"
+          },
+          {
+            "item": "Exterior West Elevation",
+            "count": "738"
+          },
+          {
+            "item": "Exterior South Elevation",
+            "count": "716"
+          }
+        ],
+        "smallest": "001",
+        "not_null": "34044",
+        "count": "282293",
+        "cardinality": "75743"
+      }
+    },
+    {
+      "field_name": "acm_type",
+      "display_name": "ACM_TYPE",
+      "data_type": "text",
+      "description": "The type of the asbestos contained material\n",
+      "width": 196,
+      "position": 24,
+      "cached_contents": {
+        "largest": "Zinc sheets with felt paper and asbestos debris",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Pipe Insulation",
+            "count": "12574"
+          },
+          {
+            "item": "VAT",
+            "count": "12025"
+          },
+          {
+            "item": "Floor Tile",
+            "count": "9619"
+          },
+          {
+            "item": "Window Caulking",
+            "count": "7665"
+          },
+          {
+            "item": "Floor Tiles",
+            "count": "6184"
+          },
+          {
+            "item": "VAT & Mastic",
+            "count": "4850"
+          },
+          {
+            "item": "Wall Plaster",
+            "count": "4073"
+          },
+          {
+            "item": "Ceiling Plaster",
+            "count": "3582"
+          },
+          {
+            "item": "Floor Tile & Mastic",
+            "count": "3513"
+          },
+          {
+            "item": "pipe insulation",
+            "count": "2641"
+          },
+          {
+            "item": "Floor mastic",
+            "count": "2516"
+          },
+          {
+            "item": "VAT/Mastic",
+            "count": "2441"
+          },
+          {
+            "item": "Roof Membrane",
+            "count": "2176"
+          },
+          {
+            "item": "Window Caulk",
+            "count": "2020"
+          },
+          {
+            "item": "Floor Tile and Mastic",
+            "count": "1970"
+          },
+          {
+            "item": "Bricks Contaminated with ACM Tar / Flashing",
+            "count": "1757"
+          },
+          {
+            "item": "Exterior Window Caulking",
+            "count": "1741"
+          },
+          {
+            "item": "Exposed Horizontal Pipe Insulation",
+            "count": "1719"
+          },
+          {
+            "item": "Flashing",
+            "count": "1611"
+          },
+          {
+            "item": "Tar",
+            "count": "1606"
+          }
+        ],
+        "smallest": "#100-Metal jacket concealed TSI debris",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "26078"
+      }
+    },
+    {
+      "field_name": "acm_amount",
+      "display_name": "ACM_AMOUNT",
+      "data_type": "number",
+      "description": "The amount of the asbestos contained material\n",
+      "format": "standard",
+      "width": 220,
+      "position": 25,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "199806",
+        "non_null": "282293",
+        "average": "648.0728953038602",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "12990"
+          },
+          {
+            "item": "10",
+            "count": "10504"
+          },
+          {
+            "item": "2",
+            "count": "9326"
+          },
+          {
+            "item": "20",
+            "count": "8277"
+          },
+          {
+            "item": "5",
+            "count": "8090"
+          },
+          {
+            "item": "4",
+            "count": "7258"
+          },
+          {
+            "item": "3",
+            "count": "6252"
+          },
+          {
+            "item": "100",
+            "count": "5761"
+          },
+          {
+            "item": "30",
+            "count": "5615"
+          },
+          {
+            "item": "6",
+            "count": "5465"
+          },
+          {
+            "item": "12",
+            "count": "5334"
+          },
+          {
+            "item": "8",
+            "count": "5333"
+          },
+          {
+            "item": "40",
+            "count": "5055"
+          },
+          {
+            "item": "50",
+            "count": "4888"
+          },
+          {
+            "item": "60",
+            "count": "4357"
+          },
+          {
+            "item": "150",
+            "count": "3734"
+          },
+          {
+            "item": "200",
+            "count": "3582"
+          },
+          {
+            "item": "9",
+            "count": "3565"
+          },
+          {
+            "item": "15",
+            "count": "3441"
+          },
+          {
+            "item": "80",
+            "count": "3230"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "36898",
+        "count": "282293",
+        "sum": "24964416",
+        "cardinality": "4277"
+      }
+    },
+    {
+      "field_name": "acm_unit",
+      "display_name": "ACM_UNIT",
+      "data_type": "text",
+      "description": "The unit of the asbestos contained material (Square feet of Linear feet)\n",
+      "width": 196,
+      "position": 26,
+      "cached_contents": {
+        "largest": "Square Feet",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Square Feet",
+            "count": "237399"
+          },
+          {
+            "item": "Linear Feet",
+            "count": "44894"
+          }
+        ],
+        "smallest": "Linear Feet",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "abatement_type",
+      "display_name": "ABATEMENT_TYPE",
+      "data_type": "text",
+      "description": "The name of the abatement type\n",
+      "width": 268,
+      "position": 27,
+      "cached_contents": {
+        "largest": "Repair",
+        "non_null": "282291",
+        "null": "2",
+        "top": [
+          {
+            "item": "Removal",
+            "count": "272174"
+          },
+          {
+            "item": "Repair",
+            "count": "6318"
+          },
+          {
+            "item": "Cleanup",
+            "count": "2990"
+          },
+          {
+            "item": "Encapsulation",
+            "count": "644"
+          },
+          {
+            "item": "Enclosure",
+            "count": "165"
+          }
+        ],
+        "smallest": "Cleanup",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "procedure_name",
+      "display_name": "PROCEDURE_NAME",
+      "data_type": "text",
+      "description": "The name of the asbestos abatement procedure\n",
+      "width": 268,
+      "position": 28,
+      "cached_contents": {
+        "largest": "VAT Protocol in NYCHA Apt",
+        "non_null": "282293",
+        "null": "0",
+        "top": [
+          {
+            "item": "Exterior Vertical Surface",
+            "count": "72924"
+          },
+          {
+            "item": "DEP Variance",
+            "count": "69587"
+          },
+          {
+            "item": "Tent",
+            "count": "46931"
+          },
+          {
+            "item": "Interior Foam",
+            "count": "25829"
+          },
+          {
+            "item": "Exterior Foam",
+            "count": "24054"
+          },
+          {
+            "item": "VAT Protocol in NYCHA Apt",
+            "count": "13623"
+          },
+          {
+            "item": "Full Containment",
+            "count": "7946"
+          },
+          {
+            "item": "Subchapter G",
+            "count": "7717"
+          },
+          {
+            "item": "Tent & Glovebag",
+            "count": "3539"
+          },
+          {
+            "item": "Emergency Cleanup",
+            "count": "3357"
+          },
+          {
+            "item": "NYCHA VAT Spot Removal",
+            "count": "2820"
+          },
+          {
+            "item": "CODE 56 State Owned Bldgs",
+            "count": "1659"
+          },
+          {
+            "item": "Controlled Demolition",
+            "count": "975"
+          },
+          {
+            "item": "Intact Lighting Fixture",
+            "count": "868"
+          },
+          {
+            "item": "NYCHA Roof Fan Protocol",
+            "count": "389"
+          },
+          {
+            "item": "Encapsulation",
+            "count": "60"
+          },
+          {
+            "item": "Enclosure",
+            "count": "15"
+          }
+        ],
+        "smallest": "CODE 56 State Owned Bldgs",
+        "not_null": "36898",
+        "count": "282293",
+        "cardinality": "17"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "number",
+      "width": 196,
+      "position": 29,
+      "cached_contents": {
+        "largest": "40.91208",
+        "non_null": "277254",
+        "average": "40.72741105375835",
+        "null": "5039",
+        "top": [
+          {
+            "item": "40.672675",
+            "count": "3421"
+          },
+          {
+            "item": "40.813142",
+            "count": "1262"
+          },
+          {
+            "item": "40.813746",
+            "count": "1247"
+          },
+          {
+            "item": "40.740935",
+            "count": "817"
+          },
+          {
+            "item": "40.707229",
+            "count": "710"
+          },
+          {
+            "item": "40.756648",
+            "count": "688"
+          },
+          {
+            "item": "40.704553",
+            "count": "599"
+          },
+          {
+            "item": "40.770819",
+            "count": "591"
+          },
+          {
+            "item": "40.787881",
+            "count": "585"
+          },
+          {
+            "item": "40.755641",
+            "count": "576"
+          },
+          {
+            "item": "40.809929",
+            "count": "564"
+          },
+          {
+            "item": "40.734163",
+            "count": "562"
+          },
+          {
+            "item": "40.720713",
+            "count": "555"
+          },
+          {
+            "item": "40.674743",
+            "count": "543"
+          },
+          {
+            "item": "40.764193",
+            "count": "530"
+          },
+          {
+            "item": "40.787019",
+            "count": "518"
+          },
+          {
+            "item": "40.774267",
+            "count": "509"
+          },
+          {
+            "item": "40.734606",
+            "count": "507"
+          },
+          {
+            "item": "40.821294",
+            "count": "498"
+          },
+          {
+            "item": "40.688657",
+            "count": "480"
+          }
+        ],
+        "smallest": "40.499532",
+        "not_null": "36392",
+        "count": "282293",
+        "sum": "1548537.623086",
+        "cardinality": "24003"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "number",
+      "width": 208,
+      "position": 30,
+      "cached_contents": {
+        "largest": "-73.701431",
+        "non_null": "277254",
+        "average": "-73.94188390263532",
+        "null": "5039",
+        "top": [
+          {
+            "item": "-73.866436",
+            "count": "3421"
+          },
+          {
+            "item": "-73.946537",
+            "count": "1262"
+          },
+          {
+            "item": "-73.947978",
+            "count": "1247"
+          },
+          {
+            "item": "-73.974516",
+            "count": "817"
+          },
+          {
+            "item": "-73.919805",
+            "count": "710"
+          },
+          {
+            "item": "-73.974358",
+            "count": "688"
+          },
+          {
+            "item": "-74.006636",
+            "count": "599"
+          },
+          {
+            "item": "-73.947781",
+            "count": "591"
+          },
+          {
+            "item": "-73.943925",
+            "count": "585"
+          },
+          {
+            "item": "-73.975109",
+            "count": "576"
+          },
+          {
+            "item": "-73.963786",
+            "count": "564"
+          },
+          {
+            "item": "-73.988627",
+            "count": "562"
+          },
+          {
+            "item": "-73.747001",
+            "count": "554"
+          },
+          {
+            "item": "-73.96011",
+            "count": "543"
+          },
+          {
+            "item": "-73.970644",
+            "count": "530"
+          },
+          {
+            "item": "-73.963285",
+            "count": "516"
+          },
+          {
+            "item": "-73.943742",
+            "count": "512"
+          },
+          {
+            "item": "-73.864774",
+            "count": "507"
+          },
+          {
+            "item": "-73.863644",
+            "count": "498"
+          },
+          {
+            "item": "-73.962027",
+            "count": "480"
+          }
+        ],
+        "smallest": "-74.254032",
+        "not_null": "36392",
+        "count": "282293",
+        "sum": "-2811418.309746",
+        "cardinality": "23638"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "COMMUNITY_BOARD",
+      "data_type": "text",
+      "width": 280,
+      "position": 31,
+      "cached_contents": {
+        "largest": "95",
+        "non_null": "277254",
+        "null": "5039",
+        "top": [
+          {
+            "item": "1",
+            "count": "34987"
+          },
+          {
+            "item": "5",
+            "count": "29878"
+          },
+          {
+            "item": "8",
+            "count": "23931"
+          },
+          {
+            "item": "2",
+            "count": "23170"
+          },
+          {
+            "item": "7",
+            "count": "20838"
+          },
+          {
+            "item": "3",
+            "count": "20176"
+          },
+          {
+            "item": "6",
+            "count": "18770"
+          },
+          {
+            "item": "12",
+            "count": "18444"
+          },
+          {
+            "item": "9",
+            "count": "16429"
+          },
+          {
+            "item": "11",
+            "count": "15534"
+          },
+          {
+            "item": "4",
+            "count": "13105"
+          },
+          {
+            "item": "10",
+            "count": "12817"
+          },
+          {
+            "item": "13",
+            "count": "8253"
+          },
+          {
+            "item": "16",
+            "count": "6419"
+          },
+          {
+            "item": "18",
+            "count": "5295"
+          },
+          {
+            "item": "14",
+            "count": "4542"
+          },
+          {
+            "item": "15",
+            "count": "2141"
+          },
+          {
+            "item": "17",
+            "count": "1944"
+          },
+          {
+            "item": "84",
+            "count": "229"
+          },
+          {
+            "item": "64",
+            "count": "142"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "36392",
+        "count": "282293",
+        "cardinality": "28"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "COUNCIL_DISTRICT",
+      "data_type": "text",
+      "width": 292,
+      "position": 32,
+      "cached_contents": {
+        "largest": "9",
+        "non_null": "277254",
+        "null": "5039",
+        "top": [
+          {
+            "item": "4",
+            "count": "27861"
+          },
+          {
+            "item": "1",
+            "count": "13515"
+          },
+          {
+            "item": "8",
+            "count": "12743"
+          },
+          {
+            "item": "3",
+            "count": "11426"
+          },
+          {
+            "item": "6",
+            "count": "10938"
+          },
+          {
+            "item": "34",
+            "count": "10598"
+          },
+          {
+            "item": "2",
+            "count": "9828"
+          },
+          {
+            "item": "12",
+            "count": "9362"
+          },
+          {
+            "item": "42",
+            "count": "8668"
+          },
+          {
+            "item": "16",
+            "count": "8382"
+          },
+          {
+            "item": "33",
+            "count": "7958"
+          },
+          {
+            "item": "9",
+            "count": "7938"
+          },
+          {
+            "item": "18",
+            "count": "7765"
+          },
+          {
+            "item": "35",
+            "count": "7647"
+          },
+          {
+            "item": "7",
+            "count": "7411"
+          },
+          {
+            "item": "5",
+            "count": "7313"
+          },
+          {
+            "item": "41",
+            "count": "7098"
+          },
+          {
+            "item": "47",
+            "count": "5933"
+          },
+          {
+            "item": "17",
+            "count": "5783"
+          },
+          {
+            "item": "36",
+            "count": "5337"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "36392",
+        "count": "282293",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "CENSUS_TRACT",
+      "data_type": "text",
+      "width": 244,
+      "position": 33,
+      "cached_contents": {
+        "largest": "999",
+        "non_null": "277254",
+        "null": "5039",
+        "top": [
+          {
+            "item": "458",
+            "count": "4315"
+          },
+          {
+            "item": "493",
+            "count": "3862"
+          },
+          {
+            "item": "1208",
+            "count": "3445"
+          },
+          {
+            "item": "912",
+            "count": "3092"
+          },
+          {
+            "item": "224",
+            "count": "2916"
+          },
+          {
+            "item": "62",
+            "count": "2518"
+          },
+          {
+            "item": "342",
+            "count": "2415"
+          },
+          {
+            "item": "505",
+            "count": "2351"
+          },
+          {
+            "item": "193",
+            "count": "2314"
+          },
+          {
+            "item": "7",
+            "count": "2300"
+          },
+          {
+            "item": "104",
+            "count": "2246"
+          },
+          {
+            "item": "14701",
+            "count": "2237"
+          },
+          {
+            "item": "130",
+            "count": "2054"
+          },
+          {
+            "item": "151",
+            "count": "2017"
+          },
+          {
+            "item": "982",
+            "count": "1912"
+          },
+          {
+            "item": "163",
+            "count": "1887"
+          },
+          {
+            "item": "219",
+            "count": "1886"
+          },
+          {
+            "item": "173",
+            "count": "1878"
+          },
+          {
+            "item": "164",
+            "count": "1874"
+          },
+          {
+            "item": "33",
+            "count": "1820"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "36392",
+        "count": "282293",
+        "cardinality": "1299"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "width": 136,
+      "position": 34,
+      "cached_contents": {
+        "largest": "5270000501",
+        "non_null": "275692",
+        "null": "6601",
+        "top": [
+          {
+            "item": "2049050001",
+            "count": "4246"
+          },
+          {
+            "item": "3042710005",
+            "count": "3421"
+          },
+          {
+            "item": "1019330050",
+            "count": "2579"
+          },
+          {
+            "item": "3030260001",
+            "count": "1844"
+          },
+          {
+            "item": "3030270001",
+            "count": "1833"
+          },
+          {
+            "item": "3030240001",
+            "count": "1814"
+          },
+          {
+            "item": "3083290225",
+            "count": "1731"
+          },
+          {
+            "item": "3035760001",
+            "count": "1706"
+          },
+          {
+            "item": "1011540101",
+            "count": "1524"
+          },
+          {
+            "item": "1019840001",
+            "count": "1518"
+          },
+          {
+            "item": "2051410120",
+            "count": "1425"
+          },
+          {
+            "item": "1016730006",
+            "count": "1285"
+          },
+          {
+            "item": "2025270032",
+            "count": "1171"
+          },
+          {
+            "item": "1009627501",
+            "count": "1153"
+          },
+          {
+            "item": "5001960001",
+            "count": "1119"
+          },
+          {
+            "item": "3070480015",
+            "count": "1048"
+          },
+          {
+            "item": "2024160001",
+            "count": "987"
+          },
+          {
+            "item": "2029010001",
+            "count": "910"
+          },
+          {
+            "item": "2029100001",
+            "count": "907"
+          },
+          {
+            "item": "2035980017",
+            "count": "880"
+          }
+        ],
+        "smallest": "1000010010",
+        "not_null": "36254",
+        "count": "282293",
+        "cardinality": "20495"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "width": 136,
+      "position": 35,
+      "cached_contents": {
+        "largest": "Yorkville",
+        "non_null": "277254",
+        "null": "5039",
+        "top": [
+          {
+            "item": "Midtown-Midtown South",
+            "count": "13815"
+          },
+          {
+            "item": "Upper East Side-Carnegie Hill",
+            "count": "9096"
+          },
+          {
+            "item": "Upper West Side",
+            "count": "8169"
+          },
+          {
+            "item": "East New York",
+            "count": "6490"
+          },
+          {
+            "item": "Brownsville",
+            "count": "6025"
+          },
+          {
+            "item": "Central Harlem North-Polo Grounds",
+            "count": "5753"
+          },
+          {
+            "item": "West Village",
+            "count": "5735"
+          },
+          {
+            "item": "Bushwick South",
+            "count": "5694"
+          },
+          {
+            "item": "Hudson Yards-Chelsea-Flatiron-Union Square",
+            "count": "5183"
+          },
+          {
+            "item": "Battery Park City-Lower Manhattan",
+            "count": "4867"
+          },
+          {
+            "item": "East Harlem South",
+            "count": "4727"
+          },
+          {
+            "item": "Eastchester-Edenwald-Baychester",
+            "count": "4582"
+          },
+          {
+            "item": "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+            "count": "4566"
+          },
+          {
+            "item": "Lincoln Square",
+            "count": "4478"
+          },
+          {
+            "item": "Mott Haven-Port Morris",
+            "count": "4355"
+          },
+          {
+            "item": "Seagate-Coney Island",
+            "count": "4329"
+          },
+          {
+            "item": "Turtle Bay-East Midtown",
+            "count": "4274"
+          },
+          {
+            "item": "Murray Hill-Kips Bay",
+            "count": "4227"
+          },
+          {
+            "item": "Canarsie",
+            "count": "4200"
+          },
+          {
+            "item": "Soundview-Castle Hill-Clason Point-Harding Park",
+            "count": "3916"
+          }
+        ],
+        "smallest": "Airport",
+        "not_null": "36392",
+        "count": "282293",
+        "cardinality": "194"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:45:12.244111"
+}

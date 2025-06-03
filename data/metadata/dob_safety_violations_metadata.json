@@ -1,0 +1,2001 @@
+{
+  "dataset_id": "855j-jady",
+  "name": "DOB Safety Violations",
+  "description": "This data set includes violations issued on devices through the New York City Department of Buildings' DOB NOW: Safety Violations module. The data is collected because the Department of Buildings tracks violation issuance and related information. This data include items such as violations number, violations type, violation issuance data, and BIN.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "dob",
+    "boiler",
+    "elevator",
+    "safety",
+    "violation",
+    "cycle"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2023-10-18T16:22:08",
+  "updated_at": "2025-06-03T18:04:27",
+  "row_count": 1748973867,
+  "column_count": 24,
+  "download_count": 1732,
+  "view_count": 4059,
+  "columns": [
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Building Identification Number assigned by Department of City Planning",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "5901800",
+        "null": "0",
+        "top": [
+          {
+            "item": "1035381",
+            "count": "1334"
+          },
+          {
+            "item": "3347532",
+            "count": "826"
+          },
+          {
+            "item": "2096863",
+            "count": "632"
+          },
+          {
+            "item": "1047955",
+            "count": "617"
+          },
+          {
+            "item": "3343740",
+            "count": "581"
+          },
+          {
+            "item": "1014453",
+            "count": "554"
+          },
+          {
+            "item": "3837620",
+            "count": "517"
+          },
+          {
+            "item": "1086079",
+            "count": "443"
+          },
+          {
+            "item": "2005898",
+            "count": "347"
+          },
+          {
+            "item": "3347736",
+            "count": "326"
+          },
+          {
+            "item": "3335129",
+            "count": "317"
+          },
+          {
+            "item": "3257059",
+            "count": "298"
+          },
+          {
+            "item": "1088961",
+            "count": "286"
+          },
+          {
+            "item": "1086514",
+            "count": "267"
+          },
+          {
+            "item": "1809123",
+            "count": "262"
+          },
+          {
+            "item": "1035791",
+            "count": "261"
+          },
+          {
+            "item": "3327322",
+            "count": "255"
+          },
+          {
+            "item": "4456024",
+            "count": "248"
+          },
+          {
+            "item": "2127035",
+            "count": "243"
+          },
+          {
+            "item": "3057470",
+            "count": "240"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "652218",
+        "cardinality": "89389"
+      }
+    },
+    {
+      "field_name": "violation_issue_date",
+      "display_name": "Violation Issue Date",
+      "data_type": "calendar_date",
+      "description": "The date of violation issuance",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "2024-10-25T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2023-10-23T00:00:00.000",
+            "count": "58772"
+          },
+          {
+            "item": "2023-06-20T00:00:00.000",
+            "count": "45438"
+          },
+          {
+            "item": "2023-06-30T00:00:00.000",
+            "count": "45341"
+          },
+          {
+            "item": "2023-08-11T00:00:00.000",
+            "count": "37631"
+          },
+          {
+            "item": "2023-11-14T00:00:00.000",
+            "count": "27344"
+          },
+          {
+            "item": "2023-04-25T00:00:00.000",
+            "count": "25636"
+          },
+          {
+            "item": "2024-09-23T00:00:00.000",
+            "count": "18680"
+          },
+          {
+            "item": "2023-10-02T00:00:00.000",
+            "count": "17069"
+          },
+          {
+            "item": "2024-10-11T00:00:00.000",
+            "count": "15533"
+          },
+          {
+            "item": "2019-11-08T00:00:00.000",
+            "count": "14062"
+          },
+          {
+            "item": "2011-12-13T00:00:00.000",
+            "count": "13863"
+          },
+          {
+            "item": "2024-09-11T00:00:00.000",
+            "count": "13700"
+          },
+          {
+            "item": "2018-04-06T00:00:00.000",
+            "count": "13458"
+          },
+          {
+            "item": "2017-02-24T00:00:00.000",
+            "count": "11094"
+          },
+          {
+            "item": "2014-05-15T00:00:00.000",
+            "count": "11086"
+          },
+          {
+            "item": "2009-12-31T00:00:00.000",
+            "count": "11070"
+          },
+          {
+            "item": "2023-08-25T00:00:00.000",
+            "count": "10915"
+          },
+          {
+            "item": "2015-03-03T00:00:00.000",
+            "count": "10683"
+          },
+          {
+            "item": "2009-01-01T00:00:00.000",
+            "count": "10325"
+          },
+          {
+            "item": "1995-08-29T00:00:00.000",
+            "count": "9922"
+          }
+        ],
+        "smallest": "1989-10-12T00:00:00.000",
+        "count": "652218",
+        "cardinality": "123"
+      }
+    },
+    {
+      "field_name": "violation_number",
+      "display_name": "Violation Number",
+      "data_type": "text",
+      "description": "The violation identifier",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "VIO-FTF-VT-PER-202312-0006945",
+        "null": "0",
+        "top": [
+          {
+            "item": "081512EACC100968",
+            "count": "54"
+          },
+          {
+            "item": "100810VCAT101922",
+            "count": "54"
+          },
+          {
+            "item": "100810VCAT100794",
+            "count": "51"
+          },
+          {
+            "item": "100112EVCAT100579",
+            "count": "51"
+          },
+          {
+            "item": "111210JVIOS00095",
+            "count": "44"
+          },
+          {
+            "item": "032103LL108101077",
+            "count": "43"
+          },
+          {
+            "item": "022709LL108101233",
+            "count": "42"
+          },
+          {
+            "item": "100112EVCAT101108",
+            "count": "40"
+          },
+          {
+            "item": "040207LL108101127",
+            "count": "40"
+          },
+          {
+            "item": "111904LL108100936",
+            "count": "40"
+          },
+          {
+            "item": "121311EVCAT101169",
+            "count": "40"
+          },
+          {
+            "item": "100810VCAT101620",
+            "count": "40"
+          },
+          {
+            "item": "032108LL108101182",
+            "count": "40"
+          },
+          {
+            "item": "100105LL108101419",
+            "count": "40"
+          },
+          {
+            "item": "022709LL108100954",
+            "count": "40"
+          },
+          {
+            "item": "100810VCAT102072",
+            "count": "39"
+          },
+          {
+            "item": "042104LL108100989",
+            "count": "39"
+          },
+          {
+            "item": "121311JVIOS00130",
+            "count": "39"
+          },
+          {
+            "item": "032103LL108100836",
+            "count": "39"
+          },
+          {
+            "item": "030801LL108100984",
+            "count": "39"
+          }
+        ],
+        "smallest": "010109B08634",
+        "count": "652218",
+        "cardinality": "638730"
+      }
+    },
+    {
+      "field_name": "violation_type",
+      "display_name": "Violation Type",
+      "data_type": "text",
+      "description": "The type of violation issued",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "VCAT1",
+        "null": "0",
+        "top": [
+          {
+            "item": "LBLVIO",
+            "count": "223692"
+          },
+          {
+            "item": "LL6291",
+            "count": "145901"
+          },
+          {
+            "item": "FTC-VT-CAT1-CO",
+            "count": "59736"
+          },
+          {
+            "item": "FTF-VT-CAT1-CO",
+            "count": "34255"
+          },
+          {
+            "item": "FTC-BE-EXT-LP",
+            "count": "31198"
+          },
+          {
+            "item": "ACC1",
+            "count": "27191"
+          },
+          {
+            "item": "FTC-VT-PER-CO",
+            "count": "22363"
+          },
+          {
+            "item": "EVCAT1",
+            "count": "18528"
+          },
+          {
+            "item": "HBLVIO",
+            "count": "17565"
+          },
+          {
+            "item": "LL1081",
+            "count": "17446"
+          },
+          {
+            "item": "FTF-VT-PER-CO",
+            "count": "16985"
+          },
+          {
+            "item": "FTF-VT-CAT1-NJ",
+            "count": "7166"
+          },
+          {
+            "item": "FTC-VT-CAT1-HA",
+            "count": "6673"
+          },
+          {
+            "item": "EVCAT5",
+            "count": "4402"
+          },
+          {
+            "item": "JVIOS",
+            "count": "3613"
+          },
+          {
+            "item": "VCAT1",
+            "count": "3576"
+          },
+          {
+            "item": "FTF-VT-CAT1-HA",
+            "count": "3294"
+          },
+          {
+            "item": "E",
+            "count": "2142"
+          },
+          {
+            "item": "FTC-VT-PER-HA",
+            "count": "1537"
+          },
+          {
+            "item": "FTC-VT-CAT1-NJ",
+            "count": "1065"
+          }
+        ],
+        "smallest": "ACC1",
+        "count": "652218",
+        "cardinality": "31"
+      }
+    },
+    {
+      "field_name": "violation_remarks",
+      "display_name": "Violation Remarks",
+      "data_type": "text",
+      "description": "Note recorded about the violation",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "416336",
+        "largest": "WAS DISMISSED AN ERROR",
+        "null": "235882",
+        "top": [
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2022 INSPECTION REPORT",
+            "count": "23375"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2018 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "21507"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2021 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "20958"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2022 Cat1 Test Affirmation of Correction",
+            "count": "20801"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2020 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "19679"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2019 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "19120"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2022 Periodic Inspection Affirmation of Correction",
+            "count": "17069"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2017 INSPECTION REPORT",
+            "count": "17033"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2023 External Low Pressure Inspection Report",
+            "count": "16952"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2016 INSPECTION REPORT",
+            "count": "13433"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2015 INSPECTION REPORT",
+            "count": "11079"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2022 Periodic Inspection Report",
+            "count": "10946"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2010 INSPECTION REPORT",
+            "count": "10912"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2012 INSPECTION REPORT",
+            "count": "10869"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2020 Cat1 Test Affirmation of Correction",
+            "count": "10866"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2013 INSPECTION REPORT",
+            "count": "9988"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2019 Cat1 Test Affirmation of Correction",
+            "count": "9256"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2021 Cat1 Test Affirmation of Correction",
+            "count": "9251"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2011 INSPECTION REPORT",
+            "count": "9135"
+          },
+          {
+            "item": "Violation Issued-Failure To File 2020 Cat1 Test Report",
+            "count": "8978"
+          }
+        ],
+        "smallest": "00097895",
+        "count": "652218",
+        "cardinality": "219"
+      }
+    },
+    {
+      "field_name": "violation_status",
+      "display_name": "Violation Status",
+      "data_type": "text",
+      "description": "The status of the violation",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "Dismissed",
+        "null": "0",
+        "top": [
+          {
+            "item": "Active",
+            "count": "492364"
+          },
+          {
+            "item": "Dismissed",
+            "count": "159854"
+          }
+        ],
+        "smallest": "Active",
+        "count": "652218",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "device_number",
+      "display_name": "Device Number",
+      "data_type": "text",
+      "description": "The devices identification number",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "650671",
+        "largest": "5W99",
+        "null": "1547",
+        "top": [
+          {
+            "item": "1P7287",
+            "count": "40"
+          },
+          {
+            "item": "3F2717",
+            "count": "39"
+          },
+          {
+            "item": "1F4871",
+            "count": "39"
+          },
+          {
+            "item": "1P10393",
+            "count": "39"
+          },
+          {
+            "item": "1P28109",
+            "count": "39"
+          },
+          {
+            "item": "3P3572",
+            "count": "39"
+          },
+          {
+            "item": "3P5007",
+            "count": "39"
+          },
+          {
+            "item": "3P2004",
+            "count": "39"
+          },
+          {
+            "item": "4F60457",
+            "count": "39"
+          },
+          {
+            "item": "3P796",
+            "count": "39"
+          },
+          {
+            "item": "3P3840",
+            "count": "38"
+          },
+          {
+            "item": "2F399",
+            "count": "38"
+          },
+          {
+            "item": "3F5317",
+            "count": "38"
+          },
+          {
+            "item": "1P7298",
+            "count": "38"
+          },
+          {
+            "item": "1P7293",
+            "count": "38"
+          },
+          {
+            "item": "1P7290",
+            "count": "38"
+          },
+          {
+            "item": "3P2891",
+            "count": "38"
+          },
+          {
+            "item": "2P2409",
+            "count": "38"
+          },
+          {
+            "item": "1P7297",
+            "count": "38"
+          },
+          {
+            "item": "3F5039",
+            "count": "38"
+          }
+        ],
+        "smallest": "10000000027N0001",
+        "count": "652218",
+        "cardinality": "157840"
+      }
+    },
+    {
+      "field_name": "device_type",
+      "display_name": "Device Type",
+      "data_type": "text",
+      "description": "The specific type of device",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "Elevators",
+        "null": "0",
+        "top": [
+          {
+            "item": "Boiler",
+            "count": "419502"
+          },
+          {
+            "item": "Elevators",
+            "count": "232716"
+          }
+        ],
+        "smallest": "Boiler",
+        "count": "652218",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "cycle_end_date",
+      "display_name": "Cycle End Date",
+      "data_type": "calendar_date",
+      "description": "The end date of the compliance cycle",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "652208",
+        "largest": "2023-12-31T00:00:00.000",
+        "null": "10",
+        "top": [
+          {
+            "item": "2022-12-31T00:00:00.000",
+            "count": "87143"
+          },
+          {
+            "item": "2023-12-31T00:00:00.000",
+            "count": "52858"
+          },
+          {
+            "item": "2020-12-31T00:00:00.000",
+            "count": "48194"
+          },
+          {
+            "item": "2018-12-31T00:00:00.000",
+            "count": "45527"
+          },
+          {
+            "item": "2021-12-31T00:00:00.000",
+            "count": "44589"
+          },
+          {
+            "item": "2019-12-31T00:00:00.000",
+            "count": "43011"
+          },
+          {
+            "item": "2017-12-31T00:00:00.000",
+            "count": "31311"
+          },
+          {
+            "item": "2016-12-31T00:00:00.000",
+            "count": "22225"
+          },
+          {
+            "item": "2015-12-31T00:00:00.000",
+            "count": "20512"
+          },
+          {
+            "item": "2012-12-31T00:00:00.000",
+            "count": "16709"
+          },
+          {
+            "item": "2014-12-31T00:00:00.000",
+            "count": "16134"
+          },
+          {
+            "item": "2013-12-31T00:00:00.000",
+            "count": "13031"
+          },
+          {
+            "item": "1993-12-31T00:00:00.000",
+            "count": "12366"
+          },
+          {
+            "item": "1992-12-31T00:00:00.000",
+            "count": "11695"
+          },
+          {
+            "item": "2008-12-31T00:00:00.000",
+            "count": "11657"
+          },
+          {
+            "item": "2009-11-15T00:00:00.000",
+            "count": "11070"
+          },
+          {
+            "item": "2010-11-15T00:00:00.000",
+            "count": "10935"
+          },
+          {
+            "item": "2007-12-31T00:00:00.000",
+            "count": "10909"
+          },
+          {
+            "item": "1994-12-31T00:00:00.000",
+            "count": "10592"
+          },
+          {
+            "item": "2006-12-31T00:00:00.000",
+            "count": "9958"
+          }
+        ],
+        "smallest": "1988-12-31T00:00:00.000",
+        "count": "652218",
+        "cardinality": "66"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "The borough where the violating condition was observed",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "631467",
+        "largest": "Staten Island",
+        "null": "20751",
+        "top": [
+          {
+            "item": "Brooklyn",
+            "count": "226907"
+          },
+          {
+            "item": "Manhattan",
+            "count": "189654"
+          },
+          {
+            "item": "Queens",
+            "count": "122182"
+          },
+          {
+            "item": "Bronx",
+            "count": "75795"
+          },
+          {
+            "item": "Staten Island",
+            "count": "16929"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "652218",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "number",
+      "description": "The block where the violating condition was observed",
+      "position": 11,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "629517",
+        "largest": "27000",
+        "null": "22701",
+        "top": [
+          {
+            "item": "1280",
+            "count": "1781"
+          },
+          {
+            "item": "5778",
+            "count": "1299"
+          },
+          {
+            "item": "2605",
+            "count": "959"
+          },
+          {
+            "item": "787",
+            "count": "945"
+          },
+          {
+            "item": "16",
+            "count": "856"
+          },
+          {
+            "item": "1515",
+            "count": "792"
+          },
+          {
+            "item": "1957",
+            "count": "786"
+          },
+          {
+            "item": "1924",
+            "count": "733"
+          },
+          {
+            "item": "1509",
+            "count": "730"
+          },
+          {
+            "item": "0",
+            "count": "725"
+          },
+          {
+            "item": "788",
+            "count": "715"
+          },
+          {
+            "item": "1860",
+            "count": "708"
+          },
+          {
+            "item": "5141",
+            "count": "704"
+          },
+          {
+            "item": "140",
+            "count": "662"
+          },
+          {
+            "item": "1171",
+            "count": "645"
+          },
+          {
+            "item": "2023",
+            "count": "595"
+          },
+          {
+            "item": "781",
+            "count": "590"
+          },
+          {
+            "item": "1378",
+            "count": "569"
+          },
+          {
+            "item": "1377",
+            "count": "563"
+          },
+          {
+            "item": "1384",
+            "count": "563"
+          }
+        ],
+        "smallest": "0",
+        "count": "652218",
+        "cardinality": "9325"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "number",
+      "description": "The lot where the violating condition was observed",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "629517",
+        "largest": "9999",
+        "null": "22701",
+        "top": [
+          {
+            "item": "1",
+            "count": "76092"
+          },
+          {
+            "item": "7501",
+            "count": "30215"
+          },
+          {
+            "item": "7502",
+            "count": "11408"
+          },
+          {
+            "item": "10",
+            "count": "11219"
+          },
+          {
+            "item": "5",
+            "count": "10597"
+          },
+          {
+            "item": "6",
+            "count": "10180"
+          },
+          {
+            "item": "2",
+            "count": "10171"
+          },
+          {
+            "item": "40",
+            "count": "9566"
+          },
+          {
+            "item": "7",
+            "count": "9348"
+          },
+          {
+            "item": "4",
+            "count": "8674"
+          },
+          {
+            "item": "3",
+            "count": "8644"
+          },
+          {
+            "item": "20",
+            "count": "8612"
+          },
+          {
+            "item": "8",
+            "count": "8476"
+          },
+          {
+            "item": "11",
+            "count": "8364"
+          },
+          {
+            "item": "30",
+            "count": "8362"
+          },
+          {
+            "item": "33",
+            "count": "8267"
+          },
+          {
+            "item": "21",
+            "count": "8244"
+          },
+          {
+            "item": "9",
+            "count": "7999"
+          },
+          {
+            "item": "29",
+            "count": "7984"
+          },
+          {
+            "item": "12",
+            "count": "7630"
+          }
+        ],
+        "smallest": "0",
+        "count": "652218",
+        "cardinality": "735"
+      }
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "House Number",
+      "data_type": "text",
+      "description": "The address number where the violating condition was observed",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "631467",
+        "largest": "999",
+        "null": "20751",
+        "top": [
+          {
+            "item": "1",
+            "count": "3036"
+          },
+          {
+            "item": "2",
+            "count": "2146"
+          },
+          {
+            "item": "71",
+            "count": "1978"
+          },
+          {
+            "item": "100",
+            "count": "1867"
+          },
+          {
+            "item": "200",
+            "count": "1497"
+          },
+          {
+            "item": "15",
+            "count": "1481"
+          },
+          {
+            "item": "114",
+            "count": "1470"
+          },
+          {
+            "item": "101",
+            "count": "1400"
+          },
+          {
+            "item": "20",
+            "count": "1358"
+          },
+          {
+            "item": "11",
+            "count": "1314"
+          },
+          {
+            "item": "105",
+            "count": "1252"
+          },
+          {
+            "item": "50",
+            "count": "1238"
+          },
+          {
+            "item": "121",
+            "count": "1222"
+          },
+          {
+            "item": "55",
+            "count": "1220"
+          },
+          {
+            "item": "9",
+            "count": "1219"
+          },
+          {
+            "item": "40",
+            "count": "1217"
+          },
+          {
+            "item": "251",
+            "count": "1198"
+          },
+          {
+            "item": "120",
+            "count": "1175"
+          },
+          {
+            "item": "135",
+            "count": "1166"
+          },
+          {
+            "item": "16",
+            "count": "1141"
+          }
+        ],
+        "smallest": "1",
+        "count": "652218",
+        "cardinality": "13827"
+      }
+    },
+    {
+      "field_name": "street",
+      "display_name": "Street",
+      "data_type": "text",
+      "description": "The address name where the violating condition was observed",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "631467",
+        "largest": "ZOO PATH",
+        "null": "20751",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "12005"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "7497"
+          },
+          {
+            "item": "JAMAICA AVENUE",
+            "count": "6868"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "6416"
+          },
+          {
+            "item": "NOSTRAND AVENUE",
+            "count": "4593"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "4252"
+          },
+          {
+            "item": "FULTON STREET",
+            "count": "4166"
+          },
+          {
+            "item": "FLATBUSH AVENUE",
+            "count": "4099"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "3903"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "3390"
+          },
+          {
+            "item": "2 AVENUE",
+            "count": "3271"
+          },
+          {
+            "item": "CHURCH AVENUE",
+            "count": "3161"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "3146"
+          },
+          {
+            "item": "BEDFORD AVENUE",
+            "count": "3073"
+          },
+          {
+            "item": "AMSTERDAM AVENUE",
+            "count": "2970"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "2967"
+          },
+          {
+            "item": "LIBERTY AVENUE",
+            "count": "2930"
+          },
+          {
+            "item": "1 AVENUE",
+            "count": "2915"
+          },
+          {
+            "item": "ATLANTIC AVENUE",
+            "count": "2841"
+          },
+          {
+            "item": "MYRTLE AVENUE",
+            "count": "2807"
+          }
+        ],
+        "smallest": "100 AVENUE",
+        "count": "652218",
+        "cardinality": "5265"
+      }
+    },
+    {
+      "field_name": "city",
+      "display_name": "City",
+      "data_type": "text",
+      "description": "The city where the violating condition was observed",
+      "position": 15,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "New York",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York",
+            "count": "652218"
+          }
+        ],
+        "smallest": "New York",
+        "count": "652218",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "state",
+      "display_name": "State",
+      "data_type": "text",
+      "description": "The state where the violating condition was observed",
+      "position": 16,
+      "cached_contents": {
+        "non_null": "652218",
+        "largest": "New York",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York",
+            "count": "652218"
+          }
+        ],
+        "smallest": "New York",
+        "count": "652218",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "zip",
+      "display_name": "Postcode",
+      "data_type": "text",
+      "description": "The postal code where the violating condition was observed",
+      "position": 17,
+      "cached_contents": {
+        "non_null": "630570",
+        "largest": "11697",
+        "null": "21648",
+        "top": [
+          {
+            "item": "11201",
+            "count": "10625"
+          },
+          {
+            "item": "11211",
+            "count": "10453"
+          },
+          {
+            "item": "11216",
+            "count": "10257"
+          },
+          {
+            "item": "11226",
+            "count": "9418"
+          },
+          {
+            "item": "11221",
+            "count": "9375"
+          },
+          {
+            "item": "11206",
+            "count": "9343"
+          },
+          {
+            "item": "11385",
+            "count": "9319"
+          },
+          {
+            "item": "11101",
+            "count": "8774"
+          },
+          {
+            "item": "11237",
+            "count": "8710"
+          },
+          {
+            "item": "10013",
+            "count": "8656"
+          },
+          {
+            "item": "11220",
+            "count": "8431"
+          },
+          {
+            "item": "10027",
+            "count": "8301"
+          },
+          {
+            "item": "11219",
+            "count": "8162"
+          },
+          {
+            "item": "11207",
+            "count": "7969"
+          },
+          {
+            "item": "11238",
+            "count": "7829"
+          },
+          {
+            "item": "10011",
+            "count": "7777"
+          },
+          {
+            "item": "10001",
+            "count": "7648"
+          },
+          {
+            "item": "11215",
+            "count": "7626"
+          },
+          {
+            "item": "11213",
+            "count": "7568"
+          },
+          {
+            "item": "11233",
+            "count": "7554"
+          }
+        ],
+        "smallest": "10000",
+        "count": "652218",
+        "cardinality": "221"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "Latitude of the site's location",
+      "position": 18,
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "40.912886",
+        "null": "22165",
+        "top": [
+          {
+            "item": "40.752301",
+            "count": "1334"
+          },
+          {
+            "item": "40.645338",
+            "count": "1124"
+          },
+          {
+            "item": "40.794577",
+            "count": "632"
+          },
+          {
+            "item": "40.780566",
+            "count": "617"
+          },
+          {
+            "item": "40.753629",
+            "count": "615"
+          },
+          {
+            "item": "40.692115",
+            "count": "581"
+          },
+          {
+            "item": "40.663665",
+            "count": "518"
+          },
+          {
+            "item": "40.749196",
+            "count": "457"
+          },
+          {
+            "item": "40.694858",
+            "count": "326"
+          },
+          {
+            "item": "40.69802",
+            "count": "317"
+          },
+          {
+            "item": "40.753045",
+            "count": "286"
+          },
+          {
+            "item": "40.740102",
+            "count": "267"
+          },
+          {
+            "item": "40.762818",
+            "count": "261"
+          },
+          {
+            "item": "40.76165",
+            "count": "257"
+          },
+          {
+            "item": "40.631818",
+            "count": "255"
+          },
+          {
+            "item": "40.664794",
+            "count": "248"
+          },
+          {
+            "item": "40.827193",
+            "count": "243"
+          },
+          {
+            "item": "40.683103",
+            "count": "242"
+          },
+          {
+            "item": "40.6905",
+            "count": "240"
+          },
+          {
+            "item": "40.683471",
+            "count": "240"
+          }
+        ],
+        "smallest": "40.499568",
+        "count": "652218",
+        "cardinality": "72455"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "Longitude of the site's location",
+      "position": 19,
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "-73.700384",
+        "null": "22165",
+        "top": [
+          {
+            "item": "-73.978081",
+            "count": "1338"
+          },
+          {
+            "item": "-74.022864",
+            "count": "1124"
+          },
+          {
+            "item": "-73.884162",
+            "count": "632"
+          },
+          {
+            "item": "-73.956046",
+            "count": "617"
+          },
+          {
+            "item": "-73.960658",
+            "count": "581"
+          },
+          {
+            "item": "-73.990959",
+            "count": "554"
+          },
+          {
+            "item": "-73.935418",
+            "count": "518"
+          },
+          {
+            "item": "-73.991948",
+            "count": "446"
+          },
+          {
+            "item": "-73.98718",
+            "count": "335"
+          },
+          {
+            "item": "-73.974986",
+            "count": "317"
+          },
+          {
+            "item": "-74.000282",
+            "count": "286"
+          },
+          {
+            "item": "-73.984079",
+            "count": "267"
+          },
+          {
+            "item": "-73.973641",
+            "count": "261"
+          },
+          {
+            "item": "-73.952656",
+            "count": "255"
+          },
+          {
+            "item": "-73.992572",
+            "count": "249"
+          },
+          {
+            "item": "-73.817923",
+            "count": "248"
+          },
+          {
+            "item": "-73.975688",
+            "count": "248"
+          },
+          {
+            "item": "-73.919668",
+            "count": "243"
+          },
+          {
+            "item": "-73.991663",
+            "count": "231"
+          },
+          {
+            "item": "-73.889213",
+            "count": "230"
+          }
+        ],
+        "smallest": "-74.253134",
+        "count": "652218",
+        "cardinality": "68445"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, \ufeffwho can be as young as 16\ufeff, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District. Note: as a column header, \u201cCommunity Board\u201d (which refers to a group of Board members) is often used to mean \u201cCommunity District\u201d (the geographical area) instead.",
+      "position": 20,
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "595",
+        "null": "22165",
+        "top": [
+          {
+            "item": "105",
+            "count": "30360"
+          },
+          {
+            "item": "301",
+            "count": "26827"
+          },
+          {
+            "item": "108",
+            "count": "22274"
+          },
+          {
+            "item": "303",
+            "count": "21964"
+          },
+          {
+            "item": "302",
+            "count": "19382"
+          },
+          {
+            "item": "401",
+            "count": "17777"
+          },
+          {
+            "item": "107",
+            "count": "17518"
+          },
+          {
+            "item": "110",
+            "count": "16567"
+          },
+          {
+            "item": "102",
+            "count": "16306"
+          },
+          {
+            "item": "104",
+            "count": "16266"
+          },
+          {
+            "item": "304",
+            "count": "15306"
+          },
+          {
+            "item": "312",
+            "count": "15098"
+          },
+          {
+            "item": "103",
+            "count": "14525"
+          },
+          {
+            "item": "308",
+            "count": "14254"
+          },
+          {
+            "item": "407",
+            "count": "13555"
+          },
+          {
+            "item": "106",
+            "count": "13310"
+          },
+          {
+            "item": "306",
+            "count": "13138"
+          },
+          {
+            "item": "101",
+            "count": "12944"
+          },
+          {
+            "item": "412",
+            "count": "12931"
+          },
+          {
+            "item": "317",
+            "count": "12434"
+          }
+        ],
+        "smallest": "101",
+        "count": "652218",
+        "cardinality": "70"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District.",
+      "position": 21,
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "51",
+        "null": "22165",
+        "top": [
+          {
+            "item": "4",
+            "count": "34316"
+          },
+          {
+            "item": "3",
+            "count": "31842"
+          },
+          {
+            "item": "33",
+            "count": "25999"
+          },
+          {
+            "item": "1",
+            "count": "25824"
+          },
+          {
+            "item": "34",
+            "count": "23966"
+          },
+          {
+            "item": "9",
+            "count": "21440"
+          },
+          {
+            "item": "36",
+            "count": "20557"
+          },
+          {
+            "item": "2",
+            "count": "20155"
+          },
+          {
+            "item": "35",
+            "count": "19759"
+          },
+          {
+            "item": "39",
+            "count": "16436"
+          },
+          {
+            "item": "37",
+            "count": "16346"
+          },
+          {
+            "item": "38",
+            "count": "16202"
+          },
+          {
+            "item": "8",
+            "count": "16134"
+          },
+          {
+            "item": "6",
+            "count": "15422"
+          },
+          {
+            "item": "41",
+            "count": "15115"
+          },
+          {
+            "item": "26",
+            "count": "14953"
+          },
+          {
+            "item": "40",
+            "count": "13535"
+          },
+          {
+            "item": "22",
+            "count": "13083"
+          },
+          {
+            "item": "44",
+            "count": "12740"
+          },
+          {
+            "item": "7",
+            "count": "12407"
+          }
+        ],
+        "smallest": "1",
+        "count": "652218",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The BBL (Borough, Block, and Lot) is a unique combination of three numeric codes - a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) -- designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+      "position": 22,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "622406",
+        "largest": "5270000501",
+        "null": "29812",
+        "top": [
+          {
+            "item": "1012800001",
+            "count": "1334"
+          },
+          {
+            "item": "3057780001",
+            "count": "1296"
+          },
+          {
+            "item": "2026050040",
+            "count": "933"
+          },
+          {
+            "item": "1015157502",
+            "count": "617"
+          },
+          {
+            "item": "3019247501",
+            "count": "581"
+          },
+          {
+            "item": "1007870001",
+            "count": "554"
+          },
+          {
+            "item": "3015097501",
+            "count": "511"
+          },
+          {
+            "item": "1007810010",
+            "count": "443"
+          },
+          {
+            "item": "2024440001",
+            "count": "409"
+          },
+          {
+            "item": "3075560150",
+            "count": "396"
+          },
+          {
+            "item": "3048290001",
+            "count": "381"
+          },
+          {
+            "item": "3022447501",
+            "count": "375"
+          },
+          {
+            "item": "1001670001",
+            "count": "369"
+          },
+          {
+            "item": "3020230001",
+            "count": "360"
+          },
+          {
+            "item": "4065170001",
+            "count": "330"
+          },
+          {
+            "item": "3001407502",
+            "count": "326"
+          },
+          {
+            "item": "1007027501",
+            "count": "286"
+          },
+          {
+            "item": "1008800024",
+            "count": "267"
+          },
+          {
+            "item": "4019397501",
+            "count": "264"
+          },
+          {
+            "item": "1012920066",
+            "count": "261"
+          }
+        ],
+        "smallest": "0",
+        "count": "652218",
+        "cardinality": "80919"
+      }
+    },
+    {
+      "field_name": "census_tract_2020_",
+      "display_name": "Census Tract (2020)",
+      "data_type": "number",
+      "description": "The Census Tract (Census 2020) field indicates the U.S. Census Tract where the site is located. Please note that as part of the geocoding process, leading and trailing zeros are dropped",
+      "position": 23,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "157903",
+        "null": "22165",
+        "top": [
+          {
+            "item": "33",
+            "count": "3277"
+          },
+          {
+            "item": "21",
+            "count": "2931"
+          },
+          {
+            "item": "39",
+            "count": "2812"
+          },
+          {
+            "item": "122",
+            "count": "2534"
+          },
+          {
+            "item": "92",
+            "count": "2509"
+          },
+          {
+            "item": "43",
+            "count": "2498"
+          },
+          {
+            "item": "65",
+            "count": "2491"
+          },
+          {
+            "item": "7",
+            "count": "2455"
+          },
+          {
+            "item": "109",
+            "count": "2399"
+          },
+          {
+            "item": "101",
+            "count": "2375"
+          },
+          {
+            "item": "96",
+            "count": "2327"
+          },
+          {
+            "item": "37",
+            "count": "2306"
+          },
+          {
+            "item": "113",
+            "count": "2297"
+          },
+          {
+            "item": "41",
+            "count": "2121"
+          },
+          {
+            "item": "9",
+            "count": "2114"
+          },
+          {
+            "item": "232",
+            "count": "2106"
+          },
+          {
+            "item": "228",
+            "count": "2076"
+          },
+          {
+            "item": "67",
+            "count": "2061"
+          },
+          {
+            "item": "159",
+            "count": "2056"
+          },
+          {
+            "item": "222",
+            "count": "2032"
+          }
+        ],
+        "smallest": "1",
+        "count": "652218",
+        "cardinality": "1485"
+      }
+    },
+    {
+      "field_name": "neighborhood_tabulation_area_nta_2020_",
+      "display_name": "Neighborhood Tabulation Area (NTA) (2020)",
+      "data_type": "text",
+      "description": "NTAs are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area.. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+      "position": 24,
+      "cached_contents": {
+        "non_null": "630053",
+        "largest": "Yankee Stadium-Macombs Dam Park",
+        "null": "22165",
+        "top": [
+          {
+            "item": "Midtown-Times Square",
+            "count": "16993"
+          },
+          {
+            "item": "Upper East Side-Carnegie Hill",
+            "count": "12637"
+          },
+          {
+            "item": "Crown Heights (North)",
+            "count": "11346"
+          },
+          {
+            "item": "Bedford-Stuyvesant (West)",
+            "count": "11283"
+          },
+          {
+            "item": "Bedford-Stuyvesant (East)",
+            "count": "9996"
+          },
+          {
+            "item": "Midtown South-Flatiron-Union Square",
+            "count": "9786"
+          },
+          {
+            "item": "Chelsea-Hudson Yards",
+            "count": "9548"
+          },
+          {
+            "item": "Harlem (North)",
+            "count": "9116"
+          },
+          {
+            "item": "Bushwick (West)",
+            "count": "8932"
+          },
+          {
+            "item": "Borough Park",
+            "count": "8759"
+          },
+          {
+            "item": "Upper West Side (Central)",
+            "count": "8308"
+          },
+          {
+            "item": "Williamsburg",
+            "count": "7739"
+          },
+          {
+            "item": "East Williamsburg",
+            "count": "7662"
+          },
+          {
+            "item": "Sunset Park (West)",
+            "count": "7648"
+          },
+          {
+            "item": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+            "count": "7490"
+          },
+          {
+            "item": "East Midtown-Turtle Bay",
+            "count": "7440"
+          },
+          {
+            "item": "Harlem (South)",
+            "count": "7439"
+          },
+          {
+            "item": "East Harlem (North)",
+            "count": "7140"
+          },
+          {
+            "item": "East Village",
+            "count": "7061"
+          },
+          {
+            "item": "Ridgewood",
+            "count": "6935"
+          }
+        ],
+        "smallest": "Allerton",
+        "count": "652218",
+        "cardinality": "245"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:59.431139"
+}

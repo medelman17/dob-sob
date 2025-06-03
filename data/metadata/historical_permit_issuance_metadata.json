@@ -1,0 +1,4955 @@
+{
+  "dataset_id": "ipu4-2q9a",
+  "name": "DOB Permit Issuance",
+  "description": "The Department of Buildings (DOB) issues permits for construction and demolition activities in the City of New York. The construction industry must submit an application to DOB with details of the construction job they would like to complete. The primary types of application, aka job type, are: New Building, Demolition, and Alterations Type 1, 2, and 3. Each job type can have multiple work types, such as general construction, boiler, elevator, and plumbing. Each work type will receive a separate permit. (See the DOB Job Application Filings dataset for information about each job application.) Each row/record in this dataset represents the life cycle of one permit for one work type. The dataset is updated daily with new records, and each existing record will be updated as the permit application moves through the approval process to reflect the latest status of the application.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "permit",
+    "dob",
+    "buildings"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2013-04-18T15:18:56",
+  "updated_at": "2025-06-03T20:02:30",
+  "row_count": 1748980950,
+  "column_count": 60,
+  "download_count": 99687,
+  "view_count": 520568,
+  "columns": [
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island",
+      "width": 128,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "STATEN ISLAND",
+        "null": "0",
+        "top": [
+          {
+            "item": "MANHATTAN",
+            "count": "1621496"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "943809"
+          },
+          {
+            "item": "QUEENS",
+            "count": "838721"
+          },
+          {
+            "item": "BRONX",
+            "count": "342765"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "232312"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "3979103",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "bin__",
+      "display_name": "Bin #",
+      "data_type": "text",
+      "description": "Number assigned by City Planning to a specific building",
+      "width": 94,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "5869568",
+        "null": "0",
+        "top": [
+          {
+            "item": "1015862",
+            "count": "3469"
+          },
+          {
+            "item": "1014387",
+            "count": "3113"
+          },
+          {
+            "item": "1076262",
+            "count": "2844"
+          },
+          {
+            "item": "1036082",
+            "count": "2244"
+          },
+          {
+            "item": "1083346",
+            "count": "2214"
+          },
+          {
+            "item": "5039658",
+            "count": "2208"
+          },
+          {
+            "item": "1000058",
+            "count": "2183"
+          },
+          {
+            "item": "1036460",
+            "count": "1934"
+          },
+          {
+            "item": "4045999",
+            "count": "1914"
+          },
+          {
+            "item": "1013043",
+            "count": "1908"
+          },
+          {
+            "item": "1036465",
+            "count": "1835"
+          },
+          {
+            "item": "1813346",
+            "count": "1767"
+          },
+          {
+            "item": "1082816",
+            "count": "1759"
+          },
+          {
+            "item": "1000005",
+            "count": "1704"
+          },
+          {
+            "item": "1022706",
+            "count": "1696"
+          },
+          {
+            "item": "1035441",
+            "count": "1653"
+          },
+          {
+            "item": "1076268",
+            "count": "1648"
+          },
+          {
+            "item": "1085682",
+            "count": "1639"
+          },
+          {
+            "item": "1085735",
+            "count": "1624"
+          },
+          {
+            "item": "1083860",
+            "count": "1619"
+          }
+        ],
+        "smallest": "1000003",
+        "count": "3979103",
+        "cardinality": "409473"
+      }
+    },
+    {
+      "field_name": "house__",
+      "display_name": "House #",
+      "data_type": "text",
+      "description": "House Number of Residence or Commercial Property",
+      "width": 90,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "3979099",
+        "largest": "PO1250",
+        "null": "4",
+        "top": [
+          {
+            "item": "1",
+            "count": "31042"
+          },
+          {
+            "item": "200",
+            "count": "23541"
+          },
+          {
+            "item": "100",
+            "count": "17140"
+          },
+          {
+            "item": "40",
+            "count": "15054"
+          },
+          {
+            "item": "30",
+            "count": "14977"
+          },
+          {
+            "item": "11",
+            "count": "14252"
+          },
+          {
+            "item": "10",
+            "count": "14238"
+          },
+          {
+            "item": "55",
+            "count": "14116"
+          },
+          {
+            "item": "15",
+            "count": "13872"
+          },
+          {
+            "item": "150",
+            "count": "13609"
+          },
+          {
+            "item": "50",
+            "count": "13432"
+          },
+          {
+            "item": "2",
+            "count": "13160"
+          },
+          {
+            "item": "60",
+            "count": "12898"
+          },
+          {
+            "item": "25",
+            "count": "12567"
+          },
+          {
+            "item": "250",
+            "count": "12535"
+          },
+          {
+            "item": "20",
+            "count": "12329"
+          },
+          {
+            "item": "111",
+            "count": "12180"
+          },
+          {
+            "item": "120",
+            "count": "12117"
+          },
+          {
+            "item": "350",
+            "count": "11369"
+          },
+          {
+            "item": "225",
+            "count": "11331"
+          }
+        ],
+        "smallest": "0",
+        "count": "3979103",
+        "cardinality": "37367"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "Street Name where Property is located",
+      "width": 200,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "3979099",
+        "largest": "ZWICKY AVENUE",
+        "null": "4",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "107267"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "61913"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "44557"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "33927"
+          },
+          {
+            "item": "FIFTH AVENUE",
+            "count": "33144"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "22595"
+          },
+          {
+            "item": "THIRD AVENUE",
+            "count": "19735"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "19438"
+          },
+          {
+            "item": "AVENUE OF THE AMERICAS",
+            "count": "17336"
+          },
+          {
+            "item": "WEST END AVENUE",
+            "count": "15038"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "13522"
+          },
+          {
+            "item": "CENTRAL PARK WEST",
+            "count": "12899"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "12762"
+          },
+          {
+            "item": "5TH AVENUE",
+            "count": "12665"
+          },
+          {
+            "item": "RIVERSIDE DRIVE",
+            "count": "12653"
+          },
+          {
+            "item": "FULTON STREET",
+            "count": "12532"
+          },
+          {
+            "item": "HUDSON STREET",
+            "count": "11855"
+          },
+          {
+            "item": "6 AVENUE",
+            "count": "11458"
+          },
+          {
+            "item": "NORTHERN BOULEVARD",
+            "count": "10895"
+          },
+          {
+            "item": "QUEENS BOULEVARD",
+            "count": "10861"
+          }
+        ],
+        "smallest": "100 AV",
+        "count": "3979103",
+        "cardinality": "28618"
+      }
+    },
+    {
+      "field_name": "job__",
+      "display_name": "Job #",
+      "data_type": "text",
+      "description": "Number assigned by DOB to Job Filing",
+      "width": 87,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "566001839",
+        "null": "0",
+        "top": [
+          {
+            "item": "401910438",
+            "count": "101"
+          },
+          {
+            "item": "402887550",
+            "count": "81"
+          },
+          {
+            "item": "201190059",
+            "count": "80"
+          },
+          {
+            "item": "402885776",
+            "count": "79"
+          },
+          {
+            "item": "122745100",
+            "count": "78"
+          },
+          {
+            "item": "310081639",
+            "count": "77"
+          },
+          {
+            "item": "200718330",
+            "count": "74"
+          },
+          {
+            "item": "300454103",
+            "count": "73"
+          },
+          {
+            "item": "301251730",
+            "count": "72"
+          },
+          {
+            "item": "402896407",
+            "count": "72"
+          },
+          {
+            "item": "120428858",
+            "count": "71"
+          },
+          {
+            "item": "401918270",
+            "count": "71"
+          },
+          {
+            "item": "421178969",
+            "count": "70"
+          },
+          {
+            "item": "421179049",
+            "count": "69"
+          },
+          {
+            "item": "421199107",
+            "count": "69"
+          },
+          {
+            "item": "121629023",
+            "count": "67"
+          },
+          {
+            "item": "301768594",
+            "count": "67"
+          },
+          {
+            "item": "122136161",
+            "count": "67"
+          },
+          {
+            "item": "421199090",
+            "count": "67"
+          },
+          {
+            "item": "402895523",
+            "count": "67"
+          }
+        ],
+        "smallest": "100030011",
+        "count": "3979103",
+        "cardinality": "1653683"
+      }
+    },
+    {
+      "field_name": "job_doc___",
+      "display_name": "Job doc. #",
+      "data_type": "text",
+      "description": "Document Number",
+      "width": 105,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "12",
+        "null": "0",
+        "top": [
+          {
+            "item": "01",
+            "count": "3610773"
+          },
+          {
+            "item": "02",
+            "count": "281461"
+          },
+          {
+            "item": "03",
+            "count": "68084"
+          },
+          {
+            "item": "04",
+            "count": "13452"
+          },
+          {
+            "item": "05",
+            "count": "3667"
+          },
+          {
+            "item": "06",
+            "count": "1088"
+          },
+          {
+            "item": "07",
+            "count": "392"
+          },
+          {
+            "item": "08",
+            "count": "131"
+          },
+          {
+            "item": "09",
+            "count": "45"
+          },
+          {
+            "item": "10",
+            "count": "5"
+          },
+          {
+            "item": "11",
+            "count": "3"
+          },
+          {
+            "item": "12",
+            "count": "2"
+          }
+        ],
+        "smallest": "01",
+        "count": "3979103",
+        "cardinality": "12"
+      }
+    },
+    {
+      "field_name": "job_type",
+      "display_name": "Job Type",
+      "data_type": "text",
+      "description": "Job Type, based on DOB Job Code (NB-New Building, A1, A2, A3- Alterations 1-3, SG-Sign, etc.)",
+      "width": 94,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "SG",
+        "null": "0",
+        "top": [
+          {
+            "item": "A2",
+            "count": "2384177"
+          },
+          {
+            "item": "NB",
+            "count": "568943"
+          },
+          {
+            "item": "A1",
+            "count": "432475"
+          },
+          {
+            "item": "A3",
+            "count": "413284"
+          },
+          {
+            "item": "DM",
+            "count": "102214"
+          },
+          {
+            "item": "SG",
+            "count": "78010"
+          }
+        ],
+        "smallest": "A1",
+        "count": "3979103",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "self_cert",
+      "display_name": "Self_Cert",
+      "data_type": "text",
+      "description": "Self_Cert",
+      "width": 95,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "2641904",
+        "largest": "Y",
+        "null": "1337199",
+        "top": [
+          {
+            "item": "Y",
+            "count": "1714181"
+          },
+          {
+            "item": "N",
+            "count": "927705"
+          },
+          {
+            "item": "R",
+            "count": "11"
+          },
+          {
+            "item": "X",
+            "count": "4"
+          },
+          {
+            "item": "J",
+            "count": "3"
+          }
+        ],
+        "smallest": "J",
+        "count": "3979103",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "Tax block assigned by Department of Finance",
+      "width": 84,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "3978606",
+        "largest": "O6534",
+        "null": "497",
+        "top": [
+          {
+            "item": "00016",
+            "count": "11629"
+          },
+          {
+            "item": "16350",
+            "count": "7794"
+          },
+          {
+            "item": "00972",
+            "count": "5616"
+          },
+          {
+            "item": "05141",
+            "count": "5592"
+          },
+          {
+            "item": "04452",
+            "count": "5209"
+          },
+          {
+            "item": "00962",
+            "count": "5051"
+          },
+          {
+            "item": "01284",
+            "count": "4948"
+          },
+          {
+            "item": "01293",
+            "count": "4934"
+          },
+          {
+            "item": "00835",
+            "count": "4877"
+          },
+          {
+            "item": "01287",
+            "count": "4767"
+          },
+          {
+            "item": "01280",
+            "count": "4767"
+          },
+          {
+            "item": "01292",
+            "count": "4706"
+          },
+          {
+            "item": "01290",
+            "count": "4641"
+          },
+          {
+            "item": "01291",
+            "count": "4471"
+          },
+          {
+            "item": "01258",
+            "count": "4245"
+          },
+          {
+            "item": "01374",
+            "count": "4108"
+          },
+          {
+            "item": "01307",
+            "count": "4076"
+          },
+          {
+            "item": "01300",
+            "count": "4066"
+          },
+          {
+            "item": "00993",
+            "count": "4049"
+          },
+          {
+            "item": "01275",
+            "count": "4022"
+          }
+        ],
+        "smallest": "00000",
+        "count": "3979103",
+        "cardinality": "13909"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "Tax lot assigned by Department of Finance",
+      "width": 90,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "3978597",
+        "largest": "OOO58",
+        "null": "506",
+        "top": [
+          {
+            "item": "00001",
+            "count": "469617"
+          },
+          {
+            "item": "07501",
+            "count": "127299"
+          },
+          {
+            "item": "00029",
+            "count": "76610"
+          },
+          {
+            "item": "00005",
+            "count": "61135"
+          },
+          {
+            "item": "00033",
+            "count": "60123"
+          },
+          {
+            "item": "00021",
+            "count": "57423"
+          },
+          {
+            "item": "00010",
+            "count": "56406"
+          },
+          {
+            "item": "00020",
+            "count": "56042"
+          },
+          {
+            "item": "00014",
+            "count": "55734"
+          },
+          {
+            "item": "00040",
+            "count": "54865"
+          },
+          {
+            "item": "00023",
+            "count": "54829"
+          },
+          {
+            "item": "00006",
+            "count": "54251"
+          },
+          {
+            "item": "00007",
+            "count": "53451"
+          },
+          {
+            "item": "00012",
+            "count": "53021"
+          },
+          {
+            "item": "00015",
+            "count": "52677"
+          },
+          {
+            "item": "00016",
+            "count": "49633"
+          },
+          {
+            "item": "00011",
+            "count": "49480"
+          },
+          {
+            "item": "00008",
+            "count": "48821"
+          },
+          {
+            "item": "00002",
+            "count": "48732"
+          },
+          {
+            "item": "00017",
+            "count": "48536"
+          }
+        ],
+        "smallest": "00",
+        "count": "3979103",
+        "cardinality": "2085"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "3-digit identifier: Borough code = first position, last 2 = community board",
+      "width": 146,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "3977516",
+        "largest": "595",
+        "null": "1587",
+        "top": [
+          {
+            "item": "105",
+            "count": "385184"
+          },
+          {
+            "item": "108",
+            "count": "210663"
+          },
+          {
+            "item": "102",
+            "count": "173048"
+          },
+          {
+            "item": "107",
+            "count": "149364"
+          },
+          {
+            "item": "106",
+            "count": "141892"
+          },
+          {
+            "item": "101",
+            "count": "139550"
+          },
+          {
+            "item": "104",
+            "count": "126900"
+          },
+          {
+            "item": "407",
+            "count": "119905"
+          },
+          {
+            "item": "301",
+            "count": "106605"
+          },
+          {
+            "item": "103",
+            "count": "94979"
+          },
+          {
+            "item": "302",
+            "count": "92916"
+          },
+          {
+            "item": "503",
+            "count": "89187"
+          },
+          {
+            "item": "401",
+            "count": "83488"
+          },
+          {
+            "item": "412",
+            "count": "79985"
+          },
+          {
+            "item": "306",
+            "count": "78288"
+          },
+          {
+            "item": "303",
+            "count": "76872"
+          },
+          {
+            "item": "502",
+            "count": "72482"
+          },
+          {
+            "item": "501",
+            "count": "70090"
+          },
+          {
+            "item": "414",
+            "count": "65288"
+          },
+          {
+            "item": "312",
+            "count": "64798"
+          }
+        ],
+        "smallest": "000",
+        "count": "3979103",
+        "cardinality": "121"
+      }
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "Zip Code",
+      "data_type": "text",
+      "description": "Tax lot Zip Code",
+      "width": 96,
+      "position": 12,
+      "cached_contents": {
+        "non_null": "3977847",
+        "largest": "91217",
+        "null": "1256",
+        "top": [
+          {
+            "item": "10022",
+            "count": "98517"
+          },
+          {
+            "item": "10019",
+            "count": "81460"
+          },
+          {
+            "item": "10013",
+            "count": "73711"
+          },
+          {
+            "item": "10011",
+            "count": "72572"
+          },
+          {
+            "item": "10003",
+            "count": "70428"
+          },
+          {
+            "item": "10036",
+            "count": "68255"
+          },
+          {
+            "item": "10017",
+            "count": "64795"
+          },
+          {
+            "item": "10001",
+            "count": "63786"
+          },
+          {
+            "item": "10016",
+            "count": "63445"
+          },
+          {
+            "item": "11201",
+            "count": "58898"
+          },
+          {
+            "item": "10023",
+            "count": "56282"
+          },
+          {
+            "item": "10014",
+            "count": "52304"
+          },
+          {
+            "item": "10024",
+            "count": "52290"
+          },
+          {
+            "item": "10065",
+            "count": "50160"
+          },
+          {
+            "item": "10012",
+            "count": "49312"
+          },
+          {
+            "item": "10018",
+            "count": "47993"
+          },
+          {
+            "item": "10021",
+            "count": "47179"
+          },
+          {
+            "item": "10025",
+            "count": "46437"
+          },
+          {
+            "item": "11101",
+            "count": "42948"
+          },
+          {
+            "item": "11215",
+            "count": "42838"
+          }
+        ],
+        "smallest": "10000",
+        "count": "3979103",
+        "cardinality": "230"
+      }
+    },
+    {
+      "field_name": "bldg_type",
+      "display_name": "Bldg Type",
+      "data_type": "text",
+      "description": "1-2-3 Family  or Other",
+      "width": 106,
+      "position": 13,
+      "cached_contents": {
+        "non_null": "3921704",
+        "largest": "2",
+        "null": "57399",
+        "top": [
+          {
+            "item": "2",
+            "count": "2951573"
+          },
+          {
+            "item": "1",
+            "count": "970131"
+          }
+        ],
+        "smallest": "1",
+        "count": "3979103",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "residential",
+      "display_name": "Residential",
+      "data_type": "text",
+      "description": "Residential",
+      "width": 112,
+      "position": 14,
+      "cached_contents": {
+        "non_null": "1620892",
+        "largest": "YES",
+        "null": "2358211",
+        "top": [
+          {
+            "item": "YES",
+            "count": "1620892"
+          }
+        ],
+        "smallest": "YES",
+        "count": "3979103",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "special_district_1",
+      "display_name": "Special District 1",
+      "data_type": "text",
+      "description": "Special District 1",
+      "width": 139,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "456418",
+        "largest": "Y",
+        "null": "3522685",
+        "top": [
+          {
+            "item": "MID",
+            "count": "110103"
+          },
+          {
+            "item": "SRD",
+            "count": "29601"
+          },
+          {
+            "item": "LM",
+            "count": "25778"
+          },
+          {
+            "item": "OP",
+            "count": "25595"
+          },
+          {
+            "item": "PI",
+            "count": "22346"
+          },
+          {
+            "item": "SR",
+            "count": "21847"
+          },
+          {
+            "item": "CL",
+            "count": "17264"
+          },
+          {
+            "item": "BR",
+            "count": "14631"
+          },
+          {
+            "item": "DB",
+            "count": "14288"
+          },
+          {
+            "item": "LIC",
+            "count": "12018"
+          },
+          {
+            "item": "TMU",
+            "count": "11369"
+          },
+          {
+            "item": "MP",
+            "count": "10450"
+          },
+          {
+            "item": "MX-8",
+            "count": "10437"
+          },
+          {
+            "item": "LH-1",
+            "count": "10331"
+          },
+          {
+            "item": "TA",
+            "count": "9933"
+          },
+          {
+            "item": "GC",
+            "count": "9481"
+          },
+          {
+            "item": "LI",
+            "count": "9298"
+          },
+          {
+            "item": "HY",
+            "count": "7963"
+          },
+          {
+            "item": "LH-1A",
+            "count": "7530"
+          },
+          {
+            "item": "DJ",
+            "count": "7449"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "119"
+      }
+    },
+    {
+      "field_name": "special_district_2",
+      "display_name": "Special District 2",
+      "data_type": "text",
+      "description": "Special District 2",
+      "width": 145,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "591",
+        "largest": "POPS",
+        "null": "3978512",
+        "top": [
+          {
+            "item": "IBZ",
+            "count": "247"
+          },
+          {
+            "item": "POPS",
+            "count": "207"
+          },
+          {
+            "item": "GW",
+            "count": "68"
+          },
+          {
+            "item": "JAM",
+            "count": "55"
+          },
+          {
+            "item": "HILI",
+            "count": "10"
+          },
+          {
+            "item": "BPRK",
+            "count": "2"
+          },
+          {
+            "item": "GCP2",
+            "count": "2"
+          }
+        ],
+        "smallest": "BPRK",
+        "count": "3979103",
+        "cardinality": "7"
+      }
+    },
+    {
+      "field_name": "work_type",
+      "display_name": "Work Type",
+      "data_type": "text",
+      "description": "DOB Designated Work Types (PL-Plumbing,  BL-Boiler, MH-Mechanical, OT-Other Constuction Equipment, etc.)",
+      "width": 109,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "3258898",
+        "largest": "SP",
+        "null": "720205",
+        "top": [
+          {
+            "item": "OT",
+            "count": "1171475"
+          },
+          {
+            "item": "PL",
+            "count": "780548"
+          },
+          {
+            "item": "EQ",
+            "count": "577571"
+          },
+          {
+            "item": "MH",
+            "count": "348492"
+          },
+          {
+            "item": "SP",
+            "count": "139927"
+          },
+          {
+            "item": "BL",
+            "count": "75293"
+          },
+          {
+            "item": "FP",
+            "count": "65029"
+          },
+          {
+            "item": "FB",
+            "count": "41333"
+          },
+          {
+            "item": "FS",
+            "count": "24345"
+          },
+          {
+            "item": "SD",
+            "count": "22852"
+          },
+          {
+            "item": "CC",
+            "count": "11766"
+          },
+          {
+            "item": "FA",
+            "count": "266"
+          },
+          {
+            "item": "NB",
+            "count": "1"
+          }
+        ],
+        "smallest": "BL",
+        "count": "3979103",
+        "cardinality": "13"
+      }
+    },
+    {
+      "field_name": "permit_status",
+      "display_name": "Permit Status",
+      "data_type": "text",
+      "description": "Permit Status",
+      "width": 119,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "3967883",
+        "largest": "REVOKED",
+        "null": "11220",
+        "top": [
+          {
+            "item": "ISSUED",
+            "count": "3898154"
+          },
+          {
+            "item": "RE-ISSUED",
+            "count": "48821"
+          },
+          {
+            "item": "IN PROCESS",
+            "count": "20903"
+          },
+          {
+            "item": "REVOKED",
+            "count": "5"
+          }
+        ],
+        "smallest": "IN PROCESS",
+        "count": "3979103",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "filing_status",
+      "display_name": "Filing Status",
+      "data_type": "text",
+      "description": "Filing Status",
+      "width": 128,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "RENEWAL",
+        "null": "0",
+        "top": [
+          {
+            "item": "INITIAL",
+            "count": "2795927"
+          },
+          {
+            "item": "RENEWAL",
+            "count": "1183176"
+          }
+        ],
+        "smallest": "INITIAL",
+        "count": "3979103",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "permit_type",
+      "display_name": "Permit Type",
+      "data_type": "text",
+      "description": "Permit Type (DM-Demolition, EW-Equipment Work, PL-Plumbing, etc.)  Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+      "width": 116,
+      "position": 20,
+      "cached_contents": {
+        "non_null": "3979102",
+        "largest": "SG",
+        "null": "1",
+        "top": [
+          {
+            "item": "EW",
+            "count": "1790689"
+          },
+          {
+            "item": "PL",
+            "count": "780547"
+          },
+          {
+            "item": "EQ",
+            "count": "577571"
+          },
+          {
+            "item": "AL",
+            "count": "359898"
+          },
+          {
+            "item": "NB",
+            "count": "265419"
+          },
+          {
+            "item": "SG",
+            "count": "77990"
+          },
+          {
+            "item": "FO",
+            "count": "67497"
+          },
+          {
+            "item": "DM",
+            "count": "59491"
+          }
+        ],
+        "smallest": "AL",
+        "count": "3979103",
+        "cardinality": "8"
+      }
+    },
+    {
+      "field_name": "permit_sequence__",
+      "display_name": "Permit Sequence #",
+      "data_type": "text",
+      "description": "Permit Sequence #",
+      "width": 155,
+      "position": 21,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "39",
+        "null": "0",
+        "top": [
+          {
+            "item": "01",
+            "count": "2795936"
+          },
+          {
+            "item": "02",
+            "count": "686230"
+          },
+          {
+            "item": "03",
+            "count": "243356"
+          },
+          {
+            "item": "04",
+            "count": "108357"
+          },
+          {
+            "item": "05",
+            "count": "55897"
+          },
+          {
+            "item": "06",
+            "count": "31747"
+          },
+          {
+            "item": "07",
+            "count": "19145"
+          },
+          {
+            "item": "08",
+            "count": "12074"
+          },
+          {
+            "item": "09",
+            "count": "7766"
+          },
+          {
+            "item": "10",
+            "count": "5122"
+          },
+          {
+            "item": "11",
+            "count": "3551"
+          },
+          {
+            "item": "12",
+            "count": "2459"
+          },
+          {
+            "item": "13",
+            "count": "1767"
+          },
+          {
+            "item": "14",
+            "count": "1297"
+          },
+          {
+            "item": "15",
+            "count": "971"
+          },
+          {
+            "item": "16",
+            "count": "765"
+          },
+          {
+            "item": "17",
+            "count": "585"
+          },
+          {
+            "item": "18",
+            "count": "445"
+          },
+          {
+            "item": "19",
+            "count": "327"
+          },
+          {
+            "item": "20",
+            "count": "252"
+          }
+        ],
+        "smallest": "01",
+        "count": "3979103",
+        "cardinality": "39"
+      }
+    },
+    {
+      "field_name": "permit_subtype",
+      "display_name": "Permit Subtype",
+      "data_type": "text",
+      "description": "Permit Subtype (Subset of Equipment Work Permit Type-- BL-Boiler, FA- Fire Alarm, Subset of Construction Equipment Permit Type-- CH-Chute, SF-Scaffold, etc.) Complete List - http://www.nyc.gov/html/dob/downloads/pdf/bisjobstatus.pdf",
+      "width": 128,
+      "position": 22,
+      "cached_contents": {
+        "non_null": "2401295",
+        "largest": "SP",
+        "null": "1577808",
+        "top": [
+          {
+            "item": "OT",
+            "count": "1107291"
+          },
+          {
+            "item": "MH",
+            "count": "348492"
+          },
+          {
+            "item": "FN",
+            "count": "307655"
+          },
+          {
+            "item": "SH",
+            "count": "179823"
+          },
+          {
+            "item": "SP",
+            "count": "139927"
+          },
+          {
+            "item": "BL",
+            "count": "75293"
+          },
+          {
+            "item": "FP",
+            "count": "65029"
+          },
+          {
+            "item": "SF",
+            "count": "53963"
+          },
+          {
+            "item": "FB",
+            "count": "41333"
+          },
+          {
+            "item": "EA",
+            "count": "33034"
+          },
+          {
+            "item": "FS",
+            "count": "24345"
+          },
+          {
+            "item": "SD",
+            "count": "22852"
+          },
+          {
+            "item": "CH",
+            "count": "1990"
+          },
+          {
+            "item": "FA",
+            "count": "266"
+          },
+          {
+            "item": "SC",
+            "count": "2"
+          }
+        ],
+        "smallest": "BL",
+        "count": "3979103",
+        "cardinality": "15"
+      }
+    },
+    {
+      "field_name": "oil_gas",
+      "display_name": "Oil Gas",
+      "data_type": "text",
+      "description": "Oil Gas",
+      "width": 95,
+      "position": 23,
+      "cached_contents": {
+        "non_null": "40532",
+        "largest": "OIL",
+        "null": "3938571",
+        "top": [
+          {
+            "item": "OIL",
+            "count": "37626"
+          },
+          {
+            "item": "GAS",
+            "count": "2906"
+          }
+        ],
+        "smallest": "GAS",
+        "count": "3979103",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "site_fill",
+      "display_name": "Site Fill",
+      "data_type": "text",
+      "description": "Site Fill",
+      "width": 129,
+      "position": 24,
+      "cached_contents": {
+        "non_null": "3496491",
+        "largest": "USE UNDER 300 CU.YD",
+        "null": "482612",
+        "top": [
+          {
+            "item": "NONE",
+            "count": "1651836"
+          },
+          {
+            "item": "NOT APPLICABLE",
+            "count": "1266770"
+          },
+          {
+            "item": "ON-SITE",
+            "count": "369292"
+          },
+          {
+            "item": "OFF-SITE",
+            "count": "109816"
+          },
+          {
+            "item": "USE UNDER 300 CU.YD",
+            "count": "98777"
+          }
+        ],
+        "smallest": "NONE",
+        "count": "3979103",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "filing_date",
+      "display_name": "Filing Date",
+      "data_type": "text",
+      "description": "Filing Date",
+      "width": 104,
+      "position": 25,
+      "cached_contents": {
+        "non_null": "3979102",
+        "largest": "2020-06-05 ",
+        "null": "1",
+        "top": [
+          {
+            "item": "03/29/2017",
+            "count": "1087"
+          },
+          {
+            "item": "11/08/2017",
+            "count": "1064"
+          },
+          {
+            "item": "11/09/2017",
+            "count": "1051"
+          },
+          {
+            "item": "11/09/2016",
+            "count": "1024"
+          },
+          {
+            "item": "05/03/2013",
+            "count": "1011"
+          },
+          {
+            "item": "03/29/2007",
+            "count": "1003"
+          },
+          {
+            "item": "11/12/2015",
+            "count": "1002"
+          },
+          {
+            "item": "11/07/2018",
+            "count": "1001"
+          },
+          {
+            "item": "06/27/2014",
+            "count": "998"
+          },
+          {
+            "item": "03/30/2017",
+            "count": "995"
+          },
+          {
+            "item": "03/31/2017",
+            "count": "986"
+          },
+          {
+            "item": "03/30/2007",
+            "count": "985"
+          },
+          {
+            "item": "03/30/2016",
+            "count": "985"
+          },
+          {
+            "item": "03/07/2017",
+            "count": "984"
+          },
+          {
+            "item": "11/15/2016",
+            "count": "981"
+          },
+          {
+            "item": "09/26/2017",
+            "count": "976"
+          },
+          {
+            "item": "07/26/2016",
+            "count": "974"
+          },
+          {
+            "item": "05/17/2017",
+            "count": "974"
+          },
+          {
+            "item": "11/04/2015",
+            "count": "969"
+          },
+          {
+            "item": "06/24/2016",
+            "count": "969"
+          }
+        ],
+        "smallest": "01/01/2007",
+        "count": "3979103",
+        "cardinality": "18260"
+      }
+    },
+    {
+      "field_name": "issuance_date",
+      "display_name": "Issuance Date",
+      "data_type": "text",
+      "description": "Issuance Date",
+      "width": 125,
+      "position": 26,
+      "cached_contents": {
+        "non_null": "3958249",
+        "largest": "2020-06-05 ",
+        "null": "20854",
+        "top": [
+          {
+            "item": "03/29/2017",
+            "count": "1096"
+          },
+          {
+            "item": "11/08/2017",
+            "count": "1065"
+          },
+          {
+            "item": "11/09/2017",
+            "count": "1055"
+          },
+          {
+            "item": "05/03/2013",
+            "count": "1018"
+          },
+          {
+            "item": "11/09/2016",
+            "count": "1011"
+          },
+          {
+            "item": "11/15/2016",
+            "count": "1004"
+          },
+          {
+            "item": "03/30/2017",
+            "count": "999"
+          },
+          {
+            "item": "03/29/2007",
+            "count": "993"
+          },
+          {
+            "item": "06/27/2014",
+            "count": "991"
+          },
+          {
+            "item": "11/12/2015",
+            "count": "984"
+          },
+          {
+            "item": "06/24/2016",
+            "count": "974"
+          },
+          {
+            "item": "05/17/2017",
+            "count": "967"
+          },
+          {
+            "item": "07/26/2016",
+            "count": "962"
+          },
+          {
+            "item": "03/30/2007",
+            "count": "959"
+          },
+          {
+            "item": "03/30/2016",
+            "count": "959"
+          },
+          {
+            "item": "07/12/2017",
+            "count": "959"
+          },
+          {
+            "item": "06/15/2017",
+            "count": "959"
+          },
+          {
+            "item": "09/26/2017",
+            "count": "956"
+          },
+          {
+            "item": "03/28/2019",
+            "count": "955"
+          },
+          {
+            "item": "11/07/2018",
+            "count": "949"
+          }
+        ],
+        "smallest": "01/01/2007",
+        "count": "3979103",
+        "cardinality": "18276"
+      }
+    },
+    {
+      "field_name": "expiration_date",
+      "display_name": "Expiration Date",
+      "data_type": "text",
+      "description": "Expiration Date",
+      "width": 124,
+      "position": 27,
+      "cached_contents": {
+        "non_null": "3967040",
+        "largest": "2021-06-29",
+        "null": "12063",
+        "top": [
+          {
+            "item": "12/31/2007",
+            "count": "18752"
+          },
+          {
+            "item": "12/31/2006",
+            "count": "18181"
+          },
+          {
+            "item": "12/31/2005",
+            "count": "16460"
+          },
+          {
+            "item": "12/31/2004",
+            "count": "14064"
+          },
+          {
+            "item": "04/01/2009",
+            "count": "11475"
+          },
+          {
+            "item": "10/31/2020",
+            "count": "10896"
+          },
+          {
+            "item": "12/31/2003",
+            "count": "10586"
+          },
+          {
+            "item": "04/01/2010",
+            "count": "10216"
+          },
+          {
+            "item": "01/31/2021",
+            "count": "10160"
+          },
+          {
+            "item": "12/31/2020",
+            "count": "9863"
+          },
+          {
+            "item": "04/01/2007",
+            "count": "9836"
+          },
+          {
+            "item": "04/01/2008",
+            "count": "9773"
+          },
+          {
+            "item": "04/01/2006",
+            "count": "9634"
+          },
+          {
+            "item": "12/31/2002",
+            "count": "9502"
+          },
+          {
+            "item": "11/30/2020",
+            "count": "8813"
+          },
+          {
+            "item": "12/31/2001",
+            "count": "8722"
+          },
+          {
+            "item": "04/01/2011",
+            "count": "8503"
+          },
+          {
+            "item": "04/01/2005",
+            "count": "8431"
+          },
+          {
+            "item": "04/01/2004",
+            "count": "8234"
+          },
+          {
+            "item": "12/31/2000",
+            "count": "7806"
+          }
+        ],
+        "smallest": "01/01/1990",
+        "count": "3979103",
+        "cardinality": "23885"
+      }
+    },
+    {
+      "field_name": "job_start_date",
+      "display_name": "Job Start Date",
+      "data_type": "text",
+      "description": "Job Start Date",
+      "width": 117,
+      "position": 28,
+      "cached_contents": {
+        "non_null": "3979093",
+        "largest": "71//3231",
+        "null": "10",
+        "top": [
+          {
+            "item": "06/12/2015",
+            "count": "1579"
+          },
+          {
+            "item": "06/27/2008",
+            "count": "1527"
+          },
+          {
+            "item": "06/11/2015",
+            "count": "1274"
+          },
+          {
+            "item": "06/05/2015",
+            "count": "1206"
+          },
+          {
+            "item": "06/10/2015",
+            "count": "1204"
+          },
+          {
+            "item": "06/25/2008",
+            "count": "1160"
+          },
+          {
+            "item": "06/08/2015",
+            "count": "1151"
+          },
+          {
+            "item": "06/26/2008",
+            "count": "1150"
+          },
+          {
+            "item": "06/09/2015",
+            "count": "1126"
+          },
+          {
+            "item": "06/24/2008",
+            "count": "1117"
+          },
+          {
+            "item": "05/17/2017",
+            "count": "1110"
+          },
+          {
+            "item": "06/04/2015",
+            "count": "1102"
+          },
+          {
+            "item": "07/17/2007",
+            "count": "1101"
+          },
+          {
+            "item": "04/12/2016",
+            "count": "1101"
+          },
+          {
+            "item": "07/30/2008",
+            "count": "1095"
+          },
+          {
+            "item": "12/23/2015",
+            "count": "1094"
+          },
+          {
+            "item": "06/09/2004",
+            "count": "1090"
+          },
+          {
+            "item": "11/09/2017",
+            "count": "1087"
+          },
+          {
+            "item": "07/29/2008",
+            "count": "1078"
+          },
+          {
+            "item": "06/15/2015",
+            "count": "1069"
+          }
+        ],
+        "smallest": "//*",
+        "count": "3979103",
+        "cardinality": "19281"
+      }
+    },
+    {
+      "field_name": "permittee_s_first_name",
+      "display_name": "Permittee's First Name",
+      "data_type": "text",
+      "description": "Permittee's First Name",
+      "width": 129,
+      "position": 29,
+      "cached_contents": {
+        "non_null": "3962574",
+        "largest": "ZZOI",
+        "null": "16529",
+        "top": [
+          {
+            "item": "JOHN",
+            "count": "161017"
+          },
+          {
+            "item": "MICHAEL",
+            "count": "130698"
+          },
+          {
+            "item": "ROBERT",
+            "count": "101789"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "94274"
+          },
+          {
+            "item": "PETER",
+            "count": "72078"
+          },
+          {
+            "item": "ANTHONY",
+            "count": "70387"
+          },
+          {
+            "item": "THOMAS",
+            "count": "68193"
+          },
+          {
+            "item": "JAMES",
+            "count": "59944"
+          },
+          {
+            "item": "DAVID",
+            "count": "54683"
+          },
+          {
+            "item": "WILLIAM",
+            "count": "53704"
+          },
+          {
+            "item": "RICHARD",
+            "count": "51171"
+          },
+          {
+            "item": "FRANK",
+            "count": "46782"
+          },
+          {
+            "item": "GEORGE",
+            "count": "46758"
+          },
+          {
+            "item": "PAUL",
+            "count": "41314"
+          },
+          {
+            "item": "DANIEL",
+            "count": "37817"
+          },
+          {
+            "item": "MARK",
+            "count": "34670"
+          },
+          {
+            "item": "STEVEN",
+            "count": "34411"
+          },
+          {
+            "item": "CHRISTOPHER",
+            "count": "31348"
+          },
+          {
+            "item": "CHARLES",
+            "count": "30823"
+          },
+          {
+            "item": "VINCENT",
+            "count": "28437"
+          }
+        ],
+        "smallest": "-",
+        "count": "3979103",
+        "cardinality": "39057"
+      }
+    },
+    {
+      "field_name": "permittee_s_last_name",
+      "display_name": "Permittee's Last Name",
+      "data_type": "text",
+      "description": "Permittee's Last Name",
+      "width": 158,
+      "position": 30,
+      "cached_contents": {
+        "non_null": "3962576",
+        "largest": "ZZOUR",
+        "null": "16527",
+        "top": [
+          {
+            "item": "SINGH",
+            "count": "60148"
+          },
+          {
+            "item": "LEE",
+            "count": "22950"
+          },
+          {
+            "item": "LEVINE",
+            "count": "22176"
+          },
+          {
+            "item": "MARTINEZ",
+            "count": "21335"
+          },
+          {
+            "item": "WHITE",
+            "count": "20902"
+          },
+          {
+            "item": "BROWN",
+            "count": "18345"
+          },
+          {
+            "item": "HARRINGTON",
+            "count": "17945"
+          },
+          {
+            "item": "DOWNES",
+            "count": "14833"
+          },
+          {
+            "item": "WEINTRAUB",
+            "count": "11971"
+          },
+          {
+            "item": "WAGNER",
+            "count": "11323"
+          },
+          {
+            "item": "JOYCE",
+            "count": "10850"
+          },
+          {
+            "item": "CHEUNG",
+            "count": "10596"
+          },
+          {
+            "item": "CHEN",
+            "count": "10143"
+          },
+          {
+            "item": "WU",
+            "count": "10116"
+          },
+          {
+            "item": "COHEN",
+            "count": "9619"
+          },
+          {
+            "item": "ZHOU",
+            "count": "9482"
+          },
+          {
+            "item": "GALLAGHER",
+            "count": "9197"
+          },
+          {
+            "item": "ZAHARIA",
+            "count": "9094"
+          },
+          {
+            "item": "BOWE",
+            "count": "9018"
+          },
+          {
+            "item": "KIM",
+            "count": "8875"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "92282"
+      }
+    },
+    {
+      "field_name": "permittee_s_business_name",
+      "display_name": "Permittee's Business Name",
+      "data_type": "text",
+      "description": "Permittee's Business Name",
+      "width": 200,
+      "position": 31,
+      "cached_contents": {
+        "non_null": "3962519",
+        "largest": "ZZZI MANAGEMENT CORP",
+        "null": "16584",
+        "top": [
+          {
+            "item": "N/A",
+            "count": "30282"
+          },
+          {
+            "item": "EVEREST SCAFFOLDING INC",
+            "count": "14082"
+          },
+          {
+            "item": "STRUCTURE TONE INC",
+            "count": "11133"
+          },
+          {
+            "item": "SUNRUN INSTALLATION SVC",
+            "count": "10564"
+          },
+          {
+            "item": "PRO CUSTOM SOLAR LLC",
+            "count": "8545"
+          },
+          {
+            "item": "ROCKLEDGE SCAFFOLD",
+            "count": "7966"
+          },
+          {
+            "item": "ROCKLEDGE SCAFFOLD CORP",
+            "count": "7156"
+          },
+          {
+            "item": "SPRING SCAFFOLDING LLC",
+            "count": "6462"
+          },
+          {
+            "item": "PAR PLUMBING CO., INC",
+            "count": "6240"
+          },
+          {
+            "item": "ORBIT PLBG & HTG INC",
+            "count": "6199"
+          },
+          {
+            "item": "VENTURE HOME SOLAR LLC",
+            "count": "5868"
+          },
+          {
+            "item": "C & T PLUMBING & HTG INC",
+            "count": "5803"
+          },
+          {
+            "item": "OWNER",
+            "count": "5547"
+          },
+          {
+            "item": "ORION PLUMBING & HTG CORP",
+            "count": "5386"
+          },
+          {
+            "item": "SIRINA FIRE PROT CORP",
+            "count": "5200"
+          },
+          {
+            "item": "WDF INC",
+            "count": "5052"
+          },
+          {
+            "item": "PACE PLUMBING CORP",
+            "count": "4969"
+          },
+          {
+            "item": "NA",
+            "count": "4926"
+          },
+          {
+            "item": "THE PLUMBING COMPANY INC",
+            "count": "4813"
+          },
+          {
+            "item": "HIGH QUALITY CONSTRUCTION",
+            "count": "4470"
+          }
+        ],
+        "smallest": "-",
+        "count": "3979103",
+        "cardinality": "367238"
+      }
+    },
+    {
+      "field_name": "permittee_s_phone__",
+      "display_name": "Permittee's Phone #",
+      "data_type": "text",
+      "description": "Permittee's Phone #",
+      "width": 151,
+      "position": 32,
+      "cached_contents": {
+        "non_null": "3962275",
+        "largest": "PARTNERSHI",
+        "null": "16828",
+        "top": [
+          {
+            "item": "2124816100",
+            "count": "23087"
+          },
+          {
+            "item": "7183924921",
+            "count": "17267"
+          },
+          {
+            "item": "2129261088",
+            "count": "16256"
+          },
+          {
+            "item": "7183281004",
+            "count": "15263"
+          },
+          {
+            "item": "9144230400",
+            "count": "15095"
+          },
+          {
+            "item": "8055407643",
+            "count": "10563"
+          },
+          {
+            "item": "7185894900",
+            "count": "10141"
+          },
+          {
+            "item": "2122296000",
+            "count": "8957"
+          },
+          {
+            "item": "7188471400",
+            "count": "8533"
+          },
+          {
+            "item": "7189484500",
+            "count": "8511"
+          },
+          {
+            "item": "7329026224",
+            "count": "8326"
+          },
+          {
+            "item": "7188286424",
+            "count": "8135"
+          },
+          {
+            "item": "2126961124",
+            "count": "7732"
+          },
+          {
+            "item": "2123531160",
+            "count": "7697"
+          },
+          {
+            "item": "7186280500",
+            "count": "7603"
+          },
+          {
+            "item": "7183762666",
+            "count": "7564"
+          },
+          {
+            "item": "7183841215",
+            "count": "7561"
+          },
+          {
+            "item": "7188758160",
+            "count": "7328"
+          },
+          {
+            "item": "7188882999",
+            "count": "7207"
+          },
+          {
+            "item": "2127904200",
+            "count": "7109"
+          }
+        ],
+        "smallest": "0012046071",
+        "count": "3979103",
+        "cardinality": "159608"
+      }
+    },
+    {
+      "field_name": "permittee_s_license_type",
+      "display_name": "Permittee's License Type",
+      "data_type": "text",
+      "description": "Permittee's License Type",
+      "width": 200,
+      "position": 33,
+      "cached_contents": {
+        "non_null": "3687269",
+        "largest": "T@",
+        "null": "291834",
+        "top": [
+          {
+            "item": "GC",
+            "count": "2414107"
+          },
+          {
+            "item": "MP",
+            "count": "836593"
+          },
+          {
+            "item": "FS",
+            "count": "213967"
+          },
+          {
+            "item": "OB",
+            "count": "78598"
+          },
+          {
+            "item": "SI",
+            "count": "66660"
+          },
+          {
+            "item": "OW",
+            "count": "41263"
+          },
+          {
+            "item": "NW",
+            "count": "19578"
+          },
+          {
+            "item": "RA",
+            "count": "5671"
+          },
+          {
+            "item": "DM",
+            "count": "5350"
+          },
+          {
+            "item": "PE",
+            "count": "4766"
+          },
+          {
+            "item": "HI",
+            "count": "713"
+          },
+          {
+            "item": "T@",
+            "count": "1"
+          },
+          {
+            "item": "N",
+            "count": "1"
+          },
+          {
+            "item": "5S",
+            "count": "1"
+          }
+        ],
+        "smallest": "5S",
+        "count": "3979103",
+        "cardinality": "14"
+      }
+    },
+    {
+      "field_name": "permittee_s_license__",
+      "display_name": "Permittee's License #",
+      "data_type": "text",
+      "description": "Permittee's License #",
+      "width": 167,
+      "position": 34,
+      "cached_contents": {
+        "non_null": "3720975",
+        "largest": "XL 'C'",
+        "null": "258128",
+        "top": [
+          {
+            "item": "0",
+            "count": "79275"
+          },
+          {
+            "item": "0002660",
+            "count": "20697"
+          },
+          {
+            "item": "0001982",
+            "count": "17042"
+          },
+          {
+            "item": "0032158",
+            "count": "15346"
+          },
+          {
+            "item": "0002593",
+            "count": "11963"
+          },
+          {
+            "item": "0613329",
+            "count": "10563"
+          },
+          {
+            "item": "0002305",
+            "count": "10479"
+          },
+          {
+            "item": "0000161",
+            "count": "9777"
+          },
+          {
+            "item": "0000626",
+            "count": "9740"
+          },
+          {
+            "item": "0009435",
+            "count": "9232"
+          },
+          {
+            "item": "0000371",
+            "count": "9009"
+          },
+          {
+            "item": "0000208",
+            "count": "8956"
+          },
+          {
+            "item": "0002571",
+            "count": "8579"
+          },
+          {
+            "item": "0616847",
+            "count": "8545"
+          },
+          {
+            "item": "0000747",
+            "count": "8532"
+          },
+          {
+            "item": "0000504",
+            "count": "8397"
+          },
+          {
+            "item": "0000957",
+            "count": "8289"
+          },
+          {
+            "item": "0002147",
+            "count": "7683"
+          },
+          {
+            "item": "0002025",
+            "count": "7147"
+          },
+          {
+            "item": "0000474",
+            "count": "7006"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "58082"
+      }
+    },
+    {
+      "field_name": "act_as_superintendent",
+      "display_name": "Act as Superintendent",
+      "data_type": "text",
+      "description": "Permittee Acts as Superintendent",
+      "width": 161,
+      "position": 35,
+      "cached_contents": {
+        "non_null": "1667957",
+        "largest": "Y",
+        "null": "2311146",
+        "top": [
+          {
+            "item": "Y",
+            "count": "1658973"
+          },
+          {
+            "item": "N",
+            "count": "8983"
+          },
+          {
+            "item": "A",
+            "count": "1"
+          }
+        ],
+        "smallest": "A",
+        "count": "3979103",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "permittee_s_other_title",
+      "display_name": "Permittee's Other Title",
+      "data_type": "text",
+      "description": "Permittee's Other Title",
+      "width": 168,
+      "position": 36,
+      "cached_contents": {
+        "non_null": "294282",
+        "largest": "X",
+        "null": "3684821",
+        "top": [
+          {
+            "item": "GC",
+            "count": "114134"
+          },
+          {
+            "item": "G.C.",
+            "count": "68900"
+          },
+          {
+            "item": "G.C",
+            "count": "16765"
+          },
+          {
+            "item": "CONTRACTOR",
+            "count": "15396"
+          },
+          {
+            "item": "G/C",
+            "count": "10435"
+          },
+          {
+            "item": "GEN. CONTRACTOR",
+            "count": "5583"
+          },
+          {
+            "item": "SIGN HANGER",
+            "count": "4918"
+          },
+          {
+            "item": "GEN CONTRACTOR",
+            "count": "4457"
+          },
+          {
+            "item": "G. C.",
+            "count": "3759"
+          },
+          {
+            "item": "DEMO CONTRACTOR",
+            "count": "2854"
+          },
+          {
+            "item": "INSTALLER",
+            "count": "2250"
+          },
+          {
+            "item": "OIL BURNER INST",
+            "count": "1679"
+          },
+          {
+            "item": "GEN CONTR.",
+            "count": "1481"
+          },
+          {
+            "item": "DEMO CONTR",
+            "count": "1396"
+          },
+          {
+            "item": "GEN",
+            "count": "1383"
+          },
+          {
+            "item": "CONTR.",
+            "count": "1374"
+          },
+          {
+            "item": "HIC",
+            "count": "1247"
+          },
+          {
+            "item": "GEN. CONTR.",
+            "count": "1178"
+          },
+          {
+            "item": "GEN CONTR",
+            "count": "1117"
+          },
+          {
+            "item": "OIL BURNER",
+            "count": "1020"
+          }
+        ],
+        "smallest": "--",
+        "count": "3979103",
+        "cardinality": "3353"
+      }
+    },
+    {
+      "field_name": "hic_license",
+      "display_name": "HIC License",
+      "data_type": "text",
+      "description": "HIC License",
+      "width": 115,
+      "position": 37,
+      "cached_contents": {
+        "non_null": "33187",
+        "largest": "SSH142",
+        "null": "3945916",
+        "top": [
+          {
+            "item": "0",
+            "count": "911"
+          },
+          {
+            "item": "1256000",
+            "count": "625"
+          },
+          {
+            "item": "1118019",
+            "count": "585"
+          },
+          {
+            "item": "9999999",
+            "count": "584"
+          },
+          {
+            "item": "1277136",
+            "count": "555"
+          },
+          {
+            "item": "45141",
+            "count": "409"
+          },
+          {
+            "item": "1027229",
+            "count": "383"
+          },
+          {
+            "item": "0817339",
+            "count": "351"
+          },
+          {
+            "item": "1293032",
+            "count": "339"
+          },
+          {
+            "item": "1251318",
+            "count": "334"
+          },
+          {
+            "item": "0918049",
+            "count": "331"
+          },
+          {
+            "item": "376654",
+            "count": "314"
+          },
+          {
+            "item": "0952579",
+            "count": "294"
+          },
+          {
+            "item": "0762429",
+            "count": "282"
+          },
+          {
+            "item": "1281879",
+            "count": "278"
+          },
+          {
+            "item": "46748",
+            "count": "249"
+          },
+          {
+            "item": "0795439",
+            "count": "204"
+          },
+          {
+            "item": "1253634",
+            "count": "198"
+          },
+          {
+            "item": "144",
+            "count": "194"
+          },
+          {
+            "item": "1244843",
+            "count": "193"
+          }
+        ],
+        "smallest": "0",
+        "count": "3979103",
+        "cardinality": "5538"
+      }
+    },
+    {
+      "field_name": "site_safety_mgr_s_first_name",
+      "display_name": "Site Safety Mgr's First Name",
+      "data_type": "text",
+      "description": "Site Safety Mgr's First Name",
+      "width": 200,
+      "position": 38,
+      "cached_contents": {
+        "non_null": "40413",
+        "largest": "ZULMA",
+        "null": "3938690",
+        "top": [
+          {
+            "item": "MICHAEL",
+            "count": "2130"
+          },
+          {
+            "item": "JOHN",
+            "count": "1564"
+          },
+          {
+            "item": "ADMINISTRATIVE",
+            "count": "1465"
+          },
+          {
+            "item": "PETER",
+            "count": "1070"
+          },
+          {
+            "item": "ROBERT",
+            "count": "1065"
+          },
+          {
+            "item": "JAMES",
+            "count": "960"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "924"
+          },
+          {
+            "item": "ANTHONY",
+            "count": "877"
+          },
+          {
+            "item": "N/A",
+            "count": "644"
+          },
+          {
+            "item": "FRANK",
+            "count": "639"
+          },
+          {
+            "item": "RICHARD",
+            "count": "628"
+          },
+          {
+            "item": "KENNETH",
+            "count": "601"
+          },
+          {
+            "item": "EDWARD",
+            "count": "586"
+          },
+          {
+            "item": "RALPH",
+            "count": "579"
+          },
+          {
+            "item": "THOMAS",
+            "count": "547"
+          },
+          {
+            "item": "CHARLES",
+            "count": "517"
+          },
+          {
+            "item": "VINCENT",
+            "count": "477"
+          },
+          {
+            "item": "RONALD",
+            "count": "461"
+          },
+          {
+            "item": "WILLIAM",
+            "count": "439"
+          },
+          {
+            "item": "KEVIN",
+            "count": "411"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "765"
+      }
+    },
+    {
+      "field_name": "site_safety_mgr_s_last_name",
+      "display_name": "Site Safety Mgr's Last Name",
+      "data_type": "text",
+      "description": "Site Safety Mgr's Last Name",
+      "width": 200,
+      "position": 39,
+      "cached_contents": {
+        "non_null": "40413",
+        "largest": "ZOGRAFOS",
+        "null": "3938690",
+        "top": [
+          {
+            "item": "WAIVER",
+            "count": "1465"
+          },
+          {
+            "item": "N/A",
+            "count": "617"
+          },
+          {
+            "item": "BROWN",
+            "count": "566"
+          },
+          {
+            "item": "FERNANDEZ",
+            "count": "420"
+          },
+          {
+            "item": "ESPOSITO",
+            "count": "415"
+          },
+          {
+            "item": "ANSARI",
+            "count": "400"
+          },
+          {
+            "item": "DILL, JR",
+            "count": "361"
+          },
+          {
+            "item": "MENOTTI",
+            "count": "349"
+          },
+          {
+            "item": "PANKOVIC",
+            "count": "339"
+          },
+          {
+            "item": "RIGG",
+            "count": "319"
+          },
+          {
+            "item": "CRUZ-ALFANO",
+            "count": "309"
+          },
+          {
+            "item": "FARRELL",
+            "count": "268"
+          },
+          {
+            "item": "MEROLA",
+            "count": "266"
+          },
+          {
+            "item": "ROBERT",
+            "count": "247"
+          },
+          {
+            "item": "RIVERA",
+            "count": "229"
+          },
+          {
+            "item": "PETRIE",
+            "count": "219"
+          },
+          {
+            "item": "SCOTT III",
+            "count": "195"
+          },
+          {
+            "item": "KIROPOULOS",
+            "count": "186"
+          },
+          {
+            "item": "GIANATASIO",
+            "count": "182"
+          },
+          {
+            "item": "MCINERNEY",
+            "count": "181"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "1782"
+      }
+    },
+    {
+      "field_name": "site_safety_mgr_business_name",
+      "display_name": "Site Safety Mgr Business Name",
+      "data_type": "text",
+      "description": "Site Safety Mgr Business Name",
+      "width": 200,
+      "position": 40,
+      "cached_contents": {
+        "non_null": "26208",
+        "largest": "ZWICKER ELECTRIC",
+        "null": "3952895",
+        "top": [
+          {
+            "item": "TOTAL SAFETY CONSULTING",
+            "count": "1902"
+          },
+          {
+            "item": "NYC DEPT. OF BUILDINGS",
+            "count": "1467"
+          },
+          {
+            "item": "SITE SAFETY LLC",
+            "count": "889"
+          },
+          {
+            "item": "N/A",
+            "count": "723"
+          },
+          {
+            "item": "CR SAFETY",
+            "count": "664"
+          },
+          {
+            "item": "MENOTTI ENTERPRISE LLC",
+            "count": "417"
+          },
+          {
+            "item": "PRO SAFETY SERVICES LLC",
+            "count": "414"
+          },
+          {
+            "item": "RD2 SITE SAFETY SERVICES",
+            "count": "333"
+          },
+          {
+            "item": "DUNN CO SAFETY LLC",
+            "count": "317"
+          },
+          {
+            "item": "SITE SAFETY, LLC",
+            "count": "315"
+          },
+          {
+            "item": "PREMIERE SAFETY LLC",
+            "count": "299"
+          },
+          {
+            "item": "BOVIS LEND LEASE",
+            "count": "276"
+          },
+          {
+            "item": "ECOSAFETY CONSULTANTS INC",
+            "count": "260"
+          },
+          {
+            "item": "SAFETY AND QUALITY PLUS",
+            "count": "254"
+          },
+          {
+            "item": "M.H.R. SAFETY CONSULTING",
+            "count": "218"
+          },
+          {
+            "item": "AWR GROUP INC",
+            "count": "218"
+          },
+          {
+            "item": "XINOS CONSTRUCTION CORP",
+            "count": "216"
+          },
+          {
+            "item": "CR SAFETY GROUP",
+            "count": "211"
+          },
+          {
+            "item": "STRUCTURE COMPLIANCE GROU",
+            "count": "200"
+          },
+          {
+            "item": "STAR SAFETY CONSULTING",
+            "count": "173"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "1806"
+      }
+    },
+    {
+      "field_name": "superintendent_first___last_name",
+      "display_name": "Superintendent First & Last Name",
+      "data_type": "text",
+      "description": "Superintendent First & Last Name",
+      "width": 200,
+      "position": 41,
+      "cached_contents": {
+        "non_null": "1818834",
+        "largest": "ZZOI MARKOZANIS",
+        "null": "2160269",
+        "top": [
+          {
+            "item": "JOHN WHITE",
+            "count": "14155"
+          },
+          {
+            "item": "THEODORE WAGNER",
+            "count": "9696"
+          },
+          {
+            "item": "PETER MARTINEZ",
+            "count": "9624"
+          },
+          {
+            "item": "DANIEL WEINTRAUB",
+            "count": "8092"
+          },
+          {
+            "item": "JERIMIAH HARRINGTON",
+            "count": "7783"
+          },
+          {
+            "item": "CONSTANTIN ZAHARIA",
+            "count": "6062"
+          },
+          {
+            "item": "TODD PHILLIPS",
+            "count": "5813"
+          },
+          {
+            "item": "PETER O'FARRELL",
+            "count": "5481"
+          },
+          {
+            "item": "GEORGE LEVINE",
+            "count": "5081"
+          },
+          {
+            "item": "DAVID BROWN",
+            "count": "5026"
+          },
+          {
+            "item": "STEVE CHON",
+            "count": "4966"
+          },
+          {
+            "item": "JOHN BRESLIN",
+            "count": "4477"
+          },
+          {
+            "item": "EUGENE BOCCIERI",
+            "count": "4372"
+          },
+          {
+            "item": "LARRY LINZER",
+            "count": "4327"
+          },
+          {
+            "item": "ERIC BERGER",
+            "count": "4116"
+          },
+          {
+            "item": "CHARLES ZHOU",
+            "count": "4086"
+          },
+          {
+            "item": "TIMOTHY BOWE",
+            "count": "4025"
+          },
+          {
+            "item": "LESLIE MUNICH",
+            "count": "3983"
+          },
+          {
+            "item": "ROBERT MIDROY",
+            "count": "3804"
+          },
+          {
+            "item": "ROCCO ABBATE",
+            "count": "3788"
+          }
+        ],
+        "smallest": ".. ..",
+        "count": "3979103",
+        "cardinality": "158383"
+      }
+    },
+    {
+      "field_name": "superintendent_business_name",
+      "display_name": "Superintendent Business Name",
+      "data_type": "text",
+      "description": "Superintendent Business Name",
+      "width": 200,
+      "position": 42,
+      "cached_contents": {
+        "non_null": "1808722",
+        "largest": "ZZZI MANAGEMENT CORP",
+        "null": "2170381",
+        "top": [
+          {
+            "item": "N/A",
+            "count": "26713"
+          },
+          {
+            "item": "ROCKLEDGE SCAFFOLD",
+            "count": "7056"
+          },
+          {
+            "item": "STRUCTURE TONE INC",
+            "count": "5759"
+          },
+          {
+            "item": "OWNER",
+            "count": "4724"
+          },
+          {
+            "item": "NA",
+            "count": "4330"
+          },
+          {
+            "item": "MASTER FIRE PREVENTION SYSTEMS",
+            "count": "4301"
+          },
+          {
+            "item": "STRUCTURE TONE INC.",
+            "count": "3653"
+          },
+          {
+            "item": "PAR PLUMBING CO. INC.",
+            "count": "3605"
+          },
+          {
+            "item": "STRUCTURE TONE",
+            "count": "3008"
+          },
+          {
+            "item": "SPRING SCAFFOLDING",
+            "count": "2739"
+          },
+          {
+            "item": "DUO PLUMBING & HEATING CORP",
+            "count": "2650"
+          },
+          {
+            "item": "ABCO PEERLESS SPRINKLER CORP",
+            "count": "2552"
+          },
+          {
+            "item": "COLGATE  SCAFFOLDING",
+            "count": "2304"
+          },
+          {
+            "item": "MRM DEVELOPMENT CORP",
+            "count": "2226"
+          },
+          {
+            "item": "NATIONAL MAINTENANCE INC",
+            "count": "2179"
+          },
+          {
+            "item": "SIRINA FIRE PROTECTION CORP",
+            "count": "2145"
+          },
+          {
+            "item": "IDEAL FIRE CONTROL",
+            "count": "2111"
+          },
+          {
+            "item": "LEHR CONSTRUCTION",
+            "count": "2090"
+          },
+          {
+            "item": "REGIONAL SCAFFOLD & HOISTING",
+            "count": "1944"
+          },
+          {
+            "item": "SPRING SCAFFOLDING INC",
+            "count": "1939"
+          }
+        ],
+        "smallest": ".",
+        "count": "3979103",
+        "cardinality": "310777"
+      }
+    },
+    {
+      "field_name": "owner_s_business_type",
+      "display_name": "Owner's Business Type",
+      "data_type": "text",
+      "description": "Owner's Business Type",
+      "width": 167,
+      "position": 43,
+      "cached_contents": {
+        "non_null": "3807451",
+        "largest": "PARTNERSHIP",
+        "null": "171652",
+        "top": [
+          {
+            "item": "CORPORATION",
+            "count": "1292270"
+          },
+          {
+            "item": "INDIVIDUAL",
+            "count": "1254317"
+          },
+          {
+            "item": "PARTNERSHIP",
+            "count": "851376"
+          },
+          {
+            "item": "OTHER",
+            "count": "162079"
+          },
+          {
+            "item": "CONDO/CO-OP",
+            "count": "107178"
+          },
+          {
+            "item": "OTHER GOV'T AGENCY",
+            "count": "78089"
+          },
+          {
+            "item": "NYCHA/HHC",
+            "count": "21154"
+          },
+          {
+            "item": "NYC AGENCY",
+            "count": "16311"
+          },
+          {
+            "item": "NYCHA",
+            "count": "13046"
+          },
+          {
+            "item": "HPD",
+            "count": "6882"
+          },
+          {
+            "item": "HHC",
+            "count": "1287"
+          },
+          {
+            "item": "DCAS",
+            "count": "1243"
+          },
+          {
+            "item": "NY STATE",
+            "count": "1212"
+          },
+          {
+            "item": "DOE",
+            "count": "1006"
+          },
+          {
+            "item": "2022-05-09 00:00:00",
+            "count": "1"
+          }
+        ],
+        "smallest": "2022-05-09 00:00:00",
+        "count": "3979103",
+        "cardinality": "15"
+      }
+    },
+    {
+      "field_name": "non_profit",
+      "display_name": "Non-Profit",
+      "data_type": "text",
+      "description": "Non-Profit",
+      "width": 94,
+      "position": 44,
+      "cached_contents": {
+        "non_null": "3811727",
+        "largest": "Y",
+        "null": "167376",
+        "top": [
+          {
+            "item": "N",
+            "count": "3572338"
+          },
+          {
+            "item": "Y",
+            "count": "239387"
+          },
+          {
+            "item": "\u0097",
+            "count": "1"
+          },
+          {
+            "item": "8",
+            "count": "1"
+          }
+        ],
+        "smallest": "\u0097",
+        "count": "3979103",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "owner_s_business_name",
+      "display_name": "Owner's Business Name",
+      "data_type": "text",
+      "description": "Business Name of Property Owner",
+      "width": 200,
+      "position": 45,
+      "cached_contents": {
+        "non_null": "3886269",
+        "largest": "ZZZ HOME HOLDING LLC",
+        "null": "92834",
+        "top": [
+          {
+            "item": "N/A",
+            "count": "616453"
+          },
+          {
+            "item": "NA",
+            "count": "105411"
+          },
+          {
+            "item": "NY SCHOOL CONSTRUCTION AUTHORITY",
+            "count": "28168"
+          },
+          {
+            "item": "OWNER",
+            "count": "24364"
+          },
+          {
+            "item": "NYC SCA",
+            "count": "23445"
+          },
+          {
+            "item": "NONE",
+            "count": "23443"
+          },
+          {
+            "item": "HPD",
+            "count": "19593"
+          },
+          {
+            "item": "NYC HOUSING AUTHORITY",
+            "count": "15290"
+          },
+          {
+            "item": "NYC HPD",
+            "count": "13990"
+          },
+          {
+            "item": "NYCHA",
+            "count": "13502"
+          },
+          {
+            "item": "NEW YORK CITY HOUSING AUTHORITY",
+            "count": "11897"
+          },
+          {
+            "item": "NYC SCHOOL CONSTRUCTION AUTHORIT",
+            "count": "11228"
+          },
+          {
+            "item": "n/a",
+            "count": "10456"
+          },
+          {
+            "item": "-",
+            "count": "10174"
+          },
+          {
+            "item": "NYCSCA",
+            "count": "8983"
+          },
+          {
+            "item": "VORNADO OFFICE MANAGEMENT",
+            "count": "8015"
+          },
+          {
+            "item": "SL GREEN REALTY CORP.",
+            "count": "7387"
+          },
+          {
+            "item": "SELF",
+            "count": "6848"
+          },
+          {
+            "item": "NEW YORK UNIVERSITY",
+            "count": "6383"
+          },
+          {
+            "item": "H.P.D.",
+            "count": "6203"
+          }
+        ],
+        "smallest": "`",
+        "count": "3979103",
+        "cardinality": "490231"
+      }
+    },
+    {
+      "field_name": "owner_s_first_name",
+      "display_name": "Owner's First Name",
+      "data_type": "text",
+      "description": "First Name of property owner",
+      "width": 156,
+      "position": 46,
+      "cached_contents": {
+        "non_null": "3978730",
+        "largest": "ZZZZ",
+        "null": "373",
+        "top": [
+          {
+            "item": "MICHAEL",
+            "count": "95435"
+          },
+          {
+            "item": "JOHN",
+            "count": "83831"
+          },
+          {
+            "item": "ROBERT",
+            "count": "82329"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "77357"
+          },
+          {
+            "item": "DAVID",
+            "count": "76883"
+          },
+          {
+            "item": "ANTHONY",
+            "count": "46877"
+          },
+          {
+            "item": "RICHARD",
+            "count": "44810"
+          },
+          {
+            "item": "JAMES",
+            "count": "42449"
+          },
+          {
+            "item": "PETER",
+            "count": "38058"
+          },
+          {
+            "item": "WILLIAM",
+            "count": "37397"
+          },
+          {
+            "item": "CHARLES",
+            "count": "35163"
+          },
+          {
+            "item": "THOMAS",
+            "count": "34326"
+          },
+          {
+            "item": "FRANK",
+            "count": "33868"
+          },
+          {
+            "item": "MARK",
+            "count": "33710"
+          },
+          {
+            "item": "STEVEN",
+            "count": "30872"
+          },
+          {
+            "item": "STEVE",
+            "count": "30557"
+          },
+          {
+            "item": "GEORGE",
+            "count": "27747"
+          },
+          {
+            "item": "PAUL",
+            "count": "25964"
+          },
+          {
+            "item": "ELAN",
+            "count": "21185"
+          },
+          {
+            "item": "ANDREW",
+            "count": "19544"
+          }
+        ],
+        "smallest": "_",
+        "count": "3979103",
+        "cardinality": "102364"
+      }
+    },
+    {
+      "field_name": "owner_s_last_name",
+      "display_name": "Owner's Last Name",
+      "data_type": "text",
+      "description": "Last Name of property owner",
+      "width": 144,
+      "position": 47,
+      "cached_contents": {
+        "non_null": "3978726",
+        "largest": "ZZZZ",
+        "null": "377",
+        "top": [
+          {
+            "item": "SINGH",
+            "count": "35736"
+          },
+          {
+            "item": "COHEN",
+            "count": "27569"
+          },
+          {
+            "item": "ABNERI",
+            "count": "20805"
+          },
+          {
+            "item": "CHEN",
+            "count": "15660"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "13774"
+          },
+          {
+            "item": "Joseph",
+            "count": "12951"
+          },
+          {
+            "item": "LEE",
+            "count": "12878"
+          },
+          {
+            "item": "D'URSO",
+            "count": "11783"
+          },
+          {
+            "item": "SONITIS",
+            "count": "11462"
+          },
+          {
+            "item": "LIN",
+            "count": "9756"
+          },
+          {
+            "item": "PUMILIA",
+            "count": "9409"
+          },
+          {
+            "item": "KIM",
+            "count": "8887"
+          },
+          {
+            "item": "SMITH",
+            "count": "8516"
+          },
+          {
+            "item": "GOMEZ",
+            "count": "8437"
+          },
+          {
+            "item": "GROOM",
+            "count": "7710"
+          },
+          {
+            "item": "CHAN",
+            "count": "7064"
+          },
+          {
+            "item": "LI",
+            "count": "6950"
+          },
+          {
+            "item": "BROWN",
+            "count": "6918"
+          },
+          {
+            "item": "WONG",
+            "count": "6432"
+          },
+          {
+            "item": "MILLER",
+            "count": "6335"
+          }
+        ],
+        "smallest": "_",
+        "count": "3979103",
+        "cardinality": "180009"
+      }
+    },
+    {
+      "field_name": "owner_s_house__",
+      "display_name": "Owner's House #",
+      "data_type": "text",
+      "description": "Owner's House #",
+      "width": 135,
+      "position": 48,
+      "cached_contents": {
+        "non_null": "92126",
+        "largest": "Y BUILDING",
+        "null": "3886977",
+        "top": [
+          {
+            "item": "100",
+            "count": "2989"
+          },
+          {
+            "item": "30-30",
+            "count": "1626"
+          },
+          {
+            "item": "1",
+            "count": "1599"
+          },
+          {
+            "item": "75",
+            "count": "1071"
+          },
+          {
+            "item": "150",
+            "count": "927"
+          },
+          {
+            "item": "200",
+            "count": "762"
+          },
+          {
+            "item": "60",
+            "count": "696"
+          },
+          {
+            "item": "90",
+            "count": "522"
+          },
+          {
+            "item": "250",
+            "count": "501"
+          },
+          {
+            "item": "110",
+            "count": "472"
+          },
+          {
+            "item": "345",
+            "count": "432"
+          },
+          {
+            "item": "111",
+            "count": "417"
+          },
+          {
+            "item": "15",
+            "count": "406"
+          },
+          {
+            "item": "55",
+            "count": "403"
+          },
+          {
+            "item": "70",
+            "count": "401"
+          },
+          {
+            "item": "2",
+            "count": "353"
+          },
+          {
+            "item": "4",
+            "count": "350"
+          },
+          {
+            "item": "40",
+            "count": "346"
+          },
+          {
+            "item": "45",
+            "count": "340"
+          },
+          {
+            "item": "11",
+            "count": "338"
+          }
+        ],
+        "smallest": "-",
+        "count": "3979103",
+        "cardinality": "12413"
+      }
+    },
+    {
+      "field_name": "owner_s_house_street_name",
+      "display_name": "Owner's House Street Name",
+      "data_type": "text",
+      "description": "Owner's House Street Name",
+      "width": 200,
+      "position": 49,
+      "cached_contents": {
+        "non_null": "92126",
+        "largest": "ZULETTE AVENUE",
+        "null": "3886977",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "2117"
+          },
+          {
+            "item": "THOMSON AVENUE",
+            "count": "1154"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "1081"
+          },
+          {
+            "item": "GOLD STREET",
+            "count": "1018"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "841"
+          },
+          {
+            "item": "PARK AVE",
+            "count": "793"
+          },
+          {
+            "item": "MADISON AVE",
+            "count": "748"
+          },
+          {
+            "item": "FIFTH AVENUE",
+            "count": "705"
+          },
+          {
+            "item": "GOLD ST",
+            "count": "697"
+          },
+          {
+            "item": "5TH AVENUE",
+            "count": "507"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "491"
+          },
+          {
+            "item": "THIRD AVENUE",
+            "count": "435"
+          },
+          {
+            "item": "Gold Street",
+            "count": "430"
+          },
+          {
+            "item": "MAIDEN LANE",
+            "count": "422"
+          },
+          {
+            "item": "AVENUE OF THE AMERICAS",
+            "count": "420"
+          },
+          {
+            "item": "5TH AVE",
+            "count": "382"
+          },
+          {
+            "item": "QUEENS BLVD",
+            "count": "348"
+          },
+          {
+            "item": "PARK PLACE",
+            "count": "327"
+          },
+          {
+            "item": "Broadway",
+            "count": "323"
+          },
+          {
+            "item": "WILLIAM STREET",
+            "count": "279"
+          }
+        ],
+        "smallest": "-",
+        "count": "3979103",
+        "cardinality": "23698"
+      }
+    },
+    {
+      "field_name": "city",
+      "display_name": "Owner\u2019s House City",
+      "data_type": "text",
+      "description": "Owner\u2019s House City",
+      "width": 148,
+      "position": 50,
+      "cached_contents": {
+        "non_null": "92125",
+        "largest": "YORKTOWN HGHTS",
+        "null": "3886978",
+        "top": [
+          {
+            "item": "NEW YORK",
+            "count": "21675"
+          },
+          {
+            "item": "NY",
+            "count": "12163"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "8061"
+          },
+          {
+            "item": "New York",
+            "count": "5249"
+          },
+          {
+            "item": "QUEENS",
+            "count": "3048"
+          },
+          {
+            "item": "BRONX",
+            "count": "2905"
+          },
+          {
+            "item": "BKLYN",
+            "count": "2417"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "2349"
+          },
+          {
+            "item": "SI",
+            "count": "2199"
+          },
+          {
+            "item": "NYC",
+            "count": "1977"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "1828"
+          },
+          {
+            "item": "FLUSHING",
+            "count": "1681"
+          },
+          {
+            "item": "LIC",
+            "count": "1613"
+          },
+          {
+            "item": "JAMAICA",
+            "count": "996"
+          },
+          {
+            "item": "BX",
+            "count": "929"
+          },
+          {
+            "item": "ASTORIA",
+            "count": "619"
+          },
+          {
+            "item": "FOREST HILLS",
+            "count": "594"
+          },
+          {
+            "item": "BAYSIDE",
+            "count": "592"
+          },
+          {
+            "item": "BKLYN,",
+            "count": "535"
+          },
+          {
+            "item": "L.I.C.",
+            "count": "516"
+          }
+        ],
+        "smallest": "10016",
+        "count": "3979103",
+        "cardinality": "2649"
+      }
+    },
+    {
+      "field_name": "state",
+      "display_name": "Owner\u2019s House State",
+      "data_type": "text",
+      "description": "Owner\u2019s House State",
+      "width": 128,
+      "position": 51,
+      "cached_contents": {
+        "non_null": "92124",
+        "largest": "WA",
+        "null": "3886979",
+        "top": [
+          {
+            "item": "NY",
+            "count": "89926"
+          },
+          {
+            "item": "NJ",
+            "count": "1097"
+          },
+          {
+            "item": "CT",
+            "count": "151"
+          },
+          {
+            "item": "PA",
+            "count": "141"
+          },
+          {
+            "item": "CA",
+            "count": "116"
+          },
+          {
+            "item": "FL",
+            "count": "103"
+          },
+          {
+            "item": "MA",
+            "count": "96"
+          },
+          {
+            "item": "IL",
+            "count": "75"
+          },
+          {
+            "item": "OH",
+            "count": "59"
+          },
+          {
+            "item": "NC",
+            "count": "52"
+          },
+          {
+            "item": "VA",
+            "count": "43"
+          },
+          {
+            "item": "TX",
+            "count": "42"
+          },
+          {
+            "item": "MD",
+            "count": "24"
+          },
+          {
+            "item": "GA",
+            "count": "23"
+          },
+          {
+            "item": "NV",
+            "count": "18"
+          },
+          {
+            "item": "AZ",
+            "count": "18"
+          },
+          {
+            "item": "NH",
+            "count": "14"
+          },
+          {
+            "item": "CO",
+            "count": "14"
+          },
+          {
+            "item": "RI",
+            "count": "12"
+          },
+          {
+            "item": "DC",
+            "count": "11"
+          }
+        ],
+        "smallest": "AK",
+        "count": "3979103",
+        "cardinality": "43"
+      }
+    },
+    {
+      "field_name": "owner_s_zip_code",
+      "display_name": "Owner\u2019s House Zip Code",
+      "data_type": "text",
+      "description": "Owner\u2019s House Zip Code",
+      "width": 182,
+      "position": 52,
+      "cached_contents": {
+        "non_null": "91761",
+        "largest": "999999999",
+        "null": "3887342",
+        "top": [
+          {
+            "item": "10038",
+            "count": "3954"
+          },
+          {
+            "item": "10022",
+            "count": "3655"
+          },
+          {
+            "item": "10017",
+            "count": "3306"
+          },
+          {
+            "item": "11101",
+            "count": "2629"
+          },
+          {
+            "item": "10019",
+            "count": "2405"
+          },
+          {
+            "item": "10021",
+            "count": "2054"
+          },
+          {
+            "item": "10016",
+            "count": "1822"
+          },
+          {
+            "item": "10036",
+            "count": "1750"
+          },
+          {
+            "item": "10007",
+            "count": "1688"
+          },
+          {
+            "item": "10001",
+            "count": "1573"
+          },
+          {
+            "item": "10013",
+            "count": "1463"
+          },
+          {
+            "item": "10003",
+            "count": "1373"
+          },
+          {
+            "item": "10011",
+            "count": "1178"
+          },
+          {
+            "item": "10018",
+            "count": "1160"
+          },
+          {
+            "item": "10023",
+            "count": "1143"
+          },
+          {
+            "item": "10012",
+            "count": "1100"
+          },
+          {
+            "item": "11201",
+            "count": "1095"
+          },
+          {
+            "item": "11211",
+            "count": "993"
+          },
+          {
+            "item": "10314",
+            "count": "974"
+          },
+          {
+            "item": "10010",
+            "count": "966"
+          }
+        ],
+        "smallest": "00001",
+        "count": "3979103",
+        "cardinality": "1860"
+      }
+    },
+    {
+      "field_name": "owner_s_phone__",
+      "display_name": "Owner's Phone #",
+      "data_type": "text",
+      "description": "Owner's Phone #",
+      "width": 145,
+      "position": 53,
+      "cached_contents": {
+        "non_null": "3928138",
+        "largest": "N.AN/A",
+        "null": "50965",
+        "top": [
+          {
+            "item": "7184728000",
+            "count": "36991"
+          },
+          {
+            "item": "2128637625",
+            "count": "15122"
+          },
+          {
+            "item": "2128947000",
+            "count": "12433"
+          },
+          {
+            "item": "7184728534",
+            "count": "10455"
+          },
+          {
+            "item": "2128637490",
+            "count": "9449"
+          },
+          {
+            "item": "7189452300",
+            "count": "7965"
+          },
+          {
+            "item": "2129786310",
+            "count": "7948"
+          },
+          {
+            "item": "2120000000",
+            "count": "7429"
+          },
+          {
+            "item": "2125295688",
+            "count": "7187"
+          },
+          {
+            "item": "2124072400",
+            "count": "6942"
+          },
+          {
+            "item": "7183924921",
+            "count": "6898"
+          },
+          {
+            "item": "7186280500",
+            "count": "6808"
+          },
+          {
+            "item": "5169355555",
+            "count": "5946"
+          },
+          {
+            "item": "00000000",
+            "count": "5920"
+          },
+          {
+            "item": "2123867490",
+            "count": "5806"
+          },
+          {
+            "item": "7184728526",
+            "count": "5610"
+          },
+          {
+            "item": "2123066936",
+            "count": "5548"
+          },
+          {
+            "item": "2122161664",
+            "count": "5124"
+          },
+          {
+            "item": "7184928000",
+            "count": "5112"
+          },
+          {
+            "item": "2123712525",
+            "count": "4606"
+          }
+        ],
+        "smallest": "0",
+        "count": "3979103",
+        "cardinality": "425823"
+      }
+    },
+    {
+      "field_name": "dobrundate",
+      "display_name": "DOBRunDate",
+      "data_type": "text",
+      "description": "Date when query is run and pushed to Open Data. Could be used to differentiate report dates.",
+      "width": 157,
+      "position": 54,
+      "cached_contents": {
+        "non_null": "3979099",
+        "largest": "2020-06-06 ",
+        "null": "4",
+        "top": [
+          {
+            "item": "05/09/2022 00:00:00",
+            "count": "3781777"
+          },
+          {
+            "item": "2017-11-03 ",
+            "count": "85258"
+          },
+          {
+            "item": "06/24/2024 00:00:00",
+            "count": "1368"
+          },
+          {
+            "item": "06/25/2024 00:00:00",
+            "count": "1267"
+          },
+          {
+            "item": "03/09/2024 00:00:00",
+            "count": "1069"
+          },
+          {
+            "item": "01/16/2025 00:00:00",
+            "count": "811"
+          },
+          {
+            "item": "09/12/2022 00:00:00",
+            "count": "791"
+          },
+          {
+            "item": "09/05/2022 00:00:00",
+            "count": "739"
+          },
+          {
+            "item": "12/16/2022 00:00:00",
+            "count": "693"
+          },
+          {
+            "item": "06/01/2022 00:00:00",
+            "count": "673"
+          },
+          {
+            "item": "05/17/2023 00:00:00",
+            "count": "655"
+          },
+          {
+            "item": "07/29/2020 00:00:00",
+            "count": "631"
+          },
+          {
+            "item": "05/26/2023 00:00:00",
+            "count": "595"
+          },
+          {
+            "item": "07/02/2024 00:00:00",
+            "count": "547"
+          },
+          {
+            "item": "01/13/2024 00:00:00",
+            "count": "536"
+          },
+          {
+            "item": "08/30/2022 00:00:00",
+            "count": "529"
+          },
+          {
+            "item": "08/17/2022 00:00:00",
+            "count": "462"
+          },
+          {
+            "item": "01/07/2025 00:00:00",
+            "count": "446"
+          },
+          {
+            "item": "08/09/2022 00:00:00",
+            "count": "392"
+          },
+          {
+            "item": "11/02/2022 00:00:00",
+            "count": "391"
+          }
+        ],
+        "smallest": "01/01/2021 00:00:00",
+        "count": "3979103",
+        "cardinality": "2092"
+      }
+    },
+    {
+      "field_name": "permit_si_no",
+      "display_name": "PERMIT_SI_NO",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 55,
+      "cached_contents": {
+        "non_null": "3979103",
+        "largest": "999999",
+        "null": "0",
+        "top": [
+          {
+            "item": "100",
+            "count": "1"
+          },
+          {
+            "item": "1000",
+            "count": "1"
+          },
+          {
+            "item": "10000",
+            "count": "1"
+          },
+          {
+            "item": "100000",
+            "count": "1"
+          },
+          {
+            "item": "1000000",
+            "count": "1"
+          },
+          {
+            "item": "1000001",
+            "count": "1"
+          },
+          {
+            "item": "1000002",
+            "count": "1"
+          },
+          {
+            "item": "1000003",
+            "count": "1"
+          },
+          {
+            "item": "1000004",
+            "count": "1"
+          },
+          {
+            "item": "1000005",
+            "count": "1"
+          },
+          {
+            "item": "1000006",
+            "count": "1"
+          },
+          {
+            "item": "1000007",
+            "count": "1"
+          },
+          {
+            "item": "1000008",
+            "count": "1"
+          },
+          {
+            "item": "1000009",
+            "count": "1"
+          },
+          {
+            "item": "100001",
+            "count": "1"
+          },
+          {
+            "item": "1000010",
+            "count": "1"
+          },
+          {
+            "item": "1000011",
+            "count": "1"
+          },
+          {
+            "item": "1000012",
+            "count": "1"
+          },
+          {
+            "item": "1000013",
+            "count": "1"
+          },
+          {
+            "item": "1000014",
+            "count": "1"
+          }
+        ],
+        "smallest": "10",
+        "count": "3979103",
+        "cardinality": "3979103"
+      }
+    },
+    {
+      "field_name": "gis_latitude",
+      "display_name": "LATITUDE",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 56,
+      "cached_contents": {
+        "non_null": "3967412",
+        "largest": "40.913711",
+        "null": "11691",
+        "top": [
+          {
+            "item": "40.748276",
+            "count": "3374"
+          },
+          {
+            "item": "40.751098",
+            "count": "3094"
+          },
+          {
+            "item": "40.754162",
+            "count": "2616"
+          },
+          {
+            "item": "40.758754",
+            "count": "2475"
+          },
+          {
+            "item": "40.711537",
+            "count": "2148"
+          },
+          {
+            "item": "40.582305",
+            "count": "2116"
+          },
+          {
+            "item": "40.764020",
+            "count": "2113"
+          },
+          {
+            "item": "40.703608",
+            "count": "2113"
+          },
+          {
+            "item": "40.733848",
+            "count": "1961"
+          },
+          {
+            "item": "40.758171",
+            "count": "1932"
+          },
+          {
+            "item": "40.760753",
+            "count": "1866"
+          },
+          {
+            "item": "40.758786",
+            "count": "1827"
+          },
+          {
+            "item": "40.740704",
+            "count": "1815"
+          },
+          {
+            "item": "40.702540",
+            "count": "1683"
+          },
+          {
+            "item": "40.759644",
+            "count": "1680"
+          },
+          {
+            "item": "40.755564",
+            "count": "1636"
+          },
+          {
+            "item": "40.756023",
+            "count": "1595"
+          },
+          {
+            "item": "40.752532",
+            "count": "1582"
+          },
+          {
+            "item": "40.761574",
+            "count": "1561"
+          },
+          {
+            "item": "40.714529",
+            "count": "1560"
+          }
+        ],
+        "smallest": "40.498807",
+        "count": "3979103",
+        "cardinality": "235551"
+      }
+    },
+    {
+      "field_name": "gis_longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 57,
+      "cached_contents": {
+        "non_null": "3967412",
+        "largest": "-74.254897",
+        "null": "11691",
+        "top": [
+          {
+            "item": "-73.984690",
+            "count": "3385"
+          },
+          {
+            "item": "-73.992926",
+            "count": "3082"
+          },
+          {
+            "item": "-73.976557",
+            "count": "2616"
+          },
+          {
+            "item": "-73.978692",
+            "count": "2553"
+          },
+          {
+            "item": "-74.015673",
+            "count": "2169"
+          },
+          {
+            "item": "-74.169053",
+            "count": "2116"
+          },
+          {
+            "item": "-73.973189",
+            "count": "2115"
+          },
+          {
+            "item": "-74.009691",
+            "count": "2109"
+          },
+          {
+            "item": "-73.973246",
+            "count": "1935"
+          },
+          {
+            "item": "-73.871578",
+            "count": "1918"
+          },
+          {
+            "item": "-74.001844",
+            "count": "1894"
+          },
+          {
+            "item": "-73.972801",
+            "count": "1825"
+          },
+          {
+            "item": "-73.980627",
+            "count": "1786"
+          },
+          {
+            "item": "-73.983962",
+            "count": "1703"
+          },
+          {
+            "item": "-74.012562",
+            "count": "1675"
+          },
+          {
+            "item": "-73.975138",
+            "count": "1638"
+          },
+          {
+            "item": "-73.974831",
+            "count": "1599"
+          },
+          {
+            "item": "-73.981537",
+            "count": "1591"
+          },
+          {
+            "item": "-73.978662",
+            "count": "1585"
+          },
+          {
+            "item": "-74.015677",
+            "count": "1571"
+          }
+        ],
+        "smallest": "-73.700376",
+        "count": "3979103",
+        "cardinality": "249314"
+      }
+    },
+    {
+      "field_name": "gis_council_district",
+      "display_name": "COUNCIL_DISTRICT",
+      "data_type": "text",
+      "description": "",
+      "width": 180,
+      "position": 58,
+      "cached_contents": {
+        "non_null": "3967412",
+        "largest": "9",
+        "null": "11691",
+        "top": [
+          {
+            "item": "4",
+            "count": "465772"
+          },
+          {
+            "item": "3",
+            "count": "300206"
+          },
+          {
+            "item": "1",
+            "count": "256876"
+          },
+          {
+            "item": "2",
+            "count": "154174"
+          },
+          {
+            "item": "6",
+            "count": "135067"
+          },
+          {
+            "item": "33",
+            "count": "129787"
+          },
+          {
+            "item": "5",
+            "count": "97591"
+          },
+          {
+            "item": "19",
+            "count": "91558"
+          },
+          {
+            "item": "39",
+            "count": "87975"
+          },
+          {
+            "item": "51",
+            "count": "87950"
+          },
+          {
+            "item": "34",
+            "count": "80447"
+          },
+          {
+            "item": "50",
+            "count": "79576"
+          },
+          {
+            "item": "26",
+            "count": "78429"
+          },
+          {
+            "item": "9",
+            "count": "73855"
+          },
+          {
+            "item": "20",
+            "count": "70582"
+          },
+          {
+            "item": "35",
+            "count": "70530"
+          },
+          {
+            "item": "36",
+            "count": "68155"
+          },
+          {
+            "item": "38",
+            "count": "65603"
+          },
+          {
+            "item": "31",
+            "count": "64055"
+          },
+          {
+            "item": "49",
+            "count": "63282"
+          }
+        ],
+        "smallest": "1",
+        "count": "3979103",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "gis_census_tract",
+      "display_name": "CENSUS_TRACT",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 59,
+      "cached_contents": {
+        "non_null": "3967412",
+        "largest": "999",
+        "null": "11691",
+        "top": [
+          {
+            "item": "7",
+            "count": "32695"
+          },
+          {
+            "item": "33",
+            "count": "31228"
+          },
+          {
+            "item": "102",
+            "count": "26876"
+          },
+          {
+            "item": "104",
+            "count": "25466"
+          },
+          {
+            "item": "137",
+            "count": "25438"
+          },
+          {
+            "item": "9",
+            "count": "25043"
+          },
+          {
+            "item": "96",
+            "count": "24363"
+          },
+          {
+            "item": "92",
+            "count": "23897"
+          },
+          {
+            "item": "119",
+            "count": "22969"
+          },
+          {
+            "item": "94",
+            "count": "22488"
+          },
+          {
+            "item": "21",
+            "count": "22412"
+          },
+          {
+            "item": "113",
+            "count": "22093"
+          },
+          {
+            "item": "100",
+            "count": "21084"
+          },
+          {
+            "item": "39",
+            "count": "20517"
+          },
+          {
+            "item": "131",
+            "count": "19614"
+          },
+          {
+            "item": "37",
+            "count": "19416"
+          },
+          {
+            "item": "49",
+            "count": "19111"
+          },
+          {
+            "item": "74",
+            "count": "18903"
+          },
+          {
+            "item": "99",
+            "count": "18775"
+          },
+          {
+            "item": "125",
+            "count": "18315"
+          }
+        ],
+        "smallest": "1",
+        "count": "3979103",
+        "cardinality": "1327"
+      }
+    },
+    {
+      "field_name": "gis_nta_name",
+      "display_name": "NTA_NAME",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 60,
+      "cached_contents": {
+        "non_null": "3967412",
+        "largest": "Yorkville",
+        "null": "11691",
+        "top": [
+          {
+            "item": "Midtown-Midtown South",
+            "count": "280313"
+          },
+          {
+            "item": "Hudson Yards-Chelsea-Flatiron-Union Square",
+            "count": "127241"
+          },
+          {
+            "item": "SoHo-TriBeCa-Civic Center-Little Italy",
+            "count": "121765"
+          },
+          {
+            "item": "Upper East Side-Carnegie Hill",
+            "count": "119620"
+          },
+          {
+            "item": "West Village",
+            "count": "103957"
+          },
+          {
+            "item": "Turtle Bay-East Midtown",
+            "count": "101754"
+          },
+          {
+            "item": "Upper West Side",
+            "count": "93229"
+          },
+          {
+            "item": "Battery Park City-Lower Manhattan",
+            "count": "83961"
+          },
+          {
+            "item": "Murray Hill-Kips Bay",
+            "count": "57005"
+          },
+          {
+            "item": "Lenox Hill-Roosevelt Island",
+            "count": "52160"
+          },
+          {
+            "item": "Lincoln Square",
+            "count": "51590"
+          },
+          {
+            "item": "Park Slope-Gowanus",
+            "count": "48516"
+          },
+          {
+            "item": "Clinton",
+            "count": "44368"
+          },
+          {
+            "item": "Hunters Point-Sunnyside-West Maspeth",
+            "count": "43589"
+          },
+          {
+            "item": "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+            "count": "40677"
+          },
+          {
+            "item": "Yorkville",
+            "count": "38622"
+          },
+          {
+            "item": "Borough Park",
+            "count": "38500"
+          },
+          {
+            "item": "East Village",
+            "count": "36988"
+          },
+          {
+            "item": "North Side-South Side",
+            "count": "36690"
+          },
+          {
+            "item": "Crown Heights North",
+            "count": "36651"
+          }
+        ],
+        "smallest": "Airport",
+        "count": "3979103",
+        "cardinality": "194"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T20:55:50.882178"
+}

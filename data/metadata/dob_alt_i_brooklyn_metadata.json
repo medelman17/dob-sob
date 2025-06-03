@@ -1,0 +1,224 @@
+{
+  "dataset_id": "4735-s3q5",
+  "name": "DOB Alt I Brooklyn",
+  "description": "A Certificate of Occupancy (CO) states a building\u2019s legal use and/or type of permitted occupancy. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy. No one may legally occupy a building until the Department has issued a Certificate of Occupancy or Temporary Certificate of Occupancy. The Department issues a final Certificate of Occupancy when the completed work matches the submitted plans for new buildings or major alterations. It issues a Letter of Completion for minor alterations to properties. These documents confirm the work complies with all applicable laws, all paperwork has been completed, all fees owed to the Department have been paid, all relevant violations have been resolved and all necessary approvals have been received from other City Agencies.\n\nThis dataset contains all Certificates of Occupancy issued since 7/12/12.",
+  "agency": "",
+  "category": "Housing & Development",
+  "tags": [
+    "building",
+    "occupancy",
+    "certificate",
+    "c of o",
+    "co"
+  ],
+  "update_frequency": "0",
+  "created_at": "2019-12-11T20:37:44",
+  "updated_at": "2025-06-03T20:37:19",
+  "row_count": 1748983039,
+  "column_count": 25,
+  "download_count": 10,
+  "view_count": 326,
+  "columns": [
+    {
+      "field_name": "job_number",
+      "display_name": "JOB_NUMBER",
+      "data_type": "text",
+      "description": "Number assigned by the Department of Buildings for the Certificate of Occupancy Application and Filing.\n",
+      "width": 88,
+      "position": 1
+    },
+    {
+      "field_name": "job_type",
+      "display_name": "JOB_TYPE",
+      "data_type": "text",
+      "description": "Job Type based on DOB Job Code (NB- New Building, A1,A2,A3 - Alternations 1-3, SG-Sign, etc.)\n",
+      "width": 67,
+      "position": 2
+    },
+    {
+      "field_name": "c_o_issue_date",
+      "display_name": "C_O_ISSUE_DATE",
+      "data_type": "calendar_date",
+      "description": "Date the Certificate of Occupancy was issued\n",
+      "width": 109,
+      "position": 3
+    },
+    {
+      "field_name": "bin_number",
+      "display_name": "BIN_NUMBER",
+      "data_type": "text",
+      "description": "Number assigned by City Planning for a specific building.\n",
+      "width": 89,
+      "position": 4
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "Borough of Residence or Commercial Property.\n",
+      "width": 77,
+      "position": 5
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "NUMBER",
+      "data_type": "text",
+      "description": "House Number of Residence or Commercial Property.\n",
+      "width": 106,
+      "position": 6
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET",
+      "data_type": "text",
+      "description": "Street Name  where Property is located.\n",
+      "width": 232,
+      "position": 7
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "description": "Tax Block assigned by the Department of Finance.\n",
+      "width": 56,
+      "position": 8
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "description": "Tax Lot assigned by the Department of Finance.\n",
+      "width": 52,
+      "position": 9
+    },
+    {
+      "field_name": "postcode",
+      "display_name": "POSTCODE",
+      "data_type": "text",
+      "description": "Postcode\n",
+      "width": 69,
+      "position": 10
+    },
+    {
+      "field_name": "pr_dwelling_unit",
+      "display_name": "PR_DWELLING_UNIT",
+      "data_type": "text",
+      "description": "Proposed number of Dwelling Units\n",
+      "width": 129,
+      "position": 11
+    },
+    {
+      "field_name": "ex_dwelling_unit",
+      "display_name": "EX_DWELLING_UNIT",
+      "data_type": "text",
+      "description": "Existing number of Dwelling Units\n",
+      "width": 135,
+      "position": 12
+    },
+    {
+      "field_name": "application_status_raw",
+      "display_name": "APPLICATION_STATUS_RAW",
+      "data_type": "text",
+      "description": "Certificate of Occupancy Application Status (Open, Issued, Withdrawn)\n",
+      "width": 172,
+      "position": 13
+    },
+    {
+      "field_name": "filing_status_raw",
+      "display_name": "FILING_STATUS_RAW",
+      "data_type": "text",
+      "description": "Certificate of Occupancy Filing Status (Amended, Final, New Temporary)\n",
+      "width": 134,
+      "position": 14
+    },
+    {
+      "field_name": "item_number",
+      "display_name": "ITEM_NUMBER",
+      "data_type": "text",
+      "description": "Number of Partitioned Units of Work for a Job.\n",
+      "width": 96,
+      "position": 15
+    },
+    {
+      "field_name": "issue_type",
+      "display_name": "ISSUE_TYPE",
+      "data_type": "text",
+      "description": "Certificate of Occupancy Issue Type (Temporary, Final)\n",
+      "width": 78,
+      "position": 16
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "text",
+      "description": "Latitude\n",
+      "width": 74,
+      "position": 17
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "text",
+      "description": "Longitude\n",
+      "width": 80,
+      "position": 18
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "COMMUNITY_BOARD",
+      "data_type": "text",
+      "description": "Community Board\n",
+      "width": 136,
+      "position": 19
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "COUNCIL_DISTRICT",
+      "data_type": "text",
+      "description": "Council District\n",
+      "width": 127,
+      "position": 20
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "CENSUS_TRACT",
+      "data_type": "text",
+      "description": "Census Tract\n",
+      "width": 103,
+      "position": 21
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Number assigned by City Planning for a specific building.\n",
+      "width": 62,
+      "position": 22
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "description": "Borough-Block_Lot\n",
+      "width": 84,
+      "position": 23
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "Neighborhood Tabulation Area\n",
+      "width": 333,
+      "position": 24
+    },
+    {
+      "field_name": "location",
+      "display_name": "LOCATION",
+      "data_type": "point",
+      "description": "Latitude and Longitude. Used for mapping purpose\n",
+      "width": 158,
+      "position": 25
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:00.443307"
+}

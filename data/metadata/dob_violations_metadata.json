@@ -1,0 +1,1731 @@
+{
+  "dataset_id": "3h2n-5cm9",
+  "name": "DOB Violations",
+  "description": "Violations that have been issued by the Department of Buildings. There may also be an ECB violation. (https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad)",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "dob",
+    "buildings",
+    "violation"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2015-11-24T20:50:03",
+  "updated_at": "2025-06-03T17:40:01",
+  "row_count": 1748972401,
+  "column_count": 18,
+  "download_count": 25252,
+  "view_count": 133604,
+  "columns": [
+    {
+      "field_name": "isn_dob_bis_viol",
+      "display_name": "ISN_DOB_BIS_VIOL",
+      "data_type": "text",
+      "width": 292,
+      "position": 1,
+      "cached_contents": {
+        "largest": "999999",
+        "non_null": "2445613",
+        "null": "0",
+        "top": [
+          {
+            "item": "1767236",
+            "count": "1"
+          },
+          {
+            "item": "2310820",
+            "count": "1"
+          },
+          {
+            "item": "1101616",
+            "count": "1"
+          },
+          {
+            "item": "1818930",
+            "count": "1"
+          },
+          {
+            "item": "2108669",
+            "count": "1"
+          },
+          {
+            "item": "1579527",
+            "count": "1"
+          },
+          {
+            "item": "2111351",
+            "count": "1"
+          },
+          {
+            "item": "1860486",
+            "count": "1"
+          },
+          {
+            "item": "2154384",
+            "count": "1"
+          },
+          {
+            "item": "956604",
+            "count": "1"
+          },
+          {
+            "item": "1482746",
+            "count": "1"
+          },
+          {
+            "item": "41570",
+            "count": "1"
+          },
+          {
+            "item": "1729380",
+            "count": "1"
+          },
+          {
+            "item": "1341236",
+            "count": "1"
+          },
+          {
+            "item": "2148737",
+            "count": "1"
+          },
+          {
+            "item": "1716953",
+            "count": "1"
+          },
+          {
+            "item": "1708073",
+            "count": "1"
+          },
+          {
+            "item": "640887",
+            "count": "1"
+          },
+          {
+            "item": "2244610",
+            "count": "1"
+          },
+          {
+            "item": "839130",
+            "count": "1"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "2109893",
+        "count": "2445613",
+        "cardinality": "2445613"
+      }
+    },
+    {
+      "field_name": "boro",
+      "display_name": "BORO",
+      "data_type": "text",
+      "width": 148,
+      "position": 2,
+      "cached_contents": {
+        "largest": "S",
+        "non_null": "2445433",
+        "null": "180",
+        "top": [
+          {
+            "item": "1",
+            "count": "911808"
+          },
+          {
+            "item": "3",
+            "count": "736299"
+          },
+          {
+            "item": "4",
+            "count": "437113"
+          },
+          {
+            "item": "2",
+            "count": "288371"
+          },
+          {
+            "item": "5",
+            "count": "68465"
+          },
+          {
+            "item": "M",
+            "count": "1843"
+          },
+          {
+            "item": "B",
+            "count": "1090"
+          },
+          {
+            "item": "Q",
+            "count": "394"
+          },
+          {
+            "item": "S",
+            "count": "44"
+          },
+          {
+            "item": "0",
+            "count": "3"
+          },
+          {
+            "item": "`",
+            "count": "3"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "2109891",
+        "count": "2445613",
+        "cardinality": "11"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "width": 136,
+      "position": 3,
+      "cached_contents": {
+        "largest": "9999993",
+        "non_null": "2442364",
+        "null": "3249",
+        "top": [
+          {
+            "item": "4155493",
+            "count": "1423"
+          },
+          {
+            "item": "3257058",
+            "count": "1103"
+          },
+          {
+            "item": "1015219",
+            "count": "1013"
+          },
+          {
+            "item": "1076262",
+            "count": "804"
+          },
+          {
+            "item": "1014453",
+            "count": "733"
+          },
+          {
+            "item": "3347532",
+            "count": "718"
+          },
+          {
+            "item": "4045999",
+            "count": "699"
+          },
+          {
+            "item": "1015862",
+            "count": "691"
+          },
+          {
+            "item": "1023159",
+            "count": "653"
+          },
+          {
+            "item": "3343740",
+            "count": "651"
+          },
+          {
+            "item": "1001021",
+            "count": "649"
+          },
+          {
+            "item": "1083346",
+            "count": "636"
+          },
+          {
+            "item": "1014387",
+            "count": "611"
+          },
+          {
+            "item": "3837620",
+            "count": "604"
+          },
+          {
+            "item": "1026318",
+            "count": "603"
+          },
+          {
+            "item": "2005898",
+            "count": "580"
+          },
+          {
+            "item": "1084781",
+            "count": "579"
+          },
+          {
+            "item": "1041904",
+            "count": "563"
+          },
+          {
+            "item": "1087537",
+            "count": "561"
+          },
+          {
+            "item": "1001026",
+            "count": "554"
+          }
+        ],
+        "smallest": "0000000",
+        "not_null": "2106567",
+        "count": "2445613",
+        "cardinality": "240069"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "width": 160,
+      "position": 4,
+      "cached_contents": {
+        "largest": "V0179",
+        "non_null": "2432787",
+        "null": "12826",
+        "top": [
+          {
+            "item": "00000",
+            "count": "5849"
+          },
+          {
+            "item": "00016",
+            "count": "3850"
+          },
+          {
+            "item": "05141",
+            "count": "3049"
+          },
+          {
+            "item": "00787",
+            "count": "2740"
+          },
+          {
+            "item": "05778",
+            "count": "2318"
+          },
+          {
+            "item": "01373",
+            "count": "2223"
+          },
+          {
+            "item": "02180",
+            "count": "2218"
+          },
+          {
+            "item": "00140",
+            "count": "2159"
+          },
+          {
+            "item": "00840",
+            "count": "2120"
+          },
+          {
+            "item": "00833",
+            "count": "2030"
+          },
+          {
+            "item": "00788",
+            "count": "2025"
+          },
+          {
+            "item": "00828",
+            "count": "2002"
+          },
+          {
+            "item": "01171",
+            "count": "1998"
+          },
+          {
+            "item": "01275",
+            "count": "1996"
+          },
+          {
+            "item": "00846",
+            "count": "1993"
+          },
+          {
+            "item": "01272",
+            "count": "1987"
+          },
+          {
+            "item": "01263",
+            "count": "1981"
+          },
+          {
+            "item": "00962",
+            "count": "1965"
+          },
+          {
+            "item": "00784",
+            "count": "1961"
+          },
+          {
+            "item": "01292",
+            "count": "1960"
+          }
+        ],
+        "smallest": "00000",
+        "not_null": "2097051",
+        "count": "2445613",
+        "cardinality": "13396"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "width": 136,
+      "position": 5,
+      "cached_contents": {
+        "largest": "Q0007",
+        "non_null": "2433455",
+        "null": "12158",
+        "top": [
+          {
+            "item": "00001",
+            "count": "296718"
+          },
+          {
+            "item": "07501",
+            "count": "78508"
+          },
+          {
+            "item": "00005",
+            "count": "40658"
+          },
+          {
+            "item": "00029",
+            "count": "39841"
+          },
+          {
+            "item": "00006",
+            "count": "39564"
+          },
+          {
+            "item": "00010",
+            "count": "38777"
+          },
+          {
+            "item": "00007",
+            "count": "36186"
+          },
+          {
+            "item": "00020",
+            "count": "34753"
+          },
+          {
+            "item": "00021",
+            "count": "33814"
+          },
+          {
+            "item": "00002",
+            "count": "33670"
+          },
+          {
+            "item": "00012",
+            "count": "33396"
+          },
+          {
+            "item": "00008",
+            "count": "32915"
+          },
+          {
+            "item": "00040",
+            "count": "32830"
+          },
+          {
+            "item": "00011",
+            "count": "32734"
+          },
+          {
+            "item": "00014",
+            "count": "32306"
+          },
+          {
+            "item": "00033",
+            "count": "31873"
+          },
+          {
+            "item": "00015",
+            "count": "31659"
+          },
+          {
+            "item": "00030",
+            "count": "31268"
+          },
+          {
+            "item": "00023",
+            "count": "30445"
+          },
+          {
+            "item": "00009",
+            "count": "30221"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "2097773",
+        "count": "2445613",
+        "cardinality": "3536"
+      }
+    },
+    {
+      "field_name": "issue_date",
+      "display_name": "ISSUE_DATE",
+      "data_type": "text",
+      "width": 220,
+      "position": 6,
+      "cached_contents": {
+        "largest": "Y9990120",
+        "non_null": "2445612",
+        "null": "1",
+        "top": [
+          {
+            "item": "19950829",
+            "count": "46218"
+          },
+          {
+            "item": "20230630",
+            "count": "45612"
+          },
+          {
+            "item": "20230620",
+            "count": "45461"
+          },
+          {
+            "item": "19970916",
+            "count": "35660"
+          },
+          {
+            "item": "19980504",
+            "count": "35582"
+          },
+          {
+            "item": "20020326",
+            "count": "32868"
+          },
+          {
+            "item": "19970210",
+            "count": "32400"
+          },
+          {
+            "item": "20000207",
+            "count": "31945"
+          },
+          {
+            "item": "20010227",
+            "count": "31863"
+          },
+          {
+            "item": "19990316",
+            "count": "31729"
+          },
+          {
+            "item": "20030319",
+            "count": "31090"
+          },
+          {
+            "item": "20040213",
+            "count": "29504"
+          },
+          {
+            "item": "20111213",
+            "count": "29224"
+          },
+          {
+            "item": "20050131",
+            "count": "27923"
+          },
+          {
+            "item": "20070119",
+            "count": "27325"
+          },
+          {
+            "item": "20080103",
+            "count": "27274"
+          },
+          {
+            "item": "20090101",
+            "count": "26918"
+          },
+          {
+            "item": "20091231",
+            "count": "26781"
+          },
+          {
+            "item": "20060106",
+            "count": "26624"
+          },
+          {
+            "item": "20230425",
+            "count": "25670"
+          }
+        ],
+        "smallest": "000000",
+        "not_null": "2109892",
+        "count": "2445613",
+        "cardinality": "14904"
+      }
+    },
+    {
+      "field_name": "violation_type_code",
+      "display_name": "VIOLATION_TYPE_CODE",
+      "data_type": "text",
+      "width": 328,
+      "position": 7,
+      "cached_contents": {
+        "largest": "Z",
+        "non_null": "2445612",
+        "null": "1",
+        "top": [
+          {
+            "item": "E",
+            "count": "713251"
+          },
+          {
+            "item": "LL6291",
+            "count": "598814"
+          },
+          {
+            "item": "LBLVIO",
+            "count": "301456"
+          },
+          {
+            "item": "C",
+            "count": "195912"
+          },
+          {
+            "item": "AEUHAZ1",
+            "count": "159423"
+          },
+          {
+            "item": "LL1081",
+            "count": "81231"
+          },
+          {
+            "item": "ACC1",
+            "count": "64457"
+          },
+          {
+            "item": "BENCH",
+            "count": "56934"
+          },
+          {
+            "item": "EVCAT1",
+            "count": "47428"
+          },
+          {
+            "item": "LANDMK",
+            "count": "24454"
+          },
+          {
+            "item": "HBLVIO",
+            "count": "18978"
+          },
+          {
+            "item": "FISPNRF",
+            "count": "17694"
+          },
+          {
+            "item": "EGRADE",
+            "count": "14903"
+          },
+          {
+            "item": "EARCX",
+            "count": "14146"
+          },
+          {
+            "item": "UB",
+            "count": "14070"
+          },
+          {
+            "item": "P",
+            "count": "11285"
+          },
+          {
+            "item": "IMEGNCY",
+            "count": "10012"
+          },
+          {
+            "item": "ES",
+            "count": "9289"
+          },
+          {
+            "item": "Z",
+            "count": "8413"
+          },
+          {
+            "item": "EVCAT5",
+            "count": "8258"
+          }
+        ],
+        "smallest": "7A",
+        "not_null": "2109893",
+        "count": "2445613",
+        "cardinality": "58"
+      }
+    },
+    {
+      "field_name": "violation_number",
+      "display_name": "VIOLATION_NUMBER",
+      "data_type": "text",
+      "width": 292,
+      "position": 8,
+      "cached_contents": {
+        "largest": "ZZSTF03PM",
+        "non_null": "2445608",
+        "null": "5",
+        "top": [
+          {
+            "item": "VIOL",
+            "count": "2843"
+          },
+          {
+            "item": "MTF1RI",
+            "count": "738"
+          },
+          {
+            "item": "MTF1LE",
+            "count": "719"
+          },
+          {
+            "item": "MTF2RI",
+            "count": "592"
+          },
+          {
+            "item": "MTF01RNS",
+            "count": "591"
+          },
+          {
+            "item": "00001",
+            "count": "580"
+          },
+          {
+            "item": "00002",
+            "count": "578"
+          },
+          {
+            "item": "00003",
+            "count": "570"
+          },
+          {
+            "item": "00004",
+            "count": "563"
+          },
+          {
+            "item": "00005",
+            "count": "556"
+          },
+          {
+            "item": "00006",
+            "count": "553"
+          },
+          {
+            "item": "00007",
+            "count": "552"
+          },
+          {
+            "item": "00008",
+            "count": "552"
+          },
+          {
+            "item": "00012",
+            "count": "550"
+          },
+          {
+            "item": "00011",
+            "count": "549"
+          },
+          {
+            "item": "00009",
+            "count": "549"
+          },
+          {
+            "item": "00013",
+            "count": "548"
+          },
+          {
+            "item": "00010",
+            "count": "548"
+          },
+          {
+            "item": "00015",
+            "count": "547"
+          },
+          {
+            "item": "00016",
+            "count": "546"
+          }
+        ],
+        "smallest": "--",
+        "not_null": "2109888",
+        "count": "2445613",
+        "cardinality": "908038"
+      }
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "HOUSE_NUMBER",
+      "data_type": "text",
+      "width": 244,
+      "position": 9,
+      "cached_contents": {
+        "largest": "\u00a0\u00a0\u00a0\u00a0\u00a0414   \u00a0",
+        "non_null": "2445246",
+        "null": "367",
+        "top": [
+          {
+            "item": "1",
+            "count": "13151"
+          },
+          {
+            "item": "100",
+            "count": "8540"
+          },
+          {
+            "item": "2",
+            "count": "8501"
+          },
+          {
+            "item": "10",
+            "count": "7772"
+          },
+          {
+            "item": "200",
+            "count": "7539"
+          },
+          {
+            "item": "15",
+            "count": "6861"
+          },
+          {
+            "item": "40",
+            "count": "6834"
+          },
+          {
+            "item": "101",
+            "count": "6413"
+          },
+          {
+            "item": "11",
+            "count": "6138"
+          },
+          {
+            "item": "55",
+            "count": "6120"
+          },
+          {
+            "item": "50",
+            "count": "5972"
+          },
+          {
+            "item": "120",
+            "count": "5931"
+          },
+          {
+            "item": "30",
+            "count": "5887"
+          },
+          {
+            "item": "300",
+            "count": "5871"
+          },
+          {
+            "item": "140",
+            "count": "5869"
+          },
+          {
+            "item": "150",
+            "count": "5778"
+          },
+          {
+            "item": "20",
+            "count": "5726"
+          },
+          {
+            "item": "25",
+            "count": "5556"
+          },
+          {
+            "item": "60",
+            "count": "5510"
+          },
+          {
+            "item": "250",
+            "count": "4975"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "2109526",
+        "count": "2445613",
+        "cardinality": "56298"
+      }
+    },
+    {
+      "field_name": "street",
+      "display_name": "STREET",
+      "data_type": "text",
+      "width": 172,
+      "position": 10,
+      "cached_contents": {
+        "largest": "\u00a0MAIN STREET",
+        "non_null": "2428228",
+        "null": "17385",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "58785"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "26685"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "18450"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "15463"
+          },
+          {
+            "item": "JAMAICA AVENUE",
+            "count": "15001"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "14657"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "14049"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "13489"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "11308"
+          },
+          {
+            "item": "FULTON STREET",
+            "count": "11243"
+          },
+          {
+            "item": "2 AVENUE",
+            "count": "10560"
+          },
+          {
+            "item": "1 AVENUE",
+            "count": "9691"
+          },
+          {
+            "item": "FLATBUSH AVENUE",
+            "count": "9425"
+          },
+          {
+            "item": "NOSTRAND AVENUE",
+            "count": "9067"
+          },
+          {
+            "item": "BEDFORD AVENUE",
+            "count": "8463"
+          },
+          {
+            "item": "ATLANTIC AVENUE",
+            "count": "8434"
+          },
+          {
+            "item": "NORTHERN BOULEVARD",
+            "count": "8395"
+          },
+          {
+            "item": "6 AVENUE",
+            "count": "8055"
+          },
+          {
+            "item": "GRAND CONCOURSE",
+            "count": "8040"
+          },
+          {
+            "item": "AMSTERDAM AVENUE",
+            "count": "7917"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "2092494",
+        "count": "2445613",
+        "cardinality": "16424"
+      }
+    },
+    {
+      "field_name": "disposition_date",
+      "display_name": "DISPOSITION_DATE",
+      "data_type": "text",
+      "width": 292,
+      "position": 11,
+      "cached_contents": {
+        "largest": "7",
+        "non_null": "1852320",
+        "null": "593293",
+        "top": [
+          {
+            "item": "20130731",
+            "count": "57243"
+          },
+          {
+            "item": "20221216",
+            "count": "28351"
+          },
+          {
+            "item": "20140402",
+            "count": "10148"
+          },
+          {
+            "item": "20140106",
+            "count": "9349"
+          },
+          {
+            "item": "20131002",
+            "count": "6566"
+          },
+          {
+            "item": "20150406",
+            "count": "5056"
+          },
+          {
+            "item": "20130801",
+            "count": "5040"
+          },
+          {
+            "item": "20170713",
+            "count": "4948"
+          },
+          {
+            "item": "20151022",
+            "count": "4792"
+          },
+          {
+            "item": "20160727",
+            "count": "4731"
+          },
+          {
+            "item": "20150713",
+            "count": "4722"
+          },
+          {
+            "item": "20171017",
+            "count": "4337"
+          },
+          {
+            "item": "20170407",
+            "count": "4303"
+          },
+          {
+            "item": "20160412",
+            "count": "4205"
+          },
+          {
+            "item": "20140708",
+            "count": "4161"
+          },
+          {
+            "item": "20170106",
+            "count": "3950"
+          },
+          {
+            "item": "20141006",
+            "count": "3482"
+          },
+          {
+            "item": "20150109",
+            "count": "3283"
+          },
+          {
+            "item": "20161011",
+            "count": "3162"
+          },
+          {
+            "item": "20150709",
+            "count": "3158"
+          }
+        ],
+        "smallest": "12231998",
+        "not_null": "1530106",
+        "count": "2445613",
+        "cardinality": "12239"
+      }
+    },
+    {
+      "field_name": "disposition_comments",
+      "display_name": "DISPOSITION_COMMENTS",
+      "data_type": "text",
+      "width": 340,
+      "position": 12,
+      "cached_contents": {
+        "largest": "ZPHCIA DISMISSED REDUCE PENALTY PD#50 CASH     INV#60547446",
+        "non_null": "1808578",
+        "null": "637035",
+        "top": [
+          {
+            "item": "CIANOW CRM Violation Dismissed",
+            "count": "106239"
+          },
+          {
+            "item": "PVT: SATISFIED BY SUBMISSION OF AOC FOR CAT 1 INSP",
+            "count": "83221"
+          },
+          {
+            "item": "PVT: RESOLVED BY SATISFACTORY CAT 1 INSPECTION",
+            "count": "53981"
+          },
+          {
+            "item": "DISMISSED BASED ON SUBSEQUENT REPORT SHOWING DEFECTS CORRECTED",
+            "count": "28194"
+          },
+          {
+            "item": "AS PER INSPECTOR ROUTE SHEET",
+            "count": "26766"
+          },
+          {
+            "item": "ECB DISMISSED",
+            "count": "23326"
+          },
+          {
+            "item": "LL1081 FILED ON TIME",
+            "count": "11347"
+          },
+          {
+            "item": "LL1081 PAID FULL PENALTY",
+            "count": "9430"
+          },
+          {
+            "item": "ECB DOWNGRADED TO CLASS 2 OR 3",
+            "count": "8433"
+          },
+          {
+            "item": "PVT: SATISFIED BY ISSUANCE OF FINAL CERT FOR EA/EBN",
+            "count": "7748"
+          },
+          {
+            "item": "CW",
+            "count": "6916"
+          },
+          {
+            "item": "AS PER INSPECTORS ROUTE SHEET",
+            "count": "6293"
+          },
+          {
+            "item": "COM",
+            "count": "6287"
+          },
+          {
+            "item": "CAW",
+            "count": "4658"
+          },
+          {
+            "item": "CONFIRMED SUBMISSION",
+            "count": "4647"
+          },
+          {
+            "item": "CHALLENGE APPROVED",
+            "count": "4565"
+          },
+          {
+            "item": "TCOCIA CANCELLED,CITY OWNED",
+            "count": "4556"
+          },
+          {
+            "item": "LL1081 PENALTY PAID",
+            "count": "4467"
+          },
+          {
+            "item": "DISM",
+            "count": "4171"
+          },
+          {
+            "item": "CIAKMH CANCELLED, CITY OWNED PROPERTY CURRENT  INSPECTION ON FILE",
+            "count": "3635"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "1489221",
+        "count": "2445613",
+        "cardinality": "590716"
+      }
+    },
+    {
+      "field_name": "device_number",
+      "display_name": "DEVICE_NUMBER",
+      "data_type": "text",
+      "width": 256,
+      "position": 13,
+      "cached_contents": {
+        "largest": "X10070",
+        "non_null": "1798779",
+        "null": "646834",
+        "top": [
+          {
+            "item": "00102562",
+            "count": "1261"
+          },
+          {
+            "item": "00826459",
+            "count": "468"
+          },
+          {
+            "item": "00107000",
+            "count": "412"
+          },
+          {
+            "item": "00060167",
+            "count": "369"
+          },
+          {
+            "item": "00052213",
+            "count": "263"
+          },
+          {
+            "item": "00070058",
+            "count": "240"
+          },
+          {
+            "item": "00070183",
+            "count": "220"
+          },
+          {
+            "item": "00829444",
+            "count": "217"
+          },
+          {
+            "item": "00067024",
+            "count": "208"
+          },
+          {
+            "item": "00068091",
+            "count": "189"
+          },
+          {
+            "item": "00822816",
+            "count": "171"
+          },
+          {
+            "item": "00067604",
+            "count": "167"
+          },
+          {
+            "item": "00932430",
+            "count": "165"
+          },
+          {
+            "item": "00108675",
+            "count": "165"
+          },
+          {
+            "item": "00067108",
+            "count": "157"
+          },
+          {
+            "item": "00094548",
+            "count": "155"
+          },
+          {
+            "item": "00084123",
+            "count": "155"
+          },
+          {
+            "item": "00828293",
+            "count": "153"
+          },
+          {
+            "item": "00067732",
+            "count": "152"
+          },
+          {
+            "item": "00075633",
+            "count": "150"
+          }
+        ],
+        "smallest": ",,,,,,,,",
+        "not_null": "1599677",
+        "count": "2445613",
+        "cardinality": "382883"
+      }
+    },
+    {
+      "field_name": "description",
+      "display_name": "DESCRIPTION",
+      "data_type": "text",
+      "width": 232,
+      "position": 14,
+      "cached_contents": {
+        "largest": "ZONING PRESERVATION .AT TIME OF INSPECTION OBSERVED ONE TREE AT LIFT            FRONT YARD AND ONE TREE AT LIFT BACKYARD ARE DEAD AND HAVE BEEN DEEMED          A HAZARD AND NEED TO REMOVE.",
+        "non_null": "903127",
+        "null": "1542486",
+        "top": [
+          {
+            "item": "FAILURE TO CERTIFY CORRECTION ON IMMEDIATELY HAZARDOUS (CLASS 1) ECB VIOLATION",
+            "count": "159420"
+          },
+          {
+            "item": "FAILURE TO FILE BENCHMARKING REPORT OF ENERGY USE AS PER AD. CODE SEC. 28-309.4",
+            "count": "56929"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2010 INSPECTION REPORT",
+            "count": "23443"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2022 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "23375"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2012 INSPECTION REPORT",
+            "count": "21790"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2018 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "21507"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2021 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "20959"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2020 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "19680"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2017 INSPECTION REPORT",
+            "count": "19647"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2016 INSPECTION REPORT",
+            "count": "19580"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2019 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "19120"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2011 INSPECTION REPORT",
+            "count": "18128"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2013 INSPECTION REPORT",
+            "count": "17919"
+          },
+          {
+            "item": "VIOLATION ISSUED-FAILURE TO FILE 2023 EXTERNAL LOW PRESSURE INSPECTION",
+            "count": "16952"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2015 INSPECTION REPORT",
+            "count": "16646"
+          },
+          {
+            "item": "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2014 INSPECTION REPORT",
+            "count": "14947"
+          },
+          {
+            "item": "FAILURE TO DISPLAY ENERGY EFFICIENCY SCORE AND ENERGY EFFICIENCY GRADE AS PER ADCODE SEC. 28-309.12.3",
+            "count": "14903"
+          },
+          {
+            "item": "VIO ISSUED TO ELEVATOR - FAIL TO CORRECT DEFECTS ON 2014 CAT 1 INSP/TST",
+            "count": "14118"
+          },
+          {
+            "item": "VIO ISSUED TO ELEVATOR - FAIL TO CORRECT DEFECTS ON 2016 CAT 1 INSP/TST",
+            "count": "13131"
+          },
+          {
+            "item": "VIO ISSUED TO ELEVATOR - FAIL TO CORRECT DEFECTS ON 2015 CAT 1 INSP/TST",
+            "count": "13000"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "616548",
+        "count": "2445613",
+        "cardinality": "131627"
+      }
+    },
+    {
+      "field_name": "ecb_number",
+      "display_name": "ECB_NUMBER",
+      "data_type": "text",
+      "width": 220,
+      "position": 15,
+      "cached_contents": {
+        "largest": "Q",
+        "non_null": "210467",
+        "null": "2235146",
+        "top": [
+          {
+            "item": "\\",
+            "count": "32"
+          },
+          {
+            "item": "N",
+            "count": "27"
+          },
+          {
+            "item": "34397218M",
+            "count": "5"
+          },
+          {
+            "item": "34068455Z",
+            "count": "5"
+          },
+          {
+            "item": "34164450J",
+            "count": "5"
+          },
+          {
+            "item": "34423900L",
+            "count": "4"
+          },
+          {
+            "item": "34145990R",
+            "count": "4"
+          },
+          {
+            "item": "34138680X",
+            "count": "4"
+          },
+          {
+            "item": "34040635L",
+            "count": "4"
+          },
+          {
+            "item": "34273594L",
+            "count": "3"
+          },
+          {
+            "item": "34097148L",
+            "count": "3"
+          },
+          {
+            "item": "34097150K",
+            "count": "3"
+          },
+          {
+            "item": "35589543Z",
+            "count": "3"
+          },
+          {
+            "item": "34097145X",
+            "count": "3"
+          },
+          {
+            "item": "34089015H",
+            "count": "3"
+          },
+          {
+            "item": "34307706J",
+            "count": "3"
+          },
+          {
+            "item": "34121815N",
+            "count": "3"
+          },
+          {
+            "item": "34262728Y",
+            "count": "3"
+          },
+          {
+            "item": "34099137P",
+            "count": "3"
+          },
+          {
+            "item": "34273324L",
+            "count": "3"
+          }
+        ],
+        "smallest": "\\",
+        "not_null": "162795",
+        "count": "2445613",
+        "cardinality": "208293"
+      }
+    },
+    {
+      "field_name": "number",
+      "display_name": "NUMBER",
+      "data_type": "text",
+      "width": 172,
+      "position": 16,
+      "cached_contents": {
+        "largest": "VWH*122293C11B5",
+        "non_null": "2445613",
+        "null": "0",
+        "top": [
+          {
+            "item": "V*011990LANDMRKVIOL",
+            "count": "33"
+          },
+          {
+            "item": "V*073091LANDMRKVIOL",
+            "count": "28"
+          },
+          {
+            "item": "V*061390LANDMRKVIOL",
+            "count": "18"
+          },
+          {
+            "item": "V*031590LANDMRKVIOL",
+            "count": "18"
+          },
+          {
+            "item": "V*081986LANDMRKVIOL",
+            "count": "17"
+          },
+          {
+            "item": "V*112985LANDMRKVIOL",
+            "count": "16"
+          },
+          {
+            "item": "V*120683LANDMRKVIOL",
+            "count": "16"
+          },
+          {
+            "item": "V*071191LANDMRKVIOL",
+            "count": "16"
+          },
+          {
+            "item": "V*112787LANDMRKVIOL",
+            "count": "14"
+          },
+          {
+            "item": "V*082495LANDMRKVIOL",
+            "count": "13"
+          },
+          {
+            "item": "V*052388LANDMRKVIOL",
+            "count": "13"
+          },
+          {
+            "item": "V*122090LANDMRKVIOL",
+            "count": "12"
+          },
+          {
+            "item": "V*012891LANDMRKVIOL",
+            "count": "12"
+          },
+          {
+            "item": "V*102387LANDMRKVIOL",
+            "count": "12"
+          },
+          {
+            "item": "V*021489LANDMRKVIOL",
+            "count": "12"
+          },
+          {
+            "item": "V*092987LANDMRKVIOL",
+            "count": "11"
+          },
+          {
+            "item": "V*052992LANDMRKVIOL",
+            "count": "10"
+          },
+          {
+            "item": "V*101590LANDMRKVIOL",
+            "count": "10"
+          },
+          {
+            "item": "V*050394LANDMRKVIOL",
+            "count": "10"
+          },
+          {
+            "item": "V*082084LANDMRKVIOL",
+            "count": "10"
+          }
+        ],
+        "smallest": "43062619AEUHAZ100027",
+        "not_null": "2109893",
+        "count": "2445613",
+        "cardinality": "2437027"
+      }
+    },
+    {
+      "field_name": "violation_category",
+      "display_name": "VIOLATION_CATEGORY",
+      "data_type": "text",
+      "width": 316,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "2445610",
+        "largest": "VW*-VIOLATION - WORK W/O PERMIT DISMISSED",
+        "null": "3",
+        "top": [
+          {
+            "item": "V*-DOB VIOLATION - DISMISSED",
+            "count": "1125106"
+          },
+          {
+            "item": "V*-DOB VIOLATION - Resolved",
+            "count": "672425"
+          },
+          {
+            "item": "V-DOB VIOLATION - ACTIVE",
+            "count": "567382"
+          },
+          {
+            "item": "VW*-VIOLATION - WORK W/O PERMIT DISMISSED",
+            "count": "23205"
+          },
+          {
+            "item": "VP*-VIOLATION UNSERVED ECB- DISMISSED",
+            "count": "20393"
+          },
+          {
+            "item": "VW-VIOLATION WORK WITHOUT PERMIT - ACTIVE",
+            "count": "13299"
+          },
+          {
+            "item": "VP-VIOLATION UNSERVED ECB-ACTIVE",
+            "count": "8915"
+          },
+          {
+            "item": "VPW*-VIOLATION UNSERVED ECB-WORK WITHOUT PERMIT-DISMISSED",
+            "count": "6147"
+          },
+          {
+            "item": "V%*-DOB VIOLATION - DISMISSED",
+            "count": "4016"
+          },
+          {
+            "item": "VPW-VIOLATION UNSERVED ECB-WORK WITHOUT PERMIT-ACTIVE",
+            "count": "2149"
+          },
+          {
+            "item": "V%-DOB VIOLATION",
+            "count": "1094"
+          },
+          {
+            "item": "VH*-VIOLATION HAZARDOUS DISMISSED",
+            "count": "984"
+          },
+          {
+            "item": "VH-VIOLATION HAZARDOUS - ACTIVE",
+            "count": "325"
+          },
+          {
+            "item": "VWH*-VIOLATION WORK W/OUT PMT HAZARDOUS DISMISSED",
+            "count": "100"
+          },
+          {
+            "item": "VWH-VIOLATION WORK W/OUT PMT HAZARDOUS - ACTIVE",
+            "count": "70"
+          }
+        ],
+        "not_null": "2106346",
+        "smallest": "V%-DOB VIOLATION",
+        "count": "2445613",
+        "cardinality": "15"
+      }
+    },
+    {
+      "field_name": "violation_type",
+      "display_name": "VIOLATION_TYPE",
+      "data_type": "text",
+      "width": 268,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "2445601",
+        "largest": "Z-ZONING                                                          NONE",
+        "null": "12",
+        "top": [
+          {
+            "item": "E-ELEVATOR                                                        ELEVATORREQUIRED",
+            "count": "713251"
+          },
+          {
+            "item": "LL6291-LOCAL LAW 62/91 - BOILERS                                       BOILER  REQUIRED",
+            "count": "598814"
+          },
+          {
+            "item": "LBLVIO-LOW PRESSURE BOILER                                             BOILER  REQUIRED",
+            "count": "301456"
+          },
+          {
+            "item": "C-CONSTRUCTION                                                    OTHER   OPTIONAL",
+            "count": "195912"
+          },
+          {
+            "item": "AEUHAZ1-FAIL TO CERTIFY CLASS 1                                         NONE",
+            "count": "159423"
+          },
+          {
+            "item": "LL1081-LOCAL LAW 10/81 - ELEVATOR                                      ELEVATOROPTIONAL",
+            "count": "81231"
+          },
+          {
+            "item": "ACC1-(OTHER BLDGS TYPES) - ELEVATOR AFFIRMATION OF CORRECTION        ELEVATORREQUIRED",
+            "count": "64457"
+          },
+          {
+            "item": "BENCH-FAILURE TO BENCHMARK                                            NONE",
+            "count": "56934"
+          },
+          {
+            "item": "EVCAT1-ELEVATOR ANNUAL INSPECTION / TEST                               ELEVATORREQUIRED",
+            "count": "47428"
+          },
+          {
+            "item": "LANDMK-LANDMARK                                                        NONE",
+            "count": "24454"
+          },
+          {
+            "item": "HBLVIO-HIGH PRESSURE BOILER                                            BOILER  REQUIRED",
+            "count": "18978"
+          },
+          {
+            "item": "FISPNRF-NO REPORT AND / OR LATE FILING (FACADE)                         FACADE  REQUIRED",
+            "count": "17694"
+          },
+          {
+            "item": "EGRADE-FAILURE TO POST ENERGY GRADE/SCORE                              NONE",
+            "count": "14903"
+          },
+          {
+            "item": "EARCX-FAILURE TO SUBMIT EER                                           NONE",
+            "count": "14146"
+          },
+          {
+            "item": "UB-UNSAFE BUILDINGS                                                NONE",
+            "count": "14070"
+          },
+          {
+            "item": "P-PLUMBING                                                        NONE",
+            "count": "11285"
+          },
+          {
+            "item": "IMEGNCY-IMMEDIATE EMERGENCY                                             ANYTHINGOPTIONAL",
+            "count": "10012"
+          },
+          {
+            "item": "ES-ELECTRIC SIGNS                                                  NONE",
+            "count": "9289"
+          },
+          {
+            "item": "Z-ZONING                                                          NONE",
+            "count": "8413"
+          },
+          {
+            "item": "EVCAT5-NON-RESIDENTIAL ELEVATOR PERIODIC INSPECTION/TEST               ELEVATORREQUIRED",
+            "count": "8258"
+          }
+        ],
+        "not_null": "2109882",
+        "smallest": "ACC1-(OTHER BLDGS TYPES) - ELEVATOR AFFIRMATION OF CORRECTION        ELEVATORREQUIRED",
+        "count": "2445613",
+        "cardinality": "52"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T20:55:50.106750"
+}

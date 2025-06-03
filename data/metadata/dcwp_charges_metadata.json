@@ -1,0 +1,1513 @@
+{
+  "dataset_id": "5fn4-dr26",
+  "name": "DCWP Charges",
+  "description": "This dataset features charges issued by DCWP's Enforcement division during the course of an inspection and charges filed by DCWP's General Counsel division stemming from an investigation  into consumer protection laws and deceptive business practices.\t\t\t\n\nFor the archived DCWP Charges, please refer to https://data.cityofnewyork.us/d/wyj6-frpa",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "business",
+    "dca",
+    "department of consumer affairs",
+    "license",
+    "charges",
+    "consumer",
+    "enforcement charges"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2016-01-26T18:13:07",
+  "updated_at": "2025-06-02T13:30:37",
+  "row_count": 1748871037,
+  "column_count": 18,
+  "download_count": 16348,
+  "view_count": 14727,
+  "columns": [
+    {
+      "field_name": "record_id",
+      "display_name": "Record ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to record each application received",
+      "width": 172,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "9999-2023-ADJC",
+        "null": "0",
+        "top": [
+          {
+            "item": "38171-2025-ADJC",
+            "count": "15"
+          },
+          {
+            "item": "20927-2024-ADJC",
+            "count": "14"
+          },
+          {
+            "item": "38393-2025-ADJC",
+            "count": "14"
+          },
+          {
+            "item": "38815-2025-ADJC",
+            "count": "13"
+          },
+          {
+            "item": "20314-2024-ADJC",
+            "count": "13"
+          },
+          {
+            "item": "9274-2023-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "37737-2025-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "38411-2025-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "13973-2023-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "9705-2023-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "39333-2025-ADJC",
+            "count": "12"
+          },
+          {
+            "item": "16928-2024-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "14077-2023-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "38085-2025-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "22712-2024-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "19815-2024-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "14823-2023-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "20766-2024-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "34261-2024-ADJC",
+            "count": "11"
+          },
+          {
+            "item": "29950-2024-ADJC",
+            "count": "11"
+          }
+        ],
+        "smallest": "10000-2023-ADJC",
+        "count": "80712",
+        "cardinality": "31156"
+      }
+    },
+    {
+      "field_name": "related_record_type",
+      "display_name": "Related Record Type",
+      "data_type": "text",
+      "description": "Indicates whether the charges resulted from a business inspection conducted by the Enforcement division or from an investigation by the Office of General Counsel.",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "dcwp_legal",
+        "null": "0",
+        "top": [
+          {
+            "item": "dcwp_InspectionRequest",
+            "count": "79720"
+          },
+          {
+            "item": "dcwp_legal",
+            "count": "992"
+          }
+        ],
+        "smallest": "dcwp_InspectionRequest",
+        "count": "80712",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "business_unique_id",
+      "display_name": "Business Unique ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to track unique businesses across its systems.",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "BA-999100-2022",
+        "null": "0",
+        "top": [
+          {
+            "item": "BA-1681294-2023",
+            "count": "84"
+          },
+          {
+            "item": "BA-1680875-2023",
+            "count": "79"
+          },
+          {
+            "item": "BA-1571795-2023",
+            "count": "70"
+          },
+          {
+            "item": "BA-1683448-2024",
+            "count": "64"
+          },
+          {
+            "item": "BA-1669134-2023",
+            "count": "61"
+          },
+          {
+            "item": "BA-1664575-2023",
+            "count": "58"
+          },
+          {
+            "item": "BA-1407231-2022",
+            "count": "58"
+          },
+          {
+            "item": "BA-1675997-2023",
+            "count": "58"
+          },
+          {
+            "item": "BA-1125623-2022",
+            "count": "58"
+          },
+          {
+            "item": "BA-1600842-2023",
+            "count": "57"
+          },
+          {
+            "item": "BA-1676396-2023",
+            "count": "55"
+          },
+          {
+            "item": "BA-1230904-2022",
+            "count": "54"
+          },
+          {
+            "item": "BA-1575824-2023",
+            "count": "52"
+          },
+          {
+            "item": "BA-1622145-2023",
+            "count": "51"
+          },
+          {
+            "item": "BA-1585926-2023",
+            "count": "51"
+          },
+          {
+            "item": "BA-1573087-2023",
+            "count": "51"
+          },
+          {
+            "item": "BA-1672439-2023",
+            "count": "50"
+          },
+          {
+            "item": "BA-1688450-2024",
+            "count": "50"
+          },
+          {
+            "item": "BA-1676913-2023",
+            "count": "49"
+          },
+          {
+            "item": "BA-1567592-2023",
+            "count": "49"
+          }
+        ],
+        "smallest": "BA-1000528-2022",
+        "count": "80712",
+        "cardinality": "16055"
+      }
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "The name of the business.",
+      "width": 196,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "ZZ SHOPPE CORP.",
+        "null": "0",
+        "top": [
+          {
+            "item": "SP PLUS CORPORATION",
+            "count": "174"
+          },
+          {
+            "item": "BOLLA OPERATING CORP.",
+            "count": "99"
+          },
+          {
+            "item": "CVS ALBANY, L.L.C",
+            "count": "92"
+          },
+          {
+            "item": "304 ORGANIC MARKET CORP.",
+            "count": "84"
+          },
+          {
+            "item": "3029 CONVENIENT CORP.",
+            "count": "79"
+          },
+          {
+            "item": "MAZAJ SMOKE PLACE CORP",
+            "count": "70"
+          },
+          {
+            "item": "DUANE READE INC",
+            "count": "70"
+          },
+          {
+            "item": "GET ONE CONVENIENCE & MORE CORP.",
+            "count": "64"
+          },
+          {
+            "item": "WIZ SNACKS CORP.",
+            "count": "61"
+          },
+          {
+            "item": "MO & HABIBI CONVENIENCE SHOP CORP.",
+            "count": "58"
+          },
+          {
+            "item": "PARK SLOPE BEER INC",
+            "count": "58"
+          },
+          {
+            "item": "EMPIRE 420 SMOKESHOP CORP.",
+            "count": "58"
+          },
+          {
+            "item": "PROSPECT MIST CORP.",
+            "count": "58"
+          },
+          {
+            "item": "44 ORGANIC LIFE CORP.",
+            "count": "58"
+          },
+          {
+            "item": "AMIGOS GROCERY AND CANDY STORE CORP",
+            "count": "58"
+          },
+          {
+            "item": "SUNNYSIDE CLOUDS CORP.",
+            "count": "57"
+          },
+          {
+            "item": "MY CANDY SHOP CORP.",
+            "count": "55"
+          },
+          {
+            "item": "DELI GRILL VAPE AND CONVENIENCES INC",
+            "count": "54"
+          },
+          {
+            "item": "SPEEDWAY LLC",
+            "count": "54"
+          },
+          {
+            "item": "FAMILY DOLLAR STORES OF NEW YORK, INC.",
+            "count": "53"
+          }
+        ],
+        "smallest": "007 NEW CENTURY 99 & UP INC.",
+        "count": "80712",
+        "cardinality": "15001"
+      }
+    },
+    {
+      "field_name": "dba_trade_name",
+      "display_name": "DBA/Trade Name",
+      "data_type": "text",
+      "description": "The \"Doing Business As\" or \"Trade Name\" registered with the NYS Department of State.",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "7058",
+        "largest": "Z & Y Nails",
+        "null": "73654",
+        "top": [
+          {
+            "item": "METROPOLIS",
+            "count": "147"
+          },
+          {
+            "item": "KEY FOOD",
+            "count": "72"
+          },
+          {
+            "item": "ecoATM",
+            "count": "48"
+          },
+          {
+            "item": "BP",
+            "count": "46"
+          },
+          {
+            "item": "MOBIL",
+            "count": "42"
+          },
+          {
+            "item": "HABIBI SMOKE SHOP",
+            "count": "39"
+          },
+          {
+            "item": "C-TOWN SUPERMARKET",
+            "count": "39"
+          },
+          {
+            "item": "GLENWOOD SMOKE SHOP",
+            "count": "36"
+          },
+          {
+            "item": "CIGARRILLOS 5 SMOKE SHOP",
+            "count": "35"
+          },
+          {
+            "item": "C-TOWN",
+            "count": "32"
+          },
+          {
+            "item": "AKA Icon Parking LLC",
+            "count": "31"
+          },
+          {
+            "item": "UTICA BODEGA",
+            "count": "29"
+          },
+          {
+            "item": "SMOKER TOWN",
+            "count": "29"
+          },
+          {
+            "item": "York Deli & Grill",
+            "count": "28"
+          },
+          {
+            "item": "TOBACCO N VAPE",
+            "count": "28"
+          },
+          {
+            "item": "BLUE STAR GROCERY AND CANDY",
+            "count": "28"
+          },
+          {
+            "item": "CLINTON CONVENIENCE & SMOKE SHOP",
+            "count": "27"
+          },
+          {
+            "item": "FLY E-BIKE",
+            "count": "26"
+          },
+          {
+            "item": "GAS CITY",
+            "count": "26"
+          },
+          {
+            "item": "M A DELI GRILL CORP",
+            "count": "25"
+          }
+        ],
+        "smallest": ".",
+        "count": "80712",
+        "cardinality": "1966"
+      }
+    },
+    {
+      "field_name": "business_category",
+      "display_name": "Business Category",
+      "data_type": "text",
+      "description": "The business activity or business category requiring a DCWP-issued license in order to operate legally within NYC.\n",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "80708",
+        "largest": "Wearing Apparel",
+        "null": "4",
+        "top": [
+          {
+            "item": "Tobacco Retail Dealer",
+            "count": "32854"
+          },
+          {
+            "item": "Electronic Cigarette Dealer",
+            "count": "22474"
+          },
+          {
+            "item": "Grocery-Retail",
+            "count": "9714"
+          },
+          {
+            "item": "Supermarket",
+            "count": "2633"
+          },
+          {
+            "item": "Misc Non-Food Retail",
+            "count": "1924"
+          },
+          {
+            "item": "Garage & Parking Lot",
+            "count": "1777"
+          },
+          {
+            "item": "Salons And Barbershop",
+            "count": "1147"
+          },
+          {
+            "item": "Retail Laundry",
+            "count": "808"
+          },
+          {
+            "item": "Micromobility Device Store",
+            "count": "677"
+          },
+          {
+            "item": "Stoop Line Stand",
+            "count": "644"
+          },
+          {
+            "item": "Tax Preparers",
+            "count": "622"
+          },
+          {
+            "item": "Drug Store Retail",
+            "count": "503"
+          },
+          {
+            "item": "Car Wash",
+            "count": "502"
+          },
+          {
+            "item": "Home Improvement Contractor",
+            "count": "443"
+          },
+          {
+            "item": "Restaurant",
+            "count": "412"
+          },
+          {
+            "item": "Garage",
+            "count": "370"
+          },
+          {
+            "item": "Gas Station-Retail",
+            "count": "365"
+          },
+          {
+            "item": "Secondhand Dealer - General",
+            "count": "351"
+          },
+          {
+            "item": "Electronics Store",
+            "count": "347"
+          },
+          {
+            "item": "Secondhand Dealer - Auto",
+            "count": "267"
+          }
+        ],
+        "smallest": "Air Conditioning Law",
+        "count": "80712",
+        "cardinality": "61"
+      }
+    },
+    {
+      "field_name": "certificate_of_inspection",
+      "display_name": "Certificate of Inspection",
+      "data_type": "text",
+      "description": "An identification number assigned to track DCWP inspectors' visits to businesses\n",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "79688",
+        "largest": "A0218780",
+        "null": "1024",
+        "top": [
+          {
+            "item": "A0162047",
+            "count": "25"
+          },
+          {
+            "item": "A0167453",
+            "count": "22"
+          },
+          {
+            "item": "A0145881",
+            "count": "22"
+          },
+          {
+            "item": "A0153502",
+            "count": "22"
+          },
+          {
+            "item": "A0215632",
+            "count": "22"
+          },
+          {
+            "item": "A0161188",
+            "count": "21"
+          },
+          {
+            "item": "A0180041",
+            "count": "20"
+          },
+          {
+            "item": "A0151956",
+            "count": "20"
+          },
+          {
+            "item": "A0181118",
+            "count": "20"
+          },
+          {
+            "item": "A0161578",
+            "count": "19"
+          },
+          {
+            "item": "A0160829",
+            "count": "19"
+          },
+          {
+            "item": "A0131211",
+            "count": "18"
+          },
+          {
+            "item": "A0157003",
+            "count": "18"
+          },
+          {
+            "item": "A0178392",
+            "count": "18"
+          },
+          {
+            "item": "A0186184",
+            "count": "17"
+          },
+          {
+            "item": "A0148234",
+            "count": "16"
+          },
+          {
+            "item": "A0198982",
+            "count": "16"
+          },
+          {
+            "item": "A0156087",
+            "count": "16"
+          },
+          {
+            "item": "A0151160",
+            "count": "16"
+          },
+          {
+            "item": "A0155584",
+            "count": "16"
+          }
+        ],
+        "smallest": "A0126759",
+        "count": "80712",
+        "cardinality": "22432"
+      }
+    },
+    {
+      "field_name": "inspection_number",
+      "display_name": "Inspection Number",
+      "data_type": "text",
+      "description": "An identification number assigned to an inspection of a business.\n",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "79700",
+        "largest": "INS-000853433",
+        "null": "1012",
+        "top": [
+          {
+            "item": "INS-000832243",
+            "count": "15"
+          },
+          {
+            "item": "INS-000832337",
+            "count": "14"
+          },
+          {
+            "item": "INS-000731346",
+            "count": "14"
+          },
+          {
+            "item": "INS-000833920",
+            "count": "13"
+          },
+          {
+            "item": "INS-000728382",
+            "count": "13"
+          },
+          {
+            "item": "INS-000684988",
+            "count": "12"
+          },
+          {
+            "item": "INS-000656535",
+            "count": "12"
+          },
+          {
+            "item": "INS-000654004",
+            "count": "12"
+          },
+          {
+            "item": "INS-000833759",
+            "count": "12"
+          },
+          {
+            "item": "INS-000821266",
+            "count": "12"
+          },
+          {
+            "item": "INS-000840046",
+            "count": "12"
+          },
+          {
+            "item": "INS-000683596",
+            "count": "12"
+          },
+          {
+            "item": "INS-000688470",
+            "count": "11"
+          },
+          {
+            "item": "INS-000655182",
+            "count": "11"
+          },
+          {
+            "item": "INS-000726243",
+            "count": "11"
+          },
+          {
+            "item": "INS-000720399",
+            "count": "11"
+          },
+          {
+            "item": "INS-000696384",
+            "count": "11"
+          },
+          {
+            "item": "INS-000692854",
+            "count": "11"
+          },
+          {
+            "item": "INS-000693616",
+            "count": "11"
+          },
+          {
+            "item": "INS-000705339",
+            "count": "11"
+          }
+        ],
+        "smallest": "INS-000631726",
+        "count": "80712",
+        "cardinality": "30695"
+      }
+    },
+    {
+      "field_name": "noh_number",
+      "display_name": "NOH Number",
+      "data_type": "text",
+      "description": "The \"Notice of Hearing\" number, also referred to as \"Summons Number\".\n",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "SC-000865-21/NY",
+        "null": "0",
+        "top": [
+          {
+            "item": "25M00668",
+            "count": "15"
+          },
+          {
+            "item": "25N00406",
+            "count": "14"
+          },
+          {
+            "item": "24M00879",
+            "count": "14"
+          },
+          {
+            "item": "25N00452",
+            "count": "13"
+          },
+          {
+            "item": "24M00769",
+            "count": "13"
+          },
+          {
+            "item": "23T07096",
+            "count": "12"
+          },
+          {
+            "item": "25X00449",
+            "count": "12"
+          },
+          {
+            "item": "23Q00984",
+            "count": "12"
+          },
+          {
+            "item": "25N00337",
+            "count": "12"
+          },
+          {
+            "item": "25M00719",
+            "count": "12"
+          },
+          {
+            "item": "23T07217",
+            "count": "12"
+          },
+          {
+            "item": "23N00910",
+            "count": "12"
+          },
+          {
+            "item": "24Q00146",
+            "count": "11"
+          },
+          {
+            "item": "23T08271",
+            "count": "11"
+          },
+          {
+            "item": "25X00136",
+            "count": "11"
+          },
+          {
+            "item": "240001Case",
+            "count": "11"
+          },
+          {
+            "item": "24T01852",
+            "count": "11"
+          },
+          {
+            "item": "24M00854",
+            "count": "11"
+          },
+          {
+            "item": "23T07902",
+            "count": "11"
+          },
+          {
+            "item": "23T07578",
+            "count": "11"
+          }
+        ],
+        "smallest": "200011TR.",
+        "count": "80712",
+        "cardinality": "31139"
+      }
+    },
+    {
+      "field_name": "violation_date",
+      "display_name": "Violation Date",
+      "data_type": "calendar_date",
+      "description": "The date the inspection that resulted in the charges was conducted.  For legal investigations, the date the charges were filed.",
+      "width": 172,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "2025-03-29T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2024-05-15T00:00:00.000",
+            "count": "436"
+          },
+          {
+            "item": "2024-08-01T00:00:00.000",
+            "count": "368"
+          },
+          {
+            "item": "2024-05-09T00:00:00.000",
+            "count": "363"
+          },
+          {
+            "item": "2024-07-16T00:00:00.000",
+            "count": "331"
+          },
+          {
+            "item": "2024-02-28T00:00:00.000",
+            "count": "326"
+          },
+          {
+            "item": "2023-11-15T00:00:00.000",
+            "count": "323"
+          },
+          {
+            "item": "2024-03-18T00:00:00.000",
+            "count": "319"
+          },
+          {
+            "item": "2024-09-10T00:00:00.000",
+            "count": "316"
+          },
+          {
+            "item": "2024-03-20T00:00:00.000",
+            "count": "314"
+          },
+          {
+            "item": "2023-11-20T00:00:00.000",
+            "count": "309"
+          },
+          {
+            "item": "2024-05-28T00:00:00.000",
+            "count": "308"
+          },
+          {
+            "item": "2024-10-10T00:00:00.000",
+            "count": "308"
+          },
+          {
+            "item": "2024-08-08T00:00:00.000",
+            "count": "307"
+          },
+          {
+            "item": "2024-09-11T00:00:00.000",
+            "count": "303"
+          },
+          {
+            "item": "2024-04-02T00:00:00.000",
+            "count": "303"
+          },
+          {
+            "item": "2024-08-21T00:00:00.000",
+            "count": "299"
+          },
+          {
+            "item": "2023-09-13T00:00:00.000",
+            "count": "298"
+          },
+          {
+            "item": "2024-10-29T00:00:00.000",
+            "count": "298"
+          },
+          {
+            "item": "2024-03-04T00:00:00.000",
+            "count": "297"
+          },
+          {
+            "item": "2024-02-07T00:00:00.000",
+            "count": "296"
+          }
+        ],
+        "smallest": "2023-07-03T00:00:00.000",
+        "count": "80712",
+        "cardinality": "498"
+      }
+    },
+    {
+      "field_name": "charge",
+      "display_name": "Charge",
+      "data_type": "text",
+      "description": "The section of law or regulation that was not in compliance and description of the violation.",
+      "width": 148,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "80712",
+        "largest": "NY Pub Health \u00a7 1399-MM1(2) - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "null": "0",
+        "top": [
+          {
+            "item": "NYC Admin Code \u00a7 20-202(a)(1) - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+            "count": "7944"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 20-561(a)(1) - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+            "count": "7016"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-715(b) - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+            "count": "6139"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-715(a) - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+            "count": "5934"
+          },
+          {
+            "item": "NY Pub Health \u00a7 1399-MM1(2) - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+            "count": "5719"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-706(c) - FAILED TO POST AGE RESTRICTION SIGN IN A CONSPICUOUS PLACE",
+            "count": "4043"
+          },
+          {
+            "item": "6 RCNY \u00a7 5-37 - REFUND POLICY IS NOT POSTED  AT EACH OF CASH REGISTER/S OR AT EACH OF POINTS OF SALE OR AT EACH OF THE STORE ENTRANCES OR REFUND POLICY IS NOT POSTED CONSPICUOUSLY",
+            "count": "3747"
+          },
+          {
+            "item": "NY Pub Health \u00a7 1399-GG(2)(C)  - OFFERING FOR SALE ANY PACKAGE OR OTHER CONTAINER WITH FEWER THAN 20 SHEETS OF CIGARETTE WRAPPING PAPERS, WRAPPING LEAVES, OR TUBES THAT CAN BE USED TO WRAP TOBACCO FOR SMOKING",
+            "count": "3663"
+          },
+          {
+            "item": "24 RCNY \u00a7 13-03(b) - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+            "count": "3419"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 20-708 - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+            "count": "2604"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-706(a) - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+            "count": "2145"
+          },
+          {
+            "item": "NY Pub Health \u00a7 1399-cc(2) - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+            "count": "1581"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-703.1 - FAILED TO POST CIGARETTE TAX STAMPS SIGN CONSPICUOUSLY",
+            "count": "1278"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 16-401(c)(3) - Food service establishment fails to display sign that states \"Plastic straws available upon request\" in a size of at least 2 inches by 7 inches in font size 20 point or larger.",
+            "count": "975"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 20-708.1(b) - 5 OR MORE STOCK KEEPING ITEMS WITHIN FOLLOWING STOCK KEEPING UNITS FAIL TO CONSPICUOUSLY AND CLEARLY DISPLAY ITEM PRICES STAMPED, TAGGED, OR AFFIXED TO ITEMS.",
+            "count": "951"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-176.1(d)(1) - SOLD PACK OF CIGARETTES FOR LESS THAN THE PRICE FLOOR",
+            "count": "919"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 20-822(a) - SALE OF EXPIRED MEDS:  BUSINESS OFFERED FOR SALE OVER-THE COUNTER MEDICATION LATER THAN EXPIRATION DATE ON THE LABEL.",
+            "count": "890"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 16-401(b) - Food service establishment providing single-use beverage stirrer or single-use beverage splash stick made of plastic.",
+            "count": "882"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 16-401(c)(1) - Food service establishment providing single-use plastic beverage straws that are not compostable without request from person.",
+            "count": "876"
+          },
+          {
+            "item": "NYC Admin Code \u00a7 17-706(a-1) - SOLD E-CIGARETTES TO A PERSON UNDER 21 YEARS OF AGE",
+            "count": "802"
+          }
+        ],
+        "smallest": "1 NYCRR \u00a7 220.2(a) -  ON PUMP THE INDICATING ELEMENT AND/OR THE RECORDING ELEMENT CAN BE ADVANCED WITHOUT THE MECHANICAL OPERATION OF THE PUMP.  See HB 44 3.30 (S.1.3).",
+        "count": "80712",
+        "cardinality": "547"
+      }
+    },
+    {
+      "field_name": "charge_count",
+      "display_name": "Charge Count",
+      "data_type": "text",
+      "description": "The number of charges of this type.",
+      "width": 184,
+      "position": 12,
+      "cached_contents": {
+        "non_null": "80708",
+        "largest": "999",
+        "null": "4",
+        "top": [
+          {
+            "item": "1",
+            "count": "62141"
+          },
+          {
+            "item": "20",
+            "count": "7549"
+          },
+          {
+            "item": "2",
+            "count": "4947"
+          },
+          {
+            "item": "3",
+            "count": "680"
+          },
+          {
+            "item": "4",
+            "count": "593"
+          },
+          {
+            "item": "5",
+            "count": "537"
+          },
+          {
+            "item": "6",
+            "count": "452"
+          },
+          {
+            "item": "10",
+            "count": "401"
+          },
+          {
+            "item": "7",
+            "count": "363"
+          },
+          {
+            "item": "8",
+            "count": "359"
+          },
+          {
+            "item": "9",
+            "count": "351"
+          },
+          {
+            "item": "11",
+            "count": "295"
+          },
+          {
+            "item": "13",
+            "count": "269"
+          },
+          {
+            "item": "12",
+            "count": "266"
+          },
+          {
+            "item": "15",
+            "count": "263"
+          },
+          {
+            "item": "14",
+            "count": "239"
+          },
+          {
+            "item": "18",
+            "count": "217"
+          },
+          {
+            "item": "16",
+            "count": "212"
+          },
+          {
+            "item": "17",
+            "count": "177"
+          },
+          {
+            "item": "19",
+            "count": "142"
+          }
+        ],
+        "smallest": "1",
+        "count": "80712",
+        "cardinality": "174"
+      }
+    },
+    {
+      "field_name": "cure_eligible",
+      "display_name": "Cure Eligible",
+      "data_type": "text",
+      "description": "Indicates whether the specific charge is eligible for cure or zero-dollar fine.\n",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "71630",
+        "largest": "Yes",
+        "null": "9082",
+        "top": [
+          {
+            "item": "No",
+            "count": "62867"
+          },
+          {
+            "item": "Yes",
+            "count": "8763"
+          }
+        ],
+        "smallest": "No",
+        "count": "80712",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "cured",
+      "display_name": "Cured",
+      "data_type": "text",
+      "description": "Indicates whether the respondent pled guilty to the charge and certified that the violation has been corrected.\n",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "8366",
+        "largest": "Yes",
+        "null": "72346",
+        "top": [
+          {
+            "item": "No",
+            "count": "5210"
+          },
+          {
+            "item": "Yes",
+            "count": "3156"
+          }
+        ],
+        "smallest": "No",
+        "count": "80712",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "outcome",
+      "display_name": "Outcome",
+      "data_type": "text",
+      "description": "The outcome of the adjudication process.",
+      "width": 184,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "63393",
+        "largest": "Settlement (Pre-Hearing)",
+        "null": "17319",
+        "top": [
+          {
+            "item": "Default Decision",
+            "count": "43104"
+          },
+          {
+            "item": "Pleaded",
+            "count": "15247"
+          },
+          {
+            "item": "Hearing Decision",
+            "count": "4173"
+          },
+          {
+            "item": "Charges Withdrawn",
+            "count": "504"
+          },
+          {
+            "item": "Settlement (Pre-Hearing)",
+            "count": "269"
+          },
+          {
+            "item": "Settlement (Post Hearing)",
+            "count": "50"
+          },
+          {
+            "item": "Decision Dismissed",
+            "count": "46"
+          }
+        ],
+        "smallest": "Charges Withdrawn",
+        "count": "80712",
+        "cardinality": "7"
+      }
+    },
+    {
+      "field_name": "guilty",
+      "display_name": "Guilty",
+      "data_type": "text",
+      "description": "Number of counts where the respondent was found guilty via decision.",
+      "width": 208,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "58154",
+        "largest": "999",
+        "null": "22558",
+        "top": [
+          {
+            "item": "1",
+            "count": "46251"
+          },
+          {
+            "item": "20",
+            "count": "3353"
+          },
+          {
+            "item": "2",
+            "count": "3347"
+          },
+          {
+            "item": "0",
+            "count": "2092"
+          },
+          {
+            "item": "3",
+            "count": "378"
+          },
+          {
+            "item": "4",
+            "count": "293"
+          },
+          {
+            "item": "5",
+            "count": "263"
+          },
+          {
+            "item": "6",
+            "count": "234"
+          },
+          {
+            "item": "10",
+            "count": "196"
+          },
+          {
+            "item": "7",
+            "count": "193"
+          },
+          {
+            "item": "8",
+            "count": "178"
+          },
+          {
+            "item": "9",
+            "count": "176"
+          },
+          {
+            "item": "13",
+            "count": "141"
+          },
+          {
+            "item": "12",
+            "count": "141"
+          },
+          {
+            "item": "11",
+            "count": "138"
+          },
+          {
+            "item": "15",
+            "count": "131"
+          },
+          {
+            "item": "14",
+            "count": "117"
+          },
+          {
+            "item": "16",
+            "count": "106"
+          },
+          {
+            "item": "18",
+            "count": "100"
+          },
+          {
+            "item": "17",
+            "count": "89"
+          }
+        ],
+        "smallest": "0",
+        "count": "80712",
+        "cardinality": "139"
+      }
+    },
+    {
+      "field_name": "not_guilty",
+      "display_name": "Not Guilty",
+      "data_type": "text",
+      "description": "Number of counts where the respondent was found not guilty",
+      "width": 232,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "8836",
+        "largest": "97",
+        "null": "71876",
+        "top": [
+          {
+            "item": "1",
+            "count": "4699"
+          },
+          {
+            "item": "0",
+            "count": "2346"
+          },
+          {
+            "item": "20",
+            "count": "1256"
+          },
+          {
+            "item": "3",
+            "count": "54"
+          },
+          {
+            "item": "4",
+            "count": "48"
+          },
+          {
+            "item": "2",
+            "count": "47"
+          },
+          {
+            "item": "10",
+            "count": "43"
+          },
+          {
+            "item": "6",
+            "count": "35"
+          },
+          {
+            "item": "5",
+            "count": "34"
+          },
+          {
+            "item": "7",
+            "count": "29"
+          },
+          {
+            "item": "8",
+            "count": "26"
+          },
+          {
+            "item": "15",
+            "count": "25"
+          },
+          {
+            "item": "11",
+            "count": "25"
+          },
+          {
+            "item": "9",
+            "count": "25"
+          },
+          {
+            "item": "14",
+            "count": "23"
+          },
+          {
+            "item": "17",
+            "count": "23"
+          },
+          {
+            "item": "13",
+            "count": "23"
+          },
+          {
+            "item": "12",
+            "count": "20"
+          },
+          {
+            "item": "16",
+            "count": "18"
+          },
+          {
+            "item": "18",
+            "count": "17"
+          }
+        ],
+        "smallest": "0",
+        "count": "80712",
+        "cardinality": "27"
+      }
+    },
+    {
+      "field_name": "dismissed",
+      "display_name": "Dismissed",
+      "data_type": "number",
+      "description": "Number of counts dismissed.\n",
+      "position": 18,
+      "cached_contents": {
+        "non_null": "852",
+        "largest": "948",
+        "null": "79860",
+        "top": [
+          {
+            "item": "1",
+            "count": "683"
+          },
+          {
+            "item": "20",
+            "count": "55"
+          },
+          {
+            "item": "2",
+            "count": "29"
+          },
+          {
+            "item": "0",
+            "count": "16"
+          },
+          {
+            "item": "3",
+            "count": "12"
+          },
+          {
+            "item": "5",
+            "count": "8"
+          },
+          {
+            "item": "4",
+            "count": "8"
+          },
+          {
+            "item": "10",
+            "count": "6"
+          },
+          {
+            "item": "9",
+            "count": "4"
+          },
+          {
+            "item": "15",
+            "count": "3"
+          },
+          {
+            "item": "18",
+            "count": "3"
+          },
+          {
+            "item": "14",
+            "count": "2"
+          },
+          {
+            "item": "7",
+            "count": "2"
+          },
+          {
+            "item": "16",
+            "count": "2"
+          },
+          {
+            "item": "259",
+            "count": "2"
+          },
+          {
+            "item": "13",
+            "count": "2"
+          },
+          {
+            "item": "19",
+            "count": "2"
+          },
+          {
+            "item": "42",
+            "count": "1"
+          },
+          {
+            "item": "43",
+            "count": "1"
+          },
+          {
+            "item": "48",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "80712",
+        "cardinality": "30"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.067130"
+}

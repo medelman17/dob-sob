@@ -1,0 +1,1512 @@
+{
+  "dataset_id": "855v-w7mc",
+  "name": "Pre-Application Meetings",
+  "description": "Informational \"Pre-application\" meetings are requests by members of the public, including prospective applicants, to meet with Board Staff and a Commissioner (typically, the Chair) to discuss zoning measures and controls on a Premises or area, the availability of relief from such zoning regulations, and the process by which an application may be filed. The data provided to BSA, generally, includes: date of meeting, representative, prior BSA action, and Premises location (borough, block, lot, address).",
+  "agency": "Board of Standards and Appeals (BSA)",
+  "category": "Business",
+  "tags": [
+    "calendar",
+    "address",
+    "block",
+    "lot",
+    "borough",
+    "applicant",
+    "date of meeting",
+    "application type",
+    "pre-application meeting"
+  ],
+  "attribution": "Board of Standards and Appeals (BSA)",
+  "created_at": "2024-06-21T16:52:05",
+  "updated_at": "2024-09-03T14:48:40",
+  "row_count": 1725374920,
+  "column_count": 17,
+  "download_count": 540,
+  "view_count": 268,
+  "columns": [
+    {
+      "field_name": "calendar",
+      "display_name": "Calendar",
+      "data_type": "text",
+      "description": "Prior BSA Calendar Number (a prior BSA action), where applicable",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "N/A",
+        "null": "0",
+        "top": [
+          {
+            "item": "N/A",
+            "count": "64"
+          },
+          {
+            "item": "241-72-BZ",
+            "count": "2"
+          },
+          {
+            "item": "99-00-BZ",
+            "count": "1"
+          },
+          {
+            "item": "65-95-BZ",
+            "count": "1"
+          },
+          {
+            "item": "78-11-BZ",
+            "count": "1"
+          },
+          {
+            "item": "219-71-BZ",
+            "count": "1"
+          },
+          {
+            "item": "16-67-BZ",
+            "count": "1"
+          },
+          {
+            "item": "339-02-BZ",
+            "count": "1"
+          },
+          {
+            "item": "198-01-BZ",
+            "count": "1"
+          },
+          {
+            "item": "29-09-BZ",
+            "count": "1"
+          },
+          {
+            "item": "56-14-BZ",
+            "count": "1"
+          }
+        ],
+        "smallest": "16-67-BZ",
+        "count": "75",
+        "cardinality": "11"
+      }
+    },
+    {
+      "field_name": "applicant",
+      "display_name": "Applicant",
+      "data_type": "text",
+      "description": "Representative of pre-application request",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "Umer Chaudhry",
+        "null": "0",
+        "top": [
+          {
+            "item": "Eric Palatnik, PC",
+            "count": "10"
+          },
+          {
+            "item": "Goldman Harris",
+            "count": "5"
+          },
+          {
+            "item": "Kramer Levin",
+            "count": "5"
+          },
+          {
+            "item": "Akerman LLP",
+            "count": "5"
+          },
+          {
+            "item": "Sheldon Lobel PC",
+            "count": "4"
+          },
+          {
+            "item": "Sheppard Mullin",
+            "count": "4"
+          },
+          {
+            "item": "Davidoff Hutcher & Citron LLP",
+            "count": "4"
+          },
+          {
+            "item": "Bryan Cave",
+            "count": "3"
+          },
+          {
+            "item": "Arthur Yellin",
+            "count": "2"
+          },
+          {
+            "item": "Cozen O'Connor",
+            "count": "2"
+          },
+          {
+            "item": "Caliendo Architects",
+            "count": "2"
+          },
+          {
+            "item": "Rampulla Associates Architects",
+            "count": "2"
+          },
+          {
+            "item": "Terminus Group",
+            "count": "2"
+          },
+          {
+            "item": "Jay Goldstein",
+            "count": "2"
+          },
+          {
+            "item": "Fried Frank",
+            "count": "2"
+          },
+          {
+            "item": "Lyra Altman",
+            "count": "2"
+          },
+          {
+            "item": "Herrick Feinstein LLP",
+            "count": "2"
+          },
+          {
+            "item": "Snyder & Snyder",
+            "count": "2"
+          },
+          {
+            "item": "Rosenberg & Estis",
+            "count": "1"
+          },
+          {
+            "item": "Pryor Cashman",
+            "count": "1"
+          }
+        ],
+        "smallest": "Akerman LLP",
+        "count": "75",
+        "cardinality": "33"
+      }
+    },
+    {
+      "field_name": "application_type",
+      "display_name": "Application Type",
+      "data_type": "text",
+      "description": "Meeting with Board staff regarding a potential application at BSA",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "Pre-application meeting",
+        "null": "0",
+        "top": [
+          {
+            "item": "Pre-application meeting",
+            "count": "75"
+          }
+        ],
+        "smallest": "Pre-application meeting",
+        "count": "75",
+        "cardinality": "1"
+      }
+    },
+    {
+      "field_name": "date_of_meeting",
+      "display_name": "Date of Meeting",
+      "data_type": "calendar_date",
+      "description": "Date meeting held",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "2024-08-16T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2022-10-20T00:00:00.000",
+            "count": "5"
+          },
+          {
+            "item": "2023-02-09T00:00:00.000",
+            "count": "4"
+          },
+          {
+            "item": "2019-04-29T00:00:00.000",
+            "count": "3"
+          },
+          {
+            "item": "2020-01-13T00:00:00.000",
+            "count": "3"
+          },
+          {
+            "item": "2022-10-24T00:00:00.000",
+            "count": "3"
+          },
+          {
+            "item": "2019-08-12T00:00:00.000",
+            "count": "3"
+          },
+          {
+            "item": "2019-10-08T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2023-10-10T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2022-09-08T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2023-07-31T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2019-10-28T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2019-12-16T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2019-01-04T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2019-01-14T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2023-11-08T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2020-02-03T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2023-11-06T00:00:00.000",
+            "count": "2"
+          },
+          {
+            "item": "2023-04-28T00:00:00.000",
+            "count": "1"
+          },
+          {
+            "item": "2019-08-28T00:00:00.000",
+            "count": "1"
+          },
+          {
+            "item": "2019-01-07T00:00:00.000",
+            "count": "1"
+          }
+        ],
+        "smallest": "2019-01-04T00:00:00.000",
+        "count": "75",
+        "cardinality": "49"
+      }
+    },
+    {
+      "field_name": "address",
+      "display_name": "Address",
+      "data_type": "text",
+      "description": "Address of Premises, where provided",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "Victory Boulevard",
+        "null": "0",
+        "top": [
+          {
+            "item": "Victory Boulevard",
+            "count": "4"
+          },
+          {
+            "item": "116 Edgecombe Avenue",
+            "count": "2"
+          },
+          {
+            "item": "Prince's Point",
+            "count": "2"
+          },
+          {
+            "item": "146-65 Springfield Boulevard",
+            "count": "2"
+          },
+          {
+            "item": "180 Christopher Street",
+            "count": "2"
+          },
+          {
+            "item": "New Special District",
+            "count": "1"
+          },
+          {
+            "item": "161 Emerson Place",
+            "count": "1"
+          },
+          {
+            "item": "224-11 141st Road",
+            "count": "1"
+          },
+          {
+            "item": "290 Henry Street",
+            "count": "1"
+          },
+          {
+            "item": "69-19 Fresh Pond Road",
+            "count": "1"
+          },
+          {
+            "item": "1915 Strang Avenue",
+            "count": "1"
+          },
+          {
+            "item": "1 World's Fair Marina",
+            "count": "1"
+          },
+          {
+            "item": "109-52 54th Avenue",
+            "count": "1"
+          },
+          {
+            "item": "25 Water Street",
+            "count": "1"
+          },
+          {
+            "item": "3033 Fish Avenue",
+            "count": "1"
+          },
+          {
+            "item": "403 Concord Avenue",
+            "count": "1"
+          },
+          {
+            "item": "116 West 28th Street",
+            "count": "1"
+          },
+          {
+            "item": "52-21 Little Neck Parkway",
+            "count": "1"
+          },
+          {
+            "item": "224-39 Jamaica Avenue",
+            "count": "1"
+          },
+          {
+            "item": "9000 Shore Road",
+            "count": "1"
+          }
+        ],
+        "smallest": "105-45 Cross Bay Boulevard",
+        "count": "75",
+        "cardinality": "68"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "tax block of Premises",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "N/A",
+        "null": "0",
+        "top": [
+          {
+            "item": "2638",
+            "count": "4"
+          },
+          {
+            "item": "11298",
+            "count": "2"
+          },
+          {
+            "item": "2042",
+            "count": "2"
+          },
+          {
+            "item": "604",
+            "count": "2"
+          },
+          {
+            "item": "892",
+            "count": "2"
+          },
+          {
+            "item": "4590",
+            "count": "1"
+          },
+          {
+            "item": "1304",
+            "count": "1"
+          },
+          {
+            "item": "10706",
+            "count": "1"
+          },
+          {
+            "item": "11359",
+            "count": "1"
+          },
+          {
+            "item": "1717",
+            "count": "1"
+          },
+          {
+            "item": "4979",
+            "count": "1"
+          },
+          {
+            "item": "6685",
+            "count": "1"
+          },
+          {
+            "item": "3470",
+            "count": "1"
+          },
+          {
+            "item": "1909",
+            "count": "1"
+          },
+          {
+            "item": "3556",
+            "count": "1"
+          },
+          {
+            "item": "2237",
+            "count": "1"
+          },
+          {
+            "item": "N/A",
+            "count": "1"
+          },
+          {
+            "item": "2397",
+            "count": "1"
+          },
+          {
+            "item": "5487",
+            "count": "1"
+          },
+          {
+            "item": "9163",
+            "count": "1"
+          }
+        ],
+        "smallest": "10706",
+        "count": "75",
+        "cardinality": "68"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "tax lot of Premises",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "73",
+        "largest": "N/A",
+        "null": "2",
+        "top": [
+          {
+            "item": "1",
+            "count": "11"
+          },
+          {
+            "item": "24",
+            "count": "3"
+          },
+          {
+            "item": "3",
+            "count": "3"
+          },
+          {
+            "item": "10",
+            "count": "2"
+          },
+          {
+            "item": "15",
+            "count": "2"
+          },
+          {
+            "item": "60",
+            "count": "2"
+          },
+          {
+            "item": "63",
+            "count": "2"
+          },
+          {
+            "item": "29",
+            "count": "2"
+          },
+          {
+            "item": "27",
+            "count": "2"
+          },
+          {
+            "item": "26",
+            "count": "2"
+          },
+          {
+            "item": "62",
+            "count": "2"
+          },
+          {
+            "item": "8",
+            "count": "2"
+          },
+          {
+            "item": "58",
+            "count": "1"
+          },
+          {
+            "item": "N/A",
+            "count": "1"
+          },
+          {
+            "item": "25",
+            "count": "1"
+          },
+          {
+            "item": "100",
+            "count": "1"
+          },
+          {
+            "item": "74",
+            "count": "1"
+          },
+          {
+            "item": "14",
+            "count": "1"
+          },
+          {
+            "item": "28",
+            "count": "1"
+          },
+          {
+            "item": "38",
+            "count": "1"
+          }
+        ],
+        "smallest": "1",
+        "count": "75",
+        "cardinality": "50"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "NYC Borough",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "75",
+        "largest": "Staten Island",
+        "null": "0",
+        "top": [
+          {
+            "item": "Manhattan",
+            "count": "24"
+          },
+          {
+            "item": "Queens",
+            "count": "19"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "14"
+          },
+          {
+            "item": "Staten Island",
+            "count": "12"
+          },
+          {
+            "item": "Bronx",
+            "count": "5"
+          },
+          {
+            "item": "N/A",
+            "count": "1"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "75",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "postcode",
+      "display_name": "Postcode",
+      "data_type": "text",
+      "description": "Zipcode where the site is located",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "11434",
+        "null": "9",
+        "top": [
+          {
+            "item": "11205",
+            "count": "4"
+          },
+          {
+            "item": "11413",
+            "count": "3"
+          },
+          {
+            "item": "10016",
+            "count": "3"
+          },
+          {
+            "item": "10314",
+            "count": "3"
+          },
+          {
+            "item": "10306",
+            "count": "3"
+          },
+          {
+            "item": "10014",
+            "count": "2"
+          },
+          {
+            "item": "11385",
+            "count": "2"
+          },
+          {
+            "item": "11368",
+            "count": "2"
+          },
+          {
+            "item": "11207",
+            "count": "2"
+          },
+          {
+            "item": "10022",
+            "count": "2"
+          },
+          {
+            "item": "10469",
+            "count": "2"
+          },
+          {
+            "item": "10030",
+            "count": "2"
+          },
+          {
+            "item": "10001",
+            "count": "2"
+          },
+          {
+            "item": "11426",
+            "count": "1"
+          },
+          {
+            "item": "10457",
+            "count": "1"
+          },
+          {
+            "item": "11224",
+            "count": "1"
+          },
+          {
+            "item": "10023",
+            "count": "1"
+          },
+          {
+            "item": "11422",
+            "count": "1"
+          },
+          {
+            "item": "11414",
+            "count": "1"
+          },
+          {
+            "item": "10466",
+            "count": "1"
+          }
+        ],
+        "smallest": "10001",
+        "count": "75",
+        "cardinality": "47"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "Latitude of the site's location",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "40.889715",
+        "null": "9",
+        "top": [
+          {
+            "item": "40.820116",
+            "count": "2"
+          },
+          {
+            "item": "40.732434",
+            "count": "2"
+          },
+          {
+            "item": "40.660161",
+            "count": "2"
+          },
+          {
+            "item": "40.802562",
+            "count": "1"
+          },
+          {
+            "item": "40.812174",
+            "count": "1"
+          },
+          {
+            "item": "40.740264",
+            "count": "1"
+          },
+          {
+            "item": "40.699154",
+            "count": "1"
+          },
+          {
+            "item": "40.587747",
+            "count": "1"
+          },
+          {
+            "item": "40.866438",
+            "count": "1"
+          },
+          {
+            "item": "40.680286",
+            "count": "1"
+          },
+          {
+            "item": "40.742542",
+            "count": "1"
+          },
+          {
+            "item": "40.69527",
+            "count": "1"
+          },
+          {
+            "item": "40.722453",
+            "count": "1"
+          },
+          {
+            "item": "40.74811",
+            "count": "1"
+          },
+          {
+            "item": "40.721628",
+            "count": "1"
+          },
+          {
+            "item": "40.809117",
+            "count": "1"
+          },
+          {
+            "item": "40.703026",
+            "count": "1"
+          },
+          {
+            "item": "40.748787",
+            "count": "1"
+          },
+          {
+            "item": "40.762987",
+            "count": "1"
+          },
+          {
+            "item": "40.699739",
+            "count": "1"
+          }
+        ],
+        "smallest": "40.5684",
+        "count": "75",
+        "cardinality": "63"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "Longitude of the site's location",
+      "position": 11,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "-73.728818",
+        "null": "9",
+        "top": [
+          {
+            "item": "-74.009923",
+            "count": "2"
+          },
+          {
+            "item": "-73.945704",
+            "count": "2"
+          },
+          {
+            "item": "-73.761186",
+            "count": "2"
+          },
+          {
+            "item": "-73.729832",
+            "count": "1"
+          },
+          {
+            "item": "-73.837577",
+            "count": "1"
+          },
+          {
+            "item": "-74.186536",
+            "count": "1"
+          },
+          {
+            "item": "-73.844343",
+            "count": "1"
+          },
+          {
+            "item": "-73.983342",
+            "count": "1"
+          },
+          {
+            "item": "-73.895347",
+            "count": "1"
+          },
+          {
+            "item": "-73.831852",
+            "count": "1"
+          },
+          {
+            "item": "-73.982763",
+            "count": "1"
+          },
+          {
+            "item": "-73.903936",
+            "count": "1"
+          },
+          {
+            "item": "-73.986359",
+            "count": "1"
+          },
+          {
+            "item": "-73.894576",
+            "count": "1"
+          },
+          {
+            "item": "-74.002819",
+            "count": "1"
+          },
+          {
+            "item": "-73.992689",
+            "count": "1"
+          },
+          {
+            "item": "-73.8522",
+            "count": "1"
+          },
+          {
+            "item": "-73.946622",
+            "count": "1"
+          },
+          {
+            "item": "-73.857649",
+            "count": "1"
+          },
+          {
+            "item": "-73.967865",
+            "count": "1"
+          }
+        ],
+        "smallest": "-74.186536",
+        "count": "75",
+        "cardinality": "63"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, \ufeffwho can be as young as 16\ufeff, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District. Note: as a column header, \u201cCommunity Board\u201d (which refers to a group of Board members) is often used to mean \u201cCommunity District\u201d (the geographical area) instead.",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "503",
+        "null": "9",
+        "top": [
+          {
+            "item": "105",
+            "count": "6"
+          },
+          {
+            "item": "413",
+            "count": "5"
+          },
+          {
+            "item": "502",
+            "count": "5"
+          },
+          {
+            "item": "110",
+            "count": "4"
+          },
+          {
+            "item": "405",
+            "count": "3"
+          },
+          {
+            "item": "102",
+            "count": "3"
+          },
+          {
+            "item": "107",
+            "count": "2"
+          },
+          {
+            "item": "410",
+            "count": "2"
+          },
+          {
+            "item": "106",
+            "count": "2"
+          },
+          {
+            "item": "303",
+            "count": "2"
+          },
+          {
+            "item": "211",
+            "count": "2"
+          },
+          {
+            "item": "302",
+            "count": "2"
+          },
+          {
+            "item": "103",
+            "count": "2"
+          },
+          {
+            "item": "315",
+            "count": "2"
+          },
+          {
+            "item": "412",
+            "count": "1"
+          },
+          {
+            "item": "310",
+            "count": "1"
+          },
+          {
+            "item": "402",
+            "count": "1"
+          },
+          {
+            "item": "205",
+            "count": "1"
+          },
+          {
+            "item": "101",
+            "count": "1"
+          },
+          {
+            "item": "201",
+            "count": "1"
+          }
+        ],
+        "smallest": "101",
+        "count": "75",
+        "cardinality": "38"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District.",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "51",
+        "null": "9",
+        "top": [
+          {
+            "item": "4",
+            "count": "5"
+          },
+          {
+            "item": "50",
+            "count": "4"
+          },
+          {
+            "item": "31",
+            "count": "4"
+          },
+          {
+            "item": "9",
+            "count": "4"
+          },
+          {
+            "item": "3",
+            "count": "4"
+          },
+          {
+            "item": "33",
+            "count": "4"
+          },
+          {
+            "item": "2",
+            "count": "3"
+          },
+          {
+            "item": "1",
+            "count": "3"
+          },
+          {
+            "item": "48",
+            "count": "2"
+          },
+          {
+            "item": "7",
+            "count": "2"
+          },
+          {
+            "item": "37",
+            "count": "2"
+          },
+          {
+            "item": "21",
+            "count": "2"
+          },
+          {
+            "item": "30",
+            "count": "2"
+          },
+          {
+            "item": "32",
+            "count": "2"
+          },
+          {
+            "item": "47",
+            "count": "2"
+          },
+          {
+            "item": "12",
+            "count": "2"
+          },
+          {
+            "item": "34",
+            "count": "1"
+          },
+          {
+            "item": "51",
+            "count": "1"
+          },
+          {
+            "item": "20",
+            "count": "1"
+          },
+          {
+            "item": "25",
+            "count": "1"
+          }
+        ],
+        "smallest": "1",
+        "count": "75",
+        "cardinality": "35"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "The BIN (Building Identification Number) is a unique 7-digit number assigned to every known building by the Department of City Planning (DCP), the first digit of which is the borough code. BINs allow city agencies to process and match building-related data easily and in a consistent manner.",
+      "position": 14,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "62",
+        "largest": "5107624",
+        "null": "13",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "4"
+          },
+          {
+            "item": "1060723",
+            "count": "2"
+          },
+          {
+            "item": "1000000",
+            "count": "2"
+          },
+          {
+            "item": "1010417",
+            "count": "2"
+          },
+          {
+            "item": "3335129",
+            "count": "1"
+          },
+          {
+            "item": "4060569",
+            "count": "1"
+          },
+          {
+            "item": "3008884",
+            "count": "1"
+          },
+          {
+            "item": "3204967",
+            "count": "1"
+          },
+          {
+            "item": "4430273",
+            "count": "1"
+          },
+          {
+            "item": "1017089",
+            "count": "1"
+          },
+          {
+            "item": "4437085",
+            "count": "1"
+          },
+          {
+            "item": "1036904",
+            "count": "1"
+          },
+          {
+            "item": "5017828",
+            "count": "1"
+          },
+          {
+            "item": "5107624",
+            "count": "1"
+          },
+          {
+            "item": "4191044",
+            "count": "1"
+          },
+          {
+            "item": "5107403",
+            "count": "1"
+          },
+          {
+            "item": "1018979",
+            "count": "1"
+          },
+          {
+            "item": "4112123",
+            "count": "1"
+          },
+          {
+            "item": "4144493",
+            "count": "1"
+          },
+          {
+            "item": "1056713",
+            "count": "1"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "75",
+        "cardinality": "56"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The BBL (Borough, Block, and Lot) is a combination of three numeric codes -- a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) - designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+      "position": 15,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "62",
+        "largest": "5042570001",
+        "null": "13",
+        "top": [
+          {
+            "item": "1020420027",
+            "count": "2"
+          },
+          {
+            "item": "1006040003",
+            "count": "2"
+          },
+          {
+            "item": "4035560025",
+            "count": "1"
+          },
+          {
+            "item": "1008030049",
+            "count": "1"
+          },
+          {
+            "item": "3036510001",
+            "count": "1"
+          },
+          {
+            "item": "2049790096",
+            "count": "1"
+          },
+          {
+            "item": "5027830053",
+            "count": "1"
+          },
+          {
+            "item": "1008920063",
+            "count": "1"
+          },
+          {
+            "item": "3019090001",
+            "count": "1"
+          },
+          {
+            "item": "4011820040",
+            "count": "1"
+          },
+          {
+            "item": "3054870041",
+            "count": "1"
+          },
+          {
+            "item": "1004290029",
+            "count": "1"
+          },
+          {
+            "item": "4066850001",
+            "count": "1"
+          },
+          {
+            "item": "3022280011",
+            "count": "1"
+          },
+          {
+            "item": "4036290002",
+            "count": "1"
+          },
+          {
+            "item": "4049580038",
+            "count": "1"
+          },
+          {
+            "item": "1002670019",
+            "count": "1"
+          },
+          {
+            "item": "1020780001",
+            "count": "1"
+          },
+          {
+            "item": "5008990012",
+            "count": "1"
+          },
+          {
+            "item": "1011180029",
+            "count": "1"
+          }
+        ],
+        "smallest": "1000050010",
+        "count": "75",
+        "cardinality": "60"
+      }
+    },
+    {
+      "field_name": "census_tract_2020_",
+      "display_name": "Census Tract (2020)",
+      "data_type": "number",
+      "description": "The Census Tract (Census 2020) is a small, relatively permanent statistical subdivisions of a county uniquely numbered in each county with a numeric code. Please note that as part of the geocoding process, leading and trailing zeros are dropped.",
+      "position": 16,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "150702",
+        "null": "9",
+        "top": [
+          {
+            "item": "11203",
+            "count": "2"
+          },
+          {
+            "item": "69",
+            "count": "2"
+          },
+          {
+            "item": "80",
+            "count": "2"
+          },
+          {
+            "item": "1237",
+            "count": "2"
+          },
+          {
+            "item": "320",
+            "count": "2"
+          },
+          {
+            "item": "22102",
+            "count": "2"
+          },
+          {
+            "item": "150702",
+            "count": "1"
+          },
+          {
+            "item": "215",
+            "count": "1"
+          },
+          {
+            "item": "74",
+            "count": "1"
+          },
+          {
+            "item": "564",
+            "count": "1"
+          },
+          {
+            "item": "470",
+            "count": "1"
+          },
+          {
+            "item": "517",
+            "count": "1"
+          },
+          {
+            "item": "586",
+            "count": "1"
+          },
+          {
+            "item": "5302",
+            "count": "1"
+          },
+          {
+            "item": "310",
+            "count": "1"
+          },
+          {
+            "item": "149",
+            "count": "1"
+          },
+          {
+            "item": "352",
+            "count": "1"
+          },
+          {
+            "item": "3002",
+            "count": "1"
+          },
+          {
+            "item": "95",
+            "count": "1"
+          },
+          {
+            "item": "295",
+            "count": "1"
+          }
+        ],
+        "smallest": "9",
+        "count": "75",
+        "cardinality": "60"
+      }
+    },
+    {
+      "field_name": "neighborhood_tabulation_area_nta_2020_",
+      "display_name": "Neighborhood Tabulation Area (NTA) (2020)",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area (Census 2020) are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+      "position": 17,
+      "cached_contents": {
+        "non_null": "66",
+        "largest": "SI0301",
+        "null": "9",
+        "top": [
+          {
+            "item": "MN0501",
+            "count": "4"
+          },
+          {
+            "item": "MN1002",
+            "count": "3"
+          },
+          {
+            "item": "SI0204",
+            "count": "2"
+          },
+          {
+            "item": "SI0203",
+            "count": "2"
+          },
+          {
+            "item": "MN0604",
+            "count": "2"
+          },
+          {
+            "item": "MN0203",
+            "count": "2"
+          },
+          {
+            "item": "QN1306",
+            "count": "2"
+          },
+          {
+            "item": "BK0301",
+            "count": "2"
+          },
+          {
+            "item": "BX1103",
+            "count": "2"
+          },
+          {
+            "item": "QN0502",
+            "count": "2"
+          },
+          {
+            "item": "BK1503",
+            "count": "2"
+          },
+          {
+            "item": "MN0603",
+            "count": "2"
+          },
+          {
+            "item": "MN0701",
+            "count": "1"
+          },
+          {
+            "item": "QN0707",
+            "count": "1"
+          },
+          {
+            "item": "MN1203",
+            "count": "1"
+          },
+          {
+            "item": "QN1203",
+            "count": "1"
+          },
+          {
+            "item": "BX1202",
+            "count": "1"
+          },
+          {
+            "item": "QN1103",
+            "count": "1"
+          },
+          {
+            "item": "QN1305",
+            "count": "1"
+          },
+          {
+            "item": "MN0303",
+            "count": "1"
+          }
+        ],
+        "smallest": "BK0103",
+        "count": "75",
+        "cardinality": "51"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:23.835306"
+}

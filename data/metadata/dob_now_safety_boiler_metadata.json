@@ -1,0 +1,1635 @@
+{
+  "dataset_id": "52dp-yji6",
+  "name": "DOB NOW: Safety Boiler",
+  "description": "Annual compliance filings for high and low pressure boilers installed in buildings.\r\n\r\nThe Department of Buildings\u2019 Boiler Unit oversees the installation and operation of New York City\u2019s boilers. Property owners are responsible for ensuring that their boilers operate safely and are in compliance with the Building Code and all related regulations.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "boiler",
+    "pressure",
+    "inspection",
+    "compliance"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2017-09-14T20:55:30",
+  "updated_at": "2025-06-03T19:46:42",
+  "row_count": 1748980002,
+  "column_count": 21,
+  "download_count": 13987,
+  "view_count": 22976,
+  "columns": [
+    {
+      "field_name": "tracking_number",
+      "display_name": "Tracking Number",
+      "data_type": "text",
+      "description": "The tracking number for the boiler compliance filing.",
+      "width": 280,
+      "position": 1,
+      "cached_contents": {
+        "largest": "Ext-30000115310N0001-025",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "2016-10000003263Y0002-71240",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000005880Y0001-39361",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000007847Y0001-2600",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000010891Y0001-31645",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000011703N0001-43099",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000011710Y0001-19233",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000018106Y0001-71246",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000033938Y0001-71241",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000038425Y0001-27390",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000038546Y0001-15570",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000040610Y0001-845",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000050417Y0001-71242",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000061000N0001-43407",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000064047Y0001-71237",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000064329Y0001-71244",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000067080Y0001-15525",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000072987Y0001-15504",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000072987Y0002-15503",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000074167Y0001-398",
+            "count": "1"
+          },
+          {
+            "item": "2016-10000085851N0002-22685",
+            "count": "1"
+          }
+        ],
+        "smallest": "2016-10000003230N0006-71245",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "407229"
+      }
+    },
+    {
+      "field_name": "boiler_id",
+      "display_name": "Boiler ID",
+      "data_type": "text",
+      "description": "The identification number for the Boiler. It's a combination of the Borough code, the DOB device number, the multiple dwelling flag, and the serial number.",
+      "width": 208,
+      "position": 2,
+      "cached_contents": {
+        "largest": "n0000818015n0003",
+        "non_null": "406472",
+        "null": "757",
+        "top": [
+          {
+            "item": "10000000BNRY0001",
+            "count": "50"
+          },
+          {
+            "item": "10000000BNRN0001",
+            "count": "31"
+          },
+          {
+            "item": "20000072016Y0001",
+            "count": "19"
+          },
+          {
+            "item": "40000110838N0001",
+            "count": "15"
+          },
+          {
+            "item": "50000059096N0002",
+            "count": "15"
+          },
+          {
+            "item": "10000000000Y0001",
+            "count": "15"
+          },
+          {
+            "item": "50000059096N0003",
+            "count": "15"
+          },
+          {
+            "item": "10000015599Y0001",
+            "count": "15"
+          },
+          {
+            "item": "50000059096N0001",
+            "count": "15"
+          },
+          {
+            "item": "50000059096N0005",
+            "count": "15"
+          },
+          {
+            "item": "30000073339N0001",
+            "count": "14"
+          },
+          {
+            "item": "20000201928N0004",
+            "count": "13"
+          },
+          {
+            "item": "40000000000N0001",
+            "count": "13"
+          },
+          {
+            "item": "20000201925N0001",
+            "count": "13"
+          },
+          {
+            "item": "40000041995N0001",
+            "count": "13"
+          },
+          {
+            "item": "40000044395N0001",
+            "count": "12"
+          },
+          {
+            "item": "10000068494N0002",
+            "count": "12"
+          },
+          {
+            "item": "30000107776N0001",
+            "count": "12"
+          },
+          {
+            "item": "30000107776N0002",
+            "count": "12"
+          },
+          {
+            "item": "10000068494N0001",
+            "count": "12"
+          }
+        ],
+        "smallest": "0000000000000000",
+        "not_null": "221787",
+        "count": "407229",
+        "cardinality": "105653"
+      }
+    },
+    {
+      "field_name": "report_type",
+      "display_name": "Report Type",
+      "data_type": "text",
+      "description": "The type of compliance filing.     Expected values:\n\u2022 Initial = the initial boiler compliance filing for this device in this inspection cycle\n\u2022 Subsequent = a subsequent filing is submitted to correct defects on a previous filing.",
+      "width": 232,
+      "position": 3,
+      "cached_contents": {
+        "largest": "Subsequent",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "396859"
+          },
+          {
+            "item": "Subsequent",
+            "count": "9106"
+          },
+          {
+            "item": "BNR",
+            "count": "1243"
+          },
+          {
+            "item": "Ext",
+            "count": "21"
+          }
+        ],
+        "smallest": "BNR",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "applicantfirst_name",
+      "display_name": "ApplicantFirst Name",
+      "data_type": "text",
+      "description": "First name of the person who filed the application",
+      "width": 328,
+      "position": 4,
+      "cached_contents": {
+        "largest": "ZYGMUNT",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "JOHN",
+            "count": "22180"
+          },
+          {
+            "item": "MICHAEL",
+            "count": "15285"
+          },
+          {
+            "item": "VINCENT",
+            "count": "15189"
+          },
+          {
+            "item": "DREW",
+            "count": "13440"
+          },
+          {
+            "item": "AYYUB",
+            "count": "12660"
+          },
+          {
+            "item": "CARLOS",
+            "count": "10494"
+          },
+          {
+            "item": "BRIAN",
+            "count": "10064"
+          },
+          {
+            "item": "BERNARD",
+            "count": "9493"
+          },
+          {
+            "item": "CHRISTOPHER",
+            "count": "9455"
+          },
+          {
+            "item": "ANDREW",
+            "count": "8323"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "7997"
+          },
+          {
+            "item": "JAMES",
+            "count": "7761"
+          },
+          {
+            "item": "CHARLES",
+            "count": "7646"
+          },
+          {
+            "item": "JERRY",
+            "count": "7394"
+          },
+          {
+            "item": "IVAN",
+            "count": "7249"
+          },
+          {
+            "item": "MOSES",
+            "count": "7083"
+          },
+          {
+            "item": "RICHARD",
+            "count": "7014"
+          },
+          {
+            "item": "ROBERT",
+            "count": "6870"
+          },
+          {
+            "item": "KYLE",
+            "count": "6747"
+          },
+          {
+            "item": "LAWRENCE",
+            "count": "6721"
+          }
+        ],
+        "smallest": "AARON",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "371"
+      }
+    },
+    {
+      "field_name": "applicant_last_name",
+      "display_name": "Applicant Last Name",
+      "data_type": "text",
+      "description": "Last name of the person who filed the application.",
+      "width": 328,
+      "position": 5,
+      "cached_contents": {
+        "largest": "ZOLTOWSKI",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "CAPUTO",
+            "count": "14150"
+          },
+          {
+            "item": "THOMAS",
+            "count": "13506"
+          },
+          {
+            "item": "RUSSELL",
+            "count": "12660"
+          },
+          {
+            "item": "LARIOS",
+            "count": "9923"
+          },
+          {
+            "item": "BAUER",
+            "count": "9470"
+          },
+          {
+            "item": "KEARNS",
+            "count": "8306"
+          },
+          {
+            "item": "ARIAS",
+            "count": "7251"
+          },
+          {
+            "item": "IGNJATOVIC",
+            "count": "7069"
+          },
+          {
+            "item": "ADEAGBO",
+            "count": "6984"
+          },
+          {
+            "item": "BAKER",
+            "count": "6727"
+          },
+          {
+            "item": "WAGNER",
+            "count": "6669"
+          },
+          {
+            "item": "COSENTINO",
+            "count": "6584"
+          },
+          {
+            "item": "DELLEFAVE",
+            "count": "6479"
+          },
+          {
+            "item": "HERRERA",
+            "count": "5886"
+          },
+          {
+            "item": "WILSON",
+            "count": "5697"
+          },
+          {
+            "item": "WEST",
+            "count": "5655"
+          },
+          {
+            "item": "LESSEY",
+            "count": "5639"
+          },
+          {
+            "item": "SIMMONS",
+            "count": "5426"
+          },
+          {
+            "item": "GIOULIS",
+            "count": "5381"
+          },
+          {
+            "item": "KEANE",
+            "count": "5281"
+          }
+        ],
+        "smallest": "ABAD",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "809"
+      }
+    },
+    {
+      "field_name": "applicant_license_type",
+      "display_name": "Applicant License Type",
+      "data_type": "text",
+      "description": "The license type that the applicant used to file the application.\n\nExpected values:\n\u2022 BB = Insurance Agency Inspector Certified by NYS\n\u2022 E = High Pressure Boiler Operator\n\u2022 O = Oil Burner Installer\n\u2022 P = Master Plumber",
+      "width": 364,
+      "position": 6,
+      "cached_contents": {
+        "largest": "PR",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "BB",
+            "count": "236791"
+          },
+          {
+            "item": "O",
+            "count": "89122"
+          },
+          {
+            "item": "P",
+            "count": "66901"
+          },
+          {
+            "item": "E",
+            "count": "8612"
+          },
+          {
+            "item": "PR",
+            "count": "2"
+          }
+        ],
+        "smallest": "BB",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "applicant_license_number",
+      "display_name": "Applicant License Number",
+      "data_type": "text",
+      "description": "The applicant's license number on file with the Department.",
+      "width": 388,
+      "position": 7,
+      "cached_contents": {
+        "largest": "989",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "5468",
+            "count": "13440"
+          },
+          {
+            "item": "5356",
+            "count": "13280"
+          },
+          {
+            "item": "5578",
+            "count": "12536"
+          },
+          {
+            "item": "1478",
+            "count": "9923"
+          },
+          {
+            "item": "5353",
+            "count": "9465"
+          },
+          {
+            "item": "3012",
+            "count": "8306"
+          },
+          {
+            "item": "5547",
+            "count": "7251"
+          },
+          {
+            "item": "5508",
+            "count": "7069"
+          },
+          {
+            "item": "5240",
+            "count": "6984"
+          },
+          {
+            "item": "5602",
+            "count": "6727"
+          },
+          {
+            "item": "5574",
+            "count": "6584"
+          },
+          {
+            "item": "5618",
+            "count": "6479"
+          },
+          {
+            "item": "5469",
+            "count": "6432"
+          },
+          {
+            "item": "5651",
+            "count": "5886"
+          },
+          {
+            "item": "5568",
+            "count": "5690"
+          },
+          {
+            "item": "4266",
+            "count": "5655"
+          },
+          {
+            "item": "5445",
+            "count": "5639"
+          },
+          {
+            "item": "5335",
+            "count": "5426"
+          },
+          {
+            "item": "5474",
+            "count": "5381"
+          },
+          {
+            "item": "5326",
+            "count": "5281"
+          }
+        ],
+        "smallest": "1001",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "881"
+      }
+    },
+    {
+      "field_name": "owner_first_name",
+      "display_name": "Owner First Name",
+      "data_type": "text",
+      "description": "The first name of the building owner.",
+      "width": 292,
+      "position": 8,
+      "cached_contents": {
+        "largest": "ZYGMUNT",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "ROBERT",
+            "count": "10270"
+          },
+          {
+            "item": "LENIN",
+            "count": "10130"
+          },
+          {
+            "item": "MICHAEL",
+            "count": "8240"
+          },
+          {
+            "item": "DAVID",
+            "count": "6296"
+          },
+          {
+            "item": "JOHN",
+            "count": "6151"
+          },
+          {
+            "item": "JAMES",
+            "count": "5580"
+          },
+          {
+            "item": "JOSEPH",
+            "count": "5412"
+          },
+          {
+            "item": "PETER",
+            "count": "4495"
+          },
+          {
+            "item": "HEIDI",
+            "count": "3565"
+          },
+          {
+            "item": "KEVIN",
+            "count": "3415"
+          },
+          {
+            "item": "THOMAS",
+            "count": "3093"
+          },
+          {
+            "item": "MARK",
+            "count": "2983"
+          },
+          {
+            "item": "GEORGE",
+            "count": "2903"
+          },
+          {
+            "item": "RICHARD",
+            "count": "2840"
+          },
+          {
+            "item": "ANTHONY",
+            "count": "2696"
+          },
+          {
+            "item": "MEERZA",
+            "count": "2691"
+          },
+          {
+            "item": "MARTIN",
+            "count": "2419"
+          },
+          {
+            "item": "STEPHEN",
+            "count": "2406"
+          },
+          {
+            "item": "STEVEN",
+            "count": "2403"
+          },
+          {
+            "item": "MARIA",
+            "count": "2324"
+          }
+        ],
+        "smallest": "0RLEANE",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "9918"
+      }
+    },
+    {
+      "field_name": "owner_last_name",
+      "display_name": "Owner Last Name",
+      "data_type": "text",
+      "description": "The last name of the building owner.",
+      "width": 280,
+      "position": 9,
+      "cached_contents": {
+        "largest": "ZYSKOWSKI",
+        "non_null": "401428",
+        "null": "5801",
+        "top": [
+          {
+            "item": "IPQ",
+            "count": "9470"
+          },
+          {
+            "item": "BURKE",
+            "count": "5971"
+          },
+          {
+            "item": "SWANSON",
+            "count": "3501"
+          },
+          {
+            "item": "CRAIG",
+            "count": "2808"
+          },
+          {
+            "item": "MOHAMED",
+            "count": "2777"
+          },
+          {
+            "item": "QUINN",
+            "count": "2572"
+          },
+          {
+            "item": "COHEN",
+            "count": "2470"
+          },
+          {
+            "item": "RODRIGUEZ",
+            "count": "2015"
+          },
+          {
+            "item": "LEE",
+            "count": "1970"
+          },
+          {
+            "item": "NOBILE",
+            "count": "1938"
+          },
+          {
+            "item": "ZAW",
+            "count": "1890"
+          },
+          {
+            "item": "RESIDENTIAL",
+            "count": "1738"
+          },
+          {
+            "item": "CHEN",
+            "count": "1693"
+          },
+          {
+            "item": "BLOMBERG",
+            "count": "1622"
+          },
+          {
+            "item": "SALAZAR",
+            "count": "1530"
+          },
+          {
+            "item": "SARKAR",
+            "count": "1425"
+          },
+          {
+            "item": "KIM",
+            "count": "1378"
+          },
+          {
+            "item": "TAN",
+            "count": "1350"
+          },
+          {
+            "item": "USZTOKE",
+            "count": "1156"
+          },
+          {
+            "item": "BENJAMIN",
+            "count": "1144"
+          }
+        ],
+        "smallest": ".",
+        "not_null": "216425",
+        "count": "407229",
+        "cardinality": "19332"
+      }
+    },
+    {
+      "field_name": "boiler_make",
+      "display_name": "Boiler Make",
+      "data_type": "text",
+      "description": "The manufacturer of the boiler.",
+      "width": 232,
+      "position": 10,
+      "cached_contents": {
+        "largest": "ZURNENERGY DIV",
+        "non_null": "391846",
+        "null": "15383",
+        "top": [
+          {
+            "item": "WEIL MCLAIN",
+            "count": "51471"
+          },
+          {
+            "item": "FEDERAL",
+            "count": "42100"
+          },
+          {
+            "item": "BURNHAM",
+            "count": "34299"
+          },
+          {
+            "item": "PEERLESS",
+            "count": "22991"
+          },
+          {
+            "item": "ROCKMILLS",
+            "count": "21587"
+          },
+          {
+            "item": "LAARS",
+            "count": "17365"
+          },
+          {
+            "item": "WEILMCLAIN",
+            "count": "16358"
+          },
+          {
+            "item": "HB SMITH",
+            "count": "14586"
+          },
+          {
+            "item": "SLANT FIN",
+            "count": "9797"
+          },
+          {
+            "item": "H.B. SMITH",
+            "count": "6778"
+          },
+          {
+            "item": "HYDROTHERM",
+            "count": "6612"
+          },
+          {
+            "item": "BEST",
+            "count": "6388"
+          },
+          {
+            "item": "LOCHINVAR",
+            "count": "6145"
+          },
+          {
+            "item": "AERCO",
+            "count": "5223"
+          },
+          {
+            "item": "SLANTFIN",
+            "count": "5172"
+          },
+          {
+            "item": "FULTON",
+            "count": "5127"
+          },
+          {
+            "item": "WEIL",
+            "count": "4408"
+          },
+          {
+            "item": "AO SMITH",
+            "count": "4027"
+          },
+          {
+            "item": "H.B.SMITH",
+            "count": "3763"
+          },
+          {
+            "item": "WEIL MCLAI",
+            "count": "3651"
+          }
+        ],
+        "smallest": ".............",
+        "not_null": "213903",
+        "count": "407229",
+        "cardinality": "2626"
+      }
+    },
+    {
+      "field_name": "boiler_model",
+      "display_name": "Boiler Model",
+      "data_type": "text",
+      "description": "The model of the boiler.",
+      "width": 244,
+      "position": 11,
+      "cached_contents": {
+        "largest": "ZX 600",
+        "non_null": "254875",
+        "null": "152354",
+        "top": [
+          {
+            "item": "UNKNOWN",
+            "count": "2861"
+          },
+          {
+            "item": "OTHER",
+            "count": "2218"
+          },
+          {
+            "item": "EG-75",
+            "count": "1852"
+          },
+          {
+            "item": "EGH-85",
+            "count": "1824"
+          },
+          {
+            "item": "FST-100",
+            "count": "1417"
+          },
+          {
+            "item": "FST-125",
+            "count": "1340"
+          },
+          {
+            "item": "FST-60",
+            "count": "1321"
+          },
+          {
+            "item": "FST-50",
+            "count": "1219"
+          },
+          {
+            "item": "FST-150",
+            "count": "1162"
+          },
+          {
+            "item": "EGH-125",
+            "count": "1160"
+          },
+          {
+            "item": "EG75",
+            "count": "1082"
+          },
+          {
+            "item": "580",
+            "count": "1079"
+          },
+          {
+            "item": "EGH-95",
+            "count": "1061"
+          },
+          {
+            "item": "MP-100",
+            "count": "994"
+          },
+          {
+            "item": "FST-80",
+            "count": "980"
+          },
+          {
+            "item": "EGH-105",
+            "count": "970"
+          },
+          {
+            "item": "FST-40",
+            "count": "964"
+          },
+          {
+            "item": "680",
+            "count": "925"
+          },
+          {
+            "item": "FST-90",
+            "count": "876"
+          },
+          {
+            "item": "LGB-6",
+            "count": "869"
+          }
+        ],
+        "smallest": "-",
+        "not_null": "137562",
+        "count": "407229",
+        "cardinality": "16637"
+      }
+    },
+    {
+      "field_name": "pressure_type",
+      "display_name": "Pressure Type",
+      "data_type": "text",
+      "description": "The type of boiler: either low or high pressure.",
+      "width": 256,
+      "position": 12,
+      "cached_contents": {
+        "largest": "Low Pressure",
+        "non_null": "407208",
+        "null": "21",
+        "top": [
+          {
+            "item": "Low Pressure",
+            "count": "397195"
+          },
+          {
+            "item": "High Pressure",
+            "count": "10013"
+          }
+        ],
+        "smallest": "High Pressure",
+        "not_null": "222207",
+        "count": "407229",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "inspection_type",
+      "display_name": "Inspection Type",
+      "data_type": "text",
+      "description": "Low pressure boilers only require an external inspection. High pressure boilers require both an external and an internal inspection.\n\n\nExpected values:\n\u2022 Internal = inspection by DOB staff\n\u2022 External = inspection performed by an inspector hired by the building owner.\n",
+      "width": 280,
+      "position": 13,
+      "cached_contents": {
+        "largest": "Internal",
+        "non_null": "402059",
+        "null": "5170",
+        "top": [
+          {
+            "item": "External",
+            "count": "397285"
+          },
+          {
+            "item": "Internal",
+            "count": "4774"
+          }
+        ],
+        "smallest": "External",
+        "not_null": "217056",
+        "count": "407229",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "inspection_date",
+      "display_name": "Inspection Date",
+      "data_type": "text",
+      "description": "Date that the boiler was inspected. Date in ISO 8601 format",
+      "width": 280,
+      "position": 14,
+      "cached_contents": {
+        "largest": "12/31/2020 00:00:00",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "12/31/2018 00:00:00",
+            "count": "909"
+          },
+          {
+            "item": "12/29/2017 00:00:00",
+            "count": "893"
+          },
+          {
+            "item": "12/31/2019 00:00:00",
+            "count": "798"
+          },
+          {
+            "item": "12/28/2018 00:00:00",
+            "count": "789"
+          },
+          {
+            "item": "12/31/2020 00:00:00",
+            "count": "760"
+          },
+          {
+            "item": "12/30/2020 00:00:00",
+            "count": "729"
+          },
+          {
+            "item": "12/12/2018 00:00:00",
+            "count": "724"
+          },
+          {
+            "item": "11/01/2018 00:00:00",
+            "count": "704"
+          },
+          {
+            "item": "10/01/2020 00:00:00",
+            "count": "656"
+          },
+          {
+            "item": "12/30/2019 00:00:00",
+            "count": "651"
+          },
+          {
+            "item": "12/27/2018 00:00:00",
+            "count": "643"
+          },
+          {
+            "item": "10/14/2020 00:00:00",
+            "count": "628"
+          },
+          {
+            "item": "12/28/2020 00:00:00",
+            "count": "619"
+          },
+          {
+            "item": "12/28/2017 00:00:00",
+            "count": "617"
+          },
+          {
+            "item": "12/27/2017 00:00:00",
+            "count": "600"
+          },
+          {
+            "item": "09/23/2020 00:00:00",
+            "count": "592"
+          },
+          {
+            "item": "09/30/2020 00:00:00",
+            "count": "591"
+          },
+          {
+            "item": "09/17/2020 00:00:00",
+            "count": "583"
+          },
+          {
+            "item": "09/01/2020 00:00:00",
+            "count": "582"
+          },
+          {
+            "item": "08/01/2018 00:00:00",
+            "count": "578"
+          }
+        ],
+        "smallest": "01/01/1900 00:00:00",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "1696"
+      }
+    },
+    {
+      "field_name": "defects_exist",
+      "display_name": "Defects Exist",
+      "data_type": "text",
+      "description": "This indicates if any defects were found during the inspection. Expected values:\n\u2022 true = Defects were found\n\u2022 false = Defects were not found",
+      "width": 256,
+      "position": 15,
+      "cached_contents": {
+        "largest": "Yes",
+        "non_null": "405965",
+        "null": "1264",
+        "top": [
+          {
+            "item": "No",
+            "count": "371056"
+          },
+          {
+            "item": "Yes",
+            "count": "34909"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "221539",
+        "count": "407229",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "lff_45_days",
+      "display_name": "LFF (45 Days)",
+      "data_type": "text",
+      "description": "Inspection reports submitted to DOB after the forty-five (45) days of the annual inspection date but within twelve (12) months from the inspection date will be considered \u201clate filings\u201d and will be subject to the appropriate civil penalties.",
+      "width": 268,
+      "position": 16,
+      "cached_contents": {
+        "largest": "600",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "394331"
+          },
+          {
+            "item": "50",
+            "count": "5667"
+          },
+          {
+            "item": "100",
+            "count": "2371"
+          },
+          {
+            "item": "150",
+            "count": "1246"
+          },
+          {
+            "item": "200",
+            "count": "766"
+          },
+          {
+            "item": "250",
+            "count": "556"
+          },
+          {
+            "item": "550",
+            "count": "443"
+          },
+          {
+            "item": "300",
+            "count": "440"
+          },
+          {
+            "item": "500",
+            "count": "432"
+          },
+          {
+            "item": "350",
+            "count": "327"
+          },
+          {
+            "item": "450",
+            "count": "293"
+          },
+          {
+            "item": "400",
+            "count": "286"
+          },
+          {
+            "item": "600",
+            "count": "71"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "13"
+      }
+    },
+    {
+      "field_name": "lff_180_days",
+      "display_name": "LFF (180 Days)",
+      "data_type": "text",
+      "description": "Inspection reports submitted as Unsatisfactory (with defects) must be corrected within one hundred eighty days (180) from the initial date of inspection else the owner will be subject to the appropriate civil penalties.",
+      "width": 280,
+      "position": 17,
+      "cached_contents": {
+        "largest": "600",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "405787"
+          },
+          {
+            "item": "50",
+            "count": "451"
+          },
+          {
+            "item": "100",
+            "count": "241"
+          },
+          {
+            "item": "150",
+            "count": "216"
+          },
+          {
+            "item": "200",
+            "count": "190"
+          },
+          {
+            "item": "300",
+            "count": "112"
+          },
+          {
+            "item": "250",
+            "count": "101"
+          },
+          {
+            "item": "350",
+            "count": "52"
+          },
+          {
+            "item": "400",
+            "count": "44"
+          },
+          {
+            "item": "450",
+            "count": "15"
+          },
+          {
+            "item": "500",
+            "count": "14"
+          },
+          {
+            "item": "550",
+            "count": "4"
+          },
+          {
+            "item": "600",
+            "count": "2"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "13"
+      }
+    },
+    {
+      "field_name": "filing_fee",
+      "display_name": "Filing Fee",
+      "data_type": "text",
+      "description": "",
+      "width": 100,
+      "position": 18,
+      "cached_contents": {
+        "largest": "30",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "30",
+            "count": "373624"
+          },
+          {
+            "item": "0",
+            "count": "33597"
+          },
+          {
+            "item": "15",
+            "count": "8"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "total_amount_paid",
+      "display_name": "Total Amount Paid",
+      "data_type": "text",
+      "description": "The total amount paid for the boiler compliance filing. ",
+      "width": 328,
+      "position": 19,
+      "cached_contents": {
+        "largest": "80",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "30",
+            "count": "356318"
+          },
+          {
+            "item": "0",
+            "count": "43028"
+          },
+          {
+            "item": "80",
+            "count": "3475"
+          },
+          {
+            "item": "130",
+            "count": "1391"
+          },
+          {
+            "item": "180",
+            "count": "858"
+          },
+          {
+            "item": "230",
+            "count": "535"
+          },
+          {
+            "item": "280",
+            "count": "320"
+          },
+          {
+            "item": "330",
+            "count": "253"
+          },
+          {
+            "item": "580",
+            "count": "212"
+          },
+          {
+            "item": "530",
+            "count": "184"
+          },
+          {
+            "item": "380",
+            "count": "169"
+          },
+          {
+            "item": "430",
+            "count": "137"
+          },
+          {
+            "item": "480",
+            "count": "123"
+          },
+          {
+            "item": "50",
+            "count": "75"
+          },
+          {
+            "item": "100",
+            "count": "51"
+          },
+          {
+            "item": "630",
+            "count": "29"
+          },
+          {
+            "item": "150",
+            "count": "22"
+          },
+          {
+            "item": "200",
+            "count": "11"
+          },
+          {
+            "item": "15",
+            "count": "8"
+          },
+          {
+            "item": "400",
+            "count": "7"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "26"
+      }
+    },
+    {
+      "field_name": "report_status",
+      "display_name": "Report Status",
+      "data_type": "text",
+      "description": "Work Flow Status for the life cycle of the filing. Expected Values: Pre-Filing, QA Review, Rejected, Accepted",
+      "width": 100,
+      "position": 20,
+      "cached_contents": {
+        "largest": "Rejected - Filing Fee Due",
+        "non_null": "407229",
+        "null": "0",
+        "top": [
+          {
+            "item": "Accepted",
+            "count": "390634"
+          },
+          {
+            "item": "Accepted \u0096 Civil Penalties Due",
+            "count": "6560"
+          },
+          {
+            "item": "Pre-Filing",
+            "count": "3852"
+          },
+          {
+            "item": "Pre-filing",
+            "count": "3427"
+          },
+          {
+            "item": "Payment Verification In Progress",
+            "count": "1244"
+          },
+          {
+            "item": "Inspection Supervisor Review",
+            "count": "538"
+          },
+          {
+            "item": "Incomplete Submission",
+            "count": "367"
+          },
+          {
+            "item": "QA Review",
+            "count": "161"
+          },
+          {
+            "item": "QA Supervisor Review",
+            "count": "145"
+          },
+          {
+            "item": "Application in Progress",
+            "count": "128"
+          },
+          {
+            "item": "Rejected - Filing Fee Due",
+            "count": "76"
+          },
+          {
+            "item": "New Unregistered #",
+            "count": "31"
+          },
+          {
+            "item": "Pending Payment",
+            "count": "21"
+          },
+          {
+            "item": "No Action Necessary",
+            "count": "21"
+          },
+          {
+            "item": "QA Failed",
+            "count": "17"
+          },
+          {
+            "item": "No Access",
+            "count": "3"
+          },
+          {
+            "item": "Duplicate Rejected",
+            "count": "3"
+          },
+          {
+            "item": "Extension Granted",
+            "count": "1"
+          }
+        ],
+        "smallest": "Accepted",
+        "not_null": "222226",
+        "count": "407229",
+        "cardinality": "18"
+      }
+    },
+    {
+      "field_name": "bin_number",
+      "display_name": "Bin Number",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 21,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "5863593",
+        "non_null": "406838",
+        "average": "2606160.127035654",
+        "null": "0",
+        "top": [
+          {
+            "item": "3071219",
+            "count": "391"
+          },
+          {
+            "item": "4092120",
+            "count": "220"
+          },
+          {
+            "item": "3347532",
+            "count": "215"
+          },
+          {
+            "item": "1088437",
+            "count": "170"
+          },
+          {
+            "item": "2116700",
+            "count": "158"
+          },
+          {
+            "item": "4112321",
+            "count": "157"
+          },
+          {
+            "item": "4539231",
+            "count": "146"
+          },
+          {
+            "item": "3329403",
+            "count": "112"
+          },
+          {
+            "item": "5147163",
+            "count": "101"
+          },
+          {
+            "item": "1080776",
+            "count": "97"
+          },
+          {
+            "item": "1008455",
+            "count": "93"
+          },
+          {
+            "item": "5113197",
+            "count": "91"
+          },
+          {
+            "item": "1082174",
+            "count": "90"
+          },
+          {
+            "item": "2097050",
+            "count": "85"
+          },
+          {
+            "item": "1010398",
+            "count": "80"
+          },
+          {
+            "item": "3257059",
+            "count": "77"
+          },
+          {
+            "item": "3332517",
+            "count": "77"
+          },
+          {
+            "item": "4059726",
+            "count": "76"
+          },
+          {
+            "item": "1014497",
+            "count": "74"
+          },
+          {
+            "item": "2022204",
+            "count": "70"
+          }
+        ],
+        "smallest": "1000008",
+        "not_null": "222226",
+        "count": "406838",
+        "sum": "383757078706",
+        "cardinality": "79835"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:58.103703"
+}

@@ -1,0 +1,183 @@
+{
+  "dataset_id": "y9f2-uufh",
+  "name": "Evictions Bronx Only",
+  "description": "This dataset lists pending, scheduled and executed evictions within the five boroughs, for the year 2017 - Present.  The data fields may be sorted by Court Index Number, Docket Number, Eviction Address, Apartment Number, Executed Date, Marshal First Name, Marshal Last Name, Residential or Commercial (property type), Borough, Zip Code and Scheduled Status (Pending/Scheduled).\r\n\r\nEviction data is compiled from the majority of New York City Marshals.  Marshals are independent public officials and should be contacted directly for more information at https://www1.nyc.gov/site/doi/offices/marshals-list.page Data prior to January 1 2017 is not currently available.",
+  "agency": "Department of Investigation (DOI)",
+  "category": "City Government",
+  "tags": [
+    "evictions",
+    "doi",
+    "investigation"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Investigation (DOI)",
+  "created_at": "2022-05-17T13:20:59",
+  "updated_at": "2025-06-03T11:38:51",
+  "row_count": 1748950731,
+  "column_count": 20,
+  "download_count": 18,
+  "view_count": 1719,
+  "columns": [
+    {
+      "field_name": "court_index_number",
+      "display_name": "Court Index Number",
+      "data_type": "text",
+      "description": "Number assigned by the court that has jurisdiction over the landlord/tenant proceedings. \n",
+      "width": 316,
+      "position": 1
+    },
+    {
+      "field_name": "docket_number",
+      "display_name": "Docket Number ",
+      "data_type": "text",
+      "description": "Number assigned by the City Marshal upon case intake. \n",
+      "width": 256,
+      "position": 2
+    },
+    {
+      "field_name": "eviction_address",
+      "display_name": "Eviction Address",
+      "data_type": "text",
+      "description": "Identifies the street and building number where an eviction is pending or has been completed.\n",
+      "width": 292,
+      "position": 3
+    },
+    {
+      "field_name": "eviction_apt_num",
+      "display_name": "Eviction Apartment Number",
+      "data_type": "text",
+      "description": "Identifies the unit within the building where an eviction is pending or has been completed. \n",
+      "width": 292,
+      "position": 4
+    },
+    {
+      "field_name": "executed_date",
+      "display_name": "Executed Date",
+      "data_type": "calendar_date",
+      "description": "The date that evictions have been executed. \n",
+      "width": 256,
+      "position": 5
+    },
+    {
+      "field_name": "marshal_first_name",
+      "display_name": "Marshal First Name",
+      "data_type": "text",
+      "description": "Identifies the first name of the NYC Marshal who performed the eviction or who is scheduled to perform the eviction. \n",
+      "width": 220,
+      "position": 6
+    },
+    {
+      "field_name": "marshal_last_name",
+      "display_name": "Marshal Last Name",
+      "data_type": "text",
+      "description": "Identifies the last name of the NYC Marshal who performed the eviction or who is scheduled to perform the eviction. \n",
+      "width": 208,
+      "position": 7
+    },
+    {
+      "field_name": "residential_commercial_ind",
+      "display_name": "Residential/Commercial",
+      "data_type": "text",
+      "description": "Identifies the property type where the eviction is pending or has been completed. \n",
+      "width": 412,
+      "position": 8
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "Identifies the NYC borough where the eviction is pending or has been completed. \n",
+      "width": 184,
+      "position": 9
+    },
+    {
+      "field_name": "eviction_zip",
+      "display_name": "Eviction Postcode",
+      "data_type": "text",
+      "description": "Identifies the NYC zip code where the eviction is pending or has been completed. \n",
+      "width": 244,
+      "position": 10
+    },
+    {
+      "field_name": "ejectment",
+      "display_name": "Ejectment",
+      "data_type": "text",
+      "description": "An action in ejectment is a way for a landlord to obtain possession of a residence and may be started in either Civil or Supreme Court.",
+      "width": 100,
+      "position": 11
+    },
+    {
+      "field_name": "eviction_possession",
+      "display_name": "Eviction/Legal Possession",
+      "data_type": "text",
+      "description": "Process by which a warrant of eviction is executed.  Landlord may request an eviction whereby the tenant and his/her property are removed by a marshal, or a legal possession whereby the tenant is removed and his/her property remains under the care and control of the landlord as bailee for the tenant.",
+      "width": 100,
+      "position": 12
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "text",
+      "description": "The latitude associated with the provided entity location.",
+      "width": 100,
+      "position": 13
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "text",
+      "description": "The longitude associated with the provided entity location.",
+      "width": 100,
+      "position": 14
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "The NYC community board associated with the provided entity location.",
+      "width": 100,
+      "position": 15
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "text",
+      "description": "The NYC council district associated with the provided entity location.",
+      "width": 100,
+      "position": 16
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract",
+      "data_type": "text",
+      "description": "The US census tract associated with the provided entity location.",
+      "width": 100,
+      "position": 17
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "The Building Identification Number (BIN) associated with the provided entity location. It is formatted as a seven-digit numerical identifier, which is unique to each building in NYC.",
+      "width": 100,
+      "position": 18
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "description": "The Borough, Block, Lot (BBL) associated with the provided entity location. It is formatted as a ten-digit numerical identifier, which is unique to each parcel of real property in NYC.",
+      "width": 100,
+      "position": 19
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area (NTA) associated with the provided entity location.",
+      "width": 100,
+      "position": 20
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:24.015455"
+}

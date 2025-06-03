@@ -1,0 +1,747 @@
+{
+  "dataset_id": "i296-73x5",
+  "name": "DOB Stalled Construction Sites",
+  "description": "A list of sites across the five boroughs where a complaint was made that construction activity has come to an abrupt halt. Daily updates provide all sites where the stalled status is currently active.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "stalled construction sites",
+    "dob",
+    "buildings"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2013-04-18T15:19:09",
+  "updated_at": "2025-06-03T20:02:50",
+  "row_count": 1748980970,
+  "column_count": 8,
+  "download_count": 7144,
+  "view_count": 16822,
+  "columns": [
+    {
+      "field_name": "borough_name",
+      "display_name": "Borough Name",
+      "data_type": "text",
+      "description": "1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island",
+      "width": 104,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "Staten Island",
+        "null": "0",
+        "top": [
+          {
+            "item": "Brooklyn",
+            "count": "480294"
+          },
+          {
+            "item": "Queens",
+            "count": "426394"
+          },
+          {
+            "item": "Manhattan",
+            "count": "193483"
+          },
+          {
+            "item": "Bronx",
+            "count": "144806"
+          },
+          {
+            "item": "Staten Island",
+            "count": "127979"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "1372956",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "3-digit identifier: Borough code = first position, last 2 = community board",
+      "width": 107,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "503",
+        "null": "0",
+        "top": [
+          {
+            "item": "414",
+            "count": "169585"
+          },
+          {
+            "item": "301",
+            "count": "95767"
+          },
+          {
+            "item": "111",
+            "count": "66021"
+          },
+          {
+            "item": "501",
+            "count": "62816"
+          },
+          {
+            "item": "412",
+            "count": "59525"
+          },
+          {
+            "item": "407",
+            "count": "52344"
+          },
+          {
+            "item": "312",
+            "count": "51945"
+          },
+          {
+            "item": "306",
+            "count": "47593"
+          },
+          {
+            "item": "208",
+            "count": "46160"
+          },
+          {
+            "item": "110",
+            "count": "40990"
+          },
+          {
+            "item": "503",
+            "count": "35034"
+          },
+          {
+            "item": "303",
+            "count": "34571"
+          },
+          {
+            "item": "315",
+            "count": "33560"
+          },
+          {
+            "item": "314",
+            "count": "30729"
+          },
+          {
+            "item": "502",
+            "count": "30129"
+          },
+          {
+            "item": "302",
+            "count": "29012"
+          },
+          {
+            "item": "304",
+            "count": "25337"
+          },
+          {
+            "item": "413",
+            "count": "24735"
+          },
+          {
+            "item": "308",
+            "count": "24321"
+          },
+          {
+            "item": "205",
+            "count": "22927"
+          }
+        ],
+        "smallest": "101",
+        "count": "1372956",
+        "cardinality": "60"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Number assigned by City Planning to a specific building",
+      "width": 78,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "5863683",
+        "null": "0",
+        "top": [
+          {
+            "item": "1803052",
+            "count": "8858"
+          },
+          {
+            "item": "1090592",
+            "count": "5314"
+          },
+          {
+            "item": "3149215",
+            "count": "4803"
+          },
+          {
+            "item": "3063589",
+            "count": "4466"
+          },
+          {
+            "item": "4860604",
+            "count": "4434"
+          },
+          {
+            "item": "4861004",
+            "count": "4434"
+          },
+          {
+            "item": "4861006",
+            "count": "4434"
+          },
+          {
+            "item": "4862217",
+            "count": "4434"
+          },
+          {
+            "item": "4860605",
+            "count": "4434"
+          },
+          {
+            "item": "1057921",
+            "count": "4431"
+          },
+          {
+            "item": "3065369",
+            "count": "4431"
+          },
+          {
+            "item": "3023718",
+            "count": "4431"
+          },
+          {
+            "item": "1076762",
+            "count": "4431"
+          },
+          {
+            "item": "3124422",
+            "count": "4430"
+          },
+          {
+            "item": "2083417",
+            "count": "4430"
+          },
+          {
+            "item": "4861617",
+            "count": "4430"
+          },
+          {
+            "item": "2041826",
+            "count": "4430"
+          },
+          {
+            "item": "3069236",
+            "count": "4430"
+          },
+          {
+            "item": "2015801",
+            "count": "4430"
+          },
+          {
+            "item": "3841492",
+            "count": "4430"
+          }
+        ],
+        "smallest": "1001056",
+        "count": "1372956",
+        "cardinality": "860"
+      }
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "House Number",
+      "data_type": "text",
+      "description": "House Number of Residence or Commercial Property",
+      "width": 121,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "99-39       ",
+        "null": "0",
+        "top": [
+          {
+            "item": "103         ",
+            "count": "11587"
+          },
+          {
+            "item": "410         ",
+            "count": "10827"
+          },
+          {
+            "item": "109         ",
+            "count": "9753"
+          },
+          {
+            "item": "411         ",
+            "count": "8832"
+          },
+          {
+            "item": "1           ",
+            "count": "8697"
+          },
+          {
+            "item": "130         ",
+            "count": "8694"
+          },
+          {
+            "item": "24          ",
+            "count": "7789"
+          },
+          {
+            "item": "220         ",
+            "count": "7788"
+          },
+          {
+            "item": "178         ",
+            "count": "7788"
+          },
+          {
+            "item": "51          ",
+            "count": "7735"
+          },
+          {
+            "item": "17          ",
+            "count": "7474"
+          },
+          {
+            "item": "308         ",
+            "count": "6349"
+          },
+          {
+            "item": "174         ",
+            "count": "6327"
+          },
+          {
+            "item": "15          ",
+            "count": "6163"
+          },
+          {
+            "item": "716         ",
+            "count": "5986"
+          },
+          {
+            "item": "543         ",
+            "count": "5961"
+          },
+          {
+            "item": "166         ",
+            "count": "5663"
+          },
+          {
+            "item": "150         ",
+            "count": "5653"
+          },
+          {
+            "item": "391         ",
+            "count": "5598"
+          },
+          {
+            "item": "245         ",
+            "count": "5371"
+          }
+        ],
+        "smallest": "1",
+        "count": "1372956",
+        "cardinality": "829"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "Street Name where Property is located",
+      "width": 168,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "WYTHE AVENUE                    ",
+        "null": "0",
+        "top": [
+          {
+            "item": "SEAGIRT AVENUE                  ",
+            "count": "66187"
+          },
+          {
+            "item": "SEAGIRT BOULEVARD               ",
+            "count": "27257"
+          },
+          {
+            "item": "BEACH CHANNEL DRIVE             ",
+            "count": "23777"
+          },
+          {
+            "item": "EAST 115 STREET                 ",
+            "count": "16689"
+          },
+          {
+            "item": "BARBADOES DRIVE                 ",
+            "count": "15180"
+          },
+          {
+            "item": "PEROT STREET                    ",
+            "count": "15127"
+          },
+          {
+            "item": "WEST 138 STREET                 ",
+            "count": "11682"
+          },
+          {
+            "item": "VAN DUZER STREET                ",
+            "count": "11680"
+          },
+          {
+            "item": "BUEL AVENUE                     ",
+            "count": "11679"
+          },
+          {
+            "item": "155 STREET                      ",
+            "count": "11288"
+          },
+          {
+            "item": "FULTON STREET                   ",
+            "count": "10069"
+          },
+          {
+            "item": "CLASSON AVENUE                  ",
+            "count": "9172"
+          },
+          {
+            "item": "SEAGIRT AVENUE",
+            "count": "9101"
+          },
+          {
+            "item": "CAMBRIDGE AVENUE                ",
+            "count": "7790"
+          },
+          {
+            "item": "HESTER STREET                   ",
+            "count": "7789"
+          },
+          {
+            "item": "2 AVENUE                        ",
+            "count": "7788"
+          },
+          {
+            "item": "STRATFORD ROAD                  ",
+            "count": "7788"
+          },
+          {
+            "item": "224 STREET                      ",
+            "count": "7786"
+          },
+          {
+            "item": " 123 STREET                     ",
+            "count": "7786"
+          },
+          {
+            "item": "BUTLER PLACE                    ",
+            "count": "7786"
+          }
+        ],
+        "smallest": "100 STREET",
+        "count": "1372956",
+        "cardinality": "681"
+      }
+    },
+    {
+      "field_name": "complaint_number",
+      "display_name": "Complaint Number",
+      "data_type": "text",
+      "description": "Complaint number starting with borough code: (1= Manhattan, 2= Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island)",
+      "width": 139,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "5141917",
+        "null": "0",
+        "top": [
+          {
+            "item": "4506914",
+            "count": "4434"
+          },
+          {
+            "item": "4507279",
+            "count": "4434"
+          },
+          {
+            "item": "4506907",
+            "count": "4434"
+          },
+          {
+            "item": "4507278",
+            "count": "4434"
+          },
+          {
+            "item": "4506906",
+            "count": "4434"
+          },
+          {
+            "item": "1319249",
+            "count": "4432"
+          },
+          {
+            "item": "3302042",
+            "count": "4431"
+          },
+          {
+            "item": "1252823",
+            "count": "4431"
+          },
+          {
+            "item": "1252845",
+            "count": "4431"
+          },
+          {
+            "item": "2129394",
+            "count": "4431"
+          },
+          {
+            "item": "3300231",
+            "count": "4431"
+          },
+          {
+            "item": "3325183",
+            "count": "4430"
+          },
+          {
+            "item": "3333044",
+            "count": "4430"
+          },
+          {
+            "item": "2131028",
+            "count": "4430"
+          },
+          {
+            "item": "2178436",
+            "count": "4430"
+          },
+          {
+            "item": "1282894",
+            "count": "4430"
+          },
+          {
+            "item": "1283488",
+            "count": "4430"
+          },
+          {
+            "item": "3311868",
+            "count": "4430"
+          },
+          {
+            "item": "1252775",
+            "count": "4430"
+          },
+          {
+            "item": "3358959",
+            "count": "4430"
+          }
+        ],
+        "smallest": "1252597",
+        "count": "1372956",
+        "cardinality": "787"
+      }
+    },
+    {
+      "field_name": "date_complaint_received",
+      "display_name": "Date Complaint Received",
+      "data_type": "calendar_date",
+      "description": "Date Complaint Received",
+      "width": 175,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "2024-12-23T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2012-02-09T00:00:00.000",
+            "count": "93192"
+          },
+          {
+            "item": "2009-04-02T00:00:00.000",
+            "count": "78506"
+          },
+          {
+            "item": "2012-04-30T00:00:00.000",
+            "count": "57936"
+          },
+          {
+            "item": "2013-08-29T00:00:00.000",
+            "count": "54366"
+          },
+          {
+            "item": "2009-06-02T00:00:00.000",
+            "count": "52522"
+          },
+          {
+            "item": "2012-02-27T00:00:00.000",
+            "count": "47826"
+          },
+          {
+            "item": "2012-03-21T00:00:00.000",
+            "count": "45129"
+          },
+          {
+            "item": "2009-06-16T00:00:00.000",
+            "count": "40393"
+          },
+          {
+            "item": "2012-02-14T00:00:00.000",
+            "count": "31008"
+          },
+          {
+            "item": "2009-06-03T00:00:00.000",
+            "count": "29065"
+          },
+          {
+            "item": "2013-06-25T00:00:00.000",
+            "count": "23932"
+          },
+          {
+            "item": "2009-06-17T00:00:00.000",
+            "count": "22774"
+          },
+          {
+            "item": "2010-04-20T00:00:00.000",
+            "count": "17712"
+          },
+          {
+            "item": "2013-07-02T00:00:00.000",
+            "count": "17242"
+          },
+          {
+            "item": "2009-09-16T00:00:00.000",
+            "count": "16615"
+          },
+          {
+            "item": "2009-07-14T00:00:00.000",
+            "count": "16010"
+          },
+          {
+            "item": "2009-05-29T00:00:00.000",
+            "count": "14130"
+          },
+          {
+            "item": "2010-08-02T00:00:00.000",
+            "count": "13297"
+          },
+          {
+            "item": "2010-02-23T00:00:00.000",
+            "count": "13285"
+          },
+          {
+            "item": "2010-01-19T00:00:00.000",
+            "count": "13285"
+          }
+        ],
+        "smallest": "2009-03-31T00:00:00.000",
+        "count": "1372956",
+        "cardinality": "309"
+      }
+    },
+    {
+      "field_name": "dobrundate",
+      "display_name": "DOBRunDate",
+      "data_type": "calendar_date",
+      "description": "Date when query is run and pushed to Open Data. Could be used to differentiate report dates.",
+      "width": 169,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "1372956",
+        "largest": "2025-06-02T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2024-06-17T00:00:00.000",
+            "count": "1421"
+          },
+          {
+            "item": "2024-06-11T00:00:00.000",
+            "count": "1218"
+          },
+          {
+            "item": "2024-06-18T00:00:00.000",
+            "count": "1218"
+          },
+          {
+            "item": "2022-09-05T00:00:00.000",
+            "count": "1176"
+          },
+          {
+            "item": "2022-08-30T00:00:00.000",
+            "count": "1176"
+          },
+          {
+            "item": "2020-02-05T00:00:00.000",
+            "count": "1130"
+          },
+          {
+            "item": "2014-05-20T00:00:00.000",
+            "count": "1100"
+          },
+          {
+            "item": "2024-06-19T00:00:00.000",
+            "count": "1015"
+          },
+          {
+            "item": "2024-06-12T00:00:00.000",
+            "count": "1015"
+          },
+          {
+            "item": "2014-11-21T00:00:00.000",
+            "count": "1002"
+          },
+          {
+            "item": "2022-09-06T00:00:00.000",
+            "count": "980"
+          },
+          {
+            "item": "2022-08-31T00:00:00.000",
+            "count": "980"
+          },
+          {
+            "item": "2015-03-16T00:00:00.000",
+            "count": "966"
+          },
+          {
+            "item": "2015-05-19T00:00:00.000",
+            "count": "950"
+          },
+          {
+            "item": "2020-02-06T00:00:00.000",
+            "count": "904"
+          },
+          {
+            "item": "2015-10-16T00:00:00.000",
+            "count": "886"
+          },
+          {
+            "item": "2015-12-21T00:00:00.000",
+            "count": "848"
+          },
+          {
+            "item": "2015-12-11T00:00:00.000",
+            "count": "818"
+          },
+          {
+            "item": "2024-06-20T00:00:00.000",
+            "count": "812"
+          },
+          {
+            "item": "2022-09-01T00:00:00.000",
+            "count": "784"
+          }
+        ],
+        "smallest": "2013-04-26T00:00:00.000",
+        "count": "1372956",
+        "cardinality": "4322"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:57.911740"
+}

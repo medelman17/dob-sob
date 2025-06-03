@@ -1,0 +1,35 @@
+{
+  "dataset_id": "r7gy-si9h",
+  "name": "DCA Mediated Complaints",
+  "description": "This data set features consumer complaints against businesses that were mediated by the DCA Consumer Services Division during the last and current calendar years. It excludes complaints that may have ongoing legal investigations.",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "complaints",
+    "mediation",
+    "outcomes",
+    "city government",
+    "business",
+    "dca",
+    "department of consumer affairs"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2016-07-26T14:57:06",
+  "updated_at": "2025-06-02T12:45:28",
+  "row_count": 1748868328,
+  "column_count": 1,
+  "download_count": 258,
+  "view_count": 673,
+  "columns": [
+    {
+      "field_name": "business_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "Name of the business against which a complaint has been made.",
+      "width": 304,
+      "position": 1
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.806789"
+}

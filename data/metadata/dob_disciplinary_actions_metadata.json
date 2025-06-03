@@ -1,0 +1,706 @@
+{
+  "dataset_id": "ndq3-kuef",
+  "name": "DOB Disciplinary Actions",
+  "description": "The Department of Buildings investigates and takes disciplinary action against construction professionals when their conduct violates standards set forth in the New York City Construction Codes. Actions may be taken against individuals who are accused of abusing filing privileges; violating laws, rules, and regulations; performing work that requires a license or registration without a license or registration.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "license",
+    "discipline",
+    "surrender",
+    "revoke",
+    "suspension",
+    "dob",
+    "actions"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2020-05-07T14:58:43",
+  "updated_at": "2025-05-16T19:38:16",
+  "row_count": 1747424296,
+  "column_count": 7,
+  "download_count": 3513,
+  "view_count": 2939,
+  "columns": [
+    {
+      "field_name": "year",
+      "display_name": "YEAR",
+      "data_type": "text",
+      "description": "The year that the disciplinary action ocurred.",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "2764",
+        "largest": "2025",
+        "null": "0",
+        "top": [
+          {
+            "item": "2002",
+            "count": "170"
+          },
+          {
+            "item": "1999",
+            "count": "165"
+          },
+          {
+            "item": "2018",
+            "count": "161"
+          },
+          {
+            "item": "2009",
+            "count": "151"
+          },
+          {
+            "item": "2010",
+            "count": "145"
+          },
+          {
+            "item": "2017",
+            "count": "125"
+          },
+          {
+            "item": "2011",
+            "count": "123"
+          },
+          {
+            "item": "2008",
+            "count": "120"
+          },
+          {
+            "item": "2004",
+            "count": "120"
+          },
+          {
+            "item": "2003",
+            "count": "119"
+          },
+          {
+            "item": "2000",
+            "count": "107"
+          },
+          {
+            "item": "1998",
+            "count": "101"
+          },
+          {
+            "item": "2019",
+            "count": "94"
+          },
+          {
+            "item": "2023",
+            "count": "90"
+          },
+          {
+            "item": "2012",
+            "count": "86"
+          },
+          {
+            "item": "2001",
+            "count": "85"
+          },
+          {
+            "item": "2007",
+            "count": "81"
+          },
+          {
+            "item": "2015",
+            "count": "81"
+          },
+          {
+            "item": "2014",
+            "count": "80"
+          },
+          {
+            "item": "2013",
+            "count": "79"
+          }
+        ],
+        "smallest": "1998",
+        "count": "2764",
+        "cardinality": "28"
+      }
+    },
+    {
+      "field_name": "date",
+      "display_name": "DATE",
+      "data_type": "text",
+      "description": "The date that the disciplinary action ocurred..",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "720",
+        "largest": "9/29/2017-10/11/17",
+        "null": "2044",
+        "top": [
+          {
+            "item": "05/22/18",
+            "count": "7"
+          },
+          {
+            "item": "04/26/18",
+            "count": "7"
+          },
+          {
+            "item": "12/17/21",
+            "count": "4"
+          },
+          {
+            "item": "03/31/17",
+            "count": "4"
+          },
+          {
+            "item": "10/01/19",
+            "count": "4"
+          },
+          {
+            "item": "01/22/25",
+            "count": "4"
+          },
+          {
+            "item": "06/25/24",
+            "count": "4"
+          },
+          {
+            "item": "03/09/20",
+            "count": "4"
+          },
+          {
+            "item": "02/12/24",
+            "count": "4"
+          },
+          {
+            "item": "11/01/19",
+            "count": "4"
+          },
+          {
+            "item": "10/15/20",
+            "count": "4"
+          },
+          {
+            "item": "06/01/19",
+            "count": "4"
+          },
+          {
+            "item": "06/21/18",
+            "count": "3"
+          },
+          {
+            "item": "11/16/17",
+            "count": "3"
+          },
+          {
+            "item": "12/28/09",
+            "count": "3"
+          },
+          {
+            "item": "05/12/22",
+            "count": "3"
+          },
+          {
+            "item": "06/27/18",
+            "count": "3"
+          },
+          {
+            "item": "08/10/22",
+            "count": "3"
+          },
+          {
+            "item": "11/01/17",
+            "count": "3"
+          },
+          {
+            "item": "06/04/18",
+            "count": "3"
+          }
+        ],
+        "smallest": "01/01/20",
+        "count": "2764",
+        "cardinality": "561"
+      }
+    },
+    {
+      "field_name": "license_type",
+      "display_name": "LICENSE_TYPE",
+      "data_type": "text",
+      "description": "The specific type of license that was affected.",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "2764",
+        "largest": "Welder",
+        "null": "0",
+        "top": [
+          {
+            "item": "Unlicensed Plumber",
+            "count": "533"
+          },
+          {
+            "item": "Licensed Master Plumber",
+            "count": "330"
+          },
+          {
+            "item": "Licensed Electrician",
+            "count": "291"
+          },
+          {
+            "item": "Unlicensed Electrician",
+            "count": "270"
+          },
+          {
+            "item": "Professional Engineer",
+            "count": "259"
+          },
+          {
+            "item": "Registered Architect",
+            "count": "245"
+          },
+          {
+            "item": "Filing Representative",
+            "count": "153"
+          },
+          {
+            "item": "Construction Superintendent",
+            "count": "75"
+          },
+          {
+            "item": "General Contractor",
+            "count": "72"
+          },
+          {
+            "item": "Master Fire Suppression Piping Contractor",
+            "count": "52"
+          },
+          {
+            "item": "Unlicensed",
+            "count": "49"
+          },
+          {
+            "item": "Special Rigger",
+            "count": "46"
+          },
+          {
+            "item": "Elevator",
+            "count": "38"
+          },
+          {
+            "item": "Unlicensed Electrical",
+            "count": "29"
+          },
+          {
+            "item": "Hoist Mach. Operator",
+            "count": "27"
+          },
+          {
+            "item": "Site Safety Manager",
+            "count": "27"
+          },
+          {
+            "item": "Oil Burner Installer",
+            "count": "23"
+          },
+          {
+            "item": "Unlicensed Sign Hanger",
+            "count": "21"
+          },
+          {
+            "item": "Unlicensed Plumbing",
+            "count": "20"
+          },
+          {
+            "item": "Elevator Director",
+            "count": "20"
+          }
+        ],
+        "smallest": "?",
+        "count": "2764",
+        "cardinality": "80"
+      }
+    },
+    {
+      "field_name": "license_no",
+      "display_name": "LICENSE_NO",
+      "data_type": "text",
+      "description": "The number of the license that was affected.",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "2615",
+        "largest": "XP #X3976",
+        "null": "149",
+        "top": [
+          {
+            "item": "?",
+            "count": "918"
+          },
+          {
+            "item": "#165001",
+            "count": "4"
+          },
+          {
+            "item": "MP #1671",
+            "count": "3"
+          },
+          {
+            "item": "#10967",
+            "count": "3"
+          },
+          {
+            "item": "#067964",
+            "count": "3"
+          },
+          {
+            "item": "#418001",
+            "count": "3"
+          },
+          {
+            "item": "#071962",
+            "count": "2"
+          },
+          {
+            "item": "#023019",
+            "count": "2"
+          },
+          {
+            "item": "#069553",
+            "count": "2"
+          },
+          {
+            "item": "#10731",
+            "count": "2"
+          },
+          {
+            "item": "MP #1809",
+            "count": "2"
+          },
+          {
+            "item": "#367001",
+            "count": "2"
+          },
+          {
+            "item": "#485004",
+            "count": "2"
+          },
+          {
+            "item": "#171",
+            "count": "2"
+          },
+          {
+            "item": "MP #2119",
+            "count": "2"
+          },
+          {
+            "item": "#5544B",
+            "count": "2"
+          },
+          {
+            "item": "#38992",
+            "count": "2"
+          },
+          {
+            "item": "#071297",
+            "count": "2"
+          },
+          {
+            "item": "#017578",
+            "count": "2"
+          },
+          {
+            "item": "#26566",
+            "count": "2"
+          }
+        ],
+        "smallest": "?",
+        "count": "2764",
+        "cardinality": "1578"
+      }
+    },
+    {
+      "field_name": "name",
+      "display_name": "NAME",
+      "data_type": "text",
+      "description": "The name of the person involved.",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "2747",
+        "largest": "Zuigzda, George",
+        "null": "17",
+        "top": [
+          {
+            "item": "?",
+            "count": "6"
+          },
+          {
+            "item": "Syed, Tahseen",
+            "count": "5"
+          },
+          {
+            "item": "DEPENDABLE MECHANICAL CORP",
+            "count": "5"
+          },
+          {
+            "item": "Cappelli, John",
+            "count": "4"
+          },
+          {
+            "item": "Marullo, Salvatore",
+            "count": "4"
+          },
+          {
+            "item": "Kuljanic, Eugene",
+            "count": "4"
+          },
+          {
+            "item": "SAULA NYC GENERAL CONSTRUCTION CORP",
+            "count": "4"
+          },
+          {
+            "item": "Buono, Valentino",
+            "count": "4"
+          },
+          {
+            "item": "Wasoff, Marvin",
+            "count": "4"
+          },
+          {
+            "item": "Hussain, Mohammed",
+            "count": "4"
+          },
+          {
+            "item": "Brzoza, Michael",
+            "count": "4"
+          },
+          {
+            "item": "Harvey, William",
+            "count": "4"
+          },
+          {
+            "item": "Fazal, Hassan",
+            "count": "4"
+          },
+          {
+            "item": "Grand, William",
+            "count": "4"
+          },
+          {
+            "item": "Hart, Kenneth",
+            "count": "4"
+          },
+          {
+            "item": "Drummond, Lloyd G.",
+            "count": "4"
+          },
+          {
+            "item": "Rapetti, William",
+            "count": "4"
+          },
+          {
+            "item": "Termine, Carl",
+            "count": "3"
+          },
+          {
+            "item": "Baptiste, Michael",
+            "count": "3"
+          },
+          {
+            "item": "Johnson, Warren",
+            "count": "3"
+          }
+        ],
+        "smallest": "?",
+        "count": "2764",
+        "cardinality": "2386"
+      }
+    },
+    {
+      "field_name": "company",
+      "display_name": "COMPANY",
+      "data_type": "text",
+      "description": "The company that the person involved works for.",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "2705",
+        "largest": "Zygmunt Skoczek",
+        "null": "59",
+        "top": [
+          {
+            "item": "?",
+            "count": "941"
+          },
+          {
+            "item": "Broad Trade",
+            "count": "9"
+          },
+          {
+            "item": "DEPENDABLE MECHANICAL CORP",
+            "count": "5"
+          },
+          {
+            "item": "Stivan Plbg & Htg Inc",
+            "count": "4"
+          },
+          {
+            "item": "Lloyd G. Drummond Plumbing & General Contracting Inc.",
+            "count": "4"
+          },
+          {
+            "item": "Montero Signs",
+            "count": "4"
+          },
+          {
+            "item": "MPI Plumbing Corp.; Precision Plumbing Services, Inc.; Hydro Tech Mechanical Corp.",
+            "count": "4"
+          },
+          {
+            "item": "SAULA NYC GENERAL CONSTRUCTION CORP",
+            "count": "4"
+          },
+          {
+            "item": "Ideal Builders and Construction",
+            "count": "4"
+          },
+          {
+            "item": "Pioneer General Construction Co LLC",
+            "count": "3"
+          },
+          {
+            "item": "Sasco Builders Inc.",
+            "count": "3"
+          },
+          {
+            "item": "Shob & Shom Construction Inc.",
+            "count": "3"
+          },
+          {
+            "item": "Woodhaven PLBG & HTG Corp.",
+            "count": "3"
+          },
+          {
+            "item": "Eurostruct Inc.",
+            "count": "3"
+          },
+          {
+            "item": "Laser Electrical Contracting Inc.",
+            "count": "3"
+          },
+          {
+            "item": "PM Tech",
+            "count": "3"
+          },
+          {
+            "item": "EEL Electric, LLC",
+            "count": "3"
+          },
+          {
+            "item": "Sha Home Improvements Inc.",
+            "count": "3"
+          },
+          {
+            "item": "Gezim Muca",
+            "count": "2"
+          },
+          {
+            "item": "M. EMERSON CONSTRUCTION LLC",
+            "count": "2"
+          }
+        ],
+        "smallest": "?",
+        "count": "2764",
+        "cardinality": "1565"
+      }
+    },
+    {
+      "field_name": "disposition",
+      "display_name": "DISPOSITION",
+      "data_type": "text",
+      "description": "The action that was taken.",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "2764",
+        "largest": "Written reprimand and 1 year probation.",
+        "null": "0",
+        "top": [
+          {
+            "item": "Fine.",
+            "count": "915"
+          },
+          {
+            "item": "Fined.",
+            "count": "173"
+          },
+          {
+            "item": "Fine and 1 year probation.",
+            "count": "42"
+          },
+          {
+            "item": "Voluntary surrendered.",
+            "count": "37"
+          },
+          {
+            "item": "Voluntary surrender of Professional Certification and Directive 14 privileges.",
+            "count": "36"
+          },
+          {
+            "item": "Voluntary surrender.",
+            "count": "31"
+          },
+          {
+            "item": "Surrendered License.",
+            "count": "31"
+          },
+          {
+            "item": "Voluntary Surrender of Professional Certification and Directive 14 privileges.",
+            "count": "27"
+          },
+          {
+            "item": "Surrendered license.",
+            "count": "25"
+          },
+          {
+            "item": "Warning Letter.",
+            "count": "25"
+          },
+          {
+            "item": "Warrant.",
+            "count": "23"
+          },
+          {
+            "item": "Voluntarily Surrendered Registration.",
+            "count": "20"
+          },
+          {
+            "item": "Fined and one year probation.",
+            "count": "20"
+          },
+          {
+            "item": "Fine and 2 year probation.",
+            "count": "20"
+          },
+          {
+            "item": "Voluntary Surrendered.",
+            "count": "20"
+          },
+          {
+            "item": "Fined and One Year Probation.",
+            "count": "19"
+          },
+          {
+            "item": "Fine and 1-year probation.",
+            "count": "16"
+          },
+          {
+            "item": "ACD.",
+            "count": "15"
+          },
+          {
+            "item": "Revoked.",
+            "count": "14"
+          },
+          {
+            "item": "Voluntary surrender D-14 and Self-Cert privileges.",
+            "count": "13"
+          }
+        ],
+        "smallest": "?",
+        "count": "2764",
+        "cardinality": "851"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:59.088244"
+}

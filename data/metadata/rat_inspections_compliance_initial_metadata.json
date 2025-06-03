@@ -1,0 +1,137 @@
+{
+  "dataset_id": "f5ae-su76",
+  "name": "rat_inspections_compliance+initial",
+  "description": "Dataset contains information on rat inspections.\r\n\r\nRat Information Portal Data Release Notes        April 20, 2015\r\n\r\nThe Rat Information Portal (RIP) is a web-based mapping application where users can view rat inspection data. \r\n\r\nData sources: NYC Department of Health and Mental Hygiene (DOHMH), Division of Environmental Health Pest Control Database\r\n\r\nNotes on data limitations: Please note that if a property/taxlot does not appear in the file, that does not indicate an absence of rats - rather just that it has not been inspected. Similarly, neighborhoods with higher rates of active rat signs may not actually have higher rat populations but simply have more inspections. \r\n\r\nSee our Data Disclaimer:\r\nhttp://www.nyc.gov/html/doh/html/environmental/disclaimer.shtml",
+  "agency": "Department of Health and Mental Hygiene (DOHMH)",
+  "category": "Health",
+  "tags": [
+    "rodent",
+    "inspection",
+    "health",
+    "dohmh"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Health and Mental Hygiene (DOHMH)",
+  "created_at": "2017-12-06T11:11:18",
+  "updated_at": "2025-06-03T09:57:08",
+  "row_count": 1748944628,
+  "column_count": 13,
+  "download_count": 3,
+  "view_count": 398,
+  "columns": [
+    {
+      "field_name": "inspection_type",
+      "display_name": "INSPECTION_TYPE",
+      "data_type": "text",
+      "description": "\"In conjunction with the JOBTICKETORWORKORDERID, uniquely identifies records in the dataset.\nInitial Inspection - Inspection conducted in response to a 311 complaint, or a proactive inspection conducted through our neighborhood indexing program.\nCompliance Inspection - If a property fails its initial inspection, the Health Department will conduct a follow up (Compliance) inspection.\nBaiting - Application of rodenticide, or monitoring visit by a Health Department Pest Control Professional.\nClean Up - The removal of garbage and clutter from a property by the Health Department.\nInitial Inspection - Inspection conducted in response to a 311 complaint, or a proactive inspection conducted through our neighborhood indexing program.\nCompliance Inspection - If a property fails its initial inspection, the Health Department will conduct a follow up (Compliance) inspection.\nBaiting - Application of rodenticide, or monitoring visit by a Health Department Pest Control Professional.\nClean Up - The removal of garbage and clutter from a property by the Health Department.\"\n",
+      "width": 150,
+      "position": 1
+    },
+    {
+      "field_name": "job_progress",
+      "display_name": "JOB_PROGRESS",
+      "data_type": "number",
+      "description": "An indicator of the progress made in the job. Jobs may involve multiple inspections or other actions, and the progress indicator shows the order in which they took place.\n",
+      "format": "standard",
+      "width": 159,
+      "position": 2,
+      "default_value": "true"
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "HOUSE_NUMBER",
+      "data_type": "text",
+      "description": "The address number of a building on the taxlot that was inspected\n",
+      "width": 169,
+      "position": 3
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET_NAME",
+      "data_type": "text",
+      "description": "The street name portion of the address of the taxlot that was inspected\n",
+      "width": 232,
+      "position": 4
+    },
+    {
+      "field_name": "zip_code",
+      "display_name": "ZIP_CODE",
+      "data_type": "text",
+      "description": "The postal zipcode of the taxlot that was inspected\n",
+      "width": 139,
+      "position": 5
+    },
+    {
+      "field_name": "x_coord",
+      "display_name": "X_COORD",
+      "data_type": "number",
+      "description": "X coordinate of the inspected taxlot in NY State Plane Long Island Coordinate system\n",
+      "format": "standard",
+      "width": 138,
+      "position": 6,
+      "default_value": "true"
+    },
+    {
+      "field_name": "y_coord",
+      "display_name": "Y_COORD",
+      "data_type": "number",
+      "description": "Y coordinate of the inspected taxlot in NY State Plane Long Island Coordinate system\n",
+      "format": "standard",
+      "width": 144,
+      "position": 7,
+      "default_value": "true"
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "number",
+      "description": "Latitude in decimal degrees  of the inspected taxlot (WGS 1984)\n",
+      "format": "standard",
+      "width": 157,
+      "position": 8,
+      "default_value": "true"
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "number",
+      "description": "Longitude in decimal degrees  of the inspected taxlot (WGS 1984)\n",
+      "format": "standard",
+      "width": 166,
+      "position": 9,
+      "default_value": "true"
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "The name of the NYC borough\n",
+      "width": 135,
+      "position": 10
+    },
+    {
+      "field_name": "inspection_date",
+      "display_name": "INSPECTION_DATE",
+      "data_type": "calendar_date",
+      "description": "Date of the inspection.\n",
+      "width": 200,
+      "position": 11
+    },
+    {
+      "field_name": "result",
+      "display_name": "RESULT",
+      "data_type": "text",
+      "description": "Result of the inspection, including:\nActive Rat Signs (ARS) - ARS include any of six different signs: 1) fresh tracks, 2) fresh droppings, 3) active burrows, 4) active runways and rub marks, 5) fresh gnawing marks, and 6) live rats.\nProblem Conditions - Problem conditions include garbage (poor containerization of food waste resulting in the feeding of rats), harborage (clutter and dense vegetation promoting the nesting of rats), and mice.\n",
+      "width": 172,
+      "position": 12
+    },
+    {
+      "field_name": "location",
+      "display_name": "LOCATION",
+      "data_type": "point",
+      "width": 196,
+      "position": 13
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:24.260078"
+}

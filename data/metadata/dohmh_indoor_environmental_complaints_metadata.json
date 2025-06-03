@@ -1,0 +1,1676 @@
+{
+  "dataset_id": "9jgj-bmct",
+  "name": "DOHMH Indoor Environmental Complaints",
+  "description": "Indoor Environmental Complaints \r\n\r\nThis data is largely received via complaints to 311; Each record represents a single complaint; This data can be used to help determine if the DOHMH has received an environmental complaint from a particular address; The listing of a particular address does not indicate that a condition or violation was found, only that a complaint was made to DOHMH",
+  "agency": "Department of Health and Mental Hygiene",
+  "category": "Health",
+  "tags": [],
+  "update_frequency": "0",
+  "attribution": "Department of Health and Mental Hygiene",
+  "created_at": "2018-01-24T21:17:57",
+  "updated_at": "2025-06-03T13:56:07",
+  "row_count": 1748958967,
+  "column_count": 19,
+  "download_count": 5711,
+  "view_count": 17898,
+  "columns": [
+    {
+      "field_name": "complaint_number",
+      "display_name": "Complaint_Number",
+      "data_type": "text",
+      "description": "unique complaint number that is automatically assigned.  \n",
+      "width": 133,
+      "position": 1,
+      "cached_contents": {
+        "largest": "T-21-12-19-0357",
+        "non_null": "69010",
+        "null": "0",
+        "top": [
+          {
+            "item": "T-10-07-01-0002",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0003",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0004",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0005",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0006",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0007",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0008",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0009",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0010",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0011",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0012",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0013",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0014",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0015",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0016",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0017",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0018",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0019",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0020",
+            "count": "1"
+          },
+          {
+            "item": "T-10-07-01-0021",
+            "count": "1"
+          }
+        ],
+        "smallest": "T-10-07-01-0001",
+        "not_null": "55522",
+        "count": "69010",
+        "cardinality": "69010"
+      }
+    },
+    {
+      "field_name": "incident_address",
+      "display_name": "Incident_Address_Street_Number",
+      "data_type": "text",
+      "description": "address number where the condition was reported\n",
+      "width": 130,
+      "position": 2,
+      "cached_contents": {
+        "largest": "z",
+        "non_null": "68603",
+        "null": "407",
+        "top": [
+          {
+            "item": "677",
+            "count": "577"
+          },
+          {
+            "item": "30",
+            "count": "569"
+          },
+          {
+            "item": "66-06",
+            "count": "537"
+          },
+          {
+            "item": "541",
+            "count": "526"
+          },
+          {
+            "item": "145",
+            "count": "494"
+          },
+          {
+            "item": "68",
+            "count": "432"
+          },
+          {
+            "item": "345",
+            "count": "359"
+          },
+          {
+            "item": "301",
+            "count": "355"
+          },
+          {
+            "item": "1",
+            "count": "307"
+          },
+          {
+            "item": "400",
+            "count": "275"
+          },
+          {
+            "item": "200",
+            "count": "270"
+          },
+          {
+            "item": "100",
+            "count": "252"
+          },
+          {
+            "item": "315",
+            "count": "252"
+          },
+          {
+            "item": "120",
+            "count": "235"
+          },
+          {
+            "item": "50",
+            "count": "231"
+          },
+          {
+            "item": "32",
+            "count": "221"
+          },
+          {
+            "item": "25",
+            "count": "219"
+          },
+          {
+            "item": "250",
+            "count": "215"
+          },
+          {
+            "item": "160",
+            "count": "214"
+          },
+          {
+            "item": "225",
+            "count": "210"
+          }
+        ],
+        "smallest": "-",
+        "not_null": "55170",
+        "count": "69010",
+        "cardinality": "8810"
+      }
+    },
+    {
+      "field_name": "incident_address_1",
+      "display_name": "Incident_Address_Street_Name",
+      "data_type": "text",
+      "description": "street name where the condition was reported\n",
+      "width": 172,
+      "position": 3,
+      "cached_contents": {
+        "largest": "ZULETTE AVENUE",
+        "non_null": "68720",
+        "null": "290",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "819"
+          },
+          {
+            "item": "LEVERETT AVENUE",
+            "count": "581"
+          },
+          {
+            "item": "70 STREET",
+            "count": "570"
+          },
+          {
+            "item": "WEST 142 STREET",
+            "count": "527"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "460"
+          },
+          {
+            "item": "EAST 23 STREET",
+            "count": "442"
+          },
+          {
+            "item": "THAYER STREET",
+            "count": "424"
+          },
+          {
+            "item": "DANIEL LOW TERRACE",
+            "count": "371"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "364"
+          },
+          {
+            "item": "OCEAN AVENUE",
+            "count": "328"
+          },
+          {
+            "item": "GRAND CONCOURSE",
+            "count": "318"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "308"
+          },
+          {
+            "item": "2 AVENUE",
+            "count": "305"
+          },
+          {
+            "item": "OCEAN PARKWAY",
+            "count": "303"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "299"
+          },
+          {
+            "item": "WEST END AVENUE",
+            "count": "279"
+          },
+          {
+            "item": "WEST 86 STREET",
+            "count": "263"
+          },
+          {
+            "item": "1 AVENUE",
+            "count": "260"
+          },
+          {
+            "item": "ARDEN STREET",
+            "count": "245"
+          },
+          {
+            "item": "NOSTRAND AVENUE",
+            "count": "240"
+          }
+        ],
+        "smallest": "-",
+        "not_null": "55235",
+        "count": "69010",
+        "cardinality": "6275"
+      }
+    },
+    {
+      "field_name": "incident_address_2",
+      "display_name": "Incident_Address",
+      "data_type": "text",
+      "description": "address number and street name where the condition was reported\n",
+      "width": 201,
+      "position": 4,
+      "cached_contents": {
+        "largest": "z z",
+        "non_null": "68720",
+        "null": "290",
+        "top": [
+          {
+            "item": "677 LEVERETT AVENUE",
+            "count": "566"
+          },
+          {
+            "item": "66-06 70 STREET",
+            "count": "537"
+          },
+          {
+            "item": "541 WEST 142 STREET",
+            "count": "496"
+          },
+          {
+            "item": "68 THAYER STREET",
+            "count": "398"
+          },
+          {
+            "item": "145 EAST 23 STREET",
+            "count": "379"
+          },
+          {
+            "item": "30 DANIEL LOW TERRACE",
+            "count": "358"
+          },
+          {
+            "item": "345 WEST 86 STREET",
+            "count": "205"
+          },
+          {
+            "item": "301 HUMBOLDT STREET",
+            "count": "196"
+          },
+          {
+            "item": "32 ARDEN STREET",
+            "count": "172"
+          },
+          {
+            "item": "556 82 STREET",
+            "count": "109"
+          },
+          {
+            "item": "21-06 23 AVENUE",
+            "count": "97"
+          },
+          {
+            "item": "1406 NEW YORK AVENUE",
+            "count": "86"
+          },
+          {
+            "item": "80-04 AUSTIN STREET",
+            "count": "84"
+          },
+          {
+            "item": "1314 MERRIAM AVENUE",
+            "count": "82"
+          },
+          {
+            "item": "400 HERKIMER STREET",
+            "count": "81"
+          },
+          {
+            "item": "327 HOWARD AVENUE",
+            "count": "78"
+          },
+          {
+            "item": "140-11 SPRINGFIELD BOULEVARD",
+            "count": "70"
+          },
+          {
+            "item": "135 ELDRIDGE STREET",
+            "count": "66"
+          },
+          {
+            "item": "1501 OCEAN PARKWAY",
+            "count": "66"
+          },
+          {
+            "item": "1 BEACH 105 STREET",
+            "count": "65"
+          }
+        ],
+        "smallest": "- -",
+        "not_null": "55235",
+        "count": "69010",
+        "cardinality": "36406"
+      }
+    },
+    {
+      "field_name": "incident_address_3",
+      "display_name": "Incident_Address_Zip",
+      "data_type": "text",
+      "description": "zip code where the condition was reported\n",
+      "format": "standard",
+      "position": 5,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "NY 10028",
+        "non_null": "68986",
+        "null": "24",
+        "top": [
+          {
+            "item": "10025",
+            "count": "1237"
+          },
+          {
+            "item": "10031",
+            "count": "1211"
+          },
+          {
+            "item": "11226",
+            "count": "1092"
+          },
+          {
+            "item": "10024",
+            "count": "1040"
+          },
+          {
+            "item": "10040",
+            "count": "976"
+          },
+          {
+            "item": "10019",
+            "count": "974"
+          },
+          {
+            "item": "10003",
+            "count": "973"
+          },
+          {
+            "item": "10010",
+            "count": "891"
+          },
+          {
+            "item": "10002",
+            "count": "865"
+          },
+          {
+            "item": "10009",
+            "count": "859"
+          },
+          {
+            "item": "10467",
+            "count": "854"
+          },
+          {
+            "item": "10027",
+            "count": "830"
+          },
+          {
+            "item": "11235",
+            "count": "807"
+          },
+          {
+            "item": "11216",
+            "count": "805"
+          },
+          {
+            "item": "11221",
+            "count": "802"
+          },
+          {
+            "item": "10016",
+            "count": "796"
+          },
+          {
+            "item": "10023",
+            "count": "793"
+          },
+          {
+            "item": "11225",
+            "count": "791"
+          },
+          {
+            "item": "11211",
+            "count": "778"
+          },
+          {
+            "item": "11238",
+            "count": "764"
+          }
+        ],
+        "smallest": "0453",
+        "not_null": "55501",
+        "count": "69010",
+        "cardinality": "284"
+      }
+    },
+    {
+      "field_name": "incident_address_4",
+      "display_name": "Incident_Address_Borough",
+      "data_type": "text",
+      "description": "borough where the condition was reported\n",
+      "width": 100,
+      "position": 6,
+      "cached_contents": {
+        "largest": "Staten Island",
+        "non_null": "69004",
+        "null": "6",
+        "top": [
+          {
+            "item": "Manhattan",
+            "count": "23943"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "20003"
+          },
+          {
+            "item": "Queens",
+            "count": "12069"
+          },
+          {
+            "item": "Bronx",
+            "count": "9900"
+          },
+          {
+            "item": "Staten Island",
+            "count": "3089"
+          }
+        ],
+        "smallest": "Bronx",
+        "not_null": "55519",
+        "count": "69010",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "complaint_type_311",
+      "display_name": "Complaint_Type_311",
+      "data_type": "text",
+      "description": "type of complaint that is assigned by 311.\n\nasbestos, indoor air quality, indoor sewage, mold\n\n",
+      "width": 149,
+      "position": 7,
+      "cached_contents": {
+        "largest": "MOLD",
+        "non_null": "65995",
+        "null": "3015",
+        "top": [
+          {
+            "item": "Indoor Air Quality",
+            "count": "51652"
+          },
+          {
+            "item": "Asbestos",
+            "count": "5812"
+          },
+          {
+            "item": "Indoor Sewage",
+            "count": "4726"
+          },
+          {
+            "item": "Mold",
+            "count": "3786"
+          },
+          {
+            "item": "Cooling Tower",
+            "count": "14"
+          },
+          {
+            "item": "04727995",
+            "count": "1"
+          },
+          {
+            "item": "MOLD",
+            "count": "1"
+          },
+          {
+            "item": "IAQ",
+            "count": "1"
+          },
+          {
+            "item": "LEAD",
+            "count": "1"
+          },
+          {
+            "item": "Asbestos/Garbage Nuisance",
+            "count": "1"
+          }
+        ],
+        "smallest": "04727995",
+        "not_null": "53030",
+        "count": "69010",
+        "cardinality": "10"
+      }
+    },
+    {
+      "field_name": "descriptor_1_311",
+      "display_name": "Descriptor_1_311",
+      "data_type": "text",
+      "description": "further description of the complaint that is assigned by 311\n\nchemical vapors/gases/odors; dry cleaning vapors (PERC); dust from construction; N/A (not applicable); other; public complaint-community location; sewage leak; sewage odor; unsanitary condition; ventilation; workplace - 10 or less staff\n\n",
+      "width": 240,
+      "position": 8,
+      "cached_contents": {
+        "largest": "Workplace - 10 or Less Staff",
+        "non_null": "65994",
+        "null": "3016",
+        "top": [
+          {
+            "item": "Chemical Vapors/Gases/Odors",
+            "count": "21024"
+          },
+          {
+            "item": "Ventilation",
+            "count": "11291"
+          },
+          {
+            "item": "Other (Explain Below)",
+            "count": "11040"
+          },
+          {
+            "item": "Dust from Construction",
+            "count": "7006"
+          },
+          {
+            "item": "N/A",
+            "count": "5827"
+          },
+          {
+            "item": "Sewage Odor",
+            "count": "4182"
+          },
+          {
+            "item": "Public Complaint - Comm Location",
+            "count": "3665"
+          },
+          {
+            "item": "Sewage Leak",
+            "count": "1270"
+          },
+          {
+            "item": "Dry Cleaning Vapors (PERC)",
+            "count": "476"
+          },
+          {
+            "item": "Workplace - 10 or Less Staff",
+            "count": "80"
+          },
+          {
+            "item": "Human Feces",
+            "count": "76"
+          },
+          {
+            "item": "Loft Building",
+            "count": "41"
+          },
+          {
+            "item": "Unsanitary Condition",
+            "count": "9"
+          },
+          {
+            "item": "Broken/Defective",
+            "count": "5"
+          },
+          {
+            "item": "Asbestos",
+            "count": "1"
+          },
+          {
+            "item": "PAINT FUMES",
+            "count": "1"
+          }
+        ],
+        "smallest": "Asbestos",
+        "not_null": "53031",
+        "count": "69010",
+        "cardinality": "16"
+      }
+    },
+    {
+      "field_name": "complaint_status",
+      "display_name": "Complaint_Status",
+      "data_type": "text",
+      "description": "current status of the complaint as assigned by the program.\n\nClose - case is closed; Action taken - some action was taken to address the reported condition such as an inpsection or letter; Assigned - the complaint has been assigned to an inspector for follow up; To Be Assigned - case has been reviewed by supervisor and will be assigned for follow up; \n\n",
+      "width": 100,
+      "position": 9,
+      "cached_contents": {
+        "largest": "05-Close",
+        "non_null": "69010",
+        "null": "0",
+        "top": [
+          {
+            "item": "05-Close",
+            "count": "68363"
+          },
+          {
+            "item": "02-To Be Assigned",
+            "count": "228"
+          },
+          {
+            "item": "04-Action Taken",
+            "count": "220"
+          },
+          {
+            "item": "03-Assigned",
+            "count": "182"
+          },
+          {
+            "item": "01-New/Open",
+            "count": "17"
+          }
+        ],
+        "smallest": "01-New/Open",
+        "not_null": "55522",
+        "count": "69010",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "date_received",
+      "display_name": "Date_Received",
+      "data_type": "calendar_date",
+      "description": "date and time that the complaint was received \n",
+      "width": 184,
+      "position": 10,
+      "cached_contents": {
+        "largest": "2021-12-19T23:41:16.000",
+        "non_null": "69010",
+        "null": "0",
+        "top": [
+          {
+            "item": "2012-03-30T00:00:00.000",
+            "count": "67"
+          },
+          {
+            "item": "2010-10-22T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2018-03-12T00:00:00.000",
+            "count": "31"
+          },
+          {
+            "item": "2014-07-29T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2014-12-11T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2014-08-05T00:00:00.000",
+            "count": "24"
+          },
+          {
+            "item": "2020-02-19T00:00:00.000",
+            "count": "22"
+          },
+          {
+            "item": "2014-07-30T00:00:00.000",
+            "count": "21"
+          },
+          {
+            "item": "2013-11-22T00:00:00.000",
+            "count": "21"
+          },
+          {
+            "item": "2020-03-05T00:00:00.000",
+            "count": "20"
+          },
+          {
+            "item": "2021-05-13T00:00:00.000",
+            "count": "19"
+          },
+          {
+            "item": "2017-07-05T00:00:00.000",
+            "count": "18"
+          },
+          {
+            "item": "2015-08-04T00:00:00.000",
+            "count": "17"
+          },
+          {
+            "item": "2011-05-25T00:00:00.000",
+            "count": "17"
+          },
+          {
+            "item": "2017-10-30T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2020-01-29T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2021-04-07T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2020-01-24T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2012-05-09T00:00:00.000",
+            "count": "14"
+          },
+          {
+            "item": "2020-02-27T00:00:00.000",
+            "count": "14"
+          }
+        ],
+        "smallest": "2010-07-01T00:00:00.000",
+        "not_null": "55522",
+        "count": "69010",
+        "cardinality": "67417"
+      }
+    },
+    {
+      "field_name": "deleted",
+      "display_name": "Deleted",
+      "data_type": "text",
+      "description": "",
+      "position": 11,
+      "cached_contents": {
+        "largest": "Yes",
+        "non_null": "69010",
+        "null": "0",
+        "top": [
+          {
+            "item": "No",
+            "count": "68977"
+          },
+          {
+            "item": "Yes",
+            "count": "33"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "55522",
+        "count": "69010",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 12,
+      "cached_contents": {
+        "largest": "40.912572",
+        "non_null": "68350",
+        "average": "40.73609378744029",
+        "null": "660",
+        "top": [
+          {
+            "item": "40.554716",
+            "count": "569"
+          },
+          {
+            "item": "40.714445",
+            "count": "537"
+          },
+          {
+            "item": "40.823974",
+            "count": "496"
+          },
+          {
+            "item": "40.86381",
+            "count": "398"
+          },
+          {
+            "item": "40.739342",
+            "count": "381"
+          },
+          {
+            "item": "40.643903",
+            "count": "358"
+          },
+          {
+            "item": "40.789773",
+            "count": "268"
+          },
+          {
+            "item": "40.712254",
+            "count": "196"
+          },
+          {
+            "item": "40.861896",
+            "count": "174"
+          },
+          {
+            "item": "40.62353",
+            "count": "109"
+          },
+          {
+            "item": "40.778501",
+            "count": "97"
+          },
+          {
+            "item": "40.638325",
+            "count": "88"
+          },
+          {
+            "item": "40.712777",
+            "count": "86"
+          },
+          {
+            "item": "40.840723",
+            "count": "82"
+          },
+          {
+            "item": "40.67911",
+            "count": "82"
+          },
+          {
+            "item": "40.67641",
+            "count": "79"
+          },
+          {
+            "item": "40.581498",
+            "count": "78"
+          },
+          {
+            "item": "40.744291",
+            "count": "76"
+          },
+          {
+            "item": "40.672264",
+            "count": "70"
+          },
+          {
+            "item": "40.787834",
+            "count": "67"
+          }
+        ],
+        "smallest": "40.499212",
+        "not_null": "54956",
+        "count": "69010",
+        "sum": "2029716.609053",
+        "cardinality": "31544"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 13,
+      "cached_contents": {
+        "largest": "-73.70092",
+        "non_null": "68350",
+        "average": "-73.93836069325252",
+        "null": "660",
+        "top": [
+          {
+            "item": "-74.169599",
+            "count": "569"
+          },
+          {
+            "item": "-73.885081",
+            "count": "537"
+          },
+          {
+            "item": "-73.95055",
+            "count": "498"
+          },
+          {
+            "item": "-73.927303",
+            "count": "398"
+          },
+          {
+            "item": "-73.984324",
+            "count": "381"
+          },
+          {
+            "item": "-74.08187",
+            "count": "358"
+          },
+          {
+            "item": "-73.979936",
+            "count": "269"
+          },
+          {
+            "item": "-73.942315",
+            "count": "196"
+          },
+          {
+            "item": "-73.927117",
+            "count": "174"
+          },
+          {
+            "item": "-74.023458",
+            "count": "109"
+          },
+          {
+            "item": "-73.918745",
+            "count": "97"
+          },
+          {
+            "item": "-73.945333",
+            "count": "92"
+          },
+          {
+            "item": "-73.833458",
+            "count": "84"
+          },
+          {
+            "item": "-73.926117",
+            "count": "82"
+          },
+          {
+            "item": "-73.940058",
+            "count": "82"
+          },
+          {
+            "item": "-73.919266",
+            "count": "79"
+          },
+          {
+            "item": "-73.825268",
+            "count": "78"
+          },
+          {
+            "item": "-73.986387",
+            "count": "76"
+          },
+          {
+            "item": "-73.756377",
+            "count": "76"
+          },
+          {
+            "item": "-73.756373",
+            "count": "70"
+          }
+        ],
+        "smallest": "-74.254788",
+        "not_null": "54956",
+        "count": "69010",
+        "sum": "-3684052.759902",
+        "cardinality": "30887"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 14,
+      "cached_contents": {
+        "largest": "95",
+        "non_null": "68350",
+        "average": "7.267109541203388",
+        "null": "660",
+        "top": [
+          {
+            "item": "3",
+            "count": "6354"
+          },
+          {
+            "item": "1",
+            "count": "6015"
+          },
+          {
+            "item": "7",
+            "count": "5720"
+          },
+          {
+            "item": "12",
+            "count": "5302"
+          },
+          {
+            "item": "8",
+            "count": "5287"
+          },
+          {
+            "item": "5",
+            "count": "5253"
+          },
+          {
+            "item": "2",
+            "count": "5143"
+          },
+          {
+            "item": "4",
+            "count": "4817"
+          },
+          {
+            "item": "9",
+            "count": "4658"
+          },
+          {
+            "item": "6",
+            "count": "4435"
+          },
+          {
+            "item": "10",
+            "count": "4093"
+          },
+          {
+            "item": "11",
+            "count": "3362"
+          },
+          {
+            "item": "14",
+            "count": "2411"
+          },
+          {
+            "item": "13",
+            "count": "1501"
+          },
+          {
+            "item": "17",
+            "count": "1366"
+          },
+          {
+            "item": "15",
+            "count": "1043"
+          },
+          {
+            "item": "18",
+            "count": "795"
+          },
+          {
+            "item": "16",
+            "count": "773"
+          },
+          {
+            "item": "55",
+            "count": "6"
+          },
+          {
+            "item": "81",
+            "count": "4"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "54956",
+        "count": "69010",
+        "sum": "362091",
+        "cardinality": "27"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 15,
+      "cached_contents": {
+        "largest": "51",
+        "non_null": "68350",
+        "average": "21.34899450086300",
+        "null": "660",
+        "top": [
+          {
+            "item": "3",
+            "count": "3370"
+          },
+          {
+            "item": "2",
+            "count": "3106"
+          },
+          {
+            "item": "4",
+            "count": "2676"
+          },
+          {
+            "item": "6",
+            "count": "2505"
+          },
+          {
+            "item": "1",
+            "count": "2480"
+          },
+          {
+            "item": "9",
+            "count": "2460"
+          },
+          {
+            "item": "7",
+            "count": "2370"
+          },
+          {
+            "item": "10",
+            "count": "2011"
+          },
+          {
+            "item": "35",
+            "count": "2008"
+          },
+          {
+            "item": "5",
+            "count": "1833"
+          },
+          {
+            "item": "36",
+            "count": "1813"
+          },
+          {
+            "item": "33",
+            "count": "1694"
+          },
+          {
+            "item": "34",
+            "count": "1574"
+          },
+          {
+            "item": "8",
+            "count": "1548"
+          },
+          {
+            "item": "40",
+            "count": "1539"
+          },
+          {
+            "item": "11",
+            "count": "1391"
+          },
+          {
+            "item": "49",
+            "count": "1389"
+          },
+          {
+            "item": "41",
+            "count": "1349"
+          },
+          {
+            "item": "48",
+            "count": "1315"
+          },
+          {
+            "item": "17",
+            "count": "1248"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "54956",
+        "count": "69010",
+        "sum": "1063735",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 16,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "157903",
+        "non_null": "68350",
+        "average": "6853.797916750291",
+        "null": "660",
+        "top": [
+          {
+            "item": "229",
+            "count": "650"
+          },
+          {
+            "item": "17012",
+            "count": "591"
+          },
+          {
+            "item": "68",
+            "count": "552"
+          },
+          {
+            "item": "9",
+            "count": "551"
+          },
+          {
+            "item": "659",
+            "count": "542"
+          },
+          {
+            "item": "287",
+            "count": "532"
+          },
+          {
+            "item": "175",
+            "count": "485"
+          },
+          {
+            "item": "38",
+            "count": "397"
+          },
+          {
+            "item": "285",
+            "count": "379"
+          },
+          {
+            "item": "157",
+            "count": "343"
+          },
+          {
+            "item": "33",
+            "count": "281"
+          },
+          {
+            "item": "134",
+            "count": "278"
+          },
+          {
+            "item": "21",
+            "count": "277"
+          },
+          {
+            "item": "34",
+            "count": "274"
+          },
+          {
+            "item": "7",
+            "count": "259"
+          },
+          {
+            "item": "43",
+            "count": "258"
+          },
+          {
+            "item": "138",
+            "count": "255"
+          },
+          {
+            "item": "39",
+            "count": "255"
+          },
+          {
+            "item": "18",
+            "count": "253"
+          },
+          {
+            "item": "181",
+            "count": "251"
+          }
+        ],
+        "smallest": "1",
+        "not_null": "54956",
+        "count": "69010",
+        "sum": "341497335",
+        "cardinality": "1305"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 100,
+      "position": 17,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "5171964",
+        "non_null": "67843",
+        "average": "2446832.438018368",
+        "null": "1167",
+        "top": [
+          {
+            "item": "5074586",
+            "count": "569"
+          },
+          {
+            "item": "4533734",
+            "count": "537"
+          },
+          {
+            "item": "1061845",
+            "count": "496"
+          },
+          {
+            "item": "1064250",
+            "count": "398"
+          },
+          {
+            "item": "1018044",
+            "count": "381"
+          },
+          {
+            "item": "5000527",
+            "count": "358"
+          },
+          {
+            "item": "1033935",
+            "count": "269"
+          },
+          {
+            "item": "1064197",
+            "count": "235"
+          },
+          {
+            "item": "3069449",
+            "count": "196"
+          },
+          {
+            "item": "4280602",
+            "count": "146"
+          },
+          {
+            "item": "3000000",
+            "count": "124"
+          },
+          {
+            "item": "3152175",
+            "count": "109"
+          },
+          {
+            "item": "4019389",
+            "count": "97"
+          },
+          {
+            "item": "3327404",
+            "count": "87"
+          },
+          {
+            "item": "4000000",
+            "count": "84"
+          },
+          {
+            "item": "4434543",
+            "count": "84"
+          },
+          {
+            "item": "2114107",
+            "count": "82"
+          },
+          {
+            "item": "3054043",
+            "count": "82"
+          },
+          {
+            "item": "3038557",
+            "count": "79"
+          },
+          {
+            "item": "4303819",
+            "count": "79"
+          }
+        ],
+        "smallest": "1000000",
+        "not_null": "54517",
+        "count": "69010",
+        "sum": "120956714741",
+        "cardinality": "31666"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "",
+      "format": "standard",
+      "width": 98,
+      "position": 18,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "5200039999",
+        "non_null": "67843",
+        "average": "2377038890.615083",
+        "null": "1167",
+        "top": [
+          {
+            "item": "5056090020",
+            "count": "569"
+          },
+          {
+            "item": "4030487502",
+            "count": "537"
+          },
+          {
+            "item": "1020740007",
+            "count": "496"
+          },
+          {
+            "item": "1021750180",
+            "count": "398"
+          },
+          {
+            "item": "1008790027",
+            "count": "381"
+          },
+          {
+            "item": "5000280077",
+            "count": "358"
+          },
+          {
+            "item": "1012480011",
+            "count": "269"
+          },
+          {
+            "item": "1021740175",
+            "count": "235"
+          },
+          {
+            "item": "3027830023",
+            "count": "196"
+          },
+          {
+            "item": "4130450001",
+            "count": "146"
+          },
+          {
+            "item": "2051410120",
+            "count": "134"
+          },
+          {
+            "item": "3049950030",
+            "count": "109"
+          },
+          {
+            "item": "3060090025",
+            "count": "109"
+          },
+          {
+            "item": "4008760085",
+            "count": "97"
+          },
+          {
+            "item": "2039437501",
+            "count": "85"
+          },
+          {
+            "item": "4033350030",
+            "count": "84"
+          },
+          {
+            "item": "3018710018",
+            "count": "82"
+          },
+          {
+            "item": "2025310005",
+            "count": "82"
+          },
+          {
+            "item": "3014320068",
+            "count": "79"
+          },
+          {
+            "item": "4161770055",
+            "count": "79"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "54517",
+        "count": "69010",
+        "sum": "117506540518666",
+        "cardinality": "30172"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "",
+      "width": 280,
+      "position": 19,
+      "cached_contents": {
+        "largest": "Yorkville",
+        "non_null": "68350",
+        "null": "660",
+        "top": [
+          {
+            "item": "Upper West Side",
+            "count": "2107"
+          },
+          {
+            "item": "Midtown-Midtown South",
+            "count": "1347"
+          },
+          {
+            "item": "Crown Heights North",
+            "count": "1281"
+          },
+          {
+            "item": "Hudson Yards-Chelsea-Flatiron-Union Square",
+            "count": "1276"
+          },
+          {
+            "item": "Central Harlem North-Polo Grounds",
+            "count": "1242"
+          },
+          {
+            "item": "Washington Heights North",
+            "count": "1200"
+          },
+          {
+            "item": "Hamilton Heights",
+            "count": "1156"
+          },
+          {
+            "item": "East Village",
+            "count": "1133"
+          },
+          {
+            "item": "West Village",
+            "count": "1083"
+          },
+          {
+            "item": "Flatbush",
+            "count": "1022"
+          },
+          {
+            "item": "SoHo-TriBeCa-Civic Center-Little Italy",
+            "count": "998"
+          },
+          {
+            "item": "Clinton",
+            "count": "964"
+          },
+          {
+            "item": "Yorkville",
+            "count": "953"
+          },
+          {
+            "item": "Washington Heights South",
+            "count": "877"
+          },
+          {
+            "item": "Lenox Hill-Roosevelt Island",
+            "count": "826"
+          },
+          {
+            "item": "Prospect Lefferts Gardens-Wingate",
+            "count": "803"
+          },
+          {
+            "item": "Bay Ridge",
+            "count": "783"
+          },
+          {
+            "item": "Gramercy",
+            "count": "775"
+          },
+          {
+            "item": "Turtle Bay-East Midtown",
+            "count": "735"
+          },
+          {
+            "item": "Lincoln Square",
+            "count": "722"
+          }
+        ],
+        "smallest": "Airport",
+        "not_null": "54956",
+        "count": "69010",
+        "cardinality": "194"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:22.949939"
+}

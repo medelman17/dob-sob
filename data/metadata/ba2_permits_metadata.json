@@ -1,0 +1,669 @@
+{
+  "dataset_id": "47ks-7xhr",
+  "name": "BA-2 permits",
+  "description": "This collection contains applications submitted online via \"DOB NOW: BUILD\" portal by Design Professionals to get an authorization to begin work on an elevator project.\n</p>\nData in this collection is limited to applications (job filings) related to elevator applications only (also known as ELV1)  submitted on DOB NOW, and includes Initial (New), subsequent, and Post Approval Amendment (PAA) filing types.\n</br>\nDOB NOW: BUILD is an online portal that allows users to file for permit applications, check the status of an application, make payments, schedule appointments, and print permits.\n\nThis dataset contains general information about the job filing, including location, applicant, type of work and fee information. Each instance of elevator work might have one row/record for the Initial application, as well as one or more Post Approval Amendment. (See Filing_Type field.)",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "permit",
+    "elevator",
+    "nyc",
+    "dob",
+    "buildings",
+    "elv1",
+    "device",
+    "code",
+    "work",
+    "job",
+    "filing"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2020-07-28T23:05:38",
+  "updated_at": "2025-06-03T19:05:46",
+  "row_count": 1748977546,
+  "column_count": 80,
+  "download_count": 0,
+  "view_count": 321,
+  "columns": [
+    {
+      "field_name": "job_filing_number",
+      "display_name": "Job Filling Number",
+      "data_type": "text",
+      "description": "A unique identifier assigned to a job filing. It consists of job number (a letter indicating the borough followed by an 8-digit number)  hyphenated with Filing Number (a 2-digit code identifying the filing type). Once the permit is issued, a suffix  \"-VT\" is added to the job filing number. (Example: B00016701-I1-VT)",
+      "width": 100,
+      "position": 1
+    },
+    {
+      "field_name": "job_number",
+      "display_name": "Job Number",
+      "data_type": "text",
+      "description": "A 9-digit identifier for the job. The first letter indicates the borough for which the filing is associated, followed by an 8-digit ID number",
+      "width": 100,
+      "position": 2
+    },
+    {
+      "field_name": "filing_number",
+      "display_name": "Filing Number",
+      "data_type": "text",
+      "description": "A 2-digit code identifying the filing type",
+      "width": 100,
+      "position": 3
+    },
+    {
+      "field_name": "filing_date",
+      "display_name": "Filing Date",
+      "data_type": "calendar_date",
+      "description": "Filing Date; Date and Time Format: '2018-04-25 21:52:00.000'",
+      "width": 100,
+      "position": 4
+    },
+    {
+      "field_name": "filing_type",
+      "display_name": "Filing Type",
+      "data_type": "text",
+      "description": "Indicates whether this filing is new, subsequent or Post Approval Amendment (PAA) filing",
+      "width": 100,
+      "position": 5
+    },
+    {
+      "field_name": "elevatordevicetype",
+      "display_name": "Elevator Device Type",
+      "data_type": "text",
+      "description": "Expected Values: Accessibility Lift, Conveyor,  Dumbwaiter, Elevator, Escalator, Moving Walk, Personnel Hoist",
+      "width": 100,
+      "position": 6
+    },
+    {
+      "field_name": "filing_status",
+      "display_name": "Filing Status",
+      "data_type": "text",
+      "description": "Indicates status of the permit application. Example: Permit Issued",
+      "width": 100,
+      "position": 7
+    },
+    {
+      "field_name": "filingstatus_or_filingincludes",
+      "display_name": "Filing Status or Filing Includes",
+      "data_type": "text",
+      "description": "Indicates if the filing status includes any other filings",
+      "width": 100,
+      "position": 8
+    },
+    {
+      "field_name": "building_code",
+      "display_name": "Building Code",
+      "data_type": "text",
+      "description": "Building code which is single select value",
+      "width": 100,
+      "position": 9
+    },
+    {
+      "field_name": "electrical_permit_number",
+      "display_name": "Electrical Permit Number",
+      "data_type": "text",
+      "description": "Electrical Permit Number",
+      "width": 100,
+      "position": 10
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "Building Identification Number (BIN) of the job location. Assigned by Department of City Planning.",
+      "width": 100,
+      "position": 11
+    },
+    {
+      "field_name": "house_number",
+      "display_name": "House Number",
+      "data_type": "text",
+      "description": "The house number of the job location",
+      "width": 100,
+      "position": 12
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "Street Name",
+      "data_type": "text",
+      "description": "The Street Name of the job location",
+      "width": 100,
+      "position": 13
+    },
+    {
+      "field_name": "zip",
+      "display_name": "ZIP",
+      "data_type": "text",
+      "description": "Zip code of the job location",
+      "width": 100,
+      "position": 14
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "Borough of job location",
+      "width": 100,
+      "position": 15
+    },
+    {
+      "field_name": "block",
+      "display_name": "Block",
+      "data_type": "text",
+      "description": "Tax block number of the job location. Assigned by the Department of Finance.",
+      "width": 100,
+      "position": 16
+    },
+    {
+      "field_name": "lot",
+      "display_name": "Lot",
+      "data_type": "text",
+      "description": "Tax lot number of the job location. Assigned by the Department of Finance.",
+      "width": 100,
+      "position": 17
+    },
+    {
+      "field_name": "building_type",
+      "display_name": "BuildingType",
+      "data_type": "text",
+      "description": "Category of Building - used for Inconjunction fee. 1,2,3 family - 130$ or other - 225$",
+      "width": 100,
+      "position": 18
+    },
+    {
+      "field_name": "buildingstories",
+      "display_name": "Building Stories",
+      "data_type": "text",
+      "description": "Number of Stories in the Building ",
+      "width": 100,
+      "position": 19
+    },
+    {
+      "field_name": "is_in_conjunction",
+      "display_name": "Is In Conjunction",
+      "data_type": "checkbox",
+      "description": "Flag: Yes or No",
+      "width": 100,
+      "position": 20
+    },
+    {
+      "field_name": "associatedjobnumber",
+      "display_name": "Associated BIS Job Number",
+      "data_type": "text",
+      "description": "Associated BIS Job Number if applicable; ",
+      "width": 100,
+      "position": 21
+    },
+    {
+      "field_name": "total_construction_floor",
+      "display_name": "Total Construction Floor Area",
+      "data_type": "text",
+      "width": 100,
+      "position": 22
+    },
+    {
+      "field_name": "plan_examiner_assigned_date",
+      "display_name": "Plan Examiner Assigned Date",
+      "data_type": "calendar_date",
+      "description": "Plan Examiner Assigned Date",
+      "width": 100,
+      "position": 23
+    },
+    {
+      "field_name": "incomplete_date",
+      "display_name": "Incomplete Date",
+      "data_type": "text",
+      "description": "Incomplete Date",
+      "width": 100,
+      "position": 24
+    },
+    {
+      "field_name": "last_incomplete_submission",
+      "display_name": "Last Incomplete Submission Date",
+      "data_type": "text",
+      "description": "Last Incomplete Submission Date",
+      "width": 100,
+      "position": 25
+    },
+    {
+      "field_name": "first_objection_date",
+      "display_name": "1st Objection Date",
+      "data_type": "calendar_date",
+      "description": "First Objection Date",
+      "width": 100,
+      "position": 26
+    },
+    {
+      "field_name": "last_objection_date",
+      "display_name": "Last Objection Date",
+      "data_type": "calendar_date",
+      "description": "Last Objection date",
+      "width": 100,
+      "position": 27
+    },
+    {
+      "field_name": "resubmission_date",
+      "display_name": "Resubmission Date",
+      "data_type": "calendar_date",
+      "description": "Re-submission Date",
+      "width": 100,
+      "position": 28
+    },
+    {
+      "field_name": "permit_entire_date",
+      "display_name": "Permit Entire Date",
+      "data_type": "calendar_date",
+      "description": "Permit Entire Date",
+      "width": 100,
+      "position": 29
+    },
+    {
+      "field_name": "signedoff_date",
+      "display_name": "Signed Off Date",
+      "data_type": "calendar_date",
+      "description": "Signed Off Date",
+      "width": 100,
+      "position": 30
+    },
+    {
+      "field_name": "applicant_firstname",
+      "display_name": "Applicant First Name",
+      "data_type": "text",
+      "description": "First name of the applicant",
+      "width": 100,
+      "position": 31
+    },
+    {
+      "field_name": "applicant_lastname",
+      "display_name": "Applicant Last Name",
+      "data_type": "text",
+      "description": "Last name of the applicant",
+      "width": 100,
+      "position": 32
+    },
+    {
+      "field_name": "applicant_businessname",
+      "display_name": "Applicant Business Name",
+      "data_type": "text",
+      "description": "Name of Applicant Business",
+      "width": 100,
+      "position": 33
+    },
+    {
+      "field_name": "applicant_address",
+      "display_name": "Applicant Address",
+      "data_type": "text",
+      "description": "Street address of the applicant's firm",
+      "width": 100,
+      "position": 34
+    },
+    {
+      "field_name": "applicant_city",
+      "display_name": "Applicant City",
+      "data_type": "text",
+      "description": "City of the applicant's firm",
+      "width": 100,
+      "position": 35
+    },
+    {
+      "field_name": "applicant_state",
+      "display_name": "Applicant State",
+      "data_type": "text",
+      "description": "State of the applicant's firm",
+      "width": 100,
+      "position": 36
+    },
+    {
+      "field_name": "applicant_zip",
+      "display_name": "Applicant Zip",
+      "data_type": "text",
+      "description": "ZIP code of the applicant's firm",
+      "width": 100,
+      "position": 37
+    },
+    {
+      "field_name": "applicant_license_number",
+      "display_name": "Applicant License Number",
+      "data_type": "text",
+      "description": "Applicant's license number, DOB issues licenses  to qualified individuals working in the construction trades in New York City.",
+      "width": 100,
+      "position": 38
+    },
+    {
+      "field_name": "designprofessional_firstname",
+      "display_name": "Design Professional First Name",
+      "data_type": "text",
+      "description": "First Name of Design Professional",
+      "width": 100,
+      "position": 39
+    },
+    {
+      "field_name": "designprofessional_lastname",
+      "display_name": "Design Professional Last Name",
+      "data_type": "text",
+      "description": "Last Name of Design Professional",
+      "width": 100,
+      "position": 40
+    },
+    {
+      "field_name": "designprofessional",
+      "display_name": "Design Professional Business Name",
+      "data_type": "text",
+      "description": "Design Professional Business Name",
+      "width": 100,
+      "position": 41
+    },
+    {
+      "field_name": "designprofessional_address",
+      "display_name": "Design Professional Address",
+      "data_type": "text",
+      "description": "Street address of the Design Professional",
+      "width": 100,
+      "position": 42
+    },
+    {
+      "field_name": "designprofessional_city",
+      "display_name": "Design Professional City",
+      "data_type": "text",
+      "description": "City of Design Professional's firm",
+      "width": 100,
+      "position": 43
+    },
+    {
+      "field_name": "designprofessional_state",
+      "display_name": "Design Professional State",
+      "data_type": "text",
+      "description": "State of Design Professional's State",
+      "width": 100,
+      "position": 44
+    },
+    {
+      "field_name": "designprofessional_zip",
+      "display_name": "Design Professional  Zip",
+      "data_type": "text",
+      "description": "Zip code of Design Professional's State",
+      "width": 100,
+      "position": 45
+    },
+    {
+      "field_name": "designprofessional_license",
+      "display_name": "Design Professional License Number",
+      "data_type": "text",
+      "description": "Design Professional License number, DOB issues licenses  to qualified design professionals working in the construction trades in New York City.",
+      "width": 100,
+      "position": 46
+    },
+    {
+      "field_name": "owner_firstname",
+      "display_name": "Owner First Name",
+      "data_type": "text",
+      "description": "First Name of Owner",
+      "width": 100,
+      "position": 47
+    },
+    {
+      "field_name": "owner_lastname",
+      "display_name": "Owner Last Name",
+      "data_type": "text",
+      "description": "Last Name of Owner",
+      "width": 100,
+      "position": 48
+    },
+    {
+      "field_name": "owner_title",
+      "display_name": "Owner Title",
+      "data_type": "text",
+      "description": "Title information for Owner",
+      "width": 100,
+      "position": 49
+    },
+    {
+      "field_name": "owner_businessname",
+      "display_name": "Owner Business Name",
+      "data_type": "text",
+      "description": "Owner Information Business Name",
+      "width": 100,
+      "position": 50
+    },
+    {
+      "field_name": "owner_address",
+      "display_name": "Owner Address",
+      "data_type": "text",
+      "description": "Street Address of the Owner",
+      "width": 100,
+      "position": 51
+    },
+    {
+      "field_name": "owner_city",
+      "display_name": "Owner City",
+      "data_type": "text",
+      "description": "City of the Owner",
+      "width": 100,
+      "position": 52
+    },
+    {
+      "field_name": "owner_state",
+      "display_name": "Owner State",
+      "data_type": "text",
+      "description": "State of the Owner",
+      "width": 100,
+      "position": 53
+    },
+    {
+      "field_name": "owner_zip",
+      "display_name": "Owner Zip",
+      "data_type": "text",
+      "description": "Zip of the Owner",
+      "width": 100,
+      "position": 54
+    },
+    {
+      "field_name": "owner_type",
+      "display_name": "Owner Type",
+      "data_type": "text",
+      "description": "Owner Type",
+      "width": 100,
+      "position": 55
+    },
+    {
+      "field_name": "asbestosabatementcompliance",
+      "display_name": "Asbestos Abatement Complaince",
+      "data_type": "text",
+      "description": "Asbestos Abatement Compliance",
+      "width": 100,
+      "position": 56
+    },
+    {
+      "field_name": "depacp5controlno",
+      "display_name": "DEP ACP-5 Control No",
+      "data_type": "text",
+      "description": "DEP ACP-5 Control No.",
+      "width": 100,
+      "position": 57
+    },
+    {
+      "field_name": "descriptionofwork",
+      "display_name": "Scope of Work",
+      "data_type": "text",
+      "description": "Scope of Work",
+      "width": 100,
+      "position": 58
+    },
+    {
+      "field_name": "gl_company",
+      "display_name": "General Liability",
+      "data_type": "text",
+      "description": "Name of the company providing General Liability insurance to the applicant's firm",
+      "width": 100,
+      "position": 59
+    },
+    {
+      "field_name": "gl_policy",
+      "display_name": "GL Certificate Policy No",
+      "data_type": "text",
+      "description": "Policy number of the General Liability insurance covering the applicant's firm",
+      "width": 100,
+      "position": 60
+    },
+    {
+      "field_name": "gl_expirationdate",
+      "display_name": "GL Expiration Date",
+      "data_type": "calendar_date",
+      "description": "Expiration date of the General Liability insurance policy covering the applicant's firm",
+      "width": 100,
+      "position": 61
+    },
+    {
+      "field_name": "worker_compensation_company",
+      "display_name": "Workers Compensation",
+      "data_type": "text",
+      "description": "Name of the company providing Workers Compensation insurance to the applicant's firm",
+      "width": 100,
+      "position": 62
+    },
+    {
+      "field_name": "worker_compensation_policy",
+      "display_name": "WC Certificate Policy No",
+      "data_type": "text",
+      "description": "Policy number of the Workers Compensation insurance covering the applicant's firm",
+      "width": 100,
+      "position": 63
+    },
+    {
+      "field_name": "worker_compensation",
+      "display_name": "WC Expiration Date",
+      "data_type": "calendar_date",
+      "description": "Expiration date of the Workers Compensation  insurance policy covering the applicant's firm",
+      "width": 100,
+      "position": 64
+    },
+    {
+      "field_name": "disability_company",
+      "display_name": "Disability",
+      "data_type": "text",
+      "description": "Insurance Information Disability",
+      "width": 100,
+      "position": 65
+    },
+    {
+      "field_name": "disability_policy",
+      "display_name": "Disability Certificate Policy No",
+      "data_type": "text",
+      "description": "Insurance Information Disability Certification/Policy No",
+      "width": 100,
+      "position": 66
+    },
+    {
+      "field_name": "disability_expirationdate",
+      "display_name": "Disability Expiration Date",
+      "data_type": "calendar_date",
+      "description": "Insurance Information Disability Expiration Date",
+      "width": 100,
+      "position": 67
+    },
+    {
+      "field_name": "estimated_cost",
+      "display_name": "Estimated Cost",
+      "data_type": "number",
+      "description": "Estimated Cost",
+      "format": "currency",
+      "width": 100,
+      "position": 68
+    },
+    {
+      "field_name": "filing_fee",
+      "display_name": "Filing Fee",
+      "data_type": "number",
+      "description": "Fee required for the job filing",
+      "format": "currency",
+      "width": 100,
+      "position": 69
+    },
+    {
+      "field_name": "no_good_check",
+      "display_name": "No Good Check",
+      "data_type": "number",
+      "description": "A fee required if first check payment to DOB was rejected / returned",
+      "format": "currency",
+      "width": 100,
+      "position": 70
+    },
+    {
+      "field_name": "total_fee",
+      "display_name": "Total Fee",
+      "data_type": "number",
+      "description": "Indicates total fee amount (quantity * cost)",
+      "format": "currency",
+      "width": 100,
+      "position": 71
+    },
+    {
+      "field_name": "amount_paid",
+      "display_name": "Amount Paid",
+      "data_type": "number",
+      "description": "Amount paid by applicant",
+      "format": "currency",
+      "width": 100,
+      "position": 72
+    },
+    {
+      "field_name": "amount_due",
+      "display_name": "Amount Due",
+      "data_type": "number",
+      "description": "Balance remaining ",
+      "format": "currency",
+      "width": 100,
+      "position": 73
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "number",
+      "width": 100,
+      "position": 74
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "number",
+      "width": 100,
+      "position": 75
+    },
+    {
+      "field_name": "community_district_number",
+      "display_name": "COMMUNITY_DISTRICT_NUMBER",
+      "data_type": "text",
+      "width": 100,
+      "position": 76
+    },
+    {
+      "field_name": "city_council_district",
+      "display_name": "CITY_COUNCIL_DISTRICT",
+      "data_type": "text",
+      "width": 100,
+      "position": 77
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "CENSUS_TRACT",
+      "data_type": "text",
+      "width": 100,
+      "position": 78
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "width": 100,
+      "position": 79
+    },
+    {
+      "field_name": "nta_name",
+      "display_name": "NTA_NAME",
+      "data_type": "text",
+      "width": 100,
+      "position": 80
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:00.077797"
+}

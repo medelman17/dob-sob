@@ -1,0 +1,1054 @@
+{
+  "dataset_id": "kfgh-h6re",
+  "name": "Mandatory Inspections by Fire Companies",
+  "description": "Date and location of mandatory inspections by fire companies",
+  "agency": "Fire Department New York City",
+  "category": "Public Safety",
+  "tags": [],
+  "update_frequency": "0",
+  "attribution": "Fire Department New York City",
+  "created_at": "2018-01-24T18:35:47",
+  "updated_at": "2024-05-22T19:51:07",
+  "row_count": 1716407467,
+  "column_count": 11,
+  "download_count": 1133,
+  "view_count": 2117,
+  "columns": [
+    {
+      "field_name": "insptn_typ_cd_fk",
+      "display_name": "INSPTN_TYP_CD_FK",
+      "data_type": "text",
+      "description": "Type of Inspection",
+      "position": 1,
+      "cached_contents": {
+        "largest": "VAC-FBI",
+        "non_null": "496879",
+        "null": "0",
+        "top": [
+          {
+            "item": "CONSTR",
+            "count": "143260"
+          },
+          {
+            "item": "ALT",
+            "count": "58221"
+          },
+          {
+            "item": "COM_OCPCY",
+            "count": "40937"
+          },
+          {
+            "item": "HOL",
+            "count": "40322"
+          },
+          {
+            "item": "SPECIAL-OTH",
+            "count": "33530"
+          },
+          {
+            "item": "COMPLAINT",
+            "count": "20770"
+          },
+          {
+            "item": "CDA-90-DRILL",
+            "count": "16960"
+          },
+          {
+            "item": "STRUC_INT",
+            "count": "14134"
+          },
+          {
+            "item": "ABATE",
+            "count": "12982"
+          },
+          {
+            "item": "DEMO",
+            "count": "12916"
+          },
+          {
+            "item": "EDU",
+            "count": "10655"
+          },
+          {
+            "item": "ANNUL-COL-UNI",
+            "count": "10518"
+          },
+          {
+            "item": "STRUC_INT_3",
+            "count": "10312"
+          },
+          {
+            "item": "OTHER",
+            "count": "10285"
+          },
+          {
+            "item": "E-CIDS",
+            "count": "8297"
+          },
+          {
+            "item": "FORTH",
+            "count": "7988"
+          },
+          {
+            "item": "ANNUL-K-12",
+            "count": "7416"
+          },
+          {
+            "item": "STRUC_INT_6",
+            "count": "5413"
+          },
+          {
+            "item": "STANDARD",
+            "count": "5063"
+          },
+          {
+            "item": "VACATE_SURV",
+            "count": "4819"
+          }
+        ],
+        "smallest": "10-35",
+        "not_null": "270566",
+        "count": "496879",
+        "cardinality": "50"
+      }
+    },
+    {
+      "field_name": "inspecting_unit_code",
+      "display_name": "INSPECTING_UNIT_CODE",
+      "data_type": "text",
+      "description": "Inspecting Unit",
+      "position": 2,
+      "cached_contents": {
+        "largest": "T048",
+        "non_null": "496879",
+        "null": "0",
+        "top": [
+          {
+            "item": "E261",
+            "count": "27896"
+          },
+          {
+            "item": "E036",
+            "count": "19282"
+          },
+          {
+            "item": "E212",
+            "count": "13830"
+          },
+          {
+            "item": "E017",
+            "count": "12347"
+          },
+          {
+            "item": "E278",
+            "count": "8993"
+          },
+          {
+            "item": "E204",
+            "count": "7060"
+          },
+          {
+            "item": "E232",
+            "count": "3775"
+          },
+          {
+            "item": "E047",
+            "count": "3743"
+          },
+          {
+            "item": "E041",
+            "count": "3590"
+          },
+          {
+            "item": "E219",
+            "count": "3192"
+          },
+          {
+            "item": "E218",
+            "count": "2989"
+          },
+          {
+            "item": "L106",
+            "count": "2867"
+          },
+          {
+            "item": "L114",
+            "count": "2841"
+          },
+          {
+            "item": "E217",
+            "count": "2794"
+          },
+          {
+            "item": "E205",
+            "count": "2712"
+          },
+          {
+            "item": "E023",
+            "count": "2655"
+          },
+          {
+            "item": "E221",
+            "count": "2544"
+          },
+          {
+            "item": "L110",
+            "count": "2531"
+          },
+          {
+            "item": "E224",
+            "count": "2468"
+          },
+          {
+            "item": "E066",
+            "count": "2429"
+          }
+        ],
+        "smallest": "B001",
+        "not_null": "270566",
+        "count": "496879",
+        "cardinality": "451"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "Borough",
+      "position": 3,
+      "cached_contents": {
+        "largest": "SI",
+        "non_null": "496879",
+        "null": "0",
+        "top": [
+          {
+            "item": "BK",
+            "count": "172795"
+          },
+          {
+            "item": "MN",
+            "count": "133953"
+          },
+          {
+            "item": "QN",
+            "count": "107802"
+          },
+          {
+            "item": "BX",
+            "count": "55668"
+          },
+          {
+            "item": "SI",
+            "count": "26661"
+          }
+        ],
+        "smallest": "BK",
+        "not_null": "270566",
+        "count": "496879",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "LATITUDE",
+      "data_type": "number",
+      "description": "Latitude of Building",
+      "position": 4,
+      "cached_contents": {
+        "largest": "40.914781",
+        "non_null": "389342",
+        "average": "40.71872035125744",
+        "null": "107537",
+        "top": [
+          {
+            "item": "40.863887",
+            "count": "413"
+          },
+          {
+            "item": "40.863903",
+            "count": "341"
+          },
+          {
+            "item": "40.684637",
+            "count": "271"
+          },
+          {
+            "item": "40.676135",
+            "count": "271"
+          },
+          {
+            "item": "40.55688",
+            "count": "267"
+          },
+          {
+            "item": "40.684513",
+            "count": "244"
+          },
+          {
+            "item": "40.743547",
+            "count": "243"
+          },
+          {
+            "item": "40.795616",
+            "count": "217"
+          },
+          {
+            "item": "40.755627",
+            "count": "215"
+          },
+          {
+            "item": "40.736313",
+            "count": "214"
+          },
+          {
+            "item": "40.76842",
+            "count": "197"
+          },
+          {
+            "item": "40.749149",
+            "count": "196"
+          },
+          {
+            "item": "40.601248",
+            "count": "170"
+          },
+          {
+            "item": "40.840696",
+            "count": "161"
+          },
+          {
+            "item": "40.747262",
+            "count": "157"
+          },
+          {
+            "item": "40.802885",
+            "count": "153"
+          },
+          {
+            "item": "40.808663",
+            "count": "153"
+          },
+          {
+            "item": "40.861623",
+            "count": "151"
+          },
+          {
+            "item": "40.593663",
+            "count": "150"
+          },
+          {
+            "item": "40.7956",
+            "count": "144"
+          }
+        ],
+        "smallest": "40.499204",
+        "not_null": "204171",
+        "count": "496879",
+        "sum": "7159735.474243000000016",
+        "cardinality": "73279"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "LONGITUDE",
+      "data_type": "number",
+      "description": "Longitude of Building",
+      "position": 5,
+      "cached_contents": {
+        "largest": "-73.701576",
+        "non_null": "389342",
+        "average": "-73.94503359474277",
+        "null": "107537",
+        "top": [
+          {
+            "item": "-73.827208",
+            "count": "413"
+          },
+          {
+            "item": "-73.827353",
+            "count": "341"
+          },
+          {
+            "item": "-73.976908",
+            "count": "274"
+          },
+          {
+            "item": "-73.773084",
+            "count": "271"
+          },
+          {
+            "item": "-73.920731",
+            "count": "268"
+          },
+          {
+            "item": "-73.973418",
+            "count": "243"
+          },
+          {
+            "item": "-73.976809",
+            "count": "243"
+          },
+          {
+            "item": "-73.930823",
+            "count": "217"
+          },
+          {
+            "item": "-73.757375",
+            "count": "215"
+          },
+          {
+            "item": "-73.817735",
+            "count": "214"
+          },
+          {
+            "item": "-73.983181",
+            "count": "197"
+          },
+          {
+            "item": "-73.989263",
+            "count": "192"
+          },
+          {
+            "item": "-74.150361",
+            "count": "164"
+          },
+          {
+            "item": "-73.941636",
+            "count": "161"
+          },
+          {
+            "item": "-73.843333",
+            "count": "157"
+          },
+          {
+            "item": "-73.955189",
+            "count": "154"
+          },
+          {
+            "item": "-73.961525",
+            "count": "153"
+          },
+          {
+            "item": "-73.885333",
+            "count": "152"
+          },
+          {
+            "item": "-74.000659",
+            "count": "150"
+          },
+          {
+            "item": "-73.930769",
+            "count": "145"
+          }
+        ],
+        "smallest": "-74.255169",
+        "not_null": "204171",
+        "count": "496879",
+        "sum": "-13002051.03709800000050",
+        "cardinality": "71166"
+      }
+    },
+    {
+      "field_name": "communitydistrict",
+      "display_name": "COMMUNITYDISTRICT",
+      "data_type": "number",
+      "description": "Community Board District of Building",
+      "position": 6,
+      "cached_contents": {
+        "largest": "595",
+        "non_null": "388351",
+        "average": "272.4228135627922",
+        "null": "108528",
+        "top": [
+          {
+            "item": "301",
+            "count": "16932"
+          },
+          {
+            "item": "105",
+            "count": "15623"
+          },
+          {
+            "item": "302",
+            "count": "13729"
+          },
+          {
+            "item": "102",
+            "count": "12942"
+          },
+          {
+            "item": "303",
+            "count": "12229"
+          },
+          {
+            "item": "108",
+            "count": "12199"
+          },
+          {
+            "item": "401",
+            "count": "11779"
+          },
+          {
+            "item": "101",
+            "count": "11674"
+          },
+          {
+            "item": "407",
+            "count": "10664"
+          },
+          {
+            "item": "107",
+            "count": "10330"
+          },
+          {
+            "item": "312",
+            "count": "10246"
+          },
+          {
+            "item": "306",
+            "count": "10202"
+          },
+          {
+            "item": "304",
+            "count": "9397"
+          },
+          {
+            "item": "104",
+            "count": "9364"
+          },
+          {
+            "item": "103",
+            "count": "8848"
+          },
+          {
+            "item": "307",
+            "count": "7874"
+          },
+          {
+            "item": "412",
+            "count": "7716"
+          },
+          {
+            "item": "402",
+            "count": "7648"
+          },
+          {
+            "item": "501",
+            "count": "7476"
+          },
+          {
+            "item": "106",
+            "count": "7436"
+          }
+        ],
+        "smallest": "101",
+        "not_null": "204171",
+        "count": "496879",
+        "sum": "47901193",
+        "cardinality": "70"
+      }
+    },
+    {
+      "field_name": "citycouncildistrict",
+      "display_name": "CITYCOUNCILDISTRICT",
+      "data_type": "number",
+      "description": "City Council District of Building",
+      "position": 7,
+      "cached_contents": {
+        "largest": "51",
+        "non_null": "388347",
+        "average": "24.57886984314751",
+        "null": "108532",
+        "top": [
+          {
+            "item": "1",
+            "count": "22247"
+          },
+          {
+            "item": "3",
+            "count": "20349"
+          },
+          {
+            "item": "33",
+            "count": "19313"
+          },
+          {
+            "item": "4",
+            "count": "19231"
+          },
+          {
+            "item": "34",
+            "count": "14889"
+          },
+          {
+            "item": "39",
+            "count": "11559"
+          },
+          {
+            "item": "26",
+            "count": "11358"
+          },
+          {
+            "item": "38",
+            "count": "11321"
+          },
+          {
+            "item": "36",
+            "count": "10597"
+          },
+          {
+            "item": "35",
+            "count": "10563"
+          },
+          {
+            "item": "2",
+            "count": "10294"
+          },
+          {
+            "item": "6",
+            "count": "9159"
+          },
+          {
+            "item": "9",
+            "count": "8679"
+          },
+          {
+            "item": "19",
+            "count": "8117"
+          },
+          {
+            "item": "8",
+            "count": "7890"
+          },
+          {
+            "item": "22",
+            "count": "7698"
+          },
+          {
+            "item": "37",
+            "count": "7457"
+          },
+          {
+            "item": "7",
+            "count": "7386"
+          },
+          {
+            "item": "51",
+            "count": "7314"
+          },
+          {
+            "item": "17",
+            "count": "7112"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "204171",
+        "count": "496879",
+        "sum": "4321801",
+        "cardinality": "52"
+      }
+    },
+    {
+      "field_name": "insptn_ops_detail",
+      "display_name": "INSPTN_OPS_DETAIL_PK",
+      "data_type": "number",
+      "description": "Inspection ID",
+      "position": 8,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "22984190",
+        "non_null": "496879",
+        "average": "4716519.008920389",
+        "null": "0",
+        "top": [
+          {
+            "item": "7128139",
+            "count": "1"
+          },
+          {
+            "item": "4183498",
+            "count": "1"
+          },
+          {
+            "item": "5233680",
+            "count": "1"
+          },
+          {
+            "item": "2089828",
+            "count": "1"
+          },
+          {
+            "item": "20804233",
+            "count": "1"
+          },
+          {
+            "item": "1257931",
+            "count": "1"
+          },
+          {
+            "item": "6857889",
+            "count": "1"
+          },
+          {
+            "item": "6871712",
+            "count": "1"
+          },
+          {
+            "item": "2757342",
+            "count": "1"
+          },
+          {
+            "item": "5556728",
+            "count": "1"
+          },
+          {
+            "item": "11748248",
+            "count": "1"
+          },
+          {
+            "item": "9065682",
+            "count": "1"
+          },
+          {
+            "item": "4405415",
+            "count": "1"
+          },
+          {
+            "item": "1608908",
+            "count": "1"
+          },
+          {
+            "item": "8757178",
+            "count": "1"
+          },
+          {
+            "item": "3316227",
+            "count": "1"
+          },
+          {
+            "item": "16410942",
+            "count": "1"
+          },
+          {
+            "item": "6487327",
+            "count": "1"
+          },
+          {
+            "item": "2511009",
+            "count": "1"
+          },
+          {
+            "item": "1381224",
+            "count": "1"
+          }
+        ],
+        "smallest": "364553",
+        "not_null": "270566",
+        "count": "496879",
+        "sum": "1065400329368",
+        "cardinality": "496879"
+      }
+    },
+    {
+      "field_name": "insp_inspect_dt_fk",
+      "display_name": "INSP_INSPECT_DT_FK",
+      "data_type": "calendar_date",
+      "description": "Date inspection was completed",
+      "position": 9,
+      "cached_contents": {
+        "largest": "2024-03-30T00:00:00.000",
+        "non_null": "496879",
+        "null": "0",
+        "top": [
+          {
+            "item": "2015-08-19T00:00:00.000",
+            "count": "1246"
+          },
+          {
+            "item": "2015-08-20T00:00:00.000",
+            "count": "1177"
+          },
+          {
+            "item": "2015-08-21T00:00:00.000",
+            "count": "1015"
+          },
+          {
+            "item": "2015-08-18T00:00:00.000",
+            "count": "820"
+          },
+          {
+            "item": "2015-08-26T00:00:00.000",
+            "count": "669"
+          },
+          {
+            "item": "2015-12-21T00:00:00.000",
+            "count": "587"
+          },
+          {
+            "item": "2015-08-24T00:00:00.000",
+            "count": "585"
+          },
+          {
+            "item": "2017-12-04T00:00:00.000",
+            "count": "498"
+          },
+          {
+            "item": "2016-12-12T00:00:00.000",
+            "count": "492"
+          },
+          {
+            "item": "2015-12-14T00:00:00.000",
+            "count": "491"
+          },
+          {
+            "item": "2017-11-20T00:00:00.000",
+            "count": "491"
+          },
+          {
+            "item": "2016-11-28T00:00:00.000",
+            "count": "485"
+          },
+          {
+            "item": "2017-11-27T00:00:00.000",
+            "count": "484"
+          },
+          {
+            "item": "2016-12-27T00:00:00.000",
+            "count": "482"
+          },
+          {
+            "item": "2016-12-05T00:00:00.000",
+            "count": "478"
+          },
+          {
+            "item": "2015-12-15T00:00:00.000",
+            "count": "478"
+          },
+          {
+            "item": "2013-12-30T00:00:00.000",
+            "count": "471"
+          },
+          {
+            "item": "2016-12-19T00:00:00.000",
+            "count": "455"
+          },
+          {
+            "item": "2016-11-21T00:00:00.000",
+            "count": "453"
+          },
+          {
+            "item": "2015-12-23T00:00:00.000",
+            "count": "450"
+          }
+        ],
+        "smallest": "2013-01-01T00:00:00.000",
+        "not_null": "270566",
+        "count": "496879",
+        "cardinality": "4074"
+      }
+    },
+    {
+      "field_name": "bldg_current_bin",
+      "display_name": "BLDG_CURRENT_BIN_FK",
+      "data_type": "number",
+      "description": "Building Identification Number",
+      "position": 10,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "5864469",
+        "non_null": "496879",
+        "average": "2916294.533992660",
+        "null": "0",
+        "top": [
+          {
+            "item": "2120098",
+            "count": "754"
+          },
+          {
+            "item": "3348849",
+            "count": "514"
+          },
+          {
+            "item": "1088112",
+            "count": "361"
+          },
+          {
+            "item": "1026318",
+            "count": "325"
+          },
+          {
+            "item": "3397152",
+            "count": "263"
+          },
+          {
+            "item": "4436354",
+            "count": "232"
+          },
+          {
+            "item": "3057470",
+            "count": "226"
+          },
+          {
+            "item": "1015190",
+            "count": "211"
+          },
+          {
+            "item": "5108454",
+            "count": "210"
+          },
+          {
+            "item": "1030544",
+            "count": "207"
+          },
+          {
+            "item": "4443103",
+            "count": "204"
+          },
+          {
+            "item": "1036153",
+            "count": "196"
+          },
+          {
+            "item": "1035383",
+            "count": "189"
+          },
+          {
+            "item": "1085588",
+            "count": "189"
+          },
+          {
+            "item": "4050415",
+            "count": "182"
+          },
+          {
+            "item": "4000822",
+            "count": "179"
+          },
+          {
+            "item": "1015683",
+            "count": "175"
+          },
+          {
+            "item": "3014856",
+            "count": "174"
+          },
+          {
+            "item": "3398505",
+            "count": "172"
+          },
+          {
+            "item": "1088631",
+            "count": "159"
+          }
+        ],
+        "smallest": "1000003",
+        "not_null": "270566",
+        "count": "496879",
+        "sum": "658753023400",
+        "cardinality": "81997"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "Building Block Lot",
+      "position": 11,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "5270000523",
+        "non_null": "402453",
+        "average": "2688499216.640387",
+        "null": "94426",
+        "top": [
+          {
+            "item": "4124950002",
+            "count": "619"
+          },
+          {
+            "item": "2051410006",
+            "count": "593"
+          },
+          {
+            "item": "3020017501",
+            "count": "433"
+          },
+          {
+            "item": "4065170001",
+            "count": "397"
+          },
+          {
+            "item": "4163500400",
+            "count": "395"
+          },
+          {
+            "item": "4074900002",
+            "count": "365"
+          },
+          {
+            "item": "1017160008",
+            "count": "361"
+          },
+          {
+            "item": "5020400001",
+            "count": "309"
+          },
+          {
+            "item": "1019730001",
+            "count": "293"
+          },
+          {
+            "item": "1009627501",
+            "count": "259"
+          },
+          {
+            "item": "2032730001",
+            "count": "252"
+          },
+          {
+            "item": "1010497501",
+            "count": "245"
+          },
+          {
+            "item": "5024400002",
+            "count": "239"
+          },
+          {
+            "item": "3020230001",
+            "count": "227"
+          },
+          {
+            "item": "3020020001",
+            "count": "226"
+          },
+          {
+            "item": "3064910011",
+            "count": "223"
+          },
+          {
+            "item": "2032220062",
+            "count": "215"
+          },
+          {
+            "item": "2051410003",
+            "count": "211"
+          },
+          {
+            "item": "1008080040",
+            "count": "211"
+          },
+          {
+            "item": "4036050001",
+            "count": "204"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "204462",
+        "count": "496879",
+        "sum": "474762076666526",
+        "cardinality": "71709"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:45:12.711824"
+}

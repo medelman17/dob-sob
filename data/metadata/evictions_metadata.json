@@ -1,0 +1,1693 @@
+{
+  "dataset_id": "6z8x-wfk4",
+  "name": "Evictions",
+  "description": "This dataset lists executed evictions within the five boroughs for the years 2017-Present (data prior to January 1, 2017, is not available). The data fields may be sorted by 20 categories of information including Court Index Number, Docket Number, Eviction Address, Marshal First or Last Name, Borough, etc.. \n \nEviction data is compiled from New York City Marshals. City Marshals are independent public officials appointed by the Mayor. Marshals can be contacted directly regarding evictions, and their contact information can be found at https://www1.nyc.gov/site/doi/offices/marshals-list.page.",
+  "agency": "Department of Investigation (DOI)",
+  "category": "City Government",
+  "tags": [
+    "evictions",
+    "doi",
+    "investigation"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Investigation (DOI)",
+  "created_at": "2016-08-01T20:09:44",
+  "updated_at": "2025-06-03T11:38:51",
+  "row_count": 1748950731,
+  "column_count": 20,
+  "download_count": 21020,
+  "view_count": 168041,
+  "columns": [
+    {
+      "field_name": "court_index_number",
+      "display_name": "Court Index Number",
+      "data_type": "text",
+      "description": "Number assigned by the court that has jurisdiction over the landlord/tenant proceedings. \n",
+      "width": 316,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "R 54008/15",
+        "null": "0",
+        "top": [
+          {
+            "item": "7997/18",
+            "count": "6"
+          },
+          {
+            "item": "62095/19",
+            "count": "6"
+          },
+          {
+            "item": "67381/17",
+            "count": "6"
+          },
+          {
+            "item": "308221/23",
+            "count": "5"
+          },
+          {
+            "item": "308641/22",
+            "count": "5"
+          },
+          {
+            "item": "310018/22",
+            "count": "5"
+          },
+          {
+            "item": "60936/17",
+            "count": "5"
+          },
+          {
+            "item": "52516/19",
+            "count": "5"
+          },
+          {
+            "item": "317061/23",
+            "count": "5"
+          },
+          {
+            "item": "71744/16",
+            "count": "4"
+          },
+          {
+            "item": "25631/17",
+            "count": "4"
+          },
+          {
+            "item": "50942/20",
+            "count": "4"
+          },
+          {
+            "item": "309246/23",
+            "count": "4"
+          },
+          {
+            "item": "51520/18",
+            "count": "4"
+          },
+          {
+            "item": "319523/23",
+            "count": "4"
+          },
+          {
+            "item": "50447/18",
+            "count": "4"
+          },
+          {
+            "item": "57948/19",
+            "count": "4"
+          },
+          {
+            "item": "52521/19",
+            "count": "4"
+          },
+          {
+            "item": "311608/22",
+            "count": "4"
+          },
+          {
+            "item": "312447/22",
+            "count": "4"
+          }
+        ],
+        "smallest": "000007/24A",
+        "count": "109952",
+        "cardinality": "101512"
+      }
+    },
+    {
+      "field_name": "docket_number",
+      "display_name": "Docket Number ",
+      "data_type": "text",
+      "description": "Number assigned by the City Marshal upon case intake. \n",
+      "width": 256,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "9999",
+        "null": "0",
+        "top": [
+          {
+            "item": "108472",
+            "count": "5"
+          },
+          {
+            "item": "23501",
+            "count": "5"
+          },
+          {
+            "item": "109421",
+            "count": "5"
+          },
+          {
+            "item": "114354",
+            "count": "5"
+          },
+          {
+            "item": "076598",
+            "count": "4"
+          },
+          {
+            "item": "111192",
+            "count": "4"
+          },
+          {
+            "item": "108060",
+            "count": "4"
+          },
+          {
+            "item": "106452",
+            "count": "4"
+          },
+          {
+            "item": "061637",
+            "count": "4"
+          },
+          {
+            "item": "108771",
+            "count": "4"
+          },
+          {
+            "item": "105127",
+            "count": "4"
+          },
+          {
+            "item": "006330",
+            "count": "4"
+          },
+          {
+            "item": "111724",
+            "count": "4"
+          },
+          {
+            "item": "097453",
+            "count": "4"
+          },
+          {
+            "item": "093406",
+            "count": "4"
+          },
+          {
+            "item": "099385",
+            "count": "4"
+          },
+          {
+            "item": "116385",
+            "count": "4"
+          },
+          {
+            "item": "108320",
+            "count": "4"
+          },
+          {
+            "item": "109955",
+            "count": "4"
+          },
+          {
+            "item": "079153",
+            "count": "4"
+          }
+        ],
+        "smallest": "000001",
+        "count": "109952",
+        "cardinality": "94557"
+      }
+    },
+    {
+      "field_name": "eviction_address",
+      "display_name": "Eviction Address",
+      "data_type": "text",
+      "description": "Identifies the street and building number where an eviction is pending or has been completed.\n",
+      "width": 292,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "WEST 4TH STREET  STA TION,SIXTH AVENUE & EIGHTH AVE-NEWSSTAND",
+        "null": "0",
+        "top": [
+          {
+            "item": "20 RICHMAN PLAZA",
+            "count": "89"
+          },
+          {
+            "item": "40 RICHMAN PLAZA",
+            "count": "83"
+          },
+          {
+            "item": "541 WEST 29TH STREET",
+            "count": "69"
+          },
+          {
+            "item": "10 RICHMAN PLAZA",
+            "count": "68"
+          },
+          {
+            "item": "605 WEST 42ND STREET",
+            "count": "65"
+          },
+          {
+            "item": "30 RICHMAN PLAZA",
+            "count": "55"
+          },
+          {
+            "item": "1420 GRAND CONCOURSE",
+            "count": "43"
+          },
+          {
+            "item": "98-38 57TH AVENUE",
+            "count": "41"
+          },
+          {
+            "item": "902 DREW STREET",
+            "count": "41"
+          },
+          {
+            "item": "240 LOTT AVENUE",
+            "count": "39"
+          },
+          {
+            "item": "98-32 57TH AVENUE",
+            "count": "38"
+          },
+          {
+            "item": "49-57 CROWN STREET",
+            "count": "38"
+          },
+          {
+            "item": "98-30 57TH AVENUE",
+            "count": "37"
+          },
+          {
+            "item": "645 WEST 44TH STREET",
+            "count": "36"
+          },
+          {
+            "item": "96-08 57TH AVENUE",
+            "count": "36"
+          },
+          {
+            "item": "75-25 153RD STREET",
+            "count": "35"
+          },
+          {
+            "item": "351 WEST 42ND STREET",
+            "count": "34"
+          },
+          {
+            "item": "97-28 57TH AVENUE",
+            "count": "34"
+          },
+          {
+            "item": "5030 BROADWAY",
+            "count": "34"
+          },
+          {
+            "item": "146 BEACH 59TH STREET",
+            "count": "33"
+          }
+        ],
+        "smallest": "100-02 205 PLACE",
+        "count": "109952",
+        "cardinality": "63511"
+      }
+    },
+    {
+      "field_name": "eviction_apt_num",
+      "display_name": "Eviction Apartment Number",
+      "data_type": "text",
+      "description": "Identifies the unit within the building where an eviction is pending or has been completed. \n",
+      "width": 292,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "93649",
+        "largest": "Z43",
+        "null": "16303",
+        "top": [
+          {
+            "item": "2",
+            "count": "2447"
+          },
+          {
+            "item": "1",
+            "count": "2186"
+          },
+          {
+            "item": "2ND FLOOR",
+            "count": "1262"
+          },
+          {
+            "item": "3",
+            "count": "1188"
+          },
+          {
+            "item": "BASEMENT",
+            "count": "1145"
+          },
+          {
+            "item": "2F",
+            "count": "1100"
+          },
+          {
+            "item": "2A",
+            "count": "1040"
+          },
+          {
+            "item": "2B",
+            "count": "1032"
+          },
+          {
+            "item": "1A",
+            "count": "1017"
+          },
+          {
+            "item": "2R",
+            "count": "1017"
+          },
+          {
+            "item": "3B",
+            "count": "1014"
+          },
+          {
+            "item": "1ST FLOOR",
+            "count": "967"
+          },
+          {
+            "item": "3A",
+            "count": "967"
+          },
+          {
+            "item": "1B",
+            "count": "937"
+          },
+          {
+            "item": "4A",
+            "count": "892"
+          },
+          {
+            "item": "4B",
+            "count": "883"
+          },
+          {
+            "item": "2C",
+            "count": "829"
+          },
+          {
+            "item": "3C",
+            "count": "809"
+          },
+          {
+            "item": "1F",
+            "count": "784"
+          },
+          {
+            "item": "4C",
+            "count": "765"
+          }
+        ],
+        "smallest": "`",
+        "count": "109952",
+        "cardinality": "10657"
+      }
+    },
+    {
+      "field_name": "executed_date",
+      "display_name": "Executed Date",
+      "data_type": "calendar_date",
+      "description": "The date that evictions have been executed. \n",
+      "width": 256,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "2025-05-30T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2018-01-09T00:00:00.000",
+            "count": "173"
+          },
+          {
+            "item": "2017-01-18T00:00:00.000",
+            "count": "169"
+          },
+          {
+            "item": "2018-01-08T00:00:00.000",
+            "count": "167"
+          },
+          {
+            "item": "2018-01-10T00:00:00.000",
+            "count": "158"
+          },
+          {
+            "item": "2017-02-14T00:00:00.000",
+            "count": "157"
+          },
+          {
+            "item": "2019-01-07T00:00:00.000",
+            "count": "151"
+          },
+          {
+            "item": "2018-01-03T00:00:00.000",
+            "count": "150"
+          },
+          {
+            "item": "2017-01-06T00:00:00.000",
+            "count": "150"
+          },
+          {
+            "item": "2017-03-16T00:00:00.000",
+            "count": "146"
+          },
+          {
+            "item": "2017-01-04T00:00:00.000",
+            "count": "144"
+          },
+          {
+            "item": "2018-01-11T00:00:00.000",
+            "count": "142"
+          },
+          {
+            "item": "2019-01-03T00:00:00.000",
+            "count": "136"
+          },
+          {
+            "item": "2018-08-20T00:00:00.000",
+            "count": "135"
+          },
+          {
+            "item": "2018-06-01T00:00:00.000",
+            "count": "134"
+          },
+          {
+            "item": "2018-01-17T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2018-08-28T00:00:00.000",
+            "count": "132"
+          },
+          {
+            "item": "2024-01-04T00:00:00.000",
+            "count": "131"
+          },
+          {
+            "item": "2020-01-07T00:00:00.000",
+            "count": "131"
+          },
+          {
+            "item": "2018-05-07T00:00:00.000",
+            "count": "130"
+          },
+          {
+            "item": "2017-06-22T00:00:00.000",
+            "count": "130"
+          }
+        ],
+        "smallest": "2017-01-03T00:00:00.000",
+        "count": "109952",
+        "cardinality": "1731"
+      }
+    },
+    {
+      "field_name": "marshal_first_name",
+      "display_name": "Marshal First Name",
+      "data_type": "text",
+      "description": "Identifies the first name of the NYC Marshal who performed the eviction or who is scheduled to perform the eviction. \n",
+      "width": 220,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "Vadim",
+        "null": "0",
+        "top": [
+          {
+            "item": "Justin",
+            "count": "18746"
+          },
+          {
+            "item": "Edward",
+            "count": "10070"
+          },
+          {
+            "item": "Ileana",
+            "count": "9622"
+          },
+          {
+            "item": "Henry",
+            "count": "8333"
+          },
+          {
+            "item": "Richard",
+            "count": "7984"
+          },
+          {
+            "item": "Thomas",
+            "count": "7487"
+          },
+          {
+            "item": "Darlene",
+            "count": "6747"
+          },
+          {
+            "item": "Robert",
+            "count": "6139"
+          },
+          {
+            "item": "David",
+            "count": "5963"
+          },
+          {
+            "item": "George",
+            "count": "5886"
+          },
+          {
+            "item": "Danny",
+            "count": "5350"
+          },
+          {
+            "item": "Gary",
+            "count": "3607"
+          },
+          {
+            "item": "Maxine",
+            "count": "1870"
+          },
+          {
+            "item": "Alfred",
+            "count": "1809"
+          },
+          {
+            "item": "Kenneth",
+            "count": "1654"
+          },
+          {
+            "item": "Salavatore",
+            "count": "1532"
+          },
+          {
+            "item": "Ronald",
+            "count": "1337"
+          },
+          {
+            "item": "Howard",
+            "count": "1142"
+          },
+          {
+            "item": "John",
+            "count": "816"
+          },
+          {
+            "item": "Vadim",
+            "count": "804"
+          }
+        ],
+        "smallest": "Alfred",
+        "count": "109952",
+        "cardinality": "27"
+      }
+    },
+    {
+      "field_name": "marshal_last_name",
+      "display_name": "Marshal Last Name",
+      "data_type": "text",
+      "description": "Identifies the last name of the NYC Marshal who performed the eviction or who is scheduled to perform the eviction. \n",
+      "width": 208,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "Weinheim",
+        "null": "0",
+        "top": [
+          {
+            "item": "Grossman",
+            "count": "18746"
+          },
+          {
+            "item": "Guida",
+            "count": "10070"
+          },
+          {
+            "item": "Rivera",
+            "count": "9622"
+          },
+          {
+            "item": "Daley",
+            "count": "8333"
+          },
+          {
+            "item": "Bia",
+            "count": "7487"
+          },
+          {
+            "item": "Barone",
+            "count": "6747"
+          },
+          {
+            "item": "Renzulli",
+            "count": "6021"
+          },
+          {
+            "item": "Smith",
+            "count": "5963"
+          },
+          {
+            "item": "Weinheim",
+            "count": "5350"
+          },
+          {
+            "item": "McCoy",
+            "count": "4894"
+          },
+          {
+            "item": "Essock, Jr.",
+            "count": "4469"
+          },
+          {
+            "item": "Rose",
+            "count": "3808"
+          },
+          {
+            "item": "Capuano",
+            "count": "2868"
+          },
+          {
+            "item": "Chevlowe",
+            "count": "1870"
+          },
+          {
+            "item": "Locascio",
+            "count": "1809"
+          },
+          {
+            "item": "Giachetta",
+            "count": "1654"
+          },
+          {
+            "item": "Giglio",
+            "count": "1532"
+          },
+          {
+            "item": "Essock",
+            "count": "1417"
+          },
+          {
+            "item": "Pazant",
+            "count": "1337"
+          },
+          {
+            "item": "Schain",
+            "count": "1142"
+          }
+        ],
+        "smallest": "Barbarovich",
+        "count": "109952",
+        "cardinality": "30"
+      }
+    },
+    {
+      "field_name": "residential_commercial_ind",
+      "display_name": "Residential/Commercial",
+      "data_type": "text",
+      "description": "Identifies the property type where the eviction is pending or has been completed. \n",
+      "width": 412,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "Residential",
+        "null": "0",
+        "top": [
+          {
+            "item": "Residential",
+            "count": "99986"
+          },
+          {
+            "item": "Commercial",
+            "count": "9966"
+          }
+        ],
+        "smallest": "Commercial",
+        "count": "109952",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "description": "Identifies the NYC borough where the eviction is pending or has been completed. \n",
+      "width": 184,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "STATEN ISLAND",
+        "null": "0",
+        "top": [
+          {
+            "item": "BRONX",
+            "count": "34995"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "31366"
+          },
+          {
+            "item": "QUEENS",
+            "count": "21413"
+          },
+          {
+            "item": "MANHATTAN",
+            "count": "18160"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "4018"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "109952",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "eviction_zip",
+      "display_name": "Eviction Postcode",
+      "data_type": "text",
+      "description": "Identifies the NYC zip code where the eviction is pending or has been completed. \n",
+      "width": 244,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "19458",
+        "null": "0",
+        "top": [
+          {
+            "item": "10467",
+            "count": "3039"
+          },
+          {
+            "item": "10458",
+            "count": "2860"
+          },
+          {
+            "item": "10456",
+            "count": "2604"
+          },
+          {
+            "item": "10453",
+            "count": "2582"
+          },
+          {
+            "item": "10457",
+            "count": "2432"
+          },
+          {
+            "item": "11226",
+            "count": "2355"
+          },
+          {
+            "item": "11212",
+            "count": "2291"
+          },
+          {
+            "item": "10468",
+            "count": "2270"
+          },
+          {
+            "item": "11207",
+            "count": "2231"
+          },
+          {
+            "item": "10452",
+            "count": "2113"
+          },
+          {
+            "item": "10460",
+            "count": "2104"
+          },
+          {
+            "item": "11208",
+            "count": "1973"
+          },
+          {
+            "item": "11233",
+            "count": "1812"
+          },
+          {
+            "item": "10462",
+            "count": "1685"
+          },
+          {
+            "item": "11203",
+            "count": "1670"
+          },
+          {
+            "item": "10466",
+            "count": "1658"
+          },
+          {
+            "item": "10459",
+            "count": "1590"
+          },
+          {
+            "item": "10472",
+            "count": "1496"
+          },
+          {
+            "item": "11213",
+            "count": "1459"
+          },
+          {
+            "item": "10451",
+            "count": "1448"
+          }
+        ],
+        "smallest": "00000",
+        "count": "109952",
+        "cardinality": "254"
+      }
+    },
+    {
+      "field_name": "ejectment",
+      "display_name": "Ejectment",
+      "data_type": "text",
+      "description": "An action in ejectment is a way for a landlord to obtain possession of a residence and may be started in either Civil or Supreme Court.",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "Not an Ejectment",
+        "null": "0",
+        "top": [
+          {
+            "item": "Not an Ejectment",
+            "count": "109873"
+          },
+          {
+            "item": "Ejectment",
+            "count": "79"
+          }
+        ],
+        "smallest": "Ejectment",
+        "count": "109952",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "eviction_possession",
+      "display_name": "Eviction/Legal Possession",
+      "data_type": "text",
+      "description": "Process by which a warrant of eviction is executed.  Landlord may request an eviction whereby the tenant and his/her property are removed by a marshal, or a legal possession whereby the tenant is removed and his/her property remains under the care and control of the landlord as bailee for the tenant.",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "109952",
+        "largest": "Unspecified",
+        "null": "0",
+        "top": [
+          {
+            "item": "Possession",
+            "count": "108387"
+          },
+          {
+            "item": "Eviction",
+            "count": "1564"
+          },
+          {
+            "item": "Unspecified",
+            "count": "1"
+          }
+        ],
+        "smallest": "Eviction",
+        "count": "109952",
+        "cardinality": "3"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "text",
+      "description": "The latitude associated with the provided entity location.",
+      "position": 15,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "40.912869",
+        "null": "9818",
+        "top": [
+          {
+            "item": "40.595996",
+            "count": "136"
+          },
+          {
+            "item": "40.851719",
+            "count": "89"
+          },
+          {
+            "item": "40.852084",
+            "count": "83"
+          },
+          {
+            "item": "40.760960",
+            "count": "69"
+          },
+          {
+            "item": "40.752059",
+            "count": "69"
+          },
+          {
+            "item": "40.851533",
+            "count": "68"
+          },
+          {
+            "item": "40.851999",
+            "count": "55"
+          },
+          {
+            "item": "40.736848",
+            "count": "52"
+          },
+          {
+            "item": "40.645358",
+            "count": "46"
+          },
+          {
+            "item": "40.826123",
+            "count": "43"
+          },
+          {
+            "item": "40.839249",
+            "count": "43"
+          },
+          {
+            "item": "40.667286",
+            "count": "42"
+          },
+          {
+            "item": "40.883981",
+            "count": "42"
+          },
+          {
+            "item": "40.590420",
+            "count": "42"
+          },
+          {
+            "item": "40.738060",
+            "count": "41"
+          },
+          {
+            "item": "40.667823",
+            "count": "41"
+          },
+          {
+            "item": "40.628828",
+            "count": "40"
+          },
+          {
+            "item": "40.875146",
+            "count": "40"
+          },
+          {
+            "item": "40.705517",
+            "count": "40"
+          },
+          {
+            "item": "40.575048",
+            "count": "39"
+          }
+        ],
+        "smallest": "40.499050",
+        "count": "109952",
+        "cardinality": "42160"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "text",
+      "description": "The longitude associated with the provided entity location.",
+      "position": 16,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "-74.251262",
+        "null": "9818",
+        "top": [
+          {
+            "item": "-73.742187",
+            "count": "141"
+          },
+          {
+            "item": "-73.922780",
+            "count": "89"
+          },
+          {
+            "item": "-73.922436",
+            "count": "83"
+          },
+          {
+            "item": "-73.998617",
+            "count": "69"
+          },
+          {
+            "item": "-74.002862",
+            "count": "69"
+          },
+          {
+            "item": "-73.922961",
+            "count": "69"
+          },
+          {
+            "item": "-73.922515",
+            "count": "55"
+          },
+          {
+            "item": "-73.865062",
+            "count": "52"
+          },
+          {
+            "item": "-74.080729",
+            "count": "46"
+          },
+          {
+            "item": "-73.855483",
+            "count": "43"
+          },
+          {
+            "item": "-73.913448",
+            "count": "43"
+          },
+          {
+            "item": "-73.861040",
+            "count": "43"
+          },
+          {
+            "item": "-73.788731",
+            "count": "42"
+          },
+          {
+            "item": "-73.866196",
+            "count": "42"
+          },
+          {
+            "item": "-73.959905",
+            "count": "41"
+          },
+          {
+            "item": "-73.861069",
+            "count": "41"
+          },
+          {
+            "item": "-73.860490",
+            "count": "41"
+          },
+          {
+            "item": "-73.862616",
+            "count": "40"
+          },
+          {
+            "item": "-73.802501",
+            "count": "40"
+          },
+          {
+            "item": "-74.074387",
+            "count": "40"
+          }
+        ],
+        "smallest": "-73.701430",
+        "count": "109952",
+        "cardinality": "41248"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "text",
+      "description": "The NYC community board associated with the provided entity location.",
+      "position": 17,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "9",
+        "null": "9818",
+        "top": [
+          {
+            "item": "12",
+            "count": "11067"
+          },
+          {
+            "item": "5",
+            "count": "9769"
+          },
+          {
+            "item": "4",
+            "count": "8712"
+          },
+          {
+            "item": "9",
+            "count": "7720"
+          },
+          {
+            "item": "3",
+            "count": "7653"
+          },
+          {
+            "item": "1",
+            "count": "7333"
+          },
+          {
+            "item": "7",
+            "count": "7138"
+          },
+          {
+            "item": "10",
+            "count": "5453"
+          },
+          {
+            "item": "8",
+            "count": "5413"
+          },
+          {
+            "item": "11",
+            "count": "5189"
+          },
+          {
+            "item": "6",
+            "count": "4822"
+          },
+          {
+            "item": "2",
+            "count": "4382"
+          },
+          {
+            "item": "14",
+            "count": "4239"
+          },
+          {
+            "item": "17",
+            "count": "3703"
+          },
+          {
+            "item": "13",
+            "count": "2537"
+          },
+          {
+            "item": "16",
+            "count": "2237"
+          },
+          {
+            "item": "18",
+            "count": "1707"
+          },
+          {
+            "item": "15",
+            "count": "1060"
+          }
+        ],
+        "smallest": "1",
+        "count": "109952",
+        "cardinality": "18"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "text",
+      "description": "The NYC council district associated with the provided entity location.",
+      "position": 18,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "9",
+        "null": "9818",
+        "top": [
+          {
+            "item": "15",
+            "count": "5757"
+          },
+          {
+            "item": "17",
+            "count": "4940"
+          },
+          {
+            "item": "14",
+            "count": "4608"
+          },
+          {
+            "item": "16",
+            "count": "4499"
+          },
+          {
+            "item": "9",
+            "count": "3577"
+          },
+          {
+            "item": "42",
+            "count": "3574"
+          },
+          {
+            "item": "8",
+            "count": "3494"
+          },
+          {
+            "item": "41",
+            "count": "3472"
+          },
+          {
+            "item": "18",
+            "count": "3197"
+          },
+          {
+            "item": "12",
+            "count": "3172"
+          },
+          {
+            "item": "11",
+            "count": "3170"
+          },
+          {
+            "item": "10",
+            "count": "2843"
+          },
+          {
+            "item": "40",
+            "count": "2683"
+          },
+          {
+            "item": "45",
+            "count": "2599"
+          },
+          {
+            "item": "36",
+            "count": "2589"
+          },
+          {
+            "item": "31",
+            "count": "2540"
+          },
+          {
+            "item": "37",
+            "count": "2338"
+          },
+          {
+            "item": "49",
+            "count": "2255"
+          },
+          {
+            "item": "3",
+            "count": "2237"
+          },
+          {
+            "item": "27",
+            "count": "2169"
+          }
+        ],
+        "smallest": "1",
+        "count": "109952",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "census_tract",
+      "display_name": "Census Tract",
+      "data_type": "text",
+      "description": "The US census tract associated with the provided entity location.",
+      "position": 19,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "99802",
+        "null": "9818",
+        "top": [
+          {
+            "item": "455",
+            "count": "577"
+          },
+          {
+            "item": "279",
+            "count": "470"
+          },
+          {
+            "item": "363",
+            "count": "443"
+          },
+          {
+            "item": "265",
+            "count": "442"
+          },
+          {
+            "item": "431",
+            "count": "431"
+          },
+          {
+            "item": "393",
+            "count": "419"
+          },
+          {
+            "item": "218",
+            "count": "406"
+          },
+          {
+            "item": "189",
+            "count": "400"
+          },
+          {
+            "item": "185",
+            "count": "398"
+          },
+          {
+            "item": "261",
+            "count": "393"
+          },
+          {
+            "item": "263",
+            "count": "386"
+          },
+          {
+            "item": "225",
+            "count": "381"
+          },
+          {
+            "item": "253",
+            "count": "376"
+          },
+          {
+            "item": "241",
+            "count": "374"
+          },
+          {
+            "item": "277",
+            "count": "374"
+          },
+          {
+            "item": "53",
+            "count": "368"
+          },
+          {
+            "item": "385",
+            "count": "359"
+          },
+          {
+            "item": "230",
+            "count": "359"
+          },
+          {
+            "item": "391",
+            "count": "354"
+          },
+          {
+            "item": "273",
+            "count": "353"
+          }
+        ],
+        "smallest": "1",
+        "count": "109952",
+        "cardinality": "1297"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "description": "The Building Identification Number (BIN) associated with the provided entity location. It is formatted as a seven-digit numerical identifier, which is unique to each building in NYC.",
+      "position": 20,
+      "cached_contents": {
+        "non_null": "99825",
+        "largest": "5171959",
+        "null": "10127",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "267"
+          },
+          {
+            "item": "2000000",
+            "count": "217"
+          },
+          {
+            "item": "4000000",
+            "count": "149"
+          },
+          {
+            "item": "4298968",
+            "count": "136"
+          },
+          {
+            "item": "1000000",
+            "count": "106"
+          },
+          {
+            "item": "2127134",
+            "count": "89"
+          },
+          {
+            "item": "2113629",
+            "count": "83"
+          },
+          {
+            "item": "3326600",
+            "count": "79"
+          },
+          {
+            "item": "1080331",
+            "count": "69"
+          },
+          {
+            "item": "1089438",
+            "count": "69"
+          },
+          {
+            "item": "2093973",
+            "count": "68"
+          },
+          {
+            "item": "3253907",
+            "count": "64"
+          },
+          {
+            "item": "2113628",
+            "count": "57"
+          },
+          {
+            "item": "2004223",
+            "count": "50"
+          },
+          {
+            "item": "5108502",
+            "count": "46"
+          },
+          {
+            "item": "3189540",
+            "count": "43"
+          },
+          {
+            "item": "2092773",
+            "count": "43"
+          },
+          {
+            "item": "2007988",
+            "count": "43"
+          },
+          {
+            "item": "4459305",
+            "count": "42"
+          },
+          {
+            "item": "2013027",
+            "count": "42"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "109952",
+        "cardinality": "43872"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "text",
+      "description": "The Borough, Block, Lot (BBL) associated with the provided entity location. It is formatted as a ten-digit numerical identifier, which is unique to each parcel of real property in NYC.",
+      "position": 21,
+      "cached_contents": {
+        "non_null": "99825",
+        "largest": "5080490021",
+        "null": "10127",
+        "top": [
+          {
+            "item": "2028820229",
+            "count": "297"
+          },
+          {
+            "item": "2051410120",
+            "count": "236"
+          },
+          {
+            "item": "4124950002",
+            "count": "224"
+          },
+          {
+            "item": "2039447501",
+            "count": "188"
+          },
+          {
+            "item": "4159260001",
+            "count": "168"
+          },
+          {
+            "item": "2039437501",
+            "count": "150"
+          },
+          {
+            "item": "4156100001",
+            "count": "136"
+          },
+          {
+            "item": "3036280001",
+            "count": "118"
+          },
+          {
+            "item": "3042719001",
+            "count": "111"
+          },
+          {
+            "item": "2045060040",
+            "count": "101"
+          },
+          {
+            "item": "2045060001",
+            "count": "93"
+          },
+          {
+            "item": "2039387501",
+            "count": "91"
+          },
+          {
+            "item": "2026187501",
+            "count": "83"
+          },
+          {
+            "item": "3049640040",
+            "count": "82"
+          },
+          {
+            "item": "3049810001",
+            "count": "82"
+          },
+          {
+            "item": "3049670040",
+            "count": "82"
+          },
+          {
+            "item": "5000130008",
+            "count": "78"
+          },
+          {
+            "item": "5012720011",
+            "count": "78"
+          },
+          {
+            "item": "2051350051",
+            "count": "77"
+          },
+          {
+            "item": "1017370025",
+            "count": "77"
+          }
+        ],
+        "smallest": "0",
+        "count": "109952",
+        "cardinality": "41407"
+      }
+    },
+    {
+      "field_name": "nta",
+      "display_name": "NTA",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area (NTA) associated with the provided entity location.",
+      "position": 22,
+      "cached_contents": {
+        "non_null": "100134",
+        "largest": "Yorkville",
+        "null": "9818",
+        "top": [
+          {
+            "item": "East New York",
+            "count": "2168"
+          },
+          {
+            "item": "Central Harlem North-Polo Grounds",
+            "count": "2122"
+          },
+          {
+            "item": "Crown Heights North",
+            "count": "2121"
+          },
+          {
+            "item": "East Concourse-Concourse Village",
+            "count": "1920"
+          },
+          {
+            "item": "Bedford Park-Fordham North",
+            "count": "1888"
+          },
+          {
+            "item": "Williamsbridge-Olinville",
+            "count": "1878"
+          },
+          {
+            "item": "Mount Hope",
+            "count": "1679"
+          },
+          {
+            "item": "Flatbush",
+            "count": "1632"
+          },
+          {
+            "item": "University Heights-Morris Heights",
+            "count": "1631"
+          },
+          {
+            "item": "East Tremont",
+            "count": "1434"
+          },
+          {
+            "item": "Prospect Lefferts Gardens-Wingate",
+            "count": "1429"
+          },
+          {
+            "item": "Morrisania-Melrose",
+            "count": "1397"
+          },
+          {
+            "item": "Brownsville",
+            "count": "1378"
+          },
+          {
+            "item": "Washington Heights South",
+            "count": "1366"
+          },
+          {
+            "item": "Rugby-Remsen Village",
+            "count": "1248"
+          },
+          {
+            "item": "Mott Haven-Port Morris",
+            "count": "1225"
+          },
+          {
+            "item": "West Concourse",
+            "count": "1170"
+          },
+          {
+            "item": "Van Cortlandt Village",
+            "count": "1134"
+          },
+          {
+            "item": "Norwood",
+            "count": "1114"
+          },
+          {
+            "item": "East Flatbush-Farragut",
+            "count": "1086"
+          }
+        ],
+        "smallest": "Allerton-Pelham Gardens",
+        "count": "109952",
+        "cardinality": "191"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:22.793581"
+}

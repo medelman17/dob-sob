@@ -1,0 +1,1059 @@
+{
+  "dataset_id": "2k3g-r445",
+  "name": "DCWP Fines and Fees (Historical)",
+  "description": "<b>NOTE:</b> This dataset reflects data as of 7/21/2023. The Department of Consumer and Worker Protection (DCWP) is working on an updated version of this dataset.\n\nAll fees charged by DCWP for services and, all fines issued by an administrative judge resulting from violations.",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "compliance",
+    "renewal",
+    "application",
+    "license",
+    "license replacement request",
+    "change of name",
+    "foil request",
+    "change of address",
+    "withdrawal request",
+    "change of address - premise",
+    "change of officer",
+    "legal",
+    "change of address - mailing",
+    "notification",
+    "change of unit",
+    "amendment",
+    "consent fee",
+    "darp",
+    "rotow",
+    "enrollment",
+    "vehicle",
+    "invoice",
+    "credited."
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2019-01-23T18:36:22",
+  "updated_at": "2023-10-11T13:49:58",
+  "row_count": 1697032198,
+  "column_count": 11,
+  "download_count": 6415,
+  "view_count": 6528,
+  "columns": [
+    {
+      "field_name": "record_id",
+      "display_name": "RECORD ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCA for internal tracking purposes",
+      "width": 208,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "WS000222924-ADJC",
+        "null": "0",
+        "top": [
+          {
+            "item": "0511718-ABGO",
+            "count": "3095"
+          },
+          {
+            "item": "0511102-ABGO",
+            "count": "2672"
+          },
+          {
+            "item": "0511692-ABGO",
+            "count": "2240"
+          },
+          {
+            "item": "1105518-ABGO",
+            "count": "2205"
+          },
+          {
+            "item": "1000630-ABGO",
+            "count": "2151"
+          },
+          {
+            "item": "1000624-ABGO",
+            "count": "1740"
+          },
+          {
+            "item": "0510275-ABGO",
+            "count": "1654"
+          },
+          {
+            "item": "0511689-ABGO",
+            "count": "1639"
+          },
+          {
+            "item": "0511715-ABGO",
+            "count": "1489"
+          },
+          {
+            "item": "1000614-ABGO",
+            "count": "1483"
+          },
+          {
+            "item": "0511663-ABGO",
+            "count": "1471"
+          },
+          {
+            "item": "0511158-ABGO",
+            "count": "1440"
+          },
+          {
+            "item": "0511771-ABGO",
+            "count": "1435"
+          },
+          {
+            "item": "0511697-ABGO",
+            "count": "1425"
+          },
+          {
+            "item": "0917917-ABGO",
+            "count": "1424"
+          },
+          {
+            "item": "0511700-ABGO",
+            "count": "1394"
+          },
+          {
+            "item": "0511642-ABGO",
+            "count": "1393"
+          },
+          {
+            "item": "0511769-ABGO",
+            "count": "1332"
+          },
+          {
+            "item": "0511770-ABGO",
+            "count": "1321"
+          },
+          {
+            "item": "0511690-ABGO",
+            "count": "1278"
+          }
+        ],
+        "smallest": "000001-2015-CFSW",
+        "count": "2652568",
+        "cardinality": "1336774"
+      }
+    },
+    {
+      "field_name": "record_type",
+      "display_name": "RECORD TYPE",
+      "data_type": "text",
+      "description": "The type of record used by DCA to track internal operations",
+      "width": 232,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "Withdrawal Request",
+        "null": "0",
+        "top": [
+          {
+            "item": "Application",
+            "count": "888904"
+          },
+          {
+            "item": "Renewal",
+            "count": "866281"
+          },
+          {
+            "item": "Adjudication",
+            "count": "561872"
+          },
+          {
+            "item": "Enforcement",
+            "count": "213815"
+          },
+          {
+            "item": "Amendment",
+            "count": "44707"
+          },
+          {
+            "item": "Consent Fee",
+            "count": "38995"
+          },
+          {
+            "item": "License Replacement Request",
+            "count": "11249"
+          },
+          {
+            "item": "Collections",
+            "count": "10943"
+          },
+          {
+            "item": "Change of Unit",
+            "count": "6082"
+          },
+          {
+            "item": "Change of Address - Premise",
+            "count": "5120"
+          },
+          {
+            "item": "Change of Name",
+            "count": "1816"
+          },
+          {
+            "item": "Appeal",
+            "count": "1639"
+          },
+          {
+            "item": "DARP ROTOW Enrollment",
+            "count": "390"
+          },
+          {
+            "item": "Change of Officer",
+            "count": "328"
+          },
+          {
+            "item": "License",
+            "count": "244"
+          },
+          {
+            "item": "FOIL Request",
+            "count": "122"
+          },
+          {
+            "item": "Change of Address",
+            "count": "25"
+          },
+          {
+            "item": "Compliance",
+            "count": "10"
+          },
+          {
+            "item": "Notification",
+            "count": "7"
+          },
+          {
+            "item": "Change of Address - Mailing",
+            "count": "5"
+          }
+        ],
+        "smallest": "Adjudication",
+        "count": "2652568",
+        "cardinality": "26"
+      }
+    },
+    {
+      "field_name": "business_name",
+      "display_name": "BUSINESS NAME",
+      "data_type": "text",
+      "description": "Primary business or Individual name",
+      "width": 256,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "2646187",
+        "largest": "ZZZ CARPENTRY, INC.",
+        "null": "6381",
+        "top": [
+          {
+            "item": "PELHAM PARKWAY LITTLE LEAGUE",
+            "count": "6500"
+          },
+          {
+            "item": "PELHAM PARKWAY LITTLE LEAGUE MEN'S AUXILIARY",
+            "count": "5795"
+          },
+          {
+            "item": "DUANE READE",
+            "count": "5647"
+          },
+          {
+            "item": "PELHAM PARKWAY BABE RUTH LEAGUE",
+            "count": "5525"
+          },
+          {
+            "item": "PELHAM PARKWAY LITTLE LEAGUE LADIES AUXILIARY",
+            "count": "5213"
+          },
+          {
+            "item": "SOCCER WORLD LEAGUE, INC.",
+            "count": "5093"
+          },
+          {
+            "item": "PELHAM PARKWAY BABE RUTH LEAGUE MEN'S AUXILIARY",
+            "count": "4951"
+          },
+          {
+            "item": "ROMANIAN ORTHODOX CHURCH SS. CONSTANTINE AND HELEN CHURCH",
+            "count": "4501"
+          },
+          {
+            "item": "RITE AID OF NEW YORK, INC.",
+            "count": "4487"
+          },
+          {
+            "item": "RADIOSHACK CORPORATION",
+            "count": "3892"
+          },
+          {
+            "item": "T-MOBILE NORTHEAST LLC",
+            "count": "3654"
+          },
+          {
+            "item": "CVS ALBANY, L.L.C",
+            "count": "2706"
+          },
+          {
+            "item": "MORRIS PARK BOXING CLUB, INC.",
+            "count": "2632"
+          },
+          {
+            "item": "CRESCENT HALL, INC.",
+            "count": "2549"
+          },
+          {
+            "item": "PATHMARK STORES, INC.",
+            "count": "2493"
+          },
+          {
+            "item": "SOCIETY OF ST PAUL THE APOSTLE",
+            "count": "2440"
+          },
+          {
+            "item": "ASSOCIATION OF THE HOLY SPIRIT AND OF OUR LADY OF CHARITY",
+            "count": "2396"
+          },
+          {
+            "item": "BARTOW HALL INC.",
+            "count": "2271"
+          },
+          {
+            "item": "CHURCH OF THE HOLY SPIRIT AND OF OUR LADY OF CHARITY",
+            "count": "2232"
+          },
+          {
+            "item": "CENTRAL PARKING SYSTEM OF NEW YORK,INC.",
+            "count": "2192"
+          }
+        ],
+        "smallest": "/",
+        "count": "2652568",
+        "cardinality": "326805"
+      }
+    },
+    {
+      "field_name": "business_name2",
+      "display_name": "BUSINESS NAME2",
+      "data_type": "text",
+      "description": "If applicable, the Doing-Business-As (DBA), or trade name",
+      "width": 268,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "663084",
+        "largest": "Z Z WATERPROOFING",
+        "null": "1989484",
+        "top": [
+          {
+            "item": "BRONXDALE HALL INC",
+            "count": "12142"
+          },
+          {
+            "item": "LLOYD BUSINESS LTD",
+            "count": "7274"
+          },
+          {
+            "item": "CRESCENT HALL INC",
+            "count": "6851"
+          },
+          {
+            "item": "MASPETH HALL",
+            "count": "6577"
+          },
+          {
+            "item": "FIFTH HALL CORP",
+            "count": "5787"
+          },
+          {
+            "item": "WASHINGTON HEIGHTS ARCADE",
+            "count": "5578"
+          },
+          {
+            "item": "RICHMOND HILL HALL",
+            "count": "5524"
+          },
+          {
+            "item": "WEST SIDE HALL INC",
+            "count": "5397"
+          },
+          {
+            "item": "WEST SIDE HALL",
+            "count": "4535"
+          },
+          {
+            "item": "SPIMOS ENTERPRISES INC (ASTORIA BINGO)",
+            "count": "4501"
+          },
+          {
+            "item": "PELHAM PARKWAY BABE RUTH LADIES AUXILIARY",
+            "count": "3800"
+          },
+          {
+            "item": "BARTOW HALL INC",
+            "count": "3255"
+          },
+          {
+            "item": "JAMAICA HALL INC",
+            "count": "3169"
+          },
+          {
+            "item": "BHC HIGHWAY CORP",
+            "count": "2867"
+          },
+          {
+            "item": "KEY FOOD",
+            "count": "2787"
+          },
+          {
+            "item": "TOP RECREATION CENTER",
+            "count": "2653"
+          },
+          {
+            "item": "T-MOBILE",
+            "count": "2225"
+          },
+          {
+            "item": "HOLY ROSARY CHURCH HALL",
+            "count": "2218"
+          },
+          {
+            "item": "MOBIL",
+            "count": "2175"
+          },
+          {
+            "item": "GULF",
+            "count": "2126"
+          }
+        ],
+        "smallest": "`",
+        "count": "2652568",
+        "cardinality": "64398"
+      }
+    },
+    {
+      "field_name": "industry",
+      "display_name": "INDUSTRY",
+      "data_type": "text",
+      "description": "The category that describes the business",
+      "width": 196,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "2604051",
+        "largest": "Wholesale Food Market - 718",
+        "null": "48517",
+        "top": [
+          {
+            "item": "Home Improvement Contractor - 100",
+            "count": "399281"
+          },
+          {
+            "item": "Bingo Game Operator - 089",
+            "count": "212376"
+          },
+          {
+            "item": "Home Improvement Salesperson - 101",
+            "count": "200482"
+          },
+          {
+            "item": "Tobacco Retail Dealer",
+            "count": "200080"
+          },
+          {
+            "item": "Grocery-Retail - 808",
+            "count": "177927"
+          },
+          {
+            "item": "Cigarette Retail Dealer - 127",
+            "count": "116342"
+          },
+          {
+            "item": "Secondhand Dealer [General] - 006",
+            "count": "106547"
+          },
+          {
+            "item": "Sidewalk Cafe - 013",
+            "count": "77702"
+          },
+          {
+            "item": "Electronic Store - 001",
+            "count": "67641"
+          },
+          {
+            "item": "General Vendor - 094",
+            "count": "66392"
+          },
+          {
+            "item": "Stoop Line Stand - 033",
+            "count": "61652"
+          },
+          {
+            "item": "Tow Truck Driver - 125",
+            "count": "59026"
+          },
+          {
+            "item": "Temporary Street Fair Vendor Permit - 111",
+            "count": "55177"
+          },
+          {
+            "item": "Supermarket  - 819",
+            "count": "53811"
+          },
+          {
+            "item": "Laundry - 064",
+            "count": "50219"
+          },
+          {
+            "item": "Locksmith - 062",
+            "count": "45300"
+          },
+          {
+            "item": "Sightseeing Guide - 021",
+            "count": "45135"
+          },
+          {
+            "item": "Electronic Cigarette Dealer",
+            "count": "42363"
+          },
+          {
+            "item": "Electronic & Home Appliance Service Dealer - 115",
+            "count": "41570"
+          },
+          {
+            "item": "Process Server (Individual) - 110",
+            "count": "37756"
+          }
+        ],
+        "smallest": "003",
+        "count": "2652568",
+        "cardinality": "130"
+      }
+    },
+    {
+      "field_name": "fee_sequence_id",
+      "display_name": "FEE SEQUENCE ID",
+      "data_type": "number",
+      "description": "The unique system-generated identification number for the DCA fine or fee",
+      "format": "standard",
+      "width": 280,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "3672533",
+        "null": "0",
+        "top": [
+          {
+            "item": "112513",
+            "count": "2"
+          },
+          {
+            "item": "1652384",
+            "count": "2"
+          },
+          {
+            "item": "857477",
+            "count": "1"
+          },
+          {
+            "item": "1222314",
+            "count": "1"
+          },
+          {
+            "item": "2053404",
+            "count": "1"
+          },
+          {
+            "item": "3152560",
+            "count": "1"
+          },
+          {
+            "item": "1367410",
+            "count": "1"
+          },
+          {
+            "item": "92845",
+            "count": "1"
+          },
+          {
+            "item": "2792260",
+            "count": "1"
+          },
+          {
+            "item": "1562817",
+            "count": "1"
+          },
+          {
+            "item": "394683",
+            "count": "1"
+          },
+          {
+            "item": "554740",
+            "count": "1"
+          },
+          {
+            "item": "1381224",
+            "count": "1"
+          },
+          {
+            "item": "3023263",
+            "count": "1"
+          },
+          {
+            "item": "3201920",
+            "count": "1"
+          },
+          {
+            "item": "432829",
+            "count": "1"
+          },
+          {
+            "item": "3363550",
+            "count": "1"
+          },
+          {
+            "item": "680628",
+            "count": "1"
+          },
+          {
+            "item": "1583051",
+            "count": "1"
+          },
+          {
+            "item": "1395199",
+            "count": "1"
+          }
+        ],
+        "smallest": "2",
+        "count": "2652568",
+        "cardinality": "2652566"
+      }
+    },
+    {
+      "field_name": "fee_type",
+      "display_name": "FEE TYPE",
+      "data_type": "text",
+      "description": "The code associated with the DCA fine or fee",
+      "width": 196,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "ZERORAFFLE",
+        "null": "0",
+        "top": [
+          {
+            "item": "RENEWAL",
+            "count": "724237"
+          },
+          {
+            "item": "LICENSE",
+            "count": "533541"
+          },
+          {
+            "item": "TRUSTFUNDHIC",
+            "count": "157426"
+          },
+          {
+            "item": "CNV_SI",
+            "count": "127132"
+          },
+          {
+            "item": "FINGERPRINT",
+            "count": "114446"
+          },
+          {
+            "item": "LL VIO",
+            "count": "88315"
+          },
+          {
+            "item": "CL VIO",
+            "count": "83779"
+          },
+          {
+            "item": "OL VIO",
+            "count": "79482"
+          },
+          {
+            "item": "PL VIO",
+            "count": "66969"
+          },
+          {
+            "item": "CNV_TFEE",
+            "count": "59266"
+          },
+          {
+            "item": "TP VIO",
+            "count": "49789"
+          },
+          {
+            "item": "SCALE-01",
+            "count": "48699"
+          },
+          {
+            "item": "SS VIO",
+            "count": "43088"
+          },
+          {
+            "item": "TS VIO",
+            "count": "40105"
+          },
+          {
+            "item": "WH VIO",
+            "count": "33169"
+          },
+          {
+            "item": "DCA-SUS",
+            "count": "28029"
+          },
+          {
+            "item": "EXAMHIC",
+            "count": "21980"
+          },
+          {
+            "item": "SWC-CON",
+            "count": "21000"
+          },
+          {
+            "item": "WM VIO",
+            "count": "20251"
+          },
+          {
+            "item": "BLUEDOT",
+            "count": "20173"
+          }
+        ],
+        "smallest": "ADDLPED",
+        "count": "2652568",
+        "cardinality": "168"
+      }
+    },
+    {
+      "field_name": "fee_description",
+      "display_name": "FEE DESCRIPTION",
+      "data_type": "text",
+      "description": "The description \u00a0associated with the DCA fine or fee",
+      "width": 280,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "WTS 5LBS TO 25 LBS",
+        "null": "0",
+        "top": [
+          {
+            "item": "Per Game License Fee",
+            "count": "159046"
+          },
+          {
+            "item": "Home Improvement Contractor Trust Fund Enrollment Fee",
+            "count": "157426"
+          },
+          {
+            "item": "SI - Certificate of Inspection fee (scales)",
+            "count": "127132"
+          },
+          {
+            "item": "Home Improvement Contractor License Renewal Fee",
+            "count": "120523"
+          },
+          {
+            "item": "Fingerprint Fee",
+            "count": "114446"
+          },
+          {
+            "item": "Home Improvement Salesperson Renewal Fee",
+            "count": "107694"
+          },
+          {
+            "item": "LL - License Violation",
+            "count": "88315"
+          },
+          {
+            "item": "CL - Consumer Law Violation",
+            "count": "83779"
+          },
+          {
+            "item": "OL - Other Violation",
+            "count": "79482"
+          },
+          {
+            "item": "PL - Padlock Violation",
+            "count": "66969"
+          },
+          {
+            "item": "WT and WH - Transaction Fee",
+            "count": "59266"
+          },
+          {
+            "item": "CRD Renewal Fee",
+            "count": "52755"
+          },
+          {
+            "item": "Temporary Street Fair Vendor License Fee",
+            "count": "51185"
+          },
+          {
+            "item": "TP - Tobacco Fine Violation",
+            "count": "49789"
+          },
+          {
+            "item": "SCALE TO 33 LBS",
+            "count": "48699"
+          },
+          {
+            "item": "Secondhand Dealer General License Renewal Fee",
+            "count": "46945"
+          },
+          {
+            "item": "Home Improvement Contractor License Fee",
+            "count": "44675"
+          },
+          {
+            "item": "SS - State Surcharge (Tobacco)",
+            "count": "43088"
+          },
+          {
+            "item": "Home Improvement Salesperson License Fee",
+            "count": "42063"
+          },
+          {
+            "item": "TS - State Fines (Tobacco)",
+            "count": "40105"
+          }
+        ],
+        "smallest": "Additional License Fee for Las Vegas Games (GC-7)",
+        "count": "2652568",
+        "cardinality": "345"
+      }
+    },
+    {
+      "field_name": "fee_amount",
+      "display_name": "FEE AMOUNT",
+      "data_type": "number",
+      "description": "Dollar amount issued for the DCA fine or fee",
+      "format": "currency",
+      "width": 220,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "525000000.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "50.0",
+            "count": "262828"
+          },
+          {
+            "item": "100.0",
+            "count": "212541"
+          },
+          {
+            "item": "200.0",
+            "count": "205507"
+          },
+          {
+            "item": "340.0",
+            "count": "168654"
+          },
+          {
+            "item": "75.0",
+            "count": "129417"
+          },
+          {
+            "item": "20.0",
+            "count": "121780"
+          },
+          {
+            "item": "110.0",
+            "count": "93244"
+          },
+          {
+            "item": "250.0",
+            "count": "71357"
+          },
+          {
+            "item": "500.0",
+            "count": "67890"
+          },
+          {
+            "item": "10.0",
+            "count": "63005"
+          },
+          {
+            "item": "150.0",
+            "count": "59655"
+          },
+          {
+            "item": "25.0",
+            "count": "45431"
+          },
+          {
+            "item": "40.0",
+            "count": "44747"
+          },
+          {
+            "item": "750.0",
+            "count": "36361"
+          },
+          {
+            "item": "600.0",
+            "count": "32732"
+          },
+          {
+            "item": "1000.0",
+            "count": "31730"
+          },
+          {
+            "item": "300.0",
+            "count": "29562"
+          },
+          {
+            "item": "175.0",
+            "count": "27838"
+          },
+          {
+            "item": "85.0",
+            "count": "27090"
+          },
+          {
+            "item": "18.75",
+            "count": "26103"
+          }
+        ],
+        "smallest": "-456.0",
+        "count": "2652568",
+        "cardinality": "37581"
+      }
+    },
+    {
+      "field_name": "fee_date",
+      "display_name": "FEE DATE",
+      "data_type": "calendar_date",
+      "description": "Date when the DCA fine or fee was applied to the record",
+      "width": 196,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "2023-07-21T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-02-21T00:00:00.000",
+            "count": "2207"
+          },
+          {
+            "item": "2014-02-25T00:00:00.000",
+            "count": "2061"
+          },
+          {
+            "item": "2020-03-03T00:00:00.000",
+            "count": "1809"
+          },
+          {
+            "item": "2015-04-10T00:00:00.000",
+            "count": "1797"
+          },
+          {
+            "item": "2019-03-06T00:00:00.000",
+            "count": "1787"
+          },
+          {
+            "item": "2018-03-01T00:00:00.000",
+            "count": "1778"
+          },
+          {
+            "item": "2019-04-10T00:00:00.000",
+            "count": "1623"
+          },
+          {
+            "item": "2018-04-10T00:00:00.000",
+            "count": "1605"
+          },
+          {
+            "item": "2011-02-14T00:00:00.000",
+            "count": "1593"
+          },
+          {
+            "item": "2012-03-01T00:00:00.000",
+            "count": "1574"
+          },
+          {
+            "item": "2015-02-19T00:00:00.000",
+            "count": "1552"
+          },
+          {
+            "item": "2013-03-08T00:00:00.000",
+            "count": "1544"
+          },
+          {
+            "item": "2017-02-28T00:00:00.000",
+            "count": "1496"
+          },
+          {
+            "item": "2017-02-27T00:00:00.000",
+            "count": "1413"
+          },
+          {
+            "item": "2020-04-10T00:00:00.000",
+            "count": "1387"
+          },
+          {
+            "item": "2014-12-15T00:00:00.000",
+            "count": "1363"
+          },
+          {
+            "item": "2019-02-28T00:00:00.000",
+            "count": "1355"
+          },
+          {
+            "item": "2011-09-13T00:00:00.000",
+            "count": "1323"
+          },
+          {
+            "item": "2009-04-07T00:00:00.000",
+            "count": "1261"
+          },
+          {
+            "item": "2016-11-29T00:00:00.000",
+            "count": "1247"
+          }
+        ],
+        "smallest": "1985-03-06T00:00:00.000",
+        "count": "2652568",
+        "cardinality": "9523"
+      }
+    },
+    {
+      "field_name": "fee_status",
+      "display_name": "FEE STATUS",
+      "data_type": "text",
+      "description": "Status for the DCA fine or fee",
+      "width": 220,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "2652568",
+        "largest": "VOIDED",
+        "null": "0",
+        "top": [
+          {
+            "item": "INVOICED",
+            "count": "2414928"
+          },
+          {
+            "item": "CREDITED",
+            "count": "216491"
+          },
+          {
+            "item": "VOIDED",
+            "count": "18296"
+          },
+          {
+            "item": "NEW",
+            "count": "2853"
+          }
+        ],
+        "smallest": "CREDITED",
+        "count": "2652568",
+        "cardinality": "4"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.257700"
+}

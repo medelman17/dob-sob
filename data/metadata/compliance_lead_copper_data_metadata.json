@@ -1,0 +1,672 @@
+{
+  "dataset_id": "3wxk-qa8q",
+  "name": "Compliance at-the-tap Lead and Copper Data",
+  "description": "At-the-tap samples tested for lead and copper",
+  "agency": "Department of Environmental Protection (DEP)",
+  "category": "Environment",
+  "tags": [
+    "lead",
+    "copper",
+    "water quality"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Environmental Protection (DEP)",
+  "created_at": "2018-02-23T16:02:08",
+  "updated_at": "2024-01-16T17:48:04",
+  "row_count": 1705427284,
+  "column_count": 7,
+  "download_count": 1891,
+  "view_count": 3302,
+  "columns": [
+    {
+      "field_name": "kit_id_number",
+      "display_name": "KIT ID Number",
+      "data_type": "number",
+      "description": "Identification number assigned to kit",
+      "position": 1,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "231100881",
+        "non_null": "3943",
+        "average": "16894498.54763211",
+        "null": "0",
+        "top": [
+          {
+            "item": "17142109",
+            "count": "1"
+          },
+          {
+            "item": "17141972",
+            "count": "1"
+          },
+          {
+            "item": "18149415",
+            "count": "1"
+          },
+          {
+            "item": "18149721",
+            "count": "1"
+          },
+          {
+            "item": "231100743",
+            "count": "1"
+          },
+          {
+            "item": "16129713",
+            "count": "1"
+          },
+          {
+            "item": "20169911",
+            "count": "1"
+          },
+          {
+            "item": "231100674",
+            "count": "1"
+          },
+          {
+            "item": "151377",
+            "count": "1"
+          },
+          {
+            "item": "16129774",
+            "count": "1"
+          },
+          {
+            "item": "21180001",
+            "count": "1"
+          },
+          {
+            "item": "19160778",
+            "count": "1"
+          },
+          {
+            "item": "18149876",
+            "count": "1"
+          },
+          {
+            "item": "22190493",
+            "count": "1"
+          },
+          {
+            "item": "18149389",
+            "count": "1"
+          },
+          {
+            "item": "16129506",
+            "count": "1"
+          },
+          {
+            "item": "16129251",
+            "count": "1"
+          },
+          {
+            "item": "16129518",
+            "count": "1"
+          },
+          {
+            "item": "17142237",
+            "count": "1"
+          },
+          {
+            "item": "20170085",
+            "count": "1"
+          }
+        ],
+        "smallest": "151365",
+        "count": "3943",
+        "sum": "92396012557",
+        "cardinality": "3943"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "Borough where sample was collected",
+      "position": 2,
+      "cached_contents": {
+        "largest": "STATEN ISLAND",
+        "non_null": "3943",
+        "null": "0",
+        "top": [
+          {
+            "item": "STATEN ISLAND",
+            "count": "1050"
+          },
+          {
+            "item": "QUEENS",
+            "count": "921"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "638"
+          },
+          {
+            "item": "Staten Island",
+            "count": "460"
+          },
+          {
+            "item": "Queens",
+            "count": "385"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "308"
+          },
+          {
+            "item": "BRONX",
+            "count": "117"
+          },
+          {
+            "item": "Bronx",
+            "count": "49"
+          },
+          {
+            "item": "Manhattan",
+            "count": "12"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "3"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "3943",
+        "cardinality": "10"
+      }
+    },
+    {
+      "field_name": "zipcode",
+      "display_name": "Zipcode",
+      "data_type": "number",
+      "description": "Zipcode of location where sample was collected",
+      "position": 3,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "11694",
+        "non_null": "3943",
+        "average": "10835.34905832876",
+        "null": "0",
+        "top": [
+          {
+            "item": "10309",
+            "count": "337"
+          },
+          {
+            "item": "10306",
+            "count": "256"
+          },
+          {
+            "item": "10312",
+            "count": "252"
+          },
+          {
+            "item": "10314",
+            "count": "217"
+          },
+          {
+            "item": "10308",
+            "count": "189"
+          },
+          {
+            "item": "11358",
+            "count": "136"
+          },
+          {
+            "item": "11234",
+            "count": "100"
+          },
+          {
+            "item": "11385",
+            "count": "90"
+          },
+          {
+            "item": "11432",
+            "count": "85"
+          },
+          {
+            "item": "11375",
+            "count": "84"
+          },
+          {
+            "item": "11361",
+            "count": "76"
+          },
+          {
+            "item": "11212",
+            "count": "75"
+          },
+          {
+            "item": "11354",
+            "count": "70"
+          },
+          {
+            "item": "11224",
+            "count": "69"
+          },
+          {
+            "item": "10304",
+            "count": "61"
+          },
+          {
+            "item": "10305",
+            "count": "60"
+          },
+          {
+            "item": "11379",
+            "count": "59"
+          },
+          {
+            "item": "11228",
+            "count": "56"
+          },
+          {
+            "item": "11217",
+            "count": "50"
+          },
+          {
+            "item": "11691",
+            "count": "49"
+          }
+        ],
+        "smallest": "10010",
+        "count": "3943",
+        "sum": "59258524",
+        "cardinality": "112"
+      }
+    },
+    {
+      "field_name": "date_collected",
+      "display_name": "Date Collected",
+      "data_type": "calendar_date",
+      "description": "date sample was collected",
+      "position": 4,
+      "cached_contents": {
+        "largest": "2023-09-27T10:00:00.000",
+        "non_null": "3943",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-06-08T00:00:00.000",
+            "count": "59"
+          },
+          {
+            "item": "2017-06-07T00:00:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2016-06-07T00:00:00.000",
+            "count": "52"
+          },
+          {
+            "item": "2018-06-08T00:00:00.000",
+            "count": "51"
+          },
+          {
+            "item": "2015-06-05T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2016-06-06T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2019-06-10T00:00:00.000",
+            "count": "43"
+          },
+          {
+            "item": "2015-06-04T00:00:00.000",
+            "count": "42"
+          },
+          {
+            "item": "2018-06-06T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2018-06-07T00:00:00.000",
+            "count": "38"
+          },
+          {
+            "item": "2017-06-09T00:00:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2019-06-11T00:00:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2016-06-08T00:00:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2016-06-09T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2019-06-13T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2017-06-10T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2019-06-12T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2019-06-09T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2016-06-10T00:00:00.000",
+            "count": "25"
+          },
+          {
+            "item": "2018-06-11T00:00:00.000",
+            "count": "25"
+          }
+        ],
+        "smallest": "2014-06-07T00:00:00.000",
+        "count": "3943",
+        "cardinality": "1745"
+      }
+    },
+    {
+      "field_name": "received_date",
+      "display_name": "Received Date",
+      "data_type": "calendar_date",
+      "description": "date sample was received by DEP",
+      "position": 5,
+      "cached_contents": {
+        "largest": "2023-10-04T09:49:50.000",
+        "non_null": "3943",
+        "null": "0",
+        "top": [
+          {
+            "item": "2016-06-09T00:00:00.000",
+            "count": "112"
+          },
+          {
+            "item": "2015-06-09T00:00:00.000",
+            "count": "83"
+          },
+          {
+            "item": "2016-06-13T00:00:00.000",
+            "count": "72"
+          },
+          {
+            "item": "2017-06-13T00:00:00.000",
+            "count": "69"
+          },
+          {
+            "item": "2017-06-09T00:00:00.000",
+            "count": "66"
+          },
+          {
+            "item": "2018-06-11T00:00:00.000",
+            "count": "60"
+          },
+          {
+            "item": "2019-06-17T00:00:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2018-06-12T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2017-06-14T00:00:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2019-06-11T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2014-06-17T00:00:00.000",
+            "count": "43"
+          },
+          {
+            "item": "2019-06-12T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2019-06-13T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2018-06-15T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2019-06-19T00:00:00.000",
+            "count": "38"
+          },
+          {
+            "item": "2017-06-19T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2015-06-16T00:00:00.000",
+            "count": "31"
+          },
+          {
+            "item": "2019-06-24T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2016-06-10T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2017-06-12T00:00:00.000",
+            "count": "27"
+          }
+        ],
+        "smallest": "2014-06-11T00:00:00.000",
+        "count": "3943",
+        "cardinality": "1789"
+      }
+    },
+    {
+      "field_name": "first_draw_at_the_tap_lead",
+      "display_name": "First Draw at-the-tap Lead level (\u00b5g/l)",
+      "data_type": "number",
+      "description": "Concentration of lead in the first draw sample",
+      "position": 6,
+      "cached_contents": {
+        "largest": "4960",
+        "non_null": "3943",
+        "average": "3.345689339915890",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "1330"
+          },
+          {
+            "item": "2",
+            "count": "465"
+          },
+          {
+            "item": "1",
+            "count": "325"
+          },
+          {
+            "item": "3",
+            "count": "290"
+          },
+          {
+            "item": "4",
+            "count": "288"
+          },
+          {
+            "item": "5",
+            "count": "258"
+          },
+          {
+            "item": "6",
+            "count": "163"
+          },
+          {
+            "item": "7",
+            "count": "148"
+          },
+          {
+            "item": "8",
+            "count": "98"
+          },
+          {
+            "item": "9",
+            "count": "91"
+          },
+          {
+            "item": "11",
+            "count": "71"
+          },
+          {
+            "item": "10",
+            "count": "55"
+          },
+          {
+            "item": "12",
+            "count": "47"
+          },
+          {
+            "item": "13",
+            "count": "26"
+          },
+          {
+            "item": "15",
+            "count": "22"
+          },
+          {
+            "item": "14",
+            "count": "22"
+          },
+          {
+            "item": "16",
+            "count": "22"
+          },
+          {
+            "item": "17",
+            "count": "17"
+          },
+          {
+            "item": "18",
+            "count": "16"
+          },
+          {
+            "item": "19",
+            "count": "15"
+          }
+        ],
+        "smallest": "0",
+        "count": "3943",
+        "sum": "18297.575",
+        "cardinality": "94"
+      }
+    },
+    {
+      "field_name": "first_draw_at_the_tap_copper",
+      "display_name": "First Draw at-the-tap copper level (mg/l)",
+      "data_type": "number",
+      "description": "Concentration of copper in the first draw sample",
+      "position": 7,
+      "cached_contents": {
+        "largest": "18.17",
+        "non_null": "3943",
+        "average": "0.1551396964710185",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.114",
+            "count": "47"
+          },
+          {
+            "item": "0.097",
+            "count": "43"
+          },
+          {
+            "item": "0.131",
+            "count": "41"
+          },
+          {
+            "item": "0.110",
+            "count": "39"
+          },
+          {
+            "item": "0.141",
+            "count": "38"
+          },
+          {
+            "item": "0.123",
+            "count": "38"
+          },
+          {
+            "item": "0.124",
+            "count": "37"
+          },
+          {
+            "item": "0.116",
+            "count": "37"
+          },
+          {
+            "item": "0.122",
+            "count": "37"
+          },
+          {
+            "item": "0.111",
+            "count": "36"
+          },
+          {
+            "item": "0.112",
+            "count": "36"
+          },
+          {
+            "item": "0.120",
+            "count": "36"
+          },
+          {
+            "item": "0.115",
+            "count": "36"
+          },
+          {
+            "item": "0.145",
+            "count": "35"
+          },
+          {
+            "item": "0.108",
+            "count": "35"
+          },
+          {
+            "item": "0.109",
+            "count": "35"
+          },
+          {
+            "item": "0.113",
+            "count": "34"
+          },
+          {
+            "item": "0.102",
+            "count": "34"
+          },
+          {
+            "item": "0.121",
+            "count": "34"
+          },
+          {
+            "item": "0.129",
+            "count": "34"
+          }
+        ],
+        "smallest": "0.003",
+        "count": "3943",
+        "sum": "848.459",
+        "cardinality": "345"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:45:12.429920"
+}

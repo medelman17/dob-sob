@@ -1,0 +1,1129 @@
+{
+  "dataset_id": "k5us-nav4",
+  "name": "Free Residential at-the-tap Lead and Copper Data",
+  "description": "At-the-tap samples tested for lead and copper",
+  "agency": "Department of Environmental Protection (DEP)",
+  "category": "Environment",
+  "tags": [
+    "lead",
+    "copper",
+    "water quality"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Environmental Protection (DEP)",
+  "created_at": "2018-02-23T15:54:35",
+  "updated_at": "2024-01-16T17:46:36",
+  "row_count": 1705427196,
+  "column_count": 11,
+  "download_count": 1783,
+  "view_count": 3773,
+  "columns": [
+    {
+      "field_name": "kit_id",
+      "display_name": "Kit ID",
+      "data_type": "number",
+      "description": "Identification number assigned to kit\n",
+      "format": "standard",
+      "width": 172,
+      "position": 1,
+      "default_value": "true",
+      "cached_contents": {
+        "largest": "233110628",
+        "non_null": "35205",
+        "average": "16722152.62308471",
+        "null": "0",
+        "top": [
+          {
+            "item": "14222352",
+            "count": "2"
+          },
+          {
+            "item": "18254227",
+            "count": "1"
+          },
+          {
+            "item": "20276278",
+            "count": "1"
+          },
+          {
+            "item": "21280523",
+            "count": "1"
+          },
+          {
+            "item": "18349974",
+            "count": "1"
+          },
+          {
+            "item": "16226773",
+            "count": "1"
+          },
+          {
+            "item": "23298269",
+            "count": "1"
+          },
+          {
+            "item": "23298011",
+            "count": "1"
+          },
+          {
+            "item": "18247134",
+            "count": "1"
+          },
+          {
+            "item": "18251874",
+            "count": "1"
+          },
+          {
+            "item": "16235687",
+            "count": "1"
+          },
+          {
+            "item": "16226955",
+            "count": "1"
+          },
+          {
+            "item": "16227062",
+            "count": "1"
+          },
+          {
+            "item": "17239930",
+            "count": "1"
+          },
+          {
+            "item": "21284232",
+            "count": "1"
+          },
+          {
+            "item": "16228100",
+            "count": "1"
+          },
+          {
+            "item": "20275199",
+            "count": "1"
+          },
+          {
+            "item": "232105646",
+            "count": "1"
+          },
+          {
+            "item": "19261351",
+            "count": "1"
+          },
+          {
+            "item": "22295955",
+            "count": "1"
+          }
+        ],
+        "smallest": "1410052",
+        "count": "35205",
+        "sum": "247738691111",
+        "cardinality": "35204"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "Borough where sample was collected\n",
+      "width": 184,
+      "position": 2,
+      "cached_contents": {
+        "largest": "YONKERS",
+        "non_null": "35205",
+        "null": "0",
+        "top": [
+          {
+            "item": "BROOKLYN",
+            "count": "7294"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "6007"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "5921"
+          },
+          {
+            "item": "Manhattan",
+            "count": "4866"
+          },
+          {
+            "item": "Queens",
+            "count": "4009"
+          },
+          {
+            "item": "BRONX",
+            "count": "1181"
+          },
+          {
+            "item": "Bronx",
+            "count": "948"
+          },
+          {
+            "item": "QUEENS",
+            "count": "919"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "670"
+          },
+          {
+            "item": "Staten Island",
+            "count": "448"
+          },
+          {
+            "item": "ASTORIA",
+            "count": "392"
+          },
+          {
+            "item": "RIDGEWOOD",
+            "count": "276"
+          },
+          {
+            "item": "FOREST HILLS",
+            "count": "241"
+          },
+          {
+            "item": "FLUSHING",
+            "count": "199"
+          },
+          {
+            "item": "JACKSON HEIGHTS",
+            "count": "159"
+          },
+          {
+            "item": "JAMAICA",
+            "count": "157"
+          },
+          {
+            "item": "LONG ISLAND CITY",
+            "count": "139"
+          },
+          {
+            "item": "SUNNYSIDE",
+            "count": "127"
+          },
+          {
+            "item": "WOODSIDE",
+            "count": "114"
+          },
+          {
+            "item": "BAYSIDE",
+            "count": "83"
+          }
+        ],
+        "smallest": "ARVERNE",
+        "count": "35205",
+        "cardinality": "53"
+      }
+    },
+    {
+      "field_name": "zipcode",
+      "display_name": "Zipcode",
+      "data_type": "text",
+      "description": "Zipcode of location where sample was collected\n",
+      "width": 184,
+      "position": 3,
+      "cached_contents": {
+        "largest": "12345",
+        "non_null": "35205",
+        "null": "0",
+        "top": [
+          {
+            "item": "11215",
+            "count": "1448"
+          },
+          {
+            "item": "11238",
+            "count": "850"
+          },
+          {
+            "item": "10025",
+            "count": "845"
+          },
+          {
+            "item": "11201",
+            "count": "734"
+          },
+          {
+            "item": "11222",
+            "count": "699"
+          },
+          {
+            "item": "11385",
+            "count": "682"
+          },
+          {
+            "item": "10024",
+            "count": "672"
+          },
+          {
+            "item": "11217",
+            "count": "639"
+          },
+          {
+            "item": "10023",
+            "count": "610"
+          },
+          {
+            "item": "11218",
+            "count": "595"
+          },
+          {
+            "item": "11216",
+            "count": "592"
+          },
+          {
+            "item": "11231",
+            "count": "562"
+          },
+          {
+            "item": "11375",
+            "count": "554"
+          },
+          {
+            "item": "11226",
+            "count": "553"
+          },
+          {
+            "item": "11225",
+            "count": "509"
+          },
+          {
+            "item": "11211",
+            "count": "475"
+          },
+          {
+            "item": "11209",
+            "count": "467"
+          },
+          {
+            "item": "10011",
+            "count": "456"
+          },
+          {
+            "item": "11221",
+            "count": "446"
+          },
+          {
+            "item": "10003",
+            "count": "428"
+          }
+        ],
+        "smallest": "10000",
+        "count": "35205",
+        "cardinality": "191"
+      }
+    },
+    {
+      "field_name": "date_collected",
+      "display_name": "Date Collected",
+      "data_type": "calendar_date",
+      "description": "date sample was collected\n",
+      "width": 268,
+      "position": 4,
+      "cached_contents": {
+        "largest": "2023-12-30T10:28:00.000",
+        "non_null": "35205",
+        "null": "0",
+        "top": [
+          {
+            "item": "2016-03-18T00:00:00.000",
+            "count": "189"
+          },
+          {
+            "item": "2016-04-05T00:00:00.000",
+            "count": "67"
+          },
+          {
+            "item": "2016-03-22T00:00:00.000",
+            "count": "56"
+          },
+          {
+            "item": "2016-04-03T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2016-04-09T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2018-10-04T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2016-04-04T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2016-04-11T00:00:00.000",
+            "count": "52"
+          },
+          {
+            "item": "2016-04-08T00:00:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2016-03-21T00:00:00.000",
+            "count": "49"
+          },
+          {
+            "item": "2018-10-01T00:00:00.000",
+            "count": "49"
+          },
+          {
+            "item": "2016-04-12T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2016-04-06T00:00:00.000",
+            "count": "44"
+          },
+          {
+            "item": "2016-03-23T00:00:00.000",
+            "count": "43"
+          },
+          {
+            "item": "2018-09-30T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2018-10-05T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2018-10-03T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2016-04-24T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2018-10-08T00:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2016-04-18T00:00:00.000",
+            "count": "40"
+          }
+        ],
+        "smallest": "2014-01-01T00:00:00.000",
+        "count": "35205",
+        "cardinality": "14897"
+      }
+    },
+    {
+      "field_name": "date_received",
+      "display_name": "Date Received",
+      "data_type": "calendar_date",
+      "description": "date sample was received by DEP",
+      "width": 256,
+      "position": 5,
+      "cached_contents": {
+        "largest": "2024-01-02T13:01:45.000",
+        "non_null": "35205",
+        "null": "0",
+        "top": [
+          {
+            "item": "2016-03-19T00:00:00.000",
+            "count": "175"
+          },
+          {
+            "item": "2016-03-28T00:00:00.000",
+            "count": "170"
+          },
+          {
+            "item": "2016-04-15T00:00:00.000",
+            "count": "131"
+          },
+          {
+            "item": "2016-04-08T00:00:00.000",
+            "count": "111"
+          },
+          {
+            "item": "2018-10-02T00:00:00.000",
+            "count": "93"
+          },
+          {
+            "item": "2016-04-12T00:00:00.000",
+            "count": "88"
+          },
+          {
+            "item": "2017-03-21T00:00:00.000",
+            "count": "86"
+          },
+          {
+            "item": "2018-10-09T00:00:00.000",
+            "count": "83"
+          },
+          {
+            "item": "2018-10-04T00:00:00.000",
+            "count": "82"
+          },
+          {
+            "item": "2019-10-08T00:00:00.000",
+            "count": "71"
+          },
+          {
+            "item": "2016-05-02T00:00:00.000",
+            "count": "70"
+          },
+          {
+            "item": "2017-02-27T00:00:00.000",
+            "count": "67"
+          },
+          {
+            "item": "2016-04-19T00:00:00.000",
+            "count": "66"
+          },
+          {
+            "item": "2020-11-02T00:00:00.000",
+            "count": "65"
+          },
+          {
+            "item": "2016-08-22T00:00:00.000",
+            "count": "64"
+          },
+          {
+            "item": "2017-02-21T00:00:00.000",
+            "count": "62"
+          },
+          {
+            "item": "2016-05-10T00:00:00.000",
+            "count": "62"
+          },
+          {
+            "item": "2016-05-27T00:00:00.000",
+            "count": "62"
+          },
+          {
+            "item": "2019-11-07T00:00:00.000",
+            "count": "62"
+          },
+          {
+            "item": "2020-09-28T00:00:00.000",
+            "count": "61"
+          }
+        ],
+        "smallest": "2014-01-07T00:00:00.000",
+        "count": "35205",
+        "cardinality": "14165"
+      }
+    },
+    {
+      "field_name": "lead_first_draw_mg_l",
+      "display_name": "Lead First_Draw (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of lead in the first draw sample\n",
+      "format": "standard",
+      "width": 364,
+      "position": 6,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "17.029",
+        "non_null": "35184",
+        "average": "0.008130863863728539",
+        "null": "21",
+        "top": [
+          {
+            "item": "0.000",
+            "count": "23971"
+          },
+          {
+            "item": "0.001",
+            "count": "3091"
+          },
+          {
+            "item": "0.002",
+            "count": "2623"
+          },
+          {
+            "item": "0.003",
+            "count": "1399"
+          },
+          {
+            "item": "0.004",
+            "count": "885"
+          },
+          {
+            "item": "0.005",
+            "count": "577"
+          },
+          {
+            "item": "0.006",
+            "count": "411"
+          },
+          {
+            "item": "0.007",
+            "count": "311"
+          },
+          {
+            "item": "0.008",
+            "count": "245"
+          },
+          {
+            "item": "0.009",
+            "count": "172"
+          },
+          {
+            "item": "0.010",
+            "count": "144"
+          },
+          {
+            "item": "0.011",
+            "count": "119"
+          },
+          {
+            "item": "0.013",
+            "count": "94"
+          },
+          {
+            "item": "0.012",
+            "count": "92"
+          },
+          {
+            "item": "0.014",
+            "count": "65"
+          },
+          {
+            "item": "0.015",
+            "count": "54"
+          },
+          {
+            "item": "0.016",
+            "count": "44"
+          },
+          {
+            "item": "0.017",
+            "count": "43"
+          },
+          {
+            "item": "0.020",
+            "count": "42"
+          },
+          {
+            "item": "0.019",
+            "count": "38"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "120.288",
+        "cardinality": "229"
+      }
+    },
+    {
+      "field_name": "lead_1_2_minute_flush_mg_l",
+      "display_name": "Lead 1-2 Minute Flush (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of lead in the 1-2 minute flush sample\n",
+      "format": "standard",
+      "width": 436,
+      "position": 7,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "2.42",
+        "non_null": "35179",
+        "average": "0.001635282189929030",
+        "null": "26",
+        "top": [
+          {
+            "item": "0.000",
+            "count": "29645"
+          },
+          {
+            "item": "0.001",
+            "count": "1220"
+          },
+          {
+            "item": "0.002",
+            "count": "1189"
+          },
+          {
+            "item": "0.003",
+            "count": "611"
+          },
+          {
+            "item": "0.004",
+            "count": "434"
+          },
+          {
+            "item": "0.005",
+            "count": "302"
+          },
+          {
+            "item": "0.006",
+            "count": "215"
+          },
+          {
+            "item": "0.007",
+            "count": "171"
+          },
+          {
+            "item": "0.008",
+            "count": "161"
+          },
+          {
+            "item": "0.009",
+            "count": "99"
+          },
+          {
+            "item": "0.010",
+            "count": "98"
+          },
+          {
+            "item": "0.013",
+            "count": "80"
+          },
+          {
+            "item": "0.011",
+            "count": "78"
+          },
+          {
+            "item": "0.014",
+            "count": "67"
+          },
+          {
+            "item": "0.015",
+            "count": "61"
+          },
+          {
+            "item": "0.012",
+            "count": "60"
+          },
+          {
+            "item": "0.017",
+            "count": "44"
+          },
+          {
+            "item": "0.016",
+            "count": "41"
+          },
+          {
+            "item": "0.018",
+            "count": "41"
+          },
+          {
+            "item": "0.020",
+            "count": "33"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "24.194",
+        "cardinality": "113"
+      }
+    },
+    {
+      "field_name": "lead_5_minute_flush_mg_l",
+      "display_name": "Lead 5 Minute Flush (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of lead in the 5 minute flush sample\n",
+      "format": "standard",
+      "width": 412,
+      "position": 8,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "0.325",
+        "non_null": "740",
+        "average": "0.003214285714285714",
+        "null": "34465",
+        "top": [
+          {
+            "item": "0.000",
+            "count": "274"
+          },
+          {
+            "item": "0.002",
+            "count": "131"
+          },
+          {
+            "item": "0.001",
+            "count": "95"
+          },
+          {
+            "item": "0.003",
+            "count": "84"
+          },
+          {
+            "item": "0.004",
+            "count": "47"
+          },
+          {
+            "item": "0.005",
+            "count": "27"
+          },
+          {
+            "item": "0.007",
+            "count": "8"
+          },
+          {
+            "item": "0.006",
+            "count": "8"
+          },
+          {
+            "item": "0.013",
+            "count": "7"
+          },
+          {
+            "item": "0.010",
+            "count": "7"
+          },
+          {
+            "item": "0.012",
+            "count": "6"
+          },
+          {
+            "item": "0.021",
+            "count": "5"
+          },
+          {
+            "item": "0.008",
+            "count": "5"
+          },
+          {
+            "item": "0.009",
+            "count": "4"
+          },
+          {
+            "item": "0.022",
+            "count": "4"
+          },
+          {
+            "item": "0.018",
+            "count": "3"
+          },
+          {
+            "item": "0.026",
+            "count": "2"
+          },
+          {
+            "item": "0.03",
+            "count": "2"
+          },
+          {
+            "item": "0.011",
+            "count": "2"
+          },
+          {
+            "item": "0.098",
+            "count": "1"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "0.945",
+        "cardinality": "38"
+      }
+    },
+    {
+      "field_name": "copper_first_draw_mg_l",
+      "display_name": "Copper First Draw (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of copper in the first draw sample\n",
+      "format": "standard",
+      "width": 388,
+      "position": 9,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "27.739",
+        "non_null": "35184",
+        "average": "0.1550715830742193",
+        "null": "21",
+        "top": [
+          {
+            "item": "0.140",
+            "count": "194"
+          },
+          {
+            "item": "0.136",
+            "count": "193"
+          },
+          {
+            "item": "0.133",
+            "count": "193"
+          },
+          {
+            "item": "0.109",
+            "count": "192"
+          },
+          {
+            "item": "0.132",
+            "count": "192"
+          },
+          {
+            "item": "0.147",
+            "count": "191"
+          },
+          {
+            "item": "0.158",
+            "count": "190"
+          },
+          {
+            "item": "0.125",
+            "count": "188"
+          },
+          {
+            "item": "0.119",
+            "count": "186"
+          },
+          {
+            "item": "0.117",
+            "count": "186"
+          },
+          {
+            "item": "0.143",
+            "count": "184"
+          },
+          {
+            "item": "0.097",
+            "count": "184"
+          },
+          {
+            "item": "0.145",
+            "count": "184"
+          },
+          {
+            "item": "0.128",
+            "count": "184"
+          },
+          {
+            "item": "0.138",
+            "count": "181"
+          },
+          {
+            "item": "0.121",
+            "count": "181"
+          },
+          {
+            "item": "0.134",
+            "count": "181"
+          },
+          {
+            "item": "0.130",
+            "count": "181"
+          },
+          {
+            "item": "0.124",
+            "count": "179"
+          },
+          {
+            "item": "0.135",
+            "count": "179"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "2294.129",
+        "cardinality": "895"
+      }
+    },
+    {
+      "field_name": "copper_1_2_minute_flush_mg_l",
+      "display_name": "Copper 1-2 Minute Flush (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of copper in the 1-2 minute flush sample\n",
+      "format": "standard",
+      "width": 460,
+      "position": 10,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "24.925",
+        "non_null": "35179",
+        "average": "0.06080101385603244",
+        "null": "26",
+        "top": [
+          {
+            "item": "0.018",
+            "count": "811"
+          },
+          {
+            "item": "0.017",
+            "count": "751"
+          },
+          {
+            "item": "0.020",
+            "count": "724"
+          },
+          {
+            "item": "0.011",
+            "count": "719"
+          },
+          {
+            "item": "0.019",
+            "count": "716"
+          },
+          {
+            "item": "0.015",
+            "count": "715"
+          },
+          {
+            "item": "0.016",
+            "count": "706"
+          },
+          {
+            "item": "0.012",
+            "count": "694"
+          },
+          {
+            "item": "0.014",
+            "count": "683"
+          },
+          {
+            "item": "0.013",
+            "count": "671"
+          },
+          {
+            "item": "0.022",
+            "count": "669"
+          },
+          {
+            "item": "0.023",
+            "count": "652"
+          },
+          {
+            "item": "0.021",
+            "count": "646"
+          },
+          {
+            "item": "0.010",
+            "count": "634"
+          },
+          {
+            "item": "0.024",
+            "count": "623"
+          },
+          {
+            "item": "0.025",
+            "count": "609"
+          },
+          {
+            "item": "0.026",
+            "count": "568"
+          },
+          {
+            "item": "0.029",
+            "count": "532"
+          },
+          {
+            "item": "0.028",
+            "count": "526"
+          },
+          {
+            "item": "0.027",
+            "count": "523"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "899.551",
+        "cardinality": "564"
+      }
+    },
+    {
+      "field_name": "copper_5_minute_flush_mg_l",
+      "display_name": "Copper 5 minute Flush (mg/L)",
+      "data_type": "number",
+      "description": "Concentration of copper in the 5 minute flush sample\n",
+      "format": "standard",
+      "width": 436,
+      "position": 11,
+      "default_value": "false",
+      "cached_contents": {
+        "largest": "17.44",
+        "non_null": "740",
+        "average": "0.03660204081632653",
+        "null": "34465",
+        "top": [
+          {
+            "item": "0.01",
+            "count": "58"
+          },
+          {
+            "item": "0.02",
+            "count": "55"
+          },
+          {
+            "item": "0.011",
+            "count": "35"
+          },
+          {
+            "item": "0.014",
+            "count": "35"
+          },
+          {
+            "item": "0.017",
+            "count": "33"
+          },
+          {
+            "item": "0.016",
+            "count": "28"
+          },
+          {
+            "item": "0.013",
+            "count": "27"
+          },
+          {
+            "item": "0.018",
+            "count": "27"
+          },
+          {
+            "item": "0.012",
+            "count": "25"
+          },
+          {
+            "item": "0.015",
+            "count": "25"
+          },
+          {
+            "item": "0.021",
+            "count": "22"
+          },
+          {
+            "item": "0.022",
+            "count": "19"
+          },
+          {
+            "item": "0.03",
+            "count": "18"
+          },
+          {
+            "item": "0.019",
+            "count": "18"
+          },
+          {
+            "item": "0.023",
+            "count": "17"
+          },
+          {
+            "item": "0.024",
+            "count": "16"
+          },
+          {
+            "item": "0.008",
+            "count": "16"
+          },
+          {
+            "item": "0.025",
+            "count": "14"
+          },
+          {
+            "item": "0.009",
+            "count": "12"
+          },
+          {
+            "item": "0.007",
+            "count": "12"
+          }
+        ],
+        "smallest": "0.000",
+        "count": "35205",
+        "sum": "10.761",
+        "cardinality": "123"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:45:12.351841"
+}

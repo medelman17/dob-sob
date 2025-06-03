@@ -1,0 +1,5110 @@
+{
+  "dataset_id": "ci93-uc8s",
+  "name": "SBS Certified Business List",
+  "description": "The City\u2019s certification programs, including the Minority and Women-owned Business Enterprise (M/WBE) Program, the Emerging Business Enterprise (EBE) Program and the Locally-based Business Enterprise (LBE) Program certify, promote, and foster the growth of the City\u2019s minority and women-owned businesses and eligible small construction and construction-related businesses. Companies that become certified obtain greater access to and information about contracting opportunities, receive technical assistance to better compete for those opportunities, and benefit from inclusion in the City\u2019s Online Directory of Certified Firms. This list contains detailed information on certified companies, including a brief description of their work history, contact information, and detailed information about what the companies sell. This data is up to date as of the date reflected in the \"About\" tab of this dataset.",
+  "agency": "Department of Small Business Services (SBS)",
+  "category": "Business",
+  "tags": [
+    "m/wbe",
+    "lbe",
+    "ebe",
+    "business",
+    "sbs",
+    "certified",
+    "2018od4a-report"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Small Business Services (SBS)",
+  "created_at": "2015-06-11T15:01:07",
+  "updated_at": "2025-05-27T14:49:15",
+  "row_count": 1748357355,
+  "column_count": 56,
+  "download_count": 151446,
+  "view_count": 41442,
+  "columns": [
+    {
+      "field_name": "account_number",
+      "display_name": "Account_Number",
+      "data_type": "text",
+      "description": "Vendor Number",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "994",
+        "null": "0",
+        "top": [
+          {
+            "item": "12533",
+            "count": "1"
+          },
+          {
+            "item": "370434",
+            "count": "1"
+          },
+          {
+            "item": "101812",
+            "count": "1"
+          },
+          {
+            "item": "333614",
+            "count": "1"
+          },
+          {
+            "item": "339281",
+            "count": "1"
+          },
+          {
+            "item": "330074",
+            "count": "1"
+          },
+          {
+            "item": "357258",
+            "count": "1"
+          },
+          {
+            "item": "363261",
+            "count": "1"
+          },
+          {
+            "item": "365494",
+            "count": "1"
+          },
+          {
+            "item": "100663",
+            "count": "1"
+          },
+          {
+            "item": "103739",
+            "count": "1"
+          },
+          {
+            "item": "371623",
+            "count": "1"
+          },
+          {
+            "item": "100341",
+            "count": "1"
+          },
+          {
+            "item": "13312",
+            "count": "1"
+          },
+          {
+            "item": "13165",
+            "count": "1"
+          },
+          {
+            "item": "101703",
+            "count": "1"
+          },
+          {
+            "item": "16715",
+            "count": "1"
+          },
+          {
+            "item": "340496",
+            "count": "1"
+          },
+          {
+            "item": "11711",
+            "count": "1"
+          },
+          {
+            "item": "247783",
+            "count": "1"
+          }
+        ],
+        "smallest": "10",
+        "count": "11326",
+        "cardinality": "11326"
+      }
+    },
+    {
+      "field_name": "vendor_formal_name",
+      "display_name": "Vendor_Formal_Name",
+      "data_type": "text",
+      "description": "Formal Name of the Company",
+      "width": 277,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "ZULFIQAR MEDITERRANEAN CUISINE INC",
+        "null": "0",
+        "top": [
+          {
+            "item": "ChiChi Solutions Corp",
+            "count": "1"
+          },
+          {
+            "item": "Finalis Valdez, LLC",
+            "count": "1"
+          },
+          {
+            "item": "Ossum Technology, Inc.",
+            "count": "1"
+          },
+          {
+            "item": "Mindboard, Inc.",
+            "count": "1"
+          },
+          {
+            "item": "MWBE Property Services",
+            "count": "1"
+          },
+          {
+            "item": "RKA Recruiting LLC",
+            "count": "1"
+          },
+          {
+            "item": "HEIGHTS CONSTRUCTION SERVICES INC.",
+            "count": "1"
+          },
+          {
+            "item": "Selling Point International",
+            "count": "1"
+          },
+          {
+            "item": "Electrical Services and Consulting Group LLC",
+            "count": "1"
+          },
+          {
+            "item": "Nahte Educational Consultants, LLC",
+            "count": "1"
+          },
+          {
+            "item": "Applepix Pro",
+            "count": "1"
+          },
+          {
+            "item": "Social Skills in Motion LCSW PLLC",
+            "count": "1"
+          },
+          {
+            "item": "Janice Davis Design, LLC",
+            "count": "1"
+          },
+          {
+            "item": "Cluster Technology Group",
+            "count": "1"
+          },
+          {
+            "item": "Magnum Elevator LLC",
+            "count": "1"
+          },
+          {
+            "item": "Metrolink Industries LLC",
+            "count": "1"
+          },
+          {
+            "item": "Healthier Minds Psychoanalysis and Psychological Services, PLLC",
+            "count": "1"
+          },
+          {
+            "item": "Blu Construction LLC",
+            "count": "1"
+          },
+          {
+            "item": "Aero-Ba-Soul, Inc.",
+            "count": "1"
+          },
+          {
+            "item": "Linntvproductions",
+            "count": "1"
+          }
+        ],
+        "smallest": "000 Architecture PLLC",
+        "count": "11326",
+        "cardinality": "11326"
+      }
+    },
+    {
+      "field_name": "vendor_dba",
+      "display_name": "Vendor_DBA",
+      "data_type": "text",
+      "description": "Name the Company goes by",
+      "width": 220,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "1545",
+        "largest": "ZOOMBHA",
+        "null": "9781",
+        "top": [
+          {
+            "item": "Kinderdance",
+            "count": "2"
+          },
+          {
+            "item": "101 Mobility",
+            "count": "1"
+          },
+          {
+            "item": "10Cube Studio",
+            "count": "1"
+          },
+          {
+            "item": "12/16/1994",
+            "count": "1"
+          },
+          {
+            "item": "17A",
+            "count": "1"
+          },
+          {
+            "item": "1-800-STRIPER Of Queens",
+            "count": "1"
+          },
+          {
+            "item": "#1 AAA CE Trainings",
+            "count": "1"
+          },
+          {
+            "item": "212CARPET",
+            "count": "1"
+          },
+          {
+            "item": "21stCentEd",
+            "count": "1"
+          },
+          {
+            "item": "24/7 Electrical Construction & Service",
+            "count": "1"
+          },
+          {
+            "item": "2M Construction Group",
+            "count": "1"
+          },
+          {
+            "item": "3 Leafs Hardware Consultants",
+            "count": "1"
+          },
+          {
+            "item": "4U Services",
+            "count": "1"
+          },
+          {
+            "item": "5 STAR LED",
+            "count": "1"
+          },
+          {
+            "item": "628 Digital Design",
+            "count": "1"
+          },
+          {
+            "item": "7 Leaf Clover",
+            "count": "1"
+          },
+          {
+            "item": "7 LEAF CLOVER",
+            "count": "1"
+          },
+          {
+            "item": "8/15/2008",
+            "count": "1"
+          },
+          {
+            "item": "8/30/2001",
+            "count": "1"
+          },
+          {
+            "item": "8PM Design",
+            "count": "1"
+          }
+        ],
+        "smallest": "100 Miles North",
+        "count": "11326",
+        "cardinality": "1544"
+      }
+    },
+    {
+      "field_name": "first_name",
+      "display_name": "First_Name",
+      "data_type": "text",
+      "description": "First Name of the Company's Contact Person",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "11310",
+        "largest": "Zulema",
+        "null": "16",
+        "top": [
+          {
+            "item": "Jennifer",
+            "count": "76"
+          },
+          {
+            "item": "Michael",
+            "count": "69"
+          },
+          {
+            "item": "Maria",
+            "count": "68"
+          },
+          {
+            "item": "David",
+            "count": "57"
+          },
+          {
+            "item": "Elizabeth",
+            "count": "53"
+          },
+          {
+            "item": "Karen",
+            "count": "51"
+          },
+          {
+            "item": "Susan",
+            "count": "49"
+          },
+          {
+            "item": "Jessica",
+            "count": "49"
+          },
+          {
+            "item": "Lisa",
+            "count": "48"
+          },
+          {
+            "item": "James",
+            "count": "48"
+          },
+          {
+            "item": "Robert",
+            "count": "47"
+          },
+          {
+            "item": "Jose",
+            "count": "47"
+          },
+          {
+            "item": "Michelle",
+            "count": "45"
+          },
+          {
+            "item": "Laura",
+            "count": "44"
+          },
+          {
+            "item": "John",
+            "count": "41"
+          },
+          {
+            "item": "Carlos",
+            "count": "39"
+          },
+          {
+            "item": "Richard",
+            "count": "39"
+          },
+          {
+            "item": "Anthony",
+            "count": "38"
+          },
+          {
+            "item": "Nicole",
+            "count": "37"
+          },
+          {
+            "item": "Christine",
+            "count": "37"
+          }
+        ],
+        "smallest": "AAMIR",
+        "count": "11326",
+        "cardinality": "5096"
+      }
+    },
+    {
+      "field_name": "last_name",
+      "display_name": "Last_Name",
+      "data_type": "text",
+      "description": "Last Name of the Company's Contact Person",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "11310",
+        "largest": "Zweigbaum",
+        "null": "16",
+        "top": [
+          {
+            "item": "Singh",
+            "count": "133"
+          },
+          {
+            "item": "Williams",
+            "count": "67"
+          },
+          {
+            "item": "Smith",
+            "count": "48"
+          },
+          {
+            "item": "Lee",
+            "count": "47"
+          },
+          {
+            "item": "Patel",
+            "count": "45"
+          },
+          {
+            "item": "Johnson",
+            "count": "43"
+          },
+          {
+            "item": "Rodriguez",
+            "count": "39"
+          },
+          {
+            "item": "SINGH",
+            "count": "39"
+          },
+          {
+            "item": "Brown",
+            "count": "36"
+          },
+          {
+            "item": "Jones",
+            "count": "34"
+          },
+          {
+            "item": "Kim",
+            "count": "31"
+          },
+          {
+            "item": "Thomas",
+            "count": "29"
+          },
+          {
+            "item": "Kaur",
+            "count": "28"
+          },
+          {
+            "item": "Perez",
+            "count": "28"
+          },
+          {
+            "item": "Miller",
+            "count": "27"
+          },
+          {
+            "item": "Martinez",
+            "count": "27"
+          },
+          {
+            "item": "Gonzalez",
+            "count": "25"
+          },
+          {
+            "item": "Chen",
+            "count": "24"
+          },
+          {
+            "item": "Shah",
+            "count": "23"
+          },
+          {
+            "item": "Lewis",
+            "count": "23"
+          }
+        ],
+        "smallest": "A",
+        "count": "11326",
+        "cardinality": "7253"
+      }
+    },
+    {
+      "field_name": "telephone",
+      "display_name": "telephone",
+      "data_type": "text",
+      "description": "Telephone Number",
+      "format": "standard",
+      "width": 155,
+      "position": 6,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "11324",
+        "largest": "9804283530",
+        "null": "2",
+        "top": [
+          {
+            "item": "9146650654",
+            "count": "4"
+          },
+          {
+            "item": "2124332829",
+            "count": "3"
+          },
+          {
+            "item": "9147889244",
+            "count": "3"
+          },
+          {
+            "item": "8777323492",
+            "count": "3"
+          },
+          {
+            "item": "9174076807",
+            "count": "2"
+          },
+          {
+            "item": "7189439933",
+            "count": "2"
+          },
+          {
+            "item": "9174843373",
+            "count": "2"
+          },
+          {
+            "item": "6467375271",
+            "count": "2"
+          },
+          {
+            "item": "6467077037",
+            "count": "2"
+          },
+          {
+            "item": "5169358747",
+            "count": "2"
+          },
+          {
+            "item": "7325576100",
+            "count": "2"
+          },
+          {
+            "item": "6465094601",
+            "count": "2"
+          },
+          {
+            "item": "3476526761",
+            "count": "2"
+          },
+          {
+            "item": "7183108832",
+            "count": "2"
+          },
+          {
+            "item": "6462169883",
+            "count": "2"
+          },
+          {
+            "item": "9172026204",
+            "count": "2"
+          },
+          {
+            "item": "9172620976",
+            "count": "2"
+          },
+          {
+            "item": "9173288638",
+            "count": "2"
+          },
+          {
+            "item": "2017359222",
+            "count": "2"
+          },
+          {
+            "item": "7188889050",
+            "count": "2"
+          }
+        ],
+        "smallest": "0",
+        "count": "11326",
+        "cardinality": "11209"
+      }
+    },
+    {
+      "field_name": "business_description",
+      "display_name": "Business_Description",
+      "data_type": "text",
+      "description": "A brief description of the type of service provided",
+      "width": 340,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "11325",
+        "largest": "ZproCis Solutions does enterprise asset management consulting. The company also implements, supports and improves EAM systems.",
+        "null": "1",
+        "top": [
+          {
+            "item": "Electrical Contractor",
+            "count": "9"
+          },
+          {
+            "item": "General Construction",
+            "count": "8"
+          },
+          {
+            "item": "Construction",
+            "count": "7"
+          },
+          {
+            "item": "#NAME?",
+            "count": "4"
+          },
+          {
+            "item": "HVAC Contractor",
+            "count": "4"
+          },
+          {
+            "item": "Construction Services",
+            "count": "3"
+          },
+          {
+            "item": "General Contractor",
+            "count": "3"
+          },
+          {
+            "item": "General Contractors",
+            "count": "3"
+          },
+          {
+            "item": "Legal Services",
+            "count": "2"
+          },
+          {
+            "item": "General construction",
+            "count": "2"
+          },
+          {
+            "item": "Construction Management Services",
+            "count": "2"
+          },
+          {
+            "item": "Construction Management",
+            "count": "2"
+          },
+          {
+            "item": "Information Technology Consulting Services",
+            "count": "2"
+          },
+          {
+            "item": "General Construction Services.",
+            "count": "2"
+          },
+          {
+            "item": "Professional Engineering Services",
+            "count": "2"
+          },
+          {
+            "item": "CONSTRUCTION",
+            "count": "2"
+          },
+          {
+            "item": "Plumbing",
+            "count": "2"
+          },
+          {
+            "item": "Specialize in all types of Cleaning and Sanitizing, servicing NYC and outer NY areas. Cleaning tasks such as dusting, mopping, sweeping, waxing floors, and vacuuming offices and commercial spaces.",
+            "count": "2"
+          },
+          {
+            "item": "GENERAL CONSTRUCTION",
+            "count": "2"
+          },
+          {
+            "item": "Home Improvement Contractor",
+            "count": "2"
+          }
+        ],
+        "smallest": "000 Architecture PLLC is an architectural studio.",
+        "count": "11326",
+        "cardinality": "11275"
+      }
+    },
+    {
+      "field_name": "certification",
+      "display_name": "Certification",
+      "data_type": "text",
+      "description": "Type of Certification the company qualified for",
+      "width": 152,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "WBE,LBE,EBE",
+        "null": "0",
+        "top": [
+          {
+            "item": "MBE",
+            "count": "5093"
+          },
+          {
+            "item": "MBE,WBE",
+            "count": "3247"
+          },
+          {
+            "item": "WBE",
+            "count": "2952"
+          },
+          {
+            "item": "EBE",
+            "count": "10"
+          },
+          {
+            "item": "MBE,EBE",
+            "count": "6"
+          },
+          {
+            "item": "MBE,LBE",
+            "count": "5"
+          },
+          {
+            "item": "MBE,WBE,EBE",
+            "count": "5"
+          },
+          {
+            "item": "LBE",
+            "count": "3"
+          },
+          {
+            "item": "MBE,LBE,EBE",
+            "count": "1"
+          },
+          {
+            "item": "WBE,EBE",
+            "count": "1"
+          },
+          {
+            "item": "WBE,LBE,EBE",
+            "count": "1"
+          },
+          {
+            "item": "WBE,LBE",
+            "count": "1"
+          },
+          {
+            "item": "MBE,WBE,LBE,EBE",
+            "count": "1"
+          }
+        ],
+        "smallest": "EBE",
+        "count": "11326",
+        "cardinality": "13"
+      }
+    },
+    {
+      "field_name": "cert_renewal_date",
+      "display_name": "Certification_Renewal_Date",
+      "data_type": "text",
+      "description": "Date on which certification was renewed",
+      "width": 209,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "8358",
+        "largest": "9/30/2029",
+        "null": "2968",
+        "top": [
+          {
+            "item": "6/30/2028",
+            "count": "132"
+          },
+          {
+            "item": "8/31/2025",
+            "count": "131"
+          },
+          {
+            "item": "6/30/2025",
+            "count": "126"
+          },
+          {
+            "item": "1/31/2028",
+            "count": "116"
+          },
+          {
+            "item": "8/31/2029",
+            "count": "111"
+          },
+          {
+            "item": "2/29/2028",
+            "count": "110"
+          },
+          {
+            "item": "3/31/2028",
+            "count": "110"
+          },
+          {
+            "item": "5/31/2028",
+            "count": "109"
+          },
+          {
+            "item": "4/30/2029",
+            "count": "107"
+          },
+          {
+            "item": "4/30/2028",
+            "count": "105"
+          },
+          {
+            "item": "5/31/2029",
+            "count": "105"
+          },
+          {
+            "item": "1/31/2029",
+            "count": "104"
+          },
+          {
+            "item": "3/31/2029",
+            "count": "101"
+          },
+          {
+            "item": "1/31/2026",
+            "count": "96"
+          },
+          {
+            "item": "3/31/2027",
+            "count": "96"
+          },
+          {
+            "item": "11/30/2026",
+            "count": "95"
+          },
+          {
+            "item": "12/31/2027",
+            "count": "93"
+          },
+          {
+            "item": "2/28/2029",
+            "count": "92"
+          },
+          {
+            "item": "10/31/2029",
+            "count": "92"
+          },
+          {
+            "item": "10/31/2027",
+            "count": "92"
+          }
+        ],
+        "smallest": "01/01/2027;01/01/2027",
+        "count": "11326",
+        "cardinality": "175"
+      }
+    },
+    {
+      "field_name": "ethnicity",
+      "display_name": "Ethnicity",
+      "data_type": "text",
+      "description": "Ethnicity of the Company owner(s)",
+      "width": 151,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "11323",
+        "largest": "NON-MINORITY",
+        "null": "3",
+        "top": [
+          {
+            "item": "BLACK",
+            "count": "3745"
+          },
+          {
+            "item": "NON-MINORITY",
+            "count": "2953"
+          },
+          {
+            "item": "ASIAN",
+            "count": "2530"
+          },
+          {
+            "item": "HISPANIC",
+            "count": "2079"
+          },
+          {
+            "item": "NATIVE AMERICAN",
+            "count": "15"
+          },
+          {
+            "item": "/A",
+            "count": "1"
+          }
+        ],
+        "smallest": "/A",
+        "count": "11326",
+        "cardinality": "6"
+      }
+    },
+    {
+      "field_name": "address1",
+      "display_name": "Address_Line_1",
+      "data_type": "text",
+      "description": "Company Address",
+      "width": 196,
+      "position": 12,
+      "cached_contents": {
+        "non_null": "11186",
+        "largest": "WeRadiate",
+        "null": "140",
+        "top": [
+          {
+            "item": "142-12 111th Avenue",
+            "count": "12"
+          },
+          {
+            "item": "26 Broadway",
+            "count": "10"
+          },
+          {
+            "item": "147 Prince Street",
+            "count": "10"
+          },
+          {
+            "item": "5030 Broadway",
+            "count": "8"
+          },
+          {
+            "item": "45 Main Street",
+            "count": "8"
+          },
+          {
+            "item": "244 Fifth Avenue",
+            "count": "7"
+          },
+          {
+            "item": "40 Wall Street",
+            "count": "7"
+          },
+          {
+            "item": "68 Jay Street",
+            "count": "7"
+          },
+          {
+            "item": "5 Penn Plaza",
+            "count": "7"
+          },
+          {
+            "item": "1441 Broadway",
+            "count": "7"
+          },
+          {
+            "item": "175 Walnut Avenue",
+            "count": "6"
+          },
+          {
+            "item": "8 West 126th Street",
+            "count": "6"
+          },
+          {
+            "item": "80 Broad Street",
+            "count": "6"
+          },
+          {
+            "item": "1178 Broadway",
+            "count": "6"
+          },
+          {
+            "item": "41 Flatbush Avenue",
+            "count": "5"
+          },
+          {
+            "item": "405 Lexington Avenue",
+            "count": "5"
+          },
+          {
+            "item": "264 West 40th Street",
+            "count": "5"
+          },
+          {
+            "item": "495 Flatbush Avenue",
+            "count": "5"
+          },
+          {
+            "item": "90 Broad Street",
+            "count": "5"
+          },
+          {
+            "item": "75 South Broadway",
+            "count": "5"
+          }
+        ],
+        "smallest": "100-02 Atlantic Avenue",
+        "count": "11326",
+        "cardinality": "10540"
+      }
+    },
+    {
+      "field_name": "address2",
+      "display_name": "Address_Line_2",
+      "data_type": "text",
+      "description": "Company Address",
+      "width": 196,
+      "position": 13,
+      "cached_contents": {
+        "non_null": "4415",
+        "largest": "y",
+        "null": "6911",
+        "top": [
+          {
+            "item": "2nd Floor",
+            "count": "84"
+          },
+          {
+            "item": "3rd Floor",
+            "count": "65"
+          },
+          {
+            "item": "1st Floor",
+            "count": "57"
+          },
+          {
+            "item": "Suite 1",
+            "count": "44"
+          },
+          {
+            "item": "4th Floor",
+            "count": "38"
+          },
+          {
+            "item": "6th Floor",
+            "count": "28"
+          },
+          {
+            "item": "5th Floor",
+            "count": "28"
+          },
+          {
+            "item": "Suite 200",
+            "count": "26"
+          },
+          {
+            "item": "Ground Floor",
+            "count": "26"
+          },
+          {
+            "item": "Suite 2",
+            "count": "26"
+          },
+          {
+            "item": "Suite 100",
+            "count": "25"
+          },
+          {
+            "item": "#2",
+            "count": "25"
+          },
+          {
+            "item": "Suite B",
+            "count": "24"
+          },
+          {
+            "item": "Suite 201",
+            "count": "23"
+          },
+          {
+            "item": "7th Floor",
+            "count": "22"
+          },
+          {
+            "item": "Suite 400",
+            "count": "20"
+          },
+          {
+            "item": "8th Floor",
+            "count": "18"
+          },
+          {
+            "item": "Suite 202",
+            "count": "18"
+          },
+          {
+            "item": "Suite 301",
+            "count": "17"
+          },
+          {
+            "item": "Suite 101",
+            "count": "17"
+          }
+        ],
+        "smallest": "---",
+        "count": "11326",
+        "cardinality": "2459"
+      }
+    },
+    {
+      "field_name": "city",
+      "display_name": "City",
+      "data_type": "text",
+      "description": "City in which Company is located",
+      "width": 148,
+      "position": 14,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Ypsilanti",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York",
+            "count": "2166"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "1886"
+          },
+          {
+            "item": "Bronx",
+            "count": "734"
+          },
+          {
+            "item": "Staten Island",
+            "count": "285"
+          },
+          {
+            "item": "Jamaica",
+            "count": "244"
+          },
+          {
+            "item": "Long Island City",
+            "count": "151"
+          },
+          {
+            "item": "Astoria",
+            "count": "105"
+          },
+          {
+            "item": "Flushing",
+            "count": "99"
+          },
+          {
+            "item": "Yonkers",
+            "count": "97"
+          },
+          {
+            "item": "Valley Stream",
+            "count": "79"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "76"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "76"
+          },
+          {
+            "item": "Mount Vernon",
+            "count": "68"
+          },
+          {
+            "item": "Hicksville",
+            "count": "61"
+          },
+          {
+            "item": "Queens Village",
+            "count": "60"
+          },
+          {
+            "item": "Queens",
+            "count": "57"
+          },
+          {
+            "item": "New Rochelle",
+            "count": "56"
+          },
+          {
+            "item": "Richmond Hill",
+            "count": "54"
+          },
+          {
+            "item": "White Plains",
+            "count": "54"
+          },
+          {
+            "item": "Jersey City",
+            "count": "52"
+          }
+        ],
+        "smallest": "`",
+        "count": "11326",
+        "cardinality": "1382"
+      }
+    },
+    {
+      "field_name": "state",
+      "display_name": "State",
+      "data_type": "text",
+      "description": "State in which Company is located",
+      "width": 99,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "WI",
+        "null": "0",
+        "top": [
+          {
+            "item": "NY",
+            "count": "9728"
+          },
+          {
+            "item": "NJ",
+            "count": "949"
+          },
+          {
+            "item": "PA",
+            "count": "80"
+          },
+          {
+            "item": "CT",
+            "count": "76"
+          },
+          {
+            "item": "FL",
+            "count": "65"
+          },
+          {
+            "item": "CA",
+            "count": "61"
+          },
+          {
+            "item": "VA",
+            "count": "38"
+          },
+          {
+            "item": "TX",
+            "count": "35"
+          },
+          {
+            "item": "IL",
+            "count": "35"
+          },
+          {
+            "item": "GA",
+            "count": "34"
+          },
+          {
+            "item": "MD",
+            "count": "34"
+          },
+          {
+            "item": "MA",
+            "count": "31"
+          },
+          {
+            "item": "DC",
+            "count": "22"
+          },
+          {
+            "item": "NC",
+            "count": "22"
+          },
+          {
+            "item": "MI",
+            "count": "13"
+          },
+          {
+            "item": "OH",
+            "count": "12"
+          },
+          {
+            "item": "MN",
+            "count": "11"
+          },
+          {
+            "item": "WA",
+            "count": "8"
+          },
+          {
+            "item": "DE",
+            "count": "7"
+          },
+          {
+            "item": "TN",
+            "count": "6"
+          }
+        ],
+        "smallest": "AR",
+        "count": "11326",
+        "cardinality": "40"
+      }
+    },
+    {
+      "field_name": "zip",
+      "display_name": "Postcode",
+      "data_type": "text",
+      "description": "ZIP code ",
+      "format": "standard",
+      "width": 81,
+      "position": 16,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "98499",
+        "null": "0",
+        "top": [
+          {
+            "item": "10001",
+            "count": "217"
+          },
+          {
+            "item": "10018",
+            "count": "165"
+          },
+          {
+            "item": "11201",
+            "count": "151"
+          },
+          {
+            "item": "11101",
+            "count": "148"
+          },
+          {
+            "item": "10016",
+            "count": "110"
+          },
+          {
+            "item": "11238",
+            "count": "101"
+          },
+          {
+            "item": "10017",
+            "count": "88"
+          },
+          {
+            "item": "11434",
+            "count": "88"
+          },
+          {
+            "item": "10027",
+            "count": "86"
+          },
+          {
+            "item": "11225",
+            "count": "86"
+          },
+          {
+            "item": "11215",
+            "count": "86"
+          },
+          {
+            "item": "11216",
+            "count": "84"
+          },
+          {
+            "item": "10013",
+            "count": "78"
+          },
+          {
+            "item": "11435",
+            "count": "76"
+          },
+          {
+            "item": "11234",
+            "count": "76"
+          },
+          {
+            "item": "11205",
+            "count": "73"
+          },
+          {
+            "item": "11419",
+            "count": "72"
+          },
+          {
+            "item": "11236",
+            "count": "72"
+          },
+          {
+            "item": "10036",
+            "count": "72"
+          },
+          {
+            "item": "11801",
+            "count": "70"
+          }
+        ],
+        "smallest": "10001",
+        "count": "11326",
+        "cardinality": "1468"
+      }
+    },
+    {
+      "field_name": "mailingaddress1",
+      "display_name": "Mailing_Address_Line_1",
+      "data_type": "text",
+      "description": "Company mailing address",
+      "width": 280,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "WeRadiate",
+        "null": "0",
+        "top": [
+          {
+            "item": "99 Wall Street",
+            "count": "12"
+          },
+          {
+            "item": "142-12 111th Avenue",
+            "count": "12"
+          },
+          {
+            "item": "244 Fifth Avenue",
+            "count": "9"
+          },
+          {
+            "item": "147 Prince Street",
+            "count": "9"
+          },
+          {
+            "item": "5030 Broadway",
+            "count": "8"
+          },
+          {
+            "item": "40 Wall Street",
+            "count": "7"
+          },
+          {
+            "item": "26 Broadway",
+            "count": "7"
+          },
+          {
+            "item": "5 Penn Plaza",
+            "count": "7"
+          },
+          {
+            "item": "45 Main Street",
+            "count": "7"
+          },
+          {
+            "item": "8 West 126th Street",
+            "count": "6"
+          },
+          {
+            "item": "1178 Broadway",
+            "count": "6"
+          },
+          {
+            "item": "80 Broad Street",
+            "count": "6"
+          },
+          {
+            "item": "264 West 40th Street",
+            "count": "5"
+          },
+          {
+            "item": "155 Water Street",
+            "count": "5"
+          },
+          {
+            "item": "626 RXR Plaza",
+            "count": "5"
+          },
+          {
+            "item": "1850 Amsterdam Avenue",
+            "count": "5"
+          },
+          {
+            "item": "75 South Broadway",
+            "count": "5"
+          },
+          {
+            "item": "495 Flatbush Avenue",
+            "count": "5"
+          },
+          {
+            "item": "63 Flushing Avenue",
+            "count": "5"
+          },
+          {
+            "item": "1216 Broadway",
+            "count": "5"
+          }
+        ],
+        "smallest": "1000 Central  Ave",
+        "count": "11326",
+        "cardinality": "10701"
+      }
+    },
+    {
+      "field_name": "mailingaddress2",
+      "display_name": "Mailing_Address_Line_2",
+      "data_type": "text",
+      "description": "Company mailing address",
+      "width": 149,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "4535",
+        "largest": "Woodmere,NY",
+        "null": "6791",
+        "top": [
+          {
+            "item": "2nd Floor",
+            "count": "73"
+          },
+          {
+            "item": "3rd Floor",
+            "count": "61"
+          },
+          {
+            "item": "1st Floor",
+            "count": "53"
+          },
+          {
+            "item": "Suite 1",
+            "count": "43"
+          },
+          {
+            "item": "4th Floor",
+            "count": "34"
+          },
+          {
+            "item": "5th Floor",
+            "count": "28"
+          },
+          {
+            "item": "Suite 2",
+            "count": "27"
+          },
+          {
+            "item": "Suite 100",
+            "count": "27"
+          },
+          {
+            "item": "Suite 200",
+            "count": "26"
+          },
+          {
+            "item": "6th Floor",
+            "count": "25"
+          },
+          {
+            "item": "Suite B",
+            "count": "23"
+          },
+          {
+            "item": "Suite 101",
+            "count": "22"
+          },
+          {
+            "item": "Ground Floor",
+            "count": "22"
+          },
+          {
+            "item": "Suite 201",
+            "count": "21"
+          },
+          {
+            "item": "Suite 202",
+            "count": "20"
+          },
+          {
+            "item": "#2",
+            "count": "20"
+          },
+          {
+            "item": "7th Floor",
+            "count": "20"
+          },
+          {
+            "item": "#1",
+            "count": "18"
+          },
+          {
+            "item": "8th Floor",
+            "count": "17"
+          },
+          {
+            "item": "Suite 300",
+            "count": "17"
+          }
+        ],
+        "smallest": "---",
+        "count": "11326",
+        "cardinality": "2629"
+      }
+    },
+    {
+      "field_name": "mailingcity",
+      "display_name": "Mailing_City",
+      "data_type": "text",
+      "description": "City ",
+      "width": 169,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Ypsilanti",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York",
+            "count": "2106"
+          },
+          {
+            "item": "Brooklyn",
+            "count": "1833"
+          },
+          {
+            "item": "Bronx",
+            "count": "708"
+          },
+          {
+            "item": "Staten Island",
+            "count": "267"
+          },
+          {
+            "item": "Jamaica",
+            "count": "235"
+          },
+          {
+            "item": "Long Island City",
+            "count": "131"
+          },
+          {
+            "item": "Astoria",
+            "count": "105"
+          },
+          {
+            "item": "Flushing",
+            "count": "95"
+          },
+          {
+            "item": "Yonkers",
+            "count": "95"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "79"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "78"
+          },
+          {
+            "item": "Valley Stream",
+            "count": "78"
+          },
+          {
+            "item": "Queens",
+            "count": "64"
+          },
+          {
+            "item": "Mount Vernon",
+            "count": "61"
+          },
+          {
+            "item": "Queens Village",
+            "count": "60"
+          },
+          {
+            "item": "Hicksville",
+            "count": "58"
+          },
+          {
+            "item": "New Rochelle",
+            "count": "58"
+          },
+          {
+            "item": "White Plains",
+            "count": "51"
+          },
+          {
+            "item": "Richmond Hill",
+            "count": "50"
+          },
+          {
+            "item": "Forest Hills",
+            "count": "47"
+          }
+        ],
+        "smallest": "10603",
+        "count": "11326",
+        "cardinality": "1435"
+      }
+    },
+    {
+      "field_name": "mailingstate",
+      "display_name": "Mailing_State",
+      "data_type": "text",
+      "description": "State",
+      "width": 112,
+      "position": 20,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Wisconsin",
+        "null": "0",
+        "top": [
+          {
+            "item": "New York",
+            "count": "9728"
+          },
+          {
+            "item": "New Jersey",
+            "count": "949"
+          },
+          {
+            "item": "Pennsylvania",
+            "count": "80"
+          },
+          {
+            "item": "Connecticut",
+            "count": "76"
+          },
+          {
+            "item": "Florida",
+            "count": "65"
+          },
+          {
+            "item": "California",
+            "count": "61"
+          },
+          {
+            "item": "Virginia",
+            "count": "38"
+          },
+          {
+            "item": "Illinois",
+            "count": "35"
+          },
+          {
+            "item": "Texas",
+            "count": "35"
+          },
+          {
+            "item": "Georgia",
+            "count": "34"
+          },
+          {
+            "item": "Maryland",
+            "count": "34"
+          },
+          {
+            "item": "Massachusetts",
+            "count": "31"
+          },
+          {
+            "item": "District of Columbia",
+            "count": "22"
+          },
+          {
+            "item": "North Carolina",
+            "count": "22"
+          },
+          {
+            "item": "Michigan",
+            "count": "13"
+          },
+          {
+            "item": "Ohio",
+            "count": "12"
+          },
+          {
+            "item": "Minnesota",
+            "count": "11"
+          },
+          {
+            "item": "Washington",
+            "count": "8"
+          },
+          {
+            "item": "Delaware",
+            "count": "7"
+          },
+          {
+            "item": "Colorado",
+            "count": "6"
+          }
+        ],
+        "smallest": "Arizona",
+        "count": "11326",
+        "cardinality": "40"
+      }
+    },
+    {
+      "field_name": "mailingzip",
+      "display_name": "Mailing_Zip",
+      "data_type": "text",
+      "description": "ZIP code ",
+      "format": "standard",
+      "width": 117,
+      "position": 21,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "O8055",
+        "null": "0",
+        "top": [
+          {
+            "item": "10001",
+            "count": "210"
+          },
+          {
+            "item": "10018",
+            "count": "149"
+          },
+          {
+            "item": "11201",
+            "count": "136"
+          },
+          {
+            "item": "11101",
+            "count": "129"
+          },
+          {
+            "item": "10016",
+            "count": "109"
+          },
+          {
+            "item": "11238",
+            "count": "98"
+          },
+          {
+            "item": "10017",
+            "count": "90"
+          },
+          {
+            "item": "11434",
+            "count": "89"
+          },
+          {
+            "item": "11234",
+            "count": "85"
+          },
+          {
+            "item": "11215",
+            "count": "84"
+          },
+          {
+            "item": "11225",
+            "count": "82"
+          },
+          {
+            "item": "10013",
+            "count": "82"
+          },
+          {
+            "item": "10027",
+            "count": "79"
+          },
+          {
+            "item": "11205",
+            "count": "77"
+          },
+          {
+            "item": "11236",
+            "count": "75"
+          },
+          {
+            "item": "11419",
+            "count": "74"
+          },
+          {
+            "item": "11435",
+            "count": "74"
+          },
+          {
+            "item": "10469",
+            "count": "74"
+          },
+          {
+            "item": "11216",
+            "count": "73"
+          },
+          {
+            "item": "10036",
+            "count": "69"
+          }
+        ],
+        "smallest": "10001",
+        "count": "11326",
+        "cardinality": "1561"
+      }
+    },
+    {
+      "field_name": "website",
+      "display_name": "Website",
+      "data_type": "text",
+      "description": "Company Website ",
+      "width": 184,
+      "position": 22,
+      "cached_contents": {
+        "non_null": "8020",
+        "largest": "N/A",
+        "null": "3306",
+        "top": [
+          {
+            "item": "http://",
+            "count": "6"
+          },
+          {
+            "item": "n/a",
+            "count": "3"
+          },
+          {
+            "item": "N/A",
+            "count": "3"
+          },
+          {
+            "item": "http://www.lalandbaptiste.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.heavenstinytots.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.mckissack.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.prospecllc.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.changeimpact.net",
+            "count": "2"
+          },
+          {
+            "item": "http://www.activeworldnyc.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.altusmm.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.nimblyinsights.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.puertoplataseafood.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.bravoinc.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.eliteccny.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.thecrescentcompanies.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.oandsassociates.com",
+            "count": "2"
+          },
+          {
+            "item": "http://PRESIDENT",
+            "count": "2"
+          },
+          {
+            "item": "http://www.skyhealthnyc.com",
+            "count": "2"
+          },
+          {
+            "item": "http://www.alwaysfirstdemo.com",
+            "count": "2"
+          },
+          {
+            "item": "http://President",
+            "count": "2"
+          }
+        ],
+        "smallest": "http://",
+        "count": "11326",
+        "cardinality": "7989"
+      }
+    },
+    {
+      "field_name": "date_of_establishment",
+      "display_name": "Date_Of_Establishment",
+      "data_type": "calendar_date",
+      "description": "Date the Company was Established",
+      "width": 182,
+      "position": 23,
+      "cached_contents": {
+        "non_null": "10289",
+        "largest": "2996-07-19T00:00:00.000",
+        "null": "1037",
+        "top": [
+          {
+            "item": "2013-01-01T00:00:00.000",
+            "count": "21"
+          },
+          {
+            "item": "2018-01-01T00:00:00.000",
+            "count": "20"
+          },
+          {
+            "item": "2017-01-01T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2008-01-01T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2015-01-01T00:00:00.000",
+            "count": "16"
+          },
+          {
+            "item": "2020-01-01T00:00:00.000",
+            "count": "15"
+          },
+          {
+            "item": "2014-01-01T00:00:00.000",
+            "count": "14"
+          },
+          {
+            "item": "2007-01-01T00:00:00.000",
+            "count": "14"
+          },
+          {
+            "item": "2006-01-01T00:00:00.000",
+            "count": "13"
+          },
+          {
+            "item": "2016-01-01T00:00:00.000",
+            "count": "13"
+          },
+          {
+            "item": "2000-01-01T00:00:00.000",
+            "count": "13"
+          },
+          {
+            "item": "2012-01-01T00:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2005-01-01T00:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2019-01-01T00:00:00.000",
+            "count": "12"
+          },
+          {
+            "item": "2003-01-01T00:00:00.000",
+            "count": "11"
+          },
+          {
+            "item": "1998-01-01T00:00:00.000",
+            "count": "11"
+          },
+          {
+            "item": "2001-01-01T00:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2011-01-01T00:00:00.000",
+            "count": "10"
+          },
+          {
+            "item": "2010-01-01T00:00:00.000",
+            "count": "9"
+          },
+          {
+            "item": "2017-05-01T00:00:00.000",
+            "count": "9"
+          }
+        ],
+        "smallest": "1899-12-31T00:00:00.000",
+        "count": "11326",
+        "cardinality": "5759"
+      }
+    },
+    {
+      "field_name": "aggregate_bonding_limit",
+      "display_name": "Aggregate_Bonding_Limit",
+      "data_type": "number",
+      "description": "Bonding Limit",
+      "width": 376,
+      "position": 24,
+      "cached_contents": {
+        "non_null": "959",
+        "largest": "6000000000",
+        "null": "10367",
+        "top": [
+          {
+            "item": "10000",
+            "count": "74"
+          },
+          {
+            "item": "2000000",
+            "count": "70"
+          },
+          {
+            "item": "1000000",
+            "count": "66"
+          },
+          {
+            "item": "10000000",
+            "count": "64"
+          },
+          {
+            "item": "5000000",
+            "count": "49"
+          },
+          {
+            "item": "3000000",
+            "count": "45"
+          },
+          {
+            "item": "50000",
+            "count": "34"
+          },
+          {
+            "item": "20000",
+            "count": "33"
+          },
+          {
+            "item": "6000000",
+            "count": "32"
+          },
+          {
+            "item": "30000000",
+            "count": "29"
+          },
+          {
+            "item": "750000",
+            "count": "28"
+          },
+          {
+            "item": "4000000",
+            "count": "27"
+          },
+          {
+            "item": "500000",
+            "count": "26"
+          },
+          {
+            "item": "15000000",
+            "count": "24"
+          },
+          {
+            "item": "20000000",
+            "count": "20"
+          },
+          {
+            "item": "400000",
+            "count": "18"
+          },
+          {
+            "item": "50000000",
+            "count": "18"
+          },
+          {
+            "item": "25000000",
+            "count": "14"
+          },
+          {
+            "item": "100000000",
+            "count": "14"
+          },
+          {
+            "item": "60000000",
+            "count": "14"
+          }
+        ],
+        "smallest": "-15000",
+        "count": "11326",
+        "cardinality": "114"
+      }
+    },
+    {
+      "field_name": "signatory_to_union_contracts",
+      "display_name": "Signatory_To_Union_Contracts",
+      "data_type": "text",
+      "description": "Signatory to Union contracts",
+      "width": 230,
+      "position": 25,
+      "cached_contents": {
+        "non_null": "655",
+        "largest": "Writers Guild of America  East, Writers Guild of America  East",
+        "null": "10671",
+        "top": [
+          {
+            "item": "IBEW 3",
+            "count": "15"
+          },
+          {
+            "item": "Electric IBEW 3",
+            "count": "11"
+          },
+          {
+            "item": "Teamsters 282",
+            "count": "9"
+          },
+          {
+            "item": "Steamfitters 638",
+            "count": "7"
+          },
+          {
+            "item": "International Brotherhood of Electrical Workers 3",
+            "count": "5"
+          },
+          {
+            "item": "Ironworkers 580",
+            "count": "5"
+          },
+          {
+            "item": "Sheet Metal 28",
+            "count": "3"
+          },
+          {
+            "item": "Roofers 8",
+            "count": "3"
+          },
+          {
+            "item": "Laborers 731",
+            "count": "2"
+          },
+          {
+            "item": "Mason Tenders 78",
+            "count": "2"
+          },
+          {
+            "item": "Mason Tenders 79",
+            "count": "2"
+          },
+          {
+            "item": "Plumbers 1",
+            "count": "2"
+          },
+          {
+            "item": "SEIU 32BJ",
+            "count": "2"
+          },
+          {
+            "item": "DC 9",
+            "count": "2"
+          },
+          {
+            "item": "Teamster 282",
+            "count": "2"
+          },
+          {
+            "item": "Teamster 456",
+            "count": "2"
+          },
+          {
+            "item": "IBEW 25",
+            "count": "2"
+          },
+          {
+            "item": "International Brotherhood of Electrical Workers (IBEW) 3",
+            "count": "2"
+          },
+          {
+            "item": "Building Material Teamsters 282",
+            "count": "2"
+          },
+          {
+            "item": "USWU 339",
+            "count": "2"
+          }
+        ],
+        "smallest": "1199 SEIU National Benefit Fund 646-473-6009",
+        "count": "11326",
+        "cardinality": "583"
+      }
+    },
+    {
+      "field_name": "id6_digit_naics_code",
+      "display_name": "ID6_digit_NAICS_code",
+      "data_type": "number",
+      "description": "North American Industry Classification System (NAICS) Code that identifies the type of business\n",
+      "position": 26,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "926150",
+        "null": "0",
+        "top": [
+          {
+            "item": "541990",
+            "count": "601"
+          },
+          {
+            "item": "611710",
+            "count": "396"
+          },
+          {
+            "item": "238990",
+            "count": "388"
+          },
+          {
+            "item": "236220",
+            "count": "365"
+          },
+          {
+            "item": "541330",
+            "count": "345"
+          },
+          {
+            "item": "541310",
+            "count": "338"
+          },
+          {
+            "item": "541611",
+            "count": "320"
+          },
+          {
+            "item": "236118",
+            "count": "318"
+          },
+          {
+            "item": "238210",
+            "count": "215"
+          },
+          {
+            "item": "541618",
+            "count": "197"
+          },
+          {
+            "item": "541511",
+            "count": "191"
+          },
+          {
+            "item": "561720",
+            "count": "187"
+          },
+          {
+            "item": "238220",
+            "count": "152"
+          },
+          {
+            "item": "541690",
+            "count": "149"
+          },
+          {
+            "item": "238140",
+            "count": "136"
+          },
+          {
+            "item": "711510",
+            "count": "135"
+          },
+          {
+            "item": "561612",
+            "count": "133"
+          },
+          {
+            "item": "238320",
+            "count": "132"
+          },
+          {
+            "item": "812990",
+            "count": "131"
+          },
+          {
+            "item": "541512",
+            "count": "130"
+          }
+        ],
+        "smallest": "111219",
+        "count": "11326",
+        "cardinality": "576"
+      }
+    },
+    {
+      "field_name": "naics_sector",
+      "display_name": "NAICS_Sector",
+      "data_type": "text",
+      "description": "NAICS sector (Industry)",
+      "position": 27,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Wholesale Trade",
+        "null": "0",
+        "top": [
+          {
+            "item": "Professional, Scientific, and Technical Services",
+            "count": "3637"
+          },
+          {
+            "item": "Construction",
+            "count": "2583"
+          },
+          {
+            "item": "Educational Services",
+            "count": "788"
+          },
+          {
+            "item": "Administrative and Support and Waste Management and Remediation Services",
+            "count": "775"
+          },
+          {
+            "item": "Wholesale Trade",
+            "count": "444"
+          },
+          {
+            "item": "Manufacturing",
+            "count": "440"
+          },
+          {
+            "item": "Other Services (except Public Administration)",
+            "count": "383"
+          },
+          {
+            "item": "Health Care and Social Assistance",
+            "count": "376"
+          },
+          {
+            "item": "Arts, Entertainment, and Recreation",
+            "count": "331"
+          },
+          {
+            "item": "Retail Trade",
+            "count": "312"
+          },
+          {
+            "item": "Accommodation and Food Services",
+            "count": "296"
+          },
+          {
+            "item": "Information",
+            "count": "295"
+          },
+          {
+            "item": "Real Estate and Rental and Leasing",
+            "count": "236"
+          },
+          {
+            "item": "Transportation and Warehousing",
+            "count": "227"
+          },
+          {
+            "item": "Finance and Insurance",
+            "count": "126"
+          },
+          {
+            "item": "Public Administration",
+            "count": "30"
+          },
+          {
+            "item": "Utilities",
+            "count": "20"
+          },
+          {
+            "item": "Agriculture, Forestry, Fishing and Hunting",
+            "count": "13"
+          },
+          {
+            "item": "Management of Companies and Enterprises",
+            "count": "11"
+          },
+          {
+            "item": "Mining, Quarrying, and Oil and Gas Extraction",
+            "count": "3"
+          }
+        ],
+        "smallest": "Accommodation and Food Services",
+        "count": "11326",
+        "cardinality": "20"
+      }
+    },
+    {
+      "field_name": "naics_subsector",
+      "display_name": "NAICS_Subsector",
+      "data_type": "text",
+      "description": "NAICS  Subsector",
+      "position": 28,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Wired and Wireless Telecommunications (except Satellite)",
+        "null": "0",
+        "top": [
+          {
+            "item": "Management, Scientific, and Technical Consulting Services",
+            "count": "927"
+          },
+          {
+            "item": "Architectural, Engineering, and Related Services",
+            "count": "804"
+          },
+          {
+            "item": "Other Professional, Scientific, and Technical Services",
+            "count": "723"
+          },
+          {
+            "item": "Residential Building Construction",
+            "count": "449"
+          },
+          {
+            "item": "Other Specialty Trade Contractors",
+            "count": "443"
+          },
+          {
+            "item": "Computer Systems Design and Related Services",
+            "count": "425"
+          },
+          {
+            "item": "Building Finishing Contractors",
+            "count": "423"
+          },
+          {
+            "item": "Building Equipment Contractors",
+            "count": "411"
+          },
+          {
+            "item": "Educational Support Services",
+            "count": "396"
+          },
+          {
+            "item": "Nonresidential Building Construction",
+            "count": "381"
+          },
+          {
+            "item": "Foundation, Structure, and Building Exterior Contractors",
+            "count": "345"
+          },
+          {
+            "item": "Services to Buildings and Dwellings",
+            "count": "274"
+          },
+          {
+            "item": "Advertising, Public Relations, and Related Services",
+            "count": "262"
+          },
+          {
+            "item": "Specialized Design Services",
+            "count": "246"
+          },
+          {
+            "item": "Investigation and Security Services",
+            "count": "176"
+          },
+          {
+            "item": "Other Personal Services",
+            "count": "140"
+          },
+          {
+            "item": "Special Food Services",
+            "count": "140"
+          },
+          {
+            "item": "Independent Artists, Writers, and Performers",
+            "count": "135"
+          },
+          {
+            "item": "Activities Related to Real Estate",
+            "count": "129"
+          },
+          {
+            "item": "Restaurants and Other Eating Places",
+            "count": "128"
+          }
+        ],
+        "smallest": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+        "count": "11326",
+        "cardinality": "254"
+      }
+    },
+    {
+      "field_name": "naics_title",
+      "display_name": "NAICS_Title",
+      "data_type": "text",
+      "description": "Type of Business\n",
+      "position": 29,
+      "cached_contents": {
+        "non_null": "11323",
+        "largest": "Wood Kitchen Cabinet and Countertop Manufacturing",
+        "null": "3",
+        "top": [
+          {
+            "item": "All Other Professional, Scientific, and Technical Services",
+            "count": "600"
+          },
+          {
+            "item": "Educational Support Services",
+            "count": "396"
+          },
+          {
+            "item": "All Other Specialty Trade Contractors",
+            "count": "389"
+          },
+          {
+            "item": "Commercial and Institutional Building Construction",
+            "count": "365"
+          },
+          {
+            "item": "Engineering Services",
+            "count": "345"
+          },
+          {
+            "item": "Architectural Services",
+            "count": "338"
+          },
+          {
+            "item": "Administrative Management and General Management Consulting Services",
+            "count": "320"
+          },
+          {
+            "item": "Residential Remodelers",
+            "count": "318"
+          },
+          {
+            "item": "Electrical Contractors and Other Wiring Installation Contractors",
+            "count": "215"
+          },
+          {
+            "item": "Other Management Consulting Services",
+            "count": "198"
+          },
+          {
+            "item": "Custom Computer Programming Services",
+            "count": "191"
+          },
+          {
+            "item": "Janitorial Services",
+            "count": "188"
+          },
+          {
+            "item": "Plumbing, Heating, and Air-Conditioning Contractors",
+            "count": "152"
+          },
+          {
+            "item": "Other Scientific and Technical Consulting Services",
+            "count": "150"
+          },
+          {
+            "item": "Masonry Contractors",
+            "count": "137"
+          },
+          {
+            "item": "Independent Artists, Writers, and Performers",
+            "count": "135"
+          },
+          {
+            "item": "Security Guards and Patrol Services",
+            "count": "133"
+          },
+          {
+            "item": "Painting and Wall Covering Contractors",
+            "count": "132"
+          },
+          {
+            "item": "All Other Personal Services",
+            "count": "131"
+          },
+          {
+            "item": "Computer Systems Design Services",
+            "count": "129"
+          }
+        ],
+        "smallest": "Administration of Conservation Programs",
+        "count": "11326",
+        "cardinality": "565"
+      }
+    },
+    {
+      "field_name": "types_of_construction_projects_performed",
+      "display_name": "Types_of_Construction_Projects_Performed",
+      "data_type": "text",
+      "description": "Type of jobs performed in the construction industry",
+      "position": 30,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "11326",
+        "count": "11326",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "nigp_codes",
+      "display_name": "NIGP_codes",
+      "data_type": "text",
+      "description": "National Institute of Governmental Purchasing (NIGP) Codes\n",
+      "position": 31,
+      "cached_contents": {
+        "non_null": "11323",
+        "largest": "99884 | 96160 | 97135 | 91886 | 57863",
+        "null": "3",
+        "top": [
+          {
+            "item": "91800",
+            "count": "231"
+          },
+          {
+            "item": "91200",
+            "count": "142"
+          },
+          {
+            "item": "92400",
+            "count": "90"
+          },
+          {
+            "item": "90600",
+            "count": "80"
+          },
+          {
+            "item": "91438",
+            "count": "54"
+          },
+          {
+            "item": "96200",
+            "count": "46"
+          },
+          {
+            "item": "99046",
+            "count": "44"
+          },
+          {
+            "item": "92500",
+            "count": "43"
+          },
+          {
+            "item": "96100",
+            "count": "43"
+          },
+          {
+            "item": "91039",
+            "count": "33"
+          },
+          {
+            "item": "95826",
+            "count": "33"
+          },
+          {
+            "item": "39000",
+            "count": "30"
+          },
+          {
+            "item": "94800",
+            "count": "29"
+          },
+          {
+            "item": "95215",
+            "count": "28"
+          },
+          {
+            "item": "91841",
+            "count": "25"
+          },
+          {
+            "item": "96141",
+            "count": "24"
+          },
+          {
+            "item": "90607",
+            "count": "23"
+          },
+          {
+            "item": "96219",
+            "count": "21"
+          },
+          {
+            "item": "96160",
+            "count": "20"
+          },
+          {
+            "item": "95800",
+            "count": "20"
+          }
+        ],
+        "smallest": "00500 | 00505 | 00514 | 00521 | 28000 | 28030 | 28040 | 28075 | 28090 | 28095 | 28500 | 28503 | 28504 | 28505 | 28506 | 28507 | 28508 | 28509 | 28510 | 28517 | 28518 | 28519 | 28520 | 28521 | 28522 | 28523 | 28524 | 28525 | 28526 | 28527 | 28529 | 28530 | 28534 | 28535 | 28537 | 28539 | 28540 | 28541 | 28542 | 28546 | 28547 | 28548 | 28549 | 28550 | 28551 | 28552 | 28553 | 28554 | 28555 | 28556 | 28557 | 28558 | 28559 | 28560 | 28567 | 28569 | 28572 | 28573 | 28574 | 28576 | 28577 | 28578 | 28579 | 28580 | 28581 | 28582 | 28583 | 28584 | 28595 | 28596 | 67000",
+        "count": "11326",
+        "cardinality": "8209"
+      }
+    },
+    {
+      "field_name": "name_of_client_job_exp_1",
+      "display_name": "Name_of_Client_Job_Exp_1",
+      "data_type": "text",
+      "description": "The Business the vendor is working for",
+      "position": 32,
+      "cached_contents": {
+        "non_null": "10666",
+        "largest": "ZWC Construction",
+        "null": "660",
+        "top": [
+          {
+            "item": "NYCHA",
+            "count": "89"
+          },
+          {
+            "item": "NYC Department of Education",
+            "count": "75"
+          },
+          {
+            "item": "New York City Housing Authority",
+            "count": "31"
+          },
+          {
+            "item": "MTA",
+            "count": "30"
+          },
+          {
+            "item": "NYC DOE",
+            "count": "25"
+          },
+          {
+            "item": "NYC School Construction Authority",
+            "count": "25"
+          },
+          {
+            "item": "NYCSCA",
+            "count": "22"
+          },
+          {
+            "item": "New York City Department of Education",
+            "count": "21"
+          },
+          {
+            "item": "NYC Housing Authority",
+            "count": "19"
+          },
+          {
+            "item": "Department of Education",
+            "count": "19"
+          },
+          {
+            "item": "NYC SCA",
+            "count": "17"
+          },
+          {
+            "item": "NYC DDC",
+            "count": "15"
+          },
+          {
+            "item": "NYC Department of Environmental Protection",
+            "count": "15"
+          },
+          {
+            "item": "N/A",
+            "count": "14"
+          },
+          {
+            "item": "NYPD",
+            "count": "14"
+          },
+          {
+            "item": "DASNY",
+            "count": "13"
+          },
+          {
+            "item": "AECOM",
+            "count": "13"
+          },
+          {
+            "item": "Con Edison",
+            "count": "13"
+          },
+          {
+            "item": "NYC DOT",
+            "count": "13"
+          },
+          {
+            "item": "Columbia University",
+            "count": "13"
+          }
+        ],
+        "smallest": "-",
+        "count": "11326",
+        "cardinality": "9168"
+      }
+    },
+    {
+      "field_name": "largest_value_of_contract",
+      "display_name": "Largest_Value_of_Contract",
+      "data_type": "number",
+      "description": "Value (in dollars) of the the contract\n",
+      "format": "currency",
+      "position": 33,
+      "cached_contents": {
+        "non_null": "10632",
+        "largest": "8500000000",
+        "null": "694",
+        "top": [
+          {
+            "item": "20000",
+            "count": "130"
+          },
+          {
+            "item": "25000",
+            "count": "130"
+          },
+          {
+            "item": "100000",
+            "count": "129"
+          },
+          {
+            "item": "50000",
+            "count": "117"
+          },
+          {
+            "item": "0",
+            "count": "100"
+          },
+          {
+            "item": "5000",
+            "count": "96"
+          },
+          {
+            "item": "500000",
+            "count": "93"
+          },
+          {
+            "item": "10000",
+            "count": "91"
+          },
+          {
+            "item": "200000",
+            "count": "87"
+          },
+          {
+            "item": "150000",
+            "count": "86"
+          },
+          {
+            "item": "30000",
+            "count": "85"
+          },
+          {
+            "item": "250000",
+            "count": "79"
+          },
+          {
+            "item": "15000",
+            "count": "73"
+          },
+          {
+            "item": "1000000",
+            "count": "69"
+          },
+          {
+            "item": "300000",
+            "count": "65"
+          },
+          {
+            "item": "1500",
+            "count": "61"
+          },
+          {
+            "item": "60000",
+            "count": "59"
+          },
+          {
+            "item": "3000",
+            "count": "56"
+          },
+          {
+            "item": "2000",
+            "count": "54"
+          },
+          {
+            "item": "1000",
+            "count": "53"
+          }
+        ],
+        "smallest": "0",
+        "count": "11326",
+        "cardinality": "5170"
+      }
+    },
+    {
+      "field_name": "percent_self_performed_job_exp_1",
+      "display_name": "Percent_Self_Performed_Job_Exp_1",
+      "data_type": "number",
+      "description": "Percent of the job performed by the vendor \n",
+      "position": 34,
+      "cached_contents": {
+        "non_null": "10386",
+        "largest": "100",
+        "null": "940",
+        "top": [
+          {
+            "item": "100",
+            "count": "8281"
+          },
+          {
+            "item": "50",
+            "count": "277"
+          },
+          {
+            "item": "0",
+            "count": "186"
+          },
+          {
+            "item": "80",
+            "count": "179"
+          },
+          {
+            "item": "90",
+            "count": "178"
+          },
+          {
+            "item": "75",
+            "count": "172"
+          },
+          {
+            "item": "70",
+            "count": "110"
+          },
+          {
+            "item": "60",
+            "count": "107"
+          },
+          {
+            "item": "95",
+            "count": "89"
+          },
+          {
+            "item": "10",
+            "count": "82"
+          },
+          {
+            "item": "25",
+            "count": "79"
+          },
+          {
+            "item": "20",
+            "count": "75"
+          },
+          {
+            "item": "30",
+            "count": "75"
+          },
+          {
+            "item": "85",
+            "count": "74"
+          },
+          {
+            "item": "40",
+            "count": "72"
+          },
+          {
+            "item": "65",
+            "count": "46"
+          },
+          {
+            "item": "15",
+            "count": "29"
+          },
+          {
+            "item": "5",
+            "count": "25"
+          },
+          {
+            "item": "35",
+            "count": "23"
+          },
+          {
+            "item": "98",
+            "count": "20"
+          }
+        ],
+        "smallest": "0",
+        "count": "11326",
+        "cardinality": "81"
+      }
+    },
+    {
+      "field_name": "date_of_work_job_exp_1",
+      "display_name": "Date_of_Work_Job_Exp_1",
+      "data_type": "calendar_date",
+      "description": "Date the work was done",
+      "position": 35,
+      "cached_contents": {
+        "non_null": "10666",
+        "largest": "2032-01-03T00:00:00.000",
+        "null": "660",
+        "top": [
+          {
+            "item": "2018-01-01T00:00:00.000",
+            "count": "85"
+          },
+          {
+            "item": "2022-01-01T00:00:00.000",
+            "count": "71"
+          },
+          {
+            "item": "2019-01-01T00:00:00.000",
+            "count": "66"
+          },
+          {
+            "item": "2023-01-01T00:00:00.000",
+            "count": "64"
+          },
+          {
+            "item": "2021-01-01T00:00:00.000",
+            "count": "63"
+          },
+          {
+            "item": "2020-01-01T00:00:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2024-01-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2022-07-01T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2017-01-01T00:00:00.000",
+            "count": "42"
+          },
+          {
+            "item": "2022-09-01T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2021-07-01T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2015-01-01T00:00:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2016-01-01T00:00:00.000",
+            "count": "36"
+          },
+          {
+            "item": "2021-09-01T00:00:00.000",
+            "count": "35"
+          },
+          {
+            "item": "2022-06-01T00:00:00.000",
+            "count": "35"
+          },
+          {
+            "item": "2021-03-01T00:00:00.000",
+            "count": "35"
+          },
+          {
+            "item": "2019-07-01T00:00:00.000",
+            "count": "34"
+          },
+          {
+            "item": "2023-03-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2021-06-01T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2023-06-01T00:00:00.000",
+            "count": "32"
+          }
+        ],
+        "smallest": "1901-01-01T00:00:00.000",
+        "count": "11326",
+        "cardinality": "2902"
+      }
+    },
+    {
+      "field_name": "description_of_work_job_exp_1",
+      "display_name": "Description_of_Work_Job_Exp_1",
+      "data_type": "text",
+      "description": "Description of the work done\n",
+      "position": 36,
+      "cached_contents": {
+        "non_null": "10645",
+        "largest": "Zoning counsel re proposal for acquiring Church of All Saints, strategic planning and land use advis",
+        "null": "681",
+        "top": [
+          {
+            "item": "#NAME?",
+            "count": "45"
+          },
+          {
+            "item": "Provided consulting services.",
+            "count": "18"
+          },
+          {
+            "item": "Provided security guard services.",
+            "count": "11"
+          },
+          {
+            "item": "100",
+            "count": "10"
+          },
+          {
+            "item": "Consulting",
+            "count": "8"
+          },
+          {
+            "item": "N/A",
+            "count": "7"
+          },
+          {
+            "item": "HVAC",
+            "count": "7"
+          },
+          {
+            "item": "Did electrical work.",
+            "count": "6"
+          },
+          {
+            "item": "Provided staffing services.",
+            "count": "6"
+          },
+          {
+            "item": "Provided IT consulting services.",
+            "count": "5"
+          },
+          {
+            "item": "Provided legal services.",
+            "count": "5"
+          },
+          {
+            "item": "Trucking",
+            "count": "5"
+          },
+          {
+            "item": "General Construction",
+            "count": "5"
+          },
+          {
+            "item": "Provided project management services.",
+            "count": "5"
+          },
+          {
+            "item": "Electrical work",
+            "count": "4"
+          },
+          {
+            "item": "Provided architectural services.",
+            "count": "4"
+          },
+          {
+            "item": "Provided construction services.",
+            "count": "4"
+          },
+          {
+            "item": "Provided childcare services.",
+            "count": "4"
+          },
+          {
+            "item": "Provided real estate development services.",
+            "count": "4"
+          },
+          {
+            "item": "Painting",
+            "count": "4"
+          }
+        ],
+        "smallest": ".",
+        "count": "11326",
+        "cardinality": "10345"
+      }
+    },
+    {
+      "field_name": "name_of_client_job_exp_2",
+      "display_name": "Name_of_Client_Job_Exp_2",
+      "data_type": "text",
+      "description": "Name of second business the vendor is working for\n",
+      "position": 37,
+      "cached_contents": {
+        "non_null": "8661",
+        "largest": "Zyhra Gjenasaj",
+        "null": "2665",
+        "top": [
+          {
+            "item": "NYCHA",
+            "count": "54"
+          },
+          {
+            "item": "NYC Department of Education",
+            "count": "51"
+          },
+          {
+            "item": "NYC SCA",
+            "count": "28"
+          },
+          {
+            "item": "New York City Housing Authority",
+            "count": "24"
+          },
+          {
+            "item": "NYPD",
+            "count": "19"
+          },
+          {
+            "item": "MTA",
+            "count": "18"
+          },
+          {
+            "item": "FDNY",
+            "count": "17"
+          },
+          {
+            "item": "NYC Housing Authority",
+            "count": "17"
+          },
+          {
+            "item": "NYC DOE",
+            "count": "14"
+          },
+          {
+            "item": "Department of Education",
+            "count": "13"
+          },
+          {
+            "item": "NYC School Construction Authority",
+            "count": "13"
+          },
+          {
+            "item": "NYC DOT",
+            "count": "12"
+          },
+          {
+            "item": "NYCSCA",
+            "count": "12"
+          },
+          {
+            "item": "NYC DEP",
+            "count": "11"
+          },
+          {
+            "item": "AECOM",
+            "count": "11"
+          },
+          {
+            "item": "Columbia University",
+            "count": "10"
+          },
+          {
+            "item": "New York City Department of Education",
+            "count": "10"
+          },
+          {
+            "item": "PANYNJ",
+            "count": "9"
+          },
+          {
+            "item": "NYSDOT",
+            "count": "8"
+          },
+          {
+            "item": "WSP",
+            "count": "7"
+          }
+        ],
+        "smallest": "-----",
+        "count": "11326",
+        "cardinality": "7696"
+      }
+    },
+    {
+      "field_name": "value_of_contract_job_exp_2",
+      "display_name": "Value_of_Contract_Job_Exp_2",
+      "data_type": "number",
+      "description": "Value (in dollars) of the the contract\n",
+      "format": "currency",
+      "position": 38,
+      "cached_contents": {
+        "non_null": "8595",
+        "largest": "2000000000",
+        "null": "2731",
+        "top": [
+          {
+            "item": "10000",
+            "count": "127"
+          },
+          {
+            "item": "5000",
+            "count": "123"
+          },
+          {
+            "item": "20000",
+            "count": "116"
+          },
+          {
+            "item": "100000",
+            "count": "105"
+          },
+          {
+            "item": "0",
+            "count": "101"
+          },
+          {
+            "item": "25000",
+            "count": "93"
+          },
+          {
+            "item": "50000",
+            "count": "92"
+          },
+          {
+            "item": "15000",
+            "count": "86"
+          },
+          {
+            "item": "150000",
+            "count": "79"
+          },
+          {
+            "item": "1000",
+            "count": "74"
+          },
+          {
+            "item": "30000",
+            "count": "74"
+          },
+          {
+            "item": "2000",
+            "count": "72"
+          },
+          {
+            "item": "3000",
+            "count": "71"
+          },
+          {
+            "item": "500",
+            "count": "65"
+          },
+          {
+            "item": "1500",
+            "count": "64"
+          },
+          {
+            "item": "200000",
+            "count": "62"
+          },
+          {
+            "item": "2500",
+            "count": "54"
+          },
+          {
+            "item": "6000",
+            "count": "53"
+          },
+          {
+            "item": "250000",
+            "count": "51"
+          },
+          {
+            "item": "40000",
+            "count": "49"
+          }
+        ],
+        "smallest": "-391853",
+        "count": "11326",
+        "cardinality": "4065"
+      }
+    },
+    {
+      "field_name": "percent_self_performed_job_exp_2",
+      "display_name": "Percent_Self_Performed_Job_Exp_2",
+      "data_type": "number",
+      "description": "Percent of the job performed by the vendor \n",
+      "position": 39,
+      "cached_contents": {
+        "non_null": "8442",
+        "largest": "100",
+        "null": "2884",
+        "top": [
+          {
+            "item": "100",
+            "count": "7083"
+          },
+          {
+            "item": "50",
+            "count": "168"
+          },
+          {
+            "item": "0",
+            "count": "132"
+          },
+          {
+            "item": "80",
+            "count": "122"
+          },
+          {
+            "item": "90",
+            "count": "121"
+          },
+          {
+            "item": "75",
+            "count": "92"
+          },
+          {
+            "item": "70",
+            "count": "69"
+          },
+          {
+            "item": "85",
+            "count": "63"
+          },
+          {
+            "item": "10",
+            "count": "60"
+          },
+          {
+            "item": "20",
+            "count": "59"
+          },
+          {
+            "item": "95",
+            "count": "59"
+          },
+          {
+            "item": "60",
+            "count": "58"
+          },
+          {
+            "item": "25",
+            "count": "56"
+          },
+          {
+            "item": "30",
+            "count": "51"
+          },
+          {
+            "item": "40",
+            "count": "33"
+          },
+          {
+            "item": "65",
+            "count": "25"
+          },
+          {
+            "item": "5",
+            "count": "22"
+          },
+          {
+            "item": "99",
+            "count": "14"
+          },
+          {
+            "item": "98",
+            "count": "13"
+          },
+          {
+            "item": "15",
+            "count": "13"
+          }
+        ],
+        "smallest": "0",
+        "count": "11326",
+        "cardinality": "76"
+      }
+    },
+    {
+      "field_name": "date_of_work_job_exp_2",
+      "display_name": "Date_of_Work_Job_Exp_2",
+      "data_type": "calendar_date",
+      "description": "Date the work was done\n",
+      "position": 40,
+      "cached_contents": {
+        "non_null": "8661",
+        "largest": "3021-03-03T00:00:00.000",
+        "null": "2665",
+        "top": [
+          {
+            "item": "2018-01-01T00:00:00.000",
+            "count": "53"
+          },
+          {
+            "item": "2022-01-01T00:00:00.000",
+            "count": "44"
+          },
+          {
+            "item": "2023-01-01T00:00:00.000",
+            "count": "40"
+          },
+          {
+            "item": "2024-01-01T00:00:00.000",
+            "count": "36"
+          },
+          {
+            "item": "2021-01-01T00:00:00.000",
+            "count": "34"
+          },
+          {
+            "item": "2019-01-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2023-06-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2021-09-01T00:00:00.000",
+            "count": "31"
+          },
+          {
+            "item": "2020-01-01T00:00:00.000",
+            "count": "31"
+          },
+          {
+            "item": "2022-06-01T00:00:00.000",
+            "count": "30"
+          },
+          {
+            "item": "2022-08-01T00:00:00.000",
+            "count": "30"
+          },
+          {
+            "item": "2022-09-01T00:00:00.000",
+            "count": "30"
+          },
+          {
+            "item": "2023-07-01T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2022-12-01T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2023-05-01T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2021-07-01T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2016-01-01T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2023-02-01T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2023-09-01T00:00:00.000",
+            "count": "26"
+          },
+          {
+            "item": "2017-01-01T00:00:00.000",
+            "count": "26"
+          }
+        ],
+        "smallest": "2001-06-01T00:00:00.000",
+        "count": "11326",
+        "cardinality": "2583"
+      }
+    },
+    {
+      "field_name": "description_of_work_job_exp_2",
+      "display_name": "Description_of_Work_Job_Exp_2",
+      "data_type": "text",
+      "description": "Description of the work done\n",
+      "position": 41,
+      "cached_contents": {
+        "non_null": "8644",
+        "largest": "Zumba/ Yoga/ Mommy and me cardio & abs\n\nMusic with instructor",
+        "null": "2682",
+        "top": [
+          {
+            "item": "#NAME?",
+            "count": "38"
+          },
+          {
+            "item": "100",
+            "count": "12"
+          },
+          {
+            "item": "Provided security guard services.",
+            "count": "6"
+          },
+          {
+            "item": "Provided legal services.",
+            "count": "6"
+          },
+          {
+            "item": "Painting",
+            "count": "6"
+          },
+          {
+            "item": "Architectural Lighting Design",
+            "count": "5"
+          },
+          {
+            "item": "Provided architectural services.",
+            "count": "5"
+          },
+          {
+            "item": "Consulting",
+            "count": "5"
+          },
+          {
+            "item": "Security Services",
+            "count": "5"
+          },
+          {
+            "item": "Trucking Services",
+            "count": "5"
+          },
+          {
+            "item": "HVAC",
+            "count": "5"
+          },
+          {
+            "item": "Provided IT consulting services.",
+            "count": "4"
+          },
+          {
+            "item": "Security Guard Services",
+            "count": "4"
+          },
+          {
+            "item": "General Construction",
+            "count": "4"
+          },
+          {
+            "item": "Provided consulting services.",
+            "count": "4"
+          },
+          {
+            "item": "Catering",
+            "count": "4"
+          },
+          {
+            "item": "Electrical work",
+            "count": "4"
+          },
+          {
+            "item": "Construction Management",
+            "count": "4"
+          },
+          {
+            "item": "Trucking",
+            "count": "4"
+          },
+          {
+            "item": "Construction Management Services",
+            "count": "4"
+          }
+        ],
+        "smallest": "024 Inc sold wax melts to the customer Danielle Warr",
+        "count": "11326",
+        "cardinality": "8421"
+      }
+    },
+    {
+      "field_name": "name_of_client_job_exp_3",
+      "display_name": "Name_of_Client_Job_Exp_3",
+      "data_type": "text",
+      "description": "Name of third business the vendor is working for\n",
+      "position": 42,
+      "cached_contents": {
+        "non_null": "7256",
+        "largest": "ZS Associates",
+        "null": "4070",
+        "top": [
+          {
+            "item": "NYCHA",
+            "count": "54"
+          },
+          {
+            "item": "NYC Department of Education",
+            "count": "38"
+          },
+          {
+            "item": "NYC SCA",
+            "count": "23"
+          },
+          {
+            "item": "NYC School Construction Authority",
+            "count": "19"
+          },
+          {
+            "item": "NYC Department of Environmental Protection",
+            "count": "17"
+          },
+          {
+            "item": "New York City Housing Authority",
+            "count": "17"
+          },
+          {
+            "item": "NYCSCA",
+            "count": "16"
+          },
+          {
+            "item": "NYPD",
+            "count": "12"
+          },
+          {
+            "item": "NYC DOT",
+            "count": "12"
+          },
+          {
+            "item": "NYC DOE",
+            "count": "12"
+          },
+          {
+            "item": "NYC DEP",
+            "count": "12"
+          },
+          {
+            "item": "MTA",
+            "count": "10"
+          },
+          {
+            "item": "DCAS",
+            "count": "8"
+          },
+          {
+            "item": "Columbia University",
+            "count": "8"
+          },
+          {
+            "item": "Private Client",
+            "count": "8"
+          },
+          {
+            "item": "DASNY",
+            "count": "8"
+          },
+          {
+            "item": "School Construction Authority",
+            "count": "8"
+          },
+          {
+            "item": "NYSDOT",
+            "count": "7"
+          },
+          {
+            "item": "New York City Department of Education",
+            "count": "7"
+          },
+          {
+            "item": "NYC HPD",
+            "count": "7"
+          }
+        ],
+        "smallest": "-----",
+        "count": "11326",
+        "cardinality": "6448"
+      }
+    },
+    {
+      "field_name": "value_of_contract_job_exp_3",
+      "display_name": "Value_of_Contract_Job_Exp_3",
+      "data_type": "number",
+      "description": "Value (in dollars) of the the contract",
+      "format": "currency",
+      "position": 43,
+      "cached_contents": {
+        "non_null": "7184",
+        "largest": "1250000000",
+        "null": "4142",
+        "top": [
+          {
+            "item": "20000",
+            "count": "105"
+          },
+          {
+            "item": "10000",
+            "count": "92"
+          },
+          {
+            "item": "5000",
+            "count": "90"
+          },
+          {
+            "item": "100000",
+            "count": "90"
+          },
+          {
+            "item": "30000",
+            "count": "73"
+          },
+          {
+            "item": "25000",
+            "count": "72"
+          },
+          {
+            "item": "15000",
+            "count": "68"
+          },
+          {
+            "item": "50000",
+            "count": "64"
+          },
+          {
+            "item": "1000",
+            "count": "60"
+          },
+          {
+            "item": "0",
+            "count": "59"
+          },
+          {
+            "item": "1500",
+            "count": "58"
+          },
+          {
+            "item": "150000",
+            "count": "55"
+          },
+          {
+            "item": "3000",
+            "count": "51"
+          },
+          {
+            "item": "2500",
+            "count": "51"
+          },
+          {
+            "item": "40000",
+            "count": "48"
+          },
+          {
+            "item": "6000",
+            "count": "46"
+          },
+          {
+            "item": "500",
+            "count": "45"
+          },
+          {
+            "item": "2000",
+            "count": "41"
+          },
+          {
+            "item": "12000",
+            "count": "41"
+          },
+          {
+            "item": "200000",
+            "count": "41"
+          }
+        ],
+        "smallest": "-27665.1",
+        "count": "11326",
+        "cardinality": "3589"
+      }
+    },
+    {
+      "field_name": "percent_self_performed_job_exp_3",
+      "display_name": "Percent_Self_Performed_Job_Exp_3",
+      "data_type": "number",
+      "description": "Percent of the job performed by the vendor \n",
+      "position": 44,
+      "cached_contents": {
+        "non_null": "6992",
+        "largest": "100",
+        "null": "4334",
+        "top": [
+          {
+            "item": "100",
+            "count": "5843"
+          },
+          {
+            "item": "50",
+            "count": "136"
+          },
+          {
+            "item": "90",
+            "count": "121"
+          },
+          {
+            "item": "0",
+            "count": "114"
+          },
+          {
+            "item": "80",
+            "count": "93"
+          },
+          {
+            "item": "75",
+            "count": "85"
+          },
+          {
+            "item": "70",
+            "count": "61"
+          },
+          {
+            "item": "95",
+            "count": "55"
+          },
+          {
+            "item": "60",
+            "count": "54"
+          },
+          {
+            "item": "85",
+            "count": "45"
+          },
+          {
+            "item": "20",
+            "count": "44"
+          },
+          {
+            "item": "10",
+            "count": "43"
+          },
+          {
+            "item": "40",
+            "count": "39"
+          },
+          {
+            "item": "25",
+            "count": "37"
+          },
+          {
+            "item": "30",
+            "count": "37"
+          },
+          {
+            "item": "5",
+            "count": "19"
+          },
+          {
+            "item": "98",
+            "count": "14"
+          },
+          {
+            "item": "35",
+            "count": "14"
+          },
+          {
+            "item": "65",
+            "count": "13"
+          },
+          {
+            "item": "15",
+            "count": "13"
+          }
+        ],
+        "smallest": "0",
+        "count": "11326",
+        "cardinality": "68"
+      }
+    },
+    {
+      "field_name": "date_of_work_job_exp_3",
+      "display_name": "Date_of_Work_Job_Exp_3",
+      "data_type": "calendar_date",
+      "description": "Date the work was done",
+      "position": 45,
+      "cached_contents": {
+        "non_null": "7256",
+        "largest": "2025-04-01T00:00:00.000",
+        "null": "4070",
+        "top": [
+          {
+            "item": "2018-01-01T00:00:00.000",
+            "count": "63"
+          },
+          {
+            "item": "2022-01-01T00:00:00.000",
+            "count": "38"
+          },
+          {
+            "item": "2020-01-01T00:00:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2023-01-01T00:00:00.000",
+            "count": "36"
+          },
+          {
+            "item": "2015-01-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2017-01-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2016-01-01T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2019-01-01T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2022-09-01T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2021-01-01T00:00:00.000",
+            "count": "26"
+          },
+          {
+            "item": "2023-06-01T00:00:00.000",
+            "count": "25"
+          },
+          {
+            "item": "2024-01-01T00:00:00.000",
+            "count": "24"
+          },
+          {
+            "item": "2023-07-01T00:00:00.000",
+            "count": "23"
+          },
+          {
+            "item": "2023-02-01T00:00:00.000",
+            "count": "22"
+          },
+          {
+            "item": "2022-03-01T00:00:00.000",
+            "count": "22"
+          },
+          {
+            "item": "2021-09-01T00:00:00.000",
+            "count": "21"
+          },
+          {
+            "item": "2022-07-01T00:00:00.000",
+            "count": "21"
+          },
+          {
+            "item": "2014-01-01T00:00:00.000",
+            "count": "20"
+          },
+          {
+            "item": "2023-05-01T00:00:00.000",
+            "count": "20"
+          },
+          {
+            "item": "2023-04-01T00:00:00.000",
+            "count": "19"
+          }
+        ],
+        "smallest": "1999-09-09T00:00:00.000",
+        "count": "11326",
+        "cardinality": "2542"
+      }
+    },
+    {
+      "field_name": "description_of_work_job_exp_3",
+      "display_name": "Description_of_Work_Job_Exp_3",
+      "data_type": "text",
+      "description": "Description of the work done",
+      "position": 46,
+      "cached_contents": {
+        "non_null": "7247",
+        "largest": "Zumba instruction with music and instructor",
+        "null": "4079",
+        "top": [
+          {
+            "item": "#NAME?",
+            "count": "34"
+          },
+          {
+            "item": "Provided security guard services.",
+            "count": "6"
+          },
+          {
+            "item": "Painting",
+            "count": "6"
+          },
+          {
+            "item": "Construction Management",
+            "count": "6"
+          },
+          {
+            "item": "Consulting",
+            "count": "5"
+          },
+          {
+            "item": "Renovation",
+            "count": "5"
+          },
+          {
+            "item": "Sold supplies.",
+            "count": "4"
+          },
+          {
+            "item": "Security Services",
+            "count": "4"
+          },
+          {
+            "item": "Provided consulting services.",
+            "count": "4"
+          },
+          {
+            "item": "Provided architectural services.",
+            "count": "4"
+          },
+          {
+            "item": "Provided legal services.",
+            "count": "4"
+          },
+          {
+            "item": "N/A",
+            "count": "4"
+          },
+          {
+            "item": "100",
+            "count": "4"
+          },
+          {
+            "item": "Consulting Services",
+            "count": "4"
+          },
+          {
+            "item": "Provided engineering services.",
+            "count": "3"
+          },
+          {
+            "item": "Construction Inspection",
+            "count": "3"
+          },
+          {
+            "item": "Construction Management Services",
+            "count": "3"
+          },
+          {
+            "item": "Provided IT services.",
+            "count": "3"
+          },
+          {
+            "item": "HVAC",
+            "count": "3"
+          },
+          {
+            "item": "Interior Renovation",
+            "count": "3"
+          }
+        ],
+        "smallest": "024 Inc sold wax melts to the customer Daidralyn Wood",
+        "count": "11326",
+        "cardinality": "7094"
+      }
+    },
+    {
+      "field_name": "capacity_building_programs",
+      "display_name": "Capacity_Building_Programs",
+      "data_type": "text",
+      "description": "",
+      "position": 47,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "11326",
+        "count": "11326",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "enrolled_in_passport",
+      "display_name": "Enrolled_in_PASSPort",
+      "data_type": "text",
+      "description": "Enrollment in the NYC's Procurement and Sourcing Solutions Portal (PASSPort)\n",
+      "position": 48,
+      "cached_contents": {
+        "non_null": "11326",
+        "largest": "Yes",
+        "null": "0",
+        "top": [
+          {
+            "item": "Yes",
+            "count": "10585"
+          },
+          {
+            "item": "No",
+            "count": "741"
+          }
+        ],
+        "smallest": "No",
+        "count": "11326",
+        "cardinality": "2"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "Borough in which the building is located",
+      "position": 49,
+      "cached_contents": {
+        "non_null": "6943",
+        "largest": "STATEN IS",
+        "null": "4383",
+        "top": [
+          {
+            "item": "MANHATTAN",
+            "count": "2166"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "1925"
+          },
+          {
+            "item": "QUEENS",
+            "count": "1803"
+          },
+          {
+            "item": "BRONX",
+            "count": "753"
+          },
+          {
+            "item": "STATEN IS",
+            "count": "296"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "11326",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "Latitude of the building's location",
+      "position": 50,
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "40.912869",
+        "null": "4384",
+        "top": [
+          {
+            "item": "40.744521",
+            "count": "18"
+          },
+          {
+            "item": "40.662162",
+            "count": "14"
+          },
+          {
+            "item": "40.752021",
+            "count": "12"
+          },
+          {
+            "item": "40.692648",
+            "count": "12"
+          },
+          {
+            "item": "40.685856",
+            "count": "12"
+          },
+          {
+            "item": "40.70568",
+            "count": "11"
+          },
+          {
+            "item": "40.702763",
+            "count": "11"
+          },
+          {
+            "item": "40.745658",
+            "count": "11"
+          },
+          {
+            "item": "40.69802",
+            "count": "10"
+          },
+          {
+            "item": "40.704322",
+            "count": "9"
+          },
+          {
+            "item": "40.703147",
+            "count": "9"
+          },
+          {
+            "item": "40.829365",
+            "count": "8"
+          },
+          {
+            "item": "40.868979",
+            "count": "8"
+          },
+          {
+            "item": "40.702799",
+            "count": "8"
+          },
+          {
+            "item": "40.705",
+            "count": "8"
+          },
+          {
+            "item": "40.80734",
+            "count": "8"
+          },
+          {
+            "item": "40.753047",
+            "count": "8"
+          },
+          {
+            "item": "40.687503",
+            "count": "8"
+          },
+          {
+            "item": "40.745309",
+            "count": "8"
+          },
+          {
+            "item": "40.74306",
+            "count": "8"
+          }
+        ],
+        "smallest": "40.502419",
+        "count": "11326",
+        "cardinality": "5763"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "Longitude of the building's location",
+      "position": 51,
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "-73.704143",
+        "null": "4384",
+        "top": [
+          {
+            "item": "-73.987427",
+            "count": "18"
+          },
+          {
+            "item": "-73.961739",
+            "count": "14"
+          },
+          {
+            "item": "-73.929345",
+            "count": "12"
+          },
+          {
+            "item": "-73.802466",
+            "count": "12"
+          },
+          {
+            "item": "-73.982532",
+            "count": "12"
+          },
+          {
+            "item": "-74.013302",
+            "count": "11"
+          },
+          {
+            "item": "-74.010997",
+            "count": "11"
+          },
+          {
+            "item": "-73.986681",
+            "count": "11"
+          },
+          {
+            "item": "-73.986596",
+            "count": "11"
+          },
+          {
+            "item": "-73.987864",
+            "count": "9"
+          },
+          {
+            "item": "-74.011581",
+            "count": "9"
+          },
+          {
+            "item": "-73.974986",
+            "count": "9"
+          },
+          {
+            "item": "-73.917383",
+            "count": "8"
+          },
+          {
+            "item": "-73.98852",
+            "count": "8"
+          },
+          {
+            "item": "-73.99285",
+            "count": "8"
+          },
+          {
+            "item": "-73.944602",
+            "count": "8"
+          },
+          {
+            "item": "-73.942384",
+            "count": "8"
+          },
+          {
+            "item": "-73.990677",
+            "count": "8"
+          },
+          {
+            "item": "-74.007156",
+            "count": "8"
+          },
+          {
+            "item": "-73.979941",
+            "count": "8"
+          }
+        ],
+        "smallest": "-74.249419",
+        "count": "11326",
+        "cardinality": "5749"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "The Community Board field indicates the New York City Community District where the building is located",
+      "position": 52,
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "503",
+        "null": "4384",
+        "top": [
+          {
+            "item": "105",
+            "count": "649"
+          },
+          {
+            "item": "101",
+            "count": "308"
+          },
+          {
+            "item": "412",
+            "count": "279"
+          },
+          {
+            "item": "302",
+            "count": "258"
+          },
+          {
+            "item": "413",
+            "count": "252"
+          },
+          {
+            "item": "401",
+            "count": "209"
+          },
+          {
+            "item": "110",
+            "count": "181"
+          },
+          {
+            "item": "303",
+            "count": "172"
+          },
+          {
+            "item": "407",
+            "count": "168"
+          },
+          {
+            "item": "318",
+            "count": "164"
+          },
+          {
+            "item": "301",
+            "count": "161"
+          },
+          {
+            "item": "104",
+            "count": "154"
+          },
+          {
+            "item": "106",
+            "count": "151"
+          },
+          {
+            "item": "107",
+            "count": "149"
+          },
+          {
+            "item": "402",
+            "count": "144"
+          },
+          {
+            "item": "306",
+            "count": "139"
+          },
+          {
+            "item": "409",
+            "count": "132"
+          },
+          {
+            "item": "307",
+            "count": "130"
+          },
+          {
+            "item": "501",
+            "count": "129"
+          },
+          {
+            "item": "305",
+            "count": "121"
+          }
+        ],
+        "smallest": "101",
+        "count": "11326",
+        "cardinality": "60"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "The Council District field indicates the New York City Council District where the building is located",
+      "position": 53,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "51",
+        "null": "4384",
+        "top": [
+          {
+            "item": "3",
+            "count": "465"
+          },
+          {
+            "item": "4",
+            "count": "429"
+          },
+          {
+            "item": "1",
+            "count": "410"
+          },
+          {
+            "item": "9",
+            "count": "249"
+          },
+          {
+            "item": "33",
+            "count": "241"
+          },
+          {
+            "item": "26",
+            "count": "221"
+          },
+          {
+            "item": "35",
+            "count": "217"
+          },
+          {
+            "item": "28",
+            "count": "200"
+          },
+          {
+            "item": "27",
+            "count": "193"
+          },
+          {
+            "item": "29",
+            "count": "169"
+          },
+          {
+            "item": "39",
+            "count": "165"
+          },
+          {
+            "item": "31",
+            "count": "165"
+          },
+          {
+            "item": "36",
+            "count": "164"
+          },
+          {
+            "item": "38",
+            "count": "155"
+          },
+          {
+            "item": "40",
+            "count": "146"
+          },
+          {
+            "item": "2",
+            "count": "146"
+          },
+          {
+            "item": "45",
+            "count": "146"
+          },
+          {
+            "item": "22",
+            "count": "139"
+          },
+          {
+            "item": "19",
+            "count": "138"
+          },
+          {
+            "item": "6",
+            "count": "133"
+          }
+        ],
+        "smallest": "1",
+        "count": "11326",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "The BIN (Building Identification Number) is a unique identifier for each building in the City",
+      "position": 54,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "6906",
+        "largest": "5170644",
+        "null": "4420",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "22"
+          },
+          {
+            "item": "1015690",
+            "count": "18"
+          },
+          {
+            "item": "4000000",
+            "count": "15"
+          },
+          {
+            "item": "3029735",
+            "count": "14"
+          },
+          {
+            "item": "4258598",
+            "count": "12"
+          },
+          {
+            "item": "3058261",
+            "count": "12"
+          },
+          {
+            "item": "4003108",
+            "count": "12"
+          },
+          {
+            "item": "1015765",
+            "count": "11"
+          },
+          {
+            "item": "3000090",
+            "count": "11"
+          },
+          {
+            "item": "1000811",
+            "count": "11"
+          },
+          {
+            "item": "3059161",
+            "count": "9"
+          },
+          {
+            "item": "1000038",
+            "count": "9"
+          },
+          {
+            "item": "1000000",
+            "count": "9"
+          },
+          {
+            "item": "3000026",
+            "count": "9"
+          },
+          {
+            "item": "3335129",
+            "count": "9"
+          },
+          {
+            "item": "1015727",
+            "count": "8"
+          },
+          {
+            "item": "1015201",
+            "count": "8"
+          },
+          {
+            "item": "1000865",
+            "count": "8"
+          },
+          {
+            "item": "1062192",
+            "count": "8"
+          },
+          {
+            "item": "4003539",
+            "count": "8"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "11326",
+        "cardinality": "5676"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The BBL (Borough, Block, and Lot) is a unique identifier for each tax lot in the City",
+      "position": 55,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "6906",
+        "largest": "5080360051",
+        "null": "4420",
+        "top": [
+          {
+            "item": "1008290040",
+            "count": "18"
+          },
+          {
+            "item": "3020230001",
+            "count": "17"
+          },
+          {
+            "item": "3011970006",
+            "count": "14"
+          },
+          {
+            "item": "2051410120",
+            "count": "13"
+          },
+          {
+            "item": "4002140249",
+            "count": "12"
+          },
+          {
+            "item": "3020620006",
+            "count": "12"
+          },
+          {
+            "item": "4119580064",
+            "count": "12"
+          },
+          {
+            "item": "1008310042",
+            "count": "11"
+          },
+          {
+            "item": "1000220013",
+            "count": "11"
+          },
+          {
+            "item": "3000400001",
+            "count": "11"
+          },
+          {
+            "item": "1000110021",
+            "count": "9"
+          },
+          {
+            "item": "3021060009",
+            "count": "9"
+          },
+          {
+            "item": "3000290016",
+            "count": "9"
+          },
+          {
+            "item": "3006910001",
+            "count": "9"
+          },
+          {
+            "item": "1000337501",
+            "count": "8"
+          },
+          {
+            "item": "1017230031",
+            "count": "8"
+          },
+          {
+            "item": "1020830033",
+            "count": "8"
+          },
+          {
+            "item": "1022310001",
+            "count": "8"
+          },
+          {
+            "item": "1008090053",
+            "count": "8"
+          },
+          {
+            "item": "3000370001",
+            "count": "8"
+          }
+        ],
+        "smallest": "1000047501",
+        "count": "11326",
+        "cardinality": "5624"
+      }
+    },
+    {
+      "field_name": "census_tract_2020_",
+      "display_name": "Census Tract (2020)",
+      "data_type": "number",
+      "description": "The Census Tract (Census 2020) field indicates the U.S. Census Tract where the building is located. Please note that as part of the geocoding process, leading and trailing zeros are dropped",
+      "position": 56,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "157903",
+        "null": "4384",
+        "top": [
+          {
+            "item": "21",
+            "count": "93"
+          },
+          {
+            "item": "9",
+            "count": "74"
+          },
+          {
+            "item": "7",
+            "count": "69"
+          },
+          {
+            "item": "109",
+            "count": "62"
+          },
+          {
+            "item": "1502",
+            "count": "61"
+          },
+          {
+            "item": "13",
+            "count": "61"
+          },
+          {
+            "item": "76",
+            "count": "59"
+          },
+          {
+            "item": "101",
+            "count": "56"
+          },
+          {
+            "item": "58",
+            "count": "55"
+          },
+          {
+            "item": "84",
+            "count": "49"
+          },
+          {
+            "item": "95",
+            "count": "49"
+          },
+          {
+            "item": "113",
+            "count": "48"
+          },
+          {
+            "item": "74",
+            "count": "45"
+          },
+          {
+            "item": "82",
+            "count": "44"
+          },
+          {
+            "item": "33",
+            "count": "43"
+          },
+          {
+            "item": "111",
+            "count": "34"
+          },
+          {
+            "item": "96",
+            "count": "33"
+          },
+          {
+            "item": "80",
+            "count": "32"
+          },
+          {
+            "item": "92",
+            "count": "31"
+          },
+          {
+            "item": "137",
+            "count": "31"
+          }
+        ],
+        "smallest": "1",
+        "count": "11326",
+        "cardinality": "1235"
+      }
+    },
+    {
+      "field_name": "neighborhood_tabulation_area_nta_2020_",
+      "display_name": "Neighborhood Tabulation Area (NTA) (2020)",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area (Census 2020) field indicates the New York City Neighborhood area where the building is located\n",
+      "position": 57,
+      "cached_contents": {
+        "non_null": "6942",
+        "largest": "SI0305",
+        "null": "4384",
+        "top": [
+          {
+            "item": "MN0502",
+            "count": "330"
+          },
+          {
+            "item": "MN0501",
+            "count": "263"
+          },
+          {
+            "item": "MN0101",
+            "count": "235"
+          },
+          {
+            "item": "BK0202",
+            "count": "120"
+          },
+          {
+            "item": "MN0401",
+            "count": "101"
+          },
+          {
+            "item": "MN1002",
+            "count": "98"
+          },
+          {
+            "item": "BK0301",
+            "count": "95"
+          },
+          {
+            "item": "BK0601",
+            "count": "94"
+          },
+          {
+            "item": "BK0702",
+            "count": "94"
+          },
+          {
+            "item": "QN1001",
+            "count": "94"
+          },
+          {
+            "item": "BK1801",
+            "count": "84"
+          },
+          {
+            "item": "MN1001",
+            "count": "83"
+          },
+          {
+            "item": "MN0604",
+            "count": "81"
+          },
+          {
+            "item": "BK0302",
+            "count": "79"
+          },
+          {
+            "item": "BK0802",
+            "count": "79"
+          },
+          {
+            "item": "MN0603",
+            "count": "75"
+          },
+          {
+            "item": "MN0102",
+            "count": "73"
+          },
+          {
+            "item": "QN0201",
+            "count": "70"
+          },
+          {
+            "item": "BX0101",
+            "count": "69"
+          },
+          {
+            "item": "BK0902",
+            "count": "67"
+          }
+        ],
+        "smallest": "BK0101",
+        "count": "11326",
+        "cardinality": "203"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:12.976321"
+}

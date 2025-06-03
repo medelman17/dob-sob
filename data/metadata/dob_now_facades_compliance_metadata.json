@@ -1,0 +1,2799 @@
+{
+  "dataset_id": "xubg-57si",
+  "name": "DOB NOW: Safety \u2013 Facades Compliance Filings",
+  "description": "List of all Facades compliance filings submitted in DOB NOW.",
+  "agency": "Department of Buildings (DOB)",
+  "category": "Housing & Development",
+  "tags": [
+    "dob",
+    "buildings",
+    "now",
+    "facades",
+    "compliance",
+    "filings",
+    "2018od4a-video"
+  ],
+  "update_frequency": "0",
+  "attribution": "Department of Buildings (DOB)",
+  "created_at": "2016-09-09T15:34:48",
+  "updated_at": "2025-06-03T19:34:27",
+  "row_count": 1748979267,
+  "column_count": 36,
+  "download_count": 11120,
+  "view_count": 23855,
+  "columns": [
+    {
+      "field_name": "tr6_no",
+      "display_name": "TR6_NO",
+      "data_type": "text",
+      "width": 117,
+      "position": 1,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "TR6-919606-9B-N1",
+        "null": "0",
+        "top": [
+          {
+            "item": "TR6-814993-8A-N1",
+            "count": "4"
+          },
+          {
+            "item": "TR6-815008-8B-N1",
+            "count": "4"
+          },
+          {
+            "item": "TR6-613144-NA-I1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-815008-8B-I2",
+            "count": "2"
+          },
+          {
+            "item": "TR6-812231-8B-N1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-601435-NA-I1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-613144-NA-A1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-610070-NA-I1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-815013-8B-I1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-812231-8B-I1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-613144-NA-S1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-800351-8A-S1",
+            "count": "2"
+          },
+          {
+            "item": "TR6-711980-7C-I1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-706853-7B-I1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-911689-9B-S3",
+            "count": "1"
+          },
+          {
+            "item": "TR6-604076-NA-I1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-711412-7A-N1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-707935-7B-I1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-809135-8A-I1",
+            "count": "1"
+          },
+          {
+            "item": "TR6-608649-NA-I1",
+            "count": "1"
+          }
+        ],
+        "smallest": "TR6-1000001-10A-I1",
+        "count": "76653",
+        "cardinality": "76637"
+      }
+    },
+    {
+      "field_name": "control_no",
+      "display_name": "CONTROL_NO",
+      "data_type": "text",
+      "width": 93,
+      "position": 2,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "919606",
+        "null": "0",
+        "top": [
+          {
+            "item": "903967",
+            "count": "8"
+          },
+          {
+            "item": "902769",
+            "count": "7"
+          },
+          {
+            "item": "904078",
+            "count": "7"
+          },
+          {
+            "item": "902354",
+            "count": "7"
+          },
+          {
+            "item": "904575",
+            "count": "7"
+          },
+          {
+            "item": "902565",
+            "count": "7"
+          },
+          {
+            "item": "903720",
+            "count": "7"
+          },
+          {
+            "item": "914933",
+            "count": "7"
+          },
+          {
+            "item": "900999",
+            "count": "7"
+          },
+          {
+            "item": "907740",
+            "count": "7"
+          },
+          {
+            "item": "909253",
+            "count": "7"
+          },
+          {
+            "item": "904360",
+            "count": "7"
+          },
+          {
+            "item": "900980",
+            "count": "6"
+          },
+          {
+            "item": "914787",
+            "count": "6"
+          },
+          {
+            "item": "613144",
+            "count": "6"
+          },
+          {
+            "item": "911803",
+            "count": "6"
+          },
+          {
+            "item": "905402",
+            "count": "6"
+          },
+          {
+            "item": "903031",
+            "count": "6"
+          },
+          {
+            "item": "909149",
+            "count": "6"
+          },
+          {
+            "item": "901779",
+            "count": "6"
+          }
+        ],
+        "smallest": "1000001",
+        "count": "76653",
+        "cardinality": "56791"
+      }
+    },
+    {
+      "field_name": "filing_type",
+      "display_name": "FILING_TYPE",
+      "data_type": "text",
+      "width": 92,
+      "position": 3,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "Subsequent",
+        "null": "0",
+        "top": [
+          {
+            "item": "Initial",
+            "count": "51908"
+          },
+          {
+            "item": "Auto-Generated",
+            "count": "12839"
+          },
+          {
+            "item": "Amended",
+            "count": "8555"
+          },
+          {
+            "item": "Subsequent",
+            "count": "3351"
+          }
+        ],
+        "smallest": "Amended",
+        "count": "76653",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "cycle",
+      "display_name": "CYCLE",
+      "data_type": "text",
+      "width": 51,
+      "position": 4,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "9",
+        "null": "0",
+        "top": [
+          {
+            "item": "9",
+            "count": "24162"
+          },
+          {
+            "item": "8",
+            "count": "21415"
+          },
+          {
+            "item": "6",
+            "count": "15338"
+          },
+          {
+            "item": "7",
+            "count": "15334"
+          },
+          {
+            "item": "10",
+            "count": "404"
+          }
+        ],
+        "smallest": "10",
+        "count": "76653",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "text",
+      "width": 70,
+      "position": 5,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "5160021",
+        "null": "0",
+        "top": [
+          {
+            "item": "1084781",
+            "count": "38"
+          },
+          {
+            "item": "1081661",
+            "count": "23"
+          },
+          {
+            "item": "1077591",
+            "count": "22"
+          },
+          {
+            "item": "1077585",
+            "count": "21"
+          },
+          {
+            "item": "3335934",
+            "count": "21"
+          },
+          {
+            "item": "1087284",
+            "count": "21"
+          },
+          {
+            "item": "1069579",
+            "count": "20"
+          },
+          {
+            "item": "4206534",
+            "count": "20"
+          },
+          {
+            "item": "1087137",
+            "count": "19"
+          },
+          {
+            "item": "4445407",
+            "count": "17"
+          },
+          {
+            "item": "1084386",
+            "count": "16"
+          },
+          {
+            "item": "3345581",
+            "count": "16"
+          },
+          {
+            "item": "3131067",
+            "count": "15"
+          },
+          {
+            "item": "3253907",
+            "count": "15"
+          },
+          {
+            "item": "3321876",
+            "count": "15"
+          },
+          {
+            "item": "1046253",
+            "count": "14"
+          },
+          {
+            "item": "3247918",
+            "count": "14"
+          },
+          {
+            "item": "3245026",
+            "count": "14"
+          },
+          {
+            "item": "1089873",
+            "count": "14"
+          },
+          {
+            "item": "1033752",
+            "count": "13"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "76653",
+        "cardinality": "16394"
+      }
+    },
+    {
+      "field_name": "house_no",
+      "display_name": "HOUSE_NO",
+      "data_type": "text",
+      "width": 79,
+      "position": 6,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "999",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "427"
+          },
+          {
+            "item": "50",
+            "count": "418"
+          },
+          {
+            "item": "40",
+            "count": "401"
+          },
+          {
+            "item": "60",
+            "count": "392"
+          },
+          {
+            "item": "30",
+            "count": "391"
+          },
+          {
+            "item": "200",
+            "count": "390"
+          },
+          {
+            "item": "100",
+            "count": "363"
+          },
+          {
+            "item": "20",
+            "count": "349"
+          },
+          {
+            "item": "10",
+            "count": "338"
+          },
+          {
+            "item": "150",
+            "count": "332"
+          },
+          {
+            "item": "15",
+            "count": "320"
+          },
+          {
+            "item": "35",
+            "count": "299"
+          },
+          {
+            "item": "120",
+            "count": "294"
+          },
+          {
+            "item": "225",
+            "count": "293"
+          },
+          {
+            "item": "110",
+            "count": "292"
+          },
+          {
+            "item": "160",
+            "count": "290"
+          },
+          {
+            "item": "2",
+            "count": "289"
+          },
+          {
+            "item": "25",
+            "count": "282"
+          },
+          {
+            "item": "140",
+            "count": "279"
+          },
+          {
+            "item": "300",
+            "count": "276"
+          }
+        ],
+        "smallest": "1",
+        "count": "76653",
+        "cardinality": "4336"
+      }
+    },
+    {
+      "field_name": "street_name",
+      "display_name": "STREET_NAME",
+      "data_type": "text",
+      "width": 232,
+      "position": 7,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "ZOE STREET",
+        "null": "0",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "2157"
+          },
+          {
+            "item": "FIFTH AVENUE",
+            "count": "1509"
+          },
+          {
+            "item": "PARK AVENUE",
+            "count": "1163"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "965"
+          },
+          {
+            "item": "RIVERSIDE DRIVE",
+            "count": "802"
+          },
+          {
+            "item": "WEST END AVENUE",
+            "count": "788"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "652"
+          },
+          {
+            "item": "THIRD AVENUE",
+            "count": "570"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "472"
+          },
+          {
+            "item": "SECOND AVENUE",
+            "count": "459"
+          },
+          {
+            "item": "FIRST AVENUE",
+            "count": "441"
+          },
+          {
+            "item": "AMSTERDAM AVENUE",
+            "count": "428"
+          },
+          {
+            "item": "GRAND CONCOURSE",
+            "count": "357"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "341"
+          },
+          {
+            "item": "CENTRAL PARK WEST",
+            "count": "317"
+          },
+          {
+            "item": "OCEAN PARKWAY",
+            "count": "299"
+          },
+          {
+            "item": "WEST 57 STREET",
+            "count": "285"
+          },
+          {
+            "item": "AVENUE OF THE AMERICAS",
+            "count": "281"
+          },
+          {
+            "item": "PARK AVENUE SOUTH",
+            "count": "275"
+          },
+          {
+            "item": "OCEAN AVENUE",
+            "count": "274"
+          }
+        ],
+        "smallest": "100 STREET",
+        "count": "76653",
+        "cardinality": "2654"
+      }
+    },
+    {
+      "field_name": "borough",
+      "display_name": "BOROUGH",
+      "data_type": "text",
+      "width": 84,
+      "position": 8,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "STATEN ISLAND",
+        "null": "0",
+        "top": [
+          {
+            "item": "MANHATTAN",
+            "count": "44494"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "11245"
+          },
+          {
+            "item": "BRONX",
+            "count": "10586"
+          },
+          {
+            "item": "QUEENS",
+            "count": "9615"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "713"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "76653",
+        "cardinality": "5"
+      }
+    },
+    {
+      "field_name": "block",
+      "display_name": "BLOCK",
+      "data_type": "text",
+      "width": 60,
+      "position": 9,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "99999",
+        "null": "0",
+        "top": [
+          {
+            "item": "2180",
+            "count": "224"
+          },
+          {
+            "item": "3944",
+            "count": "219"
+          },
+          {
+            "item": "16",
+            "count": "219"
+          },
+          {
+            "item": "4452",
+            "count": "195"
+          },
+          {
+            "item": "3943",
+            "count": "188"
+          },
+          {
+            "item": "2179",
+            "count": "188"
+          },
+          {
+            "item": "8329",
+            "count": "161"
+          },
+          {
+            "item": "538",
+            "count": "158"
+          },
+          {
+            "item": "5141",
+            "count": "157"
+          },
+          {
+            "item": "3938",
+            "count": "156"
+          },
+          {
+            "item": "2139",
+            "count": "155"
+          },
+          {
+            "item": "4905",
+            "count": "153"
+          },
+          {
+            "item": "972",
+            "count": "151"
+          },
+          {
+            "item": "2215",
+            "count": "134"
+          },
+          {
+            "item": "2136",
+            "count": "134"
+          },
+          {
+            "item": "1344",
+            "count": "132"
+          },
+          {
+            "item": "6792",
+            "count": "131"
+          },
+          {
+            "item": "490",
+            "count": "131"
+          },
+          {
+            "item": "3937",
+            "count": "125"
+          },
+          {
+            "item": "557",
+            "count": "124"
+          }
+        ],
+        "smallest": "00251",
+        "count": "76653",
+        "cardinality": "3832"
+      }
+    },
+    {
+      "field_name": "lot",
+      "display_name": "LOT",
+      "data_type": "text",
+      "width": 64,
+      "position": 10,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "99",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "14265"
+          },
+          {
+            "item": "7501",
+            "count": "6138"
+          },
+          {
+            "item": "7502",
+            "count": "2413"
+          },
+          {
+            "item": "2",
+            "count": "1272"
+          },
+          {
+            "item": "7503",
+            "count": "1180"
+          },
+          {
+            "item": "20",
+            "count": "1129"
+          },
+          {
+            "item": "10",
+            "count": "1120"
+          },
+          {
+            "item": "29",
+            "count": "1055"
+          },
+          {
+            "item": "21",
+            "count": "1032"
+          },
+          {
+            "item": "7",
+            "count": "937"
+          },
+          {
+            "item": "40",
+            "count": "931"
+          },
+          {
+            "item": "15",
+            "count": "912"
+          },
+          {
+            "item": "50",
+            "count": "911"
+          },
+          {
+            "item": "16",
+            "count": "908"
+          },
+          {
+            "item": "5",
+            "count": "900"
+          },
+          {
+            "item": "12",
+            "count": "893"
+          },
+          {
+            "item": "11",
+            "count": "869"
+          },
+          {
+            "item": "33",
+            "count": "864"
+          },
+          {
+            "item": "14",
+            "count": "854"
+          },
+          {
+            "item": "23",
+            "count": "832"
+          }
+        ],
+        "smallest": "0",
+        "count": "76653",
+        "cardinality": "471"
+      }
+    },
+    {
+      "field_name": "sequence_no",
+      "display_name": "SEQUENCE_NO",
+      "data_type": "text",
+      "width": 94,
+      "position": 11,
+      "cached_contents": {
+        "non_null": "72687",
+        "largest": "O4",
+        "null": "3966",
+        "top": [
+          {
+            "item": "1",
+            "count": "58348"
+          },
+          {
+            "item": "2",
+            "count": "4311"
+          },
+          {
+            "item": "3",
+            "count": "2282"
+          },
+          {
+            "item": "4",
+            "count": "1561"
+          },
+          {
+            "item": "5",
+            "count": "1174"
+          },
+          {
+            "item": "6",
+            "count": "923"
+          },
+          {
+            "item": "7",
+            "count": "735"
+          },
+          {
+            "item": "8",
+            "count": "559"
+          },
+          {
+            "item": "9",
+            "count": "444"
+          },
+          {
+            "item": "10",
+            "count": "319"
+          },
+          {
+            "item": "11",
+            "count": "268"
+          },
+          {
+            "item": "12",
+            "count": "246"
+          },
+          {
+            "item": "13",
+            "count": "203"
+          },
+          {
+            "item": "14",
+            "count": "165"
+          },
+          {
+            "item": "15",
+            "count": "117"
+          },
+          {
+            "item": "01",
+            "count": "91"
+          },
+          {
+            "item": "16",
+            "count": "91"
+          },
+          {
+            "item": "18",
+            "count": "87"
+          },
+          {
+            "item": "17",
+            "count": "79"
+          },
+          {
+            "item": "19",
+            "count": "60"
+          }
+        ],
+        "smallest": "00",
+        "count": "76653",
+        "cardinality": "63"
+      }
+    },
+    {
+      "field_name": "submitted_on",
+      "display_name": "SUBMITTED_ON",
+      "data_type": "text",
+      "width": 138,
+      "position": 12,
+      "cached_contents": {
+        "non_null": "63785",
+        "largest": "2025-06-01 00:00:00",
+        "null": "12868",
+        "top": [
+          {
+            "item": "2007-02-21 00:00:00",
+            "count": "1202"
+          },
+          {
+            "item": "2007-02-20 00:00:00",
+            "count": "727"
+          },
+          {
+            "item": "2012-02-21 00:00:00",
+            "count": "642"
+          },
+          {
+            "item": "2024-02-21 00:00:00",
+            "count": "620"
+          },
+          {
+            "item": "2023-02-21 00:00:00",
+            "count": "610"
+          },
+          {
+            "item": "2017-02-21 00:00:00",
+            "count": "581"
+          },
+          {
+            "item": "2022-02-21 00:00:00",
+            "count": "510"
+          },
+          {
+            "item": "2022-02-18 00:00:00",
+            "count": "447"
+          },
+          {
+            "item": "2007-02-16 00:00:00",
+            "count": "406"
+          },
+          {
+            "item": "2018-02-21 00:00:00",
+            "count": "405"
+          },
+          {
+            "item": "2019-02-21 00:00:00",
+            "count": "366"
+          },
+          {
+            "item": "2013-02-21 00:00:00",
+            "count": "351"
+          },
+          {
+            "item": "2012-08-21 00:00:00",
+            "count": "350"
+          },
+          {
+            "item": "2024-02-20 00:00:00",
+            "count": "347"
+          },
+          {
+            "item": "2012-08-20 00:00:00",
+            "count": "347"
+          },
+          {
+            "item": "2007-02-15 00:00:00",
+            "count": "309"
+          },
+          {
+            "item": "2013-02-20 00:00:00",
+            "count": "293"
+          },
+          {
+            "item": "2017-02-17 00:00:00",
+            "count": "288"
+          },
+          {
+            "item": "2019-02-20 00:00:00",
+            "count": "285"
+          },
+          {
+            "item": "2012-02-17 00:00:00",
+            "count": "269"
+          }
+        ],
+        "smallest": "2001-11-02 01:00:00",
+        "count": "76653",
+        "cardinality": "5432"
+      }
+    },
+    {
+      "field_name": "current_status",
+      "display_name": "CURRENT_STATUS",
+      "data_type": "text",
+      "width": 116,
+      "position": 13,
+      "cached_contents": {
+        "non_null": "76513",
+        "largest": "UNSAFE",
+        "null": "140",
+        "top": [
+          {
+            "item": "SAFE",
+            "count": "38673"
+          },
+          {
+            "item": "SWARMP",
+            "count": "28389"
+          },
+          {
+            "item": "UNSAFE",
+            "count": "5681"
+          },
+          {
+            "item": "No Report Filed",
+            "count": "3770"
+          }
+        ],
+        "smallest": "No Report Filed",
+        "count": "76653",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "qewi_name",
+      "display_name": "QEWI_NAME",
+      "data_type": "text",
+      "width": 208,
+      "position": 14,
+      "cached_contents": {
+        "non_null": "62375",
+        "largest": "ZINGHER  EDY",
+        "null": "14278",
+        "top": [
+          {
+            "item": "PAUL  MILLMAN",
+            "count": "1439"
+          },
+          {
+            "item": "ALAN S EPSTEIN",
+            "count": "1135"
+          },
+          {
+            "item": "HOWARD L ZIMMERMAN",
+            "count": "895"
+          },
+          {
+            "item": "ANTHONY  STASIO",
+            "count": "846"
+          },
+          {
+            "item": "BARIS  ACAR",
+            "count": "839"
+          },
+          {
+            "item": "RICHARD  KOENIGSBERG",
+            "count": "801"
+          },
+          {
+            "item": "TIMOTHY  WEBB",
+            "count": "799"
+          },
+          {
+            "item": "DAVID  SALAMON",
+            "count": "736"
+          },
+          {
+            "item": "HOWARD  ZIMMERMAN",
+            "count": "716"
+          },
+          {
+            "item": "CHARLES A MERRITT",
+            "count": "622"
+          },
+          {
+            "item": "STANFORD  CHAN",
+            "count": "580"
+          },
+          {
+            "item": "JOSEPH  CANTON",
+            "count": "561"
+          },
+          {
+            "item": "EVAN  PETKANAS",
+            "count": "560"
+          },
+          {
+            "item": "DAVID  MAY",
+            "count": "473"
+          },
+          {
+            "item": "WILLIAM  STRUTH",
+            "count": "463"
+          },
+          {
+            "item": "THOMAS  CATALDO",
+            "count": "448"
+          },
+          {
+            "item": "HAMIDREZA  SAGHARI",
+            "count": "443"
+          },
+          {
+            "item": "RONALD  CAGAN",
+            "count": "430"
+          },
+          {
+            "item": "ALAN  EPSTEIN",
+            "count": "427"
+          },
+          {
+            "item": "KENNETH  SANTELLI",
+            "count": "427"
+          }
+        ],
+        "smallest": "?",
+        "count": "76653",
+        "cardinality": "2329"
+      }
+    },
+    {
+      "field_name": "qewi_bus_name",
+      "display_name": "QEWI_BUS_NAME",
+      "data_type": "text",
+      "width": 256,
+      "position": 15,
+      "cached_contents": {
+        "non_null": "61639",
+        "largest": "ZIMMERMAN ARCHITECTS P.C",
+        "null": "15014",
+        "top": [
+          {
+            "item": "EPSTEIN ENGINEERING, P.C",
+            "count": "901"
+          },
+          {
+            "item": "LAWLESS & MANGIONE, LLP",
+            "count": "742"
+          },
+          {
+            "item": "KOENIGSBERG ENGINEERING, P.C.",
+            "count": "724"
+          },
+          {
+            "item": "SUPERSTRUCTURES ENG. & ARCH",
+            "count": "697"
+          },
+          {
+            "item": "RAND ENGINEERING & ARCHITECTURE",
+            "count": "641"
+          },
+          {
+            "item": "RAND ENGINEERING & ARCHITECTURE, DP",
+            "count": "626"
+          },
+          {
+            "item": "SALAMON ENGINEERING PLLC",
+            "count": "614"
+          },
+          {
+            "item": "MERRITT ENGINEERING CONSULTANTS",
+            "count": "603"
+          },
+          {
+            "item": "HLZIMMERMAN ARCHITECTS",
+            "count": "599"
+          },
+          {
+            "item": "EDG",
+            "count": "529"
+          },
+          {
+            "item": "DEVON ARCHITECTS",
+            "count": "515"
+          },
+          {
+            "item": "PACE ENGINEERING P.C.",
+            "count": "501"
+          },
+          {
+            "item": "GANDHI ENGINEERING INC",
+            "count": "496"
+          },
+          {
+            "item": "THORNTON TOMASETTI",
+            "count": "476"
+          },
+          {
+            "item": "SULLIVAN ENGINEERING",
+            "count": "450"
+          },
+          {
+            "item": "NY RESTORATION TECHNOLOGY CORP",
+            "count": "425"
+          },
+          {
+            "item": "RAND ENGINEERING & ARCHITECT",
+            "count": "411"
+          },
+          {
+            "item": "CATALDO ENGINEERING, P.C.",
+            "count": "406"
+          },
+          {
+            "item": "LAWLESS & MANGIONE ARCHITECT AND EN",
+            "count": "404"
+          },
+          {
+            "item": "RONNETTE RILEY ARCHITECT",
+            "count": "380"
+          }
+        ],
+        "smallest": "10 PARK AVENUE",
+        "count": "76653",
+        "cardinality": "4771"
+      }
+    },
+    {
+      "field_name": "qewi_bus_street_name",
+      "display_name": "QEWI_BUS_STREET_NAME",
+      "data_type": "text",
+      "width": 340,
+      "position": 16,
+      "cached_contents": {
+        "non_null": "63753",
+        "largest": "YEVGENIY GUREVICH-089484",
+        "null": "12900",
+        "top": [
+          {
+            "item": "480 NORTH BROADWAY",
+            "count": "2088"
+          },
+          {
+            "item": "159 WEST 25TH STREET",
+            "count": "1497"
+          },
+          {
+            "item": "11 WEST 30TH STREET",
+            "count": "971"
+          },
+          {
+            "item": "317 MADISON AVENUE, SUITE 915",
+            "count": "808"
+          },
+          {
+            "item": "11 W 30 ST",
+            "count": "663"
+          },
+          {
+            "item": "28-08 BAYSIDE LANE",
+            "count": "641"
+          },
+          {
+            "item": "250 W. 94TH STREET",
+            "count": "633"
+          },
+          {
+            "item": "111 JOHN STREET",
+            "count": "610"
+          },
+          {
+            "item": "159 WEST 25TH STREET, 12TH FLOOR",
+            "count": "586"
+          },
+          {
+            "item": "118 WEST 22ND STREET",
+            "count": "584"
+          },
+          {
+            "item": "152 MADISON AVENUE",
+            "count": "584"
+          },
+          {
+            "item": "183 MADISON AVENUE",
+            "count": "555"
+          },
+          {
+            "item": "32 AVENUE OF THE AMERICAS",
+            "count": "516"
+          },
+          {
+            "item": "28-08        BAYSIDE LANE",
+            "count": "515"
+          },
+          {
+            "item": "362 FIFTH AVENUE",
+            "count": "513"
+          },
+          {
+            "item": "32 AVE OF AMERICAS",
+            "count": "495"
+          },
+          {
+            "item": "260 WEST 35TH STREET",
+            "count": "482"
+          },
+          {
+            "item": "151 WEST 26TH STREET",
+            "count": "467"
+          },
+          {
+            "item": "330 WEST 38 STREET",
+            "count": "457"
+          },
+          {
+            "item": "25 WEST 39TH STREET",
+            "count": "443"
+          }
+        ],
+        "smallest": "0NE          UNION SQUARE WEST",
+        "count": "76653",
+        "cardinality": "4056"
+      }
+    },
+    {
+      "field_name": "qewi_city",
+      "display_name": "QEWI_CITY",
+      "data_type": "text",
+      "width": 130,
+      "position": 17,
+      "cached_contents": {
+        "non_null": "63259",
+        "largest": "YORKERS",
+        "null": "13394",
+        "top": [
+          {
+            "item": "NEW YORK",
+            "count": "37231"
+          },
+          {
+            "item": "YONKERS",
+            "count": "2457"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "2223"
+          },
+          {
+            "item": "NY",
+            "count": "1860"
+          },
+          {
+            "item": "BAYSIDE",
+            "count": "1314"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "931"
+          },
+          {
+            "item": "FLUSHING",
+            "count": "775"
+          },
+          {
+            "item": "NEW ROCHELLE",
+            "count": "618"
+          },
+          {
+            "item": "LONG ISLAND CITY",
+            "count": "553"
+          },
+          {
+            "item": "PATCHOGUE",
+            "count": "529"
+          },
+          {
+            "item": "GREAT NECK",
+            "count": "521"
+          },
+          {
+            "item": "PARAMUS",
+            "count": "437"
+          },
+          {
+            "item": "PELHAM",
+            "count": "396"
+          },
+          {
+            "item": "BEDFORD",
+            "count": "390"
+          },
+          {
+            "item": "OYSTER BAY",
+            "count": "372"
+          },
+          {
+            "item": "TOTOWA",
+            "count": "355"
+          },
+          {
+            "item": "ENGLEWOOD CLIFFS",
+            "count": "352"
+          },
+          {
+            "item": "HAZLET",
+            "count": "348"
+          },
+          {
+            "item": "DOBBS FERRY",
+            "count": "311"
+          },
+          {
+            "item": "STAMFORD",
+            "count": "309"
+          }
+        ],
+        "smallest": "ARLINGTO HTS",
+        "count": "76653",
+        "cardinality": "564"
+      }
+    },
+    {
+      "field_name": "qewi_state",
+      "display_name": "QEWI_STATE",
+      "data_type": "text",
+      "width": 92,
+      "position": 18,
+      "cached_contents": {
+        "non_null": "63750",
+        "largest": "WA",
+        "null": "12903",
+        "top": [
+          {
+            "item": "NY",
+            "count": "58495"
+          },
+          {
+            "item": "NJ",
+            "count": "4414"
+          },
+          {
+            "item": "CT",
+            "count": "564"
+          },
+          {
+            "item": "N.",
+            "count": "112"
+          },
+          {
+            "item": "VA",
+            "count": "57"
+          },
+          {
+            "item": "MD",
+            "count": "25"
+          },
+          {
+            "item": "FL",
+            "count": "24"
+          },
+          {
+            "item": "PA",
+            "count": "23"
+          },
+          {
+            "item": "IL",
+            "count": "15"
+          },
+          {
+            "item": "NE",
+            "count": "6"
+          },
+          {
+            "item": "ND",
+            "count": "4"
+          },
+          {
+            "item": "DC",
+            "count": "3"
+          },
+          {
+            "item": "MA",
+            "count": "2"
+          },
+          {
+            "item": "Florida",
+            "count": "2"
+          },
+          {
+            "item": "NH",
+            "count": "1"
+          },
+          {
+            "item": "TX",
+            "count": "1"
+          },
+          {
+            "item": "GA",
+            "count": "1"
+          },
+          {
+            "item": "WA",
+            "count": "1"
+          }
+        ],
+        "smallest": "CT",
+        "count": "76653",
+        "cardinality": "18"
+      }
+    },
+    {
+      "field_name": "qewi_zip",
+      "display_name": "QEWI_ZIP",
+      "data_type": "text",
+      "width": 71,
+      "position": 19,
+      "cached_contents": {
+        "non_null": "32043",
+        "largest": "NY",
+        "null": "44610",
+        "top": [
+          {
+            "item": "10001",
+            "count": "6348"
+          },
+          {
+            "item": "10018",
+            "count": "4010"
+          },
+          {
+            "item": "10016",
+            "count": "1711"
+          },
+          {
+            "item": "10701",
+            "count": "1060"
+          },
+          {
+            "item": "10013",
+            "count": "975"
+          },
+          {
+            "item": "10017",
+            "count": "924"
+          },
+          {
+            "item": "10025",
+            "count": "882"
+          },
+          {
+            "item": "10011",
+            "count": "842"
+          },
+          {
+            "item": "11358",
+            "count": "729"
+          },
+          {
+            "item": "10010",
+            "count": "671"
+          },
+          {
+            "item": "10036",
+            "count": "556"
+          },
+          {
+            "item": "11772",
+            "count": "454"
+          },
+          {
+            "item": "10005",
+            "count": "438"
+          },
+          {
+            "item": "11101",
+            "count": "436"
+          },
+          {
+            "item": "10038",
+            "count": "421"
+          },
+          {
+            "item": "10006",
+            "count": "369"
+          },
+          {
+            "item": "07632",
+            "count": "352"
+          },
+          {
+            "item": "11791",
+            "count": "330"
+          },
+          {
+            "item": "07512",
+            "count": "327"
+          },
+          {
+            "item": "10012",
+            "count": "316"
+          }
+        ],
+        "smallest": "02189",
+        "count": "76653",
+        "cardinality": "261"
+      }
+    },
+    {
+      "field_name": "qewi_nys_lic_no",
+      "display_name": "QEWI_NYS_LIC_NO",
+      "data_type": "text",
+      "width": 130,
+      "position": 20,
+      "cached_contents": {
+        "non_null": "31980",
+        "largest": "RA - 215051",
+        "null": "44673",
+        "top": [
+          {
+            "item": "RA - 014327",
+            "count": "664"
+          },
+          {
+            "item": "PE - 067415",
+            "count": "634"
+          },
+          {
+            "item": "PE - 088730",
+            "count": "610"
+          },
+          {
+            "item": "PE - 088950",
+            "count": "550"
+          },
+          {
+            "item": "RA - 017183",
+            "count": "484"
+          },
+          {
+            "item": "PE - 058384",
+            "count": "475"
+          },
+          {
+            "item": "RA - 034963",
+            "count": "474"
+          },
+          {
+            "item": "RA - 031877",
+            "count": "469"
+          },
+          {
+            "item": "PE - 060930",
+            "count": "457"
+          },
+          {
+            "item": "PE - 084457",
+            "count": "451"
+          },
+          {
+            "item": "RA - 028770",
+            "count": "430"
+          },
+          {
+            "item": "PE - 088575",
+            "count": "405"
+          },
+          {
+            "item": "RA - 034900",
+            "count": "394"
+          },
+          {
+            "item": "RA - 027495",
+            "count": "389"
+          },
+          {
+            "item": "PE - 094354",
+            "count": "374"
+          },
+          {
+            "item": "PE - 097321",
+            "count": "364"
+          },
+          {
+            "item": "PE - 061152",
+            "count": "363"
+          },
+          {
+            "item": "PE - 064313",
+            "count": "338"
+          },
+          {
+            "item": "PE - 048838",
+            "count": "338"
+          },
+          {
+            "item": "PE - 075914",
+            "count": "320"
+          }
+        ],
+        "smallest": "PE - 026031",
+        "count": "76653",
+        "cardinality": "530"
+      }
+    },
+    {
+      "field_name": "owner_name",
+      "display_name": "OWNER_NAME",
+      "data_type": "text",
+      "width": 220,
+      "position": 21,
+      "cached_contents": {
+        "non_null": "32054",
+        "largest": "ZVI  MOSERY",
+        "null": "44599",
+        "top": [
+          {
+            "item": "LLOYD  VALDEZ",
+            "count": "992"
+          },
+          {
+            "item": "GARY  GUILLAUME",
+            "count": "539"
+          },
+          {
+            "item": "FIRSTSERVICE  RESIDENTIAL",
+            "count": "328"
+          },
+          {
+            "item": "EDWARD  MCARTHUR",
+            "count": "251"
+          },
+          {
+            "item": "Lloyd  Valdez",
+            "count": "214"
+          },
+          {
+            "item": "RICHARD  MORRISON",
+            "count": "204"
+          },
+          {
+            "item": "MARTHA  BRAZOBAN",
+            "count": "202"
+          },
+          {
+            "item": "CHIRAG  PATEL",
+            "count": "183"
+          },
+          {
+            "item": "JOSEPH  CAMERATA",
+            "count": "154"
+          },
+          {
+            "item": "CHRISTOPHER  ALKER",
+            "count": "153"
+          },
+          {
+            "item": "PHILLIP  WISCHERTH",
+            "count": "147"
+          },
+          {
+            "item": "MARY FRANCES  SHAUGHNESSY",
+            "count": "125"
+          },
+          {
+            "item": "AKAM  ASSOCIATES",
+            "count": "118"
+          },
+          {
+            "item": "STEVE  MASOM",
+            "count": "116"
+          },
+          {
+            "item": "MICHAEL  WOLFE",
+            "count": "113"
+          },
+          {
+            "item": "STEVE  HOFFMAN",
+            "count": "110"
+          },
+          {
+            "item": "MARK  LEVINE",
+            "count": "98"
+          },
+          {
+            "item": "JUAN R.  TORRES",
+            "count": "97"
+          },
+          {
+            "item": "JOSH  FRANKEL",
+            "count": "91"
+          },
+          {
+            "item": "PETER  FINE",
+            "count": "90"
+          }
+        ],
+        "smallest": "11 HANOVER  SQUARE CORP.",
+        "count": "76653",
+        "cardinality": "8192"
+      }
+    },
+    {
+      "field_name": "owner_bus_name",
+      "display_name": "OWNER_BUS_NAME",
+      "data_type": "text",
+      "width": 268,
+      "position": 22,
+      "cached_contents": {
+        "non_null": "63793",
+        "largest": "ZURICH HOLDING COMPANY, LLC",
+        "null": "12860",
+        "top": [
+          {
+            "item": "NYCHA",
+            "count": "2248"
+          },
+          {
+            "item": "NEW YORK CITY HOUSING AUTHORITY",
+            "count": "2123"
+          },
+          {
+            "item": "N.Y.C.H.A.",
+            "count": "2050"
+          },
+          {
+            "item": "PR",
+            "count": "1532"
+          },
+          {
+            "item": "NYC HOUSING AUTHORITY",
+            "count": "703"
+          },
+          {
+            "item": "COLUMBIA UNIVERSITY",
+            "count": "375"
+          },
+          {
+            "item": "NEW YORK UNIVERSITY",
+            "count": "225"
+          },
+          {
+            "item": "N.Y.C.H.A",
+            "count": "119"
+          },
+          {
+            "item": "Parkchester South Condominium",
+            "count": "114"
+          },
+          {
+            "item": "PARKCHESTER NORTH CONDOMINIUM",
+            "count": "111"
+          },
+          {
+            "item": "STELLAR MANAGEMENT",
+            "count": "98"
+          },
+          {
+            "item": "PARKCHESTER SOUTH CONDOMINIUM, INC.",
+            "count": "97"
+          },
+          {
+            "item": "PARKCHESTER SOUTH CONDO",
+            "count": "91"
+          },
+          {
+            "item": "LE HAVRE OWNERS CORP",
+            "count": "69"
+          },
+          {
+            "item": "LEHARVE OWNERS CORP",
+            "count": "66"
+          },
+          {
+            "item": "CAPITAL PROJECT MANAGEMENT",
+            "count": "61"
+          },
+          {
+            "item": "SL GREEN REALTY CORP",
+            "count": "60"
+          },
+          {
+            "item": "RIVERBAY CORPORATION",
+            "count": "60"
+          },
+          {
+            "item": "OCEAN BAY RAD LLC",
+            "count": "54"
+          },
+          {
+            "item": "AKAM ASSOCIATES, INC.",
+            "count": "53"
+          }
+        ],
+        "smallest": "0 WEST 22ND STREET TENANTS",
+        "count": "76653",
+        "cardinality": "30734"
+      }
+    },
+    {
+      "field_name": "owner_bus_street_name",
+      "display_name": "OWNER_BUS_STREET_NAME",
+      "data_type": "text",
+      "width": 352,
+      "position": 23,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "76653",
+        "count": "76653",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "owner_city",
+      "display_name": "OWNER_CITY",
+      "data_type": "text",
+      "width": 128,
+      "position": 24,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "76653",
+        "count": "76653",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "owner_zip",
+      "display_name": "OWNER_ZIP",
+      "data_type": "text",
+      "width": 82,
+      "position": 25,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "76653",
+        "count": "76653",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "owner_state",
+      "display_name": "OWNER_STATE",
+      "data_type": "text",
+      "width": 103,
+      "position": 26,
+      "cached_contents": {
+        "non_null": "0",
+        "null": "76653",
+        "count": "76653",
+        "cardinality": "0"
+      }
+    },
+    {
+      "field_name": "filing_date",
+      "display_name": "FILING_DATE",
+      "data_type": "calendar_date",
+      "width": 160,
+      "position": 27,
+      "cached_contents": {
+        "non_null": "63359",
+        "largest": "2025-06-01T00:00:00.000",
+        "null": "13294",
+        "top": [
+          {
+            "item": "2007-02-21T00:00:00.000",
+            "count": "1202"
+          },
+          {
+            "item": "2007-02-20T00:00:00.000",
+            "count": "727"
+          },
+          {
+            "item": "2012-02-21T00:00:00.000",
+            "count": "642"
+          },
+          {
+            "item": "2024-02-21T00:00:00.000",
+            "count": "568"
+          },
+          {
+            "item": "2023-02-21T00:00:00.000",
+            "count": "563"
+          },
+          {
+            "item": "2017-02-21T00:00:00.000",
+            "count": "464"
+          },
+          {
+            "item": "2022-02-21T00:00:00.000",
+            "count": "455"
+          },
+          {
+            "item": "2022-02-18T00:00:00.000",
+            "count": "420"
+          },
+          {
+            "item": "2007-02-16T00:00:00.000",
+            "count": "406"
+          },
+          {
+            "item": "2013-02-21T00:00:00.000",
+            "count": "351"
+          },
+          {
+            "item": "2012-08-21T00:00:00.000",
+            "count": "350"
+          },
+          {
+            "item": "2012-08-20T00:00:00.000",
+            "count": "347"
+          },
+          {
+            "item": "2024-02-20T00:00:00.000",
+            "count": "331"
+          },
+          {
+            "item": "2019-02-21T00:00:00.000",
+            "count": "322"
+          },
+          {
+            "item": "2018-02-21T00:00:00.000",
+            "count": "321"
+          },
+          {
+            "item": "2007-02-15T00:00:00.000",
+            "count": "309"
+          },
+          {
+            "item": "2013-02-20T00:00:00.000",
+            "count": "293"
+          },
+          {
+            "item": "2019-02-20T00:00:00.000",
+            "count": "275"
+          },
+          {
+            "item": "2012-02-17T00:00:00.000",
+            "count": "269"
+          },
+          {
+            "item": "2017-02-17T00:00:00.000",
+            "count": "259"
+          }
+        ],
+        "smallest": "2001-11-02T01:00:00.000",
+        "count": "76653",
+        "cardinality": "5399"
+      }
+    },
+    {
+      "field_name": "filing_status",
+      "display_name": "FILING_STATUS",
+      "data_type": "text",
+      "width": 107,
+      "position": 28,
+      "cached_contents": {
+        "non_null": "76653",
+        "largest": "UNSAFE",
+        "null": "0",
+        "top": [
+          {
+            "item": "SAFE",
+            "count": "26023"
+          },
+          {
+            "item": "SWARMP",
+            "count": "23472"
+          },
+          {
+            "item": "UNSAFE",
+            "count": "13867"
+          },
+          {
+            "item": "No Report Filed",
+            "count": "13291"
+          }
+        ],
+        "smallest": "No Report Filed",
+        "count": "76653",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "prior_cycle_filing_date",
+      "display_name": "PRIOR_CYCLE_FILING_DATE",
+      "data_type": "calendar_date",
+      "width": 180,
+      "position": 29,
+      "cached_contents": {
+        "non_null": "54453",
+        "largest": "2025-05-02T00:00:00.000",
+        "null": "22200",
+        "top": [
+          {
+            "item": "2007-02-21T00:00:00.000",
+            "count": "1275"
+          },
+          {
+            "item": "2002-02-21T00:00:00.000",
+            "count": "970"
+          },
+          {
+            "item": "2007-02-20T00:00:00.000",
+            "count": "762"
+          },
+          {
+            "item": "2000-03-01T00:00:00.000",
+            "count": "657"
+          },
+          {
+            "item": "2000-02-29T00:00:00.000",
+            "count": "547"
+          },
+          {
+            "item": "2012-02-21T00:00:00.000",
+            "count": "463"
+          },
+          {
+            "item": "2017-02-21T00:00:00.000",
+            "count": "447"
+          },
+          {
+            "item": "2007-02-16T00:00:00.000",
+            "count": "422"
+          },
+          {
+            "item": "2000-02-28T00:00:00.000",
+            "count": "330"
+          },
+          {
+            "item": "2007-02-15T00:00:00.000",
+            "count": "317"
+          },
+          {
+            "item": "2018-02-21T00:00:00.000",
+            "count": "308"
+          },
+          {
+            "item": "2012-08-20T00:00:00.000",
+            "count": "306"
+          },
+          {
+            "item": "2019-02-21T00:00:00.000",
+            "count": "300"
+          },
+          {
+            "item": "2013-02-21T00:00:00.000",
+            "count": "293"
+          },
+          {
+            "item": "2000-02-23T00:00:00.000",
+            "count": "288"
+          },
+          {
+            "item": "2012-08-21T00:00:00.000",
+            "count": "288"
+          },
+          {
+            "item": "2000-02-25T00:00:00.000",
+            "count": "278"
+          },
+          {
+            "item": "2013-02-20T00:00:00.000",
+            "count": "269"
+          },
+          {
+            "item": "2019-02-20T00:00:00.000",
+            "count": "262"
+          },
+          {
+            "item": "2007-02-14T00:00:00.000",
+            "count": "250"
+          }
+        ],
+        "smallest": "1992-02-18T00:00:00.000",
+        "count": "76653",
+        "cardinality": "6278"
+      }
+    },
+    {
+      "field_name": "prior_status",
+      "display_name": "PRIOR_STATUS",
+      "data_type": "text",
+      "width": 99,
+      "position": 30,
+      "cached_contents": {
+        "non_null": "56700",
+        "largest": "UNSAFE",
+        "null": "19953",
+        "top": [
+          {
+            "item": "SWARMP",
+            "count": "22731"
+          },
+          {
+            "item": "SAFE",
+            "count": "22680"
+          },
+          {
+            "item": "UNSAFE",
+            "count": "8859"
+          },
+          {
+            "item": "No Report Filed",
+            "count": "2430"
+          }
+        ],
+        "smallest": "No Report Filed",
+        "count": "76653",
+        "cardinality": "4"
+      }
+    },
+    {
+      "field_name": "field_inspection_completed_date",
+      "display_name": "FIELD_INSPECTION_COMPLETED_DATE",
+      "data_type": "calendar_date",
+      "width": 255,
+      "position": 31,
+      "cached_contents": {
+        "non_null": "59493",
+        "largest": "2025-05-30T00:00:00.000",
+        "null": "17160",
+        "top": [
+          {
+            "item": "2006-11-01T01:00:00.000",
+            "count": "123"
+          },
+          {
+            "item": "2012-02-15T00:00:00.000",
+            "count": "120"
+          },
+          {
+            "item": "2023-02-15T00:00:00.000",
+            "count": "120"
+          },
+          {
+            "item": "2022-02-16T00:00:00.000",
+            "count": "117"
+          },
+          {
+            "item": "2006-12-01T00:00:00.000",
+            "count": "117"
+          },
+          {
+            "item": "2022-02-11T00:00:00.000",
+            "count": "113"
+          },
+          {
+            "item": "2007-02-12T00:00:00.000",
+            "count": "107"
+          },
+          {
+            "item": "2022-02-15T00:00:00.000",
+            "count": "105"
+          },
+          {
+            "item": "2022-02-08T00:00:00.000",
+            "count": "103"
+          },
+          {
+            "item": "2007-01-30T00:00:00.000",
+            "count": "102"
+          },
+          {
+            "item": "2007-02-13T00:00:00.000",
+            "count": "99"
+          },
+          {
+            "item": "2022-02-09T00:00:00.000",
+            "count": "98"
+          },
+          {
+            "item": "2023-02-14T00:00:00.000",
+            "count": "98"
+          },
+          {
+            "item": "2019-02-05T00:00:00.000",
+            "count": "97"
+          },
+          {
+            "item": "2022-02-10T00:00:00.000",
+            "count": "96"
+          },
+          {
+            "item": "2007-02-01T00:00:00.000",
+            "count": "94"
+          },
+          {
+            "item": "2024-02-09T00:00:00.000",
+            "count": "93"
+          },
+          {
+            "item": "2024-02-16T00:00:00.000",
+            "count": "93"
+          },
+          {
+            "item": "2022-01-25T00:00:00.000",
+            "count": "92"
+          },
+          {
+            "item": "2024-02-15T00:00:00.000",
+            "count": "90"
+          }
+        ],
+        "smallest": "1997-07-23T00:00:00.000",
+        "count": "76653",
+        "cardinality": "6108"
+      }
+    },
+    {
+      "field_name": "qewi_signed_date",
+      "display_name": "QEWI_SIGNED_DATE",
+      "data_type": "calendar_date",
+      "width": 161,
+      "position": 32,
+      "cached_contents": {
+        "non_null": "58266",
+        "largest": "2027-12-05T00:00:00.000",
+        "null": "18387",
+        "top": [
+          {
+            "item": "2007-02-15T00:00:00.000",
+            "count": "394"
+          },
+          {
+            "item": "2007-02-20T00:00:00.000",
+            "count": "370"
+          },
+          {
+            "item": "2007-02-16T00:00:00.000",
+            "count": "346"
+          },
+          {
+            "item": "2007-02-14T00:00:00.000",
+            "count": "291"
+          },
+          {
+            "item": "2007-02-12T00:00:00.000",
+            "count": "254"
+          },
+          {
+            "item": "2022-02-18T00:00:00.000",
+            "count": "235"
+          },
+          {
+            "item": "2007-02-13T00:00:00.000",
+            "count": "224"
+          },
+          {
+            "item": "2023-02-21T00:00:00.000",
+            "count": "208"
+          },
+          {
+            "item": "2012-02-16T00:00:00.000",
+            "count": "206"
+          },
+          {
+            "item": "2012-08-16T00:00:00.000",
+            "count": "198"
+          },
+          {
+            "item": "2007-02-07T00:00:00.000",
+            "count": "185"
+          },
+          {
+            "item": "2024-02-21T00:00:00.000",
+            "count": "182"
+          },
+          {
+            "item": "2007-02-08T00:00:00.000",
+            "count": "172"
+          },
+          {
+            "item": "2012-02-15T00:00:00.000",
+            "count": "171"
+          },
+          {
+            "item": "2022-02-21T00:00:00.000",
+            "count": "168"
+          },
+          {
+            "item": "2017-02-21T00:00:00.000",
+            "count": "165"
+          },
+          {
+            "item": "2017-02-17T00:00:00.000",
+            "count": "161"
+          },
+          {
+            "item": "2024-02-20T00:00:00.000",
+            "count": "160"
+          },
+          {
+            "item": "2007-02-09T00:00:00.000",
+            "count": "158"
+          },
+          {
+            "item": "2023-02-17T00:00:00.000",
+            "count": "157"
+          }
+        ],
+        "smallest": "1997-02-07T00:00:00.000",
+        "count": "76653",
+        "cardinality": "6183"
+      }
+    },
+    {
+      "field_name": "late_filing_amt",
+      "display_name": "LATE_FILING_AMT",
+      "data_type": "text",
+      "width": 135,
+      "position": 33,
+      "cached_contents": {
+        "non_null": "76406",
+        "largest": "99800",
+        "null": "247",
+        "top": [
+          {
+            "item": "0",
+            "count": "21592"
+          },
+          {
+            "item": "16000",
+            "count": "2277"
+          },
+          {
+            "item": "40000",
+            "count": "2200"
+          },
+          {
+            "item": "28000",
+            "count": "2094"
+          },
+          {
+            "item": "3000",
+            "count": "1182"
+          },
+          {
+            "item": "12000",
+            "count": "1069"
+          },
+          {
+            "item": "6000",
+            "count": "1017"
+          },
+          {
+            "item": "1000",
+            "count": "1015"
+          },
+          {
+            "item": "250",
+            "count": "902"
+          },
+          {
+            "item": "7000",
+            "count": "729"
+          },
+          {
+            "item": "1500",
+            "count": "695"
+          },
+          {
+            "item": "2000",
+            "count": "693"
+          },
+          {
+            "item": "10000",
+            "count": "655"
+          },
+          {
+            "item": "9000",
+            "count": "648"
+          },
+          {
+            "item": "4000",
+            "count": "622"
+          },
+          {
+            "item": "5000",
+            "count": "618"
+          },
+          {
+            "item": "11000",
+            "count": "580"
+          },
+          {
+            "item": "7250",
+            "count": "564"
+          },
+          {
+            "item": "8000",
+            "count": "526"
+          },
+          {
+            "item": "500",
+            "count": "487"
+          }
+        ],
+        "smallest": "0",
+        "count": "76653",
+        "cardinality": "984"
+      }
+    },
+    {
+      "field_name": "failure_to_file_amt",
+      "display_name": "FAILURE_TO_FILE_AMT",
+      "data_type": "text",
+      "width": 168,
+      "position": 34,
+      "cached_contents": {
+        "non_null": "76406",
+        "largest": "9000",
+        "null": "247",
+        "top": [
+          {
+            "item": "0",
+            "count": "40442"
+          },
+          {
+            "item": "5000",
+            "count": "7155"
+          },
+          {
+            "item": "1000",
+            "count": "5599"
+          },
+          {
+            "item": "2000",
+            "count": "3760"
+          },
+          {
+            "item": "10000",
+            "count": "3278"
+          },
+          {
+            "item": "15000",
+            "count": "3074"
+          },
+          {
+            "item": "6000",
+            "count": "1846"
+          },
+          {
+            "item": "7000",
+            "count": "1252"
+          },
+          {
+            "item": "3000",
+            "count": "1247"
+          },
+          {
+            "item": "12000",
+            "count": "1041"
+          },
+          {
+            "item": "11000",
+            "count": "948"
+          },
+          {
+            "item": "16000",
+            "count": "921"
+          },
+          {
+            "item": "4000",
+            "count": "635"
+          },
+          {
+            "item": "17000",
+            "count": "607"
+          },
+          {
+            "item": "8000",
+            "count": "461"
+          },
+          {
+            "item": "20000",
+            "count": "345"
+          },
+          {
+            "item": "35000",
+            "count": "302"
+          },
+          {
+            "item": "18000",
+            "count": "287"
+          },
+          {
+            "item": "9000",
+            "count": "262"
+          },
+          {
+            "item": "41000",
+            "count": "260"
+          }
+        ],
+        "smallest": "0",
+        "count": "76653",
+        "cardinality": "56"
+      }
+    },
+    {
+      "field_name": "failure_to_collect_amt",
+      "display_name": "FAILURE_TO_COLLECT_AMT",
+      "data_type": "text",
+      "width": 191,
+      "position": 35,
+      "cached_contents": {
+        "non_null": "76411",
+        "largest": "992000",
+        "null": "242",
+        "top": [
+          {
+            "item": "0",
+            "count": "56278"
+          },
+          {
+            "item": "1000",
+            "count": "2259"
+          },
+          {
+            "item": "2000",
+            "count": "1443"
+          },
+          {
+            "item": "3000",
+            "count": "1196"
+          },
+          {
+            "item": "4000",
+            "count": "1035"
+          },
+          {
+            "item": "6000",
+            "count": "898"
+          },
+          {
+            "item": "5000",
+            "count": "889"
+          },
+          {
+            "item": "9000",
+            "count": "693"
+          },
+          {
+            "item": "8000",
+            "count": "687"
+          },
+          {
+            "item": "11000",
+            "count": "551"
+          },
+          {
+            "item": "7000",
+            "count": "545"
+          },
+          {
+            "item": "10000",
+            "count": "510"
+          },
+          {
+            "item": "12000",
+            "count": "457"
+          },
+          {
+            "item": "14000",
+            "count": "263"
+          },
+          {
+            "item": "16000",
+            "count": "209"
+          },
+          {
+            "item": "17000",
+            "count": "205"
+          },
+          {
+            "item": "13000",
+            "count": "191"
+          },
+          {
+            "item": "18000",
+            "count": "179"
+          },
+          {
+            "item": "15000",
+            "count": "176"
+          },
+          {
+            "item": "25000",
+            "count": "124"
+          }
+        ],
+        "smallest": "0",
+        "count": "76653",
+        "cardinality": "947"
+      }
+    },
+    {
+      "field_name": "comments",
+      "display_name": "COMMENTS",
+      "data_type": "text",
+      "width": 196,
+      "position": 36,
+      "cached_contents": {
+        "non_null": "20431",
+        "largest": "YESHIVA UNIVERSITY",
+        "null": "56222",
+        "top": [
+          {
+            "item": "N.Y.C.H.A",
+            "count": "489"
+          },
+          {
+            "item": "RESUBMISSION",
+            "count": "315"
+          },
+          {
+            "item": "ALTERNATIVE PROGRAM",
+            "count": "242"
+          },
+          {
+            "item": "DATA ENTERED BY RT",
+            "count": "197"
+          },
+          {
+            "item": "NEW YORK CITY HOUSING AUTHORITY",
+            "count": "175"
+          },
+          {
+            "item": "CITY OWNED",
+            "count": "150"
+          },
+          {
+            "item": "CITY OWNED NO PENALTY",
+            "count": "122"
+          },
+          {
+            "item": "AMENDED FILING: OWNER: MARTHA BRAZOBAN",
+            "count": "120"
+          },
+          {
+            "item": "ADDED TO FISP UNIVERSE 3/25/2015 (CAW)FIRST TEMP 2008",
+            "count": "45"
+          },
+          {
+            "item": "LFF anf FTF penalties Stopped on: 3/11/2023All penalties Stopped because of Initial Filing is fee ex",
+            "count": "42"
+          },
+          {
+            "item": "ADDED TO CYCLE 6",
+            "count": "40"
+          },
+          {
+            "item": "SUBSEQUENT",
+            "count": "38"
+          },
+          {
+            "item": "INITIALLY DATA ENTERED BY MBR",
+            "count": "36"
+          },
+          {
+            "item": "CITY OWNED NO PENALTYAMENDED FILING: RONNETTE RILEY ARCHITECT - RONNETTE RILEY",
+            "count": "31"
+          },
+          {
+            "item": "FIRST TIME FILING",
+            "count": "31"
+          },
+          {
+            "item": "ADD TO FISP UNIVERSE 3/24/2015 (CAW)FIRST TEMP 2006",
+            "count": "29"
+          },
+          {
+            "item": "LFF anf FTF penalties Stopped on: 2/22/2022All penalties Stopped because of Initial Filing is fee ex",
+            "count": "28"
+          },
+          {
+            "item": "AMNESTY FILING",
+            "count": "28"
+          },
+          {
+            "item": "(EMAIL) MARTHA.BRAZOBAN@NYCHA.NYC.GOV (NYCHA-DIRECTOR)",
+            "count": "28"
+          },
+          {
+            "item": "CITY OWNED NO PENALTYAMENDED FILING: HAKS ENGINEERS - FRANCISCO RUELA",
+            "count": "27"
+          }
+        ],
+        "smallest": "01/21/08 REJECTED REPORT WAS MAILED BACK TO BARRY RUDOFSKY",
+        "count": "76653",
+        "cardinality": "9462"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:48:58.181857"
+}

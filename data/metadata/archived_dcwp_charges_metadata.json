@@ -1,0 +1,2959 @@
+{
+  "dataset_id": "wyj6-frpa",
+  "name": "Archived DCWP Charges",
+  "description": "An archival list of all charges and their outcomes in DCWP's Accela system. This data set features DCA-issued charges to ensure compliance with local consumer protection and licensing laws, and State and federal regulations.\n\nFor the current list of charges, please refer to https://data.cityofnewyork.us/d/5fn4-dr26",
+  "agency": "Department of Consumer and Worker Protection (DCWP)",
+  "category": "Business",
+  "tags": [
+    "city government",
+    "business",
+    "dca",
+    "department of consumer affairs",
+    "license",
+    "charges",
+    "consumer",
+    "archival"
+  ],
+  "attribution": "Department of Consumer and Worker Protection (DCWP)",
+  "created_at": "2025-02-11T16:15:39",
+  "updated_at": "2025-02-11T17:08:19",
+  "row_count": 1739293699,
+  "column_count": 31,
+  "download_count": 95,
+  "view_count": 277,
+  "columns": [
+    {
+      "field_name": "rec_id",
+      "display_name": "Record ID",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to record each charge against a business. For DCWP office tracking purposes.",
+      "position": 1,
+      "cached_contents": {
+        "non_null": "516555",
+        "largest": "ZZ500084426-LEGL",
+        "null": "0",
+        "top": [
+          {
+            "item": "654-2014-LEGL",
+            "count": "34"
+          },
+          {
+            "item": "671-2014-LEGL",
+            "count": "32"
+          },
+          {
+            "item": "DD500135629-LEGL",
+            "count": "28"
+          },
+          {
+            "item": "8043-2019-ENFO",
+            "count": "28"
+          },
+          {
+            "item": "538-2014-LEGL",
+            "count": "26"
+          },
+          {
+            "item": "94-2013-LEGL",
+            "count": "25"
+          },
+          {
+            "item": "567-2014-LEGL",
+            "count": "25"
+          },
+          {
+            "item": "CD500106210-LEGL",
+            "count": "24"
+          },
+          {
+            "item": "CD500102504-LEGL",
+            "count": "24"
+          },
+          {
+            "item": "CD500135447-LEGL",
+            "count": "23"
+          },
+          {
+            "item": "CD500103814-LEGL",
+            "count": "23"
+          },
+          {
+            "item": "CD500109810-LEGL",
+            "count": "23"
+          },
+          {
+            "item": "CD500102605-LEGL",
+            "count": "22"
+          },
+          {
+            "item": "CD500099022-LEGL",
+            "count": "22"
+          },
+          {
+            "item": "539-2014-LEGL",
+            "count": "22"
+          },
+          {
+            "item": "CD500096117-LEGL",
+            "count": "22"
+          },
+          {
+            "item": "CD500068276-LEGL",
+            "count": "22"
+          },
+          {
+            "item": "LL005312925-LEGL",
+            "count": "21"
+          },
+          {
+            "item": "LL005321053-LEGL",
+            "count": "21"
+          },
+          {
+            "item": "OL005321057-LEGL",
+            "count": "21"
+          }
+        ],
+        "smallest": "00005760-1-ENFO",
+        "count": "516555",
+        "cardinality": "305451"
+      }
+    },
+    {
+      "field_name": "cert_nbr",
+      "display_name": "Certificate Number",
+      "data_type": "text",
+      "description": "An identification number assigned by DCWP to record each charge against a business. For DCWP office tracking purposes. Certificate number issued to the business upon inspection. Note that there may be multiple certificate numbers for a single inspection.",
+      "position": 2,
+      "cached_contents": {
+        "non_null": "516555",
+        "largest": "T7009005",
+        "null": "0",
+        "top": [
+          {
+            "item": "500135629",
+            "count": "66"
+          },
+          {
+            "item": "c0472014",
+            "count": "45"
+          },
+          {
+            "item": "00008713",
+            "count": "42"
+          },
+          {
+            "item": "05312919",
+            "count": "42"
+          },
+          {
+            "item": "500136565",
+            "count": "41"
+          },
+          {
+            "item": "00398913",
+            "count": "40"
+          },
+          {
+            "item": "00479113",
+            "count": "40"
+          },
+          {
+            "item": "C0339614",
+            "count": "39"
+          },
+          {
+            "item": "500132939",
+            "count": "35"
+          },
+          {
+            "item": "00381413",
+            "count": "34"
+          },
+          {
+            "item": "00223614",
+            "count": "33"
+          },
+          {
+            "item": "05333269",
+            "count": "32"
+          },
+          {
+            "item": "500102504",
+            "count": "32"
+          },
+          {
+            "item": "500135199",
+            "count": "32"
+          },
+          {
+            "item": "00349214",
+            "count": "32"
+          },
+          {
+            "item": "C0457614",
+            "count": "32"
+          },
+          {
+            "item": "500106210",
+            "count": "32"
+          },
+          {
+            "item": "500118698",
+            "count": "32"
+          },
+          {
+            "item": "C0074614",
+            "count": "31"
+          },
+          {
+            "item": "500109810",
+            "count": "31"
+          }
+        ],
+        "smallest": "00000000",
+        "count": "516555",
+        "cardinality": "303869"
+      }
+    },
+    {
+      "field_name": "biz_name",
+      "display_name": "Business Name",
+      "data_type": "text",
+      "description": "Primary Business Name.",
+      "position": 3,
+      "cached_contents": {
+        "non_null": "516140",
+        "largest": "ZZ WIRELESS INC",
+        "null": "415",
+        "top": [
+          {
+            "item": "DUANE READE",
+            "count": "2710"
+          },
+          {
+            "item": "CENTRAL PARKING SYSTEM OF NEW YORK,INC.",
+            "count": "1837"
+          },
+          {
+            "item": "RITE AID OF NEW YORK, INC.",
+            "count": "1763"
+          },
+          {
+            "item": "CVS ALBANY, L.L.C",
+            "count": "1492"
+          },
+          {
+            "item": "WALGREEN EASTERN CO., INC.",
+            "count": "1213"
+          },
+          {
+            "item": "DUANE READE INC",
+            "count": "1178"
+          },
+          {
+            "item": "PATHMARK STORES, INC.",
+            "count": "1119"
+          },
+          {
+            "item": "RADIOSHACK CORPORATION",
+            "count": "843"
+          },
+          {
+            "item": "SP PLUS CORPORATION",
+            "count": "768"
+          },
+          {
+            "item": "FAMILY DOLLAR STORES OF NEW YORK, INC.",
+            "count": "735"
+          },
+          {
+            "item": "WALDBAUM, INC.",
+            "count": "640"
+          },
+          {
+            "item": "NAMDOR INC.",
+            "count": "595"
+          },
+          {
+            "item": "THE STOP & SHOP SUPERMARKET COMPANY LLC",
+            "count": "585"
+          },
+          {
+            "item": "GENOVESE DRUG STORES, INC.",
+            "count": "459"
+          },
+          {
+            "item": "WESTERN BEEF RETAIL",
+            "count": "448"
+          },
+          {
+            "item": "KINNEY PARKING SYSTEM, INC.",
+            "count": "417"
+          },
+          {
+            "item": "GAMESTOP, INC.",
+            "count": "410"
+          },
+          {
+            "item": "HESS CORPORATION",
+            "count": "375"
+          },
+          {
+            "item": "SHOPWELL, INC.",
+            "count": "356"
+          },
+          {
+            "item": "EDISON PARKING CORPORATION OF NEW YORK, INC.",
+            "count": "355"
+          }
+        ],
+        "smallest": "0000 AUTO RESCUE TRANSPORT CORP.",
+        "count": "516555",
+        "cardinality": "120875"
+      }
+    },
+    {
+      "field_name": "vio_dt",
+      "display_name": "Violation Date",
+      "data_type": "calendar_date",
+      "description": "Date when violation occurred.",
+      "position": 4,
+      "cached_contents": {
+        "non_null": "516555",
+        "largest": "2023-07-21T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2007-07-05T00:00:00.000",
+            "count": "451"
+          },
+          {
+            "item": "2011-11-02T00:00:00.000",
+            "count": "352"
+          },
+          {
+            "item": "2011-04-12T00:00:00.000",
+            "count": "329"
+          },
+          {
+            "item": "2011-04-14T00:00:00.000",
+            "count": "314"
+          },
+          {
+            "item": "2012-07-02T00:00:00.000",
+            "count": "305"
+          },
+          {
+            "item": "2013-04-16T00:00:00.000",
+            "count": "299"
+          },
+          {
+            "item": "2011-01-05T00:00:00.000",
+            "count": "297"
+          },
+          {
+            "item": "2011-04-19T00:00:00.000",
+            "count": "292"
+          },
+          {
+            "item": "2011-04-26T00:00:00.000",
+            "count": "283"
+          },
+          {
+            "item": "2011-04-13T00:00:00.000",
+            "count": "282"
+          },
+          {
+            "item": "2023-04-12T00:00:00.000",
+            "count": "279"
+          },
+          {
+            "item": "2011-01-04T00:00:00.000",
+            "count": "278"
+          },
+          {
+            "item": "2023-05-10T00:00:00.000",
+            "count": "273"
+          },
+          {
+            "item": "2023-05-31T00:00:00.000",
+            "count": "272"
+          },
+          {
+            "item": "2023-02-27T00:00:00.000",
+            "count": "270"
+          },
+          {
+            "item": "2023-04-05T00:00:00.000",
+            "count": "268"
+          },
+          {
+            "item": "2011-01-10T00:00:00.000",
+            "count": "267"
+          },
+          {
+            "item": "2013-09-25T00:00:00.000",
+            "count": "265"
+          },
+          {
+            "item": "2008-11-28T00:00:00.000",
+            "count": "264"
+          },
+          {
+            "item": "2012-03-02T00:00:00.000",
+            "count": "263"
+          }
+        ],
+        "smallest": "1979-11-10T00:00:00.000",
+        "count": "516555",
+        "cardinality": "9829"
+      }
+    },
+    {
+      "field_name": "industry",
+      "display_name": "Industry",
+      "data_type": "text",
+      "description": "The category that describes the business.",
+      "position": 5,
+      "cached_contents": {
+        "non_null": "516555",
+        "largest": "Wholesale Food Market - 718",
+        "null": "0",
+        "top": [
+          {
+            "item": "Grocery-Retail - 808",
+            "count": "74975"
+          },
+          {
+            "item": "Cigarette Retail Dealer - 127",
+            "count": "62219"
+          },
+          {
+            "item": "Tobacco Retail Dealer",
+            "count": "45315"
+          },
+          {
+            "item": "Home Improvement Contractor - 100",
+            "count": "32871"
+          },
+          {
+            "item": "Supermarket - 819",
+            "count": "31305"
+          },
+          {
+            "item": "Misc Non-Food Retail - 817",
+            "count": "24881"
+          },
+          {
+            "item": "Stoop Line Stand - 033",
+            "count": "23775"
+          },
+          {
+            "item": "Garage - 049",
+            "count": "21598"
+          },
+          {
+            "item": "Electronic Cigarette Dealer",
+            "count": "20282"
+          },
+          {
+            "item": "Salons And Barbershop - 841",
+            "count": "16082"
+          },
+          {
+            "item": "Electronic Store - 001",
+            "count": "14154"
+          },
+          {
+            "item": "Secondhand Dealer [General] - 006",
+            "count": "13578"
+          },
+          {
+            "item": "Tax Preparers - 891",
+            "count": "12111"
+          },
+          {
+            "item": "Drug Store Retail - 810",
+            "count": "11339"
+          },
+          {
+            "item": "Home Improvement Salesperson - 101",
+            "count": "10127"
+          },
+          {
+            "item": "Gas Station-Retail - 815",
+            "count": "9907"
+          },
+          {
+            "item": "Laundry - 064",
+            "count": "9848"
+          },
+          {
+            "item": "Secondhand Dealer Auto - 005",
+            "count": "8710"
+          },
+          {
+            "item": "Parking Lot - 050",
+            "count": "8621"
+          },
+          {
+            "item": "Tow Truck Company - 124",
+            "count": "6439"
+          }
+        ],
+        "smallest": "003",
+        "count": "516555",
+        "cardinality": "124"
+      }
+    },
+    {
+      "field_name": "boro",
+      "display_name": "Borough",
+      "data_type": "text",
+      "description": "The borough where the business is located.",
+      "position": 6,
+      "cached_contents": {
+        "non_null": "499639",
+        "largest": "Staten Island",
+        "null": "16916",
+        "top": [
+          {
+            "item": "Brooklyn",
+            "count": "150968"
+          },
+          {
+            "item": "Manhattan",
+            "count": "130284"
+          },
+          {
+            "item": "Queens",
+            "count": "112993"
+          },
+          {
+            "item": "Bronx",
+            "count": "77159"
+          },
+          {
+            "item": "Staten Island",
+            "count": "20685"
+          },
+          {
+            "item": "Outside NYC",
+            "count": "6019"
+          },
+          {
+            "item": "MANHATTAN",
+            "count": "1087"
+          },
+          {
+            "item": "BRONX",
+            "count": "196"
+          },
+          {
+            "item": "QUEENS",
+            "count": "125"
+          },
+          {
+            "item": "BROOKLYN",
+            "count": "87"
+          },
+          {
+            "item": "Outside of NYC",
+            "count": "36"
+          }
+        ],
+        "smallest": "Bronx",
+        "count": "516555",
+        "cardinality": "11"
+      }
+    },
+    {
+      "field_name": "chrg",
+      "display_name": "Charge",
+      "data_type": "text",
+      "description": "Charge description and legal code.",
+      "position": 7,
+      "cached_contents": {
+        "non_null": "516555",
+        "largest": "VOID: VOIDED DOCUMENTS",
+        "null": "0",
+        "top": [
+          {
+            "item": "NYC Admin Code \u00ba 20-700 - ENGAGED IN DECEPTIVE PRACTICES",
+            "count": "16091"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 17-706 - SALE TO MINOR",
+            "count": "15306"
+          },
+          {
+            "item": "6 RCNY \u00ba 5-37 - NO/IMPROPER DISCLOSURE OF REFUND POLICY",
+            "count": "13628"
+          },
+          {
+            "item": "6 RCNY \u00ba 5-32(c ) - RECEIPT DID NOT INCLUDE REQUIRED INFORMATION",
+            "count": "11605"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-708 - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+            "count": "10780"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-822(a) - SALE OF EXPIRED MEDS:  BUSINESS OFFERED FOR SALE OVER-THE COUNTER MEDICATION LATER THAN EXPIRATION DATE ON THE LABEL.",
+            "count": "10325"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 17-706(a) - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+            "count": "8694"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-202(a)(1) - UNLICENSED CIGARETTE RETAIL DEALER",
+            "count": "8677"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-708.1(b) - 5 OR MORE STOCK KEEPING ITEMS WITHIN FOLLOWING STOCK KEEPING UNITS FAIL TO CONSPICUOUSLY AND CLEARLY DISPLAY ITEM PRICES STAMPED, TAGGED, OR AFFIXED TO ITEMS.",
+            "count": "8223"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 17-715(a) - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+            "count": "8067"
+          },
+          {
+            "item": "6 RCNY \u00ba 5-32(b) - RECEIPT NOT IN COMPLIANCE",
+            "count": "7630"
+          },
+          {
+            "item": "24 RCNY \u00ba 13-03(b) - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+            "count": "7321"
+          },
+          {
+            "item": "1 NYCRR \u00ba 221.5 - NO DECLARATION OF QUANTITY",
+            "count": "6920"
+          },
+          {
+            "item": "1 NYCRR \u00ba 221.4 - NO RESPONSIBILITY ON PACKAGES",
+            "count": "6614"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-202(a)(1) - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+            "count": "6376"
+          },
+          {
+            "item": "6 RCNY \u00ba 5-37 - REFUND POLICY NOT POSTED",
+            "count": "6329"
+          },
+          {
+            "item": "NY Agri & Mkts \u00ba 194(1) - NO FALSE LABELS",
+            "count": "6274"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-708 - TOTAL SELLING PRICE NOT SHOWN",
+            "count": "6234"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 17-715(b) - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+            "count": "6021"
+          },
+          {
+            "item": "NYC Admin Code \u00ba 20-561(a)(1) - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+            "count": "5686"
+          }
+        ],
+        "smallest": ":",
+        "count": "516555",
+        "cardinality": "3066"
+      }
+    },
+    {
+      "field_name": "chrg_ct",
+      "display_name": "Charge Number",
+      "data_type": "number",
+      "description": "Number of charges of this type.",
+      "position": 8,
+      "cached_contents": {
+        "non_null": "513750",
+        "largest": "336661",
+        "null": "2805",
+        "top": [
+          {
+            "item": "1",
+            "count": "392999"
+          },
+          {
+            "item": "2",
+            "count": "46702"
+          },
+          {
+            "item": "3",
+            "count": "14510"
+          },
+          {
+            "item": "20",
+            "count": "10482"
+          },
+          {
+            "item": "4",
+            "count": "10002"
+          },
+          {
+            "item": "5",
+            "count": "8348"
+          },
+          {
+            "item": "6",
+            "count": "5058"
+          },
+          {
+            "item": "10",
+            "count": "3379"
+          },
+          {
+            "item": "7",
+            "count": "3352"
+          },
+          {
+            "item": "8",
+            "count": "2842"
+          },
+          {
+            "item": "9",
+            "count": "1642"
+          },
+          {
+            "item": "12",
+            "count": "1332"
+          },
+          {
+            "item": "11",
+            "count": "1082"
+          },
+          {
+            "item": "15",
+            "count": "1029"
+          },
+          {
+            "item": "14",
+            "count": "804"
+          },
+          {
+            "item": "18",
+            "count": "733"
+          },
+          {
+            "item": "16",
+            "count": "720"
+          },
+          {
+            "item": "13",
+            "count": "712"
+          },
+          {
+            "item": "17",
+            "count": "523"
+          },
+          {
+            "item": "19",
+            "count": "460"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "518"
+      }
+    },
+    {
+      "field_name": "outcome",
+      "display_name": "Outcome",
+      "data_type": "text",
+      "description": "Result after a charge has been adjudicated or settled based on the key.",
+      "position": 9,
+      "cached_contents": {
+        "non_null": "463038",
+        "largest": "Settlement (Pre-Hearing)",
+        "null": "53517",
+        "top": [
+          {
+            "item": "Pleaded",
+            "count": "210537"
+          },
+          {
+            "item": "Default Decision",
+            "count": "83842"
+          },
+          {
+            "item": "Decision (Conversion)",
+            "count": "59003"
+          },
+          {
+            "item": "Settlement (Conversion)",
+            "count": "52972"
+          },
+          {
+            "item": "Settlement (Pre-Hearing)",
+            "count": "28729"
+          },
+          {
+            "item": "Hearing Decision",
+            "count": "26223"
+          },
+          {
+            "item": "Settlement (Post Hearing)",
+            "count": "864"
+          },
+          {
+            "item": "Closed in Conversion",
+            "count": "488"
+          },
+          {
+            "item": "Decision Dismissed",
+            "count": "301"
+          },
+          {
+            "item": "Settlement (During Hearing)",
+            "count": "79"
+          }
+        ],
+        "smallest": "Closed in Conversion",
+        "count": "516555",
+        "cardinality": "10"
+      }
+    },
+    {
+      "field_name": "ct_settl",
+      "display_name": "Counts Settled",
+      "data_type": "number",
+      "description": "Number of charges settled or cured.",
+      "position": 10,
+      "cached_contents": {
+        "non_null": "293120",
+        "largest": "7939",
+        "null": "223435",
+        "top": [
+          {
+            "item": "1",
+            "count": "217568"
+          },
+          {
+            "item": "2",
+            "count": "30031"
+          },
+          {
+            "item": "3",
+            "count": "9551"
+          },
+          {
+            "item": "4",
+            "count": "6268"
+          },
+          {
+            "item": "20",
+            "count": "6137"
+          },
+          {
+            "item": "5",
+            "count": "5528"
+          },
+          {
+            "item": "6",
+            "count": "3129"
+          },
+          {
+            "item": "7",
+            "count": "2070"
+          },
+          {
+            "item": "10",
+            "count": "2036"
+          },
+          {
+            "item": "8",
+            "count": "1699"
+          },
+          {
+            "item": "9",
+            "count": "923"
+          },
+          {
+            "item": "12",
+            "count": "715"
+          },
+          {
+            "item": "15",
+            "count": "637"
+          },
+          {
+            "item": "11",
+            "count": "631"
+          },
+          {
+            "item": "14",
+            "count": "430"
+          },
+          {
+            "item": "16",
+            "count": "402"
+          },
+          {
+            "item": "18",
+            "count": "386"
+          },
+          {
+            "item": "13",
+            "count": "376"
+          },
+          {
+            "item": "17",
+            "count": "285"
+          },
+          {
+            "item": "19",
+            "count": "250"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "313"
+      }
+    },
+    {
+      "field_name": "ct_guilty",
+      "display_name": "Counts Guilty",
+      "data_type": "number",
+      "description": "Number of charges found guilty via decision.",
+      "position": 11,
+      "cached_contents": {
+        "non_null": "164548",
+        "largest": "38531",
+        "null": "352007",
+        "top": [
+          {
+            "item": "1",
+            "count": "132663"
+          },
+          {
+            "item": "2",
+            "count": "12437"
+          },
+          {
+            "item": "3",
+            "count": "3309"
+          },
+          {
+            "item": "20",
+            "count": "2964"
+          },
+          {
+            "item": "4",
+            "count": "2510"
+          },
+          {
+            "item": "5",
+            "count": "1883"
+          },
+          {
+            "item": "6",
+            "count": "1321"
+          },
+          {
+            "item": "7",
+            "count": "883"
+          },
+          {
+            "item": "10",
+            "count": "834"
+          },
+          {
+            "item": "8",
+            "count": "757"
+          },
+          {
+            "item": "9",
+            "count": "471"
+          },
+          {
+            "item": "12",
+            "count": "428"
+          },
+          {
+            "item": "11",
+            "count": "304"
+          },
+          {
+            "item": "15",
+            "count": "270"
+          },
+          {
+            "item": "14",
+            "count": "266"
+          },
+          {
+            "item": "18",
+            "count": "247"
+          },
+          {
+            "item": "13",
+            "count": "241"
+          },
+          {
+            "item": "16",
+            "count": "200"
+          },
+          {
+            "item": "17",
+            "count": "175"
+          },
+          {
+            "item": "25",
+            "count": "158"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "380"
+      }
+    },
+    {
+      "field_name": "ct_not_glty",
+      "display_name": "Counts Not Guilty",
+      "data_type": "text",
+      "description": "Number of charges found not guilty.",
+      "position": 12,
+      "cached_contents": {
+        "non_null": "8047",
+        "largest": "96",
+        "null": "508508",
+        "top": [
+          {
+            "item": "1",
+            "count": "6320"
+          },
+          {
+            "item": "20",
+            "count": "375"
+          },
+          {
+            "item": "2",
+            "count": "367"
+          },
+          {
+            "item": "3",
+            "count": "126"
+          },
+          {
+            "item": "5",
+            "count": "88"
+          },
+          {
+            "item": "4",
+            "count": "75"
+          },
+          {
+            "item": "0",
+            "count": "74"
+          },
+          {
+            "item": "6",
+            "count": "62"
+          },
+          {
+            "item": "8",
+            "count": "51"
+          },
+          {
+            "item": "25",
+            "count": "51"
+          },
+          {
+            "item": "7",
+            "count": "50"
+          },
+          {
+            "item": "10",
+            "count": "41"
+          },
+          {
+            "item": "11",
+            "count": "36"
+          },
+          {
+            "item": "12",
+            "count": "35"
+          },
+          {
+            "item": "9",
+            "count": "35"
+          },
+          {
+            "item": "14",
+            "count": "26"
+          },
+          {
+            "item": "13",
+            "count": "24"
+          },
+          {
+            "item": "15",
+            "count": "24"
+          },
+          {
+            "item": "19",
+            "count": "21"
+          },
+          {
+            "item": "16",
+            "count": "17"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "83"
+      }
+    },
+    {
+      "field_name": "bldg_nbr",
+      "display_name": "Building Number",
+      "data_type": "text",
+      "description": "The building number of the business\u2019s address.",
+      "position": 13,
+      "cached_contents": {
+        "non_null": "464643",
+        "largest": "X7-001",
+        "null": "51912",
+        "top": [
+          {
+            "item": "200",
+            "count": "1644"
+          },
+          {
+            "item": "1",
+            "count": "1229"
+          },
+          {
+            "item": "2",
+            "count": "1103"
+          },
+          {
+            "item": "300",
+            "count": "1023"
+          },
+          {
+            "item": "101",
+            "count": "965"
+          },
+          {
+            "item": "100",
+            "count": "887"
+          },
+          {
+            "item": "301",
+            "count": "882"
+          },
+          {
+            "item": "201",
+            "count": "880"
+          },
+          {
+            "item": "250",
+            "count": "834"
+          },
+          {
+            "item": "350",
+            "count": "817"
+          },
+          {
+            "item": "120",
+            "count": "794"
+          },
+          {
+            "item": "10",
+            "count": "791"
+          },
+          {
+            "item": "110",
+            "count": "784"
+          },
+          {
+            "item": "111",
+            "count": "744"
+          },
+          {
+            "item": "75",
+            "count": "728"
+          },
+          {
+            "item": "50",
+            "count": "699"
+          },
+          {
+            "item": "225",
+            "count": "684"
+          },
+          {
+            "item": "150",
+            "count": "663"
+          },
+          {
+            "item": "5",
+            "count": "661"
+          },
+          {
+            "item": "245",
+            "count": "654"
+          }
+        ],
+        "smallest": "-",
+        "count": "516555",
+        "cardinality": "12801"
+      }
+    },
+    {
+      "field_name": "street",
+      "display_name": "Street",
+      "data_type": "text",
+      "description": "The street name of the business\u2019s address.",
+      "position": 14,
+      "cached_contents": {
+        "non_null": "468893",
+        "largest": "ZOLLER RD",
+        "null": "47662",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "20077"
+          },
+          {
+            "item": "3RD AVE",
+            "count": "9311"
+          },
+          {
+            "item": "JAMAICA AVE",
+            "count": "7310"
+          },
+          {
+            "item": "5TH AVE",
+            "count": "7258"
+          },
+          {
+            "item": "FULTON ST",
+            "count": "5490"
+          },
+          {
+            "item": "8TH AVE",
+            "count": "5231"
+          },
+          {
+            "item": "ROOSEVELT AVE",
+            "count": "5206"
+          },
+          {
+            "item": "2ND AVE",
+            "count": "5078"
+          },
+          {
+            "item": "NOSTRAND AVE",
+            "count": "5040"
+          },
+          {
+            "item": "QUEENS BLVD",
+            "count": "4588"
+          },
+          {
+            "item": "LEXINGTON AVE",
+            "count": "4452"
+          },
+          {
+            "item": "LIBERTY AVE",
+            "count": "4419"
+          },
+          {
+            "item": "WHITE PLAINS RD",
+            "count": "4407"
+          },
+          {
+            "item": "FLATBUSH AVE",
+            "count": "4370"
+          },
+          {
+            "item": "NORTHERN BLVD",
+            "count": "4338"
+          },
+          {
+            "item": "HILLSIDE AVE",
+            "count": "4231"
+          },
+          {
+            "item": "1ST AVE",
+            "count": "4121"
+          },
+          {
+            "item": "AMSTERDAM AVE",
+            "count": "3957"
+          },
+          {
+            "item": "MYRTLE AVE",
+            "count": "3859"
+          },
+          {
+            "item": "4TH AVE",
+            "count": "3741"
+          }
+        ],
+        "smallest": "10011",
+        "count": "516555",
+        "cardinality": "3534"
+      }
+    },
+    {
+      "field_name": "street2",
+      "display_name": "Street2",
+      "data_type": "text",
+      "description": "The cross-street of the business\u2019s address.",
+      "position": 15,
+      "cached_contents": {
+        "non_null": "6539",
+        "largest": "YORK AVENUE",
+        "null": "510016",
+        "top": [
+          {
+            "item": "BROADWAY",
+            "count": "153"
+          },
+          {
+            "item": "8 AVENUE",
+            "count": "138"
+          },
+          {
+            "item": "6 AVENUE",
+            "count": "116"
+          },
+          {
+            "item": "7 AVENUE",
+            "count": "84"
+          },
+          {
+            "item": "5 AVENUE",
+            "count": "80"
+          },
+          {
+            "item": "MADISON AVENUE",
+            "count": "73"
+          },
+          {
+            "item": "3 AVENUE",
+            "count": "68"
+          },
+          {
+            "item": "6TH AVE",
+            "count": "64"
+          },
+          {
+            "item": "3RD AVE",
+            "count": "63"
+          },
+          {
+            "item": "JEROME AVENUE",
+            "count": "62"
+          },
+          {
+            "item": "WEST   86 STREET",
+            "count": "62"
+          },
+          {
+            "item": "QUEENS BOULEVARD",
+            "count": "52"
+          },
+          {
+            "item": "LEXINGTON AVENUE",
+            "count": "51"
+          },
+          {
+            "item": "WEST   57 STREET",
+            "count": "42"
+          },
+          {
+            "item": "(INSIDE PAYOMATIC 0405)",
+            "count": "38"
+          },
+          {
+            "item": "EAST TREMONT AVENUE",
+            "count": "38"
+          },
+          {
+            "item": "PARK AVENUE SOUTH",
+            "count": "38"
+          },
+          {
+            "item": "WEST   79 STREET",
+            "count": "38"
+          },
+          {
+            "item": "SAINT NICHOLAS AVE",
+            "count": "37"
+          },
+          {
+            "item": "WEST   49 STREET",
+            "count": "35"
+          }
+        ],
+        "smallest": "`",
+        "count": "516555",
+        "cardinality": "921"
+      }
+    },
+    {
+      "field_name": "unit_typ",
+      "display_name": "Unit Type",
+      "data_type": "text",
+      "description": "The unit type of the business\u2019s address (e.g., Apartment/Suite/Other).",
+      "position": 16,
+      "cached_contents": {
+        "non_null": "12050",
+        "largest": "UPPR",
+        "null": "504505",
+        "top": [
+          {
+            "item": "STE",
+            "count": "4377"
+          },
+          {
+            "item": "FRNT",
+            "count": "3936"
+          },
+          {
+            "item": "FL",
+            "count": "1245"
+          },
+          {
+            "item": "APT",
+            "count": "1002"
+          },
+          {
+            "item": "UNIT",
+            "count": "369"
+          },
+          {
+            "item": "#",
+            "count": "294"
+          },
+          {
+            "item": "RM",
+            "count": "209"
+          },
+          {
+            "item": "BSMT",
+            "count": "177"
+          },
+          {
+            "item": "LBBY",
+            "count": "136"
+          },
+          {
+            "item": "SPC",
+            "count": "78"
+          },
+          {
+            "item": "DEPT",
+            "count": "71"
+          },
+          {
+            "item": "BLDG",
+            "count": "66"
+          },
+          {
+            "item": "OFC",
+            "count": "26"
+          },
+          {
+            "item": "LOWR",
+            "count": "21"
+          },
+          {
+            "item": "UPPR",
+            "count": "15"
+          },
+          {
+            "item": "REAR",
+            "count": "14"
+          },
+          {
+            "item": "PH",
+            "count": "11"
+          },
+          {
+            "item": "LOT",
+            "count": "2"
+          },
+          {
+            "item": "SIDE",
+            "count": "1"
+          }
+        ],
+        "smallest": "#",
+        "count": "516555",
+        "cardinality": "19"
+      }
+    },
+    {
+      "field_name": "unit",
+      "display_name": "Unit",
+      "data_type": "number",
+      "description": "The unit number of the business\u2019s address.",
+      "position": 17,
+      "cached_contents": {
+        "non_null": "6913",
+        "largest": "106110",
+        "null": "509642",
+        "top": [
+          {
+            "item": "1",
+            "count": "4112"
+          },
+          {
+            "item": "2",
+            "count": "669"
+          },
+          {
+            "item": "3",
+            "count": "242"
+          },
+          {
+            "item": "4",
+            "count": "172"
+          },
+          {
+            "item": "5",
+            "count": "82"
+          },
+          {
+            "item": "201",
+            "count": "63"
+          },
+          {
+            "item": "301",
+            "count": "61"
+          },
+          {
+            "item": "8",
+            "count": "51"
+          },
+          {
+            "item": "203",
+            "count": "51"
+          },
+          {
+            "item": "9",
+            "count": "50"
+          },
+          {
+            "item": "7",
+            "count": "44"
+          },
+          {
+            "item": "6",
+            "count": "44"
+          },
+          {
+            "item": "12",
+            "count": "33"
+          },
+          {
+            "item": "503",
+            "count": "30"
+          },
+          {
+            "item": "403",
+            "count": "29"
+          },
+          {
+            "item": "103",
+            "count": "27"
+          },
+          {
+            "item": "11",
+            "count": "27"
+          },
+          {
+            "item": "101",
+            "count": "26"
+          },
+          {
+            "item": "206",
+            "count": "26"
+          },
+          {
+            "item": "205",
+            "count": "24"
+          }
+        ],
+        "smallest": "1",
+        "count": "516555",
+        "cardinality": "274"
+      }
+    },
+    {
+      "field_name": "descr",
+      "display_name": "Description",
+      "data_type": "text",
+      "description": "Additional description of the location of the business.",
+      "position": 18,
+      "cached_contents": {
+        "non_null": "13742",
+        "largest": "Zip cpde 11423 is correct for above address.",
+        "null": "502813",
+        "top": [
+          {
+            "item": "N/W/C",
+            "count": "823"
+          },
+          {
+            "item": "S/E/C",
+            "count": "769"
+          },
+          {
+            "item": "N/E/C",
+            "count": "705"
+          },
+          {
+            "item": "S/W/C",
+            "count": "459"
+          },
+          {
+            "item": "GROUND FLOOR",
+            "count": "143"
+          },
+          {
+            "item": "FL 1",
+            "count": "112"
+          },
+          {
+            "item": "AKA 110-120 CHURCH STREET",
+            "count": "62"
+          },
+          {
+            "item": "GROUND FL",
+            "count": "59"
+          },
+          {
+            "item": "200-210",
+            "count": "52"
+          },
+          {
+            "item": "423-431",
+            "count": "50"
+          },
+          {
+            "item": "A",
+            "count": "49"
+          },
+          {
+            "item": "217-219",
+            "count": "46"
+          },
+          {
+            "item": "111-115",
+            "count": "41"
+          },
+          {
+            "item": "359-63",
+            "count": "38"
+          },
+          {
+            "item": "3112-114",
+            "count": "37"
+          },
+          {
+            "item": "FL 2",
+            "count": "37"
+          },
+          {
+            "item": "SOUTH",
+            "count": "36"
+          },
+          {
+            "item": "AKA 31 LENOX AVENUE",
+            "count": "35"
+          },
+          {
+            "item": "# 101",
+            "count": "34"
+          },
+          {
+            "item": "N/E/C BOSTON RD AND E TREMONT AVE",
+            "count": "32"
+          }
+        ],
+        "smallest": "`",
+        "count": "516555",
+        "cardinality": "2423"
+      }
+    },
+    {
+      "field_name": "city",
+      "display_name": "City",
+      "data_type": "text",
+      "description": "The city where the business is located.",
+      "position": 19,
+      "cached_contents": {
+        "non_null": "515007",
+        "largest": "YORKTOWN HTS",
+        "null": "1548",
+        "top": [
+          {
+            "item": "BROOKLYN",
+            "count": "153947"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "132211"
+          },
+          {
+            "item": "BRONX",
+            "count": "78390"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "22519"
+          },
+          {
+            "item": "JAMAICA",
+            "count": "15224"
+          },
+          {
+            "item": "FLUSHING",
+            "count": "10818"
+          },
+          {
+            "item": "ASTORIA",
+            "count": "9931"
+          },
+          {
+            "item": "CORONA",
+            "count": "6183"
+          },
+          {
+            "item": "ELMHURST",
+            "count": "4728"
+          },
+          {
+            "item": "WOODSIDE",
+            "count": "4259"
+          },
+          {
+            "item": "OZONE PARK",
+            "count": "4075"
+          },
+          {
+            "item": "RIDGEWOOD",
+            "count": "3956"
+          },
+          {
+            "item": "JACKSON HTS",
+            "count": "3562"
+          },
+          {
+            "item": "FOREST HILLS",
+            "count": "3055"
+          },
+          {
+            "item": "JACKSON HEIGHTS",
+            "count": "3032"
+          },
+          {
+            "item": "RICHMOND HILL",
+            "count": "2821"
+          },
+          {
+            "item": "S RICHMOND HL",
+            "count": "2783"
+          },
+          {
+            "item": "REGO PARK",
+            "count": "2256"
+          },
+          {
+            "item": "WOODHAVEN",
+            "count": "2256"
+          },
+          {
+            "item": "LONG IS CITY",
+            "count": "2177"
+          }
+        ],
+        "smallest": "0000",
+        "count": "516555",
+        "cardinality": "681"
+      }
+    },
+    {
+      "field_name": "state",
+      "display_name": "Sate",
+      "data_type": "text",
+      "description": "The state where the business is located.",
+      "position": 20,
+      "cached_contents": {
+        "non_null": "514593",
+        "largest": "WY",
+        "null": "1962",
+        "top": [
+          {
+            "item": "NY",
+            "count": "512900"
+          },
+          {
+            "item": "NJ",
+            "count": "1117"
+          },
+          {
+            "item": "GA",
+            "count": "135"
+          },
+          {
+            "item": "PA",
+            "count": "90"
+          },
+          {
+            "item": "IL",
+            "count": "79"
+          },
+          {
+            "item": "CT",
+            "count": "68"
+          },
+          {
+            "item": "FL",
+            "count": "62"
+          },
+          {
+            "item": ",",
+            "count": "46"
+          },
+          {
+            "item": "VA",
+            "count": "15"
+          },
+          {
+            "item": "MD",
+            "count": "11"
+          },
+          {
+            "item": "CO",
+            "count": "10"
+          },
+          {
+            "item": "WA",
+            "count": "10"
+          },
+          {
+            "item": "CA",
+            "count": "8"
+          },
+          {
+            "item": "MA",
+            "count": "7"
+          },
+          {
+            "item": "NC",
+            "count": "6"
+          },
+          {
+            "item": "KS",
+            "count": "4"
+          },
+          {
+            "item": "DE",
+            "count": "3"
+          },
+          {
+            "item": "OH",
+            "count": "3"
+          },
+          {
+            "item": "SC",
+            "count": "3"
+          },
+          {
+            "item": "WY",
+            "count": "2"
+          }
+        ],
+        "smallest": ",",
+        "count": "516555",
+        "cardinality": "30"
+      }
+    },
+    {
+      "field_name": "zip",
+      "display_name": "Postcode",
+      "data_type": "text",
+      "description": "The zip code where the business is located.",
+      "position": 21,
+      "cached_contents": {
+        "non_null": "514715",
+        "largest": "99301",
+        "null": "1840",
+        "top": [
+          {
+            "item": "11220",
+            "count": "8325"
+          },
+          {
+            "item": "11207",
+            "count": "6894"
+          },
+          {
+            "item": "11226",
+            "count": "6794"
+          },
+          {
+            "item": "11372",
+            "count": "6624"
+          },
+          {
+            "item": "10002",
+            "count": "6314"
+          },
+          {
+            "item": "11368",
+            "count": "6271"
+          },
+          {
+            "item": "10019",
+            "count": "6082"
+          },
+          {
+            "item": "11432",
+            "count": "5929"
+          },
+          {
+            "item": "11208",
+            "count": "5714"
+          },
+          {
+            "item": "10003",
+            "count": "5693"
+          },
+          {
+            "item": "11385",
+            "count": "5635"
+          },
+          {
+            "item": "10013",
+            "count": "5624"
+          },
+          {
+            "item": "11235",
+            "count": "5570"
+          },
+          {
+            "item": "10467",
+            "count": "5485"
+          },
+          {
+            "item": "11214",
+            "count": "5448"
+          },
+          {
+            "item": "10011",
+            "count": "5367"
+          },
+          {
+            "item": "11211",
+            "count": "5278"
+          },
+          {
+            "item": "11209",
+            "count": "5248"
+          },
+          {
+            "item": "11201",
+            "count": "5125"
+          },
+          {
+            "item": "11206",
+            "count": "5120"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "819"
+      }
+    },
+    {
+      "field_name": "x_coord",
+      "display_name": "X Coordinate",
+      "data_type": "number",
+      "description": "X Coordinate of business\u2019s address.",
+      "position": 22,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "468219",
+        "largest": "1067184",
+        "null": "48336",
+        "top": [
+          {
+            "item": "-74",
+            "count": "67900"
+          },
+          {
+            "item": "0",
+            "count": "9825"
+          },
+          {
+            "item": "1019841",
+            "count": "521"
+          },
+          {
+            "item": "1043012",
+            "count": "303"
+          },
+          {
+            "item": "937291",
+            "count": "228"
+          },
+          {
+            "item": "989691",
+            "count": "157"
+          },
+          {
+            "item": "982948",
+            "count": "149"
+          },
+          {
+            "item": "989710",
+            "count": "139"
+          },
+          {
+            "item": "1017051",
+            "count": "132"
+          },
+          {
+            "item": "1031557",
+            "count": "129"
+          },
+          {
+            "item": "989635",
+            "count": "126"
+          },
+          {
+            "item": "989389",
+            "count": "126"
+          },
+          {
+            "item": "985488",
+            "count": "126"
+          },
+          {
+            "item": "995544",
+            "count": "126"
+          },
+          {
+            "item": "1032592",
+            "count": "125"
+          },
+          {
+            "item": "1009921",
+            "count": "124"
+          },
+          {
+            "item": "999170",
+            "count": "122"
+          },
+          {
+            "item": "997656",
+            "count": "121"
+          },
+          {
+            "item": "1040778",
+            "count": "120"
+          },
+          {
+            "item": "1031435",
+            "count": "119"
+          }
+        ],
+        "smallest": "-74",
+        "count": "516555",
+        "cardinality": "38896"
+      }
+    },
+    {
+      "field_name": "y_coord",
+      "display_name": "Y Coordinate",
+      "data_type": "number",
+      "description": "Y Coordinate of business\u2019s address.",
+      "position": 23,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "468219",
+        "largest": "271583",
+        "null": "48336",
+        "top": [
+          {
+            "item": "41",
+            "count": "67901"
+          },
+          {
+            "item": "0",
+            "count": "9825"
+          },
+          {
+            "item": "206663",
+            "count": "506"
+          },
+          {
+            "item": "175520",
+            "count": "301"
+          },
+          {
+            "item": "151466",
+            "count": "228"
+          },
+          {
+            "item": "208023",
+            "count": "159"
+          },
+          {
+            "item": "207240",
+            "count": "138"
+          },
+          {
+            "item": "216133",
+            "count": "129"
+          },
+          {
+            "item": "214822",
+            "count": "128"
+          },
+          {
+            "item": "215456",
+            "count": "127"
+          },
+          {
+            "item": "187684",
+            "count": "125"
+          },
+          {
+            "item": "212241",
+            "count": "125"
+          },
+          {
+            "item": "223667",
+            "count": "124"
+          },
+          {
+            "item": "197060",
+            "count": "123"
+          },
+          {
+            "item": "215248",
+            "count": "121"
+          },
+          {
+            "item": "189242",
+            "count": "118"
+          },
+          {
+            "item": "149965",
+            "count": "118"
+          },
+          {
+            "item": "193152",
+            "count": "114"
+          },
+          {
+            "item": "189498",
+            "count": "113"
+          },
+          {
+            "item": "204960",
+            "count": "110"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "44978"
+      }
+    },
+    {
+      "field_name": "latitude",
+      "display_name": "Latitude",
+      "data_type": "number",
+      "description": "Latitude of the business\u2019s address.",
+      "position": 24,
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "40.912063",
+        "null": "55466",
+        "top": [
+          {
+            "item": "40.733848",
+            "count": "512"
+          },
+          {
+            "item": "40.648321",
+            "count": "323"
+          },
+          {
+            "item": "40.582305",
+            "count": "271"
+          },
+          {
+            "item": "40.683457",
+            "count": "159"
+          },
+          {
+            "item": "40.737664",
+            "count": "151"
+          },
+          {
+            "item": "40.759785",
+            "count": "133"
+          },
+          {
+            "item": "40.707381",
+            "count": "126"
+          },
+          {
+            "item": "40.681826",
+            "count": "125"
+          },
+          {
+            "item": "40.685971",
+            "count": "124"
+          },
+          {
+            "item": "40.780589",
+            "count": "124"
+          },
+          {
+            "item": "40.578288",
+            "count": "120"
+          },
+          {
+            "item": "40.751098",
+            "count": "119"
+          },
+          {
+            "item": "40.760097",
+            "count": "119"
+          },
+          {
+            "item": "40.738906",
+            "count": "116"
+          },
+          {
+            "item": "40.686669",
+            "count": "116"
+          },
+          {
+            "item": "40.735495",
+            "count": "114"
+          },
+          {
+            "item": "40.635903",
+            "count": "112"
+          },
+          {
+            "item": "40.712625",
+            "count": "112"
+          },
+          {
+            "item": "40.758661",
+            "count": "111"
+          },
+          {
+            "item": "40.755737",
+            "count": "111"
+          }
+        ],
+        "smallest": "40.507898",
+        "count": "516555",
+        "cardinality": "52101"
+      }
+    },
+    {
+      "field_name": "longitude",
+      "display_name": "Longitude",
+      "data_type": "number",
+      "description": "Longitude of the business\u2019s address.",
+      "position": 25,
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "-73.700723",
+        "null": "55466",
+        "top": [
+          {
+            "item": "-73.871578",
+            "count": "507"
+          },
+          {
+            "item": "-73.788281",
+            "count": "314"
+          },
+          {
+            "item": "-74.169053",
+            "count": "271"
+          },
+          {
+            "item": "-73.980355",
+            "count": "161"
+          },
+          {
+            "item": "-73.975616",
+            "count": "143"
+          },
+          {
+            "item": "-73.829236",
+            "count": "133"
+          },
+          {
+            "item": "-73.915157",
+            "count": "131"
+          },
+          {
+            "item": "-73.981444",
+            "count": "127"
+          },
+          {
+            "item": "-74.004694",
+            "count": "125"
+          },
+          {
+            "item": "-73.796112",
+            "count": "125"
+          },
+          {
+            "item": "-73.82968",
+            "count": "124"
+          },
+          {
+            "item": "-73.957907",
+            "count": "122"
+          },
+          {
+            "item": "-73.825693",
+            "count": "122"
+          },
+          {
+            "item": "-73.950061",
+            "count": "120"
+          },
+          {
+            "item": "-73.992926",
+            "count": "119"
+          },
+          {
+            "item": "-73.946168",
+            "count": "118"
+          },
+          {
+            "item": "-73.98036",
+            "count": "117"
+          },
+          {
+            "item": "-73.949583",
+            "count": "117"
+          },
+          {
+            "item": "-73.823074",
+            "count": "116"
+          },
+          {
+            "item": "-73.951626",
+            "count": "114"
+          }
+        ],
+        "smallest": "-74.250125",
+        "count": "516555",
+        "cardinality": "51191"
+      }
+    },
+    {
+      "field_name": "community_board",
+      "display_name": "Community Board",
+      "data_type": "number",
+      "description": "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, \ufeffwho can be as young as 16\ufeff, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District. Note: as a column header, \u201cCommunity Board\u201d (which refers to a group of Board members) is often used to mean \u201cCommunity District\u201d (the geographical area) instead.",
+      "position": 26,
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "503",
+        "null": "55466",
+        "top": [
+          {
+            "item": "105",
+            "count": "16036"
+          },
+          {
+            "item": "108",
+            "count": "13859"
+          },
+          {
+            "item": "412",
+            "count": "12903"
+          },
+          {
+            "item": "103",
+            "count": "12846"
+          },
+          {
+            "item": "112",
+            "count": "12817"
+          },
+          {
+            "item": "401",
+            "count": "12010"
+          },
+          {
+            "item": "301",
+            "count": "11984"
+          },
+          {
+            "item": "102",
+            "count": "11379"
+          },
+          {
+            "item": "104",
+            "count": "10990"
+          },
+          {
+            "item": "305",
+            "count": "10697"
+          },
+          {
+            "item": "107",
+            "count": "10511"
+          },
+          {
+            "item": "303",
+            "count": "10003"
+          },
+          {
+            "item": "106",
+            "count": "9683"
+          },
+          {
+            "item": "311",
+            "count": "9548"
+          },
+          {
+            "item": "407",
+            "count": "9514"
+          },
+          {
+            "item": "403",
+            "count": "9067"
+          },
+          {
+            "item": "307",
+            "count": "8853"
+          },
+          {
+            "item": "404",
+            "count": "8712"
+          },
+          {
+            "item": "315",
+            "count": "8615"
+          },
+          {
+            "item": "314",
+            "count": "8515"
+          }
+        ],
+        "smallest": "101",
+        "count": "516555",
+        "cardinality": "67"
+      }
+    },
+    {
+      "field_name": "council_district",
+      "display_name": "Council District",
+      "data_type": "number",
+      "description": "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District.",
+      "position": 27,
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "51",
+        "null": "55466",
+        "top": [
+          {
+            "item": "3",
+            "count": "19804"
+          },
+          {
+            "item": "1",
+            "count": "19228"
+          },
+          {
+            "item": "4",
+            "count": "16389"
+          },
+          {
+            "item": "2",
+            "count": "14494"
+          },
+          {
+            "item": "17",
+            "count": "13039"
+          },
+          {
+            "item": "10",
+            "count": "12663"
+          },
+          {
+            "item": "8",
+            "count": "11665"
+          },
+          {
+            "item": "38",
+            "count": "11431"
+          },
+          {
+            "item": "34",
+            "count": "11188"
+          },
+          {
+            "item": "37",
+            "count": "10950"
+          },
+          {
+            "item": "33",
+            "count": "10839"
+          },
+          {
+            "item": "15",
+            "count": "10816"
+          },
+          {
+            "item": "47",
+            "count": "10314"
+          },
+          {
+            "item": "5",
+            "count": "10307"
+          },
+          {
+            "item": "36",
+            "count": "9544"
+          },
+          {
+            "item": "48",
+            "count": "9501"
+          },
+          {
+            "item": "43",
+            "count": "9315"
+          },
+          {
+            "item": "22",
+            "count": "9314"
+          },
+          {
+            "item": "40",
+            "count": "9246"
+          },
+          {
+            "item": "14",
+            "count": "9216"
+          }
+        ],
+        "smallest": "1",
+        "count": "516555",
+        "cardinality": "51"
+      }
+    },
+    {
+      "field_name": "bin",
+      "display_name": "BIN",
+      "data_type": "number",
+      "description": "The BIN (Building Identification Number) is a unique 7-digit number assigned to every known building by the Department of City Planning (DCP), the first digit of which is the borough code. BINs allow city agencies to process and match building-related data easily and in a consistent manner. ",
+      "position": 28,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "456197",
+        "largest": "5799501",
+        "null": "60358",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "2965"
+          },
+          {
+            "item": "1000000",
+            "count": "2921"
+          },
+          {
+            "item": "4000000",
+            "count": "2899"
+          },
+          {
+            "item": "2000000",
+            "count": "1715"
+          },
+          {
+            "item": "4045999",
+            "count": "509"
+          },
+          {
+            "item": "5000000",
+            "count": "274"
+          },
+          {
+            "item": "5039658",
+            "count": "273"
+          },
+          {
+            "item": "4309526",
+            "count": "215"
+          },
+          {
+            "item": "3098070",
+            "count": "197"
+          },
+          {
+            "item": "4224410",
+            "count": "186"
+          },
+          {
+            "item": "4113546",
+            "count": "168"
+          },
+          {
+            "item": "3345673",
+            "count": "168"
+          },
+          {
+            "item": "2000859",
+            "count": "163"
+          },
+          {
+            "item": "3326830",
+            "count": "160"
+          },
+          {
+            "item": "1054466",
+            "count": "158"
+          },
+          {
+            "item": "1030724",
+            "count": "158"
+          },
+          {
+            "item": "4146991",
+            "count": "157"
+          },
+          {
+            "item": "3112333",
+            "count": "155"
+          },
+          {
+            "item": "1084710",
+            "count": "153"
+          },
+          {
+            "item": "1001631",
+            "count": "153"
+          }
+        ],
+        "smallest": "1000000",
+        "count": "516555",
+        "cardinality": "43472"
+      }
+    },
+    {
+      "field_name": "bbl",
+      "display_name": "BBL",
+      "data_type": "number",
+      "description": "The BBL (Borough, Block, and Lot) is a combination of three numeric codes -- a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) - designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+      "position": 29,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "456197",
+        "largest": "5270000501",
+        "null": "60358",
+        "top": [
+          {
+            "item": "4018600100",
+            "count": "509"
+          },
+          {
+            "item": "4142600001",
+            "count": "330"
+          },
+          {
+            "item": "5024000180",
+            "count": "273"
+          },
+          {
+            "item": "4050447501",
+            "count": "216"
+          },
+          {
+            "item": "3044130001",
+            "count": "197"
+          },
+          {
+            "item": "4105330001",
+            "count": "186"
+          },
+          {
+            "item": "1009720001",
+            "count": "184"
+          },
+          {
+            "item": "3013960040",
+            "count": "179"
+          },
+          {
+            "item": "1020130029",
+            "count": "170"
+          },
+          {
+            "item": "1009290001",
+            "count": "169"
+          },
+          {
+            "item": "4050190005",
+            "count": "168"
+          },
+          {
+            "item": "3044520015",
+            "count": "168"
+          },
+          {
+            "item": "2023280025",
+            "count": "163"
+          },
+          {
+            "item": "3084700055",
+            "count": "163"
+          },
+          {
+            "item": "4124950002",
+            "count": "162"
+          },
+          {
+            "item": "1017730057",
+            "count": "158"
+          },
+          {
+            "item": "1011660020",
+            "count": "158"
+          },
+          {
+            "item": "4067890065",
+            "count": "157"
+          },
+          {
+            "item": "3049640050",
+            "count": "155"
+          },
+          {
+            "item": "2051410810",
+            "count": "155"
+          }
+        ],
+        "smallest": "0",
+        "count": "516555",
+        "cardinality": "43030"
+      }
+    },
+    {
+      "field_name": "ct2020",
+      "display_name": "Census Tract (2020)",
+      "data_type": "number",
+      "description": "The Census Tract (Census 2020) is a small, relatively permanent statistical subdivisions of a county uniquely numbered in each county with a numeric code. Note: as part of the geocoding process, leading and trailing zeros are dropped.",
+      "position": 30,
+      "default_value": "true",
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "157903",
+        "null": "55466",
+        "top": [
+          {
+            "item": "41",
+            "count": "2650"
+          },
+          {
+            "item": "21",
+            "count": "2236"
+          },
+          {
+            "item": "65",
+            "count": "2164"
+          },
+          {
+            "item": "96",
+            "count": "2155"
+          },
+          {
+            "item": "289",
+            "count": "1951"
+          },
+          {
+            "item": "871",
+            "count": "1921"
+          },
+          {
+            "item": "8",
+            "count": "1892"
+          },
+          {
+            "item": "98",
+            "count": "1859"
+          },
+          {
+            "item": "1502",
+            "count": "1767"
+          },
+          {
+            "item": "54",
+            "count": "1753"
+          },
+          {
+            "item": "43",
+            "count": "1739"
+          },
+          {
+            "item": "68",
+            "count": "1718"
+          },
+          {
+            "item": "39",
+            "count": "1717"
+          },
+          {
+            "item": "287",
+            "count": "1684"
+          },
+          {
+            "item": "283",
+            "count": "1659"
+          },
+          {
+            "item": "71",
+            "count": "1654"
+          },
+          {
+            "item": "33",
+            "count": "1623"
+          },
+          {
+            "item": "138",
+            "count": "1608"
+          },
+          {
+            "item": "76",
+            "count": "1593"
+          },
+          {
+            "item": "245",
+            "count": "1573"
+          }
+        ],
+        "smallest": "1",
+        "count": "516555",
+        "cardinality": "1403"
+      }
+    },
+    {
+      "field_name": "nta2020",
+      "display_name": "Neighborhood Tabulation Area (NTA) (2020)",
+      "data_type": "text",
+      "description": "The Neighborhood Tabulation Area (Census 2020) are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+      "position": 31,
+      "cached_contents": {
+        "non_null": "461089",
+        "largest": "SI0391",
+        "null": "55466",
+        "top": [
+          {
+            "item": "MN0502",
+            "count": "8966"
+          },
+          {
+            "item": "QN1201",
+            "count": "6706"
+          },
+          {
+            "item": "QN0401",
+            "count": "6247"
+          },
+          {
+            "item": "BK1001",
+            "count": "5989"
+          },
+          {
+            "item": "MN0401",
+            "count": "5906"
+          },
+          {
+            "item": "QN0707",
+            "count": "5598"
+          },
+          {
+            "item": "MN0501",
+            "count": "5568"
+          },
+          {
+            "item": "QN0301",
+            "count": "5427"
+          },
+          {
+            "item": "MN0702",
+            "count": "5389"
+          },
+          {
+            "item": "MN0303",
+            "count": "5378"
+          },
+          {
+            "item": "MN0801",
+            "count": "5320"
+          },
+          {
+            "item": "BK1101",
+            "count": "5148"
+          },
+          {
+            "item": "BK0302",
+            "count": "5091"
+          },
+          {
+            "item": "MN1202",
+            "count": "4893"
+          },
+          {
+            "item": "MN0402",
+            "count": "4876"
+          },
+          {
+            "item": "BK0301",
+            "count": "4857"
+          },
+          {
+            "item": "MN1201",
+            "count": "4857"
+          },
+          {
+            "item": "MN1102",
+            "count": "4803"
+          },
+          {
+            "item": "MN0101",
+            "count": "4788"
+          },
+          {
+            "item": "MN0201",
+            "count": "4623"
+          }
+        ],
+        "smallest": "BK0101",
+        "count": "516555",
+        "cardinality": "221"
+      }
+    }
+  ],
+  "metadata_retrieved_at": "2025-06-03T21:49:13.664150"
+}
