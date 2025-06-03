@@ -99,6 +99,7 @@ volumes:
 
 networks:
   dob-sob-network:
+    external: true
     name: ${NETWORK_NAME:-dob-sob-network}
     driver: bridge
     driver_opts:

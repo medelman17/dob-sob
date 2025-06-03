@@ -12,17 +12,28 @@ dependencies = [
     "scikit-learn>=1.3.0",
     "networkx>=3.1",
     "neo4j>=5.8.0",
-    "requests>=2.31.0",
     "numpy>=1.24.0",
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
     "python-dotenv>=1.0.0",
     "jupyter>=1.0.0",
     "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
     "graphiti-core>=0.11.6",
-    "aiohttp>=3.12.7",
     "aiofiles>=24.1.0",
+    "click>=8.0.0",
+    "pyyaml>=6.0.0",
+    # Modern async and UI libraries
+    "httpx>=0.27.0",
+    "rich>=13.7.0", 
+    "structlog>=24.1.0",
+    # Remove older libraries
+    # "requests>=2.31.0",  # Replaced with httpx
+    # "aiohttp>=3.12.7",   # Replaced with httpx
 ]
+
+[project.scripts]
+dob-sob = "dob_sob.cli.main:cli"
 
 [project.optional-dependencies]
 dev = [
@@ -39,7 +50,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["scripts"]
+packages = ["dob_sob"]
 
 [tool.black]
 line-length = 88

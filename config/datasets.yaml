@@ -1,0 +1,956 @@
+# NYC DOB Dataset Configurations
+# External configuration for dataset definitions
+
+datasets:
+  housing_litigations:
+    id: "59kj-x8nc"
+    name: "Housing Litigations"
+    description: "Housing litigation cases and status"
+    update_frequency: "daily"
+    estimated_size_mb: 50
+    date_field: "case_open_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_violations:
+    id: "3h2n-5cm9"
+    name: "DOB Violations"
+    description: "Department of Buildings violations"
+    update_frequency: "daily"
+    estimated_size_mb: 250
+    date_field: "issue_date"
+    supports_incremental: true
+    priority: "high"
+
+  ecb_violations:
+    id: "6bgk-3dad"
+    name: "ECB Violations"
+    description: "Environmental Control Board violations"
+    update_frequency: "daily"
+    estimated_size_mb: 300
+    date_field: "issue_date"
+    supports_incremental: true
+    priority: "high"
+
+  complaints_received:
+    id: "eabe-havv"
+    name: "Complaints Received"
+    description: "DOB complaints received"
+    update_frequency: "daily"
+    estimated_size_mb: 317
+    date_field: "date_entered"
+    supports_incremental: true
+    priority: "high"
+
+  maintenance_code_violations:
+    id: "wvxf-dwi5"
+    name: "Maintenance Code Violations"
+    description: "Housing maintenance code violations"
+    update_frequency: "daily"
+    estimated_size_mb: 400
+    date_field: "approved_date"
+    supports_incremental: true
+    priority: "high"
+
+  certificates_of_occupancy:
+    id: "bs8b-p36w"
+    name: "Certificates of Occupancy"
+    description: "Certificate of occupancy records"
+    update_frequency: "daily"
+    estimated_size_mb: 200
+    date_field: "issue_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_now_build_job_filings:
+    id: "w9ak-ipjd"
+    name: "DOB NOW: Build – Job Application Filings"
+    description: "Job applications submitted through DOB NOW system"
+    update_frequency: "daily"
+    estimated_size_mb: 150
+    date_field: "latest_action_date"
+    supports_incremental: true
+    priority: "high"
+
+  historical_permit_issuance:
+    id: "ipu4-2q9a"
+    name: "Historical Permit Issuance"
+    description: "Historical DOB permit issuance data"
+    update_frequency: "daily"
+    estimated_size_mb: 1200
+    date_field: "issuance_date"
+    supports_incremental: true
+    priority: "medium"
+
+  job_application_filings:
+    id: "ic3t-wcy2"
+    name: "Job Application Filings"
+    description: "DOB job application filings"
+    update_frequency: "daily"
+    estimated_size_mb: 800
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "medium"
+
+  multiple_dwelling_registrations:
+    id: "tesw-yqqr"
+    name: "Multiple Dwelling Registrations"
+    description: "Multiple dwelling registration data"
+    update_frequency: "daily"
+    estimated_size_mb: 100
+    date_field: "registration_date"
+    supports_incremental: true
+    priority: "medium"
+
+  license_info:
+    id: "t8hj-ruu2"
+    name: "DOB License Information"
+    description: "DOB licenses and registrations issued to construction trades"
+    update_frequency: "daily"
+    estimated_size_mb: 15
+    date_field: "license_issue_date"
+    supports_incremental: true
+    priority: "low"
+
+  property_data:
+    id: "e98g-f8hy"
+    name: "Property Data (Buildings Information System)"
+    description: "Property valuation and assessment data from Buildings Information System"
+    update_frequency: "quarterly"
+    estimated_size_mb: 500
+    date_field: "last_modified"
+    supports_incremental: false
+    priority: "low"
+
+  # New DOB Datasets Discovered via Tavily Crawl
+  dob_now_approved_permits:
+    id: "rbx6-tga4"
+    name: "DOB NOW: Build – Approved Permits"
+    description: "List of all approved permits in DOB NOW system"
+    update_frequency: "daily"
+    estimated_size_mb: 200
+    date_field: "permit_approval_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_stalled_construction_sites:
+    id: "i296-73x5"
+    name: "DOB Stalled Construction Sites"
+    description: "Sites where construction activity has come to an abrupt halt"
+    update_frequency: "daily"
+    estimated_size_mb: 50
+    date_field: "date_complaint_received"
+    supports_incremental: true
+    priority: "high"
+
+  dob_sign_application_filings:
+    id: "nyis-y4yr"
+    name: "DOB Sign Application Filings"
+    description: "Applications for sign installations and modifications"
+    update_frequency: "daily"
+    estimated_size_mb: 75
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_now_safety_boiler:
+    id: "52dp-yji6"
+    name: "DOB NOW: Safety Boiler"
+    description: "Boiler safety permits and inspections"
+    update_frequency: "daily"
+    estimated_size_mb: 25
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_now_facades_compliance:
+    id: "xubg-57si"
+    name: "DOB NOW: Safety – Facades Compliance Filings"
+    description: "Facade inspection and compliance filings"
+    update_frequency: "daily"
+    estimated_size_mb: 30
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_now_electrical_permits:
+    id: "dm9a-ab7w"
+    name: "DOB NOW: Electrical Permit Applications"
+    description: "Electrical permit applications and approvals"
+    update_frequency: "daily"
+    estimated_size_mb: 100
+    date_field: "application_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_now_elevator_permits:
+    id: "kfp4-dz4h"
+    name: "DOB NOW: Build Elevator Permit Applications"
+    description: "Elevator permit applications and inspections"
+    update_frequency: "daily"
+    estimated_size_mb: 40
+    date_field: "application_date"
+    supports_incremental: true
+    priority: "medium"
+
+  energy_water_disclosure_2022:
+    id: "5zyy-y8am"
+    name: "Building Energy and Water Data Disclosure (2022-Present)"
+    description: "Energy and water usage disclosure for Local Law 84"
+    update_frequency: "quarterly"
+    estimated_size_mb: 150
+    date_field: "reporting_year"
+    supports_incremental: false
+    priority: "low"
+
+  energy_water_disclosure_2021:
+    id: "usc3-8zwd"
+    name: "Energy and Water Data Disclosure 2021 (Calendar Year 2020)"
+    description: "Energy and water usage disclosure for calendar year 2020"
+    update_frequency: "quarterly"
+    estimated_size_mb: 120
+    date_field: "reporting_year"
+    supports_incremental: false
+    priority: "low"
+
+  energy_water_disclosure_2020:
+    id: "wcm8-aq5w"
+    name: "Energy and Water Data Disclosure 2020 (Calendar Year 2019)"
+    description: "Energy and water usage disclosure for calendar year 2019"
+    update_frequency: "quarterly"
+    estimated_size_mb: 110
+    date_field: "reporting_year"
+    supports_incremental: false
+    priority: "low"
+
+  historical_dob_permit_issuance:
+    id: "bty7-2jhb"
+    name: "Historical DOB Permit Issuance"
+    description: "Historical permit issuance data from legacy systems (1989-2013)"
+    update_frequency: "monthly"
+    estimated_size_mb: 800
+    date_field: "permit_issue_date"
+    supports_incremental: false
+    priority: "medium"
+
+  # Additional DOB Datasets Found via Comprehensive Search
+  dob_disciplinary_actions:
+    id: "ndq3-kuef"
+    name: "DOB Disciplinary Actions"
+    description: "Disciplinary actions taken against construction professionals"
+    update_frequency: "weekly"
+    estimated_size_mb: 10
+    date_field: "action_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_now_elevator_safety_compliance:
+    id: "e5aq-a4j2"
+    name: "DOB NOW Elevator Safety Compliance"
+    description: "Elevator inspection and safety compliance filings"
+    update_frequency: "daily"
+    estimated_size_mb: 60
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_now_electrical_permit_details:
+    id: "xmmq-y7za"
+    name: "DOB NOW: Electrical Permit Details"
+    description: "Detailed electrical permit information and specifications"
+    update_frequency: "daily"
+    estimated_size_mb: 80
+    date_field: "permit_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dob_safety_violations:
+    id: "855j-jady"
+    name: "DOB Safety Violations"
+    description: "Safety violations issued through DOB NOW Safety module"
+    update_frequency: "daily"
+    estimated_size_mb: 120
+    date_field: "violation_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_now_certificate_of_occupancy:
+    id: "pkdm-hqz6"
+    name: "DOB NOW: Certificate of Occupancy"
+    description: "Certificate of occupancy applications filed through DOB NOW (March 2021+)"
+    update_frequency: "daily"
+    estimated_size_mb: 30
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "high"
+
+  dob_active_only:
+    id: "4cx3-pvg7"
+    name: "DOB Active Only"
+    description: "Active DOB records and permits currently in progress"
+    update_frequency: "daily"
+    estimated_size_mb: 250
+    date_field: "status_date"
+    supports_incremental: true
+    priority: "medium"
+
+  elevator_complaints:
+    id: "kqwi-7ncn"
+    name: "Elevator Complaints"
+    description: "DOB complaints specifically related to elevators (categories 13, 3D, 62, 63, 64, 6M, 6S, 80, 81)"
+    update_frequency: "daily"
+    estimated_size_mb: 35
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "medium"
+
+  # Alternative/Community Created Datasets (Lower Priority)
+  dob_nyc_new_buildings:
+    id: "6xbh-bxki"
+    name: "DOB - NYC New Buildings"
+    description: "Community-created view focusing on new building permits"
+    update_frequency: "daily"
+    estimated_size_mb: 100
+    date_field: "permit_date"
+    supports_incremental: true
+    priority: "low"
+
+  ba2_permits:
+    id: "47ks-7xhr"
+    name: "BA-2 Permits"
+    description: "BA-2 permit applications and approvals"
+    update_frequency: "daily"
+    estimated_size_mb: 45
+    date_field: "application_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Additional Small DOB Datasets (Under 1GB - Adding All Per User Request)
+  dob_list_fieg:
+    id: "fieg-559m"
+    name: "DOB List (FIEG)"
+    description: "Community-created DOB list with custom filtering"
+    update_frequency: "daily"
+    estimated_size_mb: 50
+    date_field: "date_updated"
+    supports_incremental: true
+    priority: "low"
+
+  dob_list_w3iz:
+    id: "w3iz-6sgr"
+    name: "DOB List (W3IZ)"
+    description: "Alternative DOB list view with different organization"
+    update_frequency: "daily"
+    estimated_size_mb: 60
+    date_field: "date_updated"
+    supports_incremental: true
+    priority: "low"
+
+  dob_alt_i_brooklyn:
+    id: "4735-s3q5"
+    name: "DOB Alt I Brooklyn"
+    description: "Brooklyn-specific alteration type I permits"
+    update_frequency: "daily"
+    estimated_size_mb: 75
+    date_field: "permit_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_data_emily:
+    id: "58qz-dw5a"
+    name: "DOB Data (Emily Zhang)"
+    description: "Community-created DOB data view"
+    update_frequency: "daily"
+    estimated_size_mb: 40
+    date_field: "date_updated"
+    supports_incremental: true
+    priority: "low"
+
+  active_dob_8cwf:
+    id: "8cwf-w6th"
+    name: "Active DOB (8CWF)"
+    description: "Community view of active DOB violations"
+    update_frequency: "daily"
+    estimated_size_mb: 80
+    date_field: "violation_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_sample_data:
+    id: "bkyx-e5n5"
+    name: "DOB Sample Data"
+    description: "Sample DOB data for testing and development"
+    update_frequency: "weekly"
+    estimated_size_mb: 20
+    date_field: "sample_date"
+    supports_incremental: false
+    priority: "low"
+
+  dob_31:
+    id: "4c5e-snej"
+    name: "31 - DOB"
+    description: "Community-created DOB view with specific filtering criteria"
+    update_frequency: "daily"
+    estimated_size_mb: 55
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_45:
+    id: "vcrp-x6ng"
+    name: "45 - DOB"
+    description: "Community-created DOB view focusing on specific complaint categories"
+    update_frequency: "daily"
+    estimated_size_mb: 35
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_92:
+    id: "nhxj-h4yr"
+    name: "92 - DOB"
+    description: "Community-created DOB view for category 92 related data"
+    update_frequency: "daily"
+    estimated_size_mb: 30
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_4g:
+    id: "r6rg-xf64"
+    name: "4G - DOB"
+    description: "Community-created DOB view for category 4G related data"
+    update_frequency: "daily"
+    estimated_size_mb: 25
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "low"
+
+  boiler_gnmg:
+    id: "gnmg-rawy"
+    name: "Boiler (GNMG)"
+    description: "Community view of DOB NOW Safety Boiler data"
+    update_frequency: "daily"
+    estimated_size_mb: 15
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "low"
+
+  nycdpr_safety_boiler:
+    id: "j4ee-hb95"
+    name: "NYCDPR Safety Boiler"
+    description: "Alternative view of safety boiler compliance data"
+    update_frequency: "daily"
+    estimated_size_mb: 18
+    date_field: "compliance_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_violations_mkgf:
+    id: "mkgf-zjhb"
+    name: "DoB Violations (MKGF)"
+    description: "Community-created DOB violations view with custom filtering"
+    update_frequency: "daily"
+    estimated_size_mb: 90
+    date_field: "violation_date"
+    supports_incremental: true
+    priority: "low"
+
+  fee_exempt_building_permits:
+    id: "xdsk-pmgt"
+    name: "Fee Exempt Building Permits"
+    description: "Building permits that are exempt from fees"
+    update_frequency: "daily"
+    estimated_size_mb: 65
+    date_field: "permit_date"
+    supports_incremental: true
+    priority: "low"
+
+  nyc_dob_permit_issuance_jjvm:
+    id: "jjvm-ciff"
+    name: "NYC DOB Permit Issuance (JJVM)"
+    description: "Alternative view of DOB permit issuance data"
+    update_frequency: "daily"
+    estimated_size_mb: 200
+    date_field: "issuance_date"
+    supports_incremental: true
+    priority: "low"
+
+  dob_job_application_filings_fdfu:
+    id: "fdfu-9c4g"
+    name: "DOB Job Application Filings (FDFU)"
+    description: "Alternative view of job application filings"
+    update_frequency: "daily"
+    estimated_size_mb: 150
+    date_field: "filing_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Cross-Referenceable Business Datasets for Fraud Detection
+  dcwp_consumer_complaints:
+    id: "nre2-6m2s"
+    name: "DCWP Consumer Complaints"
+    description: "Consumer complaints submitted to NYC Department of Consumer and Worker Protection"
+    update_frequency: "weekly"
+    estimated_size_mb: 300
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "high"
+
+  dcwp_inspections:
+    id: "jzhd-m6uv"
+    name: "DCWP Inspections"
+    description: "Business inspections conducted by DCWP for compliance enforcement"
+    update_frequency: "weekly"
+    estimated_size_mb: 100
+    date_field: "date_of_occurrence"
+    supports_incremental: true
+    priority: "high"
+
+  dcwp_issued_licenses:
+    id: "w7w3-xahh"
+    name: "DCWP Issued Licenses"
+    description: "Licenses issued by NYC Department of Consumer and Worker Protection"
+    update_frequency: "weekly"
+    estimated_size_mb: 250
+    date_field: "license_issue_date"
+    supports_incremental: true
+    priority: "high"
+
+  dcwp_license_applications:
+    id: "ptev-4hud"
+    name: "DCWP License Applications"
+    description: "All license applications submitted to DCWP (approved, denied, pending, withdrawn)"
+    update_frequency: "weekly"
+    estimated_size_mb: 80
+    date_field: "submission_date"
+    supports_incremental: true
+    priority: "high"
+
+  sbs_certified_business_list:
+    id: "ci93-uc8s"
+    name: "SBS Certified Business List"
+    description: "NYC Small Business Services certified businesses including M/WBE program participants"
+    update_frequency: "monthly"
+    estimated_size_mb: 50
+    date_field: "certification_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dcwp_charges:
+    id: "5fn4-dr26"
+    name: "DCWP Charges"
+    description: "Charges issued by DCWP for violations of consumer protection and licensing laws"
+    update_frequency: "weekly"
+    estimated_size_mb: 150
+    date_field: "charge_date"
+    supports_incremental: true
+    priority: "high"
+
+  dcwp_fines_and_fees:
+    id: "2xab-argn"
+    name: "Payments Received for DCWP Fines and Fees"
+    description: "Payments received for DCWP-issued fines and fees"
+    update_frequency: "weekly"
+    estimated_size_mb: 75
+    date_field: "payment_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dcwp_fines_and_fees_historical:
+    id: "2k3g-r445"
+    name: "DCWP Fines and Fees (Historical)"
+    description: "Historical DCWP fines and fees data"
+    update_frequency: "monthly"
+    estimated_size_mb: 200
+    date_field: "fine_date"
+    supports_incremental: false
+    priority: "medium"
+
+  license_revocations_suspensions:
+    id: "rpeq-j89e"
+    name: "License Revocations, Suspensions, Surrenders, and Reinstatements"
+    description: "DCWP licenses that have been revoked, suspended, or reinstated"
+    update_frequency: "weekly"
+    estimated_size_mb: 25
+    date_field: "action_date"
+    supports_incremental: true
+    priority: "high"
+
+  licensees_registrants_fleet_info:
+    id: "n84m-kx4j"
+    name: "Licensees and Registrants Fleet Information"
+    description: "Fleet information for DCWP-licensed vehicles (tow trucks, pedicabs, etc.)"
+    update_frequency: "daily"
+    estimated_size_mb: 40
+    date_field: "registration_date"
+    supports_incremental: true
+    priority: "medium"
+
+  # Additional Business Enforcement Datasets
+  archived_dcwp_inspections:
+    id: "kwss-yksz"
+    name: "Archived DCWP Inspections"
+    description: "Archival list of all inspections in DCWP's Accela system"
+    update_frequency: "monthly"
+    estimated_size_mb: 500
+    date_field: "inspection_date"
+    supports_incremental: false
+    priority: "medium"
+
+  archived_dcwp_charges:
+    id: "wyj6-frpa"
+    name: "Archived DCWP Charges"
+    description: "Archival list of all charges and their outcomes in DCWP's system"
+    update_frequency: "monthly"
+    estimated_size_mb: 400
+    date_field: "charge_date"
+    supports_incremental: false
+    priority: "medium"
+
+  dca_mediated_complaints:
+    id: "r7gy-si9h"
+    name: "DCA Mediated Complaints"
+    description: "Consumer complaints against businesses mediated by DCA Consumer Services"
+    update_frequency: "weekly"
+    estimated_size_mb: 120
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "medium"
+
+  # Specialized Business License Types
+  revoked_pedicab_driver_licenses:
+    id: "edph-qi5c"
+    name: "Revoked Pedicab Driver Licenses"
+    description: "Pedicab driver licenses that have been revoked"
+    update_frequency: "weekly"
+    estimated_size_mb: 5
+    date_field: "revocation_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Community-Created Business Views (Under 1GB)
+  dcwp_licensed_parking_manhattan:
+    id: "hefh-3g6a"
+    name: "DCWP Licensed Parking Lots and Garages - Manhattan"
+    description: "Businesses holding DCWP Garage or Parking Lot licenses in Manhattan"
+    update_frequency: "weekly"
+    estimated_size_mb: 30
+    date_field: "license_date"
+    supports_incremental: true
+    priority: "low"
+
+  dcwp_active_stoop_line_stand_licenses:
+    id: "5xvt-52ya"
+    name: "DCWP Active Stoop Line Stand Licenses"
+    description: "Active Stoop Line Stand licenses issued by DCWP"
+    update_frequency: "weekly"
+    estimated_size_mb: 15
+    date_field: "license_date"
+    supports_incremental: true
+    priority: "low"
+
+  businesses_dataset_jff5:
+    id: "jff5-ygbi"
+    name: "Businesses Dataset (JFF5)"
+    description: "Community-created view of businesses holding DCA licenses"
+    update_frequency: "weekly"
+    estimated_size_mb: 100
+    date_field: "license_date"
+    supports_incremental: true
+    priority: "low"
+
+  dca_active_licenses_by_category:
+    id: "kuvm-vsrq"
+    name: "DCA Active Licenses by Category"
+    description: "Active DCA licenses organized by business category"
+    update_frequency: "weekly"
+    estimated_size_mb: 80
+    date_field: "license_date"
+    supports_incremental: true
+    priority: "low"
+
+  dca_license_counts:
+    id: "5uke-7bej"
+    name: "DCA License Counts"
+    description: "Statistical counts of DCA licenses by various categories"
+    update_frequency: "weekly"
+    estimated_size_mb: 10
+    date_field: "count_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Housing Quality & Safety Datasets for Enhanced Fraud Detection
+  evictions:
+    id: "6z8x-wfk4"
+    name: "Evictions"
+    description: "Executed evictions within NYC five boroughs (2017-Present) compiled from NYC Marshals"
+    update_frequency: "daily"
+    estimated_size_mb: 200
+    date_field: "executed_date"
+    supports_incremental: true
+    priority: "high"
+
+  rodent_inspection:
+    id: "p937-wjvj"
+    name: "Rodent Inspection"
+    description: "NYC Department of Health rat inspections and pest control activities"
+    update_frequency: "weekly"
+    estimated_size_mb: 150
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "high"
+
+  dohmh_indoor_environmental_complaints:
+    id: "9jgj-bmct"
+    name: "DOHMH Indoor Environmental Complaints"
+    description: "Indoor environmental complaints received via 311 and other channels"
+    update_frequency: "daily"
+    estimated_size_mb: 180
+    date_field: "complaint_date"
+    supports_incremental: true
+    priority: "high"
+
+  bsa_action_portal:
+    id: "f72e-3i4c"
+    name: "Board of Standards and Appeals (BSA) Action Portal"
+    description: "BSA Index Identifier from 1916 through 1997 (Historical)"
+    update_frequency: "monthly"
+    estimated_size_mb: 100
+    date_field: "calendar_date"
+    supports_incremental: false
+    priority: "medium"
+
+  # Additional Housing Quality Datasets
+  dohmh_rodent_inspections:
+    id: "jh4g-rp64"
+    name: "DOHMH Rodent Inspections"
+    description: "Department of Health rodent inspections with detailed compliance data"
+    update_frequency: "weekly"
+    estimated_size_mb: 120
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  rodent_inspection_failures:
+    id: "3qn7-mf9a"
+    name: "Rodent Inspection Failures (Jan 2022-Present)"
+    description: "Failed rodent inspections from January 2022 to present"
+    update_frequency: "weekly"
+    estimated_size_mb: 80
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  pest_control:
+    id: "37di-9qse"
+    name: "Pest Control"
+    description: "NYC pest control activities and professional services"
+    update_frequency: "weekly"
+    estimated_size_mb: 60
+    date_field: "service_date"
+    supports_incremental: true
+    priority: "medium"
+
+  # BSA Additional Datasets
+  bsa_lot_35:
+    id: "rhxh-bkng"
+    name: "BSA LOT 35"
+    description: "Board of Standards and Appeals applications status for specific lot"
+    update_frequency: "weekly"
+    estimated_size_mb: 20
+    date_field: "application_date"
+    supports_incremental: true
+    priority: "low"
+
+  bsa_extensions:
+    id: "hy8m-axgd"
+    name: "BSA Extensions"
+    description: "Board of Standards and Appeals application extensions"
+    update_frequency: "weekly"
+    estimated_size_mb: 30
+    date_field: "extension_date"
+    supports_incremental: true
+    priority: "low"
+
+  pre_application_meetings:
+    id: "855v-w7mc"
+    name: "Pre-Application Meetings"
+    description: "Pre-application meetings with Board of Standards and Appeals"
+    update_frequency: "weekly"
+    estimated_size_mb: 15
+    date_field: "meeting_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Community-Created Eviction Views
+  brooklyn_basement_evictions:
+    id: "nft3-96s3"
+    name: "Brooklyn Basement Evictions"
+    description: "Community-created view of basement evictions in Brooklyn"
+    update_frequency: "daily"
+    estimated_size_mb: 40
+    date_field: "executed_date"
+    supports_incremental: true
+    priority: "low"
+
+  evictions_bronx_only:
+    id: "y9f2-uufh"
+    name: "Evictions Bronx Only"
+    description: "Community-created view of evictions in Bronx borough only"
+    update_frequency: "daily"
+    estimated_size_mb: 35
+    date_field: "executed_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Additional Health/Environmental Datasets
+  liberty_rodent_inspection_report:
+    id: "xrm5-2ycu"
+    name: "Liberty Rodent Inspection Report"
+    description: "Community-created rodent inspection report view"
+    update_frequency: "weekly"
+    estimated_size_mb: 25
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "low"
+
+  rat_inspections_compliance_initial:
+    id: "f5ae-su76"
+    name: "Rat Inspections Compliance Initial"
+    description: "Initial compliance data for rat inspections"
+    update_frequency: "weekly"
+    estimated_size_mb: 45
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "low"
+
+  rodent_bbl:
+    id: "2brg-uyvv"
+    name: "Rodent BBL"
+    description: "Rodent inspection data organized by Borough-Block-Lot (BBL)"
+    update_frequency: "weekly"
+    estimated_size_mb: 50
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "low"
+
+  active_rats_all:
+    id: "br76-aqfn"
+    name: "ActiveRats All"
+    description: "All active rat inspection and treatment data"
+    update_frequency: "weekly"
+    estimated_size_mb: 70
+    date_field: "activity_date"
+    supports_incremental: true
+    priority: "low"
+
+  active_rats_jobs:
+    id: "p4t7-8xsr"
+    name: "ActiveRats Jobs"
+    description: "Active rat control job assignments and status"
+    update_frequency: "weekly"
+    estimated_size_mb: 40
+    date_field: "job_date"
+    supports_incremental: true
+    priority: "low"
+
+  rats_general:
+    id: "amyk-xiv9"
+    name: "Rats (General)"
+    description: "General rat inspection and control data"
+    update_frequency: "weekly"
+    estimated_size_mb: 85
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Environmental Safety & Fire Prevention Datasets for Enhanced Fraud Detection
+  asbestos_control_program_acp7:
+    id: "vq35-j9qm"
+    name: "Asbestos Control Program (ACP7)"
+    description: "Asbestos project notifications for abatement projects filed with DEP"
+    update_frequency: "monthly"
+    estimated_size_mb: 400
+    date_field: "start_date"
+    supports_incremental: true
+    priority: "high"
+
+  free_residential_lead_copper_data:
+    id: "k5us-nav4"
+    name: "Free Residential At-the-tap Lead and Copper Data"
+    description: "Residential water samples tested for lead and copper contamination"
+    update_frequency: "monthly"
+    estimated_size_mb: 80
+    date_field: "date_collected"
+    supports_incremental: true
+    priority: "high"
+
+  compliance_lead_copper_data:
+    id: "3wxk-qa8q"
+    name: "Compliance At-the-tap Lead and Copper Data"
+    description: "Compliance monitoring water samples tested for lead and copper"
+    update_frequency: "monthly"
+    estimated_size_mb: 20
+    date_field: "date_collected"
+    supports_incremental: true
+    priority: "high"
+
+  bureau_fire_prevention_inspections:
+    id: "ssq6-fkht"
+    name: "Bureau of Fire Prevention - Inspections (Historical)"
+    description: "Historical fire prevention inspection information by account holder"
+    update_frequency: "monthly"
+    estimated_size_mb: 600
+    date_field: "inspection_date"
+    supports_incremental: false
+    priority: "medium"
+
+  risk_based_inspections_rbis:
+    id: "itd7-gx3g"
+    name: "Risk Based Inspections (RBIS)"
+    description: "Risk-based inspections carried out by fire companies"
+    update_frequency: "quarterly"
+    estimated_size_mb: 100
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  mandatory_inspections_fire_companies:
+    id: "kfgh-h6re"
+    name: "Mandatory Inspections by Fire Companies"
+    description: "Date and location of mandatory inspections by fire companies"
+    update_frequency: "quarterly"
+    estimated_size_mb: 150
+    date_field: "inspection_date"
+    supports_incremental: true
+    priority: "medium"
+
+  # Additional ACP Datasets
+  acp7_ours:
+    id: "jsic-e6iv"
+    name: "ACP7-ours"
+    description: "Community-created view of asbestos control program notifications"
+    update_frequency: "monthly"
+    estimated_size_mb: 200
+    date_field: "project_date"
+    supports_incremental: true
+    priority: "medium"
+
+  dep_acp7_manhattan_block_828:
+    id: "w78u-p7v8"
+    name: "Copy of DEP ACP7 Manhattan Block 828"
+    description: "Specific asbestos control program data for Manhattan Block 828"
+    update_frequency: "monthly"
+    estimated_size_mb: 10
+    date_field: "project_date"
+    supports_incremental: true
+    priority: "low"
+
+  # Environmental Protection Additional Datasets
+  # Note: DEP Significant Noncompliance List not found in public datasets
+  # Note: Specific Asbestos Inspectors dataset not found as standalone dataset
+
+  # Additional Fire Prevention Related Datasets
+  # Note: Current active Fire Prevention Inspections/Violations datasets appear to be historical only
+  # Active datasets may be maintained internally by FDNY and not published to Open Data portal

@@ -44,3 +44,5 @@ tasks.json
 tasks/ 
 
 docker-volumes/
+
+.mcp.json

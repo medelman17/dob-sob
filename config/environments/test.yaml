@@ -1,0 +1,29 @@
+# Test environment configuration
+
+debug: true
+environment: "test"
+
+# Logging configuration
+logging:
+  level: "WARNING"
+  enable_file_logging: false
+
+# API settings for testing
+api:
+  requests_per_second: 2  # Very low for testing
+  max_concurrent_downloads: 2
+  timeout_seconds: 10
+
+# Database settings (use test database)
+database:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "test_password"
+  database: "test"
+
+# Fraud detection settings
+fraud_detection:
+  min_community_size: 1  # Very low threshold for testing
+  max_communities: 10
+  default_algorithms:
+    - "louvain"  # Only one algorithm for faster tests

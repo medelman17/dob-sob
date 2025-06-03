@@ -1,0 +1,35 @@
+# Development environment configuration
+
+debug: true
+environment: "development"
+
+# Logging configuration
+logging:
+  level: "DEBUG"
+  enable_file_logging: true
+  log_file: "logs/dob_sob_dev.log"
+
+# API settings for development
+api:
+  requests_per_second: 5  # Lower rate limit for development
+  max_concurrent_downloads: 4
+  timeout_seconds: 60
+
+# Database settings
+database:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "password"
+
+# Web interface settings
+web:
+  streamlit_port: 8501
+  jupyter_port: 8889
+  api_port: 8000
+
+# Fraud detection settings
+fraud_detection:
+  min_community_size: 2  # Lower threshold for testing
+  default_algorithms:
+    - "louvain"
+    - "label_propagation"
