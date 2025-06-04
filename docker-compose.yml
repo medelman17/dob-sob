@@ -23,7 +23,7 @@ services:
           memory: ${APP_MEMORY_RESERVATION:-2G}
           cpus: "${APP_CPU_RESERVATION:-1.0}"
     restart: ${RESTART_POLICY:-unless-stopped}
-    command: ["streamlit", "run", "main.py", "--server.address", "0.0.0.0"]
+    command: ["streamlit", "run", "streamlit_dashboard.py", "--server.address", "0.0.0.0"]
 
   neo4j:
     image: neo4j:5.26.7-community
