@@ -1,0 +1,238 @@
+# NYC DOB Fraud Detection Platform - Neo4j Implementation PRD
+
+## Project Overview
+Transform the dob-sob fraud detection platform to leverage Neo4j as the primary graph database for detecting sophisticated fraud patterns in NYC's construction industry. Focus on relationship analysis, network detection, and temporal pattern recognition using the existing 94 datasets totaling 25GB of NYC DOB data.
+
+## Strategic Pivot: Neo4j-First Architecture
+Based on comprehensive analysis, we're pivoting from a Graphiti-dependent approach to a Neo4j-native solution that can accomplish 80-90% of fraud detection goals with significantly less complexity while maintaining the sophisticated analytical capabilities required for detecting organized fraud rings.
+
+## Core Entity Framework
+The platform will model 6 primary entity types in Neo4j:
+
+### 1. PERSON/PROFESSIONAL ENTITIES
+- **Scale**: 1.7B+ records, 101,510 unique professionals
+- **Key Types**: General Contractors (33,459), Superintendents (11,025), Welders (7,844)
+- **Fraud Patterns**: License stacking, shell companies, revocation cycles
+- **Primary Datasets**: license_info, license_revocations_suspensions, dca_active_licenses
+
+### 2. PROPERTY ENTITIES  
+- **Scale**: 1.4B+ records, 189,392 building registrations
+- **Key Metrics**: 199,058 registration transactions, 109,952 eviction cases
+- **Fraud Patterns**: Ownership shell games, rapid ownership changes, systematic violations
+- **Primary Datasets**: property_data, multiple_dwelling_registrations, evictions
+
+### 3. JOB/PROJECT ENTITIES
+- **Scale**: 2.7M+ job applications, 752K modern DOB NOW filings
+- **Key Indicators**: Multiple filings per job, 17,510 objections, amendment abuse
+- **Fraud Patterns**: Serial re-filing, scope creep fraud, status manipulation
+- **Primary Datasets**: job_application_filings, dob_now_build_job_filings
+
+### 4. VIOLATION/ENFORCEMENT ENTITIES
+- **Scale**: 2.4M+ DOB violations, extensive ECB violations
+- **Geographic Distribution**: Manhattan (911K), Brooklyn (736K), Queens (437K)
+- **Fraud Patterns**: Repeat offender properties, violation clustering, complaint→violation gaps
+- **Primary Datasets**: dob_violations, ecb_violations, complaints_received
+
+### 5. REGULATORY/INSPECTION ENTITIES
+- **Scale**: 1.7B+ rat inspection records, multi-stage inspection processes
+- **Coverage**: Geographic precision with X/Y coordinates, result tracking
+- **Fraud Patterns**: Inspection avoidance, compliance failures, geographic clustering
+- **Primary Datasets**: active_rats_all, dcwp_fines_and_fees, bureau_fire_prevention_inspections
+
+### 6. FINANCIAL/TRANSACTIONAL ENTITIES
+- **Scale**: Permit fees, fines, penalties across all entity types
+- **Key Metrics**: Payment patterns, fee structures, penalty assessments
+- **Fraud Patterns**: Payment evasion, fee manipulation, penalty avoidance
+- **Primary Datasets**: dcwp_fines_and_fees, historical_permit_issuance
+
+## Technical Requirements
+
+### Neo4j Infrastructure
+- **Version**: Neo4j 5.26.7-community (already deployed)
+- **Configuration**: 2GB heap, 1GB pagecache, APOC plugins enabled
+- **Deployment**: Docker-based with existing orchestration
+- **Ports**: Bolt (7687), HTTP (7474) already configured
+
+### Data Pipeline Architecture
+- **ETL Process**: Python-based ingestion using existing dob_sob package structure
+- **Batch Processing**: Handle 1.7B+ records efficiently with chunked processing
+- **Real-time Updates**: OData API integration for live data synchronization
+- **Data Validation**: Schema validation and relationship integrity checks
+
+### Graph Schema Design
+```cypher
+// Core node types
+(:Person {license_number, name, business_name, license_type})
+(:Property {bin, bbl, address, owner_name, registration_id})
+(:Job {job_number, job_type, filing_date, status, work_type})
+(:Violation {violation_id, violation_type, issue_date, severity})
+(:Inspection {inspection_id, inspection_type, date, result})
+(:Financial {transaction_id, amount, fee_type, payment_date})
+
+// Core relationship types
+(:Person)-[:LICENSED_FOR]->(:LicenseType)
+(:Person)-[:OWNS]->(:Property)
+(:Person)-[:FILED]->(:Job)
+(:Job)-[:AT_PROPERTY]->(:Property)
+(:Violation)-[:ISSUED_TO]->(:Property)
+(:Inspection)-[:CONDUCTED_AT]->(:Property)
+(:Financial)-[:PAYMENT_FOR]->(:Job|:Violation)
+```
+
+### Fraud Detection Algorithms
+
+#### 1. Network Analysis Algorithms
+- **Community Detection**: Louvain algorithm for identifying fraud rings
+- **Centrality Analysis**: Betweenness/closeness centrality for key players
+- **Path Analysis**: Shortest path algorithms for relationship tracing
+- **Clustering**: Label propagation for grouping suspicious entities
+
+#### 2. Temporal Pattern Detection
+- **Time Series Analysis**: Detect unusual timing patterns in permits/violations
+- **Sequence Mining**: Identify suspicious order of events
+- **Anomaly Detection**: Statistical outliers in temporal relationships
+- **Trend Analysis**: Long-term pattern recognition
+
+#### 3. Cross-Entity Correlation
+- **Multi-hop Queries**: Complex relationship traversal (2-6 degrees)
+- **Pattern Matching**: Template-based fraud pattern detection
+- **Statistical Analysis**: Correlation coefficients between entity behaviors
+- **Risk Scoring**: Composite risk assessment across entity types
+
+## Implementation Phases
+
+### Phase 1: Core Infrastructure (Weeks 1-2)
+1. **Neo4j Schema Implementation**
+   - Define comprehensive node and relationship types
+   - Create indexes for performance optimization
+   - Implement constraints for data integrity
+   - Set up APOC procedures for advanced algorithms
+
+2. **Data Pipeline Development**
+   - Build ETL processes for each entity type
+   - Implement batch processing for large datasets
+   - Create data validation and cleansing routines
+   - Establish error handling and logging
+
+3. **Basic Query Framework**
+   - Develop core Cypher query templates
+   - Implement basic relationship queries
+   - Create performance monitoring
+   - Build query optimization strategies
+
+### Phase 2: Fraud Detection Engine (Weeks 3-4)
+1. **Algorithm Implementation**
+   - Deploy community detection algorithms
+   - Implement centrality measures
+   - Build temporal pattern detection
+   - Create anomaly detection routines
+
+2. **Pattern Recognition System**
+   - Develop fraud pattern templates
+   - Implement multi-entity correlation analysis
+   - Build risk scoring algorithms
+   - Create alert generation system
+
+3. **Performance Optimization**
+   - Query performance tuning
+   - Index optimization
+   - Memory management
+   - Parallel processing implementation
+
+### Phase 3: Advanced Analytics (Weeks 5-6)
+1. **Sophisticated Fraud Detection**
+   - Multi-hop relationship analysis
+   - Complex pattern matching
+   - Statistical correlation analysis
+   - Machine learning integration
+
+2. **Visualization and Reporting**
+   - Neo4j Browser integration
+   - Custom dashboard development
+   - Report generation system
+   - Alert notification system
+
+3. **API Development**
+   - REST API for fraud queries
+   - Real-time analysis endpoints
+   - Batch analysis interfaces
+   - Integration with existing systems
+
+## Success Metrics
+
+### Technical Performance
+- **Query Performance**: Sub-second response for most fraud detection queries
+- **Data Throughput**: Process 1M+ records per hour during ETL
+- **System Availability**: 99.9% uptime for fraud detection services
+- **Scalability**: Handle 10x data growth without performance degradation
+
+### Fraud Detection Effectiveness
+- **Pattern Detection**: Identify 95%+ of known fraud patterns
+- **False Positive Rate**: <5% false positives in fraud alerts
+- **Network Analysis**: Detect fraud rings with 90%+ accuracy
+- **Temporal Analysis**: Identify timing-based fraud with 85%+ accuracy
+
+### Operational Impact
+- **Investigation Efficiency**: 50% reduction in manual investigation time
+- **Case Quality**: 75% improvement in case preparation quality
+- **Coverage**: 100% coverage of all 94 NYC datasets
+- **Response Time**: Real-time alerts for high-priority fraud patterns
+
+## Risk Mitigation
+
+### Technical Risks
+- **Data Volume**: Implement incremental loading and archival strategies
+- **Query Complexity**: Use query optimization and caching
+- **Memory Management**: Monitor heap usage and implement garbage collection tuning
+- **Performance Degradation**: Implement monitoring and alerting
+
+### Operational Risks
+- **Data Quality**: Implement comprehensive validation and cleansing
+- **False Positives**: Develop tuning mechanisms for algorithm parameters
+- **System Integration**: Maintain backward compatibility with existing systems
+- **User Adoption**: Provide comprehensive training and documentation
+
+## Technology Stack
+
+### Core Technologies
+- **Database**: Neo4j 5.26.7-community with APOC plugins
+- **Backend**: Python 3.12+ with neo4j-driver, pandas, asyncio
+- **ETL**: Custom Python pipeline with chunked processing
+- **API**: FastAPI for REST endpoints
+- **Monitoring**: Neo4j monitoring tools, custom metrics
+
+### Development Tools
+- **Package Management**: uv for Python dependencies
+- **Containerization**: Docker Compose for orchestration
+- **Version Control**: Git with feature branch workflow
+- **Testing**: pytest for unit/integration testing
+- **Documentation**: Sphinx for API documentation
+
+### Integration Points
+- **Data Sources**: NYC Open Data API (OData), existing CSV datasets
+- **Visualization**: Neo4j Browser, custom Streamlit dashboards
+- **Reporting**: Jupyter notebooks for analysis, automated report generation
+- **Alerts**: Email/webhook notifications for fraud detection
+
+## Deliverables
+
+### Phase 1 Deliverables
+- Neo4j schema implementation with all entity types
+- ETL pipeline for all 94 datasets
+- Basic query framework and performance monitoring
+- Data validation and integrity checking system
+
+### Phase 2 Deliverables
+- Complete fraud detection algorithm suite
+- Pattern recognition and risk scoring system
+- Performance-optimized query engine
+- Alert generation and notification system
+
+### Phase 3 Deliverables
+- Advanced analytics and machine learning integration
+- Comprehensive visualization and reporting system
+- Production-ready API with full documentation
+- Complete testing suite and deployment automation
+
+## Conclusion
+This Neo4j-focused approach leverages the existing infrastructure while providing sophisticated fraud detection capabilities. By focusing on relationship analysis and pattern recognition within a proven graph database, we can achieve our fraud detection goals with significantly less complexity than a Graphiti-dependent solution while maintaining the analytical depth required for detecting organized fraud in NYC's construction industry. 
