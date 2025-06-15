@@ -158,7 +158,7 @@ def main():
         st.warning(f"⚠️ Showing sample of {len(df):,} rows. Enable 'Load full dataset' for complete analysis.")
     
     # Tabs for different views
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["📋 Overview", "🔍 Data Browser", "📊 Analytics", "🔗 Relationships", "📝 Metadata"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📋 Overview", "🔍 Data Browser", "📊 Analytics", "🔗 Relationships", "📝 Metadata", "🚨 Fraud Detection"])
     
     with tab1:
         st.header("Dataset Overview")
@@ -409,6 +409,53 @@ def main():
                 st.json(metadata)
         else:
             st.info("No metadata available for this dataset")
+    
+    with tab6:
+        st.header("🚨 Fraud Detection Analysis")
+        st.info("🔧 **Cross-Entity Correlation Engine** - Advanced fraud detection across 6 entity categories")
+        
+        # Quick fraud indicators for current dataset
+        st.subheader("Quick Fraud Indicators")
+        
+        # Look for common fraud indicator columns
+        fraud_columns = []
+        for col in df.columns:
+            col_lower = col.lower()
+            if any(indicator in col_lower for indicator in ['violation', 'fine', 'penalty', 'suspend', 'revok', 'complaint', 'emergency']):
+                fraud_columns.append(col)
+        
+        if fraud_columns:
+            st.write("**Potential fraud indicator columns found:**")
+            for col in fraud_columns[:5]:  # Show first 5
+                unique_vals = df[col].nunique()
+                st.write(f"• `{col}` ({unique_vals:,} unique values)")
+            
+            # Quick analysis of first fraud column
+            if len(fraud_columns) > 0:
+                analysis_col = fraud_columns[0]
+                st.subheader(f"Analysis: {analysis_col}")
+                
+                if df[analysis_col].dtype == 'object':
+                    value_counts = df[analysis_col].value_counts().head(10)
+                    fig = px.bar(x=value_counts.values, y=value_counts.index, orientation='h',
+                               title=f"Top values in {analysis_col}")
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    fig = px.histogram(df, x=analysis_col, title=f"Distribution of {analysis_col}")
+                    st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.write("No obvious fraud indicator columns detected in this dataset.")
+        
+        # Link to dedicated fraud detection pages
+        st.markdown("---")
+        st.markdown("### 🔗 Advanced Fraud Detection")
+        st.markdown("For comprehensive fraud analysis, use the dedicated fraud detection modules:")
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("**📊 [Fraud Detection Dashboard](fraud_detection)** - Comprehensive analysis across all entity types")
+        with col2:
+            st.markdown("**⚡ [Real-time Monitoring](real_time_monitoring)** - Live fraud detection and alerts")
     
     # Footer
     st.markdown("---")

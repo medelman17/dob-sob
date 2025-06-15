@@ -2,5 +2,6 @@
 
 from .community import CommunityDetector
 from .patterns import PatternMatcher
+from .correlation import CrossEntityCorrelationEngine
 
-__all__ = ["CommunityDetector", "PatternMatcher"]
+__all__ = ["CommunityDetector", "PatternMatcher", "CrossEntityCorrelationEngine"]
