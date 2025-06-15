@@ -115,7 +115,7 @@ class Neo4jDataLoader:
             
             try:
                 # Read CSV file info
-                df = pd.read_csv(csv_file)
+                df = pd.read_csv(csv_file, low_memory=False)
                 logger.info(f"  📊 Found {len(df)} records in {csv_file.name}")
                 
                 # Apply limit if specified
@@ -172,8 +172,32 @@ class Neo4jDataLoader:
                 if pd.isna(date_val) or date_val == '' or str(date_val) == 'nan':
                     return None
                 try:
-                    date_str = str(int(date_val))  # Convert to int first to remove decimals
+                    # Handle text dates like "JUNE 31" by returning None
+                    date_str = str(date_val).strip().upper()
+                    if any(month in date_str for month in ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']):
+                        return None  # Skip text dates
+                    
+                    # Try to convert to int for numeric dates
+                    date_str = str(int(float(date_val)))  # Handle decimals
                     if len(date_str) == 8:  # YYYYMMDD format
+                        year = int(date_str[:4])
+                        month = int(date_str[4:6])
+                        day = int(date_str[6:8])
+                        
+                        # Validate date components
+                        if year < 1900 or year > 2030:
+                            return None
+                        if month < 1 or month > 12:
+                            return None
+                        if day < 1 or day > 31:
+                            return None
+                        
+                        # Additional validation for days in month
+                        if month in [4, 6, 9, 11] and day > 30:  # April, June, Sept, Nov
+                            return None
+                        if month == 2 and day > 29:  # February
+                            return None
+                            
                         return f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
                     return None
                 except (ValueError, TypeError):
@@ -200,28 +224,27 @@ class Neo4jDataLoader:
                     p.block = toString(row.BLOCK),
                     p.lot = toString(row.LOT)
                 
-                // Create Violation
+                // Create or merge Violation using unique identifier
                 WITH p, row
-                CREATE (v:Violation {
-                    isn_dob_bis_viol: toString(row.ISN_DOB_BIS_VIOL),
-                    violation_number: toString(row.VIOLATION_NUMBER),
-                    violation_category: row.VIOLATION_CATEGORY,
-                    violation_type: row.VIOLATION_TYPE,
-                    violation_type_code: row.VIOLATION_TYPE_CODE,
-                    issue_date: CASE WHEN row.formatted_issue_date IS NOT NULL 
+                MERGE (v:Violation {isn_dob_bis_viol: toString(row.ISN_DOB_BIS_VIOL)})
+                ON CREATE SET 
+                    v.violation_number = toString(row.VIOLATION_NUMBER),
+                    v.violation_category = row.VIOLATION_CATEGORY,
+                    v.violation_type = row.VIOLATION_TYPE,
+                    v.violation_type_code = row.VIOLATION_TYPE_CODE,
+                    v.issue_date = CASE WHEN row.formatted_issue_date IS NOT NULL 
                                THEN date(row.formatted_issue_date) ELSE null END,
-                    disposition_date: CASE WHEN row.formatted_disposition_date IS NOT NULL 
+                    v.disposition_date = CASE WHEN row.formatted_disposition_date IS NOT NULL 
                                      THEN date(row.formatted_disposition_date) ELSE null END,
-                    disposition_comments: row.DISPOSITION_COMMENTS,
-                    device_number: toString(row.DEVICE_NUMBER),
-                    description: row.DESCRIPTION,
-                    ecb_number: toString(row.ECB_NUMBER),
-                    number: toString(row.NUMBER),
-                    street: row.STREET
-                })
+                    v.disposition_comments = row.DISPOSITION_COMMENTS,
+                    v.device_number = toString(row.DEVICE_NUMBER),
+                    v.description = row.DESCRIPTION,
+                    v.ecb_number = toString(row.ECB_NUMBER),
+                    v.number = toString(row.NUMBER),
+                    v.street = row.STREET
                 
-                // Link violation to property
-                CREATE (v)-[:VIOLATION_AT]->(p)
+                // Link violation to property (avoid duplicates)
+                MERGE (v)-[:VIOLATION_AT]->(p)
                 """
                 
                 result = session.run(query, records=records)
@@ -230,8 +253,25 @@ class Neo4jDataLoader:
                 return True
                 
         except Exception as e:
-            logger.error(f"Error loading violations batch: {e}")
-            return False
+            logger.warning(f"Date validation error in batch, skipping problematic records: {e}")
+            # Try to process records individually to skip only problematic ones
+            try:
+                with self.driver.session() as session:
+                    successful_records = 0
+                    for record in records:
+                        try:
+                            result = session.run(query, records=[record])
+                            summary = result.consume()
+                            successful_records += 1
+                        except Exception as record_error:
+                            logger.debug(f"Skipping record due to error: {record_error}")
+                            continue
+                    
+                    logger.info(f"  ✅ Processed {successful_records}/{len(records)} records from batch (skipped {len(records) - successful_records} problematic records)")
+                    return True
+            except Exception as fallback_error:
+                logger.error(f"Error in fallback processing: {fallback_error}")
+                return False
     
     def _load_ecb_violations_batch(self, batch_df: pd.DataFrame) -> bool:
         """Load a batch of ECB violations into Neo4j."""
@@ -244,8 +284,32 @@ class Neo4jDataLoader:
                 if pd.isna(date_val) or date_val == '' or str(date_val) == 'nan':
                     return None
                 try:
-                    date_str = str(int(date_val))  # Convert to int first to remove decimals
+                    # Handle text dates like "JUNE 31" by returning None
+                    date_str = str(date_val).strip().upper()
+                    if any(month in date_str for month in ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']):
+                        return None  # Skip text dates
+                    
+                    # Try to convert to int for numeric dates
+                    date_str = str(int(float(date_val)))  # Handle decimals
                     if len(date_str) == 8:  # YYYYMMDD format
+                        year = int(date_str[:4])
+                        month = int(date_str[4:6])
+                        day = int(date_str[6:8])
+                        
+                        # Validate date components
+                        if year < 1900 or year > 2030:
+                            return None
+                        if month < 1 or month > 12:
+                            return None
+                        if day < 1 or day > 31:
+                            return None
+                        
+                        # Additional validation for days in month
+                        if month in [4, 6, 9, 11] and day > 30:  # April, June, Sept, Nov
+                            return None
+                        if month == 2 and day > 29:  # February
+                            return None
+                            
                         return f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
                     return None
                 except (ValueError, TypeError):
@@ -272,33 +336,32 @@ class Neo4jDataLoader:
                     p.block = toString(row.BLOCK),
                     p.lot = toString(row.LOT)
                 
-                // Create ECB Violation
+                // Create or merge ECB Violation using unique identifier
                 WITH p, row
-                CREATE (v:ECB_Violation {
-                    isn_dob_bis_extract: toString(row.ISN_DOB_BIS_EXTRACT),
-                    ecb_violation_number: toString(row.ECB_VIOLATION_NUMBER),
-                    ecb_violation_status: row.ECB_VIOLATION_STATUS,
-                    dob_violation_number: toString(row.DOB_VIOLATION_NUMBER),
-                    issue_date: CASE WHEN row.formatted_issue_date IS NOT NULL 
+                MERGE (v:ECB_Violation {isn_dob_bis_extract: toString(row.ISN_DOB_BIS_EXTRACT)})
+                ON CREATE SET
+                    v.ecb_violation_number = toString(row.ECB_VIOLATION_NUMBER),
+                    v.ecb_violation_status = row.ECB_VIOLATION_STATUS,
+                    v.dob_violation_number = toString(row.DOB_VIOLATION_NUMBER),
+                    v.issue_date = CASE WHEN row.formatted_issue_date IS NOT NULL 
                                THEN date(row.formatted_issue_date) ELSE null END,
-                    served_date: CASE WHEN row.formatted_served_date IS NOT NULL 
+                    v.served_date = CASE WHEN row.formatted_served_date IS NOT NULL 
                                 THEN date(row.formatted_served_date) ELSE null END,
-                    hearing_date: CASE WHEN row.formatted_hearing_date IS NOT NULL 
+                    v.hearing_date = CASE WHEN row.formatted_hearing_date IS NOT NULL 
                                  THEN date(row.formatted_hearing_date) ELSE null END,
-                    hearing_time: row.HEARING_TIME,
-                    severity: row.SEVERITY,
-                    violation_type: row.VIOLATION_TYPE,
-                    violation_description: row.VIOLATION_DESCRIPTION,
-                    penalty_imposed: CASE WHEN row.PENALITY_IMPOSED <> '' 
+                    v.hearing_time = row.HEARING_TIME,
+                    v.severity = row.SEVERITY,
+                    v.violation_type = row.VIOLATION_TYPE,
+                    v.violation_description = row.VIOLATION_DESCRIPTION,
+                    v.penalty_imposed = CASE WHEN row.PENALITY_IMPOSED <> '' 
                                     THEN toFloat(row.PENALITY_IMPOSED) ELSE null END,
-                    amount_paid: CASE WHEN row.AMOUNT_PAID <> '' 
+                    v.amount_paid = CASE WHEN row.AMOUNT_PAID <> '' 
                                 THEN toFloat(row.AMOUNT_PAID) ELSE null END,
-                    balance_due: CASE WHEN row.BALANCE_DUE <> '' 
+                    v.balance_due = CASE WHEN row.BALANCE_DUE <> '' 
                                 THEN toFloat(row.BALANCE_DUE) ELSE null END,
-                    hearing_status: row.HEARING_STATUS,
-                    certification_status: row.CERTIFICATION_STATUS,
-                    aggravated_level: row.AGGRAVATED_LEVEL
-                })
+                    v.hearing_status = row.HEARING_STATUS,
+                    v.certification_status = row.CERTIFICATION_STATUS,
+                    v.aggravated_level = row.AGGRAVATED_LEVEL
                 
                 // Create Respondent if available
                 WITH v, p, row
@@ -311,11 +374,11 @@ class Neo4jDataLoader:
                     city: CASE WHEN row.RESPONDENT_CITY <> '' THEN row.RESPONDENT_CITY ELSE '' END,
                     zip: CASE WHEN row.RESPONDENT_ZIP <> '' THEN toString(row.RESPONDENT_ZIP) ELSE '' END
                 })
-                CREATE (v)-[:ISSUED_TO]->(r)
+                MERGE (v)-[:ISSUED_TO]->(r)
                 
                 // Link violation to property
                 WITH v, p
-                CREATE (v)-[:VIOLATION_AT]->(p)
+                MERGE (v)-[:VIOLATION_AT]->(p)
                 """
                 
                 result = session.run(query, records=records)
@@ -324,8 +387,25 @@ class Neo4jDataLoader:
                 return True
                 
         except Exception as e:
-            logger.error(f"Error loading ECB violations batch: {e}")
-            return False
+            logger.warning(f"Date validation error in ECB batch, skipping problematic records: {e}")
+            # Try to process records individually to skip only problematic ones
+            try:
+                with self.driver.session() as session:
+                    successful_records = 0
+                    for record in records:
+                        try:
+                            result = session.run(query, records=[record])
+                            summary = result.consume()
+                            successful_records += 1
+                        except Exception as record_error:
+                            logger.debug(f"Skipping ECB record due to error: {record_error}")
+                            continue
+                    
+                    logger.info(f"  ✅ Processed {successful_records}/{len(records)} ECB records from batch (skipped {len(records) - successful_records} problematic records)")
+                    return True
+            except Exception as fallback_error:
+                logger.error(f"Error in ECB fallback processing: {fallback_error}")
+                return False
     
     def _load_job_applications_batch(self, batch_df: pd.DataFrame) -> bool:
         """Load a batch of job applications into Neo4j."""
