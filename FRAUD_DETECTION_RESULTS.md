@@ -37,19 +37,11 @@ The NYC DOB-SOB fraud detection platform successfully integrates multiple NYC co
 
 **Top Risk Properties:**
 
-- BIN 1035393: 35 East 45th Street (47 violations)
-- BIN 1024812: 1633 Broadway (44 violations)
-- BIN 1024686: 1481 Broadway (35 violations)
-
 ### 2. ECB Respondent Network Analysis
 
 **Tracks entities with multiple ECB violations across properties**
 
 **Key Findings:**
-
-- Department of Education: 27 violations across 15 properties
-- N Tech Design of America: 10 violations across 3 properties
-- Park Management USA Corp: 9 violations across 3 properties
 
 **Pattern:** Government entities and management companies show high violation counts, indicating potential systemic issues.
 
@@ -59,10 +51,6 @@ The NYC DOB-SOB fraud detection platform successfully integrates multiple NYC co
 
 **Key Findings:**
 
-- Walid Abdulla (PE): 15 applications across 9 properties
-- Daniel Dunzik (RA): 9 applications across 9 properties
-- Hugo Subotovsky (RA): 8 applications across 8 properties
-
 **Pattern:** Some professionals are highly active, potentially indicating legitimate high-volume practices or suspicious coordination.
 
 ### 4. Cross-Dataset Fraud Patterns
@@ -70,10 +58,6 @@ The NYC DOB-SOB fraud detection platform successfully integrates multiple NYC co
 **Correlates violations with job applications by same owners**
 
 **Key Findings:**
-
-- Ridgewood Tower LLC: 2 violations + 2 job applications
-- Generate Hudson Solar LLC: 1 violation + 1 job application
-- Starwood Group LLC: 1 violation + 1 job application
 
 **Pattern:** Owners with both violations and active construction work may indicate ongoing compliance issues.
 

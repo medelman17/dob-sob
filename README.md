@@ -156,10 +156,6 @@ Including: Housing litigations, certificates of occupancy, elevator inspections,
 
 #### **Professional License Abuse Networks**
 
-- **License #072042**: 10,609 filings (1.4% of all NYC filings) - potential shell operation
-- **License #086757**: 9,545 filings across multiple properties
-- **License #088728**: 7,797 filings - excessive volume concentration
-
 #### **Systematic Violation Dismissal Schemes**
 
 - **1.125M dismissed violations** (46% of total) - systematic abuse patterns
@@ -167,10 +163,6 @@ Including: Housing litigations, certificates of occupancy, elevator inspections,
 - Cross-reference with job filing withdrawals reveals coordinated evasion
 
 #### **Financial Non-Compliance Networks**
-
-- **VED PARKASH**: 436 housing litigation cases (potential judgment-proofing)
-- **101,462 electrical permits** with $0 billable work fees (suspicious underreporting)
-- **1,243 "no good check" fees** - systematic payment processing fraud
 
 #### **Geographic Fraud Clusters**
 
@@ -242,9 +234,6 @@ python dob_sob/neo4j/load_data.py dob_violations 10000
 # Run comprehensive fraud detection on loaded data
 python dob_sob/neo4j/test_fraud_detection.py
 
-# Results: Shell companies with 47+ violations detected!
-# Properties: 35 E 45th St (47 violations), 1633 Broadway (44 violations)
-# Professional networks: Walid Abdulla (15 applications across 9 properties)
 ```
 
 ### 🔍 **Data Pipeline Operations**
